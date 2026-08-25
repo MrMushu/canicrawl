@@ -55,7 +55,7 @@ The operating system for both products. Loops and ops sessions execute the **Rin
 
 ## Ring queue (loops execute top-to-bottom; tick + journal each; add, never silently drop)
 
-- [ ] SS-1: llms.txt polish + llms-full.txt + JSON-LD/OG parity for ShortSupply; sitemap ping treatment
+- [x] SS-1: llms.txt polish + llms-full.txt + JSON-LD/OG parity for ShortSupply; sitemap ping treatment (IndexNow key + script + workflow step) — done 2026-08-24 night
 - [ ] CC-1: OG/meta + a11y/perf audit pass (both themes, reduced-motion, contrast, Lighthouse)
 - [ ] CC-2: "State of the Agent Web #1" digest page (lead: 93.9% news vs 31.4% overall; llms.txt adoption by category; SO-418 kicker)
 - [ ] SS-2: availability-change detection in differ + /graveyard/ page for vanished drugs
