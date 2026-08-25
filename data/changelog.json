@@ -1,5 +1,13 @@
 {
  "entries": [
-  { "date": "2026-08-25", "kind": "founding" }
+  {
+   "date": "2026-08-25",
+   "kind": "founding"
+  },
+  {
+   "date": "2026-08-25",
+   "kind": "panel",
+   "count": 768
+  }
  ]
 }

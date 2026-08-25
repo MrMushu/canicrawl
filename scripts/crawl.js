@@ -177,34 +177,42 @@ function appendChangelog(newEntries) {
 
 async function run() {
   const started = Date.now();
+  const NEW_ONLY = process.argv.includes("--new-only");
   const prev = fs.existsSync(path.join(ROOT, "data/latest.json"))
     ? JSON.parse(fs.readFileSync(path.join(ROOT, "data/latest.json"), "utf8"))
     : null;
+  // --new-only: crawl only domains missing from the previous snapshot and merge.
+  // Keeps the one-polite-pass-per-day promise for already-crawled domains.
+  const targets = NEW_ONLY && prev ? DOMAINS.filter((d) => !prev.domains[d]) : DOMAINS;
+  if (NEW_ONLY) console.log(`--new-only: crawling ${targets.length} new domains (merging with ${Object.keys(prev?.domains ?? {}).length} existing)`);
   const out = {};
   let i = 0;
-  const queue = [...DOMAINS];
+  const queue = [...targets];
   async function worker() {
     while (queue.length) {
       const domain = queue.shift();
       out[domain] = await crawlDomain(domain);
       i++;
-      if (i % 25 === 0) console.log(`  ${i}/${DOMAINS.length}…`);
+      if (i % 25 === 0) console.log(`  ${i}/${targets.length}…`);
     }
   }
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
 
   const date = new Date().toISOString().slice(0, 10);
+  const merged = NEW_ONLY && prev ? { ...prev.domains, ...out } : out;
   const snapshot = {
     date,
     generatedAt: new Date().toISOString(),
-    domainCount: DOMAINS.length,
+    domainCount: Object.keys(merged).length,
     botCount: BOTS.length,
-    domains: out,
+    domains: merged,
   };
   fs.mkdirSync(path.join(ROOT, "data/snapshots"), { recursive: true });
   fs.writeFileSync(path.join(ROOT, `data/snapshots/${date}.json`), JSON.stringify(snapshot, null, 1));
   fs.writeFileSync(path.join(ROOT, "data/latest.json"), JSON.stringify(snapshot, null, 1));
-  if (prev && prev.date !== snapshot.date) {
+  if (NEW_ONLY) {
+    if (targets.length) appendChangelog([{ date, kind: "panel", count: targets.length }]);
+  } else if (prev && prev.date !== snapshot.date) {
     const diffs = computeDiffs(prev, snapshot);
     const added = appendChangelog(diffs);
     console.log(`Policy changes vs ${prev.date}: ${added} new changelog entries`);

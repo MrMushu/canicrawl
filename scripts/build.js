@@ -264,6 +264,8 @@ function entryText(e) {
       return `${e.domain} changed its default crawler policy (${e.from} → ${e.to})`;
     case "added":
       return `${e.domain} added to the index`;
+    case "panel":
+      return `Index expanded by ${e.count} domains (Tranco top sites; infrastructure and adult domains excluded)`;
     default:
       return `${e.domain ?? ""} ${e.kind}`;
   }
@@ -338,6 +340,7 @@ write("about/index.html", page({
 <h2>Why</h2>
 <p>Whether the open web stays open to AI is one of the defining fights of this era: publishers are walling off crawlers, AI companies keep shipping new bots, and llms.txt files are quietly appearing as welcome mats. Everyone argues about it; nobody was keeping score. This site keeps score, every day, with receipts.</p>
 <h2>Methodology</h2>
+<p>The panel is ${DOMAINS.length} domains: a hand-curated core of recognizable sites across ${CATS.length - 1} categories, plus the top of the <a href="https://tranco-list.eu/" rel="nofollow">Tranco</a> ranking (the research-standard top-sites list), minus infrastructure/CDN/ad-tech hosts and adult-content domains — both exclusion lists are public in the repository.</p>
 <p>Once a day we fetch two public policy files from each tracked domain — <code>robots.txt</code> and <code>llms.txt</code> — with an identifying user agent, and parse them per RFC 9309. For each of the ${BOT_NAMES.length} tracked AI user agents we record whether the site allows, restricts, or fully blocks it, and whether the verdict comes from naming the bot or from the site's default (<code>*</code>) rules. That's the entire crawl: two small text files per site. We never scrape page content, never bypass a block, and never send more than one polite pass per day. Sites whose policy files we can't read are marked <em>unknown</em>, never guessed.</p>
 <p>Limitations, stated plainly: robots.txt is a published preference, not an enforcement mechanism — some bots ignore it, and some sites also block at the network layer in ways a policy file doesn't show. We report what sites <em>declare</em>. Snapshots are committed daily to a public repository, so every number on this site is reproducible.</p>
 <h2>Who runs this</h2>
