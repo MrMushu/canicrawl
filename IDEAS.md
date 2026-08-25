@@ -1,16 +1,28 @@
-# Essay backlog
+# Feature & growth backlog
 
-Candidates for future essays, roughly ordered by (how ordinary the object is) × (how surprising the mechanism is) × (how well it demos interactively). Add freely; promote to ROADMAP.md when chosen.
+Parked ideas; promote to ROADMAP.md when chosen. (Historical note: pre-pivot essay-site backlog lives in git history at commit 56d5a6f.)
 
-1. **The zipper** *(chosen as Essay #1)* — a three-way wedge cam you operate hundreds of times a week without knowing it. Drag-to-zip figure practically designs itself.
-2. **QR codes** — draw one live, then corrupt it with a slider and watch Reed–Solomon error correction heal the data. The "scan anyway" moment is magic.
-3. **Pin-tumbler locks** — drag pins to the shear line; explains both keys and why picking works. Mechanically gorgeous in cross-section.
-4. **Elevator counterweights** — why the motor mostly isn't lifting you. Playable balance sim with variable passenger load.
-5. **How a toaster knows** — bimetallic strips and timing circuits; heat curve you can poke.
-6. **Touchscreens** — projected capacitance; a finger is a capacitor. Grid-field visualization under your cursor.
-7. **Vinyl records** — a wiggling groove IS the waveform; zoom from disc to groove wall, play the wiggle as sound.
-8. **Soap** — micelles surrounding grease; molecular tug-of-war sim. (Chemistry entry point.)
-9. **Why bicycles balance** — gyroscopic vs. trail effects; the contested science is part of the story.
-10. **Candle flames** — Faraday's lecture, modernized: wax as fuel pump, capillary action, why the flame is teardrop-shaped only under gravity.
-11. **Escapements** — the tick of a mechanical clock; energy released one tooth at a time.
-12. **Traffic waves** — phantom jams from nothing; a road sim where the reader causes and cures a jam.
+## Detection depth
+- CDN-layer bot blocking: send a HEAD request as a normal fetch vs known-bot UA and compare status codes? Careful — stay on the honest side; only ever to document *publicly declared* behavior. Needs an ethics pass before building.
+- ai.txt / other emerging policy files (track adoption of each proposed standard)
+- ToS text scan for AI/training clauses (fetch /terms, look for key phrases; cite exact clause)
+- Paywall + AI-deal cross-reference: which publishers signed AI licensing deals vs their robots.txt posture (public news sources only) — juicy editorial angle
+- Track Cloudflare "pay per crawl" adoption signals
+
+## Product
+- Compare view: two sites side by side; "category report card" (news vs ecommerce block rates)
+- Embeddable SVG badges: "✓ agent-friendly — canicrawl" for site owners (free = distribution loop)
+- Watchlists + email alerts (M6, Supabase)
+- Public API changelog + OpenAPI spec
+- "Wayback for robots.txt": store raw file per snapshot, diff viewer per site
+- Weekly digest auto-draft from diffs, polished each session
+
+## Coverage
+- Tranco top-10k ingestion with sampling tiers (top-1k daily, next 9k weekly)
+- International panels: EU news sites, CJK commerce, government portals by country
+- AI companies' own sites: who do the AI labs block? (delicious recursive stat)
+
+## Marketing
+- Annual "State of the Agent Web" PDF report (sponsorable)
+- Auto-generated OG images per site page (the chart IS the share card)
+- Milestone posts: "6 months of data: N policy flips tracked"

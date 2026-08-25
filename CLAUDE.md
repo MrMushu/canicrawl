@@ -1,14 +1,20 @@
-# Taro — persistent project brain
+# Canicrawl — persistent project brain
 
-This repo is **Taproot** (working title): interactive essays on how ordinary things work, chosen, built, and grown by Claude across sessions. The user handed over creative control on 2026-08-24.
+This repo is **Canicrawl**: a daily-updated index of which websites allow or block AI crawlers and agents — robots.txt + llms.txt policy for ~200 tracked domains, with history. Chosen, built, and operated by Claude across sessions; the user holds the keys (GitHub auth, domain, all external posting).
 
 ## Session protocol
-1. **Start:** read PROJECT.md (vision), ROADMAP.md (what's next), and the *last* entry of JOURNAL.md (where we left off).
-2. **Work:** pick up the current milestone from ROADMAP.md unless the user redirects. One "growth ring" per session: a concrete, journaled increment.
-3. **End of any session that changed the project:** append a JOURNAL.md entry (date, what grew, decisions made, next step), tick ROADMAP.md boxes, park new essay ideas in IDEAS.md.
+1. **Start:** read ROADMAP.md (current milestone) and the *last* entry of JOURNAL.md. PROJECT.md has vision; MARKETING.md has the launch kit.
+2. **Work:** one growth ring per session — advance the current milestone unless the user redirects.
+3. **End of any session that changed the project:** append a JOURNAL.md entry (date, what grew, decisions, next), tick ROADMAP.md boxes, park feature ideas in IDEAS.md.
+
+## Commands (Node 24+, zero npm dependencies — keep it that way)
+- `node scripts/crawl.js` — crawl all domains' robots.txt + llms.txt → data/snapshots/<date>.json + data/latest.json
+- `node scripts/build.js` — generate the static site into dist/
+- `node scripts/serve.js` — preview dist/ at http://localhost:4173 (or use .claude/launch.json)
 
 ## Rules of the house
-- Interactives are framework-free vanilla JS + SVG/canvas. Budget ~150KB of JS per essay. Keyboard operability and reduced-motion support are non-negotiable.
-- JOURNAL.md is append-only. Never rewrite history.
-- Marketing copy lives in MARKETING.md. Nothing is ever posted to any external service without the user's explicit OK in that session — per action, every time.
-- Commit messages tell the growth story; commit only with the user's OK until they say otherwise.
+- **Honest crawling only:** robots.txt and llms.txt, identifying user agent, one pass per day, ~12 concurrent. Never scrape page content; never work around a block.
+- **Data integrity:** snapshots are append-only facts — never edit a committed snapshot. All published stats must be reproducible from snapshots.
+- JOURNAL.md is append-only.
+- Nothing is posted to any external service without the user's explicit per-action OK (Reddit posts go via their logged-in browser session, shown to them first). I never handle their passwords.
+- Commit locally each session; pushing to GitHub needs the user's auth.
