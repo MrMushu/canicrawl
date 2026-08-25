@@ -13,6 +13,9 @@ This repo is **Canicrawl**: a daily-updated index of which websites allow or blo
 - `node scripts/build.js` — generate the static site into dist/
 - `node scripts/serve.js` — preview dist/ at http://localhost:4173 (or use .claude/launch.json)
 
+## Operator model
+Daily operation is deliberately procedural and runs fine on smaller/cheaper models — see **Operator notes** in OPERATIONS.md (follow procedure, smallest-change-that-works, two-strike rule, ESCALATE list). Strategic work (launches, pivots, new products, big research passes, gnarly incidents) is best done with the user present and a larger model.
+
 ## Rules of the house
 - **Honest crawling only:** robots.txt and llms.txt, identifying user agent, one pass per day, ~12 concurrent. Never scrape page content; never work around a block.
 - **Data integrity:** snapshots are append-only facts — never edit a committed snapshot. All published stats must be reproducible from snapshots.

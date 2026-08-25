@@ -4,6 +4,17 @@ The operating system for both products. Loops and ops sessions execute the **Rin
 
 **Portfolio:** Canicrawl (canicrawl.com — AI-crawler access census, 1,000 domains) · ShortSupply (mrmushu.github.io/shortsupply — FDA drug-shortage history, 237 drugs). Same engine: daily fetch → snapshot → diff → static site → cron deploy. North star: become the *citable tracker of record* in each niche, then monetize attention via alerts/API/reports.
 
+## Operator notes — this system is designed to be run by ANY Claude model
+
+The founding build (2026-08-24/25, Fable) front-loaded the hard decisions so daily operation is procedural. If you are the operating model, follow these and you cannot go far wrong:
+
+1. **Follow the written procedure exactly.** Session steps live in the daily-ops task prompt and each repo's CLAUDE.md. The pillars above give context; the Ring queue gives the work. Don't improvise new strategy.
+2. **Smallest change that works.** Never refactor working scripts, never add npm dependencies, never change stats methodology or the crawler's politeness behavior. If a ring seems to require any of that, it's an ESCALATE, not a judgment call.
+3. **Two-strike rule:** if a fix attempt fails twice, stop, journal exactly what you tried and saw, and move to a different ring. Thrashing is worse than a red cron for one day.
+4. **ESCALATE (write `USER-NEEDED:` at the top of the journal entry, then stop that thread) for:** anything strategic (launch timing, pivots, new products, pricing), anything external (posting, accounts, purchases — these ALWAYS need the user regardless of model), methodology changes, panel-definition changes beyond the automated Tranco refresh, and any legal/ethical gray area. Suggest the user run escalated items with a larger model if they're complex.
+5. **Verify before you claim.** Every ring ends with a build + a concrete spot check (a file exists, a page contains X, an HTTP 200). Journal what you checked, not just what you did.
+6. **The hard rules at the bottom of every prompt are absolute.** No model, at any size, ever posts externally, crawls the panels out of schedule, gives medical advice, or edits journal history.
+
 ---
 
 ## Pillar 1 — DATA (the moat)
