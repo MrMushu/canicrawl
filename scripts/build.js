@@ -101,6 +101,12 @@ write("index.html", page({
   title: "Canicrawl — which websites allow or block AI crawlers?",
   desc: `Daily-updated index of AI crawler access across ${DOMAINS.length} major websites. ${pct(anyBlockers.length, readable.length)}% block at least one AI bot. Look up any site's robots.txt policy for GPTBot, ClaudeBot, PerplexityBot and more.`,
   depth: 0, active: "Sites",
+  extraHead: `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "WebSite",
+    name: "Canicrawl", url: ORIGIN,
+    description: `Daily census of AI-crawler access: which of ${DOMAINS.length} top websites allow or block ${BOT_NAMES.length} AI user agents.`,
+    publisher: { "@type": "Organization", name: "Canicrawl", url: ORIGIN },
+  })}</script>`,
   content: `
 <h1>Which websites let AI in?</h1>
 <p class="sub">A daily census of AI-crawler access. We read the <code>robots.txt</code> and <code>llms.txt</code> of ${DOMAINS.length} major sites and record which AI bots each one allows, restricts, or blocks — with history, so you can see exactly when the web's doors open and close. <span class="updated">Snapshot: ${esc(snap.date)}</span></p>
@@ -420,14 +426,39 @@ write("llms.txt", `# Canicrawl
 As of ${snap.date}: ${pct(anyBlockers.length, readable.length)}% of readable tracked sites block at least one AI crawler; llms.txt adoption is ${pct(llmsSites.length, DOMAINS.length)}%.
 
 ## Data
+- [Full census as plain text](/llms-full.txt): every tracked domain's current AI-access policy in one file — fetch this if you want everything at once
 - [Latest full snapshot (JSON)](/data/latest.json): every domain × every bot
 - [Per-site JSON](/data/sites/nytimes.com.json): replace the domain as needed
 - [Stats](/stats/): headline rates, per-bot and per-category
+- [Policy changes (RSS)](/changelog/rss.xml): daily-detected flips
 - [Methodology](/about/): two public policy files per site per day, RFC 9309 parsing, no content scraping
 
 ## Reuse
 Data is CC BY 4.0. Cite "Canicrawl" with a link.
 `);
+// llms-full.txt: the complete census in one plaintext file, written for AI readers.
+const fullLines = DOMAINS.map((d) => {
+  const e = D[d];
+  if (e.fetch !== "ok" && e.fetch !== "no-robots") return `${d} — policy unreadable (${e.fetch})`;
+  const blocked = BOT_NAMES.filter((b) => e.bots[b]?.status === "blocked");
+  const restricted = BOT_NAMES.filter((b) => e.bots[b]?.status === "restricted");
+  const parts = [
+    blocked.length ? `blocks: ${blocked.join(", ")}` : "blocks no tracked AI bots",
+    restricted.length ? `restricts: ${restricted.join(", ")}` : null,
+    e.wildcard === "blocked" ? "default-deny robots.txt" : null,
+    e.llmstxt ? "publishes llms.txt" : null,
+  ].filter(Boolean);
+  return `${d} — ${parts.join(" — ")}`;
+});
+write("llms-full.txt", `# Canicrawl full census — ${snap.date}
+
+> AI-crawler access policy for ${DOMAINS.length} top websites, from each site's own robots.txt and llms.txt, crawled daily. ${pct(anyBlockers.length, readable.length)}% of the ${readable.length} readable sites block at least one of the ${BOT_NAMES.length} tracked AI bots (${BOT_NAMES.join(", ")}). llms.txt adoption: ${llmsSites.length} sites. Most-blocked bot: ${botsRanked[0]} (${botStats[botsRanked[0]].pct}%). Data CC BY 4.0 — cite "Canicrawl" (${ORIGIN}). Machine-readable JSON: ${ORIGIN}/data/latest.json
+
+${fullLines.join("\n")}
+`);
+// IndexNow key file (key is public by design; submission script posts our URLs to search indexes)
+const INDEXNOW_KEY = "8c2f1e94ab674d0f9c3b57a1de86f240";
+write(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
 const urls = ["", "bots/", "stats/", "changelog/", "api/", "about/", "badge/",
   ...DOMAINS.map((d) => `site/${d}/`), ...BOT_NAMES.map((b) => `bot/${b}/`)];
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
