@@ -29,6 +29,19 @@ async function fetchText(url) {
   return { status: res.status, text, finalUrl: res.url, contentType: res.headers.get("content-type") || "" };
 }
 
+// Why a fetch failed, in one word. Purely diagnostic: a large slice of Tranco's
+// top domains are CDN, DNS and telemetry endpoints that never serve a website,
+// and the panel-health page has to say which kind of unreadable each one is.
+function errReason(e) {
+  const code = e?.cause?.code || e?.code || "";
+  if (e?.name === "TimeoutError" || code === "ETIMEDOUT" || code === "UND_ERR_CONNECT_TIMEOUT" || code === "UND_ERR_HEADERS_TIMEOUT") return "timeout";
+  if (code === "ENOTFOUND" || code === "EAI_AGAIN") return "dns";
+  if (code === "ECONNREFUSED") return "refused";
+  if (code === "ECONNRESET" || code === "EPIPE" || code === "UND_ERR_SOCKET") return "reset";
+  if (/^(CERT_|ERR_TLS|ERR_SSL|EPROTO|SELF_SIGNED|DEPTH_ZERO|UNABLE_TO_)/.test(code)) return "tls";
+  return "other";
+}
+
 function looksLikeHtml(text) {
   return /<!doctype|<html|<head[\s>]|<body[\s>]/i.test(text.slice(0, 600));
 }
@@ -102,8 +115,10 @@ async function crawlDomain(domain) {
       result.fetch = `http-${r.status}`;
     } catch (e) {
       result.fetch = "unreachable";
+      result.reason = errReason(e);
     }
   }
+  if (result.fetch !== "unreachable") delete result.reason;
   if (robotsText !== null) {
     result.fetch = "ok";
     // Archive the raw file (overwrite-in-place: git history preserves every

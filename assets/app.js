@@ -29,6 +29,7 @@
   var cat = document.getElementById("cat");
   var only = document.getElementById("onlyblockers");
   var onlyw = document.getElementById("onlywatched");
+  var onlyr = document.getElementById("onlyreadable");
   var rows = Array.prototype.slice.call(document.querySelectorAll("tbody tr[data-domain]"));
   var count = document.getElementById("rowcount");
   function apply() {
@@ -37,6 +38,7 @@
     var c = cat.value;
     var b = only.checked;
     var w = onlyw && onlyw.checked;
+    var rd = onlyr && onlyr.checked;
     var shown = 0;
     rows.forEach(function (r) {
       var d = r.getAttribute("data-domain");
@@ -44,7 +46,8 @@
         (!q || d.indexOf(q) !== -1) &&
         (!c || r.getAttribute("data-cat") === c) &&
         (!b || r.getAttribute("data-blocks") === "1") &&
-        (!w || watched.has(d));
+        (!w || watched.has(d)) &&
+        (!rd || r.getAttribute("data-readable") === "1");
       r.style.display = ok ? "" : "none";
       if (ok) shown++;
     });
@@ -55,6 +58,7 @@
     cat.addEventListener("change", apply);
     only.addEventListener("change", apply);
     if (onlyw) onlyw.addEventListener("change", apply);
+    if (onlyr) onlyr.addEventListener("change", apply);
     apply();
   }
 })();

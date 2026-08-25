@@ -77,3 +77,9 @@ code { font-family: var(--mono); font-size: 0.9em; background: var(--unk-bg); pa
 pre { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px; overflow-x: auto; font-size: 13px; }
 .pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
 @media (max-width: 640px) { h1 { font-size: 24px; } .kv { grid-template-columns: 1fr; gap: 2px; } .kv dt { margin-top: 10px; } }
+/* coverage page: collapsible lists of the domains we couldn't read */
+details { border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; margin: 10px 0; background: var(--surface); }
+details summary { cursor: pointer; font-weight: 600; }
+details[open] summary { margin-bottom: 8px; }
+p.domains { font: 13px var(--mono); line-height: 2; word-break: break-all; color: var(--muted); }
+p.domains a { color: var(--muted); }

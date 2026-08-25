@@ -38,12 +38,50 @@ const catStats = CATS.map((c) => {
   return { cat: c, n: sites.length, blockers: blockers.length, pct: pct(blockers.length, sites.length) };
 }).filter((c) => c.n > 0).sort((a, b) => b.pct - a.pct);
 
+// ---------- panel coverage (which sites we can actually read, and why not) ----------
+// Tranco ranks domains by DNS traffic, so its top list includes CDN, DNS and
+// telemetry endpoints that never serve a website. We keep them listed rather
+// than quietly dropping them — but every headline percentage is computed over
+// `readable` only, and /health/ shows the whole ledger.
+const OUTCOMES = {
+  "ok": { label: "robots.txt read", readable: true, meaning: "We fetched and parsed the site's robots.txt." },
+  "no-robots": { label: "no robots.txt (404)", readable: true, meaning: "The site serves no robots.txt, which under RFC 9309 means every crawler is allowed." },
+  "unreachable": { label: "no HTTPS response", readable: false, meaning: "Nothing answered on https://<domain>/robots.txt or the www. variant — usually a domain that isn't a website at all (CDN, DNS or telemetry endpoint), sometimes a timeout." },
+  "fetch-blocked": { label: "refused (401/403)", readable: false, meaning: "The server answered, but refused to hand over robots.txt. We never retry with a disguised user agent." },
+  "html-response": { label: "HTML instead of text", readable: false, meaning: "The server returned a web page where robots.txt should be — usually a catch-all router or a soft 404. We refuse to guess a policy from HTML." },
+};
+const outcomeLabel = (f) => OUTCOMES[f]?.label ?? `HTTP ${String(f).replace(/^http-/, "")}`;
+const outcomeMeaning = (f) => OUTCOMES[f]?.meaning ?? "The server answered with an unexpected HTTP status instead of the file.";
+const REASONS = {
+  dns: "domain does not resolve (no such host)",
+  timeout: "no answer within 15s",
+  refused: "connection refused",
+  reset: "connection dropped mid-request",
+  tls: "TLS/certificate failure",
+  other: "other network error",
+};
+const byOutcome = new Map();
+for (const d of DOMAINS) {
+  const f = D[d].fetch;
+  if (!byOutcome.has(f)) byOutcome.set(f, []);
+  byOutcome.get(f).push(d);
+}
+const outcomeRows = [...byOutcome.entries()].sort((a, b) => b[1].length - a[1].length);
+const readableSet = new Set(readable);
+const unreadable = DOMAINS.filter((d) => !readableSet.has(d));
+const reasonCounts = new Map();
+for (const d of DOMAINS) {
+  if (D[d].fetch !== "unreachable") continue;
+  const r = D[d].reason ?? "unrecorded";
+  reasonCounts.set(r, (reasonCounts.get(r) ?? 0) + 1);
+}
+
 // ---------- html helpers ----------
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const chip = (status, source) =>
   `<span class="chip ${status}">${status}</span>${source === "wildcard" && status !== "allowed" ? `<sup class="inh" title="inherited from the site's default (*) rules">*</sup>` : ""}`;
 const nav = [
-  ["", "Sites"], ["bots/", "AI bots"], ["stats/", "Stats"], ["changelog/", "Changelog"], ["digest/", "Digest"], ["api/", "API"], ["about/", "About"],
+  ["", "Sites"], ["bots/", "AI bots"], ["stats/", "Stats"], ["health/", "Coverage"], ["changelog/", "Changelog"], ["digest/", "Digest"], ["api/", "API"], ["about/", "About"],
 ];
 function page({ title, desc, depth, active, content, extraHead = "" }) {
   const p = "../".repeat(depth);
@@ -110,7 +148,7 @@ const rows = DOMAINS.map((d) => {
   const e = D[d];
   const cat = domainsFile.domains[d];
   const cells = HEADLINE.map((b) => `<td>${chip(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)}</td>`).join("");
-  return `<tr data-domain="${esc(d)}" data-cat="${esc(cat)}" data-blocks="${blocksAny(d) ? 1 : 0}">
+  return `<tr data-domain="${esc(d)}" data-cat="${esc(cat)}" data-blocks="${blocksAny(d) ? 1 : 0}" data-readable="${readableSet.has(d) ? 1 : 0}">
 <td><button data-d="${esc(d)}" aria-label="Watch ${esc(d)}" title="Watch this site (saved in your browser)">☆</button></td>
 <td class="domain"><a href="site/${esc(d)}/">${esc(d)}</a></td><td class="cat"><a href="category/${esc(cat)}/">${esc(cat)}</a></td>
 <td>${e.llmstxt ? '<span class="chip yes">yes</span>' : '<span class="chip no">—</span>'}</td>${cells}</tr>`;
@@ -140,13 +178,14 @@ write("index.html", page({
   <select id="cat" aria-label="Filter by category"><option value="">All categories</option>${CATS.map((c) => `<option>${esc(c)}</option>`).join("")}</select>
   <label class="toggle"><input type="checkbox" id="onlyblockers"> only sites blocking ≥1 bot</label>
   <label class="toggle"><input type="checkbox" id="onlywatched"> only watched ★</label>
+  <label class="toggle"><input type="checkbox" id="onlyreadable"> hide the ${unreadable.length} sites we can't read</label>
   <span class="count" id="rowcount"></span>
 </div>
 <div class="tablewrap"><table>
 <thead><tr><th aria-label="watch"></th><th>Site</th><th>Category</th><th>llms.txt</th>${HEADLINE.map((b) => `<th><a href="bot/${esc(b)}/">${esc(b)}</a></th>`).join("")}</tr></thead>
 <tbody>${rows}</tbody>
 </table></div>
-<p class="note">Chips read from each site's robots.txt: <span class="chip allowed">allowed</span> no rule stops this bot · <span class="chip restricted">restricted</span> some paths disallowed · <span class="chip blocked">blocked</span> fully disallowed · <span class="chip unknown">unknown</span> we couldn't read the file. An asterisk means the verdict is inherited from the site's default (<code>*</code>) rules rather than naming the bot. Every site page shows all ${BOT_NAMES.length} tracked bots.</p>
+<p class="note">Chips read from each site's robots.txt: <span class="chip allowed">allowed</span> no rule stops this bot · <span class="chip restricted">restricted</span> some paths disallowed · <span class="chip blocked">blocked</span> fully disallowed · <span class="chip unknown">unknown</span> we couldn't read the file. An asterisk means the verdict is inherited from the site's default (<code>*</code>) rules rather than naming the bot. Every site page shows all ${BOT_NAMES.length} tracked bots. We could read the policy of ${readable.length} of the ${DOMAINS.length} tracked domains on ${esc(snap.date)}; the other ${unreadable.length} are listed as <span class="chip unknown">unknown</span> and excluded from every percentage — see <a href="health/">what we can and can't see</a>.</p>
 <script src="app.js"></script>`,
 }));
 
@@ -243,7 +282,6 @@ const CAT_LABELS = {
   jobs: "job-board", classifieds: "classifieds", auto: "automotive",
   government: "government", education: "education", top1k: "top-ranked",
 };
-const readableSet = new Set(readable);
 for (const cat of CATS) {
   const members = DOMAINS.filter((d) => domainsFile.domains[d] === cat);
   if (!members.length) continue;
@@ -304,7 +342,7 @@ write("stats/index.html", page({
 <style>.cl{font:12.5px ui-monospace,monospace;fill:var(--muted)}.cv{font:600 12.5px system-ui;fill:var(--text)}.cb{fill:var(--bad)}</style>`,
   content: `
 <h1>The state of the walls</h1>
-<p class="sub">Headline numbers from the latest crawl of ${DOMAINS.length} tracked sites (${readable.length} with readable policy). <span class="updated">Snapshot: ${esc(snap.date)}</span></p>
+<p class="sub">Headline numbers from the latest crawl of ${DOMAINS.length} tracked sites (<a href="../health/">${readable.length} with readable policy</a>). <span class="updated">Snapshot: ${esc(snap.date)}</span></p>
 <div class="cards">
   <div class="card"><div class="num">${pct(anyBlockers.length, readable.length)}%</div><div class="lbl">block ≥1 AI crawler</div></div>
   <div class="card"><div class="num">${defaultDeny.length}</div><div class="lbl">run default-deny robots.txt (unnamed crawlers get nothing)</div></div>
@@ -320,6 +358,44 @@ write("stats/index.html", page({
 </table></div>
 <h2>Citing these numbers</h2>
 <p class="note">Data is CC BY 4.0. Cite as "Canicrawl, AI crawler access census, ${esc(snap.date)}" with a link. Raw data: <a href="../data/latest.json">latest.json</a>. Methodology: <a href="../about/">about</a>. Every figure is reproducible from the committed daily snapshots.</p>`,
+}));
+
+// ---------- panel health / coverage ----------
+// The honest ledger: which tracked domains answered, which didn't, and why.
+// Published because a census nobody can audit is just an opinion.
+const reasonRows = [...reasonCounts.entries()].sort((a, b) => b[1] - a[1]);
+const unreadableRows = outcomeRows.filter(([f]) => !OUTCOMES[f]?.readable);
+const biggestCause = unreadableRows[0] ?? ["—", []];
+const domainList = (list) => list.map((d) => `<a href="../site/${esc(d)}/">${esc(d)}</a>`).join(" · ");
+write("health/index.html", page({
+  title: "Panel coverage — what Canicrawl can and can't read",
+  desc: `We read the robots.txt policy of ${readable.length} of ${DOMAINS.length} tracked domains on ${snap.date}. The full ledger of unreadable sites and why, updated daily — every headline percentage uses the readable count as its denominator.`,
+  depth: 1, active: "Coverage",
+  content: `
+<h1>What we can and can't see</h1>
+<p class="sub">Every census has a denominator. Ours: on ${esc(snap.date)} we read the policy of <strong>${readable.length} of ${DOMAINS.length}</strong> tracked domains (${pct(readable.length, DOMAINS.length)}%). The other ${unreadable.length} are listed below with the reason — never guessed, never quietly dropped. <span class="updated">Snapshot: ${esc(snap.date)}</span></p>
+<div class="cards">
+  <div class="card"><div class="num">${pct(readable.length, DOMAINS.length)}%</div><div class="lbl">of tracked domains had a readable policy (${readable.length}/${DOMAINS.length})</div></div>
+  <div class="card"><div class="num">${unreadable.length}</div><div class="lbl">unreadable — excluded from every published percentage</div></div>
+  <div class="card"><div class="num">${biggestCause[1].length}</div><div class="lbl">largest single cause: ${esc(outcomeLabel(biggestCause[0]))}</div></div>
+</div>
+<h2>Every outcome, counted</h2>
+<div class="tablewrap"><table class="statgrid">
+<thead><tr><th>Outcome</th><th>Sites</th><th>Share</th><th>What it means</th></tr></thead>
+<tbody>${outcomeRows.map(([f, list]) => `<tr><td><span class="chip ${OUTCOMES[f]?.readable ? "yes" : "unknown"}">${esc(outcomeLabel(f))}</span></td><td>${list.length}</td><td>${pct(list.length, DOMAINS.length)}%</td><td>${esc(outcomeMeaning(f))}</td></tr>`).join("\n")}</tbody>
+</table></div>
+<h2>Why nothing answered</h2>
+<p>The biggest bucket is <em>no HTTPS response</em>, and it is mostly not censorship — it's the panel. Tranco ranks domains by how often the world's resolvers look them up, so its top list is full of names that were never websites: CDN edges (<code>akam.net</code>, <code>tiktokcdn.com</code>), connectivity and DNS endpoints (<code>msftconnecttest.com</code>, <code>dns-parking.com</code>), cloud plumbing (<code>ax-msedge.net</code>, <code>azurewebsites.net</code>). They have no <code>robots.txt</code> because they have no site. We leave them in the index rather than curating them away, so the panel stays reproducible from a public ranking instead of from our taste.</p>
+<div class="tablewrap"><table class="statgrid">
+<thead><tr><th>Network result</th><th>Domains</th><th>Meaning</th></tr></thead>
+<tbody>${reasonRows.map(([r, n]) => `<tr><td>${esc(r)}</td><td>${n}</td><td>${esc(REASONS[r] ?? "recorded from the next crawl onward")}</td></tr>`).join("\n")}</tbody>
+</table></div>
+<h2>The unreadable, by name</h2>
+<p class="note">Listed for auditability: if you think one of these should be readable, fetch its robots.txt yourself and tell us. We never retry a refusal with a disguised user agent, and we never infer a policy from an HTML page.</p>
+${unreadableRows.map(([f, list]) => `<details><summary>${esc(outcomeLabel(f))} — ${list.length} ${list.length === 1 ? "domain" : "domains"}</summary><p class="domains">${domainList(list)}</p></details>`).join("\n")}
+<h2>How this affects the numbers</h2>
+<p>Headline rates — for example "${pct(anyBlockers.length, readable.length)}% block at least one AI crawler" — divide by ${readable.length}, the readable count, never by ${DOMAINS.length}. Per-bot and per-category rates do the same. Change detection ignores any domain that was unreadable on either side of a diff, so a site going briefly unreachable never produces a fake policy flip. The raw counts behind this page are in <a href="../data/latest.json">latest.json</a>: every domain carries its own <code>fetch</code> outcome.</p>
+<p class="note">Coverage moves day to day — timeouts and refusals are not permanent verdicts. This page is regenerated from the latest snapshot every morning, and the daily snapshots keep the history.</p>`,
 }));
 
 // ---------- changelog (rendered from data/changelog.json, written by the crawler's differ) ----------
@@ -547,6 +623,7 @@ As of ${snap.date}: ${pct(anyBlockers.length, readable.length)}% of readable tra
 - [Stats](/stats/): headline rates, per-bot and per-category
 - [Policy changes (RSS)](/changelog/rss.xml): daily-detected flips
 - [Methodology](/about/): two public policy files per site per day, RFC 9309 parsing, no content scraping
+- [Panel coverage](/health/): which tracked domains we could read, and why the rest could not — the denominator behind every percentage
 
 ## Reuse
 Data is CC BY 4.0. Cite "Canicrawl" with a link.
@@ -574,7 +651,7 @@ ${fullLines.join("\n")}
 // IndexNow key file (key is public by design; submission script posts our URLs to search indexes)
 const INDEXNOW_KEY = "8c2f1e94ab674d0f9c3b57a1de86f240";
 write(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
-const urls = ["", "bots/", "stats/", "changelog/", "api/", "about/", "badge/", "digest/", "colophon/",
+const urls = ["", "bots/", "stats/", "health/", "changelog/", "api/", "about/", "badge/", "digest/", "colophon/",
   ...digests.map((d) => `digest/${d.number}/`),
   ...CATS.map((c) => `category/${c}/`),
   ...DOMAINS.map((d) => `site/${d}/`), ...BOT_NAMES.map((b) => `bot/${b}/`)];

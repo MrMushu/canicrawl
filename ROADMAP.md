@@ -20,7 +20,7 @@
 - [x] DNS: CNAME @ → mrmushu.github.io + CNAME www → mrmushu.github.io, both DNS-only (gray cloud)
 - [x] Custom domain saved in Pages settings; site serving 200 at http://canicrawl.com
 - [x] HTTPS: cert issued within minutes; Enforce HTTPS enabled — https://canicrawl.com is canonical
-- [ ] Verify tomorrow's 06:17 UTC cron ran unattended (check Actions + a new data/snapshots/ file)
+- [x] Verify the 06:17 UTC cron runs unattended — run #14 succeeded 2026-08-25 07:08 UTC, raw archive + snapshot committed by the cloud; re-verified in the 2026-08-25 ops session
 - [ ] sitemap.xml submitted to Google Search Console (user account)
 - [ ] Note: Cloudflare zones now ship "AI Crawl Control" + "Agent Readiness" panels — infra layer entering the space; keep our positioning independent/cross-provider/historical
 
@@ -30,10 +30,10 @@
 - [ ] Submit to relevant directories/newsletters
 
 ## M4 — Diff engine & changelog (the retention feature)
-- [ ] Snapshot differ: detect policy flips between crawls
-- [ ] Changelog page becomes a live feed ("nytimes.com blocked Claude-SearchBot yesterday")
-- [ ] RSS feed of policy changes
-- [ ] Weekly "State of the Agent Web" digest page (written each session)
+- [x] Snapshot differ: detect policy flips between crawls (computeDiffs → data/changelog.json; unreadable-on-either-side domains skipped, so no flap noise)
+- [x] Changelog page becomes a live feed ("nytimes.com blocked Claude-SearchBot yesterday") — /changelog/, awaiting the first real flips (first cross-day diff lands 2026-08-26)
+- [x] RSS feed of policy changes — /changelog/rss.xml
+- [x] Weekly "State of the Agent Web" digest page — /digest/, issue #1 live; #2 queued as ring BOTH-2
 
 ## M5 — Scale & depth
 - [ ] Coverage top-1k → top-10k domains (Tranco list ingestion)
