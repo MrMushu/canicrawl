@@ -13,11 +13,14 @@
 - [x] Local preview verified in browser (home, site page, stats, bot page, all endpoints 200)
 - [x] GitHub Actions workflow ready (.github/workflows/daily.yml: daily crawl → commit snapshot → rebuild → deploy)
 
-## M2 — Deploy (needs user: one-time GitHub auth)
-- [x] Custom domain: user bought **canicrawl.com** (Cloudflare, zone active + empty). Build emits CNAME; SITE_ORIGIN defaults to https://canicrawl.com
-- [ ] User runs `winget install --id GitHub.cli -e` + `gh auth login` → then Claude: create repo, push, enable Pages + Actions
-- [ ] Claude adds DNS via user's Cloudflare browser session: CNAME @ → <user>.github.io (flattened) + CNAME www → <user>.github.io, DNS-only until GitHub's cert issues, then enforce HTTPS
-- [ ] Verify daily cron runs unattended
+## M2 — Deploy ✅ (2026-08-24/25 session — SITE IS LIVE at https://canicrawl.com)
+- [x] Custom domain: user bought **canicrawl.com** (Cloudflare). Build emits CNAME; SITE_ORIGIN defaults to https://canicrawl.com
+- [x] Repo: github.com/MrMushu/canicrawl (created via user's browser session; gh CLI was never installed — pushes use a repo-scoped write **deploy key** at ~/.ssh/canicrawl_deploy, wired via core.sshCommand)
+- [x] Pages enabled (Source: GitHub Actions); first deploy succeeded on rerun (initial run raced Pages enablement)
+- [x] DNS: CNAME @ → mrmushu.github.io + CNAME www → mrmushu.github.io, both DNS-only (gray cloud)
+- [x] Custom domain saved in Pages settings; site serving 200 at http://canicrawl.com
+- [ ] Enforce HTTPS once GitHub's cert finishes provisioning (flip the checkbox in Pages settings; check next session if not done this one)
+- [ ] Verify tomorrow's 06:17 UTC cron ran unattended (check Actions + a new data/snapshots/ file)
 - [ ] sitemap.xml submitted to Google Search Console (user account)
 - [ ] Note: Cloudflare zones now ship "AI Crawl Control" + "Agent Readiness" panels — infra layer entering the space; keep our positioning independent/cross-provider/historical
 
