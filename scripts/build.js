@@ -71,7 +71,8 @@ ${content}
   <span>canicrawl — the census of AI access to the web</span>
   <span>data: <a href="${p}data/latest.json">JSON API</a> · CC BY 4.0</span>
   <span>updated ${esc(snap.date)}</span>
-  <span>run daily by an AI, supervised by a human</span>
+  <span><a href="${p}colophon/">run daily by an AI</a>, supervised by a human</span>
+  <span>sibling: <a href="https://mrmushu.github.io/shortsupply/">shortsupply</a></span>
 </div></footer>
 </body></html>`;
 }
@@ -504,6 +505,20 @@ write("badge/index.html", page({
 <p class="note">Your domain isn't tracked yet? Open an issue on the repository and we'll consider adding it — recognizable, high-traffic sites only for now.</p>`,
 }));
 
+// ---------- colophon ----------
+write("colophon/index.html", page({
+  title: "Colophon — Canicrawl",
+  desc: "How this site is made: chosen, built, and operated daily by Claude (an AI), with a human supervisor holding the keys.",
+  depth: 1, active: "",
+  content: `
+<h1>Colophon</h1>
+<p class="sub">How this site is made — kept honest and specific, because the making is part of the story.</p>
+<p>Canicrawl was conceived, designed, built, and deployed in a single day (2026-08-24) by <strong>Claude</strong>, an AI, after its human collaborator handed over creative control of an empty repository and asked for "a website you want to build." The concept survived a research gauntlet that killed five earlier ideas; the full history — every decision, every bug, every pivot — lives in the append-only journal in the <a href="https://github.com/MrMushu/canicrawl">public repository</a>.</p>
+<p>The machinery: a zero-dependency Node crawler fetches each tracked site's robots.txt and llms.txt once a day from a GitHub Actions cron, classifies ${BOT_NAMES.length} AI user agents per RFC 9309, diffs against yesterday, archives the raw files (git history is our wayback machine), scans for AI crawler tokens nobody tracks yet, and regenerates this entire static site — ${DOMAINS.length + BOT_NAMES.length + 25}+ pages — with no framework, no database, and no server. A human approves deploys, purchases, and every external post; the AI does the rest, including writing this sentence.</p>
+<p>Sibling project: <a href="https://mrmushu.github.io/shortsupply/">ShortSupply</a> — the same archive-and-diff engine pointed at the FDA's drug-shortage database, which (like robots.txt policy) is a public record that gets overwritten instead of kept.</p>
+<p class="note">Tools: Node ${process.version.slice(1).split(".")[0]}+, GitHub Pages + Actions, Cloudflare DNS, and Claude running on a schedule. No analytics, no cookies, no tracking — we count crawlers, not people.</p>`,
+}));
+
 // ---------- 404, robots, llms, sitemap ----------
 write("404.html", page({
   title: "Not found — Canicrawl", desc: "Page not found.", depth: 0, active: "",
@@ -556,7 +571,7 @@ ${fullLines.join("\n")}
 // IndexNow key file (key is public by design; submission script posts our URLs to search indexes)
 const INDEXNOW_KEY = "8c2f1e94ab674d0f9c3b57a1de86f240";
 write(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
-const urls = ["", "bots/", "stats/", "changelog/", "api/", "about/", "badge/", "digest/",
+const urls = ["", "bots/", "stats/", "changelog/", "api/", "about/", "badge/", "digest/", "colophon/",
   ...digests.map((d) => `digest/${d.number}/`),
   ...CATS.map((c) => `category/${c}/`),
   ...DOMAINS.map((d) => `site/${d}/`), ...BOT_NAMES.map((b) => `bot/${b}/`)];

@@ -63,7 +63,7 @@ The operating system for both products. Loops and ops sessions execute the **Rin
 - [x] SS-3: ShortSupply launch kit — MARKETING.md with tone rules (never patient-fear), hooks (day 5,350; vanishing resolutions; graveyard), Show HN draft, press block on /about/. Gated: Canicrawl first + ≥2 weeks diffs + domain — done 2026-08-25 early AM
 - [x] CC-4: bot-discovery radar live (scripts/discover-bots.js → data/discovery.json, wired into daily cron). First scan: 2,073 tokens, 36 untracked AI candidates incl. GrokBot/xAI-Grok, Gemini-Deep-Research (27 sites), DeepSeekBot, FirecrawlAgent, Crawl4AI + our own registry gaps (anthropic-ai 85, Claude-Web 78) — done 2026-08-25 early AM
 - [x] CC-6: registry expanded to 32 bots (16 discovered tokens added with metadata) and backfilled from the archived robots.txt files — no crawling needed (scripts/backfill-bots.js: 588 parsed, 61 allowed-by-default, 351 unknown until next cron). New headline columns: Diffbot blocked by 130, anthropic-ai 116, Gemini-Deep-Research 70, GrokBot 64. 1,061 pages — done 2026-08-25 ~03:10
-- [ ] BOTH-1: cross-link footers ("sibling project"); shared /colophon story page each
+- [x] BOTH-1: sibling cross-links in both footers + /colophon/ story pages on both sites (the AI-built-in-public narrative, machinery description, no-tracking statement) — done 2026-08-25 ~03:45
 - [ ] CC-5: watchlist UI (localStorage star-a-site; groundwork for alerts)
 - [ ] SS-4: per-category RSS feeds
 - (ops sessions append new rings here as pillars dictate; morning-after items: verify first diffs + raw archive both products)
