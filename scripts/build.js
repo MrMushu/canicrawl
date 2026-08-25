@@ -246,17 +246,62 @@ write("stats/index.html", page({
 <p class="note">Data is CC BY 4.0. Cite as "Canicrawl, AI crawler access census, ${esc(snap.date)}" with a link. Raw data: <a href="../data/latest.json">latest.json</a>. Methodology: <a href="../about/">about</a>. Every figure is reproducible from the committed daily snapshots.</p>`,
 }));
 
-// ---------- changelog ----------
+// ---------- changelog (rendered from data/changelog.json, written by the crawler's differ) ----------
+const changelog = fs.existsSync(path.join(ROOT, "data/changelog.json"))
+  ? JSON.parse(fs.readFileSync(path.join(ROOT, "data/changelog.json"), "utf8"))
+  : { entries: [{ date: snap.date, kind: "founding" }] };
+function entryText(e) {
+  switch (e.kind) {
+    case "founding":
+      return `Index founded. First crawl: ${DOMAINS.length} domains, ${BOT_NAMES.length} AI user agents. ${pct(anyBlockers.length, readable.length)}% of readable sites block at least one AI crawler; llms.txt adoption ${pct(llmsSites.length, DOMAINS.length)}%; most-blocked bot ${botsRanked[0]} (${botStats[botsRanked[0]].pct}%). Daily change tracking starts here.`;
+    case "bot-flip": {
+      const verb = e.to === "blocked" ? "began blocking" : e.from === "blocked" ? "stopped blocking" : "changed access for";
+      return `${e.domain} ${verb} ${e.bot} (${e.from} → ${e.to})`;
+    }
+    case "llmstxt":
+      return `${e.domain} ${e.to ? "published an llms.txt — a welcome mat for AI readers" : "removed its llms.txt"}`;
+    case "wildcard":
+      return `${e.domain} changed its default crawler policy (${e.from} → ${e.to})`;
+    case "added":
+      return `${e.domain} added to the index`;
+    default:
+      return `${e.domain ?? ""} ${e.kind}`;
+  }
+}
+function entryLink(e) { return e.domain ? `site/${e.domain}/` : "stats/"; }
+const entriesDesc = [...changelog.entries].reverse();
+const byDate = new Map();
+for (const e of entriesDesc) {
+  if (!byDate.has(e.date)) byDate.set(e.date, []);
+  byDate.get(e.date).push(e);
+}
+const changelogHtml = [...byDate.entries()].map(([date, list]) => `
+<h2>${esc(date)}</h2>
+<ul>${list.map((e) => `<li>${e.domain ? `<a href="../${entryLink(e)}">` : ""}${esc(entryText(e))}${e.domain ? "</a>" : ""}</li>`).join("\n")}</ul>`).join("\n");
 write("changelog/index.html", page({
   title: "Changelog — Canicrawl",
-  desc: "Policy flips and index changes, newest first.",
+  desc: `Every AI-crawler policy flip we observe across ${DOMAINS.length} tracked sites, newest first. ${changelog.entries.length} entries and counting.`,
   depth: 1, active: "Changelog",
+  extraHead: `<link rel="alternate" type="application/rss+xml" title="Canicrawl policy changes" href="rss.xml">`,
   content: `
 <h1>Changelog</h1>
-<p class="sub">Every AI-policy flip we observe lands here, newest first. The feed grows as daily crawls accumulate.</p>
-<h2>${esc(snap.date)} — index founded</h2>
-<p>First crawl completed: ${DOMAINS.length} domains, ${BOT_NAMES.length} AI user agents. Founding numbers: ${pct(anyBlockers.length, readable.length)}% of readable sites block at least one AI crawler; llms.txt adoption at ${pct(llmsSites.length, DOMAINS.length)}%; most-blocked bot: ${esc(botsRanked[0])} (${botStats[botsRanked[0]].pct}%). Daily change tracking starts from this snapshot.</p>`,
+<p class="sub">Every AI-policy flip we observe lands here, newest first — detected by comparing daily snapshots. Subscribe via <a href="rss.xml">RSS</a>.</p>
+${changelogHtml}`,
 }));
+const rssItems = entriesDesc.slice(0, 50).map((e) => `<item>
+<title>${esc(entryText(e))}</title>
+<link>${ORIGIN}/${entryLink(e)}</link>
+<guid isPermaLink="false">${esc(`${e.date}|${e.domain ?? "index"}|${e.bot ?? e.kind}|${e.to ?? ""}`)}</guid>
+<pubDate>${new Date(e.date + "T06:30:00Z").toUTCString()}</pubDate>
+</item>`).join("\n");
+write("changelog/rss.xml", `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Canicrawl — AI crawler policy changes</title>
+<link>${ORIGIN}/changelog/</link>
+<description>Daily-detected changes in which websites allow or block AI crawlers.</description>
+${rssItems}
+</channel></rss>
+`);
 
 // ---------- api ----------
 write("api/index.html", page({

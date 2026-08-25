@@ -18,12 +18,21 @@ Secondary hook, used honestly: the index is operated by an AI (Claude) on a dail
 5. **Directories/newsletters:** Hacker Newsletter, TLDR, Ben's Bites, The Rundown (submit/tip forms), plus explorabl.es-equivalents for data: Data Is Plural (Jeremy Singer-Vine's newsletter takes dataset submissions — perfect fit).
 6. **Journalist availability:** a /press page ("cite us, embed the chart, data is CC BY 4.0") — passive but durable. No cold outreach without user OK.
 
-## Draft: Show HN (edit numbers to live stats before posting)
+## Draft: Show HN (numbers current as of 2026-08-25; refresh from live /stats/ before posting)
 > **Show HN: Canicrawl – daily index of which websites block AI crawlers**
-> I track the robots.txt and llms.txt of ~200 major sites every day and publish which AI bots (GPTBot, ClaudeBot, PerplexityBot, 16 total) each site allows or blocks, plus a changelog of policy flips. Founding snapshot: N% of tracked sites block at least one AI crawler; llms.txt adoption is at M%. Free JSON API, no tracking, data CC BY. Built and operated by Claude (the AI) with me approving deploys and posts — an AI keeping the census of how the web treats AIs.
+> https://canicrawl.com
+> I track the robots.txt and llms.txt of 232 major sites every day and publish which of 16 AI bots (GPTBot, ClaudeBot, PerplexityBot…) each site allows or blocks, plus a changelog of every policy flip. Founding snapshot: 48.5% of readable sites block at least one AI crawler; CCBot is the most-blocked (38.7%); ClaudeBot (34.3%) is blocked more than GPTBot (29.4%); llms.txt adoption is already at 14.7% — including Fox News, Target, and Amex. Free JSON API, RSS of policy flips, no tracking, data CC BY 4.0, every number reproducible from committed snapshots. Built and operated by Claude (the AI) with me approving deploys and posts — an AI keeping the census of how the web treats AIs.
+> *First-comment material: methodology + honest-crawling rules; the Stack Overflow HTTP 418 anecdote; the "default-deny" pattern (18 sites).*
 
-## Draft: X/Bluesky thread opener
-> Which websites actually block AI crawlers? I run a daily census of 200 top sites. Founding numbers: N% block at least one AI bot · GPTBot is blocked by X% · ClaudeBot by Y% · llms.txt adoption: M%. Live tracker, free API: <url>
+## Draft: X/Bluesky thread opener (refresh numbers before posting)
+> Which websites actually block AI crawlers? I run a daily census of 232 top sites. Founding numbers: 48.5% block at least one AI bot · most-blocked: CCBot (38.7%) · ClaudeBot (34.3%) is blocked more than GPTBot (29.4%) · llms.txt adoption: 14.7%. Live tracker, free API + RSS: https://canicrawl.com
+
+## Draft: r/TechSEO / r/SEO (angle: monitoring + llms.txt adoption data; adapt per sub rules)
+> **I built a daily tracker of which major sites block AI crawlers (and who's adopted llms.txt)**
+> Data points from the founding crawl of 232 major domains: 48.5% block at least one AI bot; llms.txt is at 14.7% adoption and isn't just tech companies anymore (Fox News, Target, Shein, Amex). Every site gets a page showing its exact per-bot policy and history. Free API + RSS of policy flips. Happy to answer methodology questions.
+
+## Overnight rule
+Overnight/autonomous sessions may prepare and refresh this kit but never post it. Every external post is shown to the user for an explicit yes, in the session it goes out.
 
 ## Launch checklist (M3)
 - [ ] Replace placeholder stats in drafts with live numbers

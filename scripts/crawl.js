@@ -133,8 +133,53 @@ async function crawlDomain(domain) {
   return result;
 }
 
+// Compare two snapshots and return human-meaningful policy changes.
+// Only diffs domains whose policy was readable in BOTH snapshots (no flap noise).
+export function computeDiffs(prev, next) {
+  const entries = [];
+  const readable = (e) => e && (e.fetch === "ok" || e.fetch === "no-robots");
+  for (const [domain, now] of Object.entries(next.domains)) {
+    const was = prev?.domains?.[domain];
+    if (!was) {
+      entries.push({ date: next.date, domain, kind: "added" });
+      continue;
+    }
+    if (!readable(was) || !readable(now)) continue;
+    if (was.llmstxt !== now.llmstxt) {
+      entries.push({ date: next.date, domain, kind: "llmstxt", from: was.llmstxt, to: now.llmstxt });
+    }
+    if ((was.wildcard ?? "allowed") !== (now.wildcard ?? "allowed")) {
+      entries.push({ date: next.date, domain, kind: "wildcard", from: was.wildcard, to: now.wildcard });
+    }
+    for (const bot of Object.keys(now.bots)) {
+      const a = was.bots[bot]?.status;
+      const b = now.bots[bot]?.status;
+      if (a && b && a !== b && a !== "unknown" && b !== "unknown") {
+        entries.push({ date: next.date, domain, kind: "bot-flip", bot, from: a, to: b });
+      }
+    }
+  }
+  return entries;
+}
+
+function appendChangelog(newEntries) {
+  const file = path.join(ROOT, "data/changelog.json");
+  const log = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : { entries: [] };
+  const seen = new Set(log.entries.map((e) => JSON.stringify(e)));
+  let added = 0;
+  for (const e of newEntries) {
+    const key = JSON.stringify(e);
+    if (!seen.has(key)) { log.entries.push(e); seen.add(key); added++; }
+  }
+  fs.writeFileSync(file, JSON.stringify(log, null, 1));
+  return added;
+}
+
 async function run() {
   const started = Date.now();
+  const prev = fs.existsSync(path.join(ROOT, "data/latest.json"))
+    ? JSON.parse(fs.readFileSync(path.join(ROOT, "data/latest.json"), "utf8"))
+    : null;
   const out = {};
   let i = 0;
   const queue = [...DOMAINS];
@@ -159,6 +204,11 @@ async function run() {
   fs.mkdirSync(path.join(ROOT, "data/snapshots"), { recursive: true });
   fs.writeFileSync(path.join(ROOT, `data/snapshots/${date}.json`), JSON.stringify(snapshot, null, 1));
   fs.writeFileSync(path.join(ROOT, "data/latest.json"), JSON.stringify(snapshot, null, 1));
+  if (prev && prev.date !== snapshot.date) {
+    const diffs = computeDiffs(prev, snapshot);
+    const added = appendChangelog(diffs);
+    console.log(`Policy changes vs ${prev.date}: ${added} new changelog entries`);
+  }
 
   // Console summary
   const reachable = Object.values(out).filter((d) => d.fetch === "ok" || d.fetch === "no-robots");
@@ -177,4 +227,6 @@ async function run() {
   for (const [bot, n] of top) console.log(`  ${bot.padEnd(20)} blocked by ${n}`);
 }
 
-run().catch((e) => { console.error(e); process.exit(1); });
+if (process.argv[1] && import.meta.url.endsWith(path.basename(process.argv[1]))) {
+  run().catch((e) => { console.error(e); process.exit(1); });
+}
