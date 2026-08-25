@@ -93,7 +93,7 @@ const rows = DOMAINS.map((d) => {
   const cat = domainsFile.domains[d];
   const cells = HEADLINE.map((b) => `<td>${chip(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)}</td>`).join("");
   return `<tr data-domain="${esc(d)}" data-cat="${esc(cat)}" data-blocks="${blocksAny(d) ? 1 : 0}">
-<td class="domain"><a href="site/${esc(d)}/">${esc(d)}</a></td><td class="cat">${esc(cat)}</td>
+<td class="domain"><a href="site/${esc(d)}/">${esc(d)}</a></td><td class="cat"><a href="category/${esc(cat)}/">${esc(cat)}</a></td>
 <td>${e.llmstxt ? '<span class="chip yes">yes</span>' : '<span class="chip no">—</span>'}</td>${cells}</tr>`;
 }).join("\n");
 
@@ -214,6 +214,52 @@ for (const b of BOT_NAMES) {
 }
 
 // ---------- stats ----------
+// ---------- category pages ----------
+const CAT_LABELS = {
+  news: "news", reference: "reference", health: "health", ecommerce: "e-commerce",
+  travel: "travel", tech: "tech", social: "social media", finance: "finance",
+  entertainment: "entertainment", sports: "sports", food: "food", realestate: "real estate",
+  jobs: "job-board", classifieds: "classifieds", auto: "automotive",
+  government: "government", education: "education", top1k: "top-ranked",
+};
+const readableSet = new Set(readable);
+for (const cat of CATS) {
+  const members = DOMAINS.filter((d) => domainsFile.domains[d] === cat);
+  if (!members.length) continue;
+  const rdbl = members.filter((d) => readableSet.has(d));
+  const catBlockers = rdbl.filter(blocksAny);
+  const catLlms = members.filter((d) => D[d].llmstxt);
+  const perBot = BOT_NAMES.map((b) => [b, rdbl.filter((d) => D[d].bots[b]?.status === "blocked").length])
+    .sort((a, b) => b[1] - a[1]);
+  const label = CAT_LABELS[cat] ?? cat;
+  const sorted = [...members].sort((a, b) =>
+    BOT_NAMES.filter((x) => D[b].bots[x]?.status === "blocked").length -
+    BOT_NAMES.filter((x) => D[a].bots[x]?.status === "blocked").length || a.localeCompare(b));
+  const memberRows = sorted.map((d) => {
+    const e = D[d];
+    return `<tr><td class="domain"><a href="../../site/${esc(d)}/">${esc(d)}</a></td>
+<td>${e.llmstxt ? '<span class="chip yes">yes</span>' : '<span class="chip no">—</span>'}</td>
+${HEADLINE.map((b) => `<td>${chip(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)}</td>`).join("")}</tr>`;
+  }).join("\n");
+  write(`category/${cat}/index.html`, page({
+    title: `Do ${label} sites block AI crawlers? — Canicrawl`,
+    desc: `${pct(catBlockers.length, rdbl.length)}% of ${rdbl.length} readable ${label} sites block at least one AI crawler. Per-site robots.txt policy for ${members.length} tracked ${label} sites, updated daily.`,
+    depth: 2, active: "Sites",
+    content: `
+<a class="crumb" href="../../">← all sites</a>
+<h1>${esc(label[0].toUpperCase() + label.slice(1))} sites vs AI crawlers</h1>
+<p class="sub">${members.length} tracked ${esc(label)} sites, ${rdbl.length} with readable policy. <span class="updated">Snapshot: ${esc(snap.date)}</span></p>
+<div class="cards">
+  <div class="card"><div class="num">${pct(catBlockers.length, rdbl.length)}%</div><div class="lbl">block ≥1 AI crawler (${catBlockers.length}/${rdbl.length})</div></div>
+  <div class="card"><div class="num">${perBot[0][1] ? esc(perBot[0][0]) : "—"}</div><div class="lbl">most-blocked bot here${perBot[0][1] ? ` (${perBot[0][1]} sites)` : ""}</div></div>
+  <div class="card"><div class="num">${catLlms.length}</div><div class="lbl">publish llms.txt</div></div>
+</div>
+<div class="tablewrap"><table>
+<thead><tr><th>Site</th><th>llms.txt</th>${HEADLINE.map((b) => `<th><a href="../../bot/${esc(b)}/">${esc(b)}</a></th>`).join("")}</tr></thead>
+<tbody>${memberRows}</tbody></table></div>`,
+  }));
+}
+
 const botsRanked = [...BOT_NAMES].sort((a, b) => botStats[b].pct - botStats[a].pct);
 const maxPct = botStats[botsRanked[0]].pct || 1;
 const chartRows = botsRanked.map((b, i) => {
@@ -249,7 +295,7 @@ write("stats/index.html", page({
 <h2>Block rate by site category</h2>
 <div class="tablewrap"><table class="statgrid">
 <thead><tr><th>Category</th><th>Sites</th><th>Blocking ≥1 bot</th><th>Rate</th></tr></thead>
-<tbody>${catStats.map((c) => `<tr><td>${esc(c.cat)}</td><td>${c.n}</td><td>${c.blockers}</td><td>${c.pct}%</td></tr>`).join("")}</tbody>
+<tbody>${catStats.map((c) => `<tr><td><a href="../category/${esc(c.cat)}/">${esc(c.cat)}</a></td><td>${c.n}</td><td>${c.blockers}</td><td>${c.pct}%</td></tr>`).join("")}</tbody>
 </table></div>
 <h2>Citing these numbers</h2>
 <p class="note">Data is CC BY 4.0. Cite as "Canicrawl, AI crawler access census, ${esc(snap.date)}" with a link. Raw data: <a href="../data/latest.json">latest.json</a>. Methodology: <a href="../about/">about</a>. Every figure is reproducible from the committed daily snapshots.</p>`,
@@ -464,6 +510,7 @@ ${fullLines.join("\n")}
 const INDEXNOW_KEY = "8c2f1e94ab674d0f9c3b57a1de86f240";
 write(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
 const urls = ["", "bots/", "stats/", "changelog/", "api/", "about/", "badge/",
+  ...CATS.map((c) => `category/${c}/`),
   ...DOMAINS.map((d) => `site/${d}/`), ...BOT_NAMES.map((b) => `bot/${b}/`)];
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
