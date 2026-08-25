@@ -346,6 +346,58 @@ write("about/index.html", page({
 <p>All data CC BY 4.0 — cite "Canicrawl" with a link. Free JSON <a href="../api/">API</a>. Corrections and site suggestions: open an issue on the repository (link lands here once the repo is public).</p>`,
 }));
 
+// ---------- badges (embeddable SVGs — every embed is a backlink) ----------
+function badgeSvg(leftText, rightText, rightColor) {
+  const cw = 6.3, pad = 14;
+  const lw = Math.round(leftText.length * cw) + pad;
+  const rw = Math.round(rightText.length * cw) + pad;
+  const w = lw + rw;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="20" role="img" aria-label="${esc(leftText)}: ${esc(rightText)}">
+<rect rx="3" width="${w}" height="20" fill="#1c1917"/>
+<rect rx="3" x="${lw}" width="${rw}" height="20" fill="${rightColor}"/>
+<rect x="${lw}" width="4" height="20" fill="${rightColor}"/>
+<g fill="#ffffff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+<text x="${lw / 2}" y="14">${esc(leftText)}</text>
+<text x="${lw + rw / 2}" y="14">${esc(rightText)}</text>
+</g>
+</svg>`;
+}
+write("badge/robots-welcome.svg", badgeSvg("canicrawl", "robots welcome", "#15803d"));
+for (const d of DOMAINS) {
+  const e = D[d];
+  const ok = e.fetch === "ok" || e.fetch === "no-robots";
+  const blocked = ok ? BOT_NAMES.filter((b) => e.bots[b]?.status === "blocked").length : null;
+  const [text, color] = !ok
+    ? ["policy unreadable", "#57534e"]
+    : blocked === 0
+      ? [`blocks 0 of ${BOT_NAMES.length} AI bots`, "#15803d"]
+      : blocked < 8
+        ? [`blocks ${blocked} of ${BOT_NAMES.length} AI bots`, "#b45309"]
+        : [`blocks ${blocked} of ${BOT_NAMES.length} AI bots`, "#b91c1c"];
+  write(`badge/${d}.svg`, badgeSvg(d, text, color));
+}
+write("badge/index.html", page({
+  title: "Badges — Canicrawl",
+  desc: "Embeddable SVG badges: show that your site welcomes AI crawlers, or embed any tracked site's live AI-access status.",
+  depth: 1, active: "",
+  content: `
+<h1>Badges</h1>
+<p class="sub">Two flavors of embeddable SVG, free to use. They update with our daily crawl.</p>
+<h2>Robots welcome</h2>
+<p>For sites that choose to stay open to AI crawlers. Wear it in your footer:</p>
+<p><img src="robots-welcome.svg" alt="canicrawl: robots welcome" width="176" height="20"></p>
+<pre>&lt;a href="https://canicrawl.com"&gt;
+  &lt;img src="https://canicrawl.com/badge/robots-welcome.svg" alt="Robots welcome — canicrawl"&gt;
+&lt;/a&gt;</pre>
+<h2>Live status badge for any tracked site</h2>
+<p>Shows the site's current AI-crawler posture from the latest snapshot. Works for all ${DOMAINS.length} tracked domains:</p>
+<p><img src="wikipedia.org.svg" alt="wikipedia.org AI-crawler status" height="20"> <img src="nytimes.com.svg" alt="nytimes.com AI-crawler status" height="20"></p>
+<pre>&lt;a href="https://canicrawl.com/site/YOURDOMAIN/"&gt;
+  &lt;img src="https://canicrawl.com/badge/YOURDOMAIN.svg" alt="AI-crawler policy — canicrawl"&gt;
+&lt;/a&gt;</pre>
+<p class="note">Your domain isn't tracked yet? Open an issue on the repository and we'll consider adding it — recognizable, high-traffic sites only for now.</p>`,
+}));
+
 // ---------- 404, robots, llms, sitemap ----------
 write("404.html", page({
   title: "Not found — Canicrawl", desc: "Page not found.", depth: 0, active: "",
@@ -373,7 +425,7 @@ As of ${snap.date}: ${pct(anyBlockers.length, readable.length)}% of readable tra
 ## Reuse
 Data is CC BY 4.0. Cite "Canicrawl" with a link.
 `);
-const urls = ["", "bots/", "stats/", "changelog/", "api/", "about/",
+const urls = ["", "bots/", "stats/", "changelog/", "api/", "about/", "badge/",
   ...DOMAINS.map((d) => `site/${d}/`), ...BOT_NAMES.map((b) => `bot/${b}/`)];
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

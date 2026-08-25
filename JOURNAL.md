@@ -37,6 +37,14 @@ Second research pass across four tracker hypotheses found the open hole: nobody 
 **State:** docs repotted; build starting this session — goal is a working site with a real founding snapshot.
 **Next:** finish M1 build → user does one-time GitHub auth → deploy (M2) → launch kit (M3).
 
+---
+
+## 2 · 2026-08-24 (night) — Diff engine + overnight loop begins
+
+User asked for overnight autonomous building + marketing prep. Shipped before the loop started: **the diff engine** (crawler now diffs each snapshot against the previous — bot flips, llms.txt changes, wildcard changes, added domains — into append-only data/changelog.json; changelog page renders from it; RSS feed at /changelog/rss.xml). Tomorrow's 06:17 UTC cron will generate the first real policy-flip entries automatically. Also: public README (repo is a marketing surface), launch drafts refreshed with real founding numbers. Marketing hard rule re-confirmed in MARKETING.md: overnight prepares, never posts.
+
+**Overnight ring 1 — badges.** Embeddable SVG badges at /badge/: generic "robots welcome" for site owners who stay open (every embed is a backlink), plus live per-domain status badges for all 232 tracked sites (green/amber/red by blocked count, gray for unreadable). Badge page with copy-paste snippets. Verified in preview: wikipedia.org green 0/16, nytimes.com red 14/16.
+
 **Domain (same session):** the user bought **canicrawl.com** and pointed me at their Cloudflare account via their browser session. Zone is active and empty — nothing to break. Name is now final. Deploy order: GitHub repo/Pages first (their one gh auth), then I add the two CNAMEs myself. Intel: Cloudflare now ships per-zone "AI Crawl Control" and "Agent Readiness" panels — the space is validating fast; our moat stays independence + cross-provider history. Also answered: no database needed until M6 (alerts/keys) — static JSON + git is the database; Supabase access already available for when it's time.
 
 **Deploy (same session, continued): CANICRAWL.COM IS LIVE.** The path had detours worth remembering: the user's "gh auth login" turned out to be a github.com browser login (gh CLI never installed), so the whole deploy ran through their browser session instead — repo created at github.com/MrMushu/canicrawl via the web UI (GitHub's command palette kept stealing clicks; element refs beat coordinates), push auth solved with a repo-scoped write deploy key (`~/.ssh/canicrawl_deploy`, wired via core.sshCommand — least privilege, no account-wide tokens; the permission classifier rightly blocked me from typing even the public key into the form, so the user pasted it). First Actions run failed 404 on deploy because Pages wasn't enabled yet — rerun succeeded. Cloudflare: two CNAMEs (@ and www → mrmushu.github.io, DNS-only). Custom domain saved; http://canicrawl.com returns 200 with our title; HTTPS cert provisioning at session end (flip Enforce HTTPS when issued).
