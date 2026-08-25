@@ -70,3 +70,17 @@ User asked for overnight autonomous building + marketing prep. Shipped before th
 **Ring BOTH-1, ~03:45:** /colophon/ pages live on both sites - the honest making-of story (concept gauntlet, the engine, who holds which keys), linked from every footer via 'run daily by an AI'. Footers now cross-link the siblings. The build story is itself marketing surface; now it's on-site instead of only in the repo.
 
 **Ring CC-5, ~04:15:** Watchlist shipped - star buttons on all 1,000 index rows and every site page hero, localStorage persistence, 'only watched' filter. Verified end-to-end in the browser (star -> stored -> filter shows exactly 1 of 1,000). No accounts, no tracking - and it's the natural free tier under future email alerts: 'get these stars as emails' is the M6 upgrade pitch.
+
+---
+
+## 3 - 2026-08-25, 07:31 - GOOD MORNING: the night in full
+
+The overnight loop ran ~8 hours and completed the ENTIRE founding ring queue - 11 rings, every one built, verified, journaled, and deployed. Both products are green: latest Actions runs successful, both sites 200.
+
+**Canicrawl tonight:** diff engine + RSS; embeddable badges; panel to 1,000 Tranco domains; GEO (llms-full.txt, IndexNow, JSON-LD); raw robots.txt archive (588 files captured by the first unattended cloud crawl); 18 category dashboards (news blocks 93.9%); canonical/OG/skip-link pass on all pages; digest system + 'State of the Agent Web #1'; launch kit finalized w/ palewire prior-art citation; **discovery radar** (2,073 tokens scanned; found GrokBot, Gemini-Deep-Research, DeepSeekBot, FirecrawlAgent in the wild); registry doubled to 32 bots via zero-request archive backfill (Diffbot blocked by 130); colophon; watchlist UI. Site: 1,062 pages.
+
+**ShortSupply tonight:** founded, built, and deployed from scratch (243->245 pages); GEO parity; availability-revision detection; /graveyard/; launch kit with never-fear-framing rule; colophon; 22 per-category RSS feeds. First unattended cron verified (43-min GitHub jitter noted as normal). Flagship stat: Atropine Sulfate Injection, day 5,350.
+
+**USER-NEEDED:** (1) Canicrawl launch approval - kit ready in MARKETING.md, recommended window ~Aug 30 once ~5 days of changelog flips exist; (2) ShortSupply domain pick (shortsupply.io / .co / .today all looked available). 
+
+**Handoff:** the daily 8:03 AM ops task now owns upkeep - cron verification, diff review, one ring per day. The loop stops here. Good morning.
