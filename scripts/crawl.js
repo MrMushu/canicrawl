@@ -4,6 +4,7 @@
 // identifying user agent, no page-content scraping, never works around a block.
 import fs from "node:fs";
 import path from "node:path";
+import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -105,6 +106,12 @@ async function crawlDomain(domain) {
   }
   if (robotsText !== null) {
     result.fetch = "ok";
+    // Archive the raw file (overwrite-in-place: git history preserves every
+    // version; unchanged files cost nothing). Receipts for every classification.
+    result.robotsHash = crypto.createHash("sha256").update(robotsText).digest("hex").slice(0, 16);
+    if (robotsText.length < 262144) {
+      fs.writeFileSync(path.join(ROOT, "data/robots", domain + ".txt"), robotsText);
+    }
     const groups = parseRobots(robotsText);
     for (const bot of BOTS) result.bots[bot] = classifyBot(groups, bot);
     const wild = groups.filter((g) => g.agents.includes("*"));
@@ -125,6 +132,9 @@ async function crawlDomain(domain) {
         const l = await fetchText(`https://${host}/llms.txt`);
         if (l.status === 200 && !looksLikeHtml(l.text) && l.text.trim().length > 0) {
           result.llmstxt = true;
+          if (l.text.length < 262144) {
+            fs.writeFileSync(path.join(ROOT, "data/llmstxt", domain + ".txt"), l.text);
+          }
         }
         break;
       } catch { /* try www */ }
@@ -185,6 +195,8 @@ async function run() {
   // Keeps the one-polite-pass-per-day promise for already-crawled domains.
   const targets = NEW_ONLY && prev ? DOMAINS.filter((d) => !prev.domains[d]) : DOMAINS;
   if (NEW_ONLY) console.log(`--new-only: crawling ${targets.length} new domains (merging with ${Object.keys(prev?.domains ?? {}).length} existing)`);
+  fs.mkdirSync(path.join(ROOT, "data/robots"), { recursive: true });
+  fs.mkdirSync(path.join(ROOT, "data/llmstxt"), { recursive: true });
   const out = {};
   let i = 0;
   const queue = [...targets];

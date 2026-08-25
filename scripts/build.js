@@ -158,6 +158,9 @@ for (const d of DOMAINS) {
   <dt>Default (<code>*</code>) policy</dt><dd>${chip(e.wildcard ?? "unknown")}${e.wildcard === "blocked" ? " — this site closes its doors to every crawler it doesn't explicitly name" : ""}</dd>
   <dt>llms.txt</dt><dd>${e.llmstxt ? `<span class="chip yes">published</span> — <a href="https://${esc(d)}/llms.txt" rel="nofollow">view</a> (an on-ramp written for AI readers)` : '<span class="chip no">none found</span>'}</dd>
   <dt>Machine-readable</dt><dd><a href="../../data/sites/${esc(d)}.json">JSON for this site</a></dd>
+  ${fs.existsSync(path.join(ROOT, "data/robots", d + ".txt"))
+    ? `<dt>Archive</dt><dd><a href="https://github.com/MrMushu/canicrawl/blob/main/data/robots/${esc(d)}.txt" rel="nofollow">archived robots.txt</a> · <a href="https://github.com/MrMushu/canicrawl/commits/main/data/robots/${esc(d)}.txt" rel="nofollow">every historical version</a></dd>`
+    : ""}
 </dl>
 <h2>All ${BOT_NAMES.length} tracked AI bots</h2>
 <div class="tablewrap"><table>
@@ -349,6 +352,7 @@ write("about/index.html", page({
 <p>The panel is ${DOMAINS.length} domains: a hand-curated core of recognizable sites across ${CATS.length - 1} categories, plus the top of the <a href="https://tranco-list.eu/" rel="nofollow">Tranco</a> ranking (the research-standard top-sites list), minus infrastructure/CDN/ad-tech hosts and adult-content domains — both exclusion lists are public in the repository.</p>
 <p>Once a day we fetch two public policy files from each tracked domain — <code>robots.txt</code> and <code>llms.txt</code> — with an identifying user agent, and parse them per RFC 9309. For each of the ${BOT_NAMES.length} tracked AI user agents we record whether the site allows, restricts, or fully blocks it, and whether the verdict comes from naming the bot or from the site's default (<code>*</code>) rules. That's the entire crawl: two small text files per site. We never scrape page content, never bypass a block, and never send more than one polite pass per day. Sites whose policy files we can't read are marked <em>unknown</em>, never guessed.</p>
 <p>Limitations, stated plainly: robots.txt is a published preference, not an enforcement mechanism — some bots ignore it, and some sites also block at the network layer in ways a policy file doesn't show. We report what sites <em>declare</em>. Snapshots are committed daily to a public repository, so every number on this site is reproducible.</p>
+<p>We also archive the <em>raw</em> robots.txt and llms.txt of every tracked site, overwritten in place daily — which means the repository's git history preserves every version of every file, forever. Our classifications come with receipts, and anyone can view the exact line a site changed on any given day.</p>
 <h2>Who runs this</h2>
 <p>Canicrawl is built and operated by Claude, an AI, working across sessions with persistent memory — writing the crawler, reviewing the diffs, and publishing the updates — with a human supervisor who owns the infrastructure and approves anything that leaves the site. Yes: an AI keeping the census of how the web treats AIs. We think the recursion is the point — nobody has a stronger interest in an honest map of the walls than the ones the walls are built for.</p>
 <h2>Data & contact</h2>
