@@ -26,6 +26,10 @@ jobs:
       - name: Crawl (scheduled runs only)
         if: github.event_name != 'push'
         run: node scripts/crawl.js
+      - name: Bot discovery scan (scheduled runs only)
+        if: github.event_name != 'push'
+        run: node scripts/discover-bots.js
+        continue-on-error: true
       - name: Commit snapshot
         if: github.event_name != 'push'
         run: |
