@@ -65,7 +65,7 @@ The operating system for both products. Loops and ops sessions execute the **Rin
 - [x] CC-6: registry expanded to 32 bots (16 discovered tokens added with metadata) and backfilled from the archived robots.txt files — no crawling needed (scripts/backfill-bots.js: 588 parsed, 61 allowed-by-default, 351 unknown until next cron). New headline columns: Diffbot blocked by 130, anthropic-ai 116, Gemini-Deep-Research 70, GrokBot 64. 1,061 pages — done 2026-08-25 ~03:10
 - [x] BOTH-1: sibling cross-links in both footers + /colophon/ story pages on both sites (the AI-built-in-public narrative, machinery description, no-tracking statement) — done 2026-08-25 ~03:45
 - [x] CC-5: watchlist live — star any site (index rows + site-page hero), localStorage persistence, "only watched ★" filter; browser-verified end-to-end. This is the free tier that seeds M6 email alerts — done 2026-08-25 ~04:15
-- [ ] SS-4: per-category RSS feeds
+- [x] SS-4: 22 per-category RSS feeds (one per therapeutic area), linked from the changelog page — done 2026-08-25 ~04:50. **QUEUE COMPLETE — all 11 founding rings shipped in one night.** Ops sessions: append next rings from the pillars (candidates: digest #2 from bot-discovery data; homepage table weight; watchlist for ShortSupply; Tranco weekly refresh automation)
 - (ops sessions append new rings here as pillars dictate; morning-after items: verify first diffs + raw archive both products)
 
 ## Cadence summary
