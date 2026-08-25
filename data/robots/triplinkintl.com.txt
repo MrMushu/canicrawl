@@ -1,0 +1,18 @@
+User-agent: *
+#public
+Disallow: /*.woff$
+Disallow: /*.ttf$
+Disallow: /*.eot$
+Disallow: /*/sw.js
+Disallow: /cookieStatement
+Disallow: /privacyPolicy
+Disallow: /acceptableUsePolicy
+
+Disallow: /*?*aid=*
+Disallow: /*?*AID=*
+Disallow: /*?*Allianceid=*
+Disallow: /*?*allianceid=*
+Disallow: /*?*sid=*
+Disallow: /*?*SID=*
+Disallow: /Date(*
+Disallow: /*/Date(*

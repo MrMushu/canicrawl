@@ -1,0 +1,91 @@
+# CapCut
+
+> CapCut is an AI-powered creative platform for video editing, image design, audio creation, captions, translation, and creator workflows across web, desktop, and mobile surfaces.
+
+Generated: 2026-06-22
+Primary host: https://www.capcut.com
+
+## Core Product Surfaces
+
+- [Homepage](https://www.capcut.com/): Main CapCut entry point for the global brand, product positioning, and creator platform overview.
+- [Desktop Video Editor](https://www.capcut.com/tools/desktop-video-editor): Desktop editing product page for advanced video editing workflows.
+- [Online Video Editor](https://www.capcut.com/tools/online-video-editor): Browser-based video editor for creating, editing, and exporting videos online.
+- [Creative Suite](https://www.capcut.com/creative-suite): CapCut workspace for creative production, collaboration, and cross-format editing.
+- [AI Tools Hub](https://www.capcut.com/tools/ai-tools): Directory-style entry point for CapCut AI creation tools.
+
+## AI Video Tools
+
+- [AI Video Editor](https://www.capcut.com/tools/ai-video-editor): AI-assisted video editing page for automated and accelerated video workflows.
+- [AI Video Generator](https://www.capcut.com/tools/ai-video-generator): AI video generation tool for creating videos from prompts or creative inputs.
+- [Free AI Video Generator](https://www.capcut.com/tools/free-ai-video-generator): Free AI video generation landing page for users evaluating CapCut's AI video creation capability.
+- [AI Video Maker](https://www.capcut.com/tools/ai-video-maker): AI-assisted video maker for producing videos with less manual editing.
+- [AI Image to Video](https://www.capcut.com/tools/ai-image-to-video): Converts still images into AI-generated video outputs.
+- [AI Video Enhancer](https://www.capcut.com/tools/ai-video-enhancer): Improves video quality with AI enhancement workflows.
+- [AI Video Upscaler](https://www.capcut.com/tools/ai-video-upscaler): Upscales video resolution and visual quality.
+- [AI Video Translator](https://www.capcut.com/tools/ai-video-translator): Translates video content for multilingual publishing.
+- [AI Long Video to Short Video](https://www.capcut.com/tools/ai-long-video-to-short-video): Repurposes long-form video into short-form clips.
+- [AI Clip Maker](https://www.capcut.com/tools/ai-clip-maker): Creates short clips from longer or source video assets.
+
+## AI Image and Design Tools
+
+- [AI Image Generator](https://www.capcut.com/tools/ai-image-generator): Generates images with AI for creative and marketing use cases.
+- [AI Text to Image Generator](https://www.capcut.com/tools/ai-text-to-image-generator): Turns text prompts into AI-generated images.
+- [AI Image Upscaler](https://www.capcut.com/tools/ai-image-upscaler): Enhances and upscales image resolution.
+- [AI Photo Editing](https://www.capcut.com/tools/ai-photo-editing): AI-assisted photo editing page for image cleanup, enhancement, and transformation.
+- [Online Photo Editor](https://www.capcut.com/tools/online-photo-editor): Web-based photo editing surface.
+- [Image Background Remover](https://www.capcut.com/tools/image-background-remover): Removes image backgrounds for product, social, and design assets.
+- [Video Background Remover](https://www.capcut.com/tools/video-background-remover): Removes video backgrounds for green-screen-like editing workflows.
+- [AI Generative Fill](https://www.capcut.com/tools/ai-generative-fill): AI image completion and replacement workflow.
+- [Online Graphic Design](https://www.capcut.com/tools/online-graphic-design): Graphic design tool for social, marketing, and creator visuals.
+
+## Audio, Voice, and Caption Tools
+
+- [AI Text to Speech](https://www.capcut.com/tools/ai-text-to-speech): AI voice generation from text.
+- [Text to Speech](https://www.capcut.com/tools/text-to-speech): General text-to-speech creation page.
+- [AI Voice Generator](https://www.capcut.com/tools/ai-voice-generator): Generates AI voices for videos and audio projects.
+- [AI Voice Over](https://www.capcut.com/tools/ai-voice-over): Creates voiceovers for video production.
+- [AI Dubbing](https://www.capcut.com/tools/ai-dubbing): Dubbing and localization workflow for video content.
+- [AI Music Generator](https://www.capcut.com/tools/ai-music-generator): Generates music for creative video and audio projects.
+- [AI Sound Effects Generator](https://www.capcut.com/tools/ai-sound-effects-generator): Generates sound effects for video production.
+- [AI Speech to Text](https://www.capcut.com/tools/ai-speech-to-text): Transcribes spoken audio into text.
+- [Remove Background Noise from Audio](https://www.capcut.com/tools/remove-background-noise-from-audio): Reduces noise in audio tracks.
+- [Vocal Remover](https://www.capcut.com/tools/vocal-remover): Separates or removes vocals from audio.
+- [Auto Caption Generator](https://www.capcut.com/tools/auto-caption-generator): Automatically creates captions for videos.
+- [Add Subtitles to Video](https://www.capcut.com/tools/add-subtitles-to-video): Adds subtitles to video content.
+- [Subtitle Translator](https://www.capcut.com/tools/subtitle-translator): Translates subtitles for multilingual video publishing.
+
+## Editing and Utility Tools
+
+- [Online Video Trimmer](https://www.capcut.com/tools/online-video-trimmer): Trims video clips online.
+- [Crop Video](https://www.capcut.com/tools/crop-video): Crops video framing for different aspect ratios and platforms.
+- [Free Video Compressor](https://www.capcut.com/tools/free-video-compressor): Compresses video files for sharing and publishing.
+- [Online Video Converter](https://www.capcut.com/tools/online-video-converter): Converts video formats online.
+- [Change Video Speed](https://www.capcut.com/tools/change-video-speed): Speeds up or slows down video clips.
+- [Auto Reframe](https://www.capcut.com/tools/auto-reframe): Reframes video for different social media formats.
+- [Green Screen Software](https://www.capcut.com/tools/green-screen-software): Green screen and chroma key editing workflows.
+- [Online Screen Recorder](https://www.capcut.com/tools/online-screen-recorder): Records screen activity online.
+- [Online Image Compressor](https://www.capcut.com/tools/online-image-compressor): Compresses image files online.
+- [Online Image Converter](https://www.capcut.com/tools/online-image-converter): Converts image formats online.
+
+## Cloud and Collaboration
+
+- [Cloud Collaboration Platform](https://www.capcut.com/tools/cloud-collaboration-platform): CapCut collaboration page for shared creative work.
+- [Free Cloud Storage](https://www.capcut.com/tools/free-cloud-storage): Cloud storage page for media and creative assets.
+
+## Creator Resources
+
+- [Best AI Video Editors](https://www.capcut.com/resource/best-ai-video-editors): Guide to AI video editing tools and workflows.
+- [Top AI Video Generator Tools](https://www.capcut.com/resource/top-ai-video-generator-tools): Comparison-style resource on AI video generators.
+- [YouTube Shorts Format](https://www.capcut.com/resource/youtube-shorts-format): Resource for YouTube Shorts sizing and publishing needs.
+- [How to Make a Short Video](https://www.capcut.com/resource/how-to-make-a-short-video): Tutorial-style resource for creating short videos.
+- [Instagram Reels](https://www.capcut.com/resource/instagram-reels): Creator resource for Instagram Reels workflows.
+- [TikTok Hashtag Guide](https://www.capcut.com/resource/tiktok-hashtag-guide): TikTok discovery and hashtag resource.
+- [Online Video Editor Advantages](https://www.capcut.com/resource/online-video-editor-advantages): Educational resource explaining online editing benefits.
+- [Free Video Templates](https://www.capcut.com/resource/free-video-templates): Resource page about video template use cases.
+
+## Official Discovery and Policies
+
+- [Sitemap](https://www.capcut.com/sitemap.xml): Official sitemap index for product, article, and related URL discovery.
+- [Robots.txt](https://www.capcut.com/robots.txt): Crawl rules; allows major search and AI crawlers while excluding templates detail pages, KEP paths, activity pages, tests, and selected UA-specific tool pages.
+- [Terms of Service](https://www.capcut.com/terms-of-service): Official terms page, currently served through CapCut/ByteDance CDN infrastructure after redirect.
+- [Privacy Policy](https://www.capcut.com/privacy-policy): Official privacy policy page, currently served through CapCut/ByteDance CDN infrastructure after redirect.

@@ -1,0 +1,25 @@
+User-Agent: *
+User-Agent: GPTBot
+User-Agent: OAI-SearchBot
+User-Agent: ChatGPT-User
+User-Agent: ClaudeBot
+User-Agent: anthropic-ai
+User-Agent: PerplexityBot
+User-Agent: Perplexity-User
+User-Agent: Google-Extended
+User-Agent: Applebot-Extended
+User-Agent: CCBot
+User-Agent: Meta-ExternalAgent
+User-Agent: cohere-ai
+User-Agent: Bytespider
+User-Agent: Amazonbot
+Allow: /
+Disallow: /*sanity_test*
+
+User-Agent: Googlebot
+User-Agent: Bingbot
+User-Agent: DuckDuckBot
+Disallow: /*sanity_test*
+Disallow: /*.md$
+
+Sitemap: https://amplitude.com/sitemap.xml

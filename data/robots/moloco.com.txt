@@ -1,0 +1,243 @@
+User-agent: *
+
+# Duplication and Query Strings
+Disallow: /*page=*
+Disallow: /search?query=*
+Disallow: /*?edit*
+Disallow: /*category=*
+Disallow: /*interested_in_solution*
+Disallow: /*?lang=*
+Disallow: /*?r=0
+Disallow: /*sort_by=*
+Disallow: /*filter_by=*
+Disallow: /*ticket_form_id=*
+Disallow: *?page_id=
+Disallow: *_page=
+
+# Attachments
+Disallow: /hc/article_attachments/
+
+# Marketing Pages
+Disallow: /*/landing-pages/*
+
+#Other pages
+Disallow: */untitled
+Disallow: */dpa-mcm/*
+Disallow: */dpa-dsp/*
+Disallow: */dpa-sdk/*
+Disallow: */dpa-agency/*
+Disallow: */sronlineterms/*
+Disallow: */generalterms-ma/*
+Disallow: */content-guideline-ads/*
+Disallow: */content-guideline-ads-rmg/*
+
+# Known Scraper Bots
+User-agent: Teleport
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: CherryPicker
+Disallow: /
+
+User-agent: ERNIE-Bot
+Disallow: /
+
+User-agent: BlowFish/1.0
+Disallow: /
+
+User-agent: grub
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: Titan
+Disallow: /
+
+User-agent: Barkrowler
+Disallow: /
+
+# Malicious Bots
+User-agent: 008
+Disallow: /
+
+User-agent: Alexibot
+Disallow: /
+
+User-agent: BackDoorBot/1.0
+Disallow: /
+
+User-agent: Bullseye/1.0
+Disallow: /
+
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: Kenjin Spider
+Disallow: /
+
+User-agent: WWW-Collector-E
+Disallow: /
+
+# High-Risk Regional Bots
+User-agent: Sogou
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Mail.RU_Bot
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: Szukacz/1.4
+Disallow: /
+
+# Data Scraping Bots
+User-agent: BotALot
+Disallow: /
+
+User-agent: Bullseye/1.0
+Disallow: /
+
+User-agent: BunnySlippers
+Disallow: /
+
+User-agent: BuiltBotTough
+Disallow: /
+
+User-agent: CheeseBot
+Disallow: /
+
+User-agent: Crescent
+Disallow: /
+
+User-agent: EroCrawler
+Disallow: /
+
+User-agent: Foobot
+Disallow: /
+
+User-agent: Harvest/1.5
+Disallow: /
+
+User-agent: InfoNaviRobot
+Disallow: /
+
+User-agent: JennyBot
+Disallow: /
+
+User-agent: Mister PiX
+Disallow: /
+
+User-agent: moget
+Disallow: /
+
+User-agent: NetAnts
+Disallow: /
+
+User-agent: NICErsPRO
+Disallow: /
+
+User-agent: ProPowerBot/2.14
+Disallow: /
+
+User-agent: Radiation Retriever
+Disallow: /
+
+User-agent: RepoMonkey
+Disallow: /
+
+User-agent: RepoMonkey Bait & Tackle/v1.01
+Disallow: /
+
+User-agent: True_Robot
+Disallow: /
+
+User-agent: URL_Spider_Pro
+Disallow: /
+
+User-agent: Web Image Collector
+Disallow: /
+
+User-agent: WebAuto
+Disallow: /
+
+User-agent: WebBandit
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Website Quester
+Disallow: /
+
+User-agent: Webster Pro
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: Zeus
+Disallow: /
+
+# SEO Monitoring Bots - Set Crawl Delays
+User-agent: dotbot
+crawl-delay: 5
+
+User-agent: Rogerbot
+Crawl-delay: 5
+
+User-agent: ia_archiver
+Crawl-delay: 5
+
+User-agent: MJ12bot
+Crawl-delay: 5
+
+User-agent: Xenu
+Crawl-delay: 5
+
+User-agent: AhrefsBot
+Crawl-delay: 1
+
+User-agent: CCBot
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Crawl-delay: 5
+
+User-agent: DataForSeoBot
+Crawl-delay: 5
+
+User-agent: XoviBot
+Crawl-delay: 5
+
+User-agent: Screaming Frog SEO Spider
+Crawl-delay: 1
+
+User-agent: Keyword Density/0.9
+Crawl-delay: 5
+
+User-agent: LinkextractorPro
+Crawl-delay: 5
+
+User-agent: LinkScan/8.1a Unix
+Crawl-delay: 5
+
+User-agent: BLEXbot
+Crawl-delay: 5
+
+User-agent: spbot
+Crawl-delay: 5
+
+Sitemap: https://www.moloco.com/sitemap.xml

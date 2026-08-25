@@ -1,0 +1,4 @@
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Sitemap: https://oxylabs.io/f3h5j7k9m2n4p6q8r0.xml

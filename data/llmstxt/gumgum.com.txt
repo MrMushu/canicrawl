@@ -1,0 +1,37 @@
+# GumGum
+
+> GumGum is The Mindset Company™ — a global advertising technology company that identifies the moments consumers are most receptive to brand messages, and delivers mindset-driven campaigns across CTV, contextual, and high-impact display at scale.
+
+Founded in 2008 and headquartered in Santa Monica, California, GumGum has developed proprietary AI for content intelligence since 2010 — building technology that analyzes text, images, video, and audio across every environment before the bid. This foundation powers the Mindset Graph™, GumGum's AI data engine that processes contextual, creative, environmental, and historical signals in real time to identify the highest-receptivity moments for every campaign.
+
+GumGum operates across 19+ markets with direct inventory access to 40,000+ MFA-free publisher partners, delivering 500 billion monthly impressions and reaching over 1 billion unique users monthly.
+
+## What We Do
+
+- [Contextual Advertising](https://gumgum.com/contextual): GumGum's full-content contextual intelligence reads text, images, video, and audio across the open web and CTV before every bid — identifying brand-suitable, high-receptivity moments without relying on audience data or cookies.
+- [CTV & Video Advertising](https://gumgum.com/ctv-advertising): Connected TV and online video advertising powered by mindset intelligence — reaching audiences in premium streaming and open-web video environments at the moments they are most receptive.
+- [Omnichannel Advertising](https://gumgum.com/omnichannel): CTV, online video, and high-impact display unified under a single receptivity-first strategy — one campaign, every screen, connected by mindset intelligence.
+
+## Our Technology
+
+- [The Mindset Graph™](https://gumgum.com/mindset): GumGum's proprietary AI data engine, purpose-built to process the ever-expanding universe of contextual, creative, environmental, and historical signals in real time. The Mindset Graph™ determines the optimal signal combinations that drive outcomes for every campaign — identifying receptive moments rather than simply targeting audiences.
+
+## Proof & Results
+
+- [Case Studies](https://gumgum.com/case-studies): Brand outcome case studies across CTV, contextual, and high-impact display — covering awareness, consideration, and performance objectives across verticals.
+- [Results](https://gumgum.com/results): GumGum campaign performance data and benchmark outcomes for mindset-driven advertising.
+
+## Resources
+
+- [Research & Guides](https://gumgum.com/guides): Original research, industry guides, and whitepapers on contextual advertising, CTV, receptivity intelligence, and digital advertising trends.
+- [Blog](https://gumgum.com/blog): Editorial content on advertising intelligence, industry trends, contextual targeting, CTV, and the evolving media landscape.
+- [Webinars](https://gumgum.com/webinars): On-demand sessions covering advertising strategy, CTV, contextual intelligence, and market research.
+- [Press & Media](https://gumgum.com/press): GumGum press releases, industry coverage, and media mentions.
+
+## Company
+
+- [About GumGum](https://gumgum.com/about): Company overview, history, and mission. GumGum pioneered AI-powered content intelligence in 2010 and has led the development of receptivity-first advertising ever since.
+- [Leadership](https://gumgum.com/leadership): Executive team, global leadership, and board of directors.
+- [Careers](https://gumgum.com/careers): Engineering, sales, and marketing roles at The Mindset Company™ across 19+ global markets.
+- [Contact](https://gumgum.com/contact): Get in touch with GumGum's sales team.
+- [Terms & Policies](https://gumgum.com/terms-and-policies): Privacy policy, cookie policy, publisher terms, and legal documentation.

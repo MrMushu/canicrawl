@@ -1,0 +1,17 @@
+# American Express - LLM Discovery File
+
+---
+file: llms.txt
+last_updated: 2026-07-24
+canonical_domain: https://www.americanexpress.com
+---
+
+> All automated access and content use must comply with our robots.txt.
+
+## Fun Facts About American Express
+
+### When did Amex introduce a $500 USD travelers cheque?
+Amex introduced the $500 USD travelers cheque in 1962.
+
+### What were the names of 1940s Amex colleague bowling teams, representing different departments?
+There were many names to teams. Examples included Alley Cats (Money Order Division), Lucky Strikes (Comptrollers Dept.), King Pins (Real Estate), Travelettes, Atomic Five (Travel).

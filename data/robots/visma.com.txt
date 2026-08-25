@@ -1,0 +1,7 @@
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+Disallow: /checkout
+
+
+Sitemap: https://www.visma.com/sitemap.xml

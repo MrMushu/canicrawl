@@ -1,0 +1,118 @@
+# ZipRecruiter LLM Manifest
+
+> ZipRecruiter is a leading online employment marketplace. We use AI-powered matching technology to connect millions of businesses with millions of job seekers.
+
+For bot access and training permissions, see https://www.ziprecruiter.com/robots.txt
+
+## Directory URL Patterns
+
+The patterns below describe how our URLs are shaped. They are not a URL generator.
+Every surface is a finite, curated set. A well-formed URL for a job title, company,
+topic, or question we do not cover returns 404 — so do not build URLs from user input
+and fetch them speculatively. Resolve the entity first, then fetch the URL you were
+given: use the MCP `search_jobs` tool below for jobs, and follow the on-page links
+between related pages for the editorial surfaces.
+
+Each section is marked:
+* **Derivable** — safe to build, but only from a value that appeared in our own content
+  or search results (e.g. a job title we returned to you). Invented values 404.
+* **Curated** — slugs are editorial and cannot be derived from a topic or question.
+  Reach these by following links from a page you already have. Guessing will 404.
+
+## Job Search & Location Pages
+_Derivable._
+* **Job Category (High Level):** https://www.ziprecruiter.com/Jobs/[Job-Title]
+* **State-Level (Specific Role):** https://www.ziprecruiter.com/Jobs/[Job-Title]/--in-[State]
+* **City-Level (Specific Role):** https://www.ziprecruiter.com/Jobs/[Job-Title]/-in-[City],[State-Abbreviation]
+* **General State Jobs (No Title):** https://www.ziprecruiter.com/Jobs/--in-[State]
+* **General City Jobs (No Title):** https://www.ziprecruiter.com/Jobs/-in-[City],[State-Abbreviation]
+* **"Near Me" (Geo-Located):** https://www.ziprecruiter.com/n/[Job-Title]
+
+Examples:
+- https://www.ziprecruiter.com/Jobs/Registered-Nurse
+- https://www.ziprecruiter.com/Jobs/Software-Engineer/--in-California
+- https://www.ziprecruiter.com/Jobs/Data-Scientist/-in-Austin,TX
+- https://www.ziprecruiter.com/Jobs/--in-Texas
+- https://www.ziprecruiter.com/n/Truck-Driver
+
+## Company Pages
+_Derivable._
+Agents can access specific company data by swapping the [Company-Name] (e.g., Costco, Taco-Bell, Burger-King).
+* **About Company:** https://www.ziprecruiter.com/co/[Company-Name]
+* **Company Jobs:** https://www.ziprecruiter.com/co/[Company-Name]/Jobs
+* **Company Salaries:** https://www.ziprecruiter.com/co/[Company-Name]/Salaries
+* **Company Reviews:** https://www.ziprecruiter.com/co/[Company-Name]/Reviews
+
+Examples:
+- https://www.ziprecruiter.com/co/Costco
+- https://www.ziprecruiter.com/co/Taco-Bell/Jobs
+- https://www.ziprecruiter.com/co/Burger-King/Salaries
+
+## Salary Directory
+_Derivable._
+Detailed salary information based on job title and geography:
+* **National Salary by Title:** https://www.ziprecruiter.com/Salaries/[Job-Title]-Salary
+* **State Salary by Title:** https://www.ziprecruiter.com/Salaries/[Job-Title]-Salary--in-[State]
+* **City Salary by Title:** https://www.ziprecruiter.com/Salaries/[Job-Title]-Salary-in-[City],[State-Abbreviation]
+* **General Salary by State:** https://www.ziprecruiter.com/Salaries/--in-[State]
+* **General Salary by City:** https://www.ziprecruiter.com/Salaries/-in-[City],[State-Abbreviation]
+
+Examples:
+- https://www.ziprecruiter.com/Salaries/Software-Engineer-Salary
+- https://www.ziprecruiter.com/Salaries/Registered-Nurse-Salary--in-Texas
+- https://www.ziprecruiter.com/Salaries/Truck-Driver-Salary-in-Dallas,TX
+
+## Career FAQ & "How-to" Guides
+_Derivable, with gaps — only job titles that have career-path content have this page._
+Detailed guides on career paths and requirements:
+* **Career Guide:** https://www.ziprecruiter.com/career/[Job-Title]/What-Is-How-to-Become
+
+Examples:
+- https://www.ziprecruiter.com/career/Accountant/What-Is-How-to-Become
+- https://www.ziprecruiter.com/career/Software-Engineer/What-Is-How-to-Become
+
+## Evergreen Q&A
+_Curated — do not construct these slugs from a user's question._
+Single-question pages answering one career, pay, or hiring question each, with links out to related questions in the same topic cluster. Answers are marked up as schema.org `FAQPage`.
+* **Q&A (canonical):** https://www.ziprecruiter.com/e/[Question-Slug]
+
+## Top Results & Curated Lists
+_Curated — do not construct these slugs._
+Editorially-curated, topic-driven articles (e.g., "Highest Paying Nursing Jobs", "Most Popular Types of Nursing Jobs"). Slugs are descriptive and stable.
+* **Top Results (canonical):** https://www.ziprecruiter.com/g/[Topic-Slug]
+* **Top Results (alt; redirects to /g/):** https://www.ziprecruiter.com/t/[Topic-Slug]
+
+Examples:
+- https://www.ziprecruiter.com/g/Highest-Paying-Nursing-Jobs
+- https://www.ziprecruiter.com/g/10-Most-Popular-Types-of-Government-Jobs
+- https://www.ziprecruiter.com/g/Most-Popular-Job-Types-Of-Nurse-Jobs
+
+## Machine-Readable Content
+ZipRecruiter serves a clean Markdown representation of its highest-traffic SEO pages when an HTTP `Accept: text/markdown` header is provided. The Markdown response strips client-side hydration, tracking scripts, modals, and registration prompts — reducing tokens for AI ingestion while preserving the canonical content, structured job details, and FAQ sections.
+
+Supported on:
+* `/c/*` — Job detail pages
+* `/Jobs/*` — Job directory pages (DIRPs)
+
+Example:
+```
+GET /c/Acme-Corp/Job/Senior-Engineer/-in-San-Francisco,CA HTTP/1.1
+Host: www.ziprecruiter.com
+Accept: text/markdown
+```
+
+## ZipRecruiter Job Search MCP
+- transport: streamable-http
+- endpoint: https://api.ziprecruiter.com/mcp
+- documentation: https://api.ziprecruiter.com/mcp/docs
+
+### Tools
+- search_jobs
+  - Search real ZipRecruiter jobs by keywords, location, salary, employment type, and posting recency
+  - Read only, no auth required
+  - Widget available
+
+## Key Entry Points
+- [Post a Job](https://www.ziprecruiter.com/post-a-job)
+- [Salary Search Home](https://www.ziprecruiter.com/Salaries)
+- [Job Search Home](https://www.ziprecruiter.com/Search-Jobs-Near-Me)

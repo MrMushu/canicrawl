@@ -1,0 +1,77 @@
+Vercel Agent works where you do
+
+[Add to Slack](/blog/introducing-vercel-for-slack)
+
+# Agentic Infrastructure
+
+For coding agents to ship apps and agents automated by agents.
+
+[Deploy now](/new) [Talk to sales](/contact/sales)
+
+## Build agents on infrastructure that thinks like them
+
+![Build agents on infrastructure that thinks like them](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/notion-mobile-dark.webp)![Build agents on infrastructure that thinks like them](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/notion-mobile-light.webp)
+
+![Build agents on infrastructure that thinks like them](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/notion-desktop-dark.webp)![Build agents on infrastructure that thinks like them](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/notion-desktop-light.webp)
+
+Notion powers millions of agent conversations daily on Vercel.
+
+- Features
+- Durable Orchestration
+- Sandboxed Environments
+- AI Model Gateway
+- Fluid Compute
+
+## Ship apps that scale from zero to millions instantly
+
+![Ship apps that scale from zero to millions instantly](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/zapier-mobile-dark.webp)![Ship apps that scale from zero to millions instantly](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/zapier-mobile-light.webp)
+
+![Ship apps that scale from zero to millions instantly](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/zapier-desktop-dark.webp)![Ship apps that scale from zero to millions instantly](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/zapier-desktop-light.webp)
+
+Zapier serves over 100 million monthly website visits on Vercel.
+
+- Features
+- Global Delivery
+- Deployment Environments
+- Serverless Functions
+- Web Application Firewall
+
+## Host platforms that serve every customer
+
+![Host platforms that serve every customer](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/mintlify-mobile-dark.webp)![Host platforms that serve every customer](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/mintlify-mobile-light.webp)
+
+![Host platforms that serve every customer](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/mintlify-desktop-dark.webp)![Host platforms that serve every customer](https://lishhsx6kmthaacj.public.blob.vercel-storage.com/mintlify-desktop-light.webp)
+
+Mintlify powers documentation for over 20,000 companies on Vercel.
+
+- Features
+- Tenant Isolation
+- Domain Management
+- Custom SSL Certificates
+- Preview URLs
+
+## Recently shipped
+
+[
+
+![Eve](/vc-ap-vercel-marketing/_next/static/immutable/media/eve-light.1e3bxs4ejw62x.svg)![Eve](/vc-ap-vercel-marketing/_next/static/immutable/media/eve-dark.2l_s1mlvozam3.svg)
+
+A framework for building durable agents.
+
+](/eve) [
+
+Passport
+
+Secure every internal agent, app, and deployment with your identity provider.
+
+](/passport) [
+
+Containers
+
+Run production workloads in isolated containers on Vercel.
+
+](https://vercel.com/blog/dockerfile-on-vercel)
+
+## Built by you, or your agents
+
+[Deploy now](/new)

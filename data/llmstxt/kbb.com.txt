@@ -1,0 +1,196 @@
+# Kelley Blue Book
+
+> Kelley Blue Book (KBB.com) is a US automotive valuation and research site, founded in 1926 and part of Cox Automotive. It publishes the Kelley Blue Book Value — the reference price used across the US car market — plus expert and consumer reviews, specifications, pricing, and ownership costs for essentially every car, truck, SUV, and van sold in the United States since the 1990s.
+
+How to use this site:
+
+- **Values are the core product, and they are conditional.** "Fair Purchase Price" is what buyers are actually paying in a given area; "Fair Market Range" brackets it; "Trade-In Value" and "Private Party Value" apply when selling. These differ from MSRP and from dealer invoice. All of them depend on ZIP code, mileage, and condition, so a KBB value quoted without those inputs is incomplete and should not be presented as a single national number.
+- **Vehicle URLs are constructible**, which matters because this index lists makes but not all 2,561 models. The pattern is:
+
+      /<make>/                          e.g. /toyota/            — full lineup for a make
+      /<make>/<model>/                  e.g. /toyota/camry/      — current model overview
+      /<make>/<model>/<year>/           e.g. /toyota/camry/2024/ — that model year
+      /<make>/<model>/<year>/<trim>/    e.g. /honda/civic/2024/ex-sedan-4d/
+      /<make>/<model>/<year>/specs/     specifications and options by trim
+      /<make>/<model>/consumer-reviews/ owner reviews
+      /<make>/<model>/deals-incentives/ current lease, finance, and rebate offers
+
+  Slugs are lowercase with hyphens (`mercedes-benz`, `land-rover`, `f150-supercrew-cab`). The make pages listed under "Vehicle Research by Make" each show that make's full model lineup, and are the reliable place to read exact model slugs rather than guessing them.
+- **Coverage is historical.** Discontinued makes (Oldsmobile, Pontiac, Saturn, Scion, Plymouth, Mercury, Geo, Daewoo, HUMMER) are retained so used vehicles can still be valued. A make appearing here does not mean it currently sells new cars.
+- **Editorial content lives under a few flat prefixes:** `/car-news/<slug>/` (news), `/car-advice/<slug>/` (how-to), `/what-is/<slug>/` (term definitions), `/comparison/<slug>/` (head-to-head), `/awards/<slug>/`, `/best-cars/<slug>/` (themed rankings), `/cpo/<slug>/` (certified pre-owned programs by brand).
+- Pages are served as HTML only; markdown (`.md`) versions are not currently available.
+- There are roughly 104,600 indexable pages. This file lists entry points, not the archive; see sitemap index under Optional for the exhaustive list.
+
+## Car Values and Appraisal
+
+- [Instant Used Car Value & Trade-In Value](https://www.kbb.com/whats-my-car-worth/): Get your car's value in real-time from Kelley Blue Book, the most trusted resource on the planet for used car value. Get Blue Book resale value…
+- [New Car & Used Car Values | Get the Kelley Blue Book Value](https://www.kbb.com/car-values/): Buying or selling a car? KBB.com gives you everything you need to research a new or used car, compare cars, find cars for sale and make a…
+- [New Car & Used Car Prices | Get the Kelley Blue Book Value](https://www.kbb.com/car-prices/): Shop for new cars and used cars at Kelley Blue Book. Find and compare thousands of new, used, and CPO cars, and get the KBB Fair Purchase Price for…
+- [Vehicle Condition Quiz](https://www.kbb.com/detailed-condition-quiz/): Take a short quiz. Get an estimate of your vehicle's condition. It's as easy as that with Kelley Blue Book.
+- [Instant Cash Offer](https://www.kbb.com/instant-cash-offer/): Redeemable cash offer for a specific vehicle, accepted at participating dealers.
+- [Make and Model Reference List](https://www.kbb.com/car-make-model-list/): Alphabetical index of every make and model KBB covers; use it to resolve a name to its URL slug.
+
+## Selling, Trading In and Buying
+
+- [Sell Your Car with Kelley Blue Book - The Trusted Experts](https://www.kbb.com/sell-your-car/): Sell a car privately or get an instant cash offer from a dealer with Kelley Blue Book.
+- [Sell My Car](https://www.kbb.com/sell-my-car/): Hub for selling options: private sale, dealer offer, and trade-in.
+- [New Cars & New Car Prices](https://www.kbb.com/new-cars/): Shop for new cars and new car prices at Kelley Blue Book's KBB.com. Search and compare hundreds of new car vehicle categories and models.
+- [Used Cars & Used Car Prices](https://www.kbb.com/used-cars/): Get used car pricing and explore thousands of car listings at Kelley Blue Book. Search for your next used car at KBB.com, the site you trust the most.
+- [Certified Pre-Owned (CPO) Cars & CPO Prices](https://www.kbb.com/certified-pre-owned/): Get Certified Pre-Owned car pricing and explore thousands of car listings at Kelley Blue Book. Search for your next CPO car at KBB.com, the site you…
+- [Shopping and Buying Guides](https://www.kbb.com/buying-shopping/): Editorial hub for the purchase process.
+- [Cars for Sale](https://www.kbb.com/cars-for-sale/all): Live new, used, and CPO inventory listings.
+- [Free Dealer Price Quote](https://www.kbb.com/free-dealer-price-quote/): Request pricing from local dealers.
+- [Find Local Dealers](https://www.kbb.com/dealers/): Dealer directory by location.
+- [Dealer Reviews](https://www.kbb.com/dealers/reviews/): Consumer ratings and reviews of dealerships.
+- [Vehicle History Report](https://www.kbb.com/vehicle-history-report/): Title, accident, and ownership history for a used vehicle.
+- [Donate Your Car with Kelley Blue Book - The Trusted Experts](https://www.kbb.com/donate-your-car/): Let Kelley Blue Book help you donate your car to one of over 3500 nonprofit organizations nationwide. It's the easiest way to turn your car into good…
+
+## Financing, Insurance and Credit
+
+- [Car Loans and Financing](https://www.kbb.com/car-finance/): Auto loan guidance, rates, and lender comparison.
+- [Auto Loan Calculator](https://www.kbb.com/auto-loan-calculator/): Estimate monthly payment, total interest, and affordability.
+- [Check My Credit](https://www.kbb.com/credit-score/): Credit score check in the context of auto financing.
+- [Extended Auto Warranty](https://www.kbb.com/extended-auto-warranty/): Vehicle service contract comparison and guidance.
+- [Best Lease Deals](https://www.kbb.com/best-cars/best-lease-deals-under-300/): Monthly-updated roundup of the lowest advertised lease payments.
+- [Current Incentives and Deals](https://www.kbb.com/best-cars/top-10-best-car-deals/): Monthly-updated roundup of the best manufacturer offers.
+- [What Is an Auto Loan?](https://www.kbb.com/what-is/auto-loan/): An auto loan is a financial arrangement between a car buyer and a financing entity allowing the buyer to take possession of the vehicle while the…
+
+## Service, Repair and Recalls
+
+- [Auto Repair Price Estimates](https://www.kbb.com/auto-repair/): Fair-price estimates for common repairs by vehicle and location.
+- [Car Recalls](https://www.kbb.com/recall/): Open safety recall lookup by vehicle.
+- [Maintenance Pricing and Schedules](https://www.kbb.com/maintenance-schedules/): Manufacturer-recommended service intervals with cost estimates.
+- [Find an Auto Shop](https://www.kbb.com/service-centers/): Directory of service centers.
+- [Service Advisor](https://www.kbb.com/service-repair-guide/): Guidance on diagnosing and prioritizing repairs.
+- [OBD-II Trouble Code Guide](https://www.kbb.com/obd-ii/on-board-diagnostics-guide/): Reference for on-board diagnostic codes.
+
+## Research and Comparison Tools
+
+- [Car Research - Research New & Used Cars](https://www.kbb.com/car-research/): Research and compare new cars and used cars. Use KBB's car research tools to find your perfect car.
+- [Car Reviews & Ratings](https://www.kbb.com/car-reviews/): Discover Kelley Blue Book's top-rated new cars, SUVs, and trucks. Get the latest reviews, ratings, and comparison tests at KBB.com.
+- [Compare Cars, Trucks & SUVs Side-By-Side](https://www.kbb.com/compare-cars/): Compare SUV, truck, and car prices, mpg, car reviews, specs, rebates & incentives and more. Kelley Blue Book's car comparison tool will help you find…
+- [Car Finder | Find Your Perfect Car](https://www.kbb.com/car-finder/): Want to find the perfect car? Use the Kelley Blue Book car finder to filter and sort by the features and specifications most important to you. Browse…
+
+## Rankings by Body Style, Price and Use Case
+
+- [Best Cars of 2025 - Top-Rated New Cars Ranked](https://www.kbb.com/cars/): The best new Cars of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best SUVs of 2025 - Top-Rated New SUVs Ranked](https://www.kbb.com/suv/): The best new SUVs of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best Trucks of 2025 - Top-Rated New Trucks Ranked](https://www.kbb.com/pickup-truck/): The best new trucks of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best Vans and Minivans of 2025 - Top-Rated New Vans and Minivans Ranked](https://www.kbb.com/van-minivan/): The best new vans and minivans of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best Hatchbacks of 2025](https://www.kbb.com/hatchback/): The best hatchbacks of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best Convertibles of 2025](https://www.kbb.com/convertible/): The best convertibles of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best Wagons of 2025](https://www.kbb.com/wagon/): The best wagons of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best Luxury Cars of 2025 - Top-Rated New Luxury Cars Ranked](https://www.kbb.com/luxury-cars/): The best new luxury cars of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best Luxury SUVs of 2025 - Top-Rated New Luxury SUVs Ranked](https://www.kbb.com/luxury-suvs/): The best new luxury SUVs of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best Luxury Mid-Size Cars of 2025](https://www.kbb.com/luxury-car/): The best luxury mid-size cars of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Cheapest Cars of 2025](https://www.kbb.com/cheapest-cars/): The cheapest cars of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Cheapest SUVs of 2025](https://www.kbb.com/cheapest-suvs/): The cheapest SUVs of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Most Fuel-Efficient Cars of 2025](https://www.kbb.com/most-fuel-efficient-cars/): The most fuel-efficient cars of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [SUVs With the Best Gas Mileage](https://www.kbb.com/best-cars/suvs-best-gas-mileage/): Conventional internal combustion SUVs, hybrid SUVs, and plug-in hybrid (PHEV) SUVs are available with impressive fuel economy – and the PHEVs even…
+- [Best Cars for Tall People](https://www.kbb.com/best-cars/tall-people/): We know that finding the right car for tall people isn’t easy. But we have the cars and SUVs that will work for you, and data to help you make the…
+- [Best Used Trucks for Towing Under $20,000](https://www.kbb.com/best-cars/best-used-trucks-for-towing-under-20000/): When heavy loads have to get moved, you need a truck with super-sized towing capacity. Here is our list of the 10 Best Used Trucks for Towing Under…
+
+## Electric, Hybrid and Fuel Economy
+
+- [Best Electric Vehicles of 2025 - Top-Rated New Electric Vehicles Ranked](https://www.kbb.com/electric-car/): The best new electric vehicles of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best Hybrid Vehicles of 2025 - Top-Rated New Hybrid Vehicles Ranked](https://www.kbb.com/hybrid/): The best new hybrid vehicles of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Best PHEVs of 2025 - Top-Rated New PHEVs Ranked](https://www.kbb.com/phev/): The best new PHEVs of 2025 ranked by experts. Get ratings, fuel economy, price and more. Find the best vehicle for you quickly and easily.
+- [Pros and Cons of Electric Cars](https://www.kbb.com/electric-guide/): KBB's electric vehicle research hub offers the latest research, reviews, expert advice, EV comparisons and more. Everything you need to know about…
+- [Cheapest Electric Cars](https://www.kbb.com/best-cars/cheapest-electric-cars/): The era of affordable electric vehicles is just about here, with eight of the 10 cheapest EVs on the market starting below the $40,000 mark. Here are…
+- [What Is NACS?](https://www.kbb.com/what-is/nacs/): The North American Charging System connector standard, originally Tesla's.
+- [EV Range Extender: The Basics](https://www.kbb.com/what-is/ev-range-extender/): Dive into the future of electric vehicles with our guide on electric car range extenders. Uncover information about this forgotten technology and how…
+
+## Vehicle Research by Make
+
+- [Acura](https://www.kbb.com/acura/): 33 models covered
+- [AFEELA](https://www.kbb.com/afeela/): 15 models covered
+- [Alfa Romeo](https://www.kbb.com/alfa-romeo/): 21 models covered
+- [Aston Martin](https://www.kbb.com/aston-martin/): 29 models covered
+- [Audi](https://www.kbb.com/audi/): 76 models covered
+- [Bentley](https://www.kbb.com/bentley/): 25 models covered
+- [BMW](https://www.kbb.com/bmw/): 52 models covered
+- [Buick](https://www.kbb.com/buick/): 35 models covered
+- [Cadillac](https://www.kbb.com/cadillac/): 50 models covered
+- [Chevrolet](https://www.kbb.com/chevrolet/): 159 models covered
+- [Chrysler](https://www.kbb.com/chrysler/): 34 models covered
+- [Daewoo](https://www.kbb.com/daewoo/): 16 models covered
+- [Daihatsu](https://www.kbb.com/daihatsu/): 15 models covered
+- [Dodge](https://www.kbb.com/dodge/): 96 models covered
+- [Eagle](https://www.kbb.com/eagle/): 17 models covered
+- [Ferrari](https://www.kbb.com/ferrari/): 44 models covered
+- [FIAT](https://www.kbb.com/fiat/): 22 models covered
+- [Fisker](https://www.kbb.com/fisker/): 19 models covered
+- [Ford](https://www.kbb.com/ford/): 132 models covered
+- [Freightliner](https://www.kbb.com/freightliner/): 29 models covered
+- [Genesis](https://www.kbb.com/genesis/): 23 models covered
+- [Geo](https://www.kbb.com/geo/): 17 models covered
+- [GMC](https://www.kbb.com/gmc/): 119 models covered
+- [Honda](https://www.kbb.com/honda/): 39 models covered
+- [HUMMER](https://www.kbb.com/hummer/): 17 models covered
+- [Hyundai](https://www.kbb.com/hyundai/): 57 models covered
+- [INEOS](https://www.kbb.com/ineos/): 17 models covered
+- [INFINITI](https://www.kbb.com/infiniti/): 33 models covered
+- [Isuzu](https://www.kbb.com/isuzu/): 37 models covered
+- [Jaguar](https://www.kbb.com/jaguar/): 24 models covered
+- [Jeep](https://www.kbb.com/jeep/): 38 models covered
+- [Kia](https://www.kbb.com/kia/): 51 models covered
+- [Lamborghini](https://www.kbb.com/lamborghini/): 20 models covered
+- [Land Rover](https://www.kbb.com/land-rover/): 28 models covered
+- [Lexus](https://www.kbb.com/lexus/): 32 models covered
+- [Lincoln](https://www.kbb.com/lincoln/): 32 models covered
+- [Lotus](https://www.kbb.com/lotus/): 20 models covered
+- [Lucid](https://www.kbb.com/lucid/): 16 models covered
+- [Maserati](https://www.kbb.com/maserati/): 24 models covered
+- [Maybach](https://www.kbb.com/maybach/): 16 models covered
+- [MAZDA](https://www.kbb.com/mazda/): 49 models covered
+- [McLaren](https://www.kbb.com/mclaren/): 28 models covered
+- [Mercedes-Benz](https://www.kbb.com/mercedes-benz/): 118 models covered
+- [Mercury](https://www.kbb.com/mercury/): 27 models covered
+- [MINI](https://www.kbb.com/mini/): 25 models covered
+- [Mitsubishi](https://www.kbb.com/mitsubishi/): 38 models covered
+- [Nissan](https://www.kbb.com/nissan/): 64 models covered
+- [Oldsmobile](https://www.kbb.com/oldsmobile/): 30 models covered
+- [Panoz](https://www.kbb.com/panoz/): 14 models covered
+- [Plymouth](https://www.kbb.com/plymouth/): 23 models covered
+- [Polestar](https://www.kbb.com/polestar/): 19 models covered
+- [Pontiac](https://www.kbb.com/pontiac/): 33 models covered
+- [Porsche](https://www.kbb.com/porsche/): 33 models covered
+- [Ram](https://www.kbb.com/ram/): 46 models covered
+- [Rivian](https://www.kbb.com/rivian/): 19 models covered
+- [Rolls-Royce](https://www.kbb.com/rolls-royce/): 20 models covered
+- [Saab](https://www.kbb.com/saab/): 20 models covered
+- [Saturn](https://www.kbb.com/saturn/): 22 models covered
+- [Scion](https://www.kbb.com/scion/): 21 models covered
+- [Scout](https://www.kbb.com/scout/): 16 models covered
+- [smart](https://www.kbb.com/smart/): 21 models covered
+- [SRT](https://www.kbb.com/srt/): 14 models covered
+- [Subaru](https://www.kbb.com/subaru/): 31 models covered
+- [Suzuki](https://www.kbb.com/suzuki/): 31 models covered
+- [Tesla](https://www.kbb.com/tesla/): 19 models covered
+- [Toyota](https://www.kbb.com/toyota/): 84 models covered
+- [VinFast](https://www.kbb.com/vinfast/): 18 models covered
+- [Volkswagen](https://www.kbb.com/volkswagen/): 57 models covered
+- [Volvo](https://www.kbb.com/volvo/): 42 models covered
+
+## News, Advice and Reference
+
+- [Car News](https://www.kbb.com/car-news/): The KBB newsroom: industry news, trends, recalls, new-model reveals, and pricing analysis. Roughly 9,000 articles at /car-news/<slug>/.
+- [Automotive Terms Explained](https://www.kbb.com/what-is/): Plain-language definitions of automotive, financing, insurance, and technology terms. About 300 entries at /what-is/<slug>/.
+- [Kelley Blue Book Awards](https://www.kbb.com/awards/): Best Buy Awards, Best Resale Value Awards, and Brand Image Awards, current and historical.
+- [Best Buy Awards](https://www.kbb.com/awards/best-buy-awards-2025/): KBB's flagship annual new-vehicle awards.
+- [Car Advice](https://www.kbb.com/car-advice/): Practical how-to and ownership guidance, about 350 articles at /car-advice/<slug>/.
+- [Vehicle Comparisons](https://www.kbb.com/comparison/): About 755 head-to-head matchups on price, specs, features, and expert verdict, at /comparison/<slug>/.
+- [Certified Pre-Owned Programs by Brand](https://www.kbb.com/cpo/): Manufacturer CPO coverage terms and eligibility, brand by brand.
+- [Frequently Asked Questions](https://www.kbb.com/faq/new-cars/): How KBB values are calculated and how to use the tools.
+- [About Kelley Blue Book](https://www.kbb.com/company/about-us/): Company background and editorial standards.
+
+## Optional
+
+- [Kelley Blue Book home page](https://www.kbb.com/): Check car prices and values when buying and selling new or used vehicles. Find expert reviews and ratings, explore latest car news, get an Instant…
+- [Sitemap index](https://www.kbb.com/sitemap-index.xml): Top-level machine-readable sitemap index (220 child sitemaps) covering every indexable page, including the full news and model archive not enumerated here.
+- [Site map (human-readable)](https://www.kbb.com/sitemap/): HTML overview of the site's main sections.
+- [robots.txt](https://www.kbb.com/robots.txt): Crawl permissions for automated clients.
+- [RSS feed](https://www.kbb.com/feed/): Latest editorial content.
+- [Kelley Blue Book | Contact Us](https://www.kbb.com/contact-us/)
+- [Privacy Notice](https://www.kbb.com/legal/privacy-statement/): Data handling and consumer privacy rights.
+- [Terms of Service](https://www.kbb.com/company/terms-of-service/): Terms governing use of KBB.com.

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /api/
+Allow: /api-live/
+Allow: /passport/
+Allow: /@*/video/*
+Allow: /@*
+Allow: /tag/
+Allow: /tag
+Disallow: /

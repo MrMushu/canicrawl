@@ -1,0 +1,16 @@
+User-agent: *
+Allow:*
+Disallow: */apps/*
+Disallow: */wbg/services/*
+Disallow: */fragments/*
+Disallow: */fragment/*
+Disallow: */en/webarchives/archive*
+Disallow: */misc*
+Disallow: */conf/*
+Disallow: */downloadstats/*
+Disallow: */wbg/aem/*
+Disallow: */en/search*
+Disallow: */content/search*
+Disallow: */en/programs/umbrellafacilityforgenderequality/brief/ufge-partnership-council-meeting*
+Disallow: *.print*
+Sitemap: https://www.worldbank.org/sitemap.xml
