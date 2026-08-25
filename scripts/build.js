@@ -59,11 +59,12 @@ function page({ title, desc, depth, active, content, extraHead = "" }) {
 ${extraHead}
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="wrap">
   <a class="logo" href="${p}"><em>✓</em> canicrawl</a>
   <nav class="main">${nav.map(([h, l]) => `<a href="${p}${h}"${(active === l) ? ' class="active"' : ""}>${l}</a>`).join("")}</nav>
 </div></header>
-<main><div class="wrap">
+<main id="main"><div class="wrap">
 ${content}
 </div></main>
 <footer class="site"><div class="wrap">
@@ -77,6 +78,22 @@ ${content}
 function write(rel, html) {
   const f = path.join(DIST, rel);
   fs.mkdirSync(path.dirname(f), { recursive: true });
+  if (rel.endsWith(".html")) {
+    // Inject canonical + OG/Twitter tags derived from each page's own title/description.
+    const url = ORIGIN + "/" + rel.replace(/index\.html$/, "").replace(/\\/g, "/");
+    const title = (html.match(/<title>([^<]*)<\/title>/) || [])[1] ?? "Canicrawl";
+    const desc = (html.match(/<meta name="description" content="([^"]*)"/) || [])[1] ?? "";
+    html = html.replace("</head>", `<link rel="canonical" href="${url}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Canicrawl">
+<meta property="og:title" content="${title}">
+<meta property="og:description" content="${desc}">
+<meta property="og:url" content="${url}">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c0a09" media="(prefers-color-scheme: dark)">
+</head>`);
+  }
   fs.writeFileSync(f, html);
 }
 

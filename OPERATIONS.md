@@ -56,7 +56,7 @@ The operating system for both products. Loops and ops sessions execute the **Rin
 ## Ring queue (loops execute top-to-bottom; tick + journal each; add, never silently drop)
 
 - [x] SS-1: llms.txt polish + llms-full.txt + JSON-LD/OG parity for ShortSupply; sitemap ping treatment (IndexNow key + script + workflow step) — done 2026-08-24 night
-- [ ] CC-1: OG/meta + a11y/perf audit pass (both themes, reduced-motion, contrast, Lighthouse)
+- [x] CC-1: OG/meta + a11y pass — canonical + OG/Twitter + theme-color injected at write-time on ALL pages BOTH sites; skip-to-content links; contrast audited OK; no animations so reduced-motion N/A. Deferred to future ring: 1,000-row homepage table weight (~400KB — consider per-category split if Lighthouse complains on real devices) — done 2026-08-24 night
 - [ ] CC-2: "State of the Agent Web #1" digest page (lead: 93.9% news vs 31.4% overall; llms.txt adoption by category; SO-418 kicker)
 - [ ] SS-2: availability-change detection in differ + /graveyard/ page for vanished drugs
 - [ ] CC-3: MARKETING.md launch-kit final pass (live numbers, palewire prior-art citation in methodology/about)

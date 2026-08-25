@@ -14,6 +14,9 @@
   }
 }
 * { box-sizing: border-box; }
+.skip { position: absolute; left: -9999px; top: 0; background: var(--surface); color: var(--text);
+  padding: 8px 14px; border: 1px solid var(--border); border-radius: 0 0 8px 0; z-index: 10; }
+.skip:focus { left: 0; }
 body { margin: 0; background: var(--bg); color: var(--text);
   font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
 a { color: var(--accent); text-decoration: none; }
