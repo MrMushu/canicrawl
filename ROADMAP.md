@@ -2,16 +2,16 @@
 
 **Current phase: M1 — founding build.**
 
-## M1 — Founding build (2026-08-24 session)
-- [ ] Repot project docs + memory around Canicrawl
-- [ ] Curated domain list (~200 recognizable sites, categorized)
-- [ ] AI bot registry (~16 user agents with operator/purpose metadata)
-- [ ] Crawler: robots.txt fetch + RFC 9309 parse + llms.txt detection
-- [ ] First real crawl — founding snapshot committed
-- [ ] Static site generator: home (searchable table), per-site pages, per-bot pages, stats, changelog, about/methodology, API docs
-- [ ] Our own robots.txt (welcoming) + llms.txt + static JSON API
-- [ ] Local preview verified in browser
-- [ ] GitHub Actions workflow ready (daily crawl → rebuild → deploy)
+## M1 — Founding build (2026-08-24 session) ✅
+- [x] Repot project docs + memory around Canicrawl
+- [x] Curated domain list (232 recognizable sites, 17 categories)
+- [x] AI bot registry (16 user agents with operator/purpose metadata)
+- [x] Crawler: robots.txt fetch + RFC 9309 parse + llms.txt detection (scripts/crawl.js)
+- [x] First real crawl — founding snapshot 2026-08-25 (UTC) committed
+- [x] Static site generator: 256 pages — home (searchable table), 232 site pages, 16 bot pages, stats w/ SVG chart + Dataset JSON-LD, changelog, about/methodology, API docs (scripts/build.js)
+- [x] Our own robots.txt (welcoming) + llms.txt + static JSON API (latest.json + per-site JSON)
+- [x] Local preview verified in browser (home, site page, stats, bot page, all endpoints 200)
+- [x] GitHub Actions workflow ready (.github/workflows/daily.yml: daily crawl → commit snapshot → rebuild → deploy)
 
 ## M2 — Deploy (needs user: one-time GitHub auth)
 - [ ] Create GitHub repo, push, enable Pages + Actions

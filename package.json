@@ -1,0 +1,12 @@
+{
+  "name": "canicrawl",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily-updated index of which websites allow or block AI crawlers and agents.",
+  "scripts": {
+    "crawl": "node scripts/crawl.js",
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js"
+  }
+}

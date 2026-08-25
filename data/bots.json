@@ -1,0 +1,22 @@
+{
+  "note": "AI-associated user agent tokens we check in each robots.txt. 'purpose': training = collects data for model training; search = builds an AI search index; fetch = retrieves a page live at a user's request.",
+  "headline": ["GPTBot", "ClaudeBot", "Google-Extended", "PerplexityBot", "CCBot", "Bytespider"],
+  "bots": {
+    "GPTBot":            { "operator": "OpenAI",      "purpose": "training", "desc": "Collects public web data that may be used to train OpenAI models.", "docs": "https://platform.openai.com/docs/bots" },
+    "ChatGPT-User":      { "operator": "OpenAI",      "purpose": "fetch",    "desc": "Fetches a page live when a ChatGPT user asks about it.", "docs": "https://platform.openai.com/docs/bots" },
+    "OAI-SearchBot":     { "operator": "OpenAI",      "purpose": "search",   "desc": "Builds the index behind ChatGPT search; blocking it removes you from ChatGPT search results.", "docs": "https://platform.openai.com/docs/bots" },
+    "ClaudeBot":         { "operator": "Anthropic",   "purpose": "training", "desc": "Collects public web data that may be used to train Anthropic models.", "docs": "https://support.claude.com/en/articles/8896518" },
+    "Claude-User":       { "operator": "Anthropic",   "purpose": "fetch",    "desc": "Fetches a page live when a Claude user asks about it.", "docs": "https://support.claude.com/en/articles/8896518" },
+    "Claude-SearchBot":  { "operator": "Anthropic",   "purpose": "search",   "desc": "Indexes pages to improve Claude's search citations.", "docs": "https://support.claude.com/en/articles/8896518" },
+    "Google-Extended":   { "operator": "Google",      "purpose": "training", "desc": "Control token: blocking it opts your content out of Gemini training and grounding, without affecting Google Search.", "docs": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers" },
+    "Applebot-Extended": { "operator": "Apple",       "purpose": "training", "desc": "Control token: blocking it opts your content out of Apple Intelligence training.", "docs": "https://support.apple.com/en-us/119829" },
+    "PerplexityBot":     { "operator": "Perplexity",  "purpose": "search",   "desc": "Indexes pages for Perplexity's answer engine.", "docs": "https://docs.perplexity.ai/guides/bots" },
+    "Perplexity-User":   { "operator": "Perplexity",  "purpose": "fetch",    "desc": "Fetches a page live when a Perplexity user asks about it.", "docs": "https://docs.perplexity.ai/guides/bots" },
+    "CCBot":             { "operator": "Common Crawl","purpose": "training", "desc": "Builds the open Common Crawl corpus, historically a major source of AI training data.", "docs": "https://commoncrawl.org/ccbot" },
+    "Bytespider":        { "operator": "ByteDance",   "purpose": "training", "desc": "ByteDance's crawler, widely reported to gather AI training data; has a reputation for ignoring robots.txt.", "docs": "" },
+    "meta-externalagent":{ "operator": "Meta",        "purpose": "training", "desc": "Collects public web data that may be used to train Meta's AI models.", "docs": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers" },
+    "Amazonbot":         { "operator": "Amazon",      "purpose": "training", "desc": "Amazon's crawler; feeds Alexa answers and AI features.", "docs": "https://developer.amazon.com/amazonbot" },
+    "DuckAssistBot":     { "operator": "DuckDuckGo",  "purpose": "search",   "desc": "Powers DuckAssist AI answers.", "docs": "https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot/" },
+    "MistralAI-User":    { "operator": "Mistral",     "purpose": "fetch",    "desc": "Fetches a page live when a Le Chat user asks about it.", "docs": "https://docs.mistral.ai/robots/" }
+  }
+}
