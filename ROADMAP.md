@@ -19,7 +19,7 @@
 - [x] Pages enabled (Source: GitHub Actions); first deploy succeeded on rerun (initial run raced Pages enablement)
 - [x] DNS: CNAME @ → mrmushu.github.io + CNAME www → mrmushu.github.io, both DNS-only (gray cloud)
 - [x] Custom domain saved in Pages settings; site serving 200 at http://canicrawl.com
-- [ ] Enforce HTTPS once GitHub's cert finishes provisioning (flip the checkbox in Pages settings; check next session if not done this one)
+- [x] HTTPS: cert issued within minutes; Enforce HTTPS enabled — https://canicrawl.com is canonical
 - [ ] Verify tomorrow's 06:17 UTC cron ran unattended (check Actions + a new data/snapshots/ file)
 - [ ] sitemap.xml submitted to Google Search Console (user account)
 - [ ] Note: Cloudflare zones now ship "AI Crawl Control" + "Agent Readiness" panels — infra layer entering the space; keep our positioning independent/cross-provider/historical
