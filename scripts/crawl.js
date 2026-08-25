@@ -35,7 +35,7 @@ function looksLikeHtml(text) {
 
 // --- robots.txt parsing (RFC 9309 essentials) ---
 // Returns groups: [{ agents: [lowercased tokens], rules: [{ type, path }] }]
-function parseRobots(text) {
+export function parseRobots(text) {
   const groups = [];
   let current = null;
   let collectingAgents = false;
@@ -69,7 +69,7 @@ function parseRobots(text) {
 // Classify one bot's access given parsed groups.
 // status: "blocked" (root disallow), "restricted" (some paths disallowed),
 //         "allowed" (explicit or empty rules), plus source: "named" | "wildcard" | "none"
-function classifyBot(groups, botToken) {
+export function classifyBot(groups, botToken) {
   const token = botToken.toLowerCase();
   const named = groups.filter((g) => g.agents.includes(token));
   if (named.length > 0) return { ...verdict(named.flatMap((g) => g.rules)), source: "named" };

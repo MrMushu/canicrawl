@@ -17,6 +17,22 @@
     "meta-externalagent":{ "operator": "Meta",        "purpose": "training", "desc": "Collects public web data that may be used to train Meta's AI models.", "docs": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers" },
     "Amazonbot":         { "operator": "Amazon",      "purpose": "training", "desc": "Amazon's crawler; feeds Alexa answers and AI features.", "docs": "https://developer.amazon.com/amazonbot" },
     "DuckAssistBot":     { "operator": "DuckDuckGo",  "purpose": "search",   "desc": "Powers DuckAssist AI answers.", "docs": "https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot/" },
-    "MistralAI-User":    { "operator": "Mistral",     "purpose": "fetch",    "desc": "Fetches a page live when a Le Chat user asks about it.", "docs": "https://docs.mistral.ai/robots/" }
+    "MistralAI-User":    { "operator": "Mistral",     "purpose": "fetch",    "desc": "Fetches a page live when a Le Chat user asks about it.", "docs": "https://docs.mistral.ai/robots/" },
+    "anthropic-ai":      { "operator": "Anthropic",   "purpose": "training", "desc": "Legacy Anthropic control token; many sites still block it alongside ClaudeBot.", "docs": "https://support.claude.com/en/articles/8896518" },
+    "Claude-Web":        { "operator": "Anthropic",   "purpose": "fetch",    "desc": "Legacy Anthropic browsing token, widely present in blocklists.", "docs": "https://support.claude.com/en/articles/8896518" },
+    "cohere-ai":         { "operator": "Cohere",      "purpose": "training", "desc": "Cohere-associated token widely named in blocklists.", "docs": "" },
+    "cohere-training-data-crawler": { "operator": "Cohere", "purpose": "training", "desc": "Cohere's training-data crawler token.", "docs": "" },
+    "Diffbot":           { "operator": "Diffbot",     "purpose": "training", "desc": "Structured-data extraction service; its corpus feeds AI applications.", "docs": "https://docs.diffbot.com/" },
+    "omgili":            { "operator": "Webz.io",     "purpose": "training", "desc": "Webz.io data crawler; sells web data used for AI training.", "docs": "" },
+    "omgilibot":         { "operator": "Webz.io",     "purpose": "training", "desc": "Webz.io crawler token (sibling of omgili).", "docs": "" },
+    "YouBot":            { "operator": "You.com",     "purpose": "search",   "desc": "Crawler for You.com's AI search engine.", "docs": "" },
+    "ImagesiftBot":      { "operator": "Hive",        "purpose": "training", "desc": "Image crawler associated with Hive's visual-AI products.", "docs": "https://imagesift.com/about" },
+    "Timpibot":          { "operator": "Timpi",       "purpose": "search",   "desc": "Crawler for Timpi's decentralized search index.", "docs": "" },
+    "Meta-ExternalFetcher": { "operator": "Meta",     "purpose": "fetch",    "desc": "Fetches pages live for Meta AI user requests.", "docs": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers" },
+    "AI2Bot":            { "operator": "Allen Institute for AI", "purpose": "training", "desc": "Crawls for AI2's open language-model research (e.g. the Dolma corpus).", "docs": "https://allenai.org/crawler" },
+    "DeepSeekBot":       { "operator": "DeepSeek",    "purpose": "training", "desc": "Crawler token associated with DeepSeek's models, appearing in blocklists.", "docs": "" },
+    "GrokBot":           { "operator": "xAI",         "purpose": "training", "desc": "xAI/Grok crawler token, appearing in blocklists ahead of broad documentation.", "docs": "" },
+    "PanguBot":          { "operator": "Huawei",      "purpose": "training", "desc": "Crawler associated with Huawei's PanGu models.", "docs": "" },
+    "Gemini-Deep-Research": { "operator": "Google",   "purpose": "fetch",    "desc": "Token sites use to address Gemini's Deep Research agent.", "docs": "" }
   }
 }
