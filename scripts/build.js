@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
-const ORIGIN = process.env.SITE_ORIGIN || "https://canicrawl.example"; // set real origin at deploy time
+const ORIGIN = process.env.SITE_ORIGIN || "https://canicrawl.com"; // user owns canicrawl.com (Cloudflare, zone active)
 
 const snap = JSON.parse(fs.readFileSync(path.join(ROOT, "data/latest.json"), "utf8"));
 const botsFile = JSON.parse(fs.readFileSync(path.join(ROOT, "data/bots.json"), "utf8"));
@@ -336,5 +336,6 @@ ${urls.map((u) => `<url><loc>${ORIGIN}/${u}</loc><lastmod>${snap.date}</lastmod>
 </urlset>
 `);
 fs.copyFileSync(path.join(ROOT, "data/latest.json"), path.join(DIST, "data/latest.json"));
+write("CNAME", new URL(ORIGIN).hostname + "\n"); // GitHub Pages custom-domain marker
 
-console.log(`Built ${urls.length + 2} pages into dist/ (snapshot ${snap.date}).`);
+console.log(`Built ${urls.length + 2} pages into dist/ (snapshot ${snap.date}, origin ${ORIGIN}).`);

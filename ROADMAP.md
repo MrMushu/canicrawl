@@ -14,10 +14,12 @@
 - [x] GitHub Actions workflow ready (.github/workflows/daily.yml: daily crawl → commit snapshot → rebuild → deploy)
 
 ## M2 — Deploy (needs user: one-time GitHub auth)
-- [ ] Create GitHub repo, push, enable Pages + Actions
+- [x] Custom domain: user bought **canicrawl.com** (Cloudflare, zone active + empty). Build emits CNAME; SITE_ORIGIN defaults to https://canicrawl.com
+- [ ] User runs `winget install --id GitHub.cli -e` + `gh auth login` → then Claude: create repo, push, enable Pages + Actions
+- [ ] Claude adds DNS via user's Cloudflare browser session: CNAME @ → <user>.github.io (flattened) + CNAME www → <user>.github.io, DNS-only until GitHub's cert issues, then enforce HTTPS
 - [ ] Verify daily cron runs unattended
 - [ ] sitemap.xml submitted to Google Search Console (user account)
-- [ ] Decide on custom domain (user's call; Pages URL fine to start)
+- [ ] Note: Cloudflare zones now ship "AI Crawl Control" + "Agent Readiness" panels — infra layer entering the space; keep our positioning independent/cross-provider/historical
 
 ## M3 — Launch (needs user: per-post approvals)
 - [ ] Execute MARKETING.md kit: Show HN, Reddit (user's account, per-post OK), X/Bluesky drafts
