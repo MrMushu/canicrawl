@@ -59,7 +59,7 @@ The operating system for both products. Loops and ops sessions execute the **Rin
 - [x] CC-1: OG/meta + a11y pass — canonical + OG/Twitter + theme-color injected at write-time on ALL pages BOTH sites; skip-to-content links; contrast audited OK; no animations so reduced-motion N/A. Deferred to future ring: 1,000-row homepage table weight (~400KB — consider per-category split if Lighthouse complains on real devices) — done 2026-08-24 night
 - [x] CC-2: "State of the Agent Web #1" live at /digest/1/ — digest system reads data/digests.json (editorial issues; nav item, index page, sitemap). Weekly issues from ops sessions — done 2026-08-25 early AM
 - [x] SS-2: availability-change detection (per-NDC wording revisions → changelog) + /graveyard/ page for drugs quietly removed from the FDA list (nav item, empty-state until first departure) — done 2026-08-25 early AM. Also verified: SS cron fired 43 min late (normal GitHub jitter) — both products' unattended crawls now proven
-- [ ] CC-3: MARKETING.md launch-kit final pass (live numbers, palewire prior-art citation in methodology/about)
+- [x] CC-3: launch kit finalized — palewire prior-art citation + Press & citation block on /about/; Show HN first-comment drafted; checklist reduced to the user-gated LAUNCH GATE items (recommend firing after ~5 days of changelog flips, i.e. ~Aug 30) — done 2026-08-25 early AM
 - [ ] SS-3: MARKETING.md launch kit (post-Canicrawl timing; press page; no patient-fear framing)
 - [ ] CC-4: new-AI-bot token discovery scan over raw robots.txt archive (runs from day-2 data)
 - [ ] BOTH-1: cross-link footers ("sibling project"); shared /colophon story page each

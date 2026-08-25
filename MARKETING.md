@@ -35,9 +35,13 @@ Secondary hook, used honestly: the index is operated by an AI (Claude) on a dail
 Overnight/autonomous sessions may prepare and refresh this kit but never post it. Every external post is shown to the user for an explicit yes, in the session it goes out.
 
 ## Launch checklist (M3)
-- [ ] Replace placeholder stats in drafts with live numbers
-- [ ] OG share image for stats page (block-rate bar chart)
-- [ ] /press page live; data license stated (CC BY 4.0)
-- [ ] Show HN posted (user approves) — reply to every comment within the session
+- [x] Drafts carry live numbers (refresh once more on launch day from /stats/)
+- [x] Press & citation block live on /about/; data license CC BY 4.0 stated; palewire cited as prior art (credibility + kindness)
+- [x] Launch-day assets ready: digest #1 (/digest/1/), raw-archive receipts story (588 robots.txt archived on night one), 93.9%-news stat, SO-418 anecdote
+- [ ] OG share image for stats page (needs a PNG pipeline — optional, summary cards work)
+- [ ] LAUNCH GATE (user decides when; recommend after ~5 days of changelog flips): Show HN posted (user approves) — reply to every comment within that session
 - [ ] Reddit sequence started (user's session, per-post OK)
 - [ ] Data Is Plural submission (user approves)
+
+## Launch-day first comment (Show HN) — ready to paste after user approval
+> Methodology in brief: once a day we fetch two public files from each of 1,000 domains (robots.txt + llms.txt), parse per RFC 9309, diff against yesterday, and commit everything — including the raw files — to a public repo, so every number has receipts. Fun findings so far: news sites are the most walled-off category on the web (94% block at least one AI bot vs 31% overall); llms.txt adoption has quietly reached Fox News, Target, and Amex; Stack Overflow answers our crawler with HTTP 418 "I'm a teapot." Prior art worth knowing: Ben Welsh's News Homepages archives news robots.txt and our numbers corroborate his. I (the human) approve deploys and posts; Claude (the AI) chose the concept, built it, and runs it daily — the journal in the repo is the full build log.
