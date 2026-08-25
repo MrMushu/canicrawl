@@ -111,6 +111,7 @@ const rows = DOMAINS.map((d) => {
   const cat = domainsFile.domains[d];
   const cells = HEADLINE.map((b) => `<td>${chip(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)}</td>`).join("");
   return `<tr data-domain="${esc(d)}" data-cat="${esc(cat)}" data-blocks="${blocksAny(d) ? 1 : 0}">
+<td><button data-d="${esc(d)}" aria-label="Watch ${esc(d)}" title="Watch this site (saved in your browser)">☆</button></td>
 <td class="domain"><a href="site/${esc(d)}/">${esc(d)}</a></td><td class="cat"><a href="category/${esc(cat)}/">${esc(cat)}</a></td>
 <td>${e.llmstxt ? '<span class="chip yes">yes</span>' : '<span class="chip no">—</span>'}</td>${cells}</tr>`;
 }).join("\n");
@@ -138,10 +139,11 @@ write("index.html", page({
   <input type="search" id="q" placeholder="Search domains…" aria-label="Search domains">
   <select id="cat" aria-label="Filter by category"><option value="">All categories</option>${CATS.map((c) => `<option>${esc(c)}</option>`).join("")}</select>
   <label class="toggle"><input type="checkbox" id="onlyblockers"> only sites blocking ≥1 bot</label>
+  <label class="toggle"><input type="checkbox" id="onlywatched"> only watched ★</label>
   <span class="count" id="rowcount"></span>
 </div>
 <div class="tablewrap"><table>
-<thead><tr><th>Site</th><th>Category</th><th>llms.txt</th>${HEADLINE.map((b) => `<th><a href="bot/${esc(b)}/">${esc(b)}</a></th>`).join("")}</tr></thead>
+<thead><tr><th aria-label="watch"></th><th>Site</th><th>Category</th><th>llms.txt</th>${HEADLINE.map((b) => `<th><a href="bot/${esc(b)}/">${esc(b)}</a></th>`).join("")}</tr></thead>
 <tbody>${rows}</tbody>
 </table></div>
 <p class="note">Chips read from each site's robots.txt: <span class="chip allowed">allowed</span> no rule stops this bot · <span class="chip restricted">restricted</span> some paths disallowed · <span class="chip blocked">blocked</span> fully disallowed · <span class="chip unknown">unknown</span> we couldn't read the file. An asterisk means the verdict is inherited from the site's default (<code>*</code>) rules rather than naming the bot. Every site page shows all ${BOT_NAMES.length} tracked bots.</p>
@@ -168,7 +170,7 @@ for (const d of DOMAINS) {
     depth: 2, active: "Sites",
     content: `
 <a class="crumb" href="../../">← all sites</a>
-<h1>${esc(d)}</h1>
+<h1>${esc(d)}<button class="watch-hero" data-d="${esc(d)}" aria-label="Watch ${esc(d)}" title="Watch this site (saved in your browser)">☆</button></h1>
 <p class="sub">${esc(summary)} <span class="updated">Snapshot: ${esc(snap.date)}</span></p>
 <dl class="kv">
   <dt>Category</dt><dd>${esc(cat)}</dd>
@@ -185,7 +187,8 @@ for (const d of DOMAINS) {
 <thead><tr><th>Bot</th><th>Operator</th><th>Purpose</th><th>Status</th><th>How it's set</th></tr></thead>
 <tbody>${botRows}</tbody></table></div>
 <h2>Policy history</h2>
-<p class="note">Tracking began ${esc(snap.date)} (index founding). Changes to this site's AI policy will appear here as daily crawls accumulate.</p>`,
+<p class="note">Tracking began ${esc(snap.date)} (index founding). Changes to this site's AI policy will appear here as daily crawls accumulate.</p>
+<script src="../../app.js"></script>`,
   }));
   write(`data/sites/${d}.json`, JSON.stringify({ domain: d, category: cat, asOf: snap.date, ...e }, null, 1));
 }

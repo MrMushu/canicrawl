@@ -65,6 +65,11 @@ td .cat { color: var(--muted); font-size: 12.5px; }
 .kv dt { color: var(--muted); } .kv dd { margin: 0; }
 .note { font-size: 13.5px; color: var(--muted); border-left: 3px solid var(--border); padding: 2px 0 2px 12px; margin: 18px 0; }
 .crumb { font-size: 13px; color: var(--muted); margin-bottom: 18px; display: block; }
+button[data-d] { background: none; border: none; cursor: pointer; font-size: 16px; line-height: 1;
+  color: var(--muted); padding: 2px 4px; }
+button[data-d].on { color: var(--warn); }
+button[data-d]:hover { color: var(--text); }
+.watch-hero { font-size: 22px; vertical-align: 2px; margin-left: 8px; }
 footer.site { border-top: 1px solid var(--border); padding: 22px 0 40px; font-size: 13.5px; color: var(--muted); }
 footer.site .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; }
 .statgrid td, .statgrid th { white-space: normal; }
