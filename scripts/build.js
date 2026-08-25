@@ -43,7 +43,7 @@ const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 const chip = (status, source) =>
   `<span class="chip ${status}">${status}</span>${source === "wildcard" && status !== "allowed" ? `<sup class="inh" title="inherited from the site's default (*) rules">*</sup>` : ""}`;
 const nav = [
-  ["", "Sites"], ["bots/", "AI bots"], ["stats/", "Stats"], ["changelog/", "Changelog"], ["api/", "API"], ["about/", "About"],
+  ["", "Sites"], ["bots/", "AI bots"], ["stats/", "Stats"], ["changelog/", "Changelog"], ["digest/", "Digest"], ["api/", "API"], ["about/", "About"],
 ];
 function page({ title, desc, depth, active, content, extraHead = "" }) {
   const p = "../".repeat(depth);
@@ -377,6 +377,33 @@ ${rssItems}
 </channel></rss>
 `);
 
+// ---------- digest (editorial issues from data/digests.json) ----------
+const digests = fs.existsSync(path.join(ROOT, "data/digests.json"))
+  ? JSON.parse(fs.readFileSync(path.join(ROOT, "data/digests.json"), "utf8")).issues
+  : [];
+write("digest/index.html", page({
+  title: "State of the Agent Web — Canicrawl digest",
+  desc: "A weekly digest of how the web's posture toward AI crawlers is shifting, drawn from our daily census of 1,000 top sites.",
+  depth: 1, active: "Digest",
+  content: `
+<h1>State of the Agent Web</h1>
+<p class="sub">A weekly read on how the web's doors are opening and closing to AI — written from our own daily census data.</p>
+${[...digests].reverse().map((d) => `<h2><a href="${d.number}/">#${d.number} — ${esc(d.title)}</a></h2><p class="cat">${esc(d.date)}</p><p>${esc(d.summary)}</p>`).join("\n")}`,
+}));
+for (const d of digests) {
+  write(`digest/${d.number}/index.html`, page({
+    title: `State of the Agent Web #${d.number}: ${d.title} — Canicrawl`,
+    desc: d.summary,
+    depth: 2, active: "Digest",
+    content: `
+<a class="crumb" href="../">← all issues</a>
+<h1>${esc(d.title)}</h1>
+<p class="sub"><span class="updated">State of the Agent Web #${d.number} · ${esc(d.date)}</span></p>
+${d.html}
+<p class="note">Every number in this issue is reproducible from the committed daily snapshots. Cite "Canicrawl" with a link — data CC BY 4.0.</p>`,
+  }));
+}
+
 // ---------- api ----------
 write("api/index.html", page({
   title: "API — Canicrawl",
@@ -526,7 +553,8 @@ ${fullLines.join("\n")}
 // IndexNow key file (key is public by design; submission script posts our URLs to search indexes)
 const INDEXNOW_KEY = "8c2f1e94ab674d0f9c3b57a1de86f240";
 write(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
-const urls = ["", "bots/", "stats/", "changelog/", "api/", "about/", "badge/",
+const urls = ["", "bots/", "stats/", "changelog/", "api/", "about/", "badge/", "digest/",
+  ...digests.map((d) => `digest/${d.number}/`),
   ...CATS.map((c) => `category/${c}/`),
   ...DOMAINS.map((d) => `site/${d}/`), ...BOT_NAMES.map((b) => `bot/${b}/`)];
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
