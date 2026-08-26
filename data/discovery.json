@@ -1,130 +1,10 @@
 {
- "date": "2026-08-25",
- "filesScanned": 588,
+ "date": "2026-08-26",
+ "filesScanned": 592,
  "distinctTokens": 2073,
  "aiCandidates": [
   {
-   "token": "cohere-ai",
-   "sites": 88,
-   "sample": [
-    "airbnb.com",
-    "allrecipes.com",
-    "amazon.ca"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Diffbot",
-   "sites": 87,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "anthropic-ai",
-   "sites": 85,
-   "sample": [
-    "airbnb.com",
-    "allrecipes.com",
-    "amplitude.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "omgili",
-   "sites": 79,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Claude-Web",
-   "sites": 78,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "YouBot",
-   "sites": 71,
-   "sample": [
-    "academia.edu",
-    "allrecipes.com",
-    "amazon.ca"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "ImagesiftBot",
-   "sites": 65,
-   "sample": [
-    "airbnb.com",
-    "allrecipes.com",
-    "amazon.ca"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "omgilibot",
-   "sites": 64,
-   "sample": [
-    "allrecipes.com",
-    "aol.com",
-    "arstechnica.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Timpibot",
-   "sites": 63,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Meta-ExternalFetcher",
-   "sites": 62,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "cohere-training-data-crawler",
-   "sites": 49,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "AI2Bot",
-   "sites": 49,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "PanguBot",
+   "token": "img2dataset",
    "sites": 43,
    "sample": [
     "amazon.ca",
@@ -134,28 +14,8 @@
    "aiHint": true
   },
   {
-   "token": "img2dataset",
-   "sites": 42,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "Ai2Bot-Dolma",
-   "sites": 39,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "DeepSeekBot",
-   "sites": 36,
+   "sites": 40,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -165,7 +25,7 @@
   },
   {
    "token": "Kangaroo Bot",
-   "sites": 35,
+   "sites": 36,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -174,18 +34,8 @@
    "aiHint": true
   },
   {
-   "token": "Gemini-Deep-Research",
-   "sites": 27,
-   "sample": [
-    "academia.edu",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "FirecrawlAgent",
-   "sites": 22,
+   "sites": 23,
    "sample": [
     "allrecipes.com",
     "bbc.co.uk",
@@ -205,16 +55,6 @@
   },
   {
    "token": "Crawl4AI",
-   "sites": 20,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "GrokBot",
    "sites": 20,
    "sample": [
     "amazon.ca",
@@ -274,22 +114,22 @@
    "aiHint": true
   },
   {
+   "token": "bigsur.ai",
+   "sites": 7,
+   "sample": [
+    "cnet.com",
+    "ign.com",
+    "lemonde.fr"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "Diffbot-User",
    "sites": 6,
    "sample": [
     "bbc.co.uk",
     "bbc.com",
     "corriere.it"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "bigsur.ai",
-   "sites": 6,
-   "sample": [
-    "cnet.com",
-    "ign.com",
-    "lemonde.fr"
    ],
    "aiHint": true
   },
@@ -366,74 +206,14 @@
  ],
  "topUntrackedAny": [
   {
-   "token": "cohere-ai",
-   "sites": 88,
-   "sample": [
-    "airbnb.com",
-    "allrecipes.com",
-    "amazon.ca"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Diffbot",
-   "sites": 87,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "anthropic-ai",
-   "sites": 85,
-   "sample": [
-    "airbnb.com",
-    "allrecipes.com",
-    "amplitude.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "omgili",
-   "sites": 79,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Claude-Web",
-   "sites": 78,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "FacebookBot",
-   "sites": 75,
+   "sites": 76,
    "sample": [
     "allrecipes.com",
     "aol.com",
     "arstechnica.com"
    ],
    "aiHint": false
-  },
-  {
-   "token": "YouBot",
-   "sites": 71,
-   "sample": [
-    "academia.edu",
-    "allrecipes.com",
-    "amazon.ca"
-   ],
-   "aiHint": true
   },
   {
    "token": "Yandex",
@@ -446,48 +226,8 @@
    "aiHint": false
   },
   {
-   "token": "ImagesiftBot",
-   "sites": 65,
-   "sample": [
-    "airbnb.com",
-    "allrecipes.com",
-    "amazon.ca"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "omgilibot",
-   "sites": 64,
-   "sample": [
-    "allrecipes.com",
-    "aol.com",
-    "arstechnica.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Timpibot",
-   "sites": 63,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Meta-ExternalFetcher",
-   "sites": 62,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "Scrapy",
-   "sites": 61,
+   "sites": 62,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -497,7 +237,7 @@
   },
   {
    "token": "Webzio-Extended",
-   "sites": 54,
+   "sites": 55,
    "sample": [
     "allrecipes.com",
     "amazon.ca",
@@ -507,7 +247,7 @@
   },
   {
    "token": "Google-CloudVertexBot",
-   "sites": 52,
+   "sites": 53,
    "sample": [
     "allrecipes.com",
     "amazon.ca",
@@ -516,28 +256,8 @@
    "aiHint": false
   },
   {
-   "token": "cohere-training-data-crawler",
-   "sites": 49,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "AI2Bot",
-   "sites": 49,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "FriendlyCrawler",
-   "sites": 48,
+   "sites": 49,
    "sample": [
     "allrecipes.com",
     "amazon.ca",
@@ -566,7 +286,7 @@
    "aiHint": false
   },
   {
-   "token": "PanguBot",
+   "token": "img2dataset",
    "sites": 43,
    "sample": [
     "amazon.ca",
@@ -576,38 +296,18 @@
    "aiHint": true
   },
   {
-   "token": "img2dataset",
-   "sites": 42,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "Ai2Bot-Dolma",
-   "sites": 39,
+   "sites": 40,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
     "amazon.co.uk"
    ],
    "aiHint": true
-  },
-  {
-   "token": "magpie-crawler",
-   "sites": 38,
-   "sample": [
-    "aol.com",
-    "bbc.co.uk",
-    "bbc.com"
-   ],
-   "aiHint": false
   },
   {
    "token": "TurnitinBot",
-   "sites": 37,
+   "sites": 38,
    "sample": [
     "agoda.com",
     "aol.com",
@@ -617,7 +317,7 @@
   },
   {
    "token": "VelenPublicWebCrawler",
-   "sites": 37,
+   "sites": 38,
    "sample": [
     "allrecipes.com",
     "amazon.ca",
@@ -627,11 +327,21 @@
   },
   {
    "token": "ICC-Crawler",
-   "sites": 37,
+   "sites": 38,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
     "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "magpie-crawler",
+   "sites": 38,
+   "sample": [
+    "aol.com",
+    "bbc.co.uk",
+    "bbc.com"
    ],
    "aiHint": false
   },
@@ -646,7 +356,7 @@
    "aiHint": false
   },
   {
-   "token": "DeepSeekBot",
+   "token": "Kangaroo Bot",
    "sites": 36,
    "sample": [
     "amazon.ca",
@@ -656,18 +366,8 @@
    "aiHint": true
   },
   {
-   "token": "Kangaroo Bot",
-   "sites": 35,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "AwarioSmartBot",
-   "sites": 33,
+   "sites": 34,
    "sample": [
     "allrecipes.com",
     "aol.com",
@@ -677,7 +377,7 @@
   },
   {
    "token": "Brightbot",
-   "sites": 32,
+   "sites": 33,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -687,7 +387,7 @@
   },
   {
    "token": "AwarioRssBot",
-   "sites": 31,
+   "sites": 32,
    "sample": [
     "allrecipes.com",
     "aol.com",
@@ -707,7 +407,7 @@
   },
   {
    "token": "Cotoyogi",
-   "sites": 29,
+   "sites": 30,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -726,14 +426,14 @@
    "aiHint": false
   },
   {
-   "token": "Gemini-Deep-Research",
+   "token": "iaskspider",
    "sites": 27,
    "sample": [
-    "academia.edu",
+    "allrecipes.com",
     "amazon.ca",
     "amazon.co.jp"
    ],
-   "aiHint": true
+   "aiHint": false
   },
   {
    "token": "QualifiedBot",
@@ -746,12 +446,22 @@
    "aiHint": false
   },
   {
-   "token": "iaskspider",
-   "sites": 26,
+   "token": "SBIntuitionsBot",
+   "sites": 27,
    "sample": [
-    "allrecipes.com",
     "amazon.ca",
-    "amazon.co.jp"
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "YaK",
+   "sites": 27,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
    ],
    "aiHint": false
   },
@@ -762,6 +472,136 @@
     "amazon.ca",
     "amazon.co.jp",
     "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "CloudflareBrowserRenderingCrawler",
+   "sites": 26,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "Devin",
+   "sites": 24,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "Sidetrade indexer bot",
+   "sites": 24,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "Google-NotebookLM",
+   "sites": 24,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "aiHitBot",
+   "sites": 24,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "factset_spyderbot",
+   "sites": 24,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "Google-InspectionTool",
+   "sites": 23,
+   "sample": [
+    "academia.edu",
+    "autotrader.com",
+    "bonappetit.com"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "FirecrawlAgent",
+   "sites": 23,
+   "sample": [
+    "allrecipes.com",
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "aiHint": true
+  },
+  {
+   "token": "SemrushBot-SWA",
+   "sites": 23,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "EchoboxBot",
+   "sites": 23,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "TerraCotta",
+   "sites": 23,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "TavilyBot",
+   "sites": 22,
+   "sample": [
+    "academia.edu",
+    "amazon.ca",
+    "amazon.co.jp"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "imageSpider",
+   "sites": 22,
+   "sample": [
+    "allrecipes.com",
+    "amazon.ca",
+    "amazon.co.jp"
    ],
    "aiHint": false
   }

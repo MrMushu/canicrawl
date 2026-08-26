@@ -99,7 +99,7 @@
 - [Tokenization Explained: What Is Tokenization & Why Use It?](https://www.okta.com/identity-101/tokenization)
 - [What Is Identity Management and Access Control?](https://www.okta.com/identity-101/what-is-identity-management-and-access-control)
 - [What Is Corporate Account Takeover and How Do We Prevent It?](https://www.okta.com/identity-101/what-is-corporate-account-takeover)
-- [Identification & Authentication: Similarities & Differences](https://www.okta.com/identity-101/identification-vs-authentication)
+- [Identification and Authentication: Similarities and Differences](https://www.okta.com/identity-101/identification-vs-authentication)
 - [Remote Desktop Services (RDS): Security Benefits and Uses](https://www.okta.com/identity-101/remote-desktop-services)
 - [Address Resolution Protocol (ARP): What It Is and How It Works](https://www.okta.com/identity-101/address-resolution-protocol-arp)
 - [Phone Security Best Practices to Protect Your Mobile Data](https://www.okta.com/identity-101/phone-security)
@@ -1265,6 +1265,7 @@
 - [Okta Workflows outbound mTLS: Cryptographic trust the Public Sector deserves](https://www.okta.com/blog/product-innovation/okta-workflows-mtls-public-sector)
 - [Governing AI agents for innovation and security inside the boundary you already trust](https://www.okta.com/blog/ai/governing-fedramp-ai-agents)
 - [From open access to open innovation: Okta’s AI-powered revolution](https://www.okta.com/blog/company-and-culture/okta-ai-innovation-revolution)
+- [First on the scene of the cybercrime](https://www.okta.com/blog/threat-intelligence/first-on-the-scene-of-the-cybercrime)
 
 ## Newsroom
 
@@ -1485,4 +1486,5 @@
 - [Okta is the first independent and neutral identity platform to bring AI agent governance to highly regulated environments](https://www.okta.com/newsroom/press-releases/okta-for-ai-agents-core-brings-lifecycle-governance-to-regulated-environments)
 - [Okta named a Leader in 2026 KuppingerCole IGA Leadership Compass](https://www.okta.com/newsroom/articles/okta-named-leader-2026-kuppingercole-iga-leadership-compass)
 - [Navigating the EU AI Act with identity](https://www.okta.com/newsroom/articles/navigating-the-eu-ai-act-with-identity)
+- [Okta brings first-class identity to AI agents with Agent SSO](https://www.okta.com/newsroom/press-releases/okta-brings-first-class-identity-to-ai-agents-with-agent-sso)
 

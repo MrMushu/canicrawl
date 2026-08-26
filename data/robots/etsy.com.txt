@@ -1805,7 +1805,7 @@ Allow: /pl/search/shops
 Allow: /pt/search/shops
 Allow: /se/search/shops
 #
-# Per dindirindina!#   \
+# Motus et bouche cousue...#   \
 #
 #    -----
 #   | . . |

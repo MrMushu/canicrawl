@@ -88,7 +88,6 @@ in `/robots.txt`.
 ## Optional
 
 - [Sitemap index (profile directory)](https://linktr.ee/discover/profile-directory/sitemapindex.xml): Index of crawlable public profiles.
-- [Marketing sitemap](https://linktr.ee/s/sitemap-0.xml): Sitemap for marketing and content pages.
 - [Marketplace sitemap](https://linktr.ee/marketplace/sitemap.xml): Sitemap for marketplace apps and integrations.
-- [Webflow sitemap](https://linktr.ee/s/wf/sitemap.xml): Sitemap for Webflow-hosted marketing pages.
+- [Marketing sitemap](https://linktr.ee/s/wf/sitemap.xml): Sitemap for marketing pages.
 - [Robots.txt](https://linktr.ee/robots.txt): Crawler access policy and full list of sitemaps.

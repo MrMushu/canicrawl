@@ -127,3 +127,4 @@ SITEMAP: https://www.reuters.com/arc/outboundfeeds/topic-sitemap/?outputType=xml
 SITEMAP: https://www.reuters.com/arc/outboundfeeds/author-sitemap/?outputType=xml
 SITEMAP: https://www.reuters.com/arc/outboundfeeds/pressrelease-sitemap/?outputType=xml
 SITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-ar-index/?outputType=xml
+SITEMAP: https://www.reuters.com/service/archive-sitemap/sitemap.xml

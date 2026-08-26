@@ -1,5 +1,5 @@
-#Build version: R832a
-#Generated on: Tue Aug 25 01:00:00 EDT 2026
+#Build version: R832b
+#Generated on: Wed Aug 26 01:00:00 EDT 2026
 
 User-agent: *
 Allow: /api/search/V8/hotel/

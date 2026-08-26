@@ -88,6 +88,8 @@ Repo: https://github.com/oborseth/Porkbun-MCP — configure with `PORKBUN_API_KE
 
 Pass `apikey` and `secretapikey` in the JSON body, or use `X-API-Key` / `X-Secret-API-Key` request headers (preferred for GET and agent frameworks). A short-lived bearer token is also available via `/auth/getToken` (`Authorization: Bearer <token>`). Create keys at https://porkbun.com/account/api
 
+**Agent / app key handoff (PKCE).** An app that doesn't yet have keys can get them without ever handling the user's password: `POST /apikey/request` with a `codeChallenge` (S256) returns an `authUrl`; send the user there to approve (they can create a Porkbun account first if they don't have one), then call `/apikey/retrieve` with the matching `codeVerifier` to receive both keys once — the secret is never shown in the browser. Native/mobile apps can add a `returnUrl` (an HTTPS Universal Link / App Link) to be redirected back into the app after approval; only `status` + `requestToken` ride the redirect, never the key. Step-by-step for a mobile app (both existing and brand-new users): https://porkbun.com/llms/guides/onboard-a-mobile-app-user
+
 ## Key endpoints
 
 - `GET/POST /ping` — verify credentials, get caller IP

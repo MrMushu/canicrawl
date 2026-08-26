@@ -3,6 +3,7 @@ Disallow: /m/*/pictures
 Disallow: /tv/*/pictures
 Disallow: /search
 Disallow: /critics/self-submission/
+Disallow: /user/account/*
 
 User-agent: AmazonAdBot
 Allow: /

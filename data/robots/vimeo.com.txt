@@ -41,7 +41,6 @@ Disallow: /*/likes
 Disallow: /reviews/
 Disallow: /*/sort:*/*:
 Disallow: /ablincoln/
-Disallow: /showcase/*/auth
 Disallow: /*tag:
 Disallow: /*/videos/
 Disallow: /legal/~gitbook/

@@ -29,6 +29,8 @@ disallow: *reco_id=*
 disallow: *preco_id=*
 disallow: /*?*=*&*=*&*=*&*=*&*=*&*=*&*=*&*=*&*=*&*=*&*
 disallow: /kategoria/*?*=*&*=*&*=*&*=*&*=*&*=*&*
+disallow: /moje-allegro/
+disallow: /transakcja/
 allow: /uzytkownik/notfound?string*
 allow: /uzytkownik/*bi_s=archiwum_allegro*
 allow: /kategoria/*bi_s=archiwum_allegro*

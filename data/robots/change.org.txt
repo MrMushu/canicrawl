@@ -89,6 +89,8 @@ Disallow: /p/*/dashboard/endorsements/add$
 Disallow: /p/*/dashboard/endorsements/add?*
 Disallow: /p/*/dashboard/endorsements/edit/*$
 Disallow: /p/*/dashboard/endorsements/edit/*?*
+Disallow: /p/*/dm/respond$
+Disallow: /p/*/dm/respond?*
 Disallow: /p/*/edit$
 Disallow: /p/*/edit?*
 Disallow: /p/*/feed$

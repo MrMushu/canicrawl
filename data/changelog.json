@@ -8,6 +8,517 @@
    "date": "2026-08-25",
    "kind": "panel",
    "count": 768
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Claude-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Claude-SearchBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "MistralAI-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "anthropic-ai",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Claude-Web",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "cohere-ai",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "cohere-training-data-crawler",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "omgili",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "omgilibot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "ImagesiftBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Timpibot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "AI2Bot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "DeepSeekBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "GrokBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "PanguBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "semafor.com",
+   "kind": "bot-flip",
+   "bot": "Gemini-Deep-Research",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "wildcard",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Claude-User",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Claude-SearchBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "MistralAI-User",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "anthropic-ai",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Claude-Web",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "cohere-ai",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "cohere-training-data-crawler",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "omgili",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "omgilibot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "ImagesiftBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Timpibot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "AI2Bot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "DeepSeekBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "GrokBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "PanguBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-08-26",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Gemini-Deep-Research",
+   "from": "allowed",
+   "to": "restricted"
   }
  ]
 }

@@ -192,11 +192,11 @@ experience on every platform.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [NBN Festival of Ideas - Melbourne](https://newrelic.com/events/2026-09-01/nbn-fest-melb-reli-birds): New Relic at NBN Fest of Ideas. Join us for a Reli-Bird's Mobile Game Challenge!
 - [New Relic for AI: Observability for AI, AI for Observability (EMEA)](https://newrelic.com/events/2026-11-04/new-relic-for-ai-emea): Join us for an interactive, hands-on workshop focused on monitoring AI applications and leveraging AI features within New Relic.
 - [Using AI Effectively: Practical Skills for Everyday Use (EMEA)](https://newrelic.com/events/2026-09-21/using-ai-effectively-emea): Join us for a practical guide focused on building essential skills to integrate AI into daily workflows.
 - [Understanding AI: How LLMs and AI Agents Really Work (EMEA)](https://newrelic.com/events/2026-09-21/understanding-ai-emea): Join us for a foundational session introducing the core concepts and mechanics behind artificial intelligence.
 - [New Relic University: AI, Dashboards, and OpenTelemetry Series](https://newrelic.com/events/2026-08-11/new-relic-university-ai-dashboards-and-opentelemetry-series): In these New Relic Advance workshops, learn about observability for AI, New Relic dashboards, and using Open Telemetry with New Relic.
-- [Product Pulse Live](https://newrelic.com/events/2026-08-27/product-pulse-live): Join us for our monthly live Product Pulse sessions with Feature Spotlights, Expert Q&A, and Practical Guidance.
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.
