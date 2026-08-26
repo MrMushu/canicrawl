@@ -104,3 +104,35 @@ Supporting changes: the index gained a "hide the 350 sites we can't read" filter
 **Decisions.** (1) Publish the weakness rather than hide it — a census nobody can audit is an opinion, and "here is our denominator and every domain we failed to read" is a stronger launch position than a cleaner-looking 100%. (2) Don't curate the panel: infrastructure domains stay indexed and counted, and CC-9 will demote them visually once the `reason` data exists to identify them by evidence rather than by name-guessing. (3) Homepage weight (CC-8) measured before acting: 854KB raw but 35KB gzipped — bandwidth is a non-issue, the ~23k DOM elements are the real cost, so that ring is now scoped to node count, not bytes.
 
 **Next:** tomorrow's ops session verifies the first real cross-day diffs on both products and the new `reason` field landing in the snapshot, then takes CC-8 or CC-9 off the queue. Launch recommendation unchanged: ~Aug 30, after ~5 days of flip history.
+
+---
+
+## 5 — 2026-08-26, ops session — Ring CC-8: the homepage loses 40% of its DOM, and the first real flips land
+
+**Cron status: both green.** Canicrawl's scheduled run succeeded at 07:08 UTC, ShortSupply's at 07:32 UTC (both inside the usual GitHub jitter window). Pulled 28 changed files here — snapshot `2026-08-26.json`, the first cross-day `data/changelog.json`, and 24 updated/new raw robots.txt captures.
+
+**The first real diffs — 64 Canicrawl entries, and both of them are policy decisions, not noise.**
+
+- **semafor.com went `restricted` → `blocked` for all 31 tracked bots in one edit.** Its robots.txt grew by ~106 lines overnight. A news site that previously allowed AI crawlers into most of the site now closes it entirely — the single cleanest "publisher slams the door" datapoint the index has produced so far, and exactly the kind of flip the changelog was built to catch.
+- **un.org went `allowed` → `restricted` across every bot, via a wildcard flip** (`*` policy `allowed` → `restricted`, +91 lines of new robots.txt). Notable because it's an intergovernmental body, not a paywalled publisher, and because it's the first flip we've caught that came from the default (`*`) block rather than named-bot rules — the site never mentions a single AI bot by name.
+- Coverage nudged up: 650 → **652 of 1,000 readable**. The new `reason` field from CC-7 is now recorded in a real snapshot, so ring CC-9 (splitting "does not resolve" from "timed out") is unblocked from tomorrow.
+
+Both are digest #2 material and are noted here for BOTH-2.
+
+**Ring CC-8 — homepage weight.** The measurement from CC-7 said bandwidth was fine (35KB gzipped) and the ~23k DOM nodes were the real cost, so this ring targeted node count only:
+
+- Matrix cells in the index and the 18 category tables are now **the `<td>` itself** (`<td class="s blocked">blocked</td>`) instead of `<td><span class="chip blocked">…</span></td>` — 7,000 wrapper spans deleted.
+- The inherited-from-`*` asterisk is a **CSS `::after` on `td.s.inh`** instead of a `<sup class="inh" title="…">` element — 2,266 elements and 2,266 repeated title attributes deleted. The legend already explains what the asterisk means, which is why the tooltip was redundant.
+- The 1,000 `data-d` attributes on index star buttons are gone; `app.js` now walks up to the parent `<tr>` for the domain and only site-page heroes (which have no row) still carry `data-d`. The CSS hook moved from `button[data-d]` to `button.watch`.
+
+**Result: 23,388 → 14,122 elements (−40%), 873KB → 566KB raw.** Target was <15k; met with room.
+
+**Verification (no browser — dev servers can't be started from an unattended scheduled run, so everything below is static or headless):** build clean at 1,063 pages. All **7,000 generated cells re-checked against `data/latest.json`: 0 mismatches**, and the 2,266 inherited markers match the old `<sup>` count exactly, so no verdict and no nuance was lost in the rewrite. `assets/app.js` was then executed for real under a DOM shim fed the actual generated rows: baseline 1,000 → star two sites by firing click handlers (localStorage wrote `["semafor.com","un.org"]`, glyph flipped ☆→★) → "only watched" 2 → unstar one → 1 → readable-only 652 (matching the snapshot exactly) → +blockers 206 → search "nytimes" 1 → reset 1,000. Every check passed, which is the point: removing `data-d` was the one change that could have silently broken the watchlist. Served `dist/` and confirmed HTTP 200 on `/`, `/site/semafor.com/`, `/category/news/`, `/health/`, `/style.css`, `/app.js`, with the new `td.s.inh::after` rule and the new `domOf()` function present in the shipped assets.
+
+**One honest deviation from the ring's own wording.** CC-8 said "no visual change". The status colour now fills the table cell instead of sitting in a rounded pill, because `table { border-collapse: collapse }` makes a rounded `<td>` impossible and the only way to keep a pill is the wrapper element the ring was deleting. The palette, the text, the contrast pairs and the layout are unchanged — it reads as a heatmap rather than a grid of pills. The legend under the table still uses `.chip` pills (5 of them), so legend and table now differ in shape while agreeing on colour; noting it rather than fixing it, since the legend teaches colour meaning and I can't eyeball the result this session.
+
+**ShortSupply side (journaled there in full):** first cross-day diffs landed — 17 availability revisions, 1 new shortage, and **the first `/graveyard/` entry**: Hydrocortisone Sodium Succinate Injection was removed from the FDA list entirely, from `resolved`. That is the archive thesis proving itself on day two.
+
+**Next:** CC-9 is now unblocked (one full day of `reason` data exists) — split the coverage ledger's "no HTTPS response" bucket and visually demote never-a-website infrastructure domains. BOTH-2 (digest #2) has its lead story as of today: semafor's total close plus un.org's wildcard flip.
+
+**USER-NEEDED (unchanged, not acted on):** (1) Canicrawl launch approval — kit is ready in MARKETING.md; the recommended ~Aug 30 window still holds and today's flips are the first real evidence the changelog produces news. (2) ShortSupply domain pick (shortsupply.io / .co / .today).

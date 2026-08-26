@@ -80,6 +80,12 @@ for (const d of DOMAINS) {
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const chip = (status, source) =>
   `<span class="chip ${status}">${status}</span>${source === "wildcard" && status !== "allowed" ? `<sup class="inh" title="inherited from the site's default (*) rules">*</sup>` : ""}`;
+// Dense matrix cells (index + category tables): the <td> IS the chip, and the
+// inherited-from-* marker is a CSS ::after — saves ~9k DOM nodes on the 1,000-row
+// homepage. The legend explains the asterisk, so no per-cell title attribute.
+const statusCell = (status, source) =>
+  `<td class="s ${status}${source === "wildcard" && status !== "allowed" ? " inh" : ""}">${status}</td>`;
+const llmsCell = (has) => `<td class="s ${has ? "yes" : "no"}">${has ? "yes" : "—"}</td>`;
 const nav = [
   ["", "Sites"], ["bots/", "AI bots"], ["stats/", "Stats"], ["health/", "Coverage"], ["changelog/", "Changelog"], ["digest/", "Digest"], ["api/", "API"], ["about/", "About"],
 ];
@@ -147,11 +153,11 @@ for (const a of ["style.css", "app.js", "favicon.svg"]) {
 const rows = DOMAINS.map((d) => {
   const e = D[d];
   const cat = domainsFile.domains[d];
-  const cells = HEADLINE.map((b) => `<td>${chip(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)}</td>`).join("");
+  const cells = HEADLINE.map((b) => statusCell(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)).join("");
   return `<tr data-domain="${esc(d)}" data-cat="${esc(cat)}" data-blocks="${blocksAny(d) ? 1 : 0}" data-readable="${readableSet.has(d) ? 1 : 0}">
-<td><button data-d="${esc(d)}" aria-label="Watch ${esc(d)}" title="Watch this site (saved in your browser)">☆</button></td>
+<td><button class="watch" aria-label="Watch ${esc(d)} (saved in your browser)">☆</button></td>
 <td class="domain"><a href="site/${esc(d)}/">${esc(d)}</a></td><td class="cat"><a href="category/${esc(cat)}/">${esc(cat)}</a></td>
-<td>${e.llmstxt ? '<span class="chip yes">yes</span>' : '<span class="chip no">—</span>'}</td>${cells}</tr>`;
+${llmsCell(e.llmstxt)}${cells}</tr>`;
 }).join("\n");
 
 write("index.html", page({
@@ -209,7 +215,7 @@ for (const d of DOMAINS) {
     depth: 2, active: "Sites",
     content: `
 <a class="crumb" href="../../">← all sites</a>
-<h1>${esc(d)}<button class="watch-hero" data-d="${esc(d)}" aria-label="Watch ${esc(d)}" title="Watch this site (saved in your browser)">☆</button></h1>
+<h1>${esc(d)}<button class="watch watch-hero" data-d="${esc(d)}" aria-label="Watch ${esc(d)}" title="Watch this site (saved in your browser)">☆</button></h1>
 <p class="sub">${esc(summary)} <span class="updated">Snapshot: ${esc(snap.date)}</span></p>
 <dl class="kv">
   <dt>Category</dt><dd>${esc(cat)}</dd>
@@ -297,8 +303,8 @@ for (const cat of CATS) {
   const memberRows = sorted.map((d) => {
     const e = D[d];
     return `<tr><td class="domain"><a href="../../site/${esc(d)}/">${esc(d)}</a></td>
-<td>${e.llmstxt ? '<span class="chip yes">yes</span>' : '<span class="chip no">—</span>'}</td>
-${HEADLINE.map((b) => `<td>${chip(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)}</td>`).join("")}</tr>`;
+${llmsCell(e.llmstxt)}
+${HEADLINE.map((b) => statusCell(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)).join("")}</tr>`;
   }).join("\n");
   write(`category/${cat}/index.html`, page({
     title: `Do ${label} sites block AI crawlers? — Canicrawl`,

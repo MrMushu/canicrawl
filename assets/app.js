@@ -7,17 +7,25 @@
   }
   function save(set) { localStorage.setItem(KEY, JSON.stringify(Array.from(set))); }
   var watched = load();
+  // Index stars carry no data-d of their own (1,000 duplicates of the row's
+  // data-domain); site-page heroes still do, since they have no row.
+  function domOf(btn) {
+    if (btn.hasAttribute("data-d")) return btn.getAttribute("data-d");
+    var row = btn.parentNode;
+    while (row && row.nodeName !== "TR") row = row.parentNode;
+    return row ? row.getAttribute("data-domain") : "";
+  }
   function paint(btn) {
-    var on = watched.has(btn.getAttribute("data-d"));
+    var on = watched.has(domOf(btn));
     btn.textContent = on ? "★" : "☆";
     btn.classList.toggle("on", on);
     btn.setAttribute("aria-pressed", on ? "true" : "false");
   }
-  var stars = Array.prototype.slice.call(document.querySelectorAll("button[data-d]"));
+  var stars = Array.prototype.slice.call(document.querySelectorAll("button.watch"));
   stars.forEach(function (btn) {
     paint(btn);
     btn.addEventListener("click", function () {
-      var d = btn.getAttribute("data-d");
+      var d = domOf(btn);
       if (watched.has(d)) watched.delete(d); else watched.add(d);
       save(watched);
       stars.forEach(paint);
