@@ -7,13 +7,7 @@ Disallow: /?s=*
 Disallow: /auth/v1/sso/*
 Disallow: /mini.html?*
 Disallow: /*?*proxied=*
-Disallow: /frontendparts/*
 Disallow: /getfrontendparts/*
-Disallow: /newsletter/*
-Disallow: /comments/*
-Disallow: /dodaj-oferte/*
-Disallow: /mediateka/dodaj/*
-Disallow: /v1/moth
 
 Noindex: /trendy/*
 Noindex: /?s=*

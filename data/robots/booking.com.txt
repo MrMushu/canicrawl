@@ -463,6 +463,13 @@ Disallow: /log_rt_blocks_order
 Disallow: /fl/exposed
 Disallow: /pr_ue
 Disallow: /pxgo?*
+Disallow: /affiliatewidget
+Disallow: /prelanding_product
+Disallow: /flexiproduct
+Disallow: /purge_cookies
+Disallow: /searchbox.html
+Disallow: /hotelfeaturedreviews/
+Disallow: /*?*no_scraping_cache_key=
 
 User-agent: AdsBot-Google-Mobile
 Disallow: /s/
@@ -484,6 +491,13 @@ Disallow: /log_rt_blocks_order
 Disallow: /fl/exposed
 Disallow: /pr_ue
 Disallow: /pxgo?*
+Disallow: /affiliatewidget
+Disallow: /prelanding_product
+Disallow: /flexiproduct
+Disallow: /purge_cookies
+Disallow: /searchbox.html
+Disallow: /hotelfeaturedreviews/
+Disallow: /*?*no_scraping_cache_key=
 
 User-agent: YaDirectFetcher
 Disallow: /s/
@@ -559,12 +573,17 @@ Disallow: /c360/v1/track
 Disallow: /c360-api/
 Disallow: /log_rt_blocks_order
 Disallow: /hotel_rt_onview
-Disallow: /prelanding_product.*
+Disallow: /prelanding_product
 Disallow: /articles/tag/
 Disallow: /articles/category/
 Disallow: /cndlp/
 Disallow: /fl/exposed
 Disallow: /pr_ue
+Disallow: /affiliatewidget
+Disallow: /purge_cookies
+Disallow: /searchbox.html
+Disallow: /hotelfeaturedreviews/
+Disallow: /*?*no_scraping_cache_key=
 Allow: /index.hi.*
 Allow: /hotel/index.hi.*
 Allow: /cars/index.hi.*

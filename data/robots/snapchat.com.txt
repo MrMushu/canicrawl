@@ -226,7 +226,6 @@ Host: https://www.snapchat.com
 # Sitemaps
 Sitemap: https://www.snapchat.com/sitemap.xml
 Sitemap: https://www.snapchat.com/lens/sitemap.xml
-Sitemap: https://www.snapchat.com/p/sitemap.xml
 Sitemap: https://www.snapchat.com/sitemaps/place/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/profile/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/p/sitemap-index.xml

@@ -18,6 +18,9 @@ Disallow: /old-browser.html
 Disallow: /preauthorize
 Disallow: /signup?*
 Disallow: /invites/
+# No-index author pages (direct URL only, also marked noindex/nofollow)
+Disallow: /blog/authors
+Disallow: /changelog/authors
 
 
 

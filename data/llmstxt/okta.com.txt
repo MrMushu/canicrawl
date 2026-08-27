@@ -550,7 +550,6 @@
 - [CIAM by example: Four recipes to improve security and UX](https://www.okta.com/blog/product-innovation/ciam-by-example-four-recipes-to-improve-security-and-ux)
 - [Build your app or service right from the get-go](https://www.okta.com/blog/product-innovation/build-your-app-or-service-right-from-the-get-go)
 - [Extend your passwordless journey to device login](https://www.okta.com/blog/product-innovation/extend-your-passwordless-journey-to-device-login)
-- [99.99% Uptime For Every Customer](https://www.okta.com/blog/product-innovation/99-point-99-percent-uptime-for-all)
 - [Okta Workflows How-To: Find the JSON Object Passed From a Streaming Action to a Helper Flow](https://www.okta.com/blog/product-innovation/find-the-json-object-passed-from-streaming-to-helper-flow)
 - [Go beyond the login box with Customer Identity Cloud](https://www.okta.com/blog/product-innovation/go-beyond-the-login-box-with-customer-identity-cloud)
 - [CIAM by example in four recipes: Prevent fraudulent activity](https://www.okta.com/blog/product-innovation/ciam-by-example-in-four-recipes-prevent-fraudulent-activity)
@@ -1266,6 +1265,7 @@
 - [Governing AI agents for innovation and security inside the boundary you already trust](https://www.okta.com/blog/ai/governing-fedramp-ai-agents)
 - [From open access to open innovation: Okta’s AI-powered revolution](https://www.okta.com/blog/company-and-culture/okta-ai-innovation-revolution)
 - [First on the scene of the cybercrime](https://www.okta.com/blog/threat-intelligence/first-on-the-scene-of-the-cybercrime)
+- [99.99% Uptime For Every Customer](https://www.okta.com/blog/product-innovation/99-point-99-percent-uptime-for-all)
 
 ## Newsroom
 
@@ -1476,7 +1476,7 @@
 - [Okta Announces New Innovations to Secure AI Agents at Runtime and Automate Ongoing Agent Governance](https://www.okta.com/newsroom/articles/okta-july-2026-product-innovations)
 - [Meet your new digital co-worker: Why AI agents belong on the org chart](https://www.okta.com/newsroom/articles/meet-your-digital-co-worker-why-ai-agents-belong-on-the-org-chart)
 - [Jeeva AI team to join Okta](https://www.okta.com/newsroom/press-releases/jeeva-ai-team-to-join-okta)
-- [Okta signs definitive agreement to acquire Permiso Security](https://www.okta.com/newsroom/press-releases/okta-signs-definitive-agreement-to-acquire-permiso-security)
+- [Okta acquires Permiso Security](https://www.okta.com/newsroom/press-releases/okta-signs-definitive-agreement-to-acquire-permiso-security)
 - [Securing the future: Total Economic Impact study reveals the ROI of centralized identity](https://www.okta.com/newsroom/articles/total-economic-impact-study-reveals-the-roi-of-centralized-identity)
 - [Fewer tools, fewer tokens: How Okta cuts agent tool-selection costs before they happen](https://www.okta.com/newsroom/articles/fewer-tools-fewer-tokens-how-okta-cuts-agent-tool-selection-costs-before-they-happen)
 - [Scott Morgan joins Okta as Chief Legal Officer](https://www.okta.com/newsroom/press-releases/scott-morgan-joins-okta-as-chief-legal-officer)
@@ -1487,4 +1487,5 @@
 - [Okta named a Leader in 2026 KuppingerCole IGA Leadership Compass](https://www.okta.com/newsroom/articles/okta-named-leader-2026-kuppingercole-iga-leadership-compass)
 - [Navigating the EU AI Act with identity](https://www.okta.com/newsroom/articles/navigating-the-eu-ai-act-with-identity)
 - [Okta brings first-class identity to AI agents with Agent SSO](https://www.okta.com/newsroom/press-releases/okta-brings-first-class-identity-to-ai-agents-with-agent-sso)
+- [Okta announces second quarter fiscal year 2027 financial results](https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results)
 

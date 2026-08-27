@@ -1,6 +1,6 @@
 User-Agent: *
 Disallow: */recall*vin=
-Disallow: /*trid=      
+Disallow: /*trid= 
 Disallow: /*psid=
 Disallow: /*siomid
 Disallow: /mykbb/
@@ -31,6 +31,7 @@ Disallow: */car-quiz*vehicles=*scores=*attributes=
 Disallow: /comment-summary
 Disallow: /kbbreport/
 Disallow: *bvstate
+Disallow: */decision-tree
 
 User-agent: Amazonbot
 Disallow: /
@@ -102,7 +103,7 @@ Disallow: /kbbreport/
 User-agent: Google-InspectionTool
 Allow: *
 Disallow: */recall*vin=
-Disallow: /*trid=      
+Disallow: /*trid= 
 Disallow: /*psid=
 Disallow: /*siomid
 Disallow: /mykbb/
@@ -124,7 +125,6 @@ Disallow: /cars-for-sale/experian*
 Disallow: */car-offers/*
 Disallow: */options/
 Disallow: /cars-for-sale/build-and-price
-Disallow: /cars-for-sale/vehicle-conditioning/
 Disallow: *intent=
 Disallow: /cars-for-sale/vehicle-conditioning/
 Disallow: */valuetype/
@@ -133,6 +133,8 @@ Disallow: */car-match-quiz*vehicles=*scores=*attributes=
 Disallow: */car-quiz*vehicles=*scores=*attributes=
 Disallow: /comment-summary
 Disallow: /kbbreport/
+Disallow: *bvstate
+Disallow: */decision-tree
 
 User-agent: Mediapartners-Google
 Disallow: /

@@ -9,7 +9,7 @@ Intercom is the customer service platform combining human agents and AI agents i
 ## Site Structure
 
 ### Platform
-- [Intercom Platform](https://www.intercom.com/): The only helpdesk designed for the AI Agent era
+- [Intercom Platform](https://www.intercom.com/): A complete system for human and AI customer service
 - [Pricing](https://www.intercom.com/pricing): Plans for every team size
 - [Watch Demos](https://www.intercom.com/view-demos): Product walkthroughs
 

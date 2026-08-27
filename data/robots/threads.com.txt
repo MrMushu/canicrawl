@@ -79,6 +79,20 @@ Disallow: /qp/batch_fetch_web/
 Disallow: /query/
 Disallow: /settings/
 
+User-agent: deepcrawl
+Disallow: /accounts/
+Disallow: /activity/
+Disallow: /ajax/
+Disallow: /client_error/
+Disallow: /deck/
+Disallow: /intent/
+Disallow: /logging/
+Disallow: /onboarding/
+Disallow: /publicapi/
+Disallow: /qp/batch_fetch_web/
+Disallow: /query/
+Disallow: /settings/
+
 User-agent: Discordbot
 Disallow: /accounts/
 Disallow: /activity/
@@ -182,6 +196,20 @@ Disallow: /query/
 Disallow: /settings/
 
 User-agent: Google-InspectionTool
+Disallow: /accounts/
+Disallow: /activity/
+Disallow: /ajax/
+Disallow: /client_error/
+Disallow: /deck/
+Disallow: /intent/
+Disallow: /logging/
+Disallow: /onboarding/
+Disallow: /publicapi/
+Disallow: /qp/batch_fetch_web/
+Disallow: /query/
+Disallow: /settings/
+
+User-agent: lumar
 Disallow: /accounts/
 Disallow: /activity/
 Disallow: /ajax/

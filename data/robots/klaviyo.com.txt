@@ -1,6 +1,5 @@
 # ============================================================
 # klaviyo.com robots.txt
-# Last updated: 2026-05-20
 # ============================================================
 
 Sitemap: https://www.klaviyo.com/sitemap_index.xml
@@ -31,7 +30,6 @@ Disallow: /campaign-wizard
 Disallow: /account
 Disallow: /dashboard
 Disallow: /integrations
-Disallow: /login?*
 Disallow: /support
 Disallow: /flows
 Disallow: /email-templates
@@ -96,7 +94,6 @@ Disallow: /campaign-wizard
 Disallow: /account
 Disallow: /dashboard
 Disallow: /integrations
-Disallow: /login?*
 Disallow: /support
 Disallow: /flows
 Disallow: /email-templates

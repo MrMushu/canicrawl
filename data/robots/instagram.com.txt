@@ -72,6 +72,17 @@ Disallow: /qp/batch_fetch_web/
 Disallow: /query/
 Allow: /places/c/
 
+User-agent: deepcrawl
+Disallow: /accounts/login/*?next=
+Disallow: /ajax/
+Disallow: /client_error/
+Disallow: /direct/
+Disallow: /logging/
+Disallow: /publicapi/
+Disallow: /qp/batch_fetch_web/
+Disallow: /query/
+Allow: /places/c/
+
 User-agent: Discordbot
 Disallow: /accounts/login/*?next=
 Disallow: /ajax/
@@ -153,6 +164,17 @@ Disallow: /query/
 Allow: /places/c/
 
 User-agent: Google-InspectionTool
+Disallow: /accounts/login/*?next=
+Disallow: /ajax/
+Disallow: /client_error/
+Disallow: /direct/
+Disallow: /logging/
+Disallow: /publicapi/
+Disallow: /qp/batch_fetch_web/
+Disallow: /query/
+Allow: /places/c/
+
+User-agent: lumar
 Disallow: /accounts/login/*?next=
 Disallow: /ajax/
 Disallow: /client_error/

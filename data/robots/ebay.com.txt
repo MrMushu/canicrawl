@@ -23,7 +23,7 @@
 # * Approved enterprise integrations must use our official API and 
 #   comply with our API License Agreement: https://developer.ebay.com/join/api-license-agreement 
 #
-# v30.1_COM_August_2026
+# v30.2_COM_August_2026
 ### DIRECTIVES ###
 
 User-agent: *
@@ -1010,20 +1010,8 @@ Disallow: /ws/
 
 User-agent: OAI-AdsBot
 Allow: /b/*?*mkcid=32*
-Disallow: /act/
-Disallow: /adchoice
-Disallow: /fdbk/
-Disallow: /myb
-Disallow: /mye
-Disallow: /myebay
-Disallow: /mys
-Disallow: /nap/
-Disallow: /rtm*
-Disallow: /sh/checkout
-Disallow: /signin/
-Disallow: /sme/
-Disallow: /usr/
-Disallow: /ws/
+Allow: /itm/*?*mkcid=32* 
+Disallow: /
 
 # AUCTION Sitemaps
 Sitemap: https://www.ebay.com/lst/AUCTION-0-index.xml

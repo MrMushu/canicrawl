@@ -69,6 +69,7 @@ Disallow: /martech-content/
 Disallow: /bin/telegraph/recombee-config
 Disallow: /*&p=
 Disallow: /customer/subscription/*?
+Disallow: /edge-redirection/
 
 #Bots which make unnecessary bot traffic
 

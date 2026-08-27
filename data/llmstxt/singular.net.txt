@@ -9,6 +9,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Pages
 
+- [Data Security &amp; Privacy](https://www.singular.net/data-security-privacy/): Security &amp; Privacy Up to date compliance, security and privacy measures that keep up with the evolving needs of the...
 - [Privacy Policy](https://www.singular.net/privacy-policy/): Privacy Policy This Privacy Policy (“Privacy Policy”) explains how information is collected and used by Singular Labs, Inc. (“Singular” or...
 - [Children&#039;s Privacy Notice](https://www.singular.net/children-privacy-notice/): Children’s Privacy Notice Introduction We, at Singular Labs, Inc. (“we”, “our” or “us”) have developed and offer a technology platform...
 - [Terms &amp; Conditions](https://www.singular.net/terms/): Singular Terms of Service Singular Labs, Inc. (“Singular” or “us”, “our”, “we”) provides unified marketing data, intelligent insights, and automation...
@@ -71,7 +72,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [SKAN Adoption](https://www.singular.net/skadnetwork-adoption/): Live SKAdNetworkAdoption Dashboard Keep up with industry SKAN adoption in real-time to benchmark your adoption and improve your campaign planning. SKAdNetwork...
 - [Pipa Studios aumenta em 2x o número de usuários pagantes com melhor visibilidade e acesso aos dados](https://www.singular.net/case-study-pipa-portuguese/): Pipa Studios aumenta em 2x o número de usuários pagantes com melhor visibilidade e acesso aos dados
 - [Cross-Device Attribution](https://www.singular.net/pages/cross-device-attribution/):  
-- [Security and Privacy](https://www.singular.net/data-security-privacy/): Up-to-date compliance, security, and privacy measures that keep up with the evolving needs of the market
+- [Security and Privacy](https://www.singular.net/pages/data-security-privacy/)
 - [Partner Terms &amp; Conditions](https://www.singular.net/partner-terms/): SINGULAR PARTNER TERMS OF SERVICE Welcome to Singular Labs, Inc. (“Singular”)’s partners portal (the “Portal”). Please carefully read the following...
 - [MMP](https://www.singular.net/mmp/)
 - [Fraud Detection and Prevention](https://www.singular.net/pages/fraud-prevention/)
@@ -865,6 +866,8 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 
 ## Pages
+
+
 
 
 

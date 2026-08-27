@@ -156,6 +156,10 @@ Disallow: /realty*?*pinned_offer_id=
 Disallow: /realty*?*pinned_nb_id=
 Disallow: /realty/search
 Disallow: /realty*?*text=
+Disallow: /realty/result
+Disallow: /realty/map_pins
+Disallow: /realty/map_dust
+Disallow: /realty/callme
 Disallow: /redir
 Disallow: /region_map
 Disallow: /regions_list.xml
@@ -478,6 +482,10 @@ Disallow: /realty*?*pinned_offer_id=
 Disallow: /realty*?*pinned_nb_id=
 Disallow: /realty/search
 Disallow: /realty*?*text=
+Disallow: /realty/result
+Disallow: /realty/map_pins
+Disallow: /realty/map_dust
+Disallow: /realty/callme
 Disallow: /redir
 Disallow: /region_map
 Disallow: /regions_list.xml
@@ -1080,6 +1088,10 @@ Disallow: /realty*?*pinned_offer_id=
 Disallow: /realty*?*pinned_nb_id=
 Disallow: /realty/search
 Disallow: /realty*?*text=
+Disallow: /realty/result
+Disallow: /realty/map_pins
+Disallow: /realty/map_dust
+Disallow: /realty/callme
 Disallow: /redir
 Disallow: /region_map
 Disallow: /regions_list.xml
