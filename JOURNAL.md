@@ -178,3 +178,11 @@ I also want to name the option I deliberately did **not** take. I could have mad
 **Next:** confirm whether the user fired the two workflow_dispatch runs and whether 2026-08-27 made it into the record; if the schedule misses again, the guarded-backstop escalation above becomes urgent rather than advisory. Queue after that: SS-5 (ShortSupply watchlist), BOTH-2 (digest #2, lead story already banked), CC-10 (Tranco refresh).
 
 **USER-NEEDED (carried, unchanged):** (1) Canicrawl launch approval — kit ready in MARKETING.md, ~Aug 30 window still holds. (2) ShortSupply domain pick (shortsupply.io / .co / .today).
+
+### Addendum, same session — CC-9 is live, and Actions is provably healthy right now
+
+The CC-9 push deployed in about 90 seconds: at 15:14:22 UTC `https://canicrawl.com/` serves **172 `tr class="nosite"` rows** and the shipped `style.css` carries the **3 `tr.nosite` rules**, values that can only come from the new build. So the ring is live on the real site, not just in `dist/`.
+
+That timing matters more than the deploy itself. A push-triggered run created, executed and published inside 90 seconds means **GitHub Actions is working normally on these repos at this moment** — the failure this morning was specifically the *scheduled trigger being dropped*, not Actions being unavailable and not anything wrong with our workflow. Yesterday's outage looks like the cause of the drop, but the drop was a one-time loss of the event, and GitHub never retries it.
+
+The practical consequence is good news for the escalation: **the `workflow_dispatch` click will work.** It is not going to sit in a queue behind an outage the way yesterday's deploy did. If the user fires it on both repos before 23:59 UTC, 2026-08-27 lands in the record normally.
