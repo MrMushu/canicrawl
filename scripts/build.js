@@ -47,6 +47,8 @@ const OUTCOMES = {
   "ok": { label: "robots.txt read", readable: true, meaning: "We fetched and parsed the site's robots.txt." },
   "no-robots": { label: "no robots.txt (404)", readable: true, meaning: "The site serves no robots.txt, which under RFC 9309 means every crawler is allowed." },
   "unreachable": { label: "no HTTPS response", readable: false, meaning: "Nothing answered on https://<domain>/robots.txt or the www. variant — usually a domain that isn't a website at all (CDN, DNS or telemetry endpoint), sometimes a timeout." },
+  "no-dns": { label: "domain does not resolve", readable: false, meaning: "No DNS record exists for this name, so it never served a website. Tranco ranks domains by how often resolvers look them up, so its top list includes CDN, DNS and telemetry endpoints that answer queries but host no pages." },
+  "no-answer": { label: "host answered nothing", readable: false, meaning: "The name resolves and a host exists, but nothing served robots.txt — a timeout, TLS failure or dropped connection. Unlike a non-resolving domain, this one may well read fine tomorrow." },
   "fetch-blocked": { label: "refused (401/403)", readable: false, meaning: "The server answered, but refused to hand over robots.txt. We never retry with a disguised user agent." },
   "html-response": { label: "HTML instead of text", readable: false, meaning: "The server returned a web page where robots.txt should be — usually a catch-all router or a soft 404. We refuse to guess a policy from HTML." },
 };
@@ -60,9 +62,23 @@ const REASONS = {
   tls: "TLS/certificate failure",
   other: "other network error",
 };
+// CC-9: `unreachable` answered two very different questions at once. A domain
+// with no DNS record was never a website; a timeout or TLS failure is a real
+// host we failed to reach today and may reach tomorrow. crawl.js records the
+// network `reason` since 2026-08-26, so split the bucket on evidence rather
+// than on guessing from the domain name. Snapshots older than that have no
+// reason and stay in the undifferentiated `unreachable` row.
+const dispOutcome = (d) => {
+  const e = D[d];
+  if (e.fetch !== "unreachable") return e.fetch;
+  if (!e.reason) return "unreachable";
+  return e.reason === "dns" ? "no-dns" : "no-answer";
+};
+const isNoSite = (d) => dispOutcome(d) === "no-dns";
+const noSite = DOMAINS.filter(isNoSite);
 const byOutcome = new Map();
 for (const d of DOMAINS) {
-  const f = D[d].fetch;
+  const f = dispOutcome(d);
   if (!byOutcome.has(f)) byOutcome.set(f, []);
   byOutcome.get(f).push(d);
 }
@@ -154,7 +170,7 @@ const rows = DOMAINS.map((d) => {
   const e = D[d];
   const cat = domainsFile.domains[d];
   const cells = HEADLINE.map((b) => statusCell(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)).join("");
-  return `<tr data-domain="${esc(d)}" data-cat="${esc(cat)}" data-blocks="${blocksAny(d) ? 1 : 0}" data-readable="${readableSet.has(d) ? 1 : 0}">
+  return `<tr${isNoSite(d) ? ` class="nosite"` : ""} data-domain="${esc(d)}" data-cat="${esc(cat)}" data-blocks="${blocksAny(d) ? 1 : 0}" data-readable="${readableSet.has(d) ? 1 : 0}">
 <td><button class="watch" aria-label="Watch ${esc(d)} (saved in your browser)">☆</button></td>
 <td class="domain"><a href="site/${esc(d)}/">${esc(d)}</a></td><td class="cat"><a href="category/${esc(cat)}/">${esc(cat)}</a></td>
 ${llmsCell(e.llmstxt)}${cells}</tr>`;
@@ -191,7 +207,7 @@ write("index.html", page({
 <thead><tr><th aria-label="watch"></th><th>Site</th><th>Category</th><th>llms.txt</th>${HEADLINE.map((b) => `<th><a href="bot/${esc(b)}/">${esc(b)}</a></th>`).join("")}</tr></thead>
 <tbody>${rows}</tbody>
 </table></div>
-<p class="note">Chips read from each site's robots.txt: <span class="chip allowed">allowed</span> no rule stops this bot · <span class="chip restricted">restricted</span> some paths disallowed · <span class="chip blocked">blocked</span> fully disallowed · <span class="chip unknown">unknown</span> we couldn't read the file. An asterisk means the verdict is inherited from the site's default (<code>*</code>) rules rather than naming the bot. Every site page shows all ${BOT_NAMES.length} tracked bots. We could read the policy of ${readable.length} of the ${DOMAINS.length} tracked domains on ${esc(snap.date)}; the other ${unreadable.length} are listed as <span class="chip unknown">unknown</span> and excluded from every percentage — see <a href="health/">what we can and can't see</a>.</p>
+<p class="note">Chips read from each site's robots.txt: <span class="chip allowed">allowed</span> no rule stops this bot · <span class="chip restricted">restricted</span> some paths disallowed · <span class="chip blocked">blocked</span> fully disallowed · <span class="chip unknown">unknown</span> we couldn't read the file. An asterisk means the verdict is inherited from the site's default (<code>*</code>) rules rather than naming the bot. Every site page shows all ${BOT_NAMES.length} tracked bots. We could read the policy of ${readable.length} of the ${DOMAINS.length} tracked domains on ${esc(snap.date)}; the other ${unreadable.length} are listed as <span class="chip unknown">unknown</span> and excluded from every percentage — see <a href="health/">what we can and can't see</a>. Of those, <strong>${noSite.length}</strong> have no DNS record at all and were never websites — Tranco ranks by resolver traffic, so CDN and telemetry endpoints ride high in it. Those rows are <span class="nosite-key">greyed out and marked <em>no DNS</em></span>; we keep them listed and counted rather than curating the panel by hand.</p>
 <script src="app.js"></script>`,
 }));
 
@@ -219,7 +235,7 @@ for (const d of DOMAINS) {
 <p class="sub">${esc(summary)} <span class="updated">Snapshot: ${esc(snap.date)}</span></p>
 <dl class="kv">
   <dt>Category</dt><dd>${esc(cat)}</dd>
-  <dt>robots.txt</dt><dd>${e.fetch === "ok" ? `readable — <a href="https://${esc(d)}/robots.txt" rel="nofollow">view live file</a>` : esc(e.fetch)}</dd>
+  <dt>robots.txt</dt><dd>${e.fetch === "ok" ? `readable — <a href="https://${esc(d)}/robots.txt" rel="nofollow">view live file</a>` : esc(outcomeLabel(dispOutcome(d)))}</dd>
   <dt>Default (<code>*</code>) policy</dt><dd>${chip(e.wildcard ?? "unknown")}${e.wildcard === "blocked" ? " — this site closes its doors to every crawler it doesn't explicitly name" : ""}</dd>
   <dt>llms.txt</dt><dd>${e.llmstxt ? `<span class="chip yes">published</span> — <a href="https://${esc(d)}/llms.txt" rel="nofollow">view</a> (an on-ramp written for AI readers)` : '<span class="chip no">none found</span>'}</dd>
   <dt>Machine-readable</dt><dd><a href="../../data/sites/${esc(d)}.json">JSON for this site</a></dd>
@@ -391,7 +407,8 @@ write("health/index.html", page({
 <tbody>${outcomeRows.map(([f, list]) => `<tr><td><span class="chip ${OUTCOMES[f]?.readable ? "yes" : "unknown"}">${esc(outcomeLabel(f))}</span></td><td>${list.length}</td><td>${pct(list.length, DOMAINS.length)}%</td><td>${esc(outcomeMeaning(f))}</td></tr>`).join("\n")}</tbody>
 </table></div>
 <h2>Why nothing answered</h2>
-<p>The biggest bucket is <em>no HTTPS response</em>, and it is mostly not censorship — it's the panel. Tranco ranks domains by how often the world's resolvers look them up, so its top list is full of names that were never websites: CDN edges (<code>akam.net</code>, <code>tiktokcdn.com</code>), connectivity and DNS endpoints (<code>msftconnecttest.com</code>, <code>dns-parking.com</code>), cloud plumbing (<code>ax-msedge.net</code>, <code>azurewebsites.net</code>). They have no <code>robots.txt</code> because they have no site. We leave them in the index rather than curating them away, so the panel stays reproducible from a public ranking instead of from our taste.</p>
+<p>Until ${esc(snap.date)} this page had a single <em>no HTTPS response</em> bucket, which hid the most important distinction in the whole ledger. It is now split on recorded evidence, not on guesswork about domain names: <strong>${noSite.length} domains have no DNS record at all</strong>, and ${(byOutcome.get("no-answer") ?? []).length} resolve to a real host that then gave us nothing.</p>
+<p>The first group is not censorship — it's the panel. Tranco ranks domains by how often the world's resolvers look them up, so its top list is full of names that were never websites: CDN edges (<code>akam.net</code>, <code>tiktokcdn.com</code>), connectivity and DNS endpoints (<code>msftconnecttest.com</code>, <code>dns-parking.com</code>), cloud plumbing (<code>ax-msedge.net</code>, <code>azurewebsites.net</code>). They have no <code>robots.txt</code> because they have no site, and a name that does not resolve today will almost certainly not resolve tomorrow. We leave them in the index — greyed out and marked, never deleted — so the panel stays reproducible from a public ranking instead of from our taste. The second group is the genuinely interesting one: those are live hosts, and a timeout today can be a readable policy next week, which is why coverage moves a little every day.</p>
 <div class="tablewrap"><table class="statgrid">
 <thead><tr><th>Network result</th><th>Domains</th><th>Meaning</th></tr></thead>
 <tbody>${reasonRows.map(([r, n]) => `<tr><td>${esc(r)}</td><td>${n}</td><td>${esc(REASONS[r] ?? "recorded from the next crawl onward")}</td></tr>`).join("\n")}</tbody>
@@ -637,7 +654,7 @@ Data is CC BY 4.0. Cite "Canicrawl" with a link.
 // llms-full.txt: the complete census in one plaintext file, written for AI readers.
 const fullLines = DOMAINS.map((d) => {
   const e = D[d];
-  if (e.fetch !== "ok" && e.fetch !== "no-robots") return `${d} — policy unreadable (${e.fetch})`;
+  if (e.fetch !== "ok" && e.fetch !== "no-robots") return `${d} — policy unreadable (${outcomeLabel(dispOutcome(d))})`;
   const blocked = BOT_NAMES.filter((b) => e.bots[b]?.status === "blocked");
   const restricted = BOT_NAMES.filter((b) => e.bots[b]?.status === "restricted");
   const parts = [

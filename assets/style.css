@@ -93,3 +93,15 @@ details summary { cursor: pointer; font-weight: 600; }
 details[open] summary { margin-bottom: 8px; }
 p.domains { font: 13px var(--mono); line-height: 2; word-break: break-all; color: var(--muted); }
 p.domains a { color: var(--muted); }
+
+/* CC-9: domains with no DNS record were never websites (Tranco ranks by
+   resolver traffic). Kept listed and counted for auditability, visually
+   demoted so the front page reads as sites first. Marker is a ::after so
+   1,000 rows cost zero extra DOM nodes. */
+tr.nosite td.domain a, tr.nosite td.cat a { color: var(--muted); }
+tr.nosite td.s { opacity: 0.4; }
+tr.nosite td.domain a::after {
+  content: " no DNS"; font-size: 10.5px; font-weight: 600; letter-spacing: 0.03em;
+  text-transform: uppercase; color: var(--muted); margin-left: 6px; vertical-align: 1px;
+}
+.nosite-key { color: var(--muted); font-weight: 600; }
