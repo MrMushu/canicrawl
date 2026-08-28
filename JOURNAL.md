@@ -217,3 +217,24 @@ Both banked for **BOTH-2 / digest #2**, which now has a spine: the discovery-rad
 **SS-5 deployed and verified against the real site, not `dist/`.** `https://mrmushu.github.io/shortsupply/` serves **238 `button class="watch"` stars** and the `only watched ★` toggle; `/app.js` carries the `shortsupply-watchlist` key; `/style.css` carries the three `button.watch` rules; `/drug/albuterol-sulfate-solution/` carries the hero star and its `../../app.js` tag. The **"not medical advice" disclaimer is present on the served drug page** — checked on the live bytes, not just the build, because that is the one invariant a ring must never disturb. canicrawl.com is HTTP 200 and unchanged.
 
 **Disk, first lead only.** A recursive scan of the profile is still running when this entry closes, but the first directory it finished is **`C:\Users\aaoku\Downloads` at 72.6 GB**. That is a lead, not the answer — the drive holds ~893 GB used with **0.45 GB free**, so Downloads is well under a tenth of it. I did not delete, move or open anything of the user's; the only thing removed this session was our own gitignored `taro/dist/`. Recommend the user run a proper space analyser rather than trusting a partial number from an ops session. Until the drive has headroom, **every session here carries a real risk of a failed write**, and an append-only journal is exactly the wrong file to lose a write on.
+
+### Addendum 2, same session — the disk scan finished; Downloads was the wrong suspect
+
+The recursive profile scan completed after the entry above closed, so the "72.6 GB in Downloads" lead is superseded. The actual breakdown of `C:\Users\aaoku`:
+
+| Directory | Size |
+|---|---|
+| Pictures | 185.1 GB |
+| Videos | 104.0 GB |
+| AppData | 96.7 GB |
+| Desktop | 79.9 GB |
+| Downloads | 72.6 GB |
+| Documents | 42.2 GB |
+| .android | 38.4 GB |
+| anaconda3 | 5.0 GB |
+| .codex | 3.5 GB |
+| OneDrive | 2.4 GB |
+
+That totals **≈630 GB**, against **892.7 GB used** on the volume — so roughly **260 GB sits outside the user profile entirely** (Windows, Program Files, other volumes' worth of installed software, or another account). Two honest observations for the user rather than recommendations I'm not qualified to make: **Pictures and Videos alone are 289 GB**, which is the kind of thing that belongs on external or cloud storage rather than a system drive; and **`.android` at 38.4 GB** is almost entirely AVD emulator images and SDK caches, which is the largest purely-regenerable block visible here. Nothing was deleted, moved or opened — this is a reading, not an intervention, and clearing space is the user's call.
+
+The operational point stands unchanged and is the reason this is journaled at all: at **0.45 GB free**, a write can fail at any moment, and it already did once today on the append-only journal. Fixing this outranks every ring in the queue.
