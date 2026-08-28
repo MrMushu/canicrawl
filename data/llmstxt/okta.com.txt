@@ -1486,6 +1486,7 @@
 - [Okta is the first independent and neutral identity platform to bring AI agent governance to highly regulated environments](https://www.okta.com/newsroom/press-releases/okta-for-ai-agents-core-brings-lifecycle-governance-to-regulated-environments)
 - [Okta named a Leader in 2026 KuppingerCole IGA Leadership Compass](https://www.okta.com/newsroom/articles/okta-named-leader-2026-kuppingercole-iga-leadership-compass)
 - [Navigating the EU AI Act with identity](https://www.okta.com/newsroom/articles/navigating-the-eu-ai-act-with-identity)
+- [How HubSpot and Modern Treasury are building for the agentic future](https://www.okta.com/newsroom/articles/how-hubspot-and-modern-treasury-are-building-for-the-agentic-future)
 - [Okta brings first-class identity to AI agents with Agent SSO](https://www.okta.com/newsroom/press-releases/okta-brings-first-class-identity-to-ai-agents-with-agent-sso)
 - [Okta announces second quarter fiscal year 2027 financial results](https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results)
 

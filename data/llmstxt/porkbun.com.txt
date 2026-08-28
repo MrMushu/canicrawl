@@ -15,6 +15,7 @@ Note: unlike some registrars, Porkbun API keys work regardless of whether accoun
 - Manage DNSSEC records, URL forwarding, and glue records
 - Retrieve free SSL certificate bundles for registered domains
 - Provision and deploy Secure Static Hosting for a domain — create hosting (15-day free trial, one per domain), upload site files, and serve a static site over HTTPS, entirely via the API
+- Provision a managed **WordPress** site (Cloud for WordPress) on a domain, then mint WordPress REST API credentials so an agent can publish and manage content on it — end to end, no dashboard
 - Test the whole API end-to-end in an isolated **sandbox** — a `pk1_sb_` key runs every operation against a simulated environment with fake credit (no real registry actions, DNS changes, or charges), including delivering signed webhooks
 - Learn any endpoint's response shape with **zero credentials** via the mock server at `/mock/<path>`
 - Read account credit balance and API spend-control settings
@@ -116,16 +117,33 @@ Pass `apikey` and `secretapikey` in the JSON body, or use `X-API-Key` / `X-Secre
 - `POST /webhook/rotateSecret` , `POST /webhook/test` , `POST /webhook/delete` — rotate secret, send a test event, delete
 - `GET /webhook/deliveries` , `GET /webhook/delivery/{id}` — recent delivery log (~30 days) + single delivery with full payload
 - `POST /webhook/resend` — re-queue a past delivery (reuses the original event id)
-- `GET/POST /hosting/plans` — list API-provisionable hosting plans (SKU, price, interval, trial length, features)
-- `POST /hosting/create/{domain}` — provision Secure Static Hosting by `sku` (15-day free trial on a domain's first provision; a re-provision after deprovision is charged to account credit — one free trial per domain). Requires `acknowledgedCost` + `agreeToTerms`; gates the nameserver switch behind `agreeToNameserverChange`; `dryRun`-able
-- `GET /hosting/get/{domain}` — hosting status (plan, trial, expiry, auto-renew)
-- `POST /hosting/deploy/{domain}` — upload site files (base64, ≤10MB/call; a file path may include directories, which are auto-created)
+### Hosting — two products share these endpoints
+Pick the product with the `sku` you pass to `/hosting/create`: **Secure Static Hosting** (`PIXIESECURESTATIC…`, you upload files) or **Cloud for WordPress** (`CLOUDWORDPRESS…`, a managed WordPress site you drive through WordPress). Either way the domain's first provision is a 15-day free trial that auto-renews at the plan price; one free trial per domain.
+
+*Both products:*
+- `GET/POST /hosting/plans` — list API-provisionable plans for both products (SKU, price, interval, trial length, features); the `product` field says which is which
+- `POST /hosting/create/{domain}` — provision by `sku`. Requires `acknowledgedCost` + `agreeToTerms`; gates the nameserver switch behind `agreeToNameserverChange`; `dryRun`-able. For a WordPress sku the response includes `wordpress.restUrl` / `adminUrl`
+- `GET /hosting/get/{domain}` — status (product, plan, trial, expiry, auto-renew); poll until `ACTIVE` after provisioning
+- `POST /hosting/delete/{domain}` — deprovision
+
+*Secure Static Hosting only* (a WordPress site returns `NOT_SUPPORTED_FOR_PRODUCT`):
+- `POST /hosting/deploy/{domain}` — upload site files (base64, ≤10MB/call; directories in a path are auto-created)
 - `GET/POST /hosting/files/{domain}` , `POST /hosting/makeDir/{domain}` , `POST /hosting/deleteFile/{domain}` — list files, create a directory, delete a file
-- `POST /hosting/delete/{domain}` — deprovision hosting
+
+*Rate limits:* 10 provisions per account per hour, 20 WordPress credential mints per account per hour (`dryRun` calls are free). Per-key domain allowlists apply to every `/hosting/*` call, so a scoped key can only touch its own domains.
+
+*Cloud for WordPress only:*
+- `POST /hosting/createWpCredentials/{domain}` — mint a WordPress **Application Password** (returned once) so an agent can drive the site via `https://{domain}/wp-json/` with HTTP Basic. Defaults to a dedicated least-privilege `editor` user; `role: "administrator"` (full control, can install plugins = run code) requires `acknowledgeFullAccess: true`
+- `GET /hosting/getWpCredentials/{domain}` — list application passwords (metadata only; the passwords can't be re-read)
+- `POST /hosting/deleteWpCredentials/{domain}` — revoke by `uuid`, or `all: true`
 - `POST /sandbox/topup` , `POST /sandbox/reset` , `POST /sandbox/triggerWebhook` — sandbox only (pk1_sb_ keys): add fake credit / reset to a clean slate / fire a sample webhook event to your endpoints
 - `GET /mock` , `GET|POST /mock/<path>` — credential-free mock server: schema-accurate example responses for any endpoint (append `?status=error` for the error shape)
 
 ## Error codes (selection)
+- `NOT_SUPPORTED_FOR_PRODUCT` — wrong hosting product for this endpoint
+- `PREVIEW_SITE_NOT_SUPPORTED` — free preview sites aren't API-managed
+- `FULL_ACCESS_ACKNOWLEDGMENT_REQUIRED` — admin role needs acknowledgeFullAccess
+- `WP_CLI_FAILED` — the WordPress site rejected the command
 
 - `INVALID_API_KEYS_001` — the public `apikey` is invalid/unknown
 - `INVALID_API_KEYS_002` — the public key is valid but the `secretapikey` doesn't match

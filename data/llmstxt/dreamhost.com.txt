@@ -53,6 +53,7 @@ VPS hosting includes full root/sudo access and one-click deployment for popular 
 - [Dokploy](https://www.dreamhost.com/hosting/vps/dokploy/) - Self-hosted PaaS for deploying apps with Git-based deploys and automatic SSL
 - [OpenClaw](https://www.dreamhost.com/hosting/vps/openclaw/) - Open-source AI assistant for WhatsApp, Telegram, and Slack
 - [Hermes Agent](https://www.dreamhost.com/hosting/vps/hermes-agent/) - Open-source AI agent by Nous Research with persistent memory, self-improving skills, and a web UI
+- [Umami](https://www.dreamhost.com/hosting/vps/umami/) - Open-source (MIT) web analytics with goals, funnels, journeys, session replay, and heatmaps; pre-installed with PostgreSQL and a Caddy reverse proxy with automatic HTTPS on Debian 13
 - [LAMP Stack](https://www.dreamhost.com/hosting/vps/lamp/) - Linux + Apache + MariaDB + PHP with phpMyAdmin
 - [Ubuntu](https://www.dreamhost.com/hosting/vps/ubuntu/) - Base OS image (26.04 LTS or 24.04 LTS)
 - [Debian 13](https://www.dreamhost.com/hosting/vps/debian/) - Base OS image

@@ -111,6 +111,9 @@ Disallow: /latam/
 Disallow: /jp/
 Disallow: /account/subscribe/payment
 
+User-agent: Applebot-Extended
+Disallow: /
+
 # Block all other bots
 User-agent: *
 Allow: /plus/

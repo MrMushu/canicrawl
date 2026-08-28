@@ -789,6 +789,283 @@
    "bot": "Gemini-Deep-Research",
    "from": "allowed",
    "to": "restricted"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "shein.com",
+   "kind": "llmstxt",
+   "from": true,
+   "to": false
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "unity3d.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "wildcard",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Claude-User",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Claude-SearchBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "MistralAI-User",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "anthropic-ai",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Claude-Web",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "cohere-ai",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "cohere-training-data-crawler",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "omgili",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "omgilibot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "ImagesiftBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Timpibot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "AI2Bot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "DeepSeekBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "GrokBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "PanguBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-08-28",
+   "domain": "un.org",
+   "kind": "bot-flip",
+   "bot": "Gemini-Deep-Research",
+   "from": "restricted",
+   "to": "allowed"
   }
  ]
 }

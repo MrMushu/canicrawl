@@ -7,7 +7,6 @@ Disallow: */register/?*
 Disallow: */forgot-password/*
 Disallow: /signup/?*
 Disallow: */sign-up/*/
-Disallow: */get-demo/*
 Disallow: /m/*
 
 # Host

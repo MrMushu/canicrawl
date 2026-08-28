@@ -56,7 +56,6 @@ Disallow: /AdRequestEventLogApi
 Disallow: /AdsManager
 Disallow: /adsoverview
 Disallow: /AffiliateWidgets
-Disallow: /AIAssistant
 Disallow: /AirlineRegistration
 Disallow: /AirlineTips
 Disallow: /AirportFromGeoAjax
@@ -525,7 +524,6 @@ Disallow: /ProductError
 Disallow: /ProductPaymentUpdate
 Disallow: /Profile
 Disallow: /promotionaltools
-Disallow: /ProxyToolsAccountSettingsTool
 Disallow: /ProxyToolsCustomerSupportForm
 Disallow: /ProxyToolsDiscountCode
 Disallow: /ProxyToolsMemberEditor

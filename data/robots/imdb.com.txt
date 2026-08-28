@@ -35,7 +35,6 @@ User-agent: TelegramBot
 User-agent: Discordbot
 User-agent: Snapchat
 User-agent: Slackbot-LinkExpanding
-User-agent: AmazonAdBot
 User-agent: Amazonbot
 User-agent: Amzn-SearchBot
 User-agent: Amzn-User
@@ -62,6 +61,17 @@ Disallow: /title/*/reviews
 Disallow: /*/title/*/reviews
 Disallow: /user/ur*/reviews
 Disallow: /*/user/ur*/reviews
+
+User-agent: AmazonAdBot
+Allow: /
+Disallow: /find
+Disallow: /*/find
+Disallow: /find/
+Disallow: /*/find/
+Disallow: /search/title/*
+Disallow: /*/search/title/*
+Disallow: /search/name/*
+Disallow: /*/search/name/*
 
 User-agent: *
 Disallow: /

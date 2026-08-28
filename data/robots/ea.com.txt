@@ -1,5 +1,15 @@
 User-agent: *
 Disallow: /results
+Disallow: /games/the-sims/the-sims-4/home/
+Disallow: /games/the-sims/the-sims-4/store-public-api/
+Disallow: /games/the-sims/the-sims-4/store-pages/loginredirect
+Disallow: /games/the-sims/the-sims-4/store-pages/logoutredirect
+Disallow: /games/the-sims/the-sims-4/store-pages/paymentredirect
+Disallow: /*/games/the-sims/the-sims-4/home/
+Disallow: /*/games/the-sims/the-sims-4/store-public-api/
+Disallow: /*/games/the-sims/the-sims-4/store-pages/loginredirect
+Disallow: /*/games/the-sims/the-sims-4/store-pages/logoutredirect
+Disallow: /*/games/the-sims/the-sims-4/store-pages/paymentredirect
 Sitemap: https://www.ea.com/sitemap.xml
 
 # --- BLOCKED BOTS ---

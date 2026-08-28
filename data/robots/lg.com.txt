@@ -14,6 +14,9 @@ Allow: /
 # GoogleOther (AI Overviews)
 User-agent: GoogleOther
 Allow: /
+Disallow: /*jcr:content
+Disallow: /*_jcr_content
+Disallow: /*jcr%3Acontent
 
 # GPT-4o
 User-agent: GPTBot
@@ -31,6 +34,9 @@ User-agent: Googlebot
 Disallow: /*?search=*
 Disallow: /*/search*
 Disallow: /*/srch*
+Disallow: /*jcr:content
+Disallow: /*_jcr_content
+Disallow: /*jcr%3Acontent
 
 User-agent: Googlebot-image
 Disallow: /*?search=*

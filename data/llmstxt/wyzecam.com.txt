@@ -37,7 +37,8 @@ This store implements the [Universal Commerce Protocol](https://ucp.dev) for age
 6. **Complete** — Use `complete_checkout` to finalize (buyer must approve payment)
 
 ### Supported UCP Versions
-- `2026-04-08` (latest stable)
+- `2026-08-25` (latest stable)
+- `2026-04-08`
 - `2026-01-23`
 
 ### Important Rules
