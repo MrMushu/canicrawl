@@ -110,7 +110,12 @@ async function crawlDomain(domain) {
       const r = await fetchText(`https://${host}/robots.txt`);
       if (r.status === 200 && !looksLikeHtml(r.text)) { robotsText = r.text; break; }
       if (r.status === 200 && looksLikeHtml(r.text)) { result.fetch = "html-response"; continue; }
-      if (r.status === 404 || r.status === 410) { result.fetch = "no-robots"; break; }
+      // Record the 404 but keep going: an apex that 404s often has a www host
+      // serving the real file. un.org answers 302 or 404 on the apex depending
+      // on which edge node replies, and breaking here meant we never asked
+      // www.un.org — which serves a restrictive robots.txt every time — so the
+      // site was published as "allows every AI crawler" on the 404 days.
+      if (r.status === 404 || r.status === 410) { result.fetch = "no-robots"; continue; }
       if (r.status === 401 || r.status === 403) { result.fetch = "fetch-blocked"; continue; }
       result.fetch = `http-${r.status}`;
     } catch (e) {
@@ -140,26 +145,48 @@ async function crawlDomain(domain) {
     for (const bot of BOTS) result.bots[bot] = { status: "unknown", source: "none" };
     result.wildcard = "unknown";
   }
-  // llms.txt check (only meaningful if the site is reachable at all)
+  // llms.txt check (only meaningful if the site is reachable at all).
+  // `llmstxt: false` used to mean two different things — "this site has no
+  // llms.txt" and "we failed to ask" — which let shein.com's real 64KB llms.txt
+  // appear to vanish and return on alternating days. Only 404/410 and a served
+  // body are definitive answers; a 403/429/5xx or a thrown request is unknown,
+  // and unknowns are never guessed.
   if (result.fetch !== "unreachable") {
+    let answered = false; // did any host give a definitive yes/no?
     for (const host of [domain, "www." + domain]) {
       try {
         const l = await fetchText(`https://${host}/llms.txt`);
         if (l.status === 200 && !looksLikeHtml(l.text) && l.text.trim().length > 0) {
           result.llmstxt = true;
+          answered = true;
           if (l.text.length < 262144) {
             fs.writeFileSync(path.join(ROOT, "data/llmstxt", domain + ".txt"), l.text);
           }
+        } else if (l.status === 404 || l.status === 410 || l.status === 200) {
+          answered = true; // no llms.txt, or a soft-404 HTML catch-all page
         }
         break;
-      } catch { /* try www */ }
+      } catch { /* try www before giving up */ }
     }
+    if (!answered) result.llmsFetch = "unknown";
+  } else {
+    result.llmsFetch = "unknown";
   }
   return result;
 }
 
 // Compare two snapshots and return human-meaningful policy changes.
 // Only diffs domains whose policy was readable in BOTH snapshots (no flap noise).
+//
+// "Readable" is not enough on its own: `ok` and `no-robots` are both readable,
+// but a domain moving between them changed *our ability to fetch*, not its
+// policy. un.org served robots.txt on 2026-08-26/27 and 404'd on 08-28 with a
+// byte-identical archived file either side; diffing across that transition
+// published "the UN reopened to all 32 AI crawlers", which never happened.
+// A site that truly deletes its robots.txt is indistinguishable from a server
+// hiccup on the day it happens, so the changelog stays quiet and lets the state
+// surfaces (site page, stats, /health/) carry the change. Crying wolf on a news
+// feed costs more than a day's delay on a rare true positive.
 export function computeDiffs(prev, next) {
   const entries = [];
   const readable = (e) => e && (e.fetch === "ok" || e.fetch === "no-robots");
@@ -170,7 +197,12 @@ export function computeDiffs(prev, next) {
       continue;
     }
     if (!readable(was) || !readable(now)) continue;
-    if (was.llmstxt !== now.llmstxt) {
+    if (was.fetch !== now.fetch) continue;
+    // llmstxt is a bare boolean, so a failed probe is indistinguishable from
+    // "no llms.txt" unless we say so: llmsFetch records when we never got a
+    // definitive answer. Snapshots written before this field default to "ok".
+    const llmsKnown = (e) => (e.llmsFetch ?? "ok") === "ok";
+    if (was.llmstxt !== now.llmstxt && llmsKnown(was) && llmsKnown(now)) {
       entries.push({ date: next.date, domain, kind: "llmstxt", from: was.llmstxt, to: now.llmstxt });
     }
     if ((was.wildcard ?? "allowed") !== (now.wildcard ?? "allowed")) {
