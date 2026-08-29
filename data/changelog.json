@@ -1066,6 +1066,13 @@
    "bot": "Gemini-Deep-Research",
    "from": "restricted",
    "to": "allowed"
+  },
+  {
+   "date": "2026-08-29",
+   "domain": "shein.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

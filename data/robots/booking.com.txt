@@ -469,7 +469,6 @@ Disallow: /flexiproduct
 Disallow: /purge_cookies
 Disallow: /searchbox.html
 Disallow: /hotelfeaturedreviews/
-Disallow: /*?*no_scraping_cache_key=
 
 User-agent: AdsBot-Google-Mobile
 Disallow: /s/
@@ -497,7 +496,6 @@ Disallow: /flexiproduct
 Disallow: /purge_cookies
 Disallow: /searchbox.html
 Disallow: /hotelfeaturedreviews/
-Disallow: /*?*no_scraping_cache_key=
 
 User-agent: YaDirectFetcher
 Disallow: /s/
@@ -583,7 +581,6 @@ Disallow: /affiliatewidget
 Disallow: /purge_cookies
 Disallow: /searchbox.html
 Disallow: /hotelfeaturedreviews/
-Disallow: /*?*no_scraping_cache_key=
 Allow: /index.hi.*
 Allow: /hotel/index.hi.*
 Allow: /cars/index.hi.*
