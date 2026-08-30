@@ -705,7 +705,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [Are you GDPR, CCPA and ePrivacy compliant?](https://www.singular.net/blog/faq/what-payment-methods-do-you-offer/): Yes! Working with F500 companies and handling the most sensitive data, Singular is committed to top of line privacy and...
 
 
-## Glossary Term
+## Glossary Terms
 
 - [Monthly active users (MAU)](https://www.singular.net/glossary/monthly-active-users-mau/)
 - [Deep linking](https://www.singular.net/glossary/deep-linking/)
@@ -1527,7 +1527,7 @@ Singular Support Actionfit to Achieve 150% YoY Growth
 
 
 
-## Glossary Term
+## Glossary Terms
 
 
 > This LLMS.txt file is designed to help large language models discover and index Singular’s content structure and service offering. For API documentation, product details, or to start a free trial, visit https://www.singular.net.

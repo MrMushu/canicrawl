@@ -6,7 +6,7 @@ Vercel Agent works where you do
 
 For coding agents to ship apps and agents automated by agents.
 
-[Deploy now](/signup) [Talk to sales](/contact/sales)
+[Deploy now](/new) [Talk to sales](/contact/sales)
 
 ## Build agents on infrastructure that thinks like them
 

@@ -111,7 +111,7 @@
 - [Scareware: Definition, Identification & Prevention](https://www.okta.com/identity-101/scareware)
 - [What is a multicloud management platform?](https://www.okta.com/identity-101/multicloud-management-platform)
 - [What is secure remote access? Definitions and uses](https://www.okta.com/identity-101/secure-remote-access)
-- [What is SIEM? Security Information & Event Management 101](https://www.okta.com/identity-101/siem)
+- [What is SIEM? Security Information and Event Management 101](https://www.okta.com/identity-101/siem)
 - [3 Common Mistakes That Lead to a Security Breach](https://www.okta.com/identity-101/mistakes-that-lead-to-security-breach)
 - [Security compliance: Regulations, best practices, and strategies](https://www.okta.com/identity-101/security-compliance)
 - [Understanding Zero Trust application access (ZTAA)](https://www.okta.com/identity-101/zero-trust-application-access)
