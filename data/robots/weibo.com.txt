@@ -12,6 +12,12 @@ Content-Signal: search=yes, ai-input=yes, ai-train=no
 Crawl-delay: 1
 Disallow:
 
+User-Agent: Google-adstxt
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Crawl-delay: 1
+Allow: /app-ads.txt
+Disallow: /
+
 User-Agent: Perplexity-User
 User-Agent: DeepSeek Chat
 User-Agent: DeepSeekBot
