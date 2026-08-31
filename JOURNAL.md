@@ -315,3 +315,44 @@ Data-only change: one issue appended to `data/digests.json`. No code touched, no
 **ShortSupply, 08-30: 13 entries, all 13 availability rewordings.** No status flips, no new shortages, no resolutions, no graveyard departures. The quiet-revision rate now reads 19 / 27 / 19 / 13 / 13 over five days — call it ~18/day and softening, which is a slightly weaker claim than the "~26/day" of three days ago. Digest #1 there is still gated on a full week of changelog (2026-09-02) and its lead should be recomputed then rather than carried over. No code change in that repo today.
 
 **Next:** CC-10 (Tranco weekly refresh automation) is next in the queue and is due Monday. CC-12 (llms.txt receipt for oversized files) is appended below it. Keep watching that genuine flips still emit — two consecutive silent days is expected for robots.txt, but a third or fourth deserves an active probe rather than trust.
+
+---
+
+## 2026-08-31, ops session — the silent changelog was hiding two bugs, not one
+
+**Cron: both green, and later than ever.** Canicrawl's scheduled run for 08-31 was created **13:49:26 UTC** (success); ShortSupply's **14:25:42 UTC** (success). Nominal times are 06:17/06:47, so that is ~7.5 hours late on both — the **fourth consecutive** late-not-dropped day, and the widest gap yet. The scheduled-run series for Canicrawl now reads 07:08, 07:08, 17:37, 18:41, 12:40, 11:54, 13:49 UTC. The ops task prompt still describes the delay as "up to an hour"; that description is now wrong by most of a day. Both snapshots pulled clean. Two GitHub API calls used, `per_page=3`.
+
+### Yesterday's instruction to distrust a silent changelog paid off immediately
+
+Entry #9 ended: *"two consecutive silent days is expected for robots.txt, but a third or fourth deserves an active probe rather than trust."* Today was the third, so I probed instead of trusting — and found **two** defects sitting on top of each other. Either one alone would have been invisible; together they made the feed look merely quiet.
+
+**Defect 1 — a real signal that could never be reported.** `computeDiffs` gated *every* comparison, llms.txt included, behind `readable()`, which asks whether **robots.txt** could be fetched. But llms.txt lives at its own URL and carries its own evidence. So any site whose robots.txt is a soft-404 HTML page was structurally incapable of ever reporting an llms.txt change, no matter how definitive the llms.txt answer was. The llms.txt diff now stands on its own evidence. CC-11's actual guard is kept — `was.fetch === now.fetch`, meaning *our access to the site did not change between the two days*, so a flip is the site's doing and not ours. Replaying all six snapshot pairs, that keeps `bluehost.com` (`ok -> fetch-blocked`) and `yieldmo.com` (`http-202 -> ok`) correctly suppressed, since our access changed on both.
+
+**Defect 2 — which the first fix immediately exposed, and verification killed.** With the gate corrected, the rebuild gained exactly one entry: *"youku.com published an llms.txt — a welcome mat for AI readers."* It rendered on the changelog page and in the RSS feed. I opened the archived receipt before believing it. **It is an Alibaba anti-bot interstitial** — `<a id="a-link" href="https://bixi.alicdn.com/punish/...&action=deny&...cloud_ip_bl...">`. youku.com published nothing; it blocked us, and we filed the block notice as a welcome mat. `looksLikeHtml()` only tested for `<!doctype|<html|<head|<body`, and this fragment has none of them.
+
+**That is the CC-11 error wearing the opposite mask.** CC-11 was crying wolf from a *missing* file. This was crying welcome from a *hostile* one. Same root cause both times: a boolean recorded without checking what the evidence actually said.
+
+### Ring CC-13 — llms.txt evidence gate
+
+Three small changes, no methodology touched, no dependencies, no crawler-politeness change:
+
+- `looksLikeHtml()` additionally rejects a body whose first content is a markup tag. HTML comments are stripped first, so **capgemini.com's genuine llms.txt, which opens with a `<!-- File: ... -->` header, still counts** — that was the specific false-positive risk and it was tested, not assumed.
+- `computeDiffs()` gates llms.txt on llms.txt evidence, as above.
+- `rebuild-changelog.js` re-tests **every** archived receipt and demotes any `true` whose body is markup. The snapshot is an append-only fact and was **not** edited — the reading is corrected where the changelog is *derived*, which is the same move CC-11 made and the reason that script exists.
+
+**Verified, not assumed.** The sniff was unit-tested on 5 cases (youku punish page → rejected; capgemini, shein, a plain markdown llms.txt → kept; a doctype page → rejected) and then swept across **all 103 archived bodies: exactly 1 rejected, youku.com**, so the tightened rule costs nothing elsewhere. Rebuild dry-run went 69 → **68 entries, dropped youku only, gained none, un.org still absent** — i.e. no regression on CC-11's work. Build clean at **1,064 pages**; `grep -c youku dist/changelog/index.html dist/changelog/rss.xml` returns **0 and 0**. The intermediate state — where the false flip *was* live in `dist/` — is what makes the check meaningful: I saw the bad page render before I saw why it was wrong.
+
+**Net effect on published data: zero, and that is the cleanest possible result.** The two defects cancelled — one was suppressing a signal, the other was manufacturing a fake one, and the fake one was the only thing the first defect was hiding. So the final `data/changelog.json` is **byte-identical to the version already committed** (it does not appear in this session's `git status` at all; the 69 → 68 figures above describe the rebuild run, not a net change vs. HEAD). Nothing wrong was ever pushed. What changed is the code: from tomorrow the changelog can report a genuine llms.txt debut on a soft-404 domain, and cannot report a block page as one.
+
+**Known residual, deliberately not patched.** `data/latest.json` is **byte-identical** to the append-only 08-31 snapshot (verified by string comparison, 2,843,629 bytes each), so hand-fixing it would be editing a snapshot. The state surfaces therefore still count youku in **"107 sites with llms.txt"**, and its site page still links "view" to the block page, for one cycle. Tomorrow's 06:17 cron re-crawls with the fixed sniff and self-heals it to 106 — the same deliberate leave-it-wrong-overnight call as the un.org fix, which self-healed exactly as forecast. If it has not corrected by the 09-01 session, that is a finding worth escalating.
+
+**Why the queue got a new ring instead of CC-10.** CC-10 (Tranco refresh) is Monday's ring and today is Monday, but a live product publishing a fabricated policy flip outranks a panel refresh, and the false entry was already rendered into `dist/`. CC-10 and CC-12 are untouched and remain next. CC-12 is now *narrower* than when it was written: it assumed every `true` without a receipt was an oversized file, but youku proves a receipt can also be present and worthless, so CC-12 should record hash + byte count **and** the sniff verdict.
+
+**ShortSupply, 08-31: 13 entries, all availability rewordings**, touching 35 individual presentations — Clindamycin Phosphate Injection alone accounts for 6. No status flips, no new shortages, no resolutions, no graveyard departures. The series is now **19 / 27 / 19 / 13 / 13 / 13** across six days: three consecutive days at exactly 13, which firms up yesterday's read that the rate has settled near the high teens rather than the ~26/day banked as digest #1's lead. Recompute it from the changelog on 09-02, do not inherit it.
+
+**Next:** confirm youku self-heals to 106 llms.txt sites after the 09-01 cron. Then CC-10 (Tranco, overdue by a day) and CC-12 (widened per above). Keep probing silent changelog days rather than trusting them — that instruction has now caught a real bug on its first use.
+
+**USER-NEEDED (carried + one new):**
+- **New — the cron-lateness playbook needs a decision, and the drift is getting worse.** Scheduled runs are now landing ~7.5 hours late. The proposed amendment from entry #7 (*treat a missing scheduled run as late until the UTC day is nearly over; never `workflow_dispatch` at midday*) has survived four consecutive tests, but it is a playbook/methodology change and stays unapplied without the user's OK. Worth deciding soon: an ops session that fires before the cron lands sees a legitimately empty day and could mistake it for a drop.
+- **Carried — Canicrawl launch approval is live and sitting with the user.** The clean-cron-cycle condition it was gated on expired satisfied. Note for launch timing: today's fix means the changelog is now *more* likely to speak, which is the right state to launch in.
+- **Carried — ShortSupply domain pick** (shortsupply.io / .co / .today); its launch remains gated behind Canicrawl's and ≥2 weeks of diffs.

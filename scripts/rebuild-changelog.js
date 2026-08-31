@@ -11,7 +11,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { computeDiffs } from "./crawl.js";
+import { computeDiffs, looksLikeHtml } from "./crawl.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const WRITE = process.argv.includes("--write");
@@ -48,6 +48,37 @@ for (let i = 1; i < snaps.length - 1; i++) {
   }
 }
 
+// Demote llms.txt readings whose archived body is not an llms.txt.
+//
+// A "true" is only as good as its receipt, and one receipt turned out to be an
+// anti-bot interstitial: youku.com's archived body on 2026-08-31 is an Alibaba
+// "punish" page (action=deny) that the old looksLikeHtml() waved through
+// because it carries no doctype. crawl.js no longer records such bodies, but
+// the snapshot is an append-only fact and stays as written — so the reading is
+// corrected here, where the changelog is derived. Only domains with an archived
+// body can be checked; a "true" whose body exceeded the 256KB archive cap has
+// no receipt to test and is left alone (see ring CC-12).
+let demoted = 0;
+const bodyCache = new Map();
+const archivedBody = (domain) => {
+  if (!bodyCache.has(domain)) {
+    const f = path.join(ROOT, "data/llmstxt", domain + ".txt");
+    bodyCache.set(domain, fs.existsSync(f) ? fs.readFileSync(f, "utf8") : null);
+  }
+  return bodyCache.get(domain);
+};
+for (const snap of snaps) {
+  for (const [domain, cur] of Object.entries(snap.domains)) {
+    if (cur.llmstxt !== true) continue;
+    const body = archivedBody(domain);
+    if (body === null || !looksLikeHtml(body)) continue;
+    cur.llmstxt = false;       // in-memory only; the snapshot file is untouched
+    cur.llmsFetch = "unknown"; // we never got a real answer, so claim nothing
+    demoted++;
+    console.log("  llms.txt receipt rejected (markup, not Markdown): " + domain + " on " + snap.date);
+  }
+}
+
 // Entries that are not domain diffs (founding note, panel-growth counts) cannot
 // be recomputed from snapshots, so carry them over verbatim.
 const old = JSON.parse(fs.readFileSync(file, "utf8")).entries;
@@ -66,7 +97,7 @@ const gained = rebuilt.filter((e) => !oldKeys.has(key(e)));
 const byDomain = {};
 for (const e of dropped) byDomain[e.domain] = (byDomain[e.domain] || 0) + 1;
 console.log(`\nsnapshots: ${dates.length} (${dates[0]} → ${dates.at(-1)})`);
-console.log(`llms flaps repaired: ${repaired}`);
+console.log(`llms flaps repaired: ${repaired}; receipts rejected: ${demoted}`);
 console.log(`entries: ${old.length} → ${rebuilt.length}`);
 console.log(`dropped ${dropped.length}:`, JSON.stringify(byDomain));
 console.log(`gained ${gained.length}:`, gained.map(key).slice(0, 10).join("\n  ") || "none");

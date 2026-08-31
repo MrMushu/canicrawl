@@ -42,8 +42,19 @@ function errReason(e) {
   return "other";
 }
 
-function looksLikeHtml(text) {
-  return /<!doctype|<html|<head[\s>]|<body[\s>]/i.test(text.slice(0, 600));
+export function looksLikeHtml(text) {
+  const head = text.slice(0, 600);
+  if (/<!doctype|<html|<head[\s>]|<body[\s>]/i.test(head)) return true;
+  // Anti-bot interstitials are served as markup fragments with no doctype and
+  // no <html> wrapper, so the test above waves them through: youku.com's
+  // llms.txt was archived on 2026-08-31 as an Alibaba "punish" page opening
+  // with an <a id="a-link"> whose href carries action=deny, and it was then
+  // published as a real llms.txt flip. A body whose first content is a markup
+  // tag is not the Markdown that llms.txt is specified to be. HTML comments are
+  // stripped first: capgemini.com's genuine llms.txt opens with a
+  // "<!-- File: ... -->" header and must keep counting.
+  const stripped = head.replace(/<!--[\s\S]*?(-->|$)/g, "").trimStart();
+  return stripped.startsWith("<") && /<(a|div|span|script|meta|title|img|p)[\s>]/i.test(head);
 }
 
 // --- robots.txt parsing (RFC 9309 essentials) ---
@@ -196,15 +207,27 @@ export function computeDiffs(prev, next) {
       entries.push({ date: next.date, domain, kind: "added" });
       continue;
     }
-    if (!readable(was) || !readable(now)) continue;
-    if (was.fetch !== now.fetch) continue;
+    // llms.txt carries its own evidence and is fetched from its own URL, so it
+    // is gated on its own terms rather than on whether robots.txt was readable.
+    // Tying it to `readable()` silenced youku.com genuinely publishing an
+    // llms.txt on 2026-08-31 (archived, 23 lines) purely because its robots.txt
+    // is a soft-404 HTML page — the mirror of the CC-11 error: staying silent
+    // while holding a receipt. The CC-11 guard itself is kept: `was.fetch ===
+    // now.fetch` means our access to the site did not change between the two
+    // days, so a flip is the site's doing and not ours.
+    //
     // llmstxt is a bare boolean, so a failed probe is indistinguishable from
     // "no llms.txt" unless we say so: llmsFetch records when we never got a
     // definitive answer. Snapshots written before this field default to "ok".
     const llmsKnown = (e) => (e.llmsFetch ?? "ok") === "ok";
-    if (was.llmstxt !== now.llmstxt && llmsKnown(was) && llmsKnown(now)) {
+    if (
+      was.fetch === now.fetch && now.fetch !== "unreachable" &&
+      was.llmstxt !== now.llmstxt && llmsKnown(was) && llmsKnown(now)
+    ) {
       entries.push({ date: next.date, domain, kind: "llmstxt", from: was.llmstxt, to: now.llmstxt });
     }
+    if (!readable(was) || !readable(now)) continue;
+    if (was.fetch !== now.fetch) continue;
     if ((was.wildcard ?? "allowed") !== (now.wildcard ?? "allowed")) {
       entries.push({ date: next.date, domain, kind: "wildcard", from: was.wildcard, to: now.wildcard });
     }
