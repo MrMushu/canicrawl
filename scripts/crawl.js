@@ -198,6 +198,26 @@ async function crawlDomain(domain) {
 // hiccup on the day it happens, so the changelog stays quiet and lets the state
 // surfaces (site page, stats, /health/) carry the change. Crying wolf on a news
 // feed costs more than a day's delay on a rare true positive.
+// A stored `llmstxt: true` is only worth as much as the body we archived for
+// it. Snapshots are append-only, so a `true` written before the sniff was
+// tightened stays on disk saying yes forever — and on 2026-09-01 that turned
+// youku.com's *correction* into news: the 08-31 snapshot claims an llms.txt
+// (its receipt is an Alibaba block page), the 09-01 crawl correctly says no,
+// and the diff published "youku.com removed its llms.txt". The site removed
+// nothing; we fixed our own reading. So before trusting a stored `true`, re-run
+// the current sniff over its receipt. No archived body (the >256KB cap) means
+// there is nothing to test, and an untestable reading is left alone — see CC-12.
+const receiptCache = new Map();
+function receiptRejected(domain) {
+  if (!receiptCache.has(domain)) {
+    const f = path.join(ROOT, "data/llmstxt", domain + ".txt");
+    let bad = false;
+    try { bad = looksLikeHtml(fs.readFileSync(f, "utf8")); } catch { bad = false; }
+    receiptCache.set(domain, bad);
+  }
+  return receiptCache.get(domain);
+}
+
 export function computeDiffs(prev, next) {
   const entries = [];
   const readable = (e) => e && (e.fetch === "ok" || e.fetch === "no-robots");
@@ -219,7 +239,10 @@ export function computeDiffs(prev, next) {
     // llmstxt is a bare boolean, so a failed probe is indistinguishable from
     // "no llms.txt" unless we say so: llmsFetch records when we never got a
     // definitive answer. Snapshots written before this field default to "ok".
-    const llmsKnown = (e) => (e.llmsFetch ?? "ok") === "ok";
+    // A `true` backed by a receipt that fails today's sniff is not a known
+    // answer either — see receiptRejected() above.
+    const llmsKnown = (e) =>
+      (e.llmsFetch ?? "ok") === "ok" && !(e.llmstxt === true && receiptRejected(domain));
     if (
       was.fetch === now.fetch && now.fetch !== "unreachable" &&
       was.llmstxt !== now.llmstxt && llmsKnown(was) && llmsKnown(now)

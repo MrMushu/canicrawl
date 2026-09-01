@@ -605,13 +605,6 @@
    "bot": "Amazonbot",
    "from": "blocked",
    "to": "restricted"
-  },
-  {
-   "date": "2026-09-01",
-   "domain": "youku.com",
-   "kind": "llmstxt",
-   "from": true,
-   "to": false
   }
  ]
 }
