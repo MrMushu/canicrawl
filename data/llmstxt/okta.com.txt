@@ -72,8 +72,8 @@
 - [SSL Handshake (TLS Handshake) Explained](https://www.okta.com/identity-101/ssl-handshake)
 - [Session Hijacking Attack: Definition, Damage & Defense](https://www.okta.com/identity-101/session-hijacking)
 - [Authentication Protocols 101: Definition, Types, and When to Use](https://www.okta.com/identity-101/authentication-protocols)
-- [What Is the Ping of Death (PoD)? Definition, Damage & Defense](https://www.okta.com/identity-101/ping-of-death)
-- [Public Key Encryption: What Is Public Cryptography?](https://www.okta.com/identity-101/public-key-encryption)
+- [What is the ping of death (PoD)?](https://www.okta.com/identity-101/ping-of-death)
+- [Public key encryption: what is public cryptography?](https://www.okta.com/identity-101/public-key-encryption)
 - [Privileged access management solutions: Securing critical assets](https://www.okta.com/identity-101/privileged-access-management-solutions)
 - [What is IDaaS? Understanding Identity as a Service and Its Applications](https://www.okta.com/identity-101/idaas)
 - [HMAC (Hash-Based Message Authentication Codes) Definition](https://www.okta.com/identity-101/hmac)
@@ -938,7 +938,6 @@
 - [Designing a resilient identity security fabric with Okta](https://www.okta.com/blog/identity-security/designing-a-resilient-identity-security-fabric-with-okta)
 - [Interning with Okta’s Productivity Engineering team](https://www.okta.com/blog/company-and-culture/interning-with-okta-s-productivity-engineering-team)
 - [The power of allyship: My journey to principal software engineer at Okta](https://www.okta.com/blog/company-and-culture/the-power-of-allyship--my-journey-to-principal-software-engineer)
-- [How resident identity unlocks DMV modernization](https://www.okta.com/blog/identity-security/how-resident-identity-unlocks-dmv-modernization)
 - [Okta Certification Circle members shine on the Nasdaq tower](https://www.okta.com/blog/company-and-culture/okta-certification-circle-nasdaq-tower-2025)
 - [How do you govern an AI agent identity? (and why it matters)](https://www.okta.com/blog/ai/how-do-you-govern-an-ai-agent-identity-and-why-it-matters)
 - [An Intern’s Guide to the San Francisco Headquarters](https://www.okta.com/blog/company-and-culture/an-interns-guide-to-the-san-francisco-headquarters)
@@ -1266,6 +1265,7 @@
 - [From open access to open innovation: Okta’s AI-powered revolution](https://www.okta.com/blog/company-and-culture/okta-ai-innovation-revolution)
 - [First on the scene of the cybercrime](https://www.okta.com/blog/threat-intelligence/first-on-the-scene-of-the-cybercrime)
 - [99.99% Uptime For Every Customer](https://www.okta.com/blog/product-innovation/99-point-99-percent-uptime-for-all)
+- [How resident identity unlocks DMV modernization](https://www.okta.com/blog/identity-security/how-resident-identity-unlocks-dmv-modernization)
 
 ## Newsroom
 

@@ -1805,7 +1805,7 @@ Allow: /pl/search/shops
 Allow: /pt/search/shops
 Allow: /se/search/shops
 #
-# Oi, kent!#   \
+# Motus et bouche cousue...#   \
 #
 #    -----
 #   | . . |

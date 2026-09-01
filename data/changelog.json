@@ -533,6 +533,85 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "webmd.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "roblox.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "roblox.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "roblox.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "roblox.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "roblox.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "roblox.com",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "roblox.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "roblox.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-01",
+   "domain": "youku.com",
+   "kind": "llmstxt",
+   "from": true,
+   "to": false
   }
  ]
 }

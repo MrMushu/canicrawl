@@ -1,5 +1,5 @@
 {
- "date": "2026-08-31",
+ "date": "2026-09-01",
  "filesScanned": 597,
  "distinctTokens": 2075,
  "aiCandidates": [
@@ -477,7 +477,7 @@
   },
   {
    "token": "CloudflareBrowserRenderingCrawler",
-   "sites": 26,
+   "sites": 25,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",

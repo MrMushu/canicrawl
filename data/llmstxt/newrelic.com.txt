@@ -168,6 +168,7 @@ experience on every platform.
 
 ## Blog
 
+- [New Relic's Japan Region Is Now Generally Available](https://newrelic.com/blog/news/japan-region-generally-available): New Relic's Japan region is now generally available. Ensure data sovereignty for regulated industries with in-region data storage and AI processing.
 - [Choosing the Right GCP Cost Optimization Tools for Your Environment](https://newrelic.com/blog/observability/gcp-cost-optimization-tools): Discover the right GCP cost optimization tools for your environment. Get clear, actionable signals to control cloud spend efficiently and sustainably.
 - [JavaScript Monitoring Tools: A Developer's Guide to Choosing the Right One](https://newrelic.com/blog/observability/javascript-monitoring-tools): JavaScript errors are everywhere — but not all monitoring tools surface them with the same depth. Compare the top JavaScript monitoring tools and learn what to look for beyond basic error capture.
 - [Best Cloud Cost Management Tools in 2026: A Buyer's Guide](https://newrelic.com/blog/observability/best-cloud-cost-management-tools): Compare the best cloud cost management tools for AWS, Azure, and GCP. See how FinOps platforms, observability tools, and Kubernetes cost tools stack up — and what actually drives savings.
@@ -188,7 +189,6 @@ experience on every platform.
 - [How to Choose the Right Log Analysis Tools For Faster Troubleshooting](https://newrelic.com/blog/log/log-analysis-tools): Discover how the right log analysis tools help engineers troubleshoot faster, reduce noise, and improve system reliability with clear, actionable insights.
 - [Top AppDynamics Alternatives for Unified Observability (2026)](https://newrelic.com/blog/observability/appdynamics-alternatives): Explore top AppDynamics alternatives to improve observability, reduce complexity, and lower costs with data-driven insights for engineering teams.
 - [Increase your productivity: Access your Dashboards directly from Catalogs](https://newrelic.com/blog/observability/observe-your-ai-footprint-with-new-relic-catalogs): Keep your custom dashboards where your entities live — curated, contextual, and ready the moment you need them, for everyday work and to cut MTTR when things break.
-- [Where observability pays off: uptime, digital experience, and engineering excellence](https://newrelic.com/blog/observability/the-roi-of-observability): Prove the ROI of your observability spend. Learn how mapping telemetry to uptime, digital experience, and engineering excellence drives business value.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

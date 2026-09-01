@@ -14,5 +14,7 @@ User-Agent: *
 Disallow: /blog/rss
 Disallow: /blog/rss/
 Disallow: /blog/rss/*
+Disallow: /vn
+Disallow: /vn/*
 
 Sitemap: https://unity.com/sitemap.xml
