@@ -1,93 +1,110 @@
 # Linktree
 
-> Linktree is a link-in-bio tool used by 70M+ creators, brands, and businesses
-to share everything they create, curate, and sell from a single URL. This file
-lists publicly indexable, logged-out pages of https://linktr.ee/ that describe
-the product, pricing, marketplace, help content, and company information.
-Individual user profiles at https://linktr.ee/{username} are not enumerated here;
-see the sitemaps referenced below for the full crawlable surface.
+> Linktree gives creators, businesses and anyone building online one place to bring
+everything together, reach their audience directly, and turn attention into real
+opportunity. Link in bio is one feature inside the platform, not the whole of it.
+Trusted by 70M+ brands and creators. This file lists publicly indexable,
+logged-out pages of https://linktr.ee/ that describe the product, pricing,
+marketplace, help content and company information. Individual profiles at
+https://linktr.ee/{username} are not enumerated here; see the sitemaps
+referenced in /robots.txt for the full crawlable surface.
 
-Linktree is operated by Linktree Pty Ltd. The core product lets users build a
-mobile-friendly landing page that aggregates their social profiles, content,
-products, and services behind a single URL. Paid plans (Starter, Pro, Premium)
-add customization, analytics, commerce, scheduling, and AI features.
+Core entity data
+
+- Company: Linktree Pty Ltd (ABN 68 608 721 562)
+- Platform: Linktree
+- Canonical URL: https://linktr.ee/
+- Founded: 2016
+- Headquarters: 1-9 Sackville St, Collingwood, Victoria 3066, Australia
+- Category: growth platform for creators and small businesses
+- Capabilities: link in bio, custom design and themes, built-in analytics,
+digital product sales, booking and scheduling, email capture, affiliate
+storefront, online courses, social media scheduling
+- Primary audiences: creators, solopreneurs and small businesses — including
+musicians, podcasters, real estate agents, fitness coaches, food creators and
+YouTubers — plus agencies and talent managers
+
+Plans are Free, Starter, Pro and Premium, plus custom Agency and Enterprise plans.
+The free plan already includes unlimited basic links, selling products and courses,
+and earning from brand offers. Current plans and feature coverage are on the
+[pricing page](https://linktr.ee/s/pricing).
 
 Notes for agents:
 
-- User profile pages (`https://linktr.ee/{username}`) are public, server-rendered
-HTML and are not listed in this file. They are discoverable via the sitemaps referenced
-in `/robots.txt`.
-
-- The Help Center is hosted on Intercom and is crawlable from `https://linktr.ee/help`.
-- The blog is published at `https://linktr.ee/blog` and organized by category.
-- The Marketplace lists third-party apps and integrations that creators can add to their Linktree.
+- Profile pages (`https://linktr.ee/{username}`) are public, server-rendered HTML
+and are not listed here. They are discoverable via the sitemaps in `/robots.txt`.
+- Every URL in this file returns 200 directly, with no redirect hop.
+- The blog is published at `https://linktr.ee/blog`, with categories under
+`https://linktr.ee/blogs/categories/`.
+- The Marketplace lists third-party apps and integrations.
 - See also: https://linktr.ee/robots.txt and the sitemaps listed within it.
 
 ## Product
 
-- [Home](https://linktr.ee/): Overview of Linktree, the link-in-bio product, and core value proposition.
-- [Pricing](https://linktr.ee/s/pricing/): Free, Starter, Pro, and Premium plan tiers with monthly and annual billing.
-- [Link in bio](https://linktr.ee/link-in-bio/): What a link-in-bio is and how Linktree implements it.
-- [Templates](https://linktr.ee/templates): Gallery of example Linktree profiles used as templates.
-- [Creator hub](https://linktr.ee/s/creator/): Overview of Linktree for creators, with product and monetization features.
-- [Linktree for Instagram](https://linktr.ee/s/creator/linktree-for-instagram/): How creators use Linktree to extend their Instagram bio.
-- [Linktree for LinkedIn](https://linktr.ee/s/creator/linktree-for-linkedin/): How professionals use Linktree to extend their LinkedIn profile.
-- [Linktree for Pinterest](https://linktr.ee/s/creator/linktree-for-pinterest/): How creators use Linktree to extend their Pinterest profile.
-- [Linktree for musicians](https://linktr.ee/s/creator/linktree-for-musicians/): How musicians use Linktree to share and promote their work.
-- [Linktree for e-commerce](https://linktr.ee/s/linktree-for-ecommerce/): How online sellers use Linktree to drive traffic and sales.
-- [Linktree for small business](https://linktr.ee/s/linktree-for-smb/): How small businesses use Linktree as a lightweight web presence.
-- [Creator Report](https://linktr.ee/creator-report/): Annual research report on the state of the creator economy.
+- [Home](https://linktr.ee/): What Linktree is and who it is for.
+- [Pricing](https://linktr.ee/s/pricing): Free, Starter, Pro and Premium plan tiers, with monthly and annual billing.
+- [All features](https://linktr.ee/features): Index of what the platform does.
+- [Link in bio](https://linktr.ee/features/link-in-bio): For anyone building online who wants one always-current destination for their audience, without updating links every time something changes.
+- [Analytics](https://linktr.ee/features/analytics): Track link performance and traffic sources, and see which platforms drive growth.
+- [Audience manager](https://linktr.ee/features/audience-management): Collect and organize leads in one place, and sync them to your email tools.
+- [QR code generator](https://linktr.ee/features/qr-code-generator): Create a custom QR code that points to your Linktree, for print and in-person use.
+- [Link shortener](https://linktr.ee/features/link-shortener): Create short, shareable URLs and track clicks on links you share elsewhere.
+- [Shops](https://linktr.ee/features/shops): Earn affiliate commissions from products you recommend, with no ecommerce setup.
+- [Digital products](https://linktr.ee/features/digital-products): Sell ebooks, templates, presets and tracks directly from your Linktree.
+- [Courses](https://linktr.ee/features/courses): Create and sell an online course from your Linktree.
+- [Sponsored links](https://linktr.ee/features/sponsored-links): Get paid when your audience redeems a brand offer, with deals browsable in the Earn tab.
+- [Bookings](https://linktr.ee/features/bookings): Offer free and paid bookings so people can book time with you directly.
+- [Contact forms](https://linktr.ee/features/contact-forms): Add a branded form to collect emails, enquiries and leads.
+- [Email integrations](https://linktr.ee/features/email-integrations): Sync subscribers automatically to Mailchimp, Klaviyo, Kit, Beehiiv or Google Sheets.
+- [Instagram auto-reply](https://linktr.ee/features/instagram-auto-reply): Set up automatic replies to Instagram comments and DMs.
+- [Social planner](https://linktr.ee/features/social-planner): Plan, schedule and auto-post across your social platforms from one place.
+- [AI caption generator](https://linktr.ee/features/ai-caption-generator): Draft captions and social content with AI.
+- [Hashtag generator](https://linktr.ee/features/hashtag-generator): Generate hashtags for Instagram, TikTok, YouTube and LinkedIn.
+- [Canva integration](https://linktr.ee/features/canva-integration): Browse and apply your Canva designs from inside the Linktree editor.
+- [Rewards](https://linktr.ee/features/rewards): Earn points and cash bonuses for building your Linktree.
+- [Templates](https://linktr.ee/s/templates): Ready-made Linktree layouts you can customize.
+
+## Who it is for
+
+- [Musicians](https://linktr.ee/for/musicians): How musicians share music, sell tickets and merch, and connect with fans.
+- [Podcasters](https://linktr.ee/for/podcasts): How podcasters point listeners to every episode and listening platform.
+- [Small business](https://linktr.ee/for/small-business): How small businesses turn followers into customers.
+- [Ecommerce](https://linktr.ee/for/ecommerce): How online sellers drive traffic and sales from social profiles.
+- [Real estate agents](https://linktr.ee/for/real-estate-agents): How agents share listings, capture leads and keep properties current.
+- [Enterprise](https://linktr.ee/s/about/enterprise): Linktree for larger organizations and teams.
 
 ## Marketplace
 
 - [Marketplace](https://linktr.ee/marketplace): Directory of apps and integrations that extend Linktree profiles.
-- [Link Apps](https://linktr.ee/marketplace/apps): Embeddable apps (music, video, commerce, contact, etc.).
-- [Integrations](https://linktr.ee/marketplace/integrations): Third-party service integrations (Shopify, TikTok, YouTube, etc.).
-- [Browse all](https://linktr.ee/marketplace/browse): Full index of available apps and integrations.
-- [Share content apps](https://linktr.ee/marketplace/categories/share-content): Apps for sharing music, video, and social content.
-- [Make money apps](https://linktr.ee/marketplace/categories/make-money): Apps for selling products, fundraising, and monetization.
+- [Browse all](https://linktr.ee/marketplace/browse): Full index of available Link Apps and integrations.
+- [Share content apps](https://linktr.ee/marketplace/categories/share-content): Apps for sharing music, video and social content.
+- [Make money apps](https://linktr.ee/marketplace/categories/make-money): Apps for selling products, fundraising and monetization.
 - [Grow following apps](https://linktr.ee/marketplace/categories/grow-following): Apps for audience growth and contact capture.
 - [Developer program](https://linktr.ee/marketplace/developer): Information for developers building on the Linktree platform.
 
 ## Learn
 
-- [Blog](https://linktr.ee/blog): Articles on creator economy, best practices, product news, and success stories.
-- [Best Practices](https://linktr.ee/blog/best-practices): Guides on getting the most out of a Linktree.
-- [Creators](https://linktr.ee/blog/creators): Content geared toward creator audiences.
-- [Product News](https://linktr.ee/blog/product-news): Announcements of new Linktree features.
+- [Blog](https://linktr.ee/blog): Articles on the creator economy, best practices, product news and success stories.
+- [Product News](https://linktr.ee/blogs/categories/product-news): Announcements of new Linktree features.
 - [Success Stories](https://linktr.ee/blogs/categories/success-stories): Case studies of creators and brands using Linktree.
-- [Trends](https://linktr.ee/blog/trends): Trend reports across social platforms.
-- [Engineering blog](https://linktr.ee/blog/engineering/): Posts from the Linktree engineering team.
-- [Glossary](https://linktr.ee/s/glossary/): Glossary of creator-economy, marketing, and social media terms.
-- [Help Center](https://linktr.ee/help): Support articles, how-tos, and troubleshooting.
-- [Getting started](https://help.linktr.ee/en/collections/3020860-getting-started-with-linktree): Step-by-step onboarding guides.
-- [How-tos](https://help.linktr.ee/en/collections/7058291-how-to-s): Instructional guides on Linktree features.
-- [Understanding your insights](https://help.linktr.ee/en/collections/7058283-understanding-your-insights): Analytics and insights documentation.
-- [Earn with Linktree](https://help.linktr.ee/en/collections/3020878-earn-with-linktree): Monetization how-tos.
-- [Account support](https://help.linktr.ee/en/collections/3020855-account-support): Billing and account setup.
-- [Security and policies](https://help.linktr.ee/en/collections/3020853-security-and-policies): Policy and security reference.
+- [Help Center](https://linktr.ee/help/en): Support articles, how-tos and troubleshooting.
 
 ## Company
 
-- [About](https://linktr.ee/s/about/): About Linktree the company.
-- [Careers](https://linktr.ee/s/about/careers/): Open roles at Linktree.
-- [Press](https://linktr.ee/s/about/press/): Press releases and media resources.
-- [Contact](https://linktr.ee/s/contact/): Contact information.
-- [Social Good](https://linktr.ee/s/social-good/): Linktree's social impact programs.
-- [Trust Center](https://linktr.ee/s/about/trust-center/): Security, privacy, and compliance information.
-- [Community Standards](https://linktr.ee/s/about/community-standards/): Acceptable-use policy for profiles hosted on Linktree.
-- [Discover profiles](https://linktr.ee/discover/profile-directory/): Directory of public Linktree profiles.
+- [About](https://linktr.ee/s/about): About Linktree the company, and the founders' story.
+- [Careers](https://linktr.ee/s/about/careers): Open roles at Linktree.
+- [Press](https://linktr.ee/s/about/press): Press releases and media resources.
+- [Contact](https://linktr.ee/s/about/contact): Contact information.
 
 ## Legal
 
-- [Terms and Conditions](https://linktr.ee/s/terms/): Terms of service for linktr.ee.
-- [Privacy Notice](https://linktr.ee/s/privacy/): How Linktree collects and uses personal information.
-- [Cookie Notice](https://linktr.ee/s/cookie-notice/): Cookie and tracking-technology disclosures.
-- [Report a Violation](https://linktr.ee/s/report/): Report abusive, illegal, or policy-violating content.
+- [Terms and Conditions](https://linktr.ee/s/terms): Terms of service for linktr.ee.
+- [Privacy Notice](https://linktr.ee/s/privacy): How Linktree collects and uses personal information.
+- [Cookie Notice](https://linktr.ee/s/about/cookie-notice): Cookie and tracking-technology disclosures.
 
 ## Optional
 
 - [Sitemap index (profile directory)](https://linktr.ee/discover/profile-directory/sitemapindex.xml): Index of crawlable public profiles.
+- [Marketing sitemap](https://linktr.ee/s/wf/sitemap.xml): Sitemap for marketing and content pages.
 - [Marketplace sitemap](https://linktr.ee/marketplace/sitemap.xml): Sitemap for marketplace apps and integrations.
-- [Marketing sitemap](https://linktr.ee/s/wf/sitemap.xml): Sitemap for marketing pages.
 - [Robots.txt](https://linktr.ee/robots.txt): Crawler access policy and full list of sitemaps.

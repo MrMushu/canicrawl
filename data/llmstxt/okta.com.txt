@@ -83,7 +83,7 @@
 - [Fingerprint Biometrics: Definition & How Secure It Is](https://www.okta.com/identity-101/fingerprint-biometrics-definition-how-secure-it-is)
 - [Extended Access Control List 101: Access & Privilege](https://www.okta.com/identity-101/extended-access-control-list)
 - [What Is Role-Based Access Control (RBAC)?](https://www.okta.com/identity-101/what-is-role-based-access-control-rbac)
-- [Bad Gateway Errors: Why They Happen and 5 Solutions](https://www.okta.com/identity-101/bad-gateway)
+- [Bad gateway errors: why they happen and 5 solutions](https://www.okta.com/identity-101/bad-gateway)
 - [What Is BaaS (Backend as a Service)? Definition and Usage](https://www.okta.com/identity-101/baas-backend-as-a-service)
 - [Internal IP Address Defined: Purpose & Uses](https://www.okta.com/identity-101/internal-ip)
 - [Access Control List: Definition, Types & Usages](https://www.okta.com/identity-101/access-control-list)
@@ -93,7 +93,7 @@
 - [Defining Data Profiling: Processes and Usage](https://www.okta.com/identity-101/data-profiling)
 - [SQL Injection: Definition, Damage & Defense](https://www.okta.com/identity-101/sql-injection-attack)
 - [Defining Buffer Overflow Attacks & How to Defend Against Them](https://www.okta.com/identity-101/buffer-overflow-attacks)
-- [Wannacry Ransomware Attack: Definition, Damage & Defense](https://www.okta.com/identity-101/wannacry)
+- [WannaCry Ransomware Attack: Definition, Damage & Defense](https://www.okta.com/identity-101/wannacry)
 - [User Access Management Basics](https://www.okta.com/identity-101/user-access-management)
 - [Biometric Data: Definition and Security Concerns](https://www.okta.com/identity-101/biometric-data)
 - [Tokenization Explained: What Is Tokenization & Why Use It?](https://www.okta.com/identity-101/tokenization)
@@ -1264,8 +1264,10 @@
 - [Governing AI agents for innovation and security inside the boundary you already trust](https://www.okta.com/blog/ai/governing-fedramp-ai-agents)
 - [From open access to open innovation: Okta’s AI-powered revolution](https://www.okta.com/blog/company-and-culture/okta-ai-innovation-revolution)
 - [First on the scene of the cybercrime](https://www.okta.com/blog/threat-intelligence/first-on-the-scene-of-the-cybercrime)
+- [Identity Security Posture Management adds AI agent discovery for every customer](https://www.okta.com/blog/identity-security/okta-ispm-ai-agent-discovery)
 - [99.99% Uptime For Every Customer](https://www.okta.com/blog/product-innovation/99-point-99-percent-uptime-for-all)
 - [How resident identity unlocks DMV modernization](https://www.okta.com/blog/identity-security/how-resident-identity-unlocks-dmv-modernization)
+- [Your AI gateway has an identity crisis: Fixing the last-mile problem in enterprise AI](https://www.okta.com/blog/ai/securing-ai-agents-identity-architecture)
 
 ## Newsroom
 
@@ -1487,6 +1489,8 @@
 - [Okta named a Leader in 2026 KuppingerCole IGA Leadership Compass](https://www.okta.com/newsroom/articles/okta-named-leader-2026-kuppingercole-iga-leadership-compass)
 - [Navigating the EU AI Act with identity](https://www.okta.com/newsroom/articles/navigating-the-eu-ai-act-with-identity)
 - [How HubSpot and Modern Treasury are building for the agentic future](https://www.okta.com/newsroom/articles/how-hubspot-and-modern-treasury-are-building-for-the-agentic-future)
+- [Don't vibe code your auth: Common Room’s playbook for secure AI](https://www.okta.com/newsroom/articles/common-room-playbook-for-secure-ai)
 - [Okta brings first-class identity to AI agents with Agent SSO](https://www.okta.com/newsroom/press-releases/okta-brings-first-class-identity-to-ai-agents-with-agent-sso)
 - [Okta announces second quarter fiscal year 2027 financial results](https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results)
+- [Okta launches new identity innovations to unlock business growth in the agentic era](https://www.okta.com/newsroom/press-releases/auth0-launches-new-identity-innovations)
 

@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 
+# --- Adobe Edge Optimize crawler ---
+User-agent: AdobeEdgeOptimize/1.0
+Allow: /
+
 # --- System / platform paths ---
 Disallow: /apps/
 Disallow: /conf/

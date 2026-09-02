@@ -1,108 +1,12 @@
-# Block all known AI crawlers, AI-search indexers and
-# user-triggered AI fetchers from all content.
-# Note: this blocks AI answer/citation traffic as well
-# as model training.
-# Source: https://robotstxt.com/ai
-User-agent: AddSearchBot
-User-agent: AI2Bot
-User-agent: AI2Bot-Dolma
-User-agent: aiHitBot
-User-agent: Amazonbot
-User-agent: anthropic-ai
-User-agent: Applebot-Extended
-User-agent: AwarioBot
-User-agent: AwarioRssBot
-User-agent: AwarioSmartBot
-User-agent: bedrockbot
-User-agent: bigsur.ai
-User-agent: Brightbot
-User-agent: Bytespider
-User-agent: CCBot
-User-agent: ChatGPT-User
-User-agent: Claude-SearchBot
-User-agent: Claude-User
-User-agent: Claude-Web
-User-agent: ClaudeBot
-User-agent: cohere-ai
-User-agent: cohere-training-data-crawler
-User-agent: Cotoyogi
-User-agent: Crawlspace
-User-agent: DataForSeoBot
-User-agent: DeepSeekBot
-User-agent: diffbot
-User-agent: DuckAssistBot
-User-agent: EchoboxBot
-User-agent: Facebookbot
-User-agent: Factset_spyderbot
-User-agent: FirecrawlAgent
-User-agent: FriendlyCrawler
-User-agent: Gemini-Deep-Research
-User-agent: Google-Agent
-User-agent: Google-CloudVertexBot
-User-agent: Google-Extended
-User-agent: Google-Firebase
-User-agent: Google-NotebookLM
-User-agent: GoogleAgent-Mariner
-User-agent: GoogleAgent-URLContext
-User-agent: GPTBot
-User-agent: GrokBot
-User-agent: iaskspider
-User-agent: ICC-Crawler
-User-agent: ImagesiftBot
-User-agent: img2dataset
-User-agent: Kangaroo Bot
-User-agent: LinerBot
-User-agent: Meltwater
-User-agent: Meta-ExternalAgent
-User-agent: Meta-ExternalFetcher
-User-agent: MistralAI-User
-User-agent: OAI-SearchBot
-User-agent: Omgili
-User-agent: Omgilibot
-User-agent: PanguBot
-User-agent: Panscient
-User-agent: Panscient.com
-User-agent: peer39_crawler
-User-agent: PerplexityBot
-User-agent: Perplexity-User
-User-agent: Petalbot
-User-agent: Poseidon Research Crawler
-User-agent: SBIntuitionsBot
-User-agent: Scrapy
-User-agent: Seekr
-User-agent: SemrushBot-ESI
-User-agent: SemrushBot-FT
-User-agent: SemrushBot-OCOB
-User-agent: Sentibot
-User-agent: TerraCotta
-User-agent: Thinkbot
-User-agent: TikTokSpider
-User-agent: Timpibot
-User-agent: TurnitinBot
-User-agent: VelenPublicWebCrawler
-User-agent: webzio-extended
-User-agent: xAI-Bot
-User-agent: Yak
-User-agent: YandexAdditional
-User-agent: YandexAdditionalBot
-User-agent: Youbot
-Disallow: /
-DisallowAITraining: /
-
-# Block any non-specified AI crawlers (e.g., new
-# or unknown bots) from using content for training
-# AI models, while allowing the website to be
-# indexed and accessed by bots.  These directives
-# are still experimental and may not be supported
-# by all AI crawlers.
 User-agent: *
-DisallowAITraining: /
-Content-Usage: ai=n
-Content-Signal: search=yes, ai-input=no, ai-train=no
+Allow: /
 Disallow: /newsletter/
 Disallow: /sponsored/
 Disallow: /privacy.html
 Disallow: /s/
+
+User-agent: GPTBot
+Disallow: /
 
 Sitemap: https://www.semafor.com/sitemap.xml
 Sitemap: https://www.semafor.com/sitemap-news.xml

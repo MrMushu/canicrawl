@@ -10,10 +10,8 @@ Disallow: /invitation-invalid/
 Disallow: /confirmation/
 Disallow: /unsubscribe/
 Disallow: /order/
-Disallow: /business-new/
-Disallow: /business/fixed-site-new/
-Disallow: /business/maritime-new/
-Disallow: /business/mobility-new/
+Disallow: /public/shop
+Disallow: /*/public/shop
 
 ### Redirects
 Disallow: /rv/

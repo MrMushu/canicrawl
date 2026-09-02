@@ -7,6 +7,7 @@ Disallow: /mediacentral/*
 Disallow: /search
 Disallow: /video/partners/
 Disallow: /stats/events/ 
+Disallow: /how-to-watch-game-redirect
 Disallow: /suns/tickets/vervelounge_requests.html
 Disallow: /blazers/node/
 Disallow: /bobcats/node/

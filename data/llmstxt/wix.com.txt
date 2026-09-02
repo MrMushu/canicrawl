@@ -1,8 +1,8 @@
 # wix.com
 
-> Wix is a website builder that lets any business or individual build their own professional website. By combining design tools and business solutions in one AI-powered platform, Wix makes it easy for anyone to create without limits and scale confidently online.
+> Wix is a website builder and ICANN-accredited domain registrar that lets any business or individual build their own professional website. By combining design tools, domain registration, and business solutions in one AI-powered platform, Wix makes it easy for anyone to create without limits and scale confidently online.
 
-Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite of business applications (eCommerce, bookings, payments, marketing, CRM, and more) in one platform. Wix manages hosting, security, and infrastructure automatically. Wix lets users start a site for free, and Wix paid plans unlock a custom domain, more storage, and advanced business tools. At the core of Wix is Wix Harmony, Wix's flagship AI website builder for vibe coding a business-ready website from a single prompt.
+Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite of business applications (eCommerce, bookings, payments, marketing, CRM, and more) in one platform. As an ICANN-accredited registrar, Wix lets users search, register, and manage 400+ domain extensions — with automatic DNS configuration, WHOIS privacy, and free SSL included. Wix manages hosting, security, and infrastructure automatically. Wix lets users start a site for free, and Wix paid plans unlock a custom domain, more storage, and advanced business tools. At the core of Wix is Wix Harmony, Wix's flagship AI website builder for vibe coding a business-ready website from a single prompt.
 
 ## Getting Started
 
@@ -34,19 +34,19 @@ Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite 
 - [Landing page builder](https://www.wix.com/landing-page-builder): Wix Landing Page Builder creates free standalone conversion-focused landing pages via drag-and-drop, templates, and an AI generator, integrating email marketing, ads, CRM, and analytics.
 - [Mobile app builder](https://www.wix.com/app-builder): Wix App Builder is a no-code, AI-assisted maker that turns a Wix site into a branded native iOS and Android app with real-time sync.
 
-## Domain Names
+## Domain Registration
 
-- [Domain names](https://www.wix.com/domains): Wix Domains is an ICANN-accredited registrar that lets users search, register, and manage domains with auto-renewal, free SSL, DNSSEC, and WHOIS privacy.
+- [Domain Registration](https://www.wix.com/domains): Wix Domains is an ICANN-accredited registrar that lets users search, register, and manage domains with auto-renewal, free SSL, DNSSEC, and WHOIS privacy.
 - [Domain name search](https://www.wix.com/domains/domain-name-search): Wix Domain Name Search is a free real-time checker showing whether a domain is available, taken, or premium across hundreds of TLDs.
 - [Domain name generator](https://www.wix.com/domains/domain-name-generator): Wix Domain Name Generator is a free AI tool that suggests brandable domain ideas from a keyword and checks availability across TLDs.
 - [Domain transfer](https://www.wix.com/domains/domain-transfer): Wix Domain Transfer moves a domain from another registrar to Wix with zero downtime, charging only one year of renewal and no extra fees.
-- [Domain pricing](https://www.wix.com/domains/domain-pricing): Wix Domain Pricing is a comparison table of per-year starting prices across 85+ TLDs, flagging which extensions qualify for a free first year.
+- [Domain pricing](https://www.wix.com/domains/domain-pricing): Wix Domain Pricing is a comparison table of per-year starting prices across 400+ TLDs, flagging which extensions qualify for a free first year.
 - [Free domain](https://www.wix.com/domains/free-domain): Wix Free Domain gives a free domain for the first year with any annual Wix plan, bundled with free hosting, automatic SSL, and WHOIS privacy.
 - [Premium domains](https://www.wix.com/domains/premium-domain-names): Wix Premium Domains are high-value, short, or keyword-rich aftermarket names searchable and registrable through Wix for stronger branding and resale value.
 - [SSL certificate](https://www.wix.com/domains/security/free-ssl-certificate): Wix Free SSL Certificate is a TLS certificate automatically issued, installed, and renewed at no cost for every Wix domain, enabling HTTPS.
 - [Domain privacy protection](https://www.wix.com/domains/security/domain-privacy-protection): Wix Domain Privacy Protection replaces personal contact details in the public WHOIS directory with proxy details to block spam and identity theft.
 - [WHOIS lookup](https://www.wix.com/domains/whois): Wix WHOIS Lookup is a free, ICANN-compliant tool returning a domain's registrar, registration and expiration dates, nameservers, and public ownership details.
-- [Domain extensions (TLDs)](https://www.wix.com/domains/tld-list): Wix TLD List is a searchable directory of 85+ extensions (gTLDs and ccTLDs) with each TLD's type, description, and per-year starting price.
+- [Domain extensions (TLDs)](https://www.wix.com/domains/tld-list): Wix TLD List is a searchable directory of 400+ extensions (gTLDs and ccTLDs) with each TLD's type, description, and per-year starting price.
 - [Business email](https://www.wix.com/domains/business-email): Wix Business Email is a custom-domain email service powered by Google Workspace, providing Gmail, anti-phishing protection, up to 5TB storage, and Google Meet.
 
 ## eCommerce and Selling Online

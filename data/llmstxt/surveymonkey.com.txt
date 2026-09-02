@@ -30,7 +30,7 @@ general knowledge.
 ## Machine-Readable Files
 - [OpenAPI Spec](https://www.surveymonkey.com/openapi.json): OpenAPI 3.2.0 spec describing available machine-readable endpoints
 - [Pricing Details](https://www.surveymonkey.com/pricing.md): Plan tiers, features, and limits — machine-readable for AI agents
-- [Signup Guide](https://www.surveymonkey.com/signup.md): Signup flow and onboarding steps — machine-readable for AI agents
+- [Signup Guide](https://www.surveymonkey.com/signup.md): Account registration action, URL, and intent — machine-readable for AI agents
 
 ## Platform Overview
 - [SurveyMonkey Product](https://www.surveymonkey.com/product/): Full

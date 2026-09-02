@@ -245,9 +245,13 @@ User-agent: meta-externalagent
 Disallow: /
 
 User-agent: PetalBot
-Disallow: /*?*pagenumber=
-Allow: /*?*pagenumber=1$
-Allow: /*?*pagenumber=2$
-Allow: /*?*pagenumber=3$
-Allow: /*?*pagenumber=4$
-Allow: /*?*pagenumber=5$
+#PROD-547531
+Disallow: /*used-*
+Disallow: /*new-*
+Disallow: /*dealerships*
+Disallow: */vin/*
+Disallow: /*?pagenum*
+Disallow: /*&pagenum*
+Disallow: /*?pagenumber*
+Disallow: /*&pagenumber*
+Disallow: /*lease-deals*

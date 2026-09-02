@@ -748,6 +748,7 @@ Disallow: /*-g188*
 
 User-Agent: Google-Extended
 Disallow: /
+Allow: /Restaurants-g55711-Dallas_Texas.html
 
 #                                                                                          
 #                                        ==+*##%%%%%%%%%%%%##*+=                                     

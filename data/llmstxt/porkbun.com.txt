@@ -69,6 +69,8 @@ Mock responses touch no datastore and are identical in shape to the live API (si
 
 ## Official MCP server
 
+Setup, client configs and the full tool list: **https://porkbun.com/mcp**
+
 Porkbun ships a first-party Model Context Protocol server exposing the whole API as native tools (Claude Desktop, Cursor, Cline, etc.). Write tools auto-attach an Idempotency-Key. One server covers both **live operations** and **documentation grounding** — alongside the domain/DNS/SSL/webhook tools it includes `list_doc_topics`, `read_doc`, and `search_docs`, so an agent can search and read these docs in-session without leaving the conversation (no separate docs server to install).
 
 ```
@@ -117,6 +119,34 @@ Pass `apikey` and `secretapikey` in the JSON body, or use `X-API-Key` / `X-Secre
 - `POST /webhook/rotateSecret` , `POST /webhook/test` , `POST /webhook/delete` — rotate secret, send a test event, delete
 - `GET /webhook/deliveries` , `GET /webhook/delivery/{id}` — recent delivery log (~30 days) + single delivery with full payload
 - `POST /webhook/resend` — re-queue a past delivery (reuses the original event id)
+### Cloudflare connect — move domains to the customer's own Cloudflare account
+
+We create the zone in their Cloudflare account, copy across the DNS records we hold, and repoint the registry nameservers. Two stages, and the first needs a human.
+
+**Stage 1 — connect the Cloudflare account (browser, one time).** Cloudflare's consent screen can't be completed over the API, and the authorization is bound to the Porkbun web session that starts it. So: send the account owner to `https://porkbun.com/account/connectCloudflare`, then poll.
+- `GET /cloudflare/getConnection` — `connected` true/false, which Cloudflare account it points at, and a `connectUrl` + `nextStep` when a human still has to act. **This is the poll target.**
+- `POST /cloudflare/disconnect` — forget the grant (domains already moved stay on Cloudflare)
+
+**Stage 2 — move domains (fully API).**
+- `GET /cloudflare/inventory` — every domain with `state` (`eligible`/`warn`/`blocked`/`connected`/`inprogress`) and a human `reason`. Read this first; works before the account is connected, so an agent can plan while the owner authorizes
+- `POST /cloudflare/connect` — queue one or many (`{"domains":["a.com","b.com"]}`, `dryRun`-able). **Asynchronous**: returns *queued*, never *connected*
+- `GET /cloudflare/getQueue` — every move ever requested (rows are never deleted, so it's the audit trail too)
+- `GET /cloudflare/get/{domain}` — one domain's progress, zone id, and the nameservers we replaced
+- `POST /cloudflare/retry/{domain}` — re-queue a failure
+- `GET /cloudflare/preview/{domain}` — exactly which records a move would copy/drop, without queueing
+- `GET /cloudflare/getRecords/{domain}` — the domain's **live** records at Cloudflare with their proxied state. After a move this is authoritative; `/dns/retrieve` reads the Porkbun zone, which no longer answers
+- `GET /cloudflare/getZone/{domain}` — Cloudflare's own zone state (status, its nameservers) plus `nameserversDrifted` if someone repointed NS elsewhere
+- `POST /cloudflare/setProxy/{domain}` — turn the Cloudflare proxy on/off (`{"enabled":true}`, optional `records:["@","www"]`). **The move always imports DNS-only (grey) on purpose**; proxying is a separate explicit step, best done after confirming the site still serves. Only A/AAAA/CNAME are proxiable; warns if MX points at a name you're proxying
+- `POST /cloudflare/createRecord/{domain}` , `POST /cloudflare/editRecord/{domain}/{recordId}` , `POST /cloudflare/deleteRecord/{domain}/{recordId}` — **write DNS in the zone that actually answers.** After a move these are the endpoints that change resolution; `/dns/*` does not. `name` takes `@` or a bare label, MX needs `priority`, `proxied` is A/AAAA/CNAME only, structured types (SRV/CAA) take a `data` object. All `dryRun`-able
+- `GET /cloudflare/getZoneSettings/{domain}` / `POST /cloudflare/setZoneSettings/{domain}` — allowlisted zone settings (`ssl`, `always_use_https`, `automatic_https_rewrites`, `min_tls_version`, `development_mode`, `cache_level`). Warns when `ssl` is `flexible`/`off` (Cloudflare fetches the origin over plain HTTP while visitors see a padlock). Returns `CLOUDFLARE_REAUTHORIZE_REQUIRED` + `connectUrl` if the grant predates the `zone-settings.write` scope
+- `POST /cloudflare/rollback/{domain}` — undo: nameservers back to Porkbun (the Cloudflare zone is left alone; deleting it is the customer's call)
+
+*Two DNS surfaces:* `/dns/*` manages **Porkbun's** nameservers; `/cloudflare/*Record` manages the customer's **Cloudflare** zone after a move. *Once a domain is connected, Porkbun DNS is no longer authoritative for it.* `/dns/*` writes still succeed against the Porkbun zone (kept in step in case you roll back) but do NOT change what resolves — those responses carry a `warnings` entry saying so. Read `/cloudflare/getRecords/{domain}` for what Cloudflare actually serves. Subscribe to `cloudflare.connect.completed` / `cloudflare.connect.failed` webhooks instead of polling.
+
+*Queue status values:* `queued` → `working` → `activating` → `connected`/`done`; terminal states are `connected`/`done`, `skipped` and `failed`/`error`. **`activating` is not terminal** — the nameservers are already repointed and Cloudflare is confirming the zone, which is legitimately slow (registry + resolver propagation, allow up to 24h). Keep polling.
+
+*Semantics that trip agents up:* `skipped` is a NORMAL outcome, not an error — DNSSEC live, custom nameservers, already connected each come back per-domain with a reason, so read the reasons instead of treating a non-empty `skipped` as failure. Eligibility is re-checked immediately before each domain is acted on, so a domain accepted at queue time can still be skipped later. Re-submitting a domain is safe and idempotent. Limits: 500 domains per call, 2000 per account per hour. Not available with sandbox keys (a real Cloudflare grant can't be simulated).
+
 ### Hosting — two products share these endpoints
 Pick the product with the `sku` you pass to `/hosting/create`: **Secure Static Hosting** (`PIXIESECURESTATIC…`, you upload files) or **Cloud for WordPress** (`CLOUDWORDPRESS…`, a managed WordPress site you drive through WordPress). Either way the domain's first provision is a 15-day free trial that auto-renews at the plan price; one free trial per domain.
 
@@ -142,6 +172,10 @@ Pick the product with the `sku` you pass to `/hosting/create`: **Secure Static H
 ## Error codes (selection)
 - `NOT_SUPPORTED_FOR_PRODUCT` — wrong hosting product for this endpoint
 - `PREVIEW_SITE_NOT_SUPPORTED` — free preview sites aren't API-managed
+- `CLOUDFLARE_NOT_CONNECTED` — no active Cloudflare grant; the owner must authorize in a browser, then poll `/cloudflare/getConnection`
+- `NOT_QUEUED` — that domain has never been queued for a Cloudflare move
+- `TOO_MANY_DOMAINS` — more than 500 domains in one `/cloudflare/connect` call
+- `CLOUDFLARE_REAUTHORIZE_REQUIRED` — the stored Cloudflare grant lacks the permission for that call; the owner reconnects at the returned `connectUrl`
 - `FULL_ACCESS_ACKNOWLEDGMENT_REQUIRED` — admin role needs acknowledgeFullAccess
 - `WP_CLI_FAILED` — the WordPress site rejected the command
 
