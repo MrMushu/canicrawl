@@ -388,3 +388,54 @@ That is a strong digest #3 lead and a sharper version of digest #2's finding. Di
 **webmd.com un-blocked ChatGPT-User, and only ChatGPT-User** (`blocked → restricted`). The opposite kind of event: a deliberate, surgical, hand-made edit. The file's own header changed from `# Updated 3/4/2026 (CONSFE-362)` to `# Updated 8/31/2026 (CONSFE-458)`, and the single removed stanza is `User-agent: ChatGPT-User / Disallow: /`. ClaudeBot and CCBot stay blocked. A health publisher letting OpenAI's *user-initiated* fetcher in while keeping the training crawlers out is exactly the allow-the-agent/block-the-trainer distinction the site is built to show. Pair it with Roblox in the digest: one decision, one toggle.
 
 **Next:** digest #3 leads with the Cloudflare-managed cohort (5 sites, named above) versus webmd's hand edit; re-count the cohort each session so the series has a baseline. Then CC-10 (Tranco, now two days overdue) and CC-12 (widened per CC-13). Keep probing quiet days — that instruction has now caught something real three sessions running.
+
+---
+
+## 2026-09-02, ops session — Ring CC-15: counting the blocks nobody wrote
+
+**USER-NEEDED (one new, three carried):**
+- **New — ShortSupply digest #1 is due today (SS-7) and I did not write it, by design.** The ring is marked user-gated in the queue and yesterday's SS-6 incident invalidated the banked lead twice over. Writing it unattended would mean choosing a new headline claim for a health product on the same day we corrected our own count. Left for a session with the user present. Everything else in the queue moved.
+- **Carried — the cron-lateness playbook amendment.** Today: Canicrawl's scheduled run created **11:17:42 UTC** (success), ShortSupply's **11:44:05 UTC** (success), against nominal 06:17/06:47 — ~5.0h and ~5.0h late, the **sixth consecutive** late-not-dropped day, and the tightest pair yet. The entry-#7 amendment (treat a missing scheduled run as late until the UTC day is nearly over; never `workflow_dispatch` at midday) is six-for-six and still unapplied, because playbook changes are methodology. Two GitHub API calls, `per_page=3`.
+- **Carried — Canicrawl launch approval** is live and sitting with the user.
+- **Carried — ShortSupply domain pick** (shortsupply.io / .co / .today).
+
+### The day's news made the queued ring's case for it
+
+**semafor.com un-blocked 31 of 32 tracked AI crawlers by deleting a list it did not write.** The removed 96 lines are a single copied blocklist, credited in its own header: `# Block all known AI crawlers... # Source: https://robotstxt.com/ai`, followed by ~90 `User-agent:` lines and one `Disallow: /`. What is left is Semafor's own eleven-line robots.txt, which blocks **GPTBot and nothing else**. So the site's actual, hand-written position on AI crawling is one bot; the other 31 blocks were a community roster that arrived and departed as a unit. The same edit removed its `Content-Signal: search=yes, ai-input=no, ai-train=no` line.
+
+That is roblox.com's story from yesterday with a different vendor — a Cloudflare toggle there, a copy-pasted list here — and it is exactly what CC-15 was queued to measure, so I ran it today instead of CC-10/CC-12.
+
+**worldbank.org went `restricted → allowed` for the wildcard and all 32 bots, on a four-line diff, and the reading is correct.** They inserted a new group in the middle of the file:
+
+```
+User-agent: *
+Allow: /
+
+# --- Adobe Edge Optimize crawler ---
+User-agent: AdobeEdgeOptimize/1.0
+Allow: /
+
+# --- System / platform paths ---
+Disallow: /apps/
+...
+```
+
+Under RFC 9309 a `User-agent:` line following rules starts a **new group**, so every `Disallow:` in that file — 30-odd retired-template and system paths — now belongs to `AdobeEdgeOptimize/1.0` alone, and `*` is left with a bare `Allow: /`. Our parser is right and the flip is real in the only sense that matters (this is what a compliant crawler will do tomorrow morning), but nobody at the World Bank decided to open anything; they broke their own file by pasting a group into the middle of one. Worth a digest line as the third species in the same family: CDN toggle, copied list, and now authoring accident. Checked and **not** treated as an instrumentation bug — the previous four sessions each caught one, so I looked hard before believing this one.
+
+**cnbc.com's 97-line diff produced zero changelog entries, and that silence is correct-ish.** They merged ~50 separate AI-bot groups into one and added `Allow: /select/` to the shared rules. Every one of those bots is still `Disallow: /`, so `verdict()` still says `blocked` and no flip is emitted. Noted as an observation, not fixed: our model calls `Disallow: /` + a narrow `Allow:` carve-out **blocked**, where a stricter reading is `restricted`. That is a methodology question, so it is an escalate rather than a judgement call — logged as ring CC-16, unticked, for a session with the user.
+
+### Ring CC-15 — the boilerplate cohorts, published and counted daily
+
+`/stats/` gains a section, **"Blocklists nobody wrote"**, built from the archived `data/robots/` corpus at build time (no crawling, no new dependency, no methodology change). Three cohorts, each matched on the marker it leaves behind, each small enough to name every member — which is the point, and the reason it can be published rather than estimated:
+
+| cohort | 09-01 | 09-02 | members today |
+|---|---|---|---|
+| Cloudflare Managed Content | 5 | **5** | gamespot, kick, nexusmods, patreon, snopes |
+| Content Signals Policy | 24 | **23** | 23 named on the page |
+| robotstxt.com/ai list | 2 | **1** | launchpad.net |
+
+All three of today's moves are the same site: semafor.com left the Content Signals and robotstxt.com cohorts in one edit, and the Cloudflare cohort held at 5 (roblox's departure yesterday took it from 6). The baseline is now published rather than living in a journal entry.
+
+**Verified, not assumed.** Build clean at **1,064 pages**. The rendered section was read back out of `dist/stats/index.html`, not just written: counts 5 / 23 / 1 with all members named; **29 member links extracted from the rendered HTML and all 29 resolve to an existing `dist/site/<domain>/index.html`** (0 missing). Both prose claims were re-derived from the changelog rather than copied from yesterday's journal: roblox.com = **8** bot-flips on 09-01, semafor.com = **31** on 09-02. Yesterday's cohort counts came from `git grep -l` against `HEAD~1`, so the series' first delta is evidence from the archive on both sides, and the Content-Signal delta was diffed by name to confirm the single departure is semafor.com and not a regex artifact. Served `dist/`: HTTP **200** on `/stats/` and `/changelog/`, with the section present on the served page.
+
+**Next:** CC-10 (Tranco, three days overdue) and CC-12 (llms.txt receipts for oversized files, widened per CC-13). Digest #3 has its lead assembled and a live baseline to cite: three ways to block 30 crawlers without deciding to — a CDN toggle (roblox), a copied list (semafor), and a misplaced `User-agent:` line (worldbank) — against webmd's one-bot hand edit. Re-count the three cohorts each session; the series only has two points.

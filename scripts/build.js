@@ -341,6 +341,29 @@ ${HEADLINE.map((b) => statusCell(e.bots[b]?.status ?? "unknown", e.bots[b]?.sour
   }));
 }
 
+// ---------- boilerplate blocklists (CC-15) ----------
+// Some blocks are not decisions. A CDN inserts a managed section; a site copies a
+// community list. Either can be added or removed wholesale by someone who never
+// reads the user agents involved — so we track these cohorts as a daily series.
+// Counted from the archived robots.txt corpus in data/robots/, never a fresh fetch.
+const ROBOTS_DIR = path.join(ROOT, "data/robots");
+const robotsArchive = new Map();
+if (fs.existsSync(ROBOTS_DIR)) {
+  for (const f of fs.readdirSync(ROBOTS_DIR)) {
+    if (!f.endsWith(".txt")) continue;
+    const d = f.slice(0, -4);
+    if (D[d]) robotsArchive.set(d, fs.readFileSync(path.join(ROBOTS_DIR, f), "utf8"));
+  }
+}
+const boilerplate = [
+  { label: "Cloudflare Managed Content", re: /Cloudflare Managed Content/i,
+    what: "A block Cloudflare generates and maintains, dropped into the file between marker comments. Removing it is a dashboard toggle, not an edit." },
+  { label: "Content Signals Policy", re: /^[ \t]*Content-Signal[ \t]*:/im,
+    what: "Cloudflare's machine-readable usage preamble (search / ai-input / ai-train). It carries no Disallow of its own — it states intent alongside the rules." },
+  { label: "robotstxt.com/ai list", re: /robotstxt\.com\/ai/i,
+    what: "A community-maintained roster of AI user agents, copied in whole and credited in a comment. It grows when that list grows, without the site revisiting the question." },
+].map((c) => ({ ...c, members: [...robotsArchive].filter(([, body]) => c.re.test(body)).map(([d]) => d).sort() }));
+
 const botsRanked = [...BOT_NAMES].sort((a, b) => botStats[b].pct - botStats[a].pct);
 const maxPct = botStats[botsRanked[0]].pct || 1;
 const chartRows = botsRanked.map((b, i) => {
@@ -378,6 +401,13 @@ write("stats/index.html", page({
 <thead><tr><th>Category</th><th>Sites</th><th>Blocking ≥1 bot</th><th>Rate</th></tr></thead>
 <tbody>${catStats.map((c) => `<tr><td><a href="../category/${esc(c.cat)}/">${esc(c.cat)}</a></td><td>${c.n}</td><td>${c.blockers}</td><td>${c.pct}%</td></tr>`).join("")}</tbody>
 </table></div>
+<h2>Blocklists nobody wrote</h2>
+<p>Not every block is a decision. Some arrive as infrastructure: a CDN inserts a managed section, or a site copies a community roster of AI user agents. Either can be switched on or off in one move by someone who never reads the names inside — on 2026-09-01 roblox.com un-blocked eight AI crawlers at once by deleting a Cloudflare managed block, and on 2026-09-02 semafor.com un-blocked 31 by deleting a copied list. Each cohort is small enough to name in full, so we do, and we re-count them from the archived files every day.</p>
+<div class="tablewrap"><table class="statgrid">
+<thead><tr><th>Boilerplate</th><th>Sites</th><th>Which ones</th><th>What it is</th></tr></thead>
+<tbody>${boilerplate.map((c) => `<tr><td>${esc(c.label)}</td><td>${c.members.length}</td><td class="domains">${c.members.length ? c.members.map((d) => `<a href="../site/${esc(d)}/">${esc(d)}</a>`).join(" · ") : "—"}</td><td>${esc(c.what)}</td></tr>`).join("\n")}</tbody>
+</table></div>
+<p class="note">Counted by matching the archived <code>robots.txt</code> of every readable domain against the marker each cohort leaves behind, on ${esc(snap.date)}. A site can appear in more than one row. Membership is a fact about the file, not a judgement about the site: the Content Signals preamble states a preference and blocks nothing by itself.</p>
 <h2>Citing these numbers</h2>
 <p class="note">Data is CC BY 4.0. Cite as "Canicrawl, AI crawler access census, ${esc(snap.date)}" with a link. Raw data: <a href="../data/latest.json">latest.json</a>. Methodology: <a href="../about/">about</a>. Every figure is reproducible from the committed daily snapshots.</p>`,
 }));
