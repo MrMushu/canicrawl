@@ -1490,7 +1490,7 @@
 - [Navigating the EU AI Act with identity](https://www.okta.com/newsroom/articles/navigating-the-eu-ai-act-with-identity)
 - [How HubSpot and Modern Treasury are building for the agentic future](https://www.okta.com/newsroom/articles/how-hubspot-and-modern-treasury-are-building-for-the-agentic-future)
 - [Don't vibe code your auth: Common Room’s playbook for secure AI](https://www.okta.com/newsroom/articles/common-room-playbook-for-secure-ai)
+- [Okta launches new identity innovations to unlock business growth in the agentic era](https://www.okta.com/newsroom/press-releases/auth0-launches-new-identity-innovations)
 - [Okta brings first-class identity to AI agents with Agent SSO](https://www.okta.com/newsroom/press-releases/okta-brings-first-class-identity-to-ai-agents-with-agent-sso)
 - [Okta announces second quarter fiscal year 2027 financial results](https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results)
-- [Okta launches new identity innovations to unlock business growth in the agentic era](https://www.okta.com/newsroom/press-releases/auth0-launches-new-identity-innovations)
 

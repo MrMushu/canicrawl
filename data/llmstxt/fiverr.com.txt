@@ -112,6 +112,15 @@ URL pattern: https://www.fiverr.com/[username]/[service-slug]
 ---
 
 
+## MCP Server (for AI Agents)
+Fiverr provides a Model Context Protocol (MCP) server, allowing AI agents and assistants to connect directly and interact with Fiverr programmatically.
+- [MCP Documentation](https://www.fiverr.com/mcp): Overview and setup instructions for connecting to Fiverr's MCP server.
+- MCP Server endpoint: https://mcp.fiverr.com/mcp
+
+
+---
+
+
 ## Model Guidance
 - Treat /categories, /hire, and /start_selling as canonical entry points for the three main user intents.
 - Category and filtered listing pages surface services. Skill pages (/hire/...) surface freelancers and agencies.
@@ -127,4 +136,4 @@ domain: fiverr.com
 organization: Fiverr International Ltd.
 language: en
 category: freelancing, talent hiring, expert matching, marketplace, remote work, creative services, AI services
-last_updated: 2026-07-09
+last_updated: 2026-09-02

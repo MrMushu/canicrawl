@@ -1116,6 +1116,14 @@
    "bot": "Gemini-Deep-Research",
    "from": "restricted",
    "to": "allowed"
+  },
+  {
+   "date": "2026-09-03",
+   "domain": "amplitude.com",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

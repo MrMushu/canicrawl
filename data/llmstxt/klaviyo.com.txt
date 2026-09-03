@@ -38,7 +38,7 @@ Freshness Warning: The following topics change frequently and should be verified
 - [Pricing](https://www.klaviyo.com/pricing): Current plans, feature comparisons, and pricing details.
 - [Sign Up](https://www.klaviyo.com/sign-up) & [Account Setup](https://www.klaviyo.com/account-setup): Account creation, setup instructions, and activation guidance.
 - [Platform Integrations Overview](https://www.klaviyo.com/platform-integrations): Integrations discovery entry point.
-- [App Marketplace](https://marketplace.klaviyo.com/en-us/browse/): Browse partner apps and integrations.
+- [App Marketplace](https://marketplace.klaviyo.com/llms.txt): Partner apps and integrations, indexed by category. Category names are the marketplace's own taxonomy — loyalty apps are under Rewards, customer service under Support & Help Desk — so start from this index rather than guessing a URL.
 
 ## Products & Solutions
 

@@ -47,6 +47,8 @@ Disallow: /ambassadors/*/start?*
 Disallow: /ambassadors/*?*
 Disallow: /ambassadors/terms$
 Disallow: /ambassadors/terms?*
+Disallow: /decision-maker/*$
+Disallow: /decision-maker/*?*
 Disallow: /decision-makers/*/admin_accounts$
 Disallow: /decision-makers/*/admin_accounts?*
 Disallow: /decision-makers/*/edit$

@@ -11,6 +11,11 @@ Disallow: /showcase/
 Disallow: /content/
 Disallow: /etc.clientlibs/
 Disallow: /*/Data/
+Disallow: /*/sitecore/content/TV/Global/*
+Disallow: /*/sitecore/content/TV/Teamviewer/*
+Disallow: /*/sitecore/content/TV/Shared/*
+Disallow: /*/TV/Teamviewer/Home/*
+Disallow: /*/knowledge-base-archive/*
 Disallow: /*?*mail=
 Disallow: /*?*code=
 Disallow: /*?*id=

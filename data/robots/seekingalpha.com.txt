@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /acquire_news
 Disallow: /api/v3/ab_tests
 Disallow: /api/v3/account
 Disallow: /api/v3/breaking_news
@@ -11,16 +10,12 @@ Disallow: /api/v3/visitor_tag_for_url_params
 Disallow: /articles/enqueue_tracking
 Disallow: /authentication
 Disallow: /clean$
-Disallow: /embargo
-Disallow: /forum
-Disallow: /insight
 Disallow: /iphone_data/check_update
 Disallow: /market_news/enqueue_tracking
 Disallow: /mone$
 Disallow: /mone_event
 Disallow: /mone_v2
 Disallow: /mpw_count
-Disallow: /research
 Disallow: /search
 Disallow: /_sa_track/
 Disallow: /xgCxM9By/init.js

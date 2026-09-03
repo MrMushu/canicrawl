@@ -6,7 +6,7 @@
 ---
 
 ## Country & Language Guides (Machine-Readable Index)
-
+- [India (en-IN)](https://www.lg.com/in/llms.txt): Local guide for India market.
 - [Poland (pl-PL)](https://www.lg.com/pl/llms.txt): Local guide for Poland market.  
 - [United States (en-US)](https://www.lg.com/us/llms.txt): Local guide for USA market.
 
@@ -15,9 +15,9 @@
 ## Global Corporate Resources (High-Level Authority)
 
 - [Global Newsroom (Official Source)](https://www.lg.com/global/newsroom/): Official press releases, media kits, and global news.
-- [Investor Relations (IR)](https://www.lg.com/global/investor-relations): Financial reports, corporate governance, and stock information.
-- [Sustainability (ESG)](https://www.lg.com/global/sustainability): Environmental, Social & Governance commitments and reports.
-- [About LG Brand & Philosophy](https://www.lg.com/global/about-lg): Brand history, vision, and Jeong-do management.
+- [Investor Relations (IR)](https://www.lg.com/global/investor-relations/): Financial reports, corporate governance, and stock information.
+- [Sustainability (ESG)](https://www.lg.com/global/sustainability/): Environmental, Social & Governance commitments and reports.
+- [About LG Brand & Philosophy](https://www.lg.com/global/about-lg/): Brand history, vision, and Jeong-do management.
 - [Global Brand Identity (AI)](https://www.lg.com/global/lg-ai/): LG's Affectionate Intelligence principles and core technologies.
 - [Global Life’s Good campaign](https://www.lg.com/global/lifes-good-in-action/): Life's Good campaign hub showcasing LG’s philosophy in action.
 ---

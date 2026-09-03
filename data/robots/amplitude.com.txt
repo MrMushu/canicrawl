@@ -73,15 +73,14 @@ Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 Disallow: /*sanity_test*
 
-User-agent: Bytespider
-Content-Signal: search=yes, ai-input=yes, ai-train=yes
-Allow: /
-Disallow: /*sanity_test*
-
 User-agent: Amazonbot
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 Disallow: /*sanity_test*
+
+User-agent: Bytespider
+Content-Signal: search=no, ai-input=no, ai-train=no
+Disallow: /
 
 User-agent: Googlebot
 User-agent: Bingbot
