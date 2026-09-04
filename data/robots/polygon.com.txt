@@ -23,9 +23,6 @@ Disallow: /
 User-agent: Applebot-Extended
 Disallow: /
 
-User-agent: Applebot
-Allow: /
-
 User-agent: AmazonAdBot
 Allow: /
 

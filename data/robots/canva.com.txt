@@ -226,6 +226,8 @@ Allow: /pt_br/aprenda/
 Allow: /ru_ru/obuchenie/
 Allow: /help/
 Allow: /*/help/
+Allow: /design-school/
+Allow: /*/design-school/
 
 User-agent: Bytespider
 User-agent: meta-externalagent

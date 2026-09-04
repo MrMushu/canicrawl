@@ -22,6 +22,8 @@ Disallow: /events
 Disallow: /apply/
 Disallow: /eclk/
 Disallow: /ek/
+Disallow: /ekn/
+Disallow: /ekm/
 Disallow: /job-redirect
 Disallow: /pixel/
 Disallow: /observations/

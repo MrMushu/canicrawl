@@ -51,7 +51,7 @@ Disallow: /cycounter
 Disallow: /dzen
 Disallow: /experiments.xml
 Disallow: /efir
-Disallow: /ege
+Disallow: /edu
 Disallow: /formfeedback
 Disallow: /fresh
 Disallow: /goto_issue/
@@ -323,7 +323,7 @@ Disallow: /cycounter
 Disallow: /dzen
 Disallow: /experiments.xml
 Disallow: /efir
-Disallow: /ege
+Disallow: /edu
 Disallow: /formfeedback
 Disallow: /fresh
 Disallow: /goto_issue/
@@ -599,7 +599,7 @@ Disallow: /cycounter
 Disallow: /dzen
 Disallow: /experiments.xml
 Disallow: /efir
-Disallow: /ege
+Disallow: /edu
 Disallow: /formfeedback
 Disallow: /fresh
 Disallow: /goto_issue/
@@ -864,7 +864,7 @@ Disallow: /cycounter
 Disallow: /dzen
 Disallow: /experiments.xml
 Disallow: /efir
-Disallow: /ege
+Disallow: /edu
 Disallow: /formfeedback
 Disallow: /fresh
 Disallow: /goto_issue/

@@ -17,5 +17,3 @@ Allow: /*/wp-admin/admin-ajax.php
 
 Sitemap: https://www.stackadapt.com/main/sitemap_index.xml
 Sitemap: https://www.stackadapt.com/main/wp-json/yoast/v1/schema-aggregator/get-xml
-
-Content-Signal: search=yes, ai-input=yes, ai-train=yes

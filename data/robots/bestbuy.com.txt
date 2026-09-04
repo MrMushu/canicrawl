@@ -167,7 +167,6 @@ Disallow: *cp=9*
 Disallow: *?*page=*&page=*$
 
 # Search Parameters Controls
-Disallow: */site/searchpage.jsp?st=*
 Disallow: *?id*_facet*&st=*
 Disallow: *?id*_facet*_facet*&st=*
 Disallow: *?cp=*&id=*&st=*

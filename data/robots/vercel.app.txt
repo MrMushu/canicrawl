@@ -2,6 +2,12 @@
 
 For coding agents to ship apps and agents automated by agents.
 
+- **For coding agents:** to deploy in their native language, with Vercel's API, CLI, MCP, and Skills.
+
+- **To ship apps and agents:** in Sandboxed VMs, with durable backends, powered by hundreds of models.
+
+- **Automated by agents:** who autonomously investigate errors, plan fixes, and open PRs.
+
 [Deploy now](/new)
 
 [Talk to sales](/contact/sales)
@@ -62,3 +68,5 @@ Run production workloads in isolated containers on Vercel.
 ## Built by you, or your agents
 
 [Deploy now](/new)
+
+Onboard your agent by asking it to fetch and follow [the Vercel setup guide](/get-started.md).

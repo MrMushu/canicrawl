@@ -20,7 +20,7 @@ Disallow: /explore
 Disallow: /home-feed
 Disallow: /interstitial/bag
 Disallow: /interstitial/offers
-Disallow: /offers
+Disallow: /offers-compact
 Disallow: /opt-out/confirm
 Disallow: /shop-cash/boosted-shops
 Disallow: /track/

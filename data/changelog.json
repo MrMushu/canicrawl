@@ -1124,6 +1124,13 @@
    "bot": "Bytespider",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-09-04",
+   "domain": "tailscale.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

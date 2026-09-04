@@ -93,6 +93,22 @@ Pass `apikey` and `secretapikey` in the JSON body, or use `X-API-Key` / `X-Secre
 
 **Agent / app key handoff (PKCE).** An app that doesn't yet have keys can get them without ever handling the user's password: `POST /apikey/request` with a `codeChallenge` (S256) returns an `authUrl`; send the user there to approve (they can create a Porkbun account first if they don't have one), then call `/apikey/retrieve` with the matching `codeVerifier` to receive both keys once — the secret is never shown in the browser. Native/mobile apps can add a `returnUrl` (an HTTPS Universal Link / App Link) to be redirected back into the app after approval; only `status` + `requestToken` ride the redirect, never the key. Step-by-step for a mobile app (both existing and brand-new users): https://porkbun.com/llms/guides/onboard-a-mobile-app-user
 
+## Guides
+
+Task-oriented walkthroughs. Prose, not generated from the spec — they cover the sequencing, the failure modes and the judgement calls that endpoint reference cannot.
+
+- **Migrate domains from GoDaddy to Porkbun**: https://porkbun.com/llms/godaddy-migration — end to end, two tracks. Track A drives the GoDaddy API with a user-supplied Personal Access Token (inventory, auth codes, DNS capture, unlock) and Porkbun's `/domain/transfer` for pricing and execution; Track B is a browser flow for `.uk`, premium names, and users without a token. Covers what to exclude and why (`transferAwayEligibleAt`, 60-day locks, non-`ACTIVE` statuses), why a transfer does not carry DNS with it, exact-penny pricing via `dryRun` rather than `checkDomain`, re-locking after a partial failure, and every transfer status with the action it implies. Point a web-capable AI at that URL and it can run the migration with no install and no repo.
+- Getting started (keys, auth, first call): https://porkbun.com/llms/guides/getting-started
+- Register a domain end-to-end (dry run + idempotency): https://porkbun.com/llms/guides/register-a-domain
+- Move domains to a customer's own Cloudflare account: https://porkbun.com/llms/guides/move-domains-to-cloudflare
+- Provision a WordPress site and publish to it: https://porkbun.com/llms/guides/publish-to-wordpress
+- Dynamic DNS: keep an A record on your current IP: https://porkbun.com/llms/guides/dynamic-dns
+- Receive and verify webhooks: https://porkbun.com/llms/guides/verify-a-webhook
+- Verify a user owns a domain (DomainAttest): https://porkbun.com/llms/guides/verify-domain-ownership
+- Onboard a user in a mobile/native app (PKCE key handoff): https://porkbun.com/llms/guides/onboard-a-mobile-app-user
+
+Index: https://porkbun.com/llms/guides
+
 ## Key endpoints
 
 - `GET/POST /ping` — verify credentials, get caller IP
