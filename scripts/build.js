@@ -419,6 +419,16 @@ const reasonRows = [...reasonCounts.entries()].sort((a, b) => b[1] - a[1]);
 const unreadableRows = outcomeRows.filter(([f]) => !OUTCOMES[f]?.readable);
 const biggestCause = unreadableRows[0] ?? ["—", []];
 const domainList = (list) => list.map((d) => `<a href="../site/${esc(d)}/">${esc(d)}</a>`).join(" · ");
+// llms.txt receipts (ring CC-12). A stored `llmstxt: true` is a claim; the
+// archived body is the receipt that lets anyone — including a later crawl —
+// re-check it. Bodies over the 256KB archive cap used to leave no evidence at
+// all, so the crawler now records a hash and a byte count for those instead of
+// nothing. Counted here rather than asserted, and the sites with neither are
+// named: they are pre-CC-12 records that self-heal on the next crawl.
+const llmsArchived = llmsSites.filter((d) => fs.existsSync(path.join(ROOT, "data/llmstxt", d + ".txt")));
+const llmsHashOnly = llmsSites.filter((d) => !fs.existsSync(path.join(ROOT, "data/llmstxt", d + ".txt")) && D[d].llmsHash);
+const llmsNoReceipt = llmsSites.filter((d) => !fs.existsSync(path.join(ROOT, "data/llmstxt", d + ".txt")) && !D[d].llmsHash);
+const kb = (n) => `${Math.round(n / 1024)}KB`;
 write("health/index.html", page({
   title: "Panel coverage — what Canicrawl can and can't read",
   desc: `We read the robots.txt policy of ${readable.length} of ${DOMAINS.length} tracked domains on ${snap.date}. The full ledger of unreadable sites and why, updated daily — every headline percentage uses the readable count as its denominator.`,
@@ -446,6 +456,18 @@ write("health/index.html", page({
 <h2>The unreadable, by name</h2>
 <p class="note">Listed for auditability: if you think one of these should be readable, fetch its robots.txt yourself and tell us. We never retry a refusal with a disguised user agent, and we never infer a policy from an HTML page.</p>
 ${unreadableRows.map(([f, list]) => `<details><summary>${esc(outcomeLabel(f))} — ${list.length} ${list.length === 1 ? "domain" : "domains"}</summary><p class="domains">${domainList(list)}</p></details>`).join("\n")}
+<h2>Receipts for every llms.txt we report</h2>
+<p>We say ${llmsSites.length} tracked sites publish an <code>llms.txt</code>. Each of those claims should be checkable by someone who is not us, so we archive the file we read. Bodies above the 256KB archive cap are kept as a SHA-256 prefix and a byte count instead — enough to prove the body existed, and enough to notice if it is silently swapped — because a claim with no evidence behind it is the failure mode this index has corrected three times.</p>
+<div class="tablewrap"><table class="statgrid">
+<thead><tr><th>Receipt</th><th>Sites</th><th>What is stored</th></tr></thead>
+<tbody>
+<tr><td><span class="chip yes">full body archived</span></td><td>${llmsArchived.length}</td><td>The exact file, overwritten daily — git history keeps every version</td></tr>
+<tr><td><span class="chip yes">hash + byte count</span></td><td>${llmsHashOnly.length}</td><td>Body exceeded the ${kb(262144)} archive cap; we store its SHA-256 prefix and size</td></tr>
+<tr><td><span class="chip unknown">no receipt yet</span></td><td>${llmsNoReceipt.length}</td><td>Recorded before receipts covered oversized files; the next crawl fills these in</td></tr>
+</tbody>
+</table></div>
+${llmsHashOnly.length ? `<details><summary>Oversized llms.txt — ${llmsHashOnly.length} ${llmsHashOnly.length === 1 ? "site" : "sites"}</summary><p class="domains">${llmsHashOnly.map((d) => `<a href="../site/${esc(d)}/">${esc(d)}</a> <code>${esc(D[d].llmsHash)}</code> (${kb(D[d].llmsBytes ?? 0)})`).join(" · ")}</p></details>` : ""}
+${llmsNoReceipt.length ? `<details><summary>Awaiting a receipt — ${llmsNoReceipt.length} ${llmsNoReceipt.length === 1 ? "site" : "sites"}</summary><p class="domains">${domainList(llmsNoReceipt)}</p></details>` : ""}
 <h2>How this affects the numbers</h2>
 <p>Headline rates — for example "${pct(anyBlockers.length, readable.length)}% block at least one AI crawler" — divide by ${readable.length}, the readable count, never by ${DOMAINS.length}. Per-bot and per-category rates do the same. Change detection ignores any domain that was unreadable on either side of a diff, so a site going briefly unreachable never produces a fake policy flip. The raw counts behind this page are in <a href="../data/latest.json">latest.json</a>: every domain carries its own <code>fetch</code> outcome.</p>
 <p class="note">Coverage moves day to day — timeouts and refusals are not permanent verdicts. This page is regenerated from the latest snapshot every morning, and the daily snapshots keep the history.</p>`,

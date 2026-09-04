@@ -170,6 +170,16 @@ async function crawlDomain(domain) {
         if (l.status === 200 && !looksLikeHtml(l.text) && l.text.trim().length > 0) {
           result.llmstxt = true;
           answered = true;
+          // Every stored `true` now carries a receipt. The archive cap left 7
+          // sites (zendesk, salesforce, unity3d, sourceforge, datadoghq,
+          // selectel, mailchimp) recorded as publishing an llms.txt with no
+          // stored evidence at all — the exact gap CC-11 and CC-13 were about:
+          // a claim we cannot re-check later. A hash and a byte count are
+          // cheap, prove the body existed and how large it was, and make a
+          // silent substitution visible day-over-day even when the file is far
+          // too big to keep. The cap itself does not move.
+          result.llmsBytes = Buffer.byteLength(l.text);
+          result.llmsHash = crypto.createHash("sha256").update(l.text).digest("hex").slice(0, 16);
           if (l.text.length < 262144) {
             fs.writeFileSync(path.join(ROOT, "data/llmstxt", domain + ".txt"), l.text);
           }
