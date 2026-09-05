@@ -97,7 +97,6 @@ Pass `apikey` and `secretapikey` in the JSON body, or use `X-API-Key` / `X-Secre
 
 Task-oriented walkthroughs. Prose, not generated from the spec — they cover the sequencing, the failure modes and the judgement calls that endpoint reference cannot.
 
-- **Migrate domains from GoDaddy to Porkbun**: https://porkbun.com/llms/godaddy-migration — end to end, two tracks. Track A drives the GoDaddy API with a user-supplied Personal Access Token (inventory, auth codes, DNS capture, unlock) and Porkbun's `/domain/transfer` for pricing and execution; Track B is a browser flow for `.uk`, premium names, and users without a token. Covers what to exclude and why (`transferAwayEligibleAt`, 60-day locks, non-`ACTIVE` statuses), why a transfer does not carry DNS with it, exact-penny pricing via `dryRun` rather than `checkDomain`, re-locking after a partial failure, and every transfer status with the action it implies. Point a web-capable AI at that URL and it can run the migration with no install and no repo.
 - Getting started (keys, auth, first call): https://porkbun.com/llms/guides/getting-started
 - Register a domain end-to-end (dry run + idempotency): https://porkbun.com/llms/guides/register-a-domain
 - Move domains to a customer's own Cloudflare account: https://porkbun.com/llms/guides/move-domains-to-cloudflare

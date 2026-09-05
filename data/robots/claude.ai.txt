@@ -10,15 +10,8 @@ User-Agent: Google-Extended
 Disallow: /
 
 User-Agent: *
-Disallow: /new?*
-Disallow: /chat/*
-Disallow: /join/*
-Disallow: /magic-link*
+Allow: /api/desktop/
 Disallow: /api/*
-Disallow: /onboarding*
-Disallow: /upgrade*
 Disallow: /lti/*
-Disallow: /settings*
-Disallow: /task*
 
 Sitemap: https://claude.ai/sitemap.xml
