@@ -101,7 +101,24 @@ const chip = (status, source) =>
 // homepage. The legend explains the asterisk, so no per-cell title attribute.
 const statusCell = (status, source) =>
   `<td class="s ${status}${source === "wildcard" && status !== "allowed" ? " inh" : ""}">${status}</td>`;
-const llmsCell = (has) => `<td class="s ${has ? "yes" : "no"}">${has ? "yes" : "—"}</td>`;
+// llms.txt has three readings, not two. `llmstxt: false` means "we asked and
+// the answer was no"; a probe that got a 403/429/5xx or timed out sets
+// `llmsFetch: "unknown"` and is not an answer at all (ring CC-11). Rendering
+// both as "—" published an unknown as a fact: on 2026-09-05 shein.com's page
+// said "none found" while its 64KB llms.txt sat archived in this repo, because
+// that morning's probe was refused. Same shape as the CC-9 split on robots.txt.
+const llmsKnown = (e) => (e.llmsFetch ?? "ok") === "ok";
+const llmsCell = (e) =>
+  e.llmstxt ? `<td class="s yes">yes</td>`
+  : llmsKnown(e) ? `<td class="s no">—</td>`
+  : `<td class="s unknown">?</td>`;
+// The denominator behind the adoption figure (ring CC-17). A refused or timed-out
+// llms.txt probe is not a "no", and until today both were drawn as "—". These
+// three buckets sum to the panel and make the adoption percentage legible as a
+// floor over the sites that actually answered, without moving the published number.
+const llmsAnswered = DOMAINS.filter((d) => llmsKnown(D[d]));
+const llmsNoAnswer = DOMAINS.filter((d) => !llmsKnown(D[d]));
+const llmsNoAnswerLive = llmsNoAnswer.filter((d) => D[d].fetch !== "unreachable");
 const nav = [
   ["", "Sites"], ["bots/", "AI bots"], ["stats/", "Stats"], ["health/", "Coverage"], ["changelog/", "Changelog"], ["digest/", "Digest"], ["api/", "API"], ["about/", "About"],
 ];
@@ -173,7 +190,7 @@ const rows = DOMAINS.map((d) => {
   return `<tr${isNoSite(d) ? ` class="nosite"` : ""} data-domain="${esc(d)}" data-cat="${esc(cat)}" data-blocks="${blocksAny(d) ? 1 : 0}" data-readable="${readableSet.has(d) ? 1 : 0}">
 <td><button class="watch" aria-label="Watch ${esc(d)} (saved in your browser)">☆</button></td>
 <td class="domain"><a href="site/${esc(d)}/">${esc(d)}</a></td><td class="cat"><a href="category/${esc(cat)}/">${esc(cat)}</a></td>
-${llmsCell(e.llmstxt)}${cells}</tr>`;
+${llmsCell(e)}${cells}</tr>`;
 }).join("\n");
 
 write("index.html", page({
@@ -207,7 +224,7 @@ write("index.html", page({
 <thead><tr><th aria-label="watch"></th><th>Site</th><th>Category</th><th>llms.txt</th>${HEADLINE.map((b) => `<th><a href="bot/${esc(b)}/">${esc(b)}</a></th>`).join("")}</tr></thead>
 <tbody>${rows}</tbody>
 </table></div>
-<p class="note">Chips read from each site's robots.txt: <span class="chip allowed">allowed</span> no rule stops this bot · <span class="chip restricted">restricted</span> some paths disallowed · <span class="chip blocked">blocked</span> fully disallowed · <span class="chip unknown">unknown</span> we couldn't read the file. An asterisk means the verdict is inherited from the site's default (<code>*</code>) rules rather than naming the bot. Every site page shows all ${BOT_NAMES.length} tracked bots. We could read the policy of ${readable.length} of the ${DOMAINS.length} tracked domains on ${esc(snap.date)}; the other ${unreadable.length} are listed as <span class="chip unknown">unknown</span> and excluded from every percentage — see <a href="health/">what we can and can't see</a>. Of those, <strong>${noSite.length}</strong> have no DNS record at all and were never websites — Tranco ranks by resolver traffic, so CDN and telemetry endpoints ride high in it. Those rows are <span class="nosite-key">greyed out and marked <em>no DNS</em></span>; we keep them listed and counted rather than curating the panel by hand.</p>
+<p class="note">Chips read from each site's robots.txt: <span class="chip allowed">allowed</span> no rule stops this bot · <span class="chip restricted">restricted</span> some paths disallowed · <span class="chip blocked">blocked</span> fully disallowed · <span class="chip unknown">unknown</span> we couldn't read the file. An asterisk means the verdict is inherited from the site's default (<code>*</code>) rules rather than naming the bot. In the llms.txt column, <strong>yes</strong> means we read a file, <strong>—</strong> means the site told us there isn't one, and <strong>?</strong> means today's probe got no answer at all — refused, rate-limited or timed out — so we don't claim either way (${llmsNoAnswer.length} sites on ${esc(snap.date)}; the <a href="health/">coverage page</a> lists them). Every site page shows all ${BOT_NAMES.length} tracked bots. We could read the policy of ${readable.length} of the ${DOMAINS.length} tracked domains on ${esc(snap.date)}; the other ${unreadable.length} are listed as <span class="chip unknown">unknown</span> and excluded from every percentage — see <a href="health/">what we can and can't see</a>. Of those, <strong>${noSite.length}</strong> have no DNS record at all and were never websites — Tranco ranks by resolver traffic, so CDN and telemetry endpoints ride high in it. Those rows are <span class="nosite-key">greyed out and marked <em>no DNS</em></span>; we keep them listed and counted rather than curating the panel by hand.</p>
 <script src="app.js"></script>`,
 }));
 
@@ -237,7 +254,11 @@ for (const d of DOMAINS) {
   <dt>Category</dt><dd>${esc(cat)}</dd>
   <dt>robots.txt</dt><dd>${e.fetch === "ok" ? `readable — <a href="https://${esc(d)}/robots.txt" rel="nofollow">view live file</a>` : esc(outcomeLabel(dispOutcome(d)))}</dd>
   <dt>Default (<code>*</code>) policy</dt><dd>${chip(e.wildcard ?? "unknown")}${e.wildcard === "blocked" ? " — this site closes its doors to every crawler it doesn't explicitly name" : ""}</dd>
-  <dt>llms.txt</dt><dd>${e.llmstxt ? `<span class="chip yes">published</span> — <a href="https://${esc(d)}/llms.txt" rel="nofollow">view</a> (an on-ramp written for AI readers)` : '<span class="chip no">none found</span>'}</dd>
+  <dt>llms.txt</dt><dd>${
+    e.llmstxt ? `<span class="chip yes">published</span> — <a href="https://${esc(d)}/llms.txt" rel="nofollow">view</a> (an on-ramp written for AI readers)`
+    : llmsKnown(e) ? '<span class="chip no">none found</span>'
+    : `<span class="chip unknown">no answer today</span> — the probe was refused or timed out on ${esc(snap.date)}, so we don't know${fs.existsSync(path.join(ROOT, "data/llmstxt", d + ".txt")) ? `. We have read one from this site before — <a href="https://github.com/MrMushu/canicrawl/blob/main/data/llmstxt/${esc(d)}.txt" rel="nofollow">the archived copy</a> is still here` : ""}`
+  }</dd>
   <dt>Machine-readable</dt><dd><a href="../../data/sites/${esc(d)}.json">JSON for this site</a></dd>
   ${fs.existsSync(path.join(ROOT, "data/robots", d + ".txt"))
     ? `<dt>Archive</dt><dd><a href="https://github.com/MrMushu/canicrawl/blob/main/data/robots/${esc(d)}.txt" rel="nofollow">archived robots.txt</a> · <a href="https://github.com/MrMushu/canicrawl/commits/main/data/robots/${esc(d)}.txt" rel="nofollow">every historical version</a></dd>`
@@ -319,7 +340,7 @@ for (const cat of CATS) {
   const memberRows = sorted.map((d) => {
     const e = D[d];
     return `<tr><td class="domain"><a href="../../site/${esc(d)}/">${esc(d)}</a></td>
-${llmsCell(e.llmstxt)}
+${llmsCell(e)}
 ${HEADLINE.map((b) => statusCell(e.bots[b]?.status ?? "unknown", e.bots[b]?.source)).join("")}</tr>`;
   }).join("\n");
   write(`category/${cat}/index.html`, page({
@@ -468,6 +489,18 @@ ${unreadableRows.map(([f, list]) => `<details><summary>${esc(outcomeLabel(f))} �
 </table></div>
 ${llmsHashOnly.length ? `<details><summary>Oversized llms.txt — ${llmsHashOnly.length} ${llmsHashOnly.length === 1 ? "site" : "sites"}</summary><p class="domains">${llmsHashOnly.map((d) => `<a href="../site/${esc(d)}/">${esc(d)}</a> <code>${esc(D[d].llmsHash)}</code> (${kb(D[d].llmsBytes ?? 0)})`).join(" · ")}</p></details>` : ""}
 ${llmsNoReceipt.length ? `<details><summary>Awaiting a receipt — ${llmsNoReceipt.length} ${llmsNoReceipt.length === 1 ? "site" : "sites"}</summary><p class="domains">${domainList(llmsNoReceipt)}</p></details>` : ""}
+<h2>How many sites actually answered the llms.txt question</h2>
+<p>An <code>llms.txt</code> probe has three outcomes, and only two of them are answers. A served file is a yes; a 404 is a no; a refusal, a rate-limit, a 5xx or a timeout is <em>no answer at all</em>, and we record it as such rather than counting it as a no. On ${esc(snap.date)} we got a definitive answer from <strong>${llmsAnswered.length} of ${DOMAINS.length}</strong> tracked domains.</p>
+<div class="tablewrap"><table class="statgrid">
+<thead><tr><th>llms.txt probe</th><th>Domains</th><th>Share</th><th>What it means</th></tr></thead>
+<tbody>
+<tr><td><span class="chip yes">published</span></td><td>${llmsSites.length}</td><td>${pct(llmsSites.length, DOMAINS.length)}%</td><td>A non-empty file was served and read — see the receipts above</td></tr>
+<tr><td><span class="chip no">none found</span></td><td>${llmsAnswered.length - llmsSites.length}</td><td>${pct(llmsAnswered.length - llmsSites.length, DOMAINS.length)}%</td><td>The site answered, and the answer was that there is no file</td></tr>
+<tr><td><span class="chip unknown">no answer</span></td><td>${llmsNoAnswer.length}</td><td>${pct(llmsNoAnswer.length, DOMAINS.length)}%</td><td>Refused, rate-limited, errored or timed out — ${llmsNoAnswerLive.length} of these are sites whose robots.txt we could still reach</td></tr>
+</tbody>
+</table></div>
+<p>Until ${esc(snap.date)} the index drew "no answer" and "none found" the same way — a dash — which published an unknown as a fact. The clearest case is a site we hold a receipt for: <code>shein.com</code>'s 64KB <code>llms.txt</code> is <a href="https://github.com/MrMushu/canicrawl/blob/main/data/llmstxt/shein.com.txt" rel="nofollow">archived in this repository</a>, and on the mornings its probe is refused the old rendering said the file did not exist. Those cells now read <code>?</code>, and the site page says we got no answer instead of asserting a negative. Nothing about the adoption figure changed: <strong>${pct(llmsSites.length, DOMAINS.length)}% is a floor</strong>, counted only from sites that gave us a real yes, and the ${llmsNoAnswerLive.length} live sites in the last row are the room above it.</p>
+${llmsNoAnswerLive.length ? `<details><summary>No answer today, but the site is reachable — ${llmsNoAnswerLive.length} ${llmsNoAnswerLive.length === 1 ? "domain" : "domains"}</summary><p class="domains">${domainList(llmsNoAnswerLive)}</p></details>` : ""}
 <h2>How this affects the numbers</h2>
 <p>Headline rates — for example "${pct(anyBlockers.length, readable.length)}% block at least one AI crawler" — divide by ${readable.length}, the readable count, never by ${DOMAINS.length}. Per-bot and per-category rates do the same. Change detection ignores any domain that was unreadable on either side of a diff, so a site going briefly unreachable never produces a fake policy flip. The raw counts behind this page are in <a href="../data/latest.json">latest.json</a>: every domain carries its own <code>fetch</code> outcome.</p>
 <p class="note">Coverage moves day to day — timeouts and refusals are not permanent verdicts. This page is regenerated from the latest snapshot every morning, and the daily snapshots keep the history.</p>`,

@@ -470,3 +470,40 @@ All three of today's moves are the same site: semafor.com left the Content Signa
 **The page states 0 hash-only receipts today, which is correct and is the test.** `data/latest.json` is an append-only snapshot written before this change, so no domain carries `llmsHash` yet. Tomorrow's 06:17 cron is the check: those seven should move from *no receipt yet* to *hash + byte count*. Any that do not are telling us the cap was never the reason their body went unarchived — which is worth knowing and is exactly why the page counts the buckets instead of asserting the fix worked.
 
 **Next:** CC-10 (Tranco weekly refresh) is now five days overdue and is the obvious next ring — it is Monday work by its own description, so 09-07. Confirm the seven receipts fill in tomorrow. Digest #3's lead keeps assembling: three ways to block ~30 crawlers without deciding to (roblox's CDN toggle, semafor's copied list, worldbank's misplaced `User-agent:`) against two hand edits that name exactly one bot each — webmd on ChatGPT-User, amplitude on Bytespider — plus stackadapt quietly withdrawing a permission it had explicitly granted.
+
+---
+
+## 2026-09-05, ops session — Ring CC-17: an unanswered probe is not a "no"
+
+**USER-NEEDED (all carried, nothing new):**
+- **CC-16 — methodology call.** `Disallow: /` plus a narrow `Allow:` carve-out is classified **blocked**; cnbc.com's 09-02 merge argues for **restricted**. Changing `verdict()` moves published percentages, so it waits for a session with the user.
+- **SS-7 — ShortSupply digest #1**, user-gated, three days past its own due date. Today's ShortSupply data adds a third graveyard departure to the drafted framing (below).
+- **Carried:** Canicrawl launch gate (drafts ready; twelve days of changelog history), the shortsupply.io/.co/.today domain pick, and the cron-lateness playbook amendment.
+
+**Cron: green both products.** Canicrawl's scheduled run was created 2026-09-05 **10:34:42 UTC**, `success`; ShortSupply's **10:55:28 UTC**, `success`. Against nominal 06:17/06:47 that is ~4h17m and ~4h08m late — the ninth consecutive late-not-dropped day, and the drift shrank by about 40 minutes rather than growing. Both pulls landed clean: 1,000 domains, 245 drugs.
+
+### Today's changelog: nothing, and the nothing was the story
+
+Canicrawl's changelog gained **zero entries** while the pull carried eight changed robots.txt files and **two brand-new archived llms.txt bodies** (`reg.ru`, `time.com`). Both silences turned out to be correct guards firing, and chasing them down is what produced the ring:
+
+- **reg.ru** — yesterday its robots.txt came back as `html-response` (a WAF/landing page) and its llms.txt probe returned a 200 HTML page, which the crawler records as a definitive *no*. Today both read clean. CC-11's `was.fetch === now.fetch` guard suppressed the flip, and it was right to: reg.ru's llms.txt was almost certainly there yesterday and we simply couldn't see it. Publishing "reg.ru published an llms.txt" would have been our access change dressed up as their decision — the exact error CC-11, CC-13 and CC-14 each corrected a version of.
+- **time.com** — reachable both days, llms.txt genuinely absent through 09-04 and genuinely present today (716 bytes). Suppressed because *yesterday's* probe returned no answer, so there was no known previous value to diff against. Correct for a one-day comparison, but the event is now lost for good: tomorrow is true→true. Filed as **CC-18** with a bounded fix; not done today, because one ring per session.
+
+**CC-12's forecast confirmed.** All **109** sites recorded as publishing an llms.txt now carry a receipt — 109/109 with an `llmsHash`, up from 102 archived + 7 with nothing. The largest is 741,350 bytes, comfortably over the 256KB archive cap and previously an unverifiable claim. The /health/ bucket that read 102 + 0 + 7 yesterday is the check, and it moved as predicted.
+
+### Ring CC-17 — the index was asserting a negative it had not established
+
+Since CC-11 the crawler has recorded `llmsFetch: "unknown"` when a probe is refused, rate-limited, errors or times out. The *build* never learned the distinction: `llmstxt` is a bare boolean, and both "the site says there is no file" and "nobody answered us" rendered as a dash. That is a state-level version of the failure this index has now corrected four times on the diff side — and it had a receipt sitting next to it. On 2026-09-05, **shein.com's site page said "none found"** while `data/llmstxt/shein.com.txt` — 64,109 bytes of real llms.txt — sat archived in this repository, because that morning's probe was refused. shein flips between answered and refused on roughly alternating days, so its file has been "appearing" and "vanishing" in our own published state all week.
+
+The scale: **385 of 1,000** domains got no answer today, and **131 of those are live sites** whose robots.txt we read fine in the same pass. The other 254 are the unreachable panel members /health/ already accounts for.
+
+Build-side only. `crawl.js` was not touched, no dependency added, and **no published percentage moves** — the fix is to stop drawing an unknown as a fact, not to recount:
+
+- Index and category cells become three-state: `yes` / `—` / **`?`**, painted on the existing `td.s.unknown` class, so no CSS and no extra elements (CC-8's weight discipline holds).
+- Site pages say **"no answer today"** with the date, and where we hold an archived body they link it — the receipt argues against our own dash.
+- The index legend defines all three states and links the coverage page.
+- **/health/** gains "How many sites actually answered the llms.txt question": 109 published / 506 none found / 385 no answer, summing to the panel, plus the plain statement that **10.9% is a floor** counted over the 615 sites that answered, with the 131 live non-answerers named. This is the page whose whole job is publishing denominators; the llms.txt axis never had one.
+
+**Verified, not assumed.** Build clean at **1,064 pages**. Every one of the **1,000 rendered llms cells was re-derived from `latest.json` and compared against the HTML: 0 mismatches**, with bucket totals 109 / 506 / 385 matching the data exactly and summing to 1,000. Three site pages spot-checked for the three distinct branches: shein.com (no answer + archived-copy link), time.com (published), google.com (none found). The /health/ section was read back out of `dist/`, not just written: buckets sum to 1,000, the answered sentence reads 615 of 1,000, and **131/131 member links resolve** to real `dist/site/<domain>/index.html` pages. The shein receipt cited in the prose was stat'd on disk at 64,109 bytes, so the "64KB" claim is measured rather than remembered. Adoption card unchanged at **10.9% / 109 sites**; homepage 14,122 → **14,129 elements** (+7, the legend sentence). `rebuild-changelog.js` dry run: **143 → 143, 0 dropped, 0 gained** — no regression on CC-11/CC-13/CC-14. Served `dist/`: HTTP **200** on `/`, `/health/`, `/stats/`, `/changelog/`, `/site/shein.com/` and `/site/time.com/`, with the new section present on the served page.
+
+**Next:** CC-18 (carry the last known llms answer forward — three real publications are currently invisible, one of them today's). CC-10 (Tranco weekly refresh) is six days overdue and is Monday work by its own description, so 09-07. Digest #3's lead is unchanged and gained a fourth beat: the ways a site's llms.txt policy can look like it changed when only our view of it did.
