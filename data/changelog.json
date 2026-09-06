@@ -1131,6 +1131,13 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-09-05",
+   "domain": "time.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

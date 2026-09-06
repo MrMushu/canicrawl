@@ -85,7 +85,9 @@ const old = JSON.parse(fs.readFileSync(file, "utf8")).entries;
 const preserved = old.filter((e) => !e.domain);
 
 const rebuilt = [...preserved];
-for (let i = 1; i < snaps.length; i++) rebuilt.push(...computeDiffs(snaps[i - 1], snaps[i]));
+// Third argument is everything older than snaps[i-1], oldest first: the
+// carry-forward baseline for domains whose previous day gave no answer (CC-18).
+for (let i = 1; i < snaps.length; i++) rebuilt.push(...computeDiffs(snaps[i - 1], snaps[i], snaps.slice(0, i - 1)));
 rebuilt.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
 
 const key = (e) => JSON.stringify(e);

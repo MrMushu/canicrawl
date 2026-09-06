@@ -228,7 +228,23 @@ function receiptRejected(domain) {
   return receiptCache.get(domain);
 }
 
-export function computeDiffs(prev, next) {
+// How far back a last-known llms.txt answer may be carried forward.
+// `computeDiffs` only ever sees two days, so when yesterday's probe got no
+// answer the flip is suppressed (correctly — we had nothing to compare against)
+// and then never reported, because the day after is true-to-true. Replaying the
+// snapshot series on 2026-09-06 found exactly three publications lost that way:
+// shein.com on 09-01 and 09-03, and time.com on 09-05. The fix is to compare
+// against the most recent day that actually answered, not blindly against
+// yesterday — bounded, because a two-week-old reading is no longer evidence
+// about today. Everything CC-11/CC-13/CC-14 installed still applies to the
+// carried day: it must pass the same `fetch` guard against today (reg.ru's
+// robots.txt was a WAF page on 09-05, so its "no llms.txt" was our access and
+// not its policy) and the same receipt sniff.
+const LLMS_CARRY_DAYS = 14;
+
+const dayGap = (a, b) => Math.round((Date.parse(b) - Date.parse(a)) / 86400000);
+
+export function computeDiffs(prev, next, history = []) {
   const entries = [];
   const readable = (e) => e && (e.fetch === "ok" || e.fetch === "no-robots");
   for (const [domain, now] of Object.entries(next.domains)) {
@@ -252,12 +268,26 @@ export function computeDiffs(prev, next) {
     // A `true` backed by a receipt that fails today's sniff is not a known
     // answer either — see receiptRejected() above.
     const llmsKnown = (e) =>
-      (e.llmsFetch ?? "ok") === "ok" && !(e.llmstxt === true && receiptRejected(domain));
+      e && (e.llmsFetch ?? "ok") === "ok" && !(e.llmstxt === true && receiptRejected(domain));
+    // The llms.txt baseline is the most recent day that gave a definitive
+    // answer, which is usually yesterday and is never more than
+    // LLMS_CARRY_DAYS old. `history` is the snapshots older than `prev`,
+    // oldest first; walking it backwards stops at the first day that answered,
+    // so every day in between is one we could not read.
+    let base = llmsKnown(was) ? was : null;
+    if (!base) {
+      for (let h = history.length - 1; h >= 0; h--) {
+        if (dayGap(history[h].date, next.date) > LLMS_CARRY_DAYS) break;
+        const e = history[h].domains?.[domain];
+        if (!e) continue;
+        if (llmsKnown(e)) { base = e; break; }
+      }
+    }
     if (
-      was.fetch === now.fetch && now.fetch !== "unreachable" &&
-      was.llmstxt !== now.llmstxt && llmsKnown(was) && llmsKnown(now)
+      base && base.fetch === now.fetch && now.fetch !== "unreachable" &&
+      base.llmstxt !== now.llmstxt && llmsKnown(now)
     ) {
-      entries.push({ date: next.date, domain, kind: "llmstxt", from: was.llmstxt, to: now.llmstxt });
+      entries.push({ date: next.date, domain, kind: "llmstxt", from: base.llmstxt, to: now.llmstxt });
     }
     if (!readable(was) || !readable(now)) continue;
     if (was.fetch !== now.fetch) continue;
@@ -273,6 +303,28 @@ export function computeDiffs(prev, next) {
     }
   }
   return entries;
+}
+
+// Snapshots older than `prev`, newest last, trimmed to the three fields the
+// llms.txt carry-forward reads. Full snapshots are ~2.8MB each; parsing them
+// one at a time and keeping only these keys costs a few MB instead of forty.
+export function loadLlmsHistory(prevDate) {
+  const dir = path.join(ROOT, "data/snapshots");
+  if (!fs.existsSync(dir)) return [];
+  const dates = fs.readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => f.slice(0, -5))
+    .filter((d) => d < prevDate)
+    .sort()
+    .slice(-LLMS_CARRY_DAYS);
+  return dates.map((d) => {
+    const snap = JSON.parse(fs.readFileSync(path.join(dir, d + ".json"), "utf8"));
+    const domains = {};
+    for (const [domain, e] of Object.entries(snap.domains)) {
+      domains[domain] = { fetch: e.fetch, llmstxt: e.llmstxt, llmsFetch: e.llmsFetch };
+    }
+    return { date: snap.date, domains };
+  });
 }
 
 function appendChangelog(newEntries) {
@@ -328,7 +380,7 @@ async function run() {
   if (NEW_ONLY) {
     if (targets.length) appendChangelog([{ date, kind: "panel", count: targets.length }]);
   } else if (prev && prev.date !== snapshot.date) {
-    const diffs = computeDiffs(prev, snapshot);
+    const diffs = computeDiffs(prev, snapshot, loadLlmsHistory(prev.date));
     const added = appendChangelog(diffs);
     console.log(`Policy changes vs ${prev.date}: ${added} new changelog entries`);
   }
