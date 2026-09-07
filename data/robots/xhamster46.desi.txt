@@ -114,6 +114,9 @@ disallow: */search/*sort=views
 disallow: */search/*angle=
 disallow: */search/*dimension=
 
+# Disallow search filters
+Disallow: */search/*format=vr
+
 # Disallow all pagination
 Disallow: */search/*page=
 
