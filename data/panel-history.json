@@ -1,0 +1,173 @@
+[
+ {
+  "date": "2026-09-07",
+  "source": "Tranco list 74V6X",
+  "panelBefore": 1000,
+  "panelAfter": 1020,
+  "added": [
+   {
+    "domain": "actify.nl",
+    "rank": 103
+   },
+   {
+    "domain": "hostinger.com",
+    "rank": 327
+   },
+   {
+    "domain": "statsigapi.net",
+    "rank": 441
+   },
+   {
+    "domain": "bitdefender.net",
+    "rank": 819
+   },
+   {
+    "domain": "h264.io",
+    "rank": 833
+   },
+   {
+    "domain": "buydomains.com",
+    "rank": 841
+   },
+   {
+    "domain": "usps.com",
+    "rank": 856
+   },
+   {
+    "domain": "pendo.io",
+    "rank": 902
+   },
+   {
+    "domain": "usercontent.goog",
+    "rank": 910
+   },
+   {
+    "domain": "ryanair.com",
+    "rank": 913
+   },
+   {
+    "domain": "pccc.com",
+    "rank": 915
+   },
+   {
+    "domain": "dnse0.com",
+    "rank": 924
+   },
+   {
+    "domain": "epam.com",
+    "rank": 931
+   },
+   {
+    "domain": "tbank.ru",
+    "rank": 937
+   },
+   {
+    "domain": "zenecn.net",
+    "rank": 938
+   },
+   {
+    "domain": "bytefcdn.com",
+    "rank": 956
+   },
+   {
+    "domain": "opera-api2.com",
+    "rank": 957
+   },
+   {
+    "domain": "xerox.com",
+    "rank": 976
+   },
+   {
+    "domain": "immedia-semi.com",
+    "rank": 977
+   },
+   {
+    "domain": "dnse2.com",
+    "rank": 980
+   }
+  ],
+  "deferred": [],
+  "departuresKept": [
+   {
+    "domain": "presage.io",
+    "rank": 985
+   },
+   {
+    "domain": "kwai.com",
+    "rank": 986
+   },
+   {
+    "domain": "stbid.ru",
+    "rank": 987
+   },
+   {
+    "domain": "otto.de",
+    "rank": 988
+   },
+   {
+    "domain": "cdn-vk.ru",
+    "rank": 989
+   },
+   {
+    "domain": "b-msedge.net",
+    "rank": 994
+   },
+   {
+    "domain": "opera-api.com",
+    "rank": 995
+   },
+   {
+    "domain": "eu.com",
+    "rank": 998
+   },
+   {
+    "domain": "umich.edu",
+    "rank": 1014
+   },
+   {
+    "domain": "digitaloceanspaces.com",
+    "rank": 1071
+   },
+   {
+    "domain": "singtelchina.cn",
+    "rank": 1087
+   },
+   {
+    "domain": "warnerbros.com",
+    "rank": 1116
+   },
+   {
+    "domain": "yieldmo.com",
+    "rank": 1170
+   },
+   {
+    "domain": "dyingbirds.com",
+    "rank": 1178
+   },
+   {
+    "domain": "rocketmoney.dev",
+    "rank": 1272
+   },
+   {
+    "domain": "tld-servers.ru",
+    "rank": 2035
+   },
+   {
+    "domain": "alrosa.ru",
+    "rank": 2616
+   },
+   {
+    "domain": "workbox.dk",
+    "rank": 4141
+   },
+   {
+    "domain": "nominetdns.uk",
+    "rank": null
+   },
+   {
+    "domain": "nic.direct",
+    "rank": null
+   }
+  ]
+ }
+]

@@ -45,7 +45,7 @@ const ADULT = new Set([
 ]);
 const ADULT_TLDS = [".xxx", ".porn", ".sex", ".adult", ".cams"];
 
-function excluded(domain) {
+export function excluded(domain) {
   if (ADULT.has(domain)) return true;
   if (ADULT_TLDS.some((t) => domain.endsWith(t))) return true;
   if (INFRA_SUFFIXES.some((s) => domain === s || domain.endsWith("." + s))) return true;
@@ -53,7 +53,7 @@ function excluded(domain) {
   return false;
 }
 
-async function fetchTranco() {
+export async function fetchTranco() {
   const api = await fetch("https://tranco-list.eu/api/lists/date/latest", {
     signal: AbortSignal.timeout(20000),
   }).then((r) => r.json());
@@ -85,33 +85,37 @@ async function fetchMajestic() {
   return { source: "Majestic Million", domains: lines.map((l) => l.split(",")[2]).filter(Boolean) };
 }
 
-const file = path.join(ROOT, "data/domains.json");
-const data = JSON.parse(fs.readFileSync(file, "utf8"));
-// Idempotent hygiene: prune previously-added top1k entries that the current
-// exclusion list would now reject (curated categories are never pruned).
-let pruned = 0;
-for (const [d, cat] of Object.entries(data.domains)) {
-  if (cat === "top1k" && excluded(d)) { delete data.domains[d]; pruned++; }
-}
-if (pruned) console.log(`Pruned ${pruned} previously-added domains now on the exclusion list.`);
-const existing = new Set(Object.keys(data.domains));
+async function main() {
+  const file = path.join(ROOT, "data/domains.json");
+  const data = JSON.parse(fs.readFileSync(file, "utf8"));
+  // Idempotent hygiene: prune previously-added top1k entries that the current
+  // exclusion list would now reject (curated categories are never pruned).
+  let pruned = 0;
+  for (const [d, cat] of Object.entries(data.domains)) {
+    if (cat === "top1k" && excluded(d)) { delete data.domains[d]; pruned++; }
+  }
+  if (pruned) console.log(`Pruned ${pruned} previously-added domains now on the exclusion list.`);
+  const existing = new Set(Object.keys(data.domains));
 
-let list;
-try { list = await fetchTranco(); }
-catch (e) { console.log(`Tranco failed (${e.message}); falling back to Majestic Million`); list = await fetchMajestic(); }
+  let list;
+  try { list = await fetchTranco(); }
+  catch (e) { console.log(`Tranco failed (${e.message}); falling back to Majestic Million`); list = await fetchMajestic(); }
 
-let added = 0, skippedInfra = 0, skippedDupe = 0;
-for (const raw of list.domains) {
-  if (existing.size >= TARGET_PANEL_SIZE) break;
-  const domain = raw.trim().toLowerCase();
-  if (!domain) continue;
-  if (existing.has(domain)) { skippedDupe++; continue; }
-  if (excluded(domain)) { skippedInfra++; continue; }
-  data.domains[domain] = "top1k";
-  existing.add(domain);
-  added++;
+  let added = 0, skippedInfra = 0, skippedDupe = 0;
+  for (const raw of list.domains) {
+    if (existing.size >= TARGET_PANEL_SIZE) break;
+    const domain = raw.trim().toLowerCase();
+    if (!domain) continue;
+    if (existing.has(domain)) { skippedDupe++; continue; }
+    if (excluded(domain)) { skippedInfra++; continue; }
+    data.domains[domain] = "top1k";
+    existing.add(domain);
+    added++;
+  }
+  data.note = (data.note || "") + ` Expanded ${new Date().toISOString().slice(0, 10)} with ${list.source} top sites (category "top1k"); infrastructure/CDN/ad-tech hosts and adult-content domains excluded by list in scripts/expand-panel.js.`;
+  fs.writeFileSync(file, JSON.stringify(data, null, 1));
+  console.log(`Source: ${list.source}`);
+  console.log(`Added ${added} domains (skipped ${skippedDupe} dupes, ${skippedInfra} excluded). Panel now ${existing.size} domains.`);
 }
-data.note = (data.note || "") + ` Expanded ${new Date().toISOString().slice(0, 10)} with ${list.source} top sites (category "top1k"); infrastructure/CDN/ad-tech hosts and adult-content domains excluded by list in scripts/expand-panel.js.`;
-fs.writeFileSync(file, JSON.stringify(data, null, 1));
-console.log(`Source: ${list.source}`);
-console.log(`Added ${added} domains (skipped ${skippedDupe} dupes, ${skippedInfra} excluded). Panel now ${existing.size} domains.`);
+
+if (process.argv[1] && import.meta.url.endsWith(path.basename(process.argv[1]))) await main();
