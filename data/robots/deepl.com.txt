@@ -1,6 +1,8 @@
 ############################################
-# Last full revision: 2025-07-23
+# Last full revision: 2026-08-31
 ############################################
+
+Sitemap: https://www.deepl.com/sitemap.xml
 
 ##### Ads & Monetization #####
 User-agent: AdsBot-Google

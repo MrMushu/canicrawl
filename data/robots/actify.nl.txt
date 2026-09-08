@@ -1,0 +1,18 @@
+# robots.txt – www.zilverenkruis.nl
+
+Sitemap: https://www.zilverenkruis.nl/sitemap.xml
+
+User-agent: *
+
+# Zoekpagina's uitsluiten
+Disallow: /search
+
+# Taalvarianten uitsluiten
+Disallow: /en/
+
+# URL-parameters vergoedingenpagina's uitsluiten
+Disallow: /*?jaar=2020
+Disallow: /*?jaar=2021
+Disallow: /*?jaar=2022
+Disallow: /*?jaar=2023
+Disallow: /*?jaar=2024

@@ -16,6 +16,11 @@
   Disallow: *frame_rate=*
   Disallow: *resolution_name=*
   Disallow: *q=*
+  Disallow: *page=21
+  Disallow: *page=22
+  Disallow: *page=23
+  Disallow: *page=24
+  Disallow: *page=25
   Disallow: */users/*
   Disallow: /@*/followers/*
   Disallow: /*/@*/followers/*

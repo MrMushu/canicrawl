@@ -1138,6 +1138,234 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "newyorker.com",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "wired.com",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "epicurious.com",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "bonappetit.com",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "intel.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "intel.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "intel.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "intel.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "intel.com",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "intel.com",
+   "kind": "bot-flip",
+   "bot": "anthropic-ai",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "lg.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "lg.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "lg.com",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "lg.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "lg.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "lg.com",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "statsigapi.net",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "h264.io",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "hostinger.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "buydomains.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "bitdefender.net",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "pendo.io",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "usps.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "actify.nl",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "usercontent.goog",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "dnse0.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "ryanair.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "epam.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "zenecn.net",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "bytefcdn.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "dnse2.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "immedia-semi.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "pccc.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "tbank.ru",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "xerox.com",
+   "kind": "added"
+  },
+  {
+   "date": "2026-09-08",
+   "domain": "opera-api2.com",
+   "kind": "added"
   }
  ]
 }

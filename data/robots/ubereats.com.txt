@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: */delivery-details
+Disallow: */group-orders/
 Disallow: */search?
 Disallow: */select-language
 
@@ -9,6 +10,7 @@ Disallow: */checkout
 Disallow: */closest
 Disallow: */delivery-details
 Disallow: */feed
+Disallow: */group-orders/
 Disallow: */login-redirect/
 Disallow: */order
 Disallow: *恒博国际app下载*

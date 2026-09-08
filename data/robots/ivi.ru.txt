@@ -79,6 +79,7 @@ Disallow: /watch/holop-3-film-o-filme/*
 Disallow: /watch/vsyo-v-tvoih-rukah-2026/*
 Disallow: /watch/holod/655286
 Disallow: /collections/100-luchshih-russkih-filmov
+Disallow: /watch/neslomlennaya-2026/*
 Clean-param: sort
 Clean-param: sort&rating_part&rating_model
 Clean-param: episode
@@ -185,5 +186,6 @@ Disallow: /watch/chislo-zverya-2026/*
 Disallow: /watch/holop-3-film-o-filme/*
 Disallow: /watch/vsyo-v-tvoih-rukah-2026/*
 Disallow: /watch/holod/655286
+Disallow: /watch/neslomlennaya-2026/*
 User-agent: Twitterbot
 Disallow:

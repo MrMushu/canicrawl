@@ -223,6 +223,24 @@ Disallow: /
 
 
 # ==========================================
+# ARCHIV-CRAWLER (SPERRE)
+# ==========================================
+User-agent: archive.org_bot
+Disallow: /
+User-agent: WaybackSavePage
+Disallow: /
+User-agent: heritrix
+Disallow: /
+User-agent: Special_Archiver
+Disallow: /
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+User-agent: ia_archiver2
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
+
+# ==========================================
 # HISTORISCHE BOTS & MASSEN-DOWNLOADER
 # ==========================================
 User-agent: Bloodhound
