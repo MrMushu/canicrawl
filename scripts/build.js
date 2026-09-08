@@ -450,6 +450,18 @@ const llmsArchived = llmsSites.filter((d) => fs.existsSync(path.join(ROOT, "data
 const llmsHashOnly = llmsSites.filter((d) => !fs.existsSync(path.join(ROOT, "data/llmstxt", d + ".txt")) && D[d].llmsHash);
 const llmsNoReceipt = llmsSites.filter((d) => !fs.existsSync(path.join(ROOT, "data/llmstxt", d + ".txt")) && !D[d].llmsHash);
 const kb = (n) => `${Math.round(n / 1024)}KB`;
+// Panel ledger (ring CC-19). CC-10 made the denominator reproducible in the
+// repo; this makes it legible on the site. Read-only: every number below comes
+// straight out of data/panel-history.json, which refresh-panel.js appends to.
+const panelHistory = fs.existsSync(path.join(ROOT, "data/panel-history.json"))
+  ? JSON.parse(fs.readFileSync(path.join(ROOT, "data/panel-history.json"), "utf8"))
+  : [];
+const num = (n) => Number(n).toLocaleString("en-US");
+const panelRefreshes = [...panelHistory].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+const rankOf = (r) => (typeof r === "number" ? `#${num(r)}` : "outside the list");
+const rankedList = (list) => list.map((e) => `<a href="../site/${esc(e.domain)}/">${esc(e.domain)}</a> ${rankOf(e.rank)}`).join(" · ");
+const panelAdded = panelRefreshes.reduce((n, r) => n + (r.added?.length ?? 0), 0);
+const panelDepartures = panelRefreshes.reduce((n, r) => n + (r.departuresKept?.length ?? 0), 0);
 write("health/index.html", page({
   title: "Panel coverage — what Canicrawl can and can't read",
   desc: `We read the robots.txt policy of ${readable.length} of ${DOMAINS.length} tracked domains on ${snap.date}. The full ledger of unreadable sites and why, updated daily — every headline percentage uses the readable count as its denominator.`,
@@ -474,6 +486,19 @@ write("health/index.html", page({
 <thead><tr><th>Network result</th><th>Domains</th><th>Meaning</th></tr></thead>
 <tbody>${reasonRows.map(([r, n]) => `<tr><td>${esc(r)}</td><td>${n}</td><td>${esc(REASONS[r] ?? "recorded from the next crawl onward")}</td></tr>`).join("\n")}</tbody>
 </table></div>
+<h2>How the panel changes</h2>
+<p>The other half of the denominator is which domains are in it at all. The panel was filled once from a Tranco ranking and would quietly go stale — the ranking drifts about 2% a week — so it is re-examined weekly, <strong>additions only</strong>, and capped at 25 per run so one bad list day cannot reshape the census unattended. Every run is appended to <a href="https://github.com/MrMushu/canicrawl/blob/main/data/panel-history.json" rel="nofollow">panel-history.json</a>, and this section is that file, read at build time: ${panelRefreshes.length} ${panelRefreshes.length === 1 ? "refresh" : "refreshes"} so far, ${panelAdded} ${panelAdded === 1 ? "domain" : "domains"} added, ${panelDepartures} kept after falling out.</p>
+<p><strong>A domain that falls out of the ranking stays in the index.</strong> Dropping it would delete history: its daily snapshots are append-only facts about what that site's robots.txt said on those mornings, and <code>/site/&lt;domain&gt;/</code> is a live URL somebody may have linked. So a departure is <em>reported and kept</em> — it keeps its page, its history and its place in the counts — and the panel grows rather than churns. Same principle as leaving the ${noSite.length} no-DNS domains listed and marked: the panel is reproducible from a public ranking plus a written ledger, not from our taste about which sites deserve to be in it.</p>
+${panelRefreshes.length ? `<div class="tablewrap"><table class="statgrid">
+<thead><tr><th>Refresh</th><th>Source list</th><th>Panel</th><th>Added</th><th>Fell out, kept</th><th>Deferred</th></tr></thead>
+<tbody>${panelRefreshes.map((r) => `<tr><td>${esc(r.date)}</td><td>${esc(r.source ?? "—")}</td><td>${num(r.panelBefore)} → <strong>${num(r.panelAfter)}</strong></td><td>${r.added?.length ?? 0}</td><td>${r.departuresKept?.length ?? 0}</td><td>${r.deferred?.length ?? 0}</td></tr>`).join("\n")}</tbody>
+</table></div>
+${panelRefreshes.map((r) => `<details><summary>${esc(r.date)} — ${r.added?.length ?? 0} added, ${r.departuresKept?.length ?? 0} kept after falling out</summary>
+<p class="note">Measured against ${esc(r.source ?? "the current list")}. A newcomer has no site page until the next morning's crawl reaches it.</p>
+${r.added?.length ? `<p class="domains"><strong>Added:</strong> ${rankedList(r.added)}</p>` : `<p class="note">Nothing rose into the band.</p>`}
+${r.departuresKept?.length ? `<p class="domains"><strong>Fell out of the band, kept:</strong> ${rankedList(r.departuresKept)}</p>` : ""}
+${r.deferred?.length ? `<p class="domains"><strong>Deferred to the next run by the per-run cap:</strong> ${rankedList(r.deferred)}</p>` : ""}
+</details>`).join("\n")}` : `<p class="note">No refresh has run yet.</p>`}
 <h2>The unreadable, by name</h2>
 <p class="note">Listed for auditability: if you think one of these should be readable, fetch its robots.txt yourself and tell us. We never retry a refusal with a disguised user agent, and we never infer a policy from an HTML page.</p>
 ${unreadableRows.map(([f, list]) => `<details><summary>${esc(outcomeLabel(f))} — ${list.length} ${list.length === 1 ? "domain" : "domains"}</summary><p class="domains">${domainList(list)}</p></details>`).join("\n")}
