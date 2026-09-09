@@ -1366,6 +1366,29 @@
    "date": "2026-09-08",
    "domain": "opera-api2.com",
    "kind": "added"
+  },
+  {
+   "date": "2026-09-09",
+   "domain": "t-online.de",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-09",
+   "domain": "intel.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-09-09",
+   "domain": "welt.de",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

@@ -168,6 +168,8 @@ experience on every platform.
 
 ## Blog
 
+- [ Instrumenting an LLM router: what New Relic sees, Prometheus doesn't](https://newrelic.com/blog/ai/instrumenting-llm-router-new-relic-vs-prometheus): An LLM router instrumented end to end on New Relic: native AI Monitoring, custom routing/eval events, and an Autopilot-driven, human-approved fix.
+
 - [Proactive Monitoring Tools: Stop Reacting to Incidents After They Happen](https://newrelic.com/blog/observability/proactive-monitoring-tools): Reactive monitoring catches problems after users are already affected. Explore the top proactive monitoring tools, how they work, and what separates tools that detect anomalies from tools that prevent incidents.
 - [Multi-Cloud Management Tools: A Practical Guide for Engineering Teams](https://newrelic.com/blog/observability/multi-cloud-management-tools): Managing infrastructure across AWS, Azure, and GCP? Explore the top multi-cloud management tools, what to look for, and how observability keeps costs, performance, and reliability under control.
 - [Enterprise APM: How to Choose Application Performance Monitoring at Scale](https://newrelic.com/blog/observability/enterprise-apm): Enterprise APM goes beyond basic uptime checks. Explore what enterprise-grade application performance monitoring requires, how it differs from SMB tools, and what to look for when managing distributed systems at scale.
@@ -188,15 +190,14 @@ experience on every platform.
 - [Salesforce Observability with New Relic](https://newrelic.com/blog/observability/salesforce-observability-with-new-relic): The New Relic Salesforce Exporter centralizes Salesforce telemetry, performance, and security data into New Relic for proactive, unified observability.
 - [Introducing New Relic eBPF Logs - Now in Public Preview](https://newrelic.com/blog/news/introducing-ebpf-logs-pp): Collect application logs through the New Relic eBPF agent, connect them to APM services, and reduce the need for a separate log forwarder.
 - [Google Cloud Platform Observability enhancements now GA](https://newrelic.com/blog/news/google-cloud-platform-observability-ga): Monitor Google Cloud securely with Workload Identity Federation, dimensional metrics, Terraform deployment, and full-stack context in New Relic.
-- [Best CloudWatch Alternatives to Improve Monitoring and Visibility](https://newrelic.com/blog/observability/cloudwatch-alternatives): Discover the best CloudWatch alternatives to improve multi-cloud visibility, reduce costs, and simplify monitoring for modern engineering teams.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [Visit New Relic's Booth 21102 at Money20/20](https://newrelic.com/events/2026-10-19/money2020): Visit New Relic's Booth 21102 at Money20/20
 - [NBN Festival of Ideas - Sydney](https://newrelic.com/events/2026-09-08/nbn-fest-syd-reli-birds): New Relic at NBN Fest of Ideas. Join us for a Reli-Bird's Mobile Game Challenge!
 - [NBN Festival of Ideas - Melbourne](https://newrelic.com/events/2026-09-01/nbn-fest-melb-reli-birds): New Relic at NBN Fest of Ideas. Join us for a Reli-Bird's Mobile Game Challenge!
 - [New Relic for AI: Observability for AI, AI for Observability (EMEA)](https://newrelic.com/events/2026-11-04/new-relic-for-ai-emea): Join us for an interactive, hands-on workshop focused on monitoring AI applications and leveraging AI features within New Relic.
 - [Using AI Effectively: Practical Skills for Everyday Use (EMEA)](https://newrelic.com/events/2026-09-21/using-ai-effectively-emea): Join us for a practical guide focused on building essential skills to integrate AI into daily workflows.
-- [Understanding AI: How LLMs and AI Agents Really Work (EMEA)](https://newrelic.com/events/2026-09-21/understanding-ai-emea): Join us for a foundational session introducing the core concepts and mechanics behind artificial intelligence.
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.

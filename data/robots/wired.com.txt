@@ -30,6 +30,7 @@ Disallow: /product/
 Disallow: /cdn-cgi/
 Disallow: /services.min.js
 Disallow: /com.condenast/yv8
+Disallow: /reject-all
 
 ###
 Allow: /v2/offers/wira

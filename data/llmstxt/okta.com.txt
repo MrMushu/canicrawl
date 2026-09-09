@@ -432,7 +432,6 @@
 - [Okta Workforce Identity](https://www.okta.com/products/workforce-identity)
 - [Identity Security Posture Management](https://www.okta.com/products/identity-security-posture-management)
 - [Release Overview](https://www.okta.com/products/release-overview-workforce-identity)
-- [Okta Personal](https://www.okta.com/products/okta-personal)
 - [Okta for AI Agents](https://www.okta.com/products/govern-ai-agent-identity)
 
 ## Blog
@@ -1269,6 +1268,8 @@
 - [99.99% Uptime For Every Customer](https://www.okta.com/blog/product-innovation/99-point-99-percent-uptime-for-all)
 - [How resident identity unlocks DMV modernization](https://www.okta.com/blog/identity-security/how-resident-identity-unlocks-dmv-modernization)
 - [Your AI gateway has an identity crisis: Fixing the last-mile problem in enterprise AI](https://www.okta.com/blog/ai/securing-ai-agents-identity-architecture)
+- [Founders in Focus: Amir Sarhangi, CEO of Skyfire](https://www.okta.com/blog/company-and-culture/founders-in-focus-amir-sarhangi-ceo-of-skyfire)
+- [Integrating Okta with InCommon multilateral federation](https://www.okta.com/blog/industry-insights/okta-incommon-adapter-architecture)
 
 ## Newsroom
 
@@ -1493,6 +1494,7 @@
 - [Don't vibe code your auth: Common Room’s playbook for secure AI](https://www.okta.com/newsroom/articles/common-room-playbook-for-secure-ai)
 - [Okta launches new identity innovations to unlock business growth in the agentic era](https://www.okta.com/newsroom/press-releases/auth0-launches-new-identity-innovations)
 - [Strike Graph’s CPO on why you can’t hold AI accountable and what to do about it](https://www.okta.com/newsroom/articles/strike-graph-cpo-on-ai-accountability)
+- [Inside the underground market for AI access](https://www.okta.com/newsroom/articles/Inside-the-underground-market-for-AI-access)
 - [Okta brings first-class identity to AI agents with Agent SSO](https://www.okta.com/newsroom/press-releases/okta-brings-first-class-identity-to-ai-agents-with-agent-sso)
 - [Okta announces second quarter fiscal year 2027 financial results](https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results)
 

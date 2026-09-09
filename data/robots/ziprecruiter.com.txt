@@ -32,7 +32,6 @@ Disallow: /ptid
 Disallow: /chat/get-chat-auth-token
 Disallow: /ajax/
 Disallow: /tap/
-Disallow: /jobs/
 Disallow: /ojob/
 Disallow: /job-preview/
 Disallow: /svc/seo/

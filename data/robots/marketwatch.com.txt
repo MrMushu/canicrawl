@@ -24,7 +24,6 @@ User-agent: AdsBot-Google-Mobile
 User-agent: AdsBot-Google-Mobile-Apps
 User-agent: Storebot-Google
 User-agent: google-read-aloud
-User-agent: mediapartners-google
 User-agent: bingbot
 User-agent: msnbot
 User-agent: bingpreview
@@ -62,6 +61,8 @@ User-agent: BomboraBot
 User-agent: IllumaBot/1.0
 User-agent: Publication-Access-for-Facebook
 User-agent: Wallie
+User-agent: mediapartners-google
+
 
 User-agent: Screaming Frog SEO Spider
 User-agent: DeepCrawl
@@ -161,13 +162,6 @@ Disallow: /client
 Disallow: /subscribe/?inttrackingCode=*
 Disallow: /subscribe/?template=*
 
-
-User-agent: mediapartners-google
-Disallow: /
-Allow:/games/*
-Allow:/search
-Allow:/tools
-Allow:/tools/*
 
 
 Sitemap: https://www.marketwatch.com/sitemaps/web/mw/en/sitemap_mw_en_index.xml

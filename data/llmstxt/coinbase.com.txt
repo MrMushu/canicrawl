@@ -1,6 +1,6 @@
 # Coinbase & Coinbase Developer Platform (landing pages)
 
-> This file is for AI agents and automated tools that fetch `https://coinbase.com/llms.txt` or `https://coinbase.com/developer-platform/llms.txt`. These pages are **product and marketing entry points**, not API references. **Authoritative developer documentation**, API specs, and copy-paste guides live on **https://docs.cdp.coinbase.com** (see the curated index below).
+> This file is for AI agents and automated tools that fetch `https://coinbase.com/llms.txt` or `https://coinbase.com/developer-platform/llms.txt`. These pages are **product and marketing entry points**, not API references. **Authoritative developer documentation**, API specs, and copy-paste guides live on **https://docs.cdp.coinbase.com** (see the curated index below). For fuller descriptions of everything summarized here, see **[llms-full.txt](https://coinbase.com/llms-full.txt)**.
 
 ## Looking for a wallet? Use the following:
 

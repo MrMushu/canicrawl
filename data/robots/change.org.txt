@@ -11,6 +11,8 @@ Disallow: /p/*/sign$
 Disallow: /p/*/sign?*
 Disallow: /p/*/sign-now$
 Disallow: /p/*/sign-now?*
+Disallow: /p/*/feedback$
+Disallow: /p/*/feedback?*
 Disallow: /account_settings$
 Disallow: /account_settings/cancel_membership$
 Disallow: /account_settings/cancel_membership?*
