@@ -1389,6 +1389,22 @@
    "bot": "Amazonbot",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-09-10",
+   "domain": "hostinger.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-09-10",
+   "domain": "hostinger.com",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

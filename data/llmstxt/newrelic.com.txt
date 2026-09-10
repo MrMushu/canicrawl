@@ -193,11 +193,11 @@ experience on every platform.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [[Webinar] From Click to Code: Instrumenting New Relic Mobile and Browser Monitoring (APAC) (on demand)](https://newrelic.com/events/2026-10-09/mobile-monitoring-apac-on-demand): Join us for this 60-minute workshop to learn how New Relic Browser and Mobile Monitoring provide real-time, end-to-end visibility into frontend performance.
+- [New Relic & Verisk on Stage at re:Invent](https://newrelic.com/events/2026-12-01/reinvent-speaking-sessions): New Relic joins forces with our customer Verisk on stage for a breakout session at AWS re:Invent.
+- [[Webinar] Proactively monitor availability and performance with New Relic Synthetics (APAC) (on demand)](https://newrelic.com/events/2026-03-09/nru-synthetics-workshop-apac-on-demand): Join us for an overview of synthetic monitoring in New Relic, to find out where specific errors and slow pages are so that you can deliver the best customer experience.
+- [Product Pulse On Demand](https://newrelic.com/events/2026-08-27/product-pulse-on-demand): Watch our monthly live Product Pulse sessions on demand with Feature Spotlights, Expert Q&A, and Practical Guidance.
 - [Visit New Relic's Booth 21102 at Money20/20](https://newrelic.com/events/2026-10-19/money2020): Visit New Relic's Booth 21102 at Money20/20
-- [NBN Festival of Ideas - Sydney](https://newrelic.com/events/2026-09-08/nbn-fest-syd-reli-birds): New Relic at NBN Fest of Ideas. Join us for a Reli-Bird's Mobile Game Challenge!
-- [NBN Festival of Ideas - Melbourne](https://newrelic.com/events/2026-09-01/nbn-fest-melb-reli-birds): New Relic at NBN Fest of Ideas. Join us for a Reli-Bird's Mobile Game Challenge!
-- [New Relic for AI: Observability for AI, AI for Observability (EMEA)](https://newrelic.com/events/2026-11-04/new-relic-for-ai-emea): Join us for an interactive, hands-on workshop focused on monitoring AI applications and leveraging AI features within New Relic.
-- [Using AI Effectively: Practical Skills for Everyday Use (EMEA)](https://newrelic.com/events/2026-09-21/using-ai-effectively-emea): Join us for a practical guide focused on building essential skills to integrate AI into daily workflows.
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.

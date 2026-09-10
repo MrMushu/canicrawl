@@ -12,6 +12,7 @@ Disallow: /alice/*/term/
 Disallow: /alice/old-browser
 Disallow: /alice/store/orders/
 Disallow: /alice?share=
+Disallow: /alice/chat/
 Disallow: /alice/*?
 Disallow: /alice/*&
 Disallow: /all-supported-params
@@ -284,6 +285,7 @@ Disallow: /alice/*/term/
 Disallow: /alice/old-browser
 Disallow: /alice/store/orders/
 Disallow: /alice?share=
+Disallow: /alice/chat/
 Disallow: /alice/*?
 Disallow: /alice/*&
 Disallow: /all-supported-params
@@ -557,6 +559,7 @@ Disallow: /adv/news/vystavka-prodazha-na-poiske-poyavilas-tovarnaya-galereya
 Disallow: /alice/term/
 Disallow: /alice/*/term/
 Disallow: /alice?share=
+Disallow: /alice/chat/
 Disallow: /alice/old-browser
 Disallow: /all-supported-params
 Disallow: /articles
@@ -825,6 +828,7 @@ Disallow: /alice/*/term/
 Disallow: /alice/old-browser
 Disallow: /alice/store/orders/
 Disallow: /alice?share=
+Disallow: /alice/chat/
 Disallow: /alice/*?
 Disallow: /alice/*&
 Disallow: /all-supported-params

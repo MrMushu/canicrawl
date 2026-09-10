@@ -1270,6 +1270,10 @@
 - [Your AI gateway has an identity crisis: Fixing the last-mile problem in enterprise AI](https://www.okta.com/blog/ai/securing-ai-agents-identity-architecture)
 - [Founders in Focus: Amir Sarhangi, CEO of Skyfire](https://www.okta.com/blog/company-and-culture/founders-in-focus-amir-sarhangi-ceo-of-skyfire)
 - [Integrating Okta with InCommon multilateral federation](https://www.okta.com/blog/industry-insights/okta-incommon-adapter-architecture)
+- [Attackers Target Hotelier Accounts in Malvertising and Phishing Campaign | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/attackers-target-hotelier-accounts-in-malvertising-and-phishing-)
+- [Founders in Focus: Itai Gafni, CEO of Huskeys](https://www.okta.com/blog/company-and-culture/founders-in-focus-itai-gafni-ceo-of-huskeys)
+- [Signing in without actually signing in | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/signing_in_without_actually_signing_in)
+- [The identity economy strikes back: 2026 threat lessons and 2027 predictions](https://www.okta.com/blog/customers-and-partners/identity-threat-landscape-2026-2027)
 
 ## Newsroom
 
@@ -1494,7 +1498,9 @@
 - [Don't vibe code your auth: Common Room’s playbook for secure AI](https://www.okta.com/newsroom/articles/common-room-playbook-for-secure-ai)
 - [Okta launches new identity innovations to unlock business growth in the agentic era](https://www.okta.com/newsroom/press-releases/auth0-launches-new-identity-innovations)
 - [Strike Graph’s CPO on why you can’t hold AI accountable and what to do about it](https://www.okta.com/newsroom/articles/strike-graph-cpo-on-ai-accountability)
-- [Inside the underground market for AI access](https://www.okta.com/newsroom/articles/Inside-the-underground-market-for-AI-access)
+- [New Okta innovations close governance blind spots and extend zero standing privilege to secure the agentic enterprise](https://www.okta.com/newsroom/press-releases/okta-product-innovations-september-2026)
+- [Inside the underground market for AI access](https://www.okta.com/newsroom/articles/inside-the-underground-market-for-ai-access)
 - [Okta brings first-class identity to AI agents with Agent SSO](https://www.okta.com/newsroom/press-releases/okta-brings-first-class-identity-to-ai-agents-with-agent-sso)
 - [Okta announces second quarter fiscal year 2027 financial results](https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results)
+- [Closing the frontline MFA coverage gap with Okta NFC](https://www.okta.com/newsroom/articles/nfc-authentication-frontline-workers)
 

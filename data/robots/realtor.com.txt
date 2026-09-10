@@ -293,6 +293,7 @@ Disallow: /news/search/
 Disallow: /advice/search/
 Disallow: /guides/search/
 Disallow: /living/search/
+Disallow: /realestateandhomes-detail/*/gallery/
 
 
 User-agent: Yandex

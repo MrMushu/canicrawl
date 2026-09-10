@@ -115,7 +115,6 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [Web measurement isn&#039;t new. It&#039;s just new to most](https://www.singular.net/blog/web-measurement/): Web measurement is suddenly everywhere. It’s on LinkedIn. It’s in product announcements. It’s in your inbox, probably more than once...
 - [Top 100 fintech apps 2026: who&#039;s winning and who&#039;s growing](https://www.singular.net/blog/top-fintech-apps/): Fintech is eating banking. Every traditional bank wants to be a digital bank, and every payments app, wallet app, and...
 - [Why last-touch attribution undervalues your best growth channels (and how Snapchat thinks about it)](https://www.singular.net/blog/last-touch-attribution-undervalues-growth-channels/): If you’ve been in UA long enough, you’ve had some version of this conversation: a channel looks expensive in your...
-- [The first AI-native ad channel just got measurement: Singular supports ChatGPT Ads](https://www.singular.net/blog/chatgpt-ads-measurement-singular/): What’s inside? ChatGPT Ads Manager is here For the first time, marketers can buy ads inside the world’s most-used AI...
 - [Advanced CTV measurement, now live for Universal Ads](https://www.singular.net/blog/advanced-ctv-measurement-universal-ads/): Universal Ads advanced CTV measurement Singular is partnering with Universal Ads to bring their App Promotion product into Advanced CTV...
 - [The biggest mobile attribution challenges and how to solve them](https://www.singular.net/blog/mobile-attribution-challenges/): Most mobile attribution problems don’t announce themselves. They show up quietly: a channel that looks profitable but isn’t. An install...
 - [From creative optimization to creative intelligence: how mobile teams scale ad performance in 2026](https://www.singular.net/blog/creative-intelligence-mobile-ad-performance/): Learn how creative optimization is becoming creative intelligence in 2026, and how leading teams scale performance with AI and experimentation.
@@ -607,6 +606,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [Google’s ready, we’re ready! Singular’s SKAdNetwork solution now supports Google Ads](https://www.singular.net/blog/google-ads-skadnetwork/): Singular is the first MMP to support Google Ads for SKAdNetwork. Learn more!
 - [Major iOS 15 attribution news: Advertiser access to SKAdNetwork postbacks, App Privacy Report, and more from WWDC](https://www.singular.net/blog/major-ios-15-attribution-news-advertiser-access-to-skadnetwork-postbacks-app-privacy-report-and-more-from-wwdc/): iOS 15 and SKAdNetwork: Apple will now give install postbacks to advertisers directly in addition to ad networks. And: App Privacy Reports.
 - [iOS 14.5 aftermath: questions answered on SKAN, MMPs, privacy, and App Tracking Transparency](https://www.singular.net/blog/ios-14-5-aftermath-questions-answered-on-skan-mmps-privacy-and-app-tracking-transparency/): We’ve had a month with iOS 14. 5. Time enough for at least some initial insights from mobile marketers and...
+- [iOS 14.5 by the numbers: adoption, ATT permission, ad spend trends, install volume impact on Android vs iOS](https://www.singular.net/blog/ios-14-5-by-the-numbers-adoption-att-permission-ad-spend-trends-install-volume-impact-on-android-vs-ios/): What is iOS 14.5 doing to ad spend, install volume on iOS vs Android? And what ATT acceptance rates are we seeing globally?
 
 
 ## Case Study
@@ -951,7 +951,6 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 
 
-
 Learn how creative optimization is becoming creative intelligence in 2026, and how leading teams scale performance with AI and experimentation.
 
 
@@ -1008,6 +1007,7 @@ Singular surfaces combined creative data for TikTok's new Upgraded Smart+ campai
 
 
 You can't win in the hyper-competitive mobile market without good mobile app retargeting. Get this guide now to up your game ...
+
 
 
 

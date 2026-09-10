@@ -12,6 +12,7 @@ Disallow: /advertising
 Disallow: /ads/
 Disallow: /adfox/
 Disallow: /an/
+Disallow: /alice/chat/
 Disallow: /all-supported-params
 Disallow: /articles
 
@@ -299,6 +300,7 @@ Disallow: /adddata
 Disallow: /adresa-segmentator
 Disallow: /advanced_engl.html
 Disallow: /advertising
+Disallow: /alice/chat/
 Disallow: /all-supported-params
 Disallow: /articles
 
