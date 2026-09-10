@@ -17,7 +17,7 @@ Parked ideas; promote to ROADMAP.md when chosen. (Historical note: pre-pivot ess
 - Track Cloudflare "pay per crawl" adoption signals
 
 ## Product
-- Compare view: two sites side by side; "category report card" (news vs ecommerce block rates)
+- ~~Compare view: two sites side by side~~ (shipped as /compare/, CC-21, 2026-09-10); "category report card" (news vs ecommerce block rates)
 - Embeddable SVG badges: "✓ agent-friendly — canicrawl" for site owners (free = distribution loop)
 - Watchlists + email alerts (M6, Supabase)
 - Public API changelog + OpenAPI spec

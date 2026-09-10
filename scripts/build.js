@@ -260,6 +260,7 @@ for (const d of DOMAINS) {
     : `<span class="chip unknown">no answer today</span> — the probe was refused or timed out on ${esc(snap.date)}, so we don't know${fs.existsSync(path.join(ROOT, "data/llmstxt", d + ".txt")) ? `. We have read one from this site before — <a href="https://github.com/MrMushu/canicrawl/blob/main/data/llmstxt/${esc(d)}.txt" rel="nofollow">the archived copy</a> is still here` : ""}`
   }</dd>
   <dt>Machine-readable</dt><dd><a href="../../data/sites/${esc(d)}.json">JSON for this site</a></dd>
+  <dt>Compare</dt><dd><a href="../../compare/?a=${esc(d)}">put ${esc(d)} side by side with another site</a></dd>
   ${fs.existsSync(path.join(ROOT, "data/robots", d + ".txt"))
     ? `<dt>Archive</dt><dd><a href="https://github.com/MrMushu/canicrawl/blob/main/data/robots/${esc(d)}.txt" rel="nofollow">archived robots.txt</a> · <a href="https://github.com/MrMushu/canicrawl/commits/main/data/robots/${esc(d)}.txt" rel="nofollow">every historical version</a></dd>`
     : ""}
@@ -274,6 +275,105 @@ for (const d of DOMAINS) {
   }));
   write(`data/sites/${d}.json`, JSON.stringify({ domain: d, category: cat, asOf: snap.date, ...e }, null, 1));
 }
+
+// ---------- compare (ring CC-21) ----------
+// Two sites side by side, rendered client-side from the per-site JSON we already
+// publish. The pair lives in the query string (?a=…&b=…) so a comparison is a
+// shareable URL, and the form is a plain GET so the URL exists without JS.
+// Only domains in the panel are ever fetched; everything is drawn with
+// textContent, so the query string can't inject markup.
+const COMPARE_EXAMPLES = [["newyorker.com", "arstechnica.com"], ["intel.com", "lg.com"], ["nytimes.com", "theguardian.com"], ["reddit.com", "stackoverflow.com"]]
+  .filter(([a, b]) => readableSet.has(a) && readableSet.has(b));
+write("compare/index.html", page({
+  title: "Compare two sites' AI-crawler policies — Canicrawl",
+  desc: `Put any two of ${DOMAINS.length} tracked websites side by side: which of ${BOT_NAMES.length} AI crawlers each one allows, restricts or blocks, and whether it publishes an llms.txt. Shareable URL, updated daily.`,
+  depth: 1, active: "Sites",
+  content: `
+<a class="crumb" href="../">← all sites</a>
+<h1>Compare two sites</h1>
+<p class="sub">Any two of the ${DOMAINS.length} tracked domains, side by side across all ${BOT_NAMES.length} AI crawlers we track. The pair is in the address bar, so a comparison is a link you can share. <span class="updated">Snapshot: ${esc(snap.date)}</span></p>
+<form class="controls" method="get" action="">
+  <input type="search" name="a" id="ca" list="cmp-domains" placeholder="first site" aria-label="First site" autocomplete="off" spellcheck="false">
+  <input type="search" name="b" id="cb" list="cmp-domains" placeholder="second site" aria-label="Second site" autocomplete="off" spellcheck="false">
+  <button type="submit">Compare</button>
+  <label class="toggle"><input type="checkbox" id="onlydiff"> only rows that differ</label>
+</form>
+<datalist id="cmp-domains">${DOMAINS.map((d) => `<option value="${esc(d)}">`).join("")}</datalist>
+<p id="cmp-msg" class="note">${COMPARE_EXAMPLES.length ? `Try ${COMPARE_EXAMPLES.map(([a, b]) => `<a href="?a=${esc(a)}&amp;b=${esc(b)}">${esc(a)} vs ${esc(b)}</a>`).join(" · ")}.` : ""}</p>
+<noscript><p class="note">The comparison table is drawn in your browser from our <a href="../api/">per-site JSON</a>; with JavaScript off, open each site's page instead.</p></noscript>
+<div class="tablewrap" id="cmp-wrap" hidden><table class="compare">
+<thead><tr><th>Bot</th><th>Operator</th><th id="cmp-ha"></th><th id="cmp-hb"></th></tr></thead>
+<tbody id="cmp-body"></tbody></table></div>
+<p class="note">Chips read from each site's robots.txt, exactly as on the site pages: <span class="chip allowed">allowed</span> · <span class="chip restricted">restricted</span> some paths disallowed · <span class="chip blocked">blocked</span> fully disallowed · <span class="chip unknown">unknown</span> we couldn't read the file. An asterisk means the verdict is inherited from the site's default (<code>*</code>) rules. A site we can't read compares as unknown on every row — we never guess. Data: <a href="../api/">per-site JSON</a>, CC BY 4.0.</p>
+<script>
+(function () {
+  var BOTS = ${JSON.stringify(BOT_NAMES.map((b) => [b, BOTS[b].operator])).replace(/</g, "\\u003c")};
+  var OUT = ${JSON.stringify(Object.fromEntries(Object.entries(OUTCOMES).map(([k, v]) => [k, v.label]))).replace(/</g, "\\u003c")};
+  var known = {};
+  Array.prototype.forEach.call(document.querySelectorAll("#cmp-domains option"), function (o) { known[o.value] = 1; });
+  function norm(s) {
+    s = String(s || "").trim().toLowerCase().replace(/^[a-z]+:\\/\\//, "").replace(/[\\/?#].*$/, "");
+    if (!known[s] && s.indexOf("www.") === 0 && known[s.slice(4)]) s = s.slice(4);
+    return s;
+  }
+  var q = new URLSearchParams(location.search);
+  var a = norm(q.get("a")), b = norm(q.get("b"));
+  var ia = document.getElementById("ca"), ib = document.getElementById("cb");
+  var msg = document.getElementById("cmp-msg"), wrap = document.getElementById("cmp-wrap"), body = document.getElementById("cmp-body");
+  var onlydiff = document.getElementById("onlydiff");
+  ia.value = a; ib.value = b;
+  if (!a && !b) return;
+  var bad = [a, b].filter(function (d) { return d && !known[d]; });
+  function say(t) { msg.textContent = t; }
+  if (bad.length) { say(bad.join(" and ") + (bad.length > 1 ? " aren't" : " isn't") + " in our panel of ${DOMAINS.length} domains — pick from the suggestions as you type."); return; }
+  if (!a || !b) { (a ? ib : ia).focus(); say("Now pick a second site."); return; }
+  function get(d) { return fetch("../data/sites/" + encodeURIComponent(d) + ".json").then(function (r) { if (!r.ok) throw new Error(d); return r.json(); }); }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function chip(status, source) {
+    var td = el("td"), c = el("span", "chip " + status, status); td.appendChild(c);
+    if (source === "wildcard" && status !== "allowed") { var s = el("sup", "inh", "*"); s.title = "inherited from the site's default (*) rules"; td.appendChild(s); }
+    return td;
+  }
+  function readable(e) { return e.fetch === "ok" || e.fetch === "no-robots"; }
+  function llms(e) { return e.llmstxt ? ["yes", "published"] : (e.llmsFetch || "ok") === "ok" ? ["no", "none found"] : ["unknown", "no answer today"]; }
+  function row(label, sub, ca, cb, differs) {
+    var tr = el("tr", differs ? "diff" : "same");
+    var th = el("td", "domain"); th.appendChild(label); tr.appendChild(th);
+    tr.appendChild(el("td", "cat", sub)); tr.appendChild(ca); tr.appendChild(cb);
+    body.appendChild(tr);
+  }
+  function link(href, text) { var x = el("a", null, text); x.href = href; return x; }
+  Promise.all([get(a), get(b)]).then(function (r) {
+    var A = r[0], B = r[1];
+    document.title = a + " vs " + b + " — AI-crawler policy compared — Canicrawl";
+    ["cmp-ha", "cmp-hb"].forEach(function (id, i) { var h = document.getElementById(id); h.textContent = ""; h.appendChild(link("../site/" + encodeURIComponent(i ? b : a) + "/", i ? b : a)); });
+    function robots(e) { return e.fetch === "ok" ? "read" : (OUT[e.fetch] || e.fetch); }
+    function txt(t) { return el("td", null, t); }
+    row(document.createTextNode("robots.txt"), "", txt(robots(A)), txt(robots(B)), robots(A) !== robots(B));
+    row(document.createTextNode("Default (*) policy"), "", chip(A.wildcard || "unknown"), chip(B.wildcard || "unknown"), (A.wildcard || "unknown") !== (B.wildcard || "unknown"));
+    var la = llms(A), lb = llms(B);
+    row(document.createTextNode("llms.txt"), "", (function () { var t = el("td"); t.appendChild(el("span", "chip " + la[0], la[1])); return t; })(), (function () { var t = el("td"); t.appendChild(el("span", "chip " + lb[0], lb[1])); return t; })(), la[1] !== lb[1]);
+    var diff = 0, blocksA = 0, blocksB = 0;
+    BOTS.forEach(function (p) {
+      var sa = (A.bots && A.bots[p[0]]) || { status: "unknown" }, sb = (B.bots && B.bots[p[0]]) || { status: "unknown" };
+      var d = sa.status !== sb.status; if (d) diff++;
+      if (sa.status === "blocked") blocksA++; if (sb.status === "blocked") blocksB++;
+      row(link("../bot/" + encodeURIComponent(p[0]) + "/", p[0]), p[1], chip(sa.status, sa.source), chip(sb.status, sb.source), d);
+    });
+    var n = BOTS.length;
+    if (!readable(A) || !readable(B)) {
+      say("We couldn't read " + [A, B].filter(function (e) { return !readable(e); }).map(function (e) { return e.domain; }).join(" or ") + "'s robots.txt on " + A.asOf + ", so its column is unknown on every row and the two can't be compared bot by bot today.");
+    } else {
+      say(a + " blocks " + blocksA + " of the " + n + " AI crawlers we track; " + b + " blocks " + blocksB + ". They disagree on " + diff + " of " + n + (diff === 1 ? " bot" : " bots") + ". Snapshot " + A.asOf + ".");
+    }
+    wrap.hidden = false;
+  }).catch(function () { say("Couldn't load the data for this pair — try again, or open each site's page."); });
+  function applyFilter() { wrap.classList.toggle("onlydiff", onlydiff.checked); }
+  onlydiff.addEventListener("change", applyFilter);
+  applyFilter(); // the browser may restore the checkbox on back/forward
+})();
+</script>`,
+}));
 
 // ---------- bots index + per-bot pages ----------
 const botIndexRows = BOT_NAMES.map((b) => {
@@ -754,6 +854,7 @@ As of ${snap.date}: ${pct(anyBlockers.length, readable.length)}% of readable tra
 - [Latest full snapshot (JSON)](/data/latest.json): every domain × every bot
 - [Per-site JSON](/data/sites/nytimes.com.json): replace the domain as needed
 - [Stats](/stats/): headline rates, per-bot and per-category
+- [Compare two sites](/compare/?a=wired.com&b=arstechnica.com): any two tracked domains side by side; the pair is in the query string
 - [Policy changes (RSS)](/changelog/rss.xml): daily-detected flips
 - [Methodology](/about/): two public policy files per site per day, RFC 9309 parsing, no content scraping
 - [Panel coverage](/health/): which tracked domains we could read, and why the rest could not — the denominator behind every percentage
@@ -784,7 +885,7 @@ ${fullLines.join("\n")}
 // IndexNow key file (key is public by design; submission script posts our URLs to search indexes)
 const INDEXNOW_KEY = "8c2f1e94ab674d0f9c3b57a1de86f240";
 write(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
-const urls = ["", "bots/", "stats/", "health/", "changelog/", "api/", "about/", "badge/", "digest/", "colophon/",
+const urls = ["", "bots/", "stats/", "health/", "changelog/", "api/", "about/", "badge/", "digest/", "colophon/", "compare/",
   ...digests.map((d) => `digest/${d.number}/`),
   ...CATS.map((c) => `category/${c}/`),
   ...DOMAINS.map((d) => `site/${d}/`), ...BOT_NAMES.map((b) => `bot/${b}/`)];
