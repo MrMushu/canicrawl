@@ -645,3 +645,38 @@ Nothing was crawled. `crawl.js` reads `domains.json`, so the twenty new domains 
 **Queue:** CC-21 was the last ungated ring, so two were appended from Pillar 2. **CC-22** — every site page ends with "Tracking began <snapshot date> (index founding)", which has printed *today's* date on 1,020 pages since day 2; replace it with the domain's own changelog entries and its true first-snapshot date. **SS-8** — the same per-entity history for ShortSupply drug pages. IDEAS.md's compare-view line marked shipped.
 
 **Next:** CC-22. Watch nytimes.com's readability, whether hostinger's training/input split shows up in other Content Signals carriers, and the Condé Nast fleet.
+
+## 2026-09-11 — CC-22: every site page now tells its own history, and the date it began
+
+**USER-NEEDED (standing, unchanged):** CC-16 and SS-7 are still the only gated rings. Today's corriere.it edit is a fresh live example of CC-16 (below): it now has `Disallow: /` + `Allow: /nativeadv/` for ChatGPT-User and Claude-Web, which we print as **blocked**. Nothing new escalated.
+
+**Crons:** both green. Canicrawl's scheduled run was created **11:20 UTC** (cron 06:17), ShortSupply's **11:49** (cron 06:47). That makes **five** days in a row of roughly five hours of GitHub queueing. Both committed `data/snapshots/2026-09-11.json` on the right UTC date. Upstream, harmless, noted.
+
+**Notable flips.** Six changelog entries (185 → 191):
+- **corriere.it rebuilt its AI section by hand, and split search from assistants in the opposite direction to the usual one.** It opened OAI-SearchBot, PerplexityBot and (new, untracked) Amzn-SearchBot with explicit `Allow: /` groups, and moved ChatGPT-User and Claude-Web restricted → **blocked** (`Disallow: /` plus an `Allow: /nativeadv/` carve-out, the sponsored-content path, also added to AppleBot). It also added `Content-Signal: search=yes, ai-train=yes, ai-input=no` to its `*` group. That is the **inverse of hostinger.com's 09-10 edit** (`ai-train=no`, `ai-input=yes`): one site refuses training but serves assistants, the other lets search engines cite it but refuses assistants fetching for a user. Its `ai-train=yes` also sits beside explicit `Disallow: /` groups for GPTBot, ClaudeBot and Google-Extended, so the header and the groups disagree. That makes it a new Content Signals carrier (cohort re-count due next digest) and strong digest #4 material, paired with hostinger.
+- **checkpoint.com** (12.5KB) and **ring.com** (7.5KB) published llms.txt files. I read both receipts: real markdown about the company, not anti-bot pages.
+
+**Ring executed: CC-22, per-site policy history.** Every site page used to end with "Tracking began <today's snapshot date> (index founding)", which has been false since day 2 on all 1,020 pages. It now shows:
+- **The true start date:** the earliest committed snapshot containing the domain (1,000 → 2026-08-25, the 20 CC-10 newcomers → 2026-09-08).
+- **The site's own changelog entries, newest first,** rendered with the changelog page's own `entryText()` so wording can't drift between the two pages. The `added` entry is folded into the tracking-began line.
+- **An empty state** for sites with no entries: "No change … has been observed since".
+- **A statement of the differ's real blind spot** on every page. I first drafted "a change appears once we can read it again", then checked `computeDiffs`: robots.txt diffs need both days readable, and CC-18's carry-forward covers the llms axis only. So a robots.txt change made across an unreadable day is **never** listed. The page now says so and links the archived robots.txt history as the complete record.
+
+The change is build-side only: `crawl.js` and the differ are untouched, no snapshot was edited and nothing was crawled.
+
+**Verified, not assumed.**
+- Build **1,086 pages** (unchanged count, which is correct: no new pages).
+- A checker over **all 1,020** site pages:
+  - the tracking-began date equals an independently computed earliest-snapshot date, and agrees with the `added` entries (newcomers 09-08, everyone else 08-25);
+  - **169/169** domain entries in `changelog.json` (160 bot flips, 7 llms.txt, 2 wildcard) render on the right page in newest-first date order, across 22 sites;
+  - every no-history page carries the empty-state sentence;
+  - **0 mismatches** and 0 leaked `${`.
+- `grep -rl "index founding" dist/` is empty.
+- `/changelog/` still renders 191/191 entries after moving the `changelog` load above the site loop.
+- `rebuild-changelog.js` dry run: **0 dropped, 0 gained**.
+- HTTP **200** on /, /site/corriere.it/, /site/xerox.com/ (reads 2026-09-08), /site/roblox.com/, /site/time.com/, /site/1rx.io/, /changelog/, /compare/, /stats/, /health/ and /changelog/rss.xml, via an in-process server (`preview_start` is refused in unattended sessions, so there is still no real-browser render of this or of /compare/).
+- Cost: the build now parses every snapshot, about 0.5s for 18 (full build 4.4s). This grows linearly. Fine for months; revisit if the daily build gets slow.
+
+**Queue:** SS-8 (the same history for ShortSupply drug pages) is now the only ungated ring.
+
+**Next:** SS-8. Watch corriere.it's mixed signals, whether Amzn-SearchBot turns up in more files (discovery radar), nytimes.com's readability, and the Condé Nast fleet.

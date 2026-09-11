@@ -228,6 +228,28 @@ write("index.html", page({
 <script src="app.js"></script>`,
 }));
 
+// ---------- changelog (rendered from data/changelog.json, written by the crawler's differ) ----------
+const changelog = fs.existsSync(path.join(ROOT, "data/changelog.json"))
+  ? JSON.parse(fs.readFileSync(path.join(ROOT, "data/changelog.json"), "utf8"))
+  : { entries: [{ date: snap.date, kind: "founding" }] };
+
+// ---------- per-site policy history (ring CC-22) ----------
+// Each site page lists its own changelog entries, newest first, under the true
+// date tracking began: the earliest committed snapshot that contains the domain
+// (the CC-10 newcomers began 2026-09-08, not at the founding). Until this ring the
+// page printed "Tracking began <today's snapshot date>" on every site, every day.
+const firstSeen = {};
+for (const f of fs.readdirSync(path.join(ROOT, "data/snapshots")).filter((f) => /^\d{4}-\d\d-\d\d\.json$/.test(f)).sort()) {
+  const s = JSON.parse(fs.readFileSync(path.join(ROOT, "data/snapshots", f), "utf8"));
+  for (const d of Object.keys(s.domains)) firstSeen[d] ??= s.date;
+}
+const siteHistory = new Map();
+for (const e of [...changelog.entries].reverse()) {
+  if (!e.domain || e.kind === "added") continue; // "added" is what the tracking-began line already says
+  if (!siteHistory.has(e.domain)) siteHistory.set(e.domain, []);
+  siteHistory.get(e.domain).push(e);
+}
+
 // ---------- per-site pages + per-site JSON ----------
 for (const d of DOMAINS) {
   const e = D[d];
@@ -270,7 +292,11 @@ for (const d of DOMAINS) {
 <thead><tr><th>Bot</th><th>Operator</th><th>Purpose</th><th>Status</th><th>How it's set</th></tr></thead>
 <tbody>${botRows}</tbody></table></div>
 <h2>Policy history</h2>
-<p class="note">Tracking began ${esc(snap.date)} (index founding). Changes to this site's AI policy will appear here as daily crawls accumulate.</p>
+${siteHistory.has(d)
+    ? `<p class="note">Tracking began ${esc(firstSeen[d])}. Every change we have observed to ${esc(d)}'s AI-crawler rules or llms.txt, newest first — the same entries as the <a href="../../changelog/">changelog</a>:</p>
+<ul>${siteHistory.get(d).map((h) => `<li><strong>${esc(h.date)}</strong> — ${esc(entryText(h))}</li>`).join("\n")}</ul>`
+    : `<p class="note">Tracking began ${esc(firstSeen[d])}. No change to ${esc(d)}'s AI-crawler rules or llms.txt has been observed since.</p>`}
+<p class="note">We compare each daily snapshot with the one before it and only report a robots.txt change between two days we could read, so a change made across a day the file was unreadable to us is not listed here.${fs.existsSync(path.join(ROOT, "data/robots", d + ".txt")) ? ` The <a href="https://github.com/MrMushu/canicrawl/commits/main/data/robots/${esc(d)}.txt" rel="nofollow">archived robots.txt history</a> is the complete record.` : ""}</p>
 <script src="../../app.js"></script>`,
   }));
   write(`data/sites/${d}.json`, JSON.stringify({ domain: d, category: cat, asOf: snap.date, ...e }, null, 1));
@@ -631,10 +657,7 @@ ${llmsNoAnswerLive.length ? `<details><summary>No answer today, but the site is 
 <p class="note">Coverage moves day to day — timeouts and refusals are not permanent verdicts. This page is regenerated from the latest snapshot every morning, and the daily snapshots keep the history.</p>`,
 }));
 
-// ---------- changelog (rendered from data/changelog.json, written by the crawler's differ) ----------
-const changelog = fs.existsSync(path.join(ROOT, "data/changelog.json"))
-  ? JSON.parse(fs.readFileSync(path.join(ROOT, "data/changelog.json"), "utf8"))
-  : { entries: [{ date: snap.date, kind: "founding" }] };
+// ---------- changelog page (changelog itself is loaded above the site pages) ----------
 function entryText(e) {
   switch (e.kind) {
     case "founding":
