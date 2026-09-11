@@ -23,7 +23,7 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Transaction 360](https://newrelic.com/platform/transaction-360): Improve incident response with 360 transaction monitoring. Cut through noise with aggregated data to resolve critical issues faster.
 - [New Relic eBPF](https://newrelic.com/platform/ebpf): Deploy and monitor everything easily — applications, Kubernetes, infrastructure, and networks — using New Relic eBPF's no-code instrumentation.
 - [Browser Monitoring](https://newrelic.com/platform/browser-monitoring): Unlock a better user experience with browser monitoring from New Relic.  Part of our fully-integrated, AI-driven DEM solution
-- [Mobile Monitoring](https://newrelic.com/platform/mobile-monitoring): Get seamless performance for all your mobile apps with frontend and backend visibility of data in context.
+- [Mobile Monitoring](https://newrelic.com/platform/mobile-monitoring): Fix crashes and optimize UX across iOS, Android, and React Native with New Relic real-time mobile monitoring. 
 - [Performance Risks and Errors Inbox](https://newrelic.com/platform/errors-inbox): Meet Performance Risks and Errors Inbox, now part of New Relic full-stack observability.
 - [Session Replay](https://newrelic.com/platform/session-replay): Optimize UX with New Relic Session Replay. Watch every tap synced with telemetry to resolve issues faster, boost engagement, and eliminate guesswork.
 - [Streaming Video Intelligence](https://newrelic.com/platform/streaming-video-intelligence): Monitor and optimize video and ad streaming performance with intelligent insights into quality of experience metrics.
@@ -168,6 +168,8 @@ experience on every platform.
 
 ## Blog
 
+- [Sweaters, Sunscreens, and Shared Purpose: What Summer Looked Like Across New Relic](https://newrelic.com/blog/news/sweaters-sunscreens-and-shared-purpose-what-summer-looked-like-across-new-relic): Explore how New Relic's global team built community, gave back, and fostered career growth across regions this summer.
+- [How Standards Get Adopted: OTel and Platform Engineering](https://newrelic.com/blog/observability/how-standards-get-adopted-otel-and-platform-engineering): OpenTelemetry didn't win on vendor neutrality alone — it won by changing how platform teams and developers work together. Here's how.
 - [ Instrumenting an LLM router: what New Relic sees, Prometheus doesn't](https://newrelic.com/blog/ai/instrumenting-llm-router-new-relic-vs-prometheus): An LLM router instrumented end to end on New Relic: native AI Monitoring, custom routing/eval events, and an Autopilot-driven, human-approved fix.
 
 - [Proactive Monitoring Tools: Stop Reacting to Incidents After They Happen](https://newrelic.com/blog/observability/proactive-monitoring-tools): Reactive monitoring catches problems after users are already affected. Explore the top proactive monitoring tools, how they work, and what separates tools that detect anomalies from tools that prevent incidents.
@@ -188,8 +190,6 @@ experience on every platform.
 - [AWS Cloud Cost Management Tools: Comprehensive Buyer’s Guide (2026)](https://newrelic.com/blog/observability/aws-cloud-cost-management-tools): Discover the best AWS cloud cost management tools to gain visibility, reduce waste, and connect spend data with system performance for smarter decisions.
 - [MCP is going stateless: What the new spec means for AI agents](https://newrelic.com/blog/ai/mcp-is-going-stateless): The Model Context Protocol (MCP) is going stateless. Discover how this architecture shift simplifies agent scaling and integrates OpenTelemetry.
 - [Salesforce Observability with New Relic](https://newrelic.com/blog/observability/salesforce-observability-with-new-relic): The New Relic Salesforce Exporter centralizes Salesforce telemetry, performance, and security data into New Relic for proactive, unified observability.
-- [Introducing New Relic eBPF Logs - Now in Public Preview](https://newrelic.com/blog/news/introducing-ebpf-logs-pp): Collect application logs through the New Relic eBPF agent, connect them to APM services, and reduce the need for a separate log forwarder.
-- [Google Cloud Platform Observability enhancements now GA](https://newrelic.com/blog/news/google-cloud-platform-observability-ga): Monitor Google Cloud securely with Workload Identity Federation, dimensional metrics, Terraform deployment, and full-stack context in New Relic.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

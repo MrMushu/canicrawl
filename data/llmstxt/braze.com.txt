@@ -6,65 +6,65 @@
 # Pages
 
 - [Braze Learning Resource](https://www.braze.com/braze-learning-resource)
-- [Home](https://www.braze.com/)
-- [Value of Braze](https://www.braze.com/value-of-braze)
-- [The Braze Platform](https://www.braze.com/product)
-- [Get Started](https://www.braze.com/get-started)
+- [Home](https://www.braze.com/): Power customer-centric interactions between consumers and brands in real-time.
+- [Value of Braze](https://www.braze.com/value-of-braze): All your channels, data, and experiences—all connected on one platform. Brands across the globe are using Braze to drive value and be Absolutely Engaging.™
+- [The Braze Platform](https://www.braze.com/product): Discover how Braze works, the ultimate customer engagement platform. Unify data, personalize journeys, and optimize campaigns with AI-powered insights.
+- [Get Started](https://www.braze.com/get-started): Join brands who are taking customer engagement to the next level. See how Braze can help increase lifetime value, brand loyalty, and simplify your tech stack.
 - [About](https://www.braze.com/company)
-- [Partners](https://www.braze.com/partners)
+- [Partners](https://www.braze.com/partners): Join the Braze Partner Program to drive customer engagement through partnerships. Enhance marketing efforts and business outcomes with tailored solutions.
 
 ## Product
 
 - [Trust at Braze](https://www.braze.com/product/trust)
-- [BrazeAI™ Agents](https://www.braze.com/product/ai-agents)
-- [LINE](https://www.braze.com/product/line)
-- [Product Overview](https://www.braze.com/product/overview)
-- [In-app Messaging Platform (SEO)](https://www.braze.com/product/mobile-app-messaging/in-app-messaging-platform)
-- [BrazeAI™ Decisioning Studio](https://www.braze.com/product/brazeai-decisioning-studio)
-- [Creative Studio](https://www.braze.com/product/creative-studio)
-- [BrazeAI™](https://www.braze.com/product/brazeai)
-- [Omnichannel Marketing Platform (SEO)](https://www.braze.com/product/cross-channel-messaging/omnichannel-marketing-platform)
-- [WhatsApp](https://www.braze.com/product/whatsapp)
-- [Braze Content Cards](https://www.braze.com/product/content-cards)
-- [Braze Email](https://www.braze.com/product/email)
-- [Braze SMS](https://www.braze.com/product/sms)
-- [Feature Flags](https://www.braze.com/product/feature-flags)
-- [Reporting & Analytics](https://www.braze.com/product/reporting-analytics)
-- [Journey Orchestration](https://www.braze.com/product/journey-orchestration)
-- [Mobile App Messaging](https://www.braze.com/product/mobile-app-messaging)
-- [Web Messaging](https://www.braze.com/product/web-messaging)
-- [Media Audience Sync](https://www.braze.com/product/audience-sync)
-- [Cross-channel Messaging](https://www.braze.com/product/cross-channel-messaging)
-- [Braze Data Platform](https://www.braze.com/product/braze-data-platform)
+- [BrazeAI™ Agents](https://www.braze.com/product/ai-agents): Boost efficiency and personalization with BrazeAI™ Agents. Automate tasks, adapt in real time, and deliver meaningful engagement across every channel.
+- [LINE](https://www.braze.com/product/line): Create stronger connections with LINE for your mobile-first customers in Japan and other parts of Asia, like Thailand, Taiwan, and Indonesia.
+- [Product Overview](https://www.braze.com/product/overview): The only customer engagement platform you need. Braze helps marketers produce their best, most engaging experiences to help build customer relationships.
+- [In-app Messaging Platform (SEO)](https://www.braze.com/product/mobile-app-messaging/in-app-messaging-platform): Power your app with an in-app messaging platform that drives engagement, retention, and conversions. Build seamless, personalized experiences with Braze.
+- [BrazeAI™ Decisioning Studio](https://www.braze.com/product/brazeai-decisioning-studio): Deliver 1:1 personalization with BrazeAI Decisioning Studio™. Use all your first-party data to maximize impact and create experiences unique to every customer.
+- [Creative Studio](https://www.braze.com/product/creative-studio): Scale connections with Braze Creative Studio. Use AI-powered tools to build, test, and iterate marketing assets faster. Personalize at scale with BrazeAI™.
+- [BrazeAI™](https://www.braze.com/product/brazeai): Unlock the power of AI with Braze. Create personalized customer journeys and automate marketing with AI-driven insights.
+- [Omnichannel Marketing Platform (SEO)](https://www.braze.com/product/cross-channel-messaging/omnichannel-marketing-platform): Find out how omnichannel marketing platforms support personalized, consistent customer journeys—and why Braze is built for the job.
+- [WhatsApp](https://www.braze.com/product/whatsapp): Unlock the power of WhatsApp marketing automation to create dynamic conversations and maximize your marketing ROI with Braze.
+- [Braze Content Cards](https://www.braze.com/product/content-cards): Enhance customer engagement with Braze Content Cards™. Deliver personalized in-app messages with ease for seamless user experiences.
+- [Braze Email](https://www.braze.com/product/email): Deliver personalized, dynamic emails that drive revenue. Enhance your marketing campaigns with Braze email marketing platform.
+- [Braze SMS](https://www.braze.com/product/sms): Enhance SMS customer engagement with Braze. Integrate SMS into your strategy and reach users with 98% open rates via impactful text message campaigns.
+- [Feature Flags](https://www.braze.com/product/feature-flags): Leverage Braze Feature Flags for feature management, A/B testing, and personalized customer engagement. Safely roll out new features with targeted control.
+- [Reporting & Analytics](https://www.braze.com/product/reporting-analytics): Uncover insights, analyze performance, and find winning strategies across the customer journey. Contact us and learn about Braze Reporting and Analytics today!
+- [Journey Orchestration](https://www.braze.com/product/journey-orchestration): Orchestrate memorable customer journeys that deliver the cohesive, responsive, and personalized experiences your customers crave with Braze Canvas.
+- [Mobile App Messaging](https://www.braze.com/product/mobile-app-messaging): Coordinate personalized, contextually relevant mobile messages from a centralized mobile app marketing platform. Discover what Braze can do for you.
+- [Web Messaging](https://www.braze.com/product/web-messaging): Drive engagement on your website by tailoring web messaging to visitor’s preferences, attributes, and behaviors. Convert them to customers with Braze today!
+- [Media Audience Sync](https://www.braze.com/product/audience-sync): Leverage first-party data with Braze Audience Sync to enhance ad targeting, reduce spend waste, and boost conversions across channels.
+- [Cross-channel Messaging](https://www.braze.com/product/cross-channel-messaging): Consolidate your messaging mix with a powerful cross channel marketing platform. Meet customers where they are through responsive, cross-channel experiences with Braze.
+- [Braze Data Platform](https://www.braze.com/product/braze-data-platform): Harness the Braze Data Platform to manage and integrate first-party data. Enable data-driven marketing and customer engagement strategies with AI insights.
 
 ## Industries
 
-- [Gaming & Gambling](https://www.braze.com/solutions/gaming)
-- [Restaurants](https://www.braze.com/solutions/qsr)
-- [Luxury](https://www.braze.com/solutions/luxury)
+- [Gaming & Gambling](https://www.braze.com/solutions/gaming): Boost player engagement and enhance the gaming experience with Braze, a leading customer engagement tool for personalized messaging and real-time interactions.
+- [Restaurants](https://www.braze.com/solutions/qsr): Discover Braze solutions for quick-service restaurants (QSR). Build loyalty programs, drive engagement, and increase retention with personalized messaging.
+- [Luxury](https://www.braze.com/solutions/luxury): Braze empowers luxury brands to engage customers with messaging across channels. Boost retention and drive purchases with AI-powered tools.
 - [Sports](https://www.braze.com/solutions/sports)
-- [Media & Entertainment](https://www.braze.com/solutions/media-entertainment)
-- [Financial Services](https://www.braze.com/solutions/financial-services)
-- [Travel & Hospitality](https://www.braze.com/solutions/travel-hospitality)
-- [On-Demand](https://www.braze.com/solutions/on-demand)
+- [Media & Entertainment](https://www.braze.com/solutions/media-entertainment): Braze empowers media and entertainment brands to engage their audiences. Boost customer retention and drive growth with personalized marketing for media.
+- [Financial Services](https://www.braze.com/solutions/financial-services): Empower your financial services brand with Braze. Deliver personalized customer experiences and retention strategies for banks and financial institutions.
+- [Travel & Hospitality](https://www.braze.com/solutions/travel-hospitality): Drive customer engagement in travel and hospitality with Braze. Personalize guest experiences and retention strategies to boost loyalty and increase bookings.
+- [On-Demand](https://www.braze.com/solutions/on-demand): Increase customer retention and personalize experiences for on-demand services with The Braze platform's data-driven marketing and real-time customer insights.
 
 ## Use Cases
 
-- [Boost Productivity](https://www.braze.com/solutions/boost-productivity)
-- [Optimize Onboarding](https://www.braze.com/solutions/optimize-onboarding)
-- [Increase Engagement](https://www.braze.com/solutions/increase-engagement)
-- [Reduce Churn](https://www.braze.com/solutions/reduce-churn)
-- [Improve Acquisition](https://www.braze.com/solutions/improve-acquisition)
+- [Boost Productivity](https://www.braze.com/solutions/boost-productivity): Boost marketing productivity with Braze. Streamline campaign management, drive engagement, and increase output with efficient marketing automation tools.
+- [Optimize Onboarding](https://www.braze.com/solutions/optimize-onboarding): Improve your onboarding process with Braze. Discover onboarding flows and user-friendly experiences designed to improve customer activation and retention.
+- [Increase Engagement](https://www.braze.com/solutions/increase-engagement): Increase customer engagement and retention with the Braze platform's cross-channel marketing tools. Create personalized interactions to drive loyalty.
+- [Reduce Churn](https://www.braze.com/solutions/reduce-churn): Minimize customer churn with tailored retention strategies. Use cross-channel messaging and personalized campaigns to engage users and prevent churn.
+- [Improve Acquisition](https://www.braze.com/solutions/improve-acquisition): Leverage the Braze platform's AI-powered tools to deliver tailored customer experiences. Use AI to enhance customer engagement and drive real-time interactions.
 
 ## Personas
 
-- [Braze For Startups](https://www.braze.com/braze-for-startups)
+- [Braze For Startups](https://www.braze.com/braze-for-startups): Accelerate your startup's growth with Braze. Build customer relationships with scalable cross-channel messaging, fast integration, and startup-friendly pricing.
 
 ## Blog Posts
 
-- [Braze Learning Supports Laid-Off Community With Free Certifications](https://www.braze.com/resources/articles/braze-learning-supports-laid-off-community-with-free-certifications)
-- [Braze vs Salesforce: Which customer engagement platform is right for your business?](https://www.braze.com/resources/articles/braze-vs-salesforce-comparison)
-- [Braze vs Adobe: Which customer engagement platform is right for your brand?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison)
+- [Braze Learning Supports Laid-Off Community With Free Certifications](https://www.braze.com/resources/articles/braze-learning-supports-laid-off-community-with-free-certifications): Braze Learning offered free certification exams to tech workers impacted by layoffs. See how the program worked and current certification options.
+- [Braze vs Salesforce: Which customer engagement platform is right for your business?](https://www.braze.com/resources/articles/braze-vs-salesforce-comparison): Compare Braze vs Salesforce on real-time personalization, mobile engagement, journey orchestration, and TCO to choose the right fit.
+- [Braze vs Adobe: Which customer engagement platform is right for your brand?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison): Compare Braze vs Adobe for customer engagement—mobile-first messaging, real-time personalization, integrations, ease of use, and time-to-value.
 
 ## Frequently Asked Questions
 

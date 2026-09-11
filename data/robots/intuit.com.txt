@@ -54,6 +54,7 @@ Disallow: /ca/company/press-room/press-releases/
 Disallow: /fr-ca/company/press-room/press-releases/
 Disallow: /commerce/
 Disallow: /search/?search_term=*
+Disallow: /ai/labs
 
 Sitemap: https://www.intuit.com/sitemap.xml
 Sitemap: https://www.intuit.com/ca/sitemap.xml

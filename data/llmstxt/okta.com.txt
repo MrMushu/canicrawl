@@ -412,7 +412,6 @@
 - [Multi-Factor Authentication](https://www.okta.com/products/multi-factor-authentication)
 - [Highly Regulated Identity](https://www.okta.com/products/regulated-identity)
 - [API Access Management](https://www.okta.com/products/api-access-management)
-- [B2B Integration](https://www.okta.com/products/b2b-integration)
 - [Device Access](https://www.okta.com/products/device-access)
 - [Identity Governance](https://www.okta.com/products/identity-governance)
 - [Identity Threat Protection](https://www.okta.com/products/identity-threat-protection)
@@ -1274,6 +1273,8 @@
 - [Founders in Focus: Itai Gafni, CEO of Huskeys](https://www.okta.com/blog/company-and-culture/founders-in-focus-itai-gafni-ceo-of-huskeys)
 - [Signing in without actually signing in | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/signing_in_without_actually_signing_in)
 - [The identity economy strikes back: 2026 threat lessons and 2027 predictions](https://www.okta.com/blog/customers-and-partners/identity-threat-landscape-2026-2027)
+- [Okta Privileged Access and GCP Workload Identities](https://www.okta.com/blog/identity-security/okta-privileged-access-gcp-workloads)
+- [Now available: On-demand SaaS integrations from Okta](https://www.okta.com/blog/product-innovation/okta-on-demand-saas-integrations--connector-deployment-guide)
 
 ## Newsroom
 

@@ -11,6 +11,7 @@ User-agent: Google-CloudVertexBot
 Disallow: /
 User-agent: AppleBot
 Disallow: /
+Allow: /nativeadv/
 User-agent: Google-Extended
 Disallow: /
 User-agent: Applebot-Extended
@@ -19,8 +20,20 @@ User-agent: ClaudeBot
 Disallow: /
 User-agent: Amazonbot
 Disallow: /
+User-agent: Amzn-SearchBot
+Allow: /
 User-agent: Meta-ExternalAgent
 Disallow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Disallow: /
+Allow: /nativeadv/
+User-agent: Claude-Web
+Disallow: /
+Allow: /nativeadv/
+User-agent: PerplexityBot
+Allow: /
 User-agent: PetalBot
 Disallow: /
 User-agent: Yandex
@@ -44,6 +57,8 @@ Disallow: /
 # Fine Bot Exclusion Protocol
 
 User-agent: *
+Allow: /
+Content-Signal: search=yes, ai-train=yes, ai-input=no
 Disallow: *{{data.c.link_offerId}}
 
 

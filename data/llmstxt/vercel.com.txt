@@ -18,6 +18,12 @@ Use this index to find machine-readable documentation and platform resources. Fo
 - For REST API calls, read the OpenAPI description and authentication documentation before choosing an operation. Ask for approval before changing account resources.
 - For Vercel MCP, use an OAuth-capable MCP client and let the user authorize access to their Vercel account.
 
+## Agent setup
+
+- [Getting started with Vercel](https://vercel.com/docs/getting-started-with-vercel.md?from=llms-txt): Install the Vercel CLI, add the Vercel plugin or Vercel Skills, and deploy your first project.
+- [Vercel plugin](https://vercel.com/docs/agent-resources/vercel-plugin.md?from=llms-txt): Install with `npx plugins add vercel/vercel-plugin` for Vercel skills, commands, and specialist agents.
+- [Vercel Skills](https://vercel.com/docs/agent-resources/skills.md?from=llms-txt): Browse and install individual skills for coding agents that do not support the plugin.
+
 ## Documentation
 
 - [Vercel product documentation](https://vercel.com/docs/products.md): Curated product index with links to documentation.

@@ -5,7 +5,7 @@ Disallow: /early-stage/*
 Disallow: /blogtest
 Disallow: /beta/*
 Disallow: /roi/*
-Disallow: /drlp-v2/*
+Disallow: /legacy-drlp/*
 Disallow: /pricing-ab-sept-2026
 Disallow: /pricing-ab-sept-2026/*
 Content-Signal: ai-train=yes, ai-input=yes, search=yes

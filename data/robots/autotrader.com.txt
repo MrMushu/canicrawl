@@ -269,21 +269,42 @@ Disallow: /sell-my-car/ad/upload-photos.xhtml
 Disallow: /comment-summary
 
 User-agent: GPTBot
-Allow: /cars-for-sale/inventory/
-Disallow: /pep
+Disallow: /*.js
+Disallow: /*.css
+Disallow: /*.json
+Disallow: /api/
 Disallow: */pep
+Disallow: /pep
+Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
+Allow: /cars-for-sale/inventory/
 Disallow: /wp-json/inventory/
 
 User-agent: OAI-SearchBot
-Allow: /cars-for-sale/inventory/
-Disallow: /pep
+Disallow: /*.js
+Disallow: /*.css
+Disallow: /*.json
+Disallow: /api/
 Disallow: */pep
+Disallow: /pep
+Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
+Allow: /cars-for-sale/inventory/
 Disallow: /wp-json/inventory/
 
 User-agent: ChatGPT-User
-Allow: /cars-for-sale/inventory/
-Disallow: /pep
+Disallow: /*.js
+Disallow: /*.css
+Disallow: /*.json
+Disallow: /api/
 Disallow: */pep
+Disallow: /pep
+Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
+Allow: /cars-for-sale/inventory/
 Disallow: /wp-json/inventory/
 
 User-agent: Amazonbot
@@ -296,6 +317,8 @@ Disallow: /*.json
 Disallow: /api/
 Disallow: /pep
 Disallow: */pep
+Disallow: /pixall
+Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: Claude-User
@@ -303,9 +326,18 @@ Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
 Disallow: /api/
+Disallow: /pixall
+Disallow: */pixall
 Disallow: /pep
 Disallow: */pep
 Disallow: /wp-json/inventory/
+
+User-agent: ClaudeBot
+Disallow: */pep
+Disallow: /pep
+Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
 
 User-agent: Claude-SearchBot
 Disallow: /*.js
@@ -314,6 +346,8 @@ Disallow: /*.json
 Disallow: /api/
 Disallow: /pep
 Disallow: */pep
+Disallow: /pixall
+Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: DuckAssistBot
@@ -324,6 +358,8 @@ Disallow: /api/
 Disallow: /rest/
 Disallow: */pep
 Disallow: /pep
+Disallow: /pixall
+Disallow: */pixall
 Disallow: /kbbreport/
 
 User-agent: PerplexityBot
@@ -333,6 +369,8 @@ Disallow: /*.json
 Disallow: /api/
 Disallow: /pep
 Disallow: */pep
+Disallow: /pixall
+Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: Perplexity-User
@@ -342,6 +380,8 @@ Disallow: /*.json
 Disallow: /api/
 Disallow: /pep
 Disallow: */pep
+Disallow: /pixall
+Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: GrokBot
@@ -351,10 +391,16 @@ Disallow: /*.json
 Disallow: /api/
 Disallow: /pep
 Disallow: */pep
+Disallow: /pixall
+Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: AhrefsBot
 Allow: /
+Disallow: /pep
+Disallow: */pep
+Disallow: /pixall
+Disallow: */pixall
 
 user-agent: Google-InspectionTool
 allow: *

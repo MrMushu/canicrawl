@@ -18,46 +18,304 @@ Disallow: /learn-noperf/
 Disallow: /specializations-noperf/
 Disallow: /professional-certificates-noperf/
 Disallow: /business/xmlrpc.php
-Disallow: /business/wp-content/uploads/ 
+Disallow: /business/wp-content/uploads/&#x20;
 Disallow: /business/search
 Disallow: /business/teams/search
 Disallow: /organizations/
 Disallow: /programs/
-Sitemap: https://www.coursera.org/sitemap.xml
 
+# Block all /courses pagination
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+
+# Allow pagination pages 1-5 when page is first
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+
+# Allow pagination pages 1-5 when page appears after another parameter
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
+Sitemap: https://www.coursera.org/sitemap.xml
 
 
 User-agent: CCBot
 Disallow: /lecture/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
 
 User-agent: GPTBot
 Disallow: /lecture/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
 
 User-agent: ClaudeBot
 Disallow: /lecture/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
 
 User-agent: MistralAI-User
 Disallow: /lecture/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
 
 User-agent: Google-Extended
 Disallow: /lecture/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
 
 User-agent: PerplexityBot
 Disallow: /lecture/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
 
 User-agent: LinkedInBot
 Allow: /account/accomplishments/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
 
 User-agent: Twitterbot
 Allow: /account/accomplishments/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
 
 User-agent: meta-externalagent
 Disallow: /
 
+
 User-agent: OAI-SearchBot
 Allow: /api/utilities/v1/imageproxy
 Disallow: /api/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&
+
 
 User-agent: ChatGPT-User
 Allow: /api/utilities/v1/imageproxy
 Disallow: /api/
+Disallow: /courses?page=
+Disallow: /courses?*&page=
+Allow: /courses?page=1$
+Allow: /courses?page=1&
+Allow: /courses?page=2$
+Allow: /courses?page=2&
+Allow: /courses?page=3$
+Allow: /courses?page=3&
+Allow: /courses?page=4$
+Allow: /courses?page=4&
+Allow: /courses?page=5$
+Allow: /courses?page=5&
+Allow: /courses?*&page=1$
+Allow: /courses?*&page=1&
+Allow: /courses?*&page=2$
+Allow: /courses?*&page=2&
+Allow: /courses?*&page=3$
+Allow: /courses?*&page=3&
+Allow: /courses?*&page=4$
+Allow: /courses?*&page=4&
+Allow: /courses?*&page=5$
+Allow: /courses?*&page=5&

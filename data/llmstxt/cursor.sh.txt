@@ -297,6 +297,13 @@
 - https://cursor.com/docs/account/teams/ai-code-tracking-api.md#get-ai-code-change-metrics-json-paginated
 - https://cursor.com/docs/account/teams/ai-code-tracking-api.md#download-ai-code-change-metrics-csv-streaming
 
+## Origin API
+
+- https://cursor.com/docs/api/origin/llms-full.txt
+- https://cursor.com/docs/api/origin/llms.txt
+- https://cursor.com/docs/api/origin/openapi.yaml
+- https://cursor.com/docs/api/origin/changelog
+
 # Help Center
 
 ## Getting started
@@ -407,6 +414,7 @@
 - https://cursor.com/help/grok-bot/mobile-purchase.md
 - https://cursor.com/help/grok-bot/delete-account.md
 - https://cursor.com/help/grok-bot/connect-plugins.md
+- https://cursor.com/help/grok-bot/routines.md
 - https://cursor.com/help/grok-bot/computer-recovery.md
 - https://cursor.com/help/grok-bot/secrets.md
 - https://cursor.com/help/grok-bot/get-help.md

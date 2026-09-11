@@ -44,6 +44,15 @@ Disallow: /api/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
+
+User-agent: ClaudeBot
+Disallow: */pep
+Disallow: /pep
+Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
 
 User-agent: Claude-User
 Disallow: /*.js
@@ -53,6 +62,8 @@ Disallow: /api/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
 
 User-agent: Claude-SearchBot
 Disallow: /*.js
@@ -62,6 +73,8 @@ Disallow: /api/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
 
 User-agent: DuckAssistBot
 Disallow: /*.js
@@ -72,6 +85,8 @@ Disallow: /rest/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
 
 User-agent: PerplexityBot
 Disallow: /*.js
@@ -81,6 +96,8 @@ Disallow: /api/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
 
 User-agent: Perplexity-User
 Disallow: /*.js
@@ -90,6 +107,8 @@ Disallow: /api/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
 
 User-agent: GrokBot
 Disallow: /*.js
@@ -99,6 +118,52 @@ Disallow: /api/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
+
+User-agent: OAI-SearchBot
+Disallow: /*.js
+Disallow: /*.css
+Disallow: /*.json
+Disallow: /api/
+Disallow: */pep
+Disallow: /pep
+Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
+
+User-agent: OAI-AdsBot
+Disallow: /*.js
+Disallow: /*.css
+Disallow: /*.json
+Disallow: /api/
+Disallow: */pep
+Disallow: /pep
+Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
+
+User-agent: GPTBot
+Disallow: /*.js
+Disallow: /*.css
+Disallow: /*.json
+Disallow: /api/
+Disallow: */pep
+Disallow: /pep
+Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
+
+User-agent: ChatGPT-User
+Disallow: /*.js
+Disallow: /*.css
+Disallow: /*.json
+Disallow: /api/
+Disallow: */pep
+Disallow: /pep
+Disallow: /kbbreport/
+Disallow: /pixall
+Disallow: */pixall
 
 User-agent: Google-InspectionTool
 Allow: *

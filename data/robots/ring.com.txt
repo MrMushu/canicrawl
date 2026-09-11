@@ -4,6 +4,7 @@
 # --- AI Crawlers ---
 # Explicitly allowed. These bots don't spider query param variations,
 # so filter/utm blocks are unnecessary. Only private paths are restricted.
+# Ring Help support search is also excluded below.
 
 User-agent: GPTBot
 User-agent: ChatGPT-User
@@ -22,6 +23,16 @@ Disallow: /users
 Disallow: /user-id/
 Disallow: /signin
 Disallow: /share
+# Disable crawler access to Ring Help support search. Individual support article
+# pages remain crawlable.
+Disallow: /support/articles$
+Disallow: /support/articles?*
+Disallow: /*/support/articles$
+Disallow: /*/support/articles?*
+Disallow: /support/_next/data/*/articles.json$
+Disallow: /support/_next/data/*/articles.json?*
+Disallow: /*/support/_next/data/*/articles.json$
+Disallow: /*/support/_next/data/*/articles.json?*
 
 # --- Standard crawlers ---
 # Everything is allowed unless explicitly blocked below.
@@ -40,5 +51,15 @@ Disallow: /users
 Disallow: /?utm*
 Disallow: /419/es
 Disallow: /signin/callback
+# Disable crawler access to Ring Help support search. Individual support article
+# pages remain crawlable.
+Disallow: /support/articles$
+Disallow: /support/articles?*
+Disallow: /*/support/articles$
+Disallow: /*/support/articles?*
+Disallow: /support/_next/data/*/articles.json$
+Disallow: /support/_next/data/*/articles.json?*
+Disallow: /*/support/_next/data/*/articles.json$
+Disallow: /*/support/_next/data/*/articles.json?*
 
 Sitemap: https://ring.com/sitemap.xml

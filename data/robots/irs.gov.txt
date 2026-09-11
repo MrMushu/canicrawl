@@ -88,6 +88,17 @@ Disallow: /efile-index-taxpayer-search
 Disallow: /*/efile-index-taxpayer-search
 Disallow: /charities-non-profits/tax-exempt-organization-search
 Disallow: /*/charities-non-profits/tax-exempt-organization-search
+Disallow: /*/downloads/
+Disallow: /*/written-determinations
+Disallow: /*/applicable-federal-rates
+Disallow: /*/actions-on-decisions
+Disallow: /*/information-letters
+Disallow: /*/chief-counsel-notices
+Disallow: /*/draft-tax-forms
+Disallow: /*/forms-instructions-and-publications
+Disallow: /*/prior-year-forms-and-instructions
+Disallow: /*/internal-revenue-bulletins
+Disallow: /*/instructions-and-publications-xml-source-files
 # Paths (no clean URLs)
 Disallow: /index.php/zh-hans/node/
 Disallow: /index.php/zh-hant/node/

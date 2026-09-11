@@ -1,4 +1,4 @@
-# robots.txt v 7.2026.2
+# robots.txt v 9.2026.1
 # MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 # MMMMMMMMMMMMMMMMMMWWWMMMWKdooodxkOKNWMMMMMMMMMMMMMMMMMM
 # MMMMMMMMMMMMMMWKxl:oXMMMK;        .';lxKWMMMMMMMMMMMMMM
@@ -139,6 +139,7 @@ Disallow: /hpols_catalog/
 # Disallow: /*STOREID= 
 
 Allow: /*rating=5-9733-9733-9733-9733-9733- 
+
 Allow: /*rating=4-9733-9733-9733-9733-9734-Up,5-9733-9733-9733-9733-9733- 
 
  
@@ -218,6 +219,7 @@ Disallow: /pe-es/shop/*?*&*&*&*
 Disallow: /sa-ar/shop/*?*&*&*&* 
 
 Disallow: /sa-en/shop/*?*&*&*&* 
+
 Disallow: /cl-es/shop/hpols_catalog/product/upsell/ 
 
 Disallow: /mx-es/shop/hpols_catalog/product/upsell/ 
@@ -502,6 +504,10 @@ User-agent: ChatGPT-User
 
 Allow: / 
 
+User-agent: OAI-AdsBot 
+
+Allow: / 
+
 User-agent: ClaudeBot 
 
 Allow: / 
@@ -592,6 +598,7 @@ Sitemap:  https://www.hp.com/it-it/shop/media/facets_url/sitemap-it-it-legacy.tx
 Sitemap:  https://www.hp.com/sitemap-pl-pl-mag.xml  
 
 Sitemap:  https://www.hp.com/sitemap-nl-nl-mag.xml  
+
 Sitemap:  https://www.hp.com/nl-nl/shop/media/sitemap-nl-nl.xml 
 
 Sitemap:  https://www.hp.com/nl-nl/shop/media/sitemap-nl-nl-4-2.xml 
@@ -643,6 +650,7 @@ Sitemap:  https://www.hp.com/sitemap-gb-app-tech-takes-home.xml
 # CA Sitemaps 
 
 Sitemap:  https://www.hp.com/sitemap-ca-en-mag.xml 
+
 Sitemap:  https://www.hp.com/ca-en/shop/media/facets_url/sitemap-ca-en-legacy.txt 
 
 Sitemap:  https://www.hp.com/ca-en/shop/media/facets_url/facets_url_ca_en.txt 
@@ -666,11 +674,11 @@ Sitemap:  https://www.hp.com/sitemap-my-en-mag.xml
 
 Sitemap:  https://www.hp.com/sitemap-in-en-mag.xml 
 
-Sitemap:  https://www.hp.com/in-en/shop/media/facets_url/products_url_in_en.txt
+Sitemap:  https://www.hp.com/in-en/shop/media/facets_url/products_url_in_en.txt 
 
-Sitemap:  https://www.hp.com/in-en/shop/media/facets_url/facets_url_in_en.txt
+Sitemap:  https://www.hp.com/in-en/shop/media/facets_url/facets_url_in_en.txt 
 
-Sitemap:  https://www.hp.com/in-en/shop/media/facets_url/ink_url_in_en.txt
+Sitemap:  https://www.hp.com/in-en/shop/media/facets_url/ink_url_in_en.txt 
 
 Sitemap:  https://www.hp.com/sitemap-th-th-mag.xml 
 
@@ -739,3 +747,5 @@ Sitemap: https://www.hp.com/sitemap-index-store-global-hreflang-pdp.xml
 Sitemap: https://www.hp.com/sitemap-index-store-global-hreflang-tech-takes.xml 
 
 Sitemap: https://www.hp.com/sitemap-index-store-us-en.xml 
+
+ 

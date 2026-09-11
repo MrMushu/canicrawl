@@ -228,6 +228,9 @@ Allow: /help/
 Allow: /*/help/
 Allow: /design-school/
 Allow: /*/design-school/
+Allow: /ai-connector/
+Allow: /*/ai-connector/
+Allow: /developers/
 
 User-agent: Bytespider
 User-agent: meta-externalagent
