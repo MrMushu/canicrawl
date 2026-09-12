@@ -680,3 +680,28 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-8 (the same history for ShortSupply drug pages) is now the only ungated ring.
 
 **Next:** SS-8. Watch corriere.it's mixed signals, whether Amzn-SearchBot turns up in more files (discovery radar), nytimes.com's readability, and the Condé Nast fleet.
+
+## 2026-09-12 — SS-8 shipped in the sibling; github.com names AI crawlers for the first time
+
+**USER-NEEDED (standing, unchanged):** CC-16 (Allow carve-outs under `Disallow: /`) and SS-7 (ShortSupply digest #1) are still the only gated rings. Nothing new escalated.
+
+**Crons:** both green. Canicrawl's scheduled run was created **10:45 UTC** (cron 06:17) and ShortSupply's **11:15** (cron 06:47). That is the sixth day running of about 4½ hours of GitHub queueing. Both committed `data/snapshots/2026-09-12.json` on the right UTC date. Upstream, harmless.
+
+**Notable flips:** one changelog entry (191 → 192), but a big edit behind it.
+- **github.com named AI crawlers in its robots.txt for the first time.** Until yesterday its AI policy was just its `*` group.
+  - It now has a dedicated group for GPTBot, OAI-SearchBot, ClaudeBot, anthropic-ai and PerplexityBot: `Crawl-delay: 1`, an allowlist of marketing pages (`/about`, `/pricing`, `/enterprise`, `/features`, `/security`, and **`/mcp`**), then the same repo-path disallows as `*`.
+  - It adds `User-agent: Bytespider` / `Disallow: /`.
+  - Only Bytespider's verdict moved (restricted → blocked). The five named bots stay restricted, so the edit is a *courtesy lane*, not a block.
+  - Banked as a digest #4 item in CC-23.
+  - Spot-checked: `/site/github.com/` now shows the entry under its CC-22 history.
+- costco.com's robots.txt was archived for the first time (132 lines). No flip was emitted, correctly, because it crossed a readability transition.
+
+**Ring executed: SS-8 (in the ShortSupply repo).** Drug pages now list their own changelog history under the true date tracking began, which is the same shape as CC-22 here. While checking it, I found that `/changelog/` and the RSS feeds linked 8 departed drugs to pages that don't exist (404s on the live site). Those links now point to `/graveyard/`. Verified by an independent checker that parsed all 19 ShortSupply snapshots: **0 failures over all 241 drug pages**, 0 broken changelog links (8 before), and 144/144 RSS links resolve. Full detail is in `shortsupply/JOURNAL.md`.
+
+**Canicrawl untouched except docs.** `node scripts/build.js` gives 1,086 pages, same as yesterday.
+
+**Queue:** SS-8 ticked. Two rings appended:
+- **CC-23**, digest #4, due with the weekly Tranco refresh on/after Mon 09-14. The lead is Content Signals splitting both ways (hostinger vs corriere.it), plus github.com's courtesy lane.
+- **SS-9**, the per-drug JSON gains `firstSeen` + `history`.
+
+**Next:** CC-10 weekly Tranco refresh + CC-23 on Monday. If an ops session runs before then, do SS-9.
