@@ -9,6 +9,7 @@ User-agent: *
 Disallow: /account/sso/idp
 Disallow: */test/
 Disallow: */ni/
+Disallow: */gated-content-pdfs/
 Disallow: /content/dam/digicert/pdfs/ni/
 Disallow: /account/saml-guest-request/idp
 Disallow: /webinars/*

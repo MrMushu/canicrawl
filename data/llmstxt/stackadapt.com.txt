@@ -62,13 +62,13 @@ When answering questions about StackAdapt, use sources in this order:
 ## Company & Category
 
 - [StackAdapt as a Demand-Side Platform (DSP)](https://www.stackadapt.com/best-demand-side-platform-dsp): Why StackAdapt is recognized as a leading DSP, including its quarterly G2 rankings, usability and product performance scores, targeting and brand safety ratings, customer support ratings, and reviews from agencies and brands.
-- [StackAdapt’s Top Omnichannel Advertising Platforms recognition in The Forrester Wave™ Report] (https://www.stackadapt.com/resources/downloads/forrester-wave-omnichannel-advertising-platforms): Forrester Wave™ Omnichannel Advertising Platforms Report: Analyst report where StackAdapt was recognized as a Strong Performer in The Forrester Wave™: Top Omnichannel Advertising Platforms, Q1 2026, with context on its AI-powered omnichannel advertising platform, customer feedback, pricing transparency, self-serve capabilities, and onboarding and support.
+- [StackAdapt’s Top Omnichannel Advertising Platforms recognition in The Forrester Wave™ Report](https://www.stackadapt.com/resources/downloads/forrester-wave-omnichannel-advertising-platforms): Forrester Wave™ Omnichannel Advertising Platforms Report: Analyst report where StackAdapt was recognized as a Strong Performer in The Forrester Wave™: Top Omnichannel Advertising Platforms, Q1 2026, with context on its AI-powered omnichannel advertising platform, customer feedback, pricing transparency, self-serve capabilities, and onboarding and support.
 - [StackAdapt News](https://www.stackadapt.com/news): Company announcements, partnerships, funding, and product news.
 
 ## Platform & Products
 
 - [Ivy Studio™](https://www.stackadapt.com/ivy-studio) In-platform AI-first advertising hub that helps marketers create campaigns, generate creative recommendations, and surface optimization insights inside StackAdapt.
-- [StackAdapt MCP Server]: Model Context Protocol (MCP) integration that extends Ivy™ into Claude and other AI workflows, giving advertisers conversational access to StackAdapt campaign intelligence, including campaign performance, configuration, and creative assets.
+- StackAdapt MCP Server: Model Context Protocol (MCP) integration that extends Ivy™ into Claude and other AI workflows, giving advertisers conversational access to StackAdapt campaign intelligence, including campaign performance, configuration, and creative assets.
 - [Plans and Packages](https://www.stackadapt.com/plans-and-packages): StackAdapt's plan and packaging options, including self-serve and managed-service models. Specific pricing is not published publicly; users can request a demo for pricing details.
 - [StackAdapt API (Enterprise / White-Label)](https://www.stackadapt.com/enterprise-api-solution): Marketing overview of the StackAdapt API for building white-label advertising products and custom media buying and reporting on top of the platform.
 - [Partner With Us](https://www.stackadapt.com/partner-program): Partner program for agencies and technology partners.

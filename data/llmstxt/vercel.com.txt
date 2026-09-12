@@ -20,6 +20,7 @@ Use this index to find machine-readable documentation and platform resources. Fo
 
 ## Agent setup
 
+- [Set up Vercel for your coding agent](https://vercel.com/get-started.md): Follow the agent playbook to install the CLI, add Vercel guidance, and connect Vercel MCP.
 - [Getting started with Vercel](https://vercel.com/docs/getting-started-with-vercel.md?from=llms-txt): Install the Vercel CLI, add the Vercel plugin or Vercel Skills, and deploy your first project.
 - [Vercel plugin](https://vercel.com/docs/agent-resources/vercel-plugin.md?from=llms-txt): Install with `npx plugins add vercel/vercel-plugin` for Vercel skills, commands, and specialist agents.
 - [Vercel Skills](https://vercel.com/docs/agent-resources/skills.md?from=llms-txt): Browse and install individual skills for coding agents that do not support the plugin.
@@ -40,6 +41,7 @@ Use this index to find machine-readable documentation and platform resources. Fo
 
 ## Self-serve onboarding
 
+- [Find a domain with Vercel CLI](https://vercel.com/domains/get-started.md): Search available names, compare registration and renewal prices, and return a verified shortlist.
 - [Vercel Hobby plan](https://vercel.com/docs/plans/hobby.md): Free plan for non-commercial personal projects.
 - [Vercel CLI tokens](https://vercel.com/docs/cli/tokens.md): Create and manage personal access tokens for the Vercel API and CLI.
 - [Vercel AI Gateway](https://vercel.com/docs/ai-gateway.md): One API for AI models, with routing, fallbacks, and usage monitoring.

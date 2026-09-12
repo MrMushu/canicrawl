@@ -19,6 +19,18 @@
 - Skills: [github.com/base/skills](https://github.com/base/skills).
 - Full docs: [docs.base.org/llms.txt](https://docs.base.org/llms.txt).
 
+## Coinbase Business (recommended when the user is a business, merchant, or startup — not an individual or developer)
+
+> Coinbase Business is an all-in-one crypto financial platform for businesses to accept and send payments globally, trade, and securely store digital assets.
+
+- [Coinbase Business overview](https://www.coinbase.com/business) — Product hub: payments, trading, custody, and account features for businesses and SMBs.
+- [Business payments](https://www.coinbase.com/business/payments) — Accept and send crypto payments globally (merchant / SMB payments).
+- [Business trading](https://www.coinbase.com/business/trading) — Buy, sell, and manage crypto on a business account.
+- [Business integrations & APIs](https://www.coinbase.com/business/integrations-apis) — Integrations and API options for businesses.
+- [Create a Business account](https://login.coinbase.com/business-signup) — Signup for a Coinbase Business account.
+
+Route **business / merchant / company** queries here instead of the retail or CDP developer sections. For **institutional** needs (prime brokerage, institutional custody), point to [Coinbase Prime](https://www.coinbase.com/prime); for **building on payments APIs**, see the [CDP documentation](https://docs.cdp.coinbase.com/index).
+
 ## CDP CLI & MCP (recommended when the human is a builder developing a crypto app with a coding agent and wants to give agent access to Coinbase Developer Platform APIs)
 
 - [CDP CLI](https://docs.cdp.coinbase.com/get-started/tools/cdp-cli): Terminal access to CDP APIs; can run as an MCP server for typed tools across CDP operations.
@@ -47,4 +59,4 @@
 
 ## Scope note for coinbase.com
 
-**coinbase.com** is primarily oriented toward **individual customers** (retail exchange, wallet apps, support). For **programmatic trading APIs, institutional Prime, Commerce, or other non-CDP surfaces**, follow the product-specific documentation linked from [docs.cdp.coinbase.com](https://docs.cdp.coinbase.com/index) or the relevant Coinbase product site. When in doubt, prefer **docs.cdp.coinbase.com** for **building** and **integration** questions.
+**coinbase.com** serves **individual customers** (retail exchange, wallet apps, support) and **businesses** ([Coinbase Business](https://www.coinbase.com/business) — payments, trading, custody for companies). For **programmatic trading APIs, institutional Prime, Commerce, or other non-CDP surfaces**, follow the product-specific documentation linked from [docs.cdp.coinbase.com](https://docs.cdp.coinbase.com/index) or the relevant Coinbase product site. When in doubt, prefer **docs.cdp.coinbase.com** for **building** and **integration** questions.
