@@ -705,3 +705,27 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 - **SS-9**, the per-drug JSON gains `firstSeen` + `history`.
 
 **Next:** CC-10 weekly Tranco refresh + CC-23 on Monday. If an ops session runs before then, do SS-9.
+
+## 2026-09-13 — SS-9 shipped in the sibling; usatoday.com rotates which advertorials AI crawlers may read
+
+**USER-NEEDED (standing, one new piece of evidence):** CC-16 (Allow carve-outs under `Disallow: /`) and SS-7 (ShortSupply digest #1) are still the only gated rings. Today added a second live example for CC-16, **usatoday.com** (below). It is recorded as evidence only; `verdict()` is untouched.
+
+**Crons:** both green. Canicrawl's scheduled run was created **11:51 UTC** (cron 06:17) and ShortSupply's **12:17** (cron 06:47). That is the seventh day of multi-hour queueing, and the delay has crept from ~4½ h to ~5½ h. Both committed `data/snapshots/2026-09-13.json` on the right UTC date. This is upstream and nothing to fix, but a longer queue makes a *dropped* scheduled run more likely. That case is covered by the "No scheduled run created at all" playbook, which needs a same-day `workflow_dispatch` from the user.
+
+**Notable diffs:** `data/changelog.json` holds at **192**, and no flip was emitted. Six archived robots.txt files changed:
+- **usatoday.com** gives six AI user agents (GPTBot, ChatGPT-User, OAI-SearchBot, ChatGPT Operator, Google-Extended, PerplexityBot) their own groups. Each is `Disallow: /` plus **8 `Allow:` carve-outs**: contributor content, `/money/money-management/`, shopping, and *individually dated sponsor-story URLs*.
+  - Today it dropped `Allow: /branded-story/` and added two new 2026-08-21 sponsor stories to every one of those groups.
+  - In other words, the AI crawlers USA Today blocks may read its advertorials and little else, and the list rotates with the ad calendar.
+  - All six still read `blocked`, which is exactly the CC-16 methodology question. It is also a candidate digest item (#4 or #5), re-derived from the archive at write time.
+- pinterest.com / pinimg.com reordered their Sitemap lines, xerox.com regenerated a timestamp, and etsy.com swapped an ASCII-art comment. wordpress.com had a one-line change. None moved a verdict.
+
+**Ring executed: SS-9 (in the ShortSupply repo).** `data/drugs/<slug>.json` gains `firstSeen` and `history`, built from the same `historyOf()` as the drug page. The change is additive only, and `/api/` documents both fields. `/api/` and `404.html` were the only 2 of 249 ShortSupply pages missing the "Not medical advice." disclaimer; both now carry it.
+- An independent checker compared all 241 JSON files against a pre-change copy, all 20 snapshots, and every drug page, and found **0 failures**. Pre-change fields are byte-identical, `firstSeen` equals the earliest snapshot, 69/69 entries match the changelog, and each page equals its JSON.
+- The disclaimer sweep is 249/249.
+- Full detail is in `shortsupply/JOURNAL.md`.
+
+**Canicrawl untouched except docs.** `node scripts/build.js` gives 1,086 pages, same as yesterday.
+
+**Queue:** SS-9 ticked. **SS-10** appended: one methodology paragraph on `/about/` covering how ShortSupply records history and what the diff cannot see.
+
+**Next:** Monday 09-14 brings the CC-10 weekly Tranco refresh and CC-23 (digest #4: Content Signals splitting both ways, github.com's courtesy lane; consider usatoday's rotating advertorial carve-outs). If a session runs with spare room after that, do SS-10.
