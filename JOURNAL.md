@@ -729,3 +729,55 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-9 ticked. **SS-10** appended: one methodology paragraph on `/about/` covering how ShortSupply records history and what the diff cannot see.
 
 **Next:** Monday 09-14 brings the CC-10 weekly Tranco refresh and CC-23 (digest #4: Content Signals splitting both ways, github.com's courtesy lane; consider usatoday's rotating advertorial carve-outs). If a session runs with spare room after that, do SS-10.
+
+## 2026-09-14 — CC-23: digest #4 "Say one thing, serve another"; weekly Tranco refresh held back
+
+**USER-NEEDED (new): CC-24, a gap in the panel filter.** Today's weekly Tranco refresh dry run (list `GQNVK`, 11 risers, 31 fallen-and-kept) would add **highwebmedia.com at rank 101**. As far as I know it is an adult cam site's asset CDN, so the panel's stated rules exclude it twice over (adult, and infrastructure/CDN), but `excluded()` in `scripts/expand-panel.js` doesn't list it. Changing the filter is a panel-definition change, which is on the ESCALATE list, so **I did not apply the refresh and nothing was written**. The refresh only ever adds domains, so waiting a week loses nothing.
+- Proposed fix, one line: add `"highwebmedia.com"` to `ADULT`. It isn't in the panel, so CC-10's pruning hazard doesn't apply.
+- Then re-run `node scripts/refresh-panel.js --dry-run` and apply.
+- Also worth eyeballing: skybridge.click (847), amon.tech (279), amagi.tv (951), grab.co (833).
+- **Standing, unchanged:** CC-16 (Allow carve-outs under `Disallow: /`) and SS-7 (ShortSupply digest #1).
+
+**Crons:** both green.
+- Canicrawl's scheduled run was created **12:46 UTC** (cron 06:17) and ShortSupply's **13:21** (cron 06:47). That is about 6½ h of upstream queueing, up from ~5½ h yesterday, and the eighth day in a row of multi-hour delay.
+- Both committed `data/snapshots/2026-09-14.json` on the right UTC date, so no dropped run.
+- If the delay keeps growing, the "No scheduled run created at all" playbook is the one to expect. It needs a same-day `workflow_dispatch` from the user.
+
+**Notable diffs.**
+- Canicrawl changelog 192 → **225**. All 33 new entries are **samsungcloud.com**: its `*` group went from an empty `Disallow:` to `Allow: /` + `Disallow: /api/`, which moved all 32 bots and the wildcard from allowed to restricted. Nothing was blocked. It is a good illustration of flip counts measuring edits × bots, and it went into the digest as exactly that.
+- **Correction to yesterday's entry:** usatoday.com is *not* "rotating with the ad calendar". The archive holds **two fixed variants** that differ in one spot, repeated in each of its six AI groups:
+  - Variant A has `Allow: /branded-story/`; variant B has two dated 08-21 sponsor stories instead.
+  - It was B every day 08-27→09-05, then A A B A A B A B A: **7 switches in 9 days**. It was readable every day, and only the variant changed.
+  - It looks like two servers holding two builds. Both classify identically, so no flips.
+- Other robots.txt churn (hostinger `/ai-builder/1` disallows, yelp `/events` split, yandex `/finance`, corriere adds Baiduspider-render, kayak timestamp, pinterest/pinimg Sitemap reorder) moved no verdict.
+- ShortSupply: no changes. The changelog holds at 77, the records are the same 1,602, and `sourceLastUpdated` is still 09-11, which is expected for a Monday-morning read of a Friday dataset.
+
+**Ring executed: CC-23, "State of the Agent Web #4", live at `/digest/4/`.** The title is "Say one thing, serve another". Every number was re-derived from the archive at write time. Along the way I found the banked lead was richer than banked:
+- **Hostinger asks, Corriere blocks.**
+  - hostinger.com's 09-10 `ai-train=no` sits in `*` *and* in a named group with GPTBot/ClaudeBot/Google-Extended, yet it hard-blocks only CCBot + Bytespider ("crawlers that only collect content for model training").
+  - corriere.it's 09-11 header sits in `*` only. Read strictly, it welcomes training by crawlers it hasn't named and forbids it to all seven it has. Its groups do match `search=yes` (OAI-SearchBot and PerplexityBot opened) and `ai-input=no` (ChatGPT-User and Claude-Web blocked).
+  - Corriere is the first site already in the panel to adopt the header since the series began on 09-02.
+- **The door left open is the ad.** Corriere's new ChatGPT-User/Claude-Web groups are `Disallow: /` + `Allow: /nativeadv/`, and AppleBot got the same carve-out. usatoday's AI groups carve out sponsor-story paths. The digest says plainly that we classify these as blocked and lists the carve-outs so readers can judge. **No CC-16 commitment made.**
+- **github.com courtesy lane:** its AI group has exactly the same 57 disallows as `*` (0 differences each way), plus `Crawl-delay: 1` and the homepage + 11 marketing allows (incl. `/mcp`). Only Bytespider moved. The pre-09-12 file mentioned no AI agent at all (0 grep hits).
+- **Cohort series,** recounted at every daily commit 09-07→09-14 with build.js's own regexes:
+  - CF Managed Content: 5 → 5, the same five sites.
+  - robotstxt.com/ai: 1 (launchpad.net).
+  - Content Signals: 24 → **25** (+corriere.it on 09-11, no departures).
+- **Numbers:** 31.9% of 646 readable block at least one tracked crawler (#3: 31.6% of 649). CCBot 25.2%, Bytespider 25.1%, ClaudeBot 22.4%, GPTBot 21.7%, Gemini-Deep-Research 11.1%, GrokBot 10.2%.
+- **llms.txt:** 112/1,020 = 11% floor; 112/622 answered = 18%.
+  - ring.com is a genuine first file on 09-11, after definitive "no" every prior day.
+  - checkpoint.com was first *seen* on 09-11, after 12 unanswered days, and the text says its file may be older.
+- **Correction printed** for issue #3, which called its 11% a share of the domains that answered.
+
+**Verified, not assumed.**
+- Build 1,086 → **1,087 pages**.
+- **31/31** unique article links resolve (0 broken anywhere on the page), and 16/16 load-bearing strings were read back out of `dist/digest/4/index.html`.
+- Issues #1–#3 are byte-identical in `data/digests.json` (the diff is +7 lines).
+- The sitemap and the digest index list #4 first, and there are 0 leaked `${`.
+- `rebuild-changelog.js` dry run: **225 → 225, 0 dropped, 0 gained**.
+- HTTP 200 on /, /digest/, /digest/4/, /digest/3/, /stats/, /changelog/, /site/{corriere.it, usatoday.com, github.com, hostinger.com, samsungcloud.com}/, /bot/GPTBot/, /sitemap.xml, /changelog/rss.xml, via an in-process server over `dist/`.
+- No crawl was run, no snapshot was touched, and `crawl.js`/`verdict()` are unchanged.
+
+**Queue:** CC-23 ticked. **CC-24** added (user-gated, the filter gap above). SS-10 is the only ungated ring.
+
+**Next:** SS-10 (the ShortSupply `/about/` history paragraph). Once the user OKs CC-24, run the held refresh. Watch whether usatoday keeps flapping, whether other Content-Signal sites start disagreeing with their own groups, and how long the Actions queue delay gets.
