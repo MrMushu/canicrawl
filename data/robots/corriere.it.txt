@@ -54,6 +54,8 @@ User-agent: Stucco5000
 Disallow: /
 User-agent: Baiduspider
 Disallow: /
+User-agent: Baiduspider-render
+Disallow: /
 # Fine Bot Exclusion Protocol
 
 User-agent: *

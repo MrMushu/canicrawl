@@ -309,8 +309,11 @@ Disallow: /support2/sport*
 Allow: /medicine
 Disallow: /medicine/search
 Disallow: /medicine?text=
-Disallow: /finance*?
-Disallow: /finance/assistant
+Disallow: /finance
+Allow: /finance/reviews
+Allow: /finance/banks/*/reviews
+Disallow: /finance/reviews*?*
+Disallow: /finance/banks/*/reviews*?*
 
 Sitemap: https://yandex.ru/support/sitemap.xml
 Sitemap: https://yandex.ru/blog/sitemap.xml
