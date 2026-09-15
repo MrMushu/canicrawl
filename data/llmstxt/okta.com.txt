@@ -1275,6 +1275,7 @@
 - [The identity economy strikes back: 2026 threat lessons and 2027 predictions](https://www.okta.com/blog/customers-and-partners/identity-threat-landscape-2026-2027)
 - [Okta Privileged Access and GCP Workload Identities](https://www.okta.com/blog/identity-security/okta-privileged-access-gcp-workloads)
 - [Now available: On-demand SaaS integrations from Okta](https://www.okta.com/blog/product-innovation/okta-on-demand-saas-integrations--connector-deployment-guide)
+- [Your endpoints are running AI agents you can't see](https://www.okta.com/blog/ai/shadow-ai-agent-discovery)
 
 ## Newsroom
 
@@ -1504,4 +1505,6 @@
 - [Okta brings first-class identity to AI agents with Agent SSO](https://www.okta.com/newsroom/press-releases/okta-brings-first-class-identity-to-ai-agents-with-agent-sso)
 - [Okta announces second quarter fiscal year 2027 financial results](https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results)
 - [Closing the frontline MFA coverage gap with Okta NFC](https://www.okta.com/newsroom/articles/nfc-authentication-frontline-workers)
+- [Okta recognized in the 2026 Gartner® Market Guide for Identity Governance and Administration](https://www.okta.com/newsroom/articles/okta-recognized-in-2026-gartner-market-guide)
+- [How a leading fintech platform secured its AI wave before it even began](https://www.okta.com/newsroom/articles/how-a-leading-fintech-platform-secured-its-ai-wave-before-it-even-began)
 

@@ -202,7 +202,7 @@
 - [Stripe Blog](https://stripe.com/blog): Follow the Stripe blog to learn about new product features, the latest in technology, payment solutions, and business initiatives.
 - [Stripe Sessions](https://stripe.com/sessions): Stripe's annual user conference.
 - [Contact sales](https://stripe.com/contact/sales): Setting up your own integration is the fastest and most efficient way to start using Stripe. However, if your business processes a high volume of payments and has advanced integration needs, our sales team would be happy to guide you. Tell us about your business and we'll get you to the right place.
-- [Stripe jobs](https://stripe.com/jobs): Stripe builds financial infrastructure that ambitious companies use to launch their boldest products. Our customers range from hours-old startups to complex global businesses. Collectively, they are growing the GDP of the internet. You can help.
+- [Stripe careers](https://stripe.com/careers): Economic growth doesn't happen on its own—at Stripe, it's yours to shape. Explore Stripe's mission and browse career opportunities.
 - [Stripe Newsroom](https://stripe.com/newsroom): Read the latest news and information from Stripe, including corporate and product announcements, research reports, brand assets, and more.
 - [Stripe Press](https://press.stripe.com/): Stripe Press produces works about technological, economic, and scientific advancement.
 - [Become a Stripe partner](https://stripe.com/partners/become-a-partner): Join a global community of partners to build solutions and skills, market your company and offerings, and co-sell with Stripe.

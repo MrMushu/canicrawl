@@ -194,7 +194,7 @@ experience on every platform.
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
 - [[Webinar] From Click to Code: Instrumenting New Relic Mobile and Browser Monitoring (APAC) (on demand)](https://newrelic.com/events/2026-10-09/mobile-monitoring-apac-on-demand): Join us for this 60-minute workshop to learn how New Relic Browser and Mobile Monitoring provide real-time, end-to-end visibility into frontend performance.
-- [New Relic & Verisk on Stage at re:Invent](https://newrelic.com/events/2026-12-01/reinvent-speaking-sessions): New Relic joins forces with our customer Verisk on stage for a breakout session at AWS re:Invent.
+- [New Relic & Verisk on Stage at re:Invent](https://newrelic.com/events/2026-12-01/reinvent-speaking-sessions): New Relic joins forces with our customer Verisk on stage for a breakout session at AWS re:Invent on Tue Dec 1 at 11.30am.
 - [[Webinar] Proactively monitor availability and performance with New Relic Synthetics (APAC) (on demand)](https://newrelic.com/events/2026-03-09/nru-synthetics-workshop-apac-on-demand): Join us for an overview of synthetic monitoring in New Relic, to find out where specific errors and slow pages are so that you can deliver the best customer experience.
 - [Product Pulse On Demand](https://newrelic.com/events/2026-08-27/product-pulse-on-demand): Watch our monthly live Product Pulse sessions on demand with Feature Spotlights, Expert Q&A, and Practical Guidance.
 - [Visit New Relic's Booth 21102 at Money20/20](https://newrelic.com/events/2026-10-19/money2020): Visit New Relic's Booth 21102 at Money20/20

@@ -143,6 +143,7 @@ Allow: /remote
 Allow: /*/remote
 Allow: /work
 Allow: /*/work
+Allow: /sites
 Allow: /import-to-chatgpt
 Allow: /*/import-to-chatgpt
 # Exact locale specific homepages

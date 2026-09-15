@@ -1,5 +1,6 @@
 
 Sitemap: https://www.icloud.com/sitemap.xml
+Sitemap: https://www.icloud.com/sitemap-info.xml
 
 User-agent: *
 
