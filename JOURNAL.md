@@ -781,3 +781,25 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** CC-23 ticked. **CC-24** added (user-gated, the filter gap above). SS-10 is the only ungated ring.
 
 **Next:** SS-10 (the ShortSupply `/about/` history paragraph). Once the user OKs CC-24, run the held refresh. Watch whether usatoday keeps flapping, whether other Content-Signal sites start disagreeing with their own groups, and how long the Actions queue delay gets.
+
+## 2026-09-16 — Ops: SS-10 shipped in sibling, SS-11 queued; four sites drop named AI groups
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap, which holds the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1). Nothing new escalated.
+
+**Crons:** both green, for both 09-15 and 09-16.
+- Canicrawl's 09-16 run was created **11:33 UTC** and 09-15's **11:44** (cron 06:17). That is about 5¼ h of queueing, down from 6½ h on 09-14.
+- Both committed their snapshots on the right UTC date.
+- No ops session ran on 09-15.
+
+**Notable diffs.** The changelog went from 225 → **260**. 09-15 added nothing. All 35 entries are from 09-16:
+- **patreon.com, kick.com, weather.com** each went from `blocked` to `restricted` on 8–9 bots (GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, CCBot/PerplexityBot, Bytespider, meta-externalagent…). In the snapshots, those bots' `source` moved from `named` to `wildcard`, so the named AI-bot groups are gone and those bots now fall under `*` (restricted). weather.com also moved **YouBot** the other way (restricted → blocked).
+  - Three unrelated sites dropping named groups on the same day could be a shared vendor or managed-robots toggle, possibly a Cloudflare managed robots.txt change. **This is unverified.** Snapshots store only verdicts and a hash, so the next digest should check it against the CF-Managed cohort count before saying so.
+- **onet.pl** went restricted → blocked on 8 bots (Bytespider, meta-externalagent, Amazonbot, cohere-ai, Diffbot, omgilibot…).
+- **azure.com** llms.txt: `true` → gone.
+- These are digest #5 leads.
+
+**Ring executed: SS-10** (in the sibling repo, which has the full entry). ShortSupply's `/about/` gains "How history is recorded". Verified: build of 250 pages, the section and its link are present, the disclaimer is on 250/250 pages, and HTTP 200 on /, /about/, /api/, /changelog/.
+
+**Queue:** SS-10 ticked. **SS-11** was added (ShortSupply llms.txt names `firstSeen`/`history`) so the next session has an ungated ring.
+
+**Next:** SS-11. Once the user OKs CC-24, run the held refresh. Watch whether the named-group drops spread to more sites tomorrow.
