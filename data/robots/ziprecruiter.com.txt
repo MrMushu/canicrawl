@@ -1,23 +1,16 @@
 # GOOGLEBOT
 User-agent: googlebot
 Allow: /
-Disallow: /unsubscribe
-Disallow: /job/track-pageview
 Disallow: /facebook/
-Disallow: /amazon/
-Disallow: /job/track-apply-click
-Disallow: /job/monster-apply-request
 Disallow: /?search=
 Disallow: /geo/job_title
 Disallow: /blog/wp-admin/
-Disallow: /contact/zip-resume
 Disallow: /resume-database/preview-iframe
 Disallow: /resume/preview/
 Disallow: /admin
 Disallow: /login/
 Disallow: /trk
 Disallow: /get-auto-banners
-Disallow: /record-event
 Disallow: /events
 Disallow: /apply/
 Disallow: /eclk/
@@ -29,13 +22,10 @@ Disallow: /pixel/
 Disallow: /observations/
 Disallow: /fingerprint/
 Disallow: /ptid
-Disallow: /chat/get-chat-auth-token
-Disallow: /ajax/
 Disallow: /tap/
 Disallow: /ojob/
 Disallow: /job-preview/
 Disallow: /svc/seo/
-Disallow: /candidate/onboard
 
 
 # ALLOWED BOTS
@@ -68,23 +58,16 @@ User-agent: Mediapartners-Google
 User-agent: adidxbot
 User-agent: meta-externalads
 Allow: /
-Disallow: /unsubscribe
-Disallow: /job/track-pageview
 Disallow: /facebook/
-Disallow: /amazon/
-Disallow: /job/track-apply-click
-Disallow: /job/monster-apply-request
 Disallow: /?search=
 Disallow: /geo/job_title
 Disallow: /blog/wp-admin/
-Disallow: /contact/zip-resume
 Disallow: /resume-database/preview-iframe
 Disallow: /resume/preview/
 Disallow: /admin
 Disallow: /login/
 Disallow: /trk
 Disallow: /get-auto-banners
-Disallow: /record-event
 Disallow: /events
 Disallow: /apply/
 Disallow: /eclk/
@@ -94,15 +77,12 @@ Disallow: /pixel/
 Disallow: /observations/
 Disallow: /fingerprint/
 Disallow: /ptid
-Disallow: /chat/get-chat-auth-token
-Disallow: /ajax/
 Disallow: /tap/
 Disallow: /jobs/
 Disallow: /ojob/
 Disallow: /job-preview/
 Disallow: /svc/seo/
 Disallow: /jobs-search
-Disallow: /candidate/onboard
 
 # LLM manifest: /llms.txt
 

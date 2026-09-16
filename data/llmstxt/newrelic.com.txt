@@ -168,6 +168,7 @@ experience on every platform.
 
 ## Blog
 
+- [New Relic Lens is now Generally Available](https://newrelic.com/blog/observability/general-availability-new-relic-lens): Bridge the gap between telemetry and business data. Query external databases directly and perform cross-database JOINs without paying double ingestion costs.
 - [Sweaters, Sunscreens, and Shared Purpose: What Summer Looked Like Across New Relic](https://newrelic.com/blog/news/sweaters-sunscreens-and-shared-purpose-what-summer-looked-like-across-new-relic): Explore how New Relic's global team built community, gave back, and fostered career growth across regions this summer.
 - [How Standards Get Adopted: OTel and Platform Engineering](https://newrelic.com/blog/observability/how-standards-get-adopted-otel-and-platform-engineering): OpenTelemetry didn't win on vendor neutrality alone — it won by changing how platform teams and developers work together. Here's how.
 - [ Instrumenting an LLM router: what New Relic sees, Prometheus doesn't](https://newrelic.com/blog/ai/instrumenting-llm-router-new-relic-vs-prometheus): An LLM router instrumented end to end on New Relic: native AI Monitoring, custom routing/eval events, and an Autopilot-driven, human-approved fix.
@@ -181,6 +182,7 @@ experience on every platform.
 - [JavaScript Monitoring Tools: A Developer's Guide to Choosing the Right One](https://newrelic.com/blog/observability/javascript-monitoring-tools): JavaScript errors are everywhere — but not all monitoring tools surface them with the same depth. Compare the top JavaScript monitoring tools and learn what to look for beyond basic error capture.
 - [Best Cloud Cost Management Tools in 2026: A Buyer's Guide](https://newrelic.com/blog/observability/best-cloud-cost-management-tools): Compare the best cloud cost management tools for AWS, Azure, and GCP. See how FinOps platforms, observability tools, and Kubernetes cost tools stack up — and what actually drives savings.
 
+- [The Next Competitive Advantage in Enterprise AI](https://newrelic.com/blog/ai/new-relic-ground-truth-enterprise-ai): Learn why trusted operational intelligence is becoming the foundation for enterprise AI and how New Relic Ground Truth enables reliable autonomous operations.
 - [Cleared for Launch: Ahead of the framework by design – Part 1](https://newrelic.com/blog/observability/cleared-for-launch-ahead-of-the-framework-by-design-part-1): New Relic uses STAR to accelerate releases for all products, including AI. See how this unified framework streamlines security, legal, and compliance.
 - [Empowering Relics to Own Their Career Growth](https://newrelic.com/blog/news/empowering-relics-to-own-their-career-growth): Learn how New Relic’s 5th Grow Your Career Month equips employees with continuous learning, leadership development, and AI skills to drive career growth.
 - [New Relic SecurityRX - Security for Operational Reliability](https://newrelic.com/blog/security/securityrx-agent-released): Treat security as a reliability problem. New UI experience (with the homepage), automation capabilities (with Jira), and the agent public preview for a complete remediation workflow.
@@ -188,8 +190,6 @@ experience on every platform.
 - [How to Choose Digital Experience Monitoring Tools](https://newrelic.com/blog/observability/digital-experience-monitoring-tools): Discover how digital experience monitoring tools help you understand user issues beyond APM, enabling faster, clearer insights for better software performance.
 - [Session Replay Tools: A Technical Buyer’s Guide and Comparison](https://newrelic.com/blog/observability/session-replay-tools): Discover how to evaluate session replay tools for engineering teams, ensuring they meet technical needs for incident response and observability.
 - [AWS Cloud Cost Management Tools: Comprehensive Buyer’s Guide (2026)](https://newrelic.com/blog/observability/aws-cloud-cost-management-tools): Discover the best AWS cloud cost management tools to gain visibility, reduce waste, and connect spend data with system performance for smarter decisions.
-- [MCP is going stateless: What the new spec means for AI agents](https://newrelic.com/blog/ai/mcp-is-going-stateless): The Model Context Protocol (MCP) is going stateless. Discover how this architecture shift simplifies agent scaling and integrates OpenTelemetry.
-- [Salesforce Observability with New Relic](https://newrelic.com/blog/observability/salesforce-observability-with-new-relic): The New Relic Salesforce Exporter centralizes Salesforce telemetry, performance, and security data into New Relic for proactive, unified observability.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

@@ -118,7 +118,6 @@ Disallow: /es/
 Disallow: /pt/
 Disallow: /de/
 Disallow: /latam/
-Disallow: /jp/
 Disallow: /account/subscribe/payment
 
 User-agent: Applebot-Extended

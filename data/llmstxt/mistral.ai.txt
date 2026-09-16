@@ -1,7 +1,7 @@
-# Mistral AI
+# Mistral
 > Frontier AI for enterprises. Customizable, secure, and scalable solutions—from models to agents—built for performance, privacy, and control. Deploy on-prem, in the cloud, or at the edge with open-weight and commercial options.
 
-Mistral AI empowers organizations with state-of-the-art (SOTA) models, AI assistants (Vibe), and production platforms (AI Studio) to automate workflows, enhance decision-making, and drive innovation. Core offerings include:
+Mistral empowers organizations with state-of-the-art (SOTA) models, AI assistants (Vibe), and production platforms (AI Studio) to automate workflows, enhance decision-making, and drive innovation. Core offerings include:
 - **Models**: Open-weight and commercial models (e.g., Mistral Large, Codestral) for coding, multilingual tasks, and edge deployment.
 - **Studio**: End-to-end platform for building, deploying, and managing AI agents with observability and governance.
 - *Vibe**: Customizable AI assistant for enterprise knowledge, multimodal tasks, and secure collaboration.

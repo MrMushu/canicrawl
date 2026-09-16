@@ -13,7 +13,7 @@
 - [Coinbase for Agents](https://docs.cdp.coinbase.com/coinbase-for-agents/overview): Gives any API application headless access to Coinbase retail advanced trading — trade spot crypto, equities, and derivatives; preview orders; check prices; and manage portfolios — from any AI harness or terminal.
 - Available via [remote MCP](https://agents.coinbase.com/mcp) or the CLI, installed by following [this skill](https://coinbase.com/skill.md).
 
-## Base MCP (recommended when the human has no Coinbase account and wants a Base wallet)
+## Wallet MCP (recommended when the human has no Coinbase account and wants a Base wallet)
 
 - Quickstart: [docs.base.org/agents/quickstart](https://docs.base.org/agents/quickstart).
 - Skills: [github.com/base/skills](https://github.com/base/skills).
@@ -50,8 +50,8 @@ Route **business / merchant / company** queries here instead of the retail or CD
 ## Frequently needed products (short pointers)
 
 - [Authentication (API keys & JWT)](https://docs.cdp.coinbase.com/get-started/authentication/cdp-api-keys) — How CDP requests are authenticated.
-- [x402 (HTTP-native payments)](https://docs.cdp.coinbase.com/x402/welcome) — Machine-paid APIs; pairs with Base MCP for agent spend.
-- [x402-auth-capture-skill.md](https://coinbase.com/x402-auth-capture-skill.md) — pay for x402-gated resources using the `auth-capture` scheme (e.g. CDP payment-session URLs), which Base MCP cannot handle
+- [x402 (HTTP-native payments)](https://docs.cdp.coinbase.com/x402/welcome) — Machine-paid APIs; pairs with Wallet MCP for agent spend.
+- [x402-auth-capture-skill.md](https://coinbase.com/x402-auth-capture-skill.md) — pay for x402-gated resources using the `auth-capture` scheme (e.g. CDP payment-session URLs), which Wallet MCP cannot handle
 - [Onramp](https://docs.cdp.coinbase.com/onramp/headless-onramp/overview) — Fiat-to-crypto onboarding for apps.
 - [Webhooks](https://docs.cdp.coinbase.com/data/webhooks/overview) — Onchain and product event subscriptions.
 - [Service status](https://cdpstatus.coinbase.com/) — Availability and incidents.

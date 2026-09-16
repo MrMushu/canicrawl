@@ -44,6 +44,7 @@ Original Source: https://weather.com/
 - [Tornado Central](/storms/tornado-central): Tornado reports, watches, warnings, and safety information
 - [Tornado News](/storms/tornado): Current tornado activity, damage reports, and safety guidance
 - [Winter Storm Central](/storms/winter): Snow forecasts, ice storm tracking, and winter weather advisories
+- [Wildfire Tracker](/labs/wildfire): Active wildfire locations, perimeters, air quality impact, and evacuation alerts
 
 ## Health & Weather
 
@@ -80,11 +81,13 @@ Original Source: https://weather.com/
 - [Feature Stories](/features): In-depth weather-related articles, investigations, and human interest stories
 - [Climate & Environment](/news/climate): Climate change coverage, environmental impact stories, and sustainability content
 - [Weather Photos](/photos): User-submitted and professional weather photography
+- [Community Forums](/forums): Discussion boards for weather topics, storm experiences, and community conversation
 
 ## Travel & Planning
 
 - [Travel Weather](/travel): Airport delays, road conditions, and destination weather
 - [Flight Delay Information](/travel/flights): Real-time airport weather impacts
+- [Flight Tracker](/flights): Interactive flight delay and airport weather impact tracker
 - [Road Weather](/travel/roads): Highway conditions and travel advisories
 - [Destination Guides](/travel/destinations): Weather information for popular travel locations
 - [Event Planning](/activities/events): Weather considerations for outdoor events

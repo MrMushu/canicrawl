@@ -1,5 +1,5 @@
 {
- "date": "2026-09-15",
+ "date": "2026-09-16",
  "filesScanned": 610,
  "distinctTokens": 2080,
  "aiCandidates": [
@@ -15,7 +15,7 @@
   },
   {
    "token": "Ai2Bot-Dolma",
-   "sites": 39,
+   "sites": 40,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -114,22 +114,22 @@
    "aiHint": true
   },
   {
+   "token": "Diffbot-User",
+   "sites": 7,
+   "sample": [
+    "bbc.co.uk",
+    "bbc.com",
+    "corriere.it"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "bigsur.ai",
    "sites": 7,
    "sample": [
     "cnet.com",
     "ign.com",
     "lemonde.fr"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Diffbot-User",
-   "sites": 6,
-   "sample": [
-    "bbc.co.uk",
-    "bbc.com",
-    "corriere.it"
    ],
    "aiHint": true
   },
@@ -237,7 +237,7 @@
   },
   {
    "token": "Google-CloudVertexBot",
-   "sites": 54,
+   "sites": 55,
    "sample": [
     "allrecipes.com",
     "amazon.ca",
@@ -297,7 +297,7 @@
   },
   {
    "token": "Ai2Bot-Dolma",
-   "sites": 39,
+   "sites": 40,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -326,6 +326,16 @@
    "aiHint": false
   },
   {
+   "token": "meta-webindexer",
+   "sites": 37,
+   "sample": [
+    "allrecipes.com",
+    "amazon.ca",
+    "amazon.co.jp"
+   ],
+   "aiHint": false
+  },
+  {
    "token": "VelenPublicWebCrawler",
    "sites": 37,
    "sample": [
@@ -342,16 +352,6 @@
     "amazon.ca",
     "amazon.co.jp",
     "amazon.co.uk"
-   ],
-   "aiHint": false
-  },
-  {
-   "token": "meta-webindexer",
-   "sites": 36,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
    ],
    "aiHint": false
   },
@@ -496,16 +496,6 @@
    "aiHint": false
   },
   {
-   "token": "CloudflareBrowserRenderingCrawler",
-   "sites": 25,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": false
-  },
-  {
    "token": "Devin",
    "sites": 24,
    "sample": [
@@ -557,6 +547,16 @@
   },
   {
    "token": "SemrushBot-SWA",
+   "sites": 23,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
+   "token": "CloudflareBrowserRenderingCrawler",
    "sites": 23,
    "sample": [
     "amazon.ca",

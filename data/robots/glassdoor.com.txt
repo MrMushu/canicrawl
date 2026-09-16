@@ -130,8 +130,33 @@ Disallow: /Jobs/*-sex-*Jobs-EI*
 # TRFC-4037 Block page from being indexed
 Disallow: /Reviews/Barbizon-scam-*
 
-# Block Glassdoor jobs. Intent is to remove misleading site links SERP. Details at TRFC-3197
+# Block Pages with misaligned search intent, impacting site links SERP
 Disallow: /Jobs/Glassdoor-Jobs-E100431.htm
+Disallow: /Reviews/Glassdoor-Reviews-E100431.htm
+Disallow: /Salary/Glassdoor-Salaries-E100431.htm
+Disallow: /Reviews/EMPLOYERS-Reviews-E25702.htm
+Disallow: /Reviews/Anonymous-Reviews-E5182641.htm
+Disallow: /Salaries/search-salary-SRCH_KO0,6.htm
+
+#Blocking low-traffic employer profile pages
+Disallow: /Photos/
+Disallow: /Location/All-*-Office-Locations*
+
+# Block pages with low SEO potential to reduce crawling
+Disallow: /Compare/-vs-
+Disallow: /Salary/_DEPT*
+Disallow: /Interview/_IL
+
+# Block specific query filter parameters
+Disallow: *filter.searchCategory
+Disallow: *filter.overallRating
+Disallow: *filter.employmentStatus
+Disallow: *sort
+Disallow: *experienceLevel
+Disallow: *locationId
+Disallow: *filter.experience
+Disallow: *filter.jobFunction
+Disallow: *filter.location
 
 # Blocking pagination on employer infosite TR-12
 Disallow: /Jobs/*_P*.htm*
@@ -202,6 +227,10 @@ Disallow: /
 Allow: /blog/
 Allow: /Award/
 Allow: /About/
+Allow: /employers/
+Disallow: /employers/ec
+Disallow: /employers/engagement/api/
+Disallow: /employers/enhanced/billing_*
 
 #### Block Low-Quality AI/LLM Bots
 User-agent: CCBot
