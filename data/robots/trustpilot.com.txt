@@ -6,6 +6,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -40,6 +41,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -74,6 +76,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -108,6 +111,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -142,6 +146,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -176,6 +181,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -210,6 +216,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -244,6 +251,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -278,6 +286,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -312,6 +321,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -346,6 +356,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -380,6 +391,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -414,6 +426,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -448,6 +461,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Allow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -482,6 +496,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Allow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -516,6 +531,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -550,6 +566,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -584,6 +601,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -618,6 +636,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -652,6 +671,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -686,6 +706,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -720,6 +741,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -754,6 +776,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=
@@ -788,6 +811,7 @@ Disallow: /evaluate-unique-link
 Disallow: /pingdom
 Disallow: /reviews/
 Disallow: /review/*/transparency
+Disallow: /product-reviews/
 Disallow: /*?*editmode=
 Disallow: /api/*
 Disallow: /*?*languages=

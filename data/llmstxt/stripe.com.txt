@@ -182,6 +182,29 @@
 - [Receive payouts](https://docs.stripe.com/payouts.md): Guide to receiving funds from Stripe.
 - [Product documentation](https://docs.stripe.com/products.md): Overview of Stripe's product offerings.
 
+## More Resources
+
+- [AI On Japanese eCommerce Sites](https://stripe.com/resources/more/ai-on-japanese-ecommerce-sites): Learn about operating ecommerce sites using AI, including benefits, methods, implementation, and important considerations.
+- [Buy Now Pay Later in Spain](https://stripe.com/resources/more/buy-now-pay-later-in-spain): Learn what buy now, pay later (BNPL) is and how it's governed in Spain.
+- [Charging Value Added Tax VAT to Foreign Customers](https://stripe.com/resources/more/charging-value-added-tax-vat-to-foreign-customers): Learn what value-added tax (VAT) rules apply for B2B and B2C sales by businesses in Germany both within and outside of the EU.
+- [Digitalization of Companies in the Netherlands](https://stripe.com/resources/more/digitalization-of-companies-in-the-netherlands): Digitizing means moving off paper and into digital systems that share data automatically. Here's how it works for Dutch businesses.
+- [Georgia Sales Tax Exemptions](https://stripe.com/resources/more/georgia-sales-tax-exemptions): Here's what to know about what qualifies for Georgia sales tax exemptions, what doesn't, and what documentation you need.
+- [Global KYC and How Platforms Manage Seller Onboarding Across Countries](https://stripe.com/resources/more/global-kyc-and-how-platforms-manage-seller-onboarding-across-countries): Learn how to manage global KYC and cross-border compliance, from localized seller onboarding to ongoing compliance at scale.
+- [High risk Seller Verification](https://stripe.com/resources/more/high-risk-seller-verification): Learn how ultimate beneficial owner (UBO) checks, enhanced due diligence, and sanctions screenings work together to verify high-risk sellers.
+- [How Many Shares Should a Startup Authorize at Incorporation](https://stripe.com/resources/more/how-many-shares-should-a-startup-authorize-at-incorporation): Learn how many shares startups typically authorize at incorporation, what authorized stock means, and how it affects equity, fundraising, and taxes.
+- [How the Streamlined Sales Tax Program Simplifies Compliance](https://stripe.com/resources/more/how-the-streamlined-sales-tax-program-simplifies-compliance): The Streamlined Sales Tax (SST) program has 23 full member states. It makes sales tax compliance easier for businesses that sell in multiple states.
+- [How to Get a Business License in Colorado](https://stripe.com/resources/more/how-to-get-a-business-license-in-colorado): Learn what Colorado business licenses and permits are required to operate a business, how to apply, and when to renew.
+- [How to Start a Transportation Business](https://stripe.com/resources/more/how-to-start-a-transportation-business): Learn how to start and register a transportation business and the associated costs.
+- [Invoicing Luxembourg](https://stripe.com/resources/more/invoicing-luxembourg): Learn when German businesses have to indicate VAT on invoices to Luxembourg and what the differences are between B2B and B2C sales.
+- [Loans for UGS](https://stripe.com/resources/more/loans-for-ugs): Learn how UGs in Germany can apply for bank loans and explore alternative financing options.
+- [Mervärdesskatt](https://stripe.com/resources/more/mervardesskatt): Learn how VAT (mervärdesskatt) works in Sweden, including when it applies, zero-rated exceptions, and how to stay compliant.
+- [Monetizing AI Development in Japan](https://stripe.com/resources/more/monetizing-ai-development-in-japan): AI development involves building systems and services with machine learning, generative AI, and related technologies. Learn about the development process, key technologies, important considerations, and monetization methods.
+- [North Carolina Sales Tax Exemptions](https://stripe.com/resources/more/north-carolina-sales-tax-exemptions): North Carolina sales tax exemptions let businesses skip the statewide sales tax on specific purchases. Here's what to know.
+- [Ongoing Seller Compliance Monitoring](https://stripe.com/resources/more/ongoing-seller-compliance-monitoring): Learn why ongoing compliance monitoring is important beyond seller onboarding and how it helps catch risks such as money laundering, fraud, and sanctions.
+- [Output VAT for Swedish Businesses](https://stripe.com/resources/more/output-vat-for-swedish-businesses): Learn how to calculate output VAT in Sweden (utgående moms), what happens if output VAT is reported incorrectly, and other best practices.
+- [Sales Tax and Use Tax by State](https://stripe.com/resources/more/sales-tax-and-use-tax-by-state): Learn how combined sales tax and use tax rates stack up by state, how resale certificates work, and what sets manual tax processes apart from tax automation systems built to scale.
+- [What Services Are Not Taxable in Washington State](https://stripe.com/resources/more/what-services-are-not-taxable-in-washington-state): While most services aren't taxable in Washington, a change to the law in 2025 has made some services subject to sales tax. Here's what to know.
+
 ## Resources
 
 - [Support](https://support.stripe.com/): Find help and support for Stripe. Our support site provides answers on all types of situations, including account information, charges and refunds, and subscriptions information. Get your questions answered and find support for Stripe.

@@ -861,7 +861,6 @@
 - [Implementation services: The key to nonprofit digital transformation](https://www.okta.com/blog/customers-and-partners/implementation-services-the-key-to-nonprofit-digital-transformation)
 - [How Mars Leveraged Identity to Protect Sensitive Content and Applications](https://www.okta.com/blog/customers-and-partners/how-mars-leveraged-identity-to-protect-sensitive-content-and-applications)
 - [How nonprofits achieve their missions while delivering secure digital experiences](https://www.okta.com/blog/customers-and-partners/how-nonprofits-achieve-their-missions-while-delivering-secure-digital-experiences)
-- [Top Organizations Are Automating Identity With Okta Workflows](https://www.okta.com/blog/customers-and-partners/top-organizations-are-automating-identity-with-okta-workflows)
 - [How The Trevor Project saves 5,500 hours and $300K each year with Okta Workflows](https://www.okta.com/blog/customers-and-partners/how-the-trevor-project-saves-5500-hours-and-300k-each-year-with-okta-workflows)
 - [Unlock government efficiency at the Okta Gov Identity Summit 2025](https://www.okta.com/blog/customers-and-partners/unlock-government-efficiency-at-the-okta-gov-identity-summit-2025)
 - [Measuring the business value of Identity at Guaranteed Rate and ADT](https://www.okta.com/blog/customers-and-partners/measuring-the-business-value-of-identity-at-guaranteed-rate-and-adt)
@@ -1276,6 +1275,10 @@
 - [Okta Privileged Access and GCP Workload Identities](https://www.okta.com/blog/identity-security/okta-privileged-access-gcp-workloads)
 - [Now available: On-demand SaaS integrations from Okta](https://www.okta.com/blog/product-innovation/okta-on-demand-saas-integrations--connector-deployment-guide)
 - [Your endpoints are running AI agents you can't see](https://www.okta.com/blog/ai/shadow-ai-agent-discovery)
+- [Detecting shadow AI agents with advanced posture checks](https://www.okta.com/blog/threat-intelligence/detecting_shadow_ai_agents_with_advanced_posture_checks)
+- [Top Organizations Are Automating Identity With Okta Workflows](https://www.okta.com/blog/customers-and-partners/top-organizations-are-automating-identity-with-okta-workflows)
+- [Enterprise security best practices for autonomous AI agents](https://www.okta.com/blog/ai/securing-autonomous-ai-agents)
+- [Beyond SSO and MFA: Why your identity security strategy needs continuous control](https://www.okta.com/blog/identity-security/beyond-sso-mfa-continuous-identity)
 
 ## Newsroom
 

@@ -237,7 +237,6 @@ Disallow: /tr/ai-builder/1
 Disallow: /ua/ai-builder/1
 Disallow: /uk/ai-builder/1
 Disallow: /vn/ai-builder/1
-Disallow: /1
 
 Disallow: /tutorials/*_ga
 Disallow: /tutorials/search/*
@@ -671,7 +670,6 @@ Disallow: /tr/ai-builder/1
 Disallow: /ua/ai-builder/1
 Disallow: /uk/ai-builder/1
 Disallow: /vn/ai-builder/1
-Disallow: /1
 
 
 # Crawlers that only collect content for model training

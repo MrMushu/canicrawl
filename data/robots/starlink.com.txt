@@ -10,8 +10,6 @@ Disallow: /invitation-invalid/
 Disallow: /confirmation/
 Disallow: /unsubscribe/
 Disallow: /order/
-Disallow: /public/shop
-Disallow: /*/public/shop
 
 ### Redirects
 Disallow: /rv/

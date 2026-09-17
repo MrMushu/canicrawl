@@ -168,6 +168,11 @@ experience on every platform.
 
 ## Blog
 
+- [LLM Observability: The 8 Best Tools for Production AI Systems](https://newrelic.com/blog/ai/llm-observability): Compare the top LLM observability tools for production AI — tracing, cost tracking, and evaluation — and see what to weigh before you add another tool to your stack.
+- [Centralized Log Management: A Comprehensive Guide for Engineers](https://newrelic.com/blog/log/centralized-log-management): Learn how centralized log management helps developers and engineers improve incident response, reduce costs, and gain better control over log data.
+- [7 Best Synthetic Monitoring Tools for Engineering Teams](https://newrelic.com/blog/dem/synthetic-monitoring-tools): Compare the top synthetic monitoring tools for engineering teams — uptime checks, browser tests, and how each correlates with the rest of your stack.
+- [Kubernetes Monitoring Metrics: What to Track, How to Collect, & Best Practices](https://newrelic.com/blog/infrastructure-monitoring/kubernetes-monitoring-metrics): Learn how effectively monitoring Kubernetes metrics provides clarity, improves incident response, and helps you troubleshoot faster in complex environments.
+- [ Bridging the AI Visibility Gap](https://newrelic.com/blog/ai/bridging-the-ai-visibility-gap): Traditional monitoring fails GenAI. Discover how to solve semantic blind spots, secure OTel telemetry, and safely scale AI to production.
 - [New Relic Lens is now Generally Available](https://newrelic.com/blog/observability/general-availability-new-relic-lens): Bridge the gap between telemetry and business data. Query external databases directly and perform cross-database JOINs without paying double ingestion costs.
 - [Sweaters, Sunscreens, and Shared Purpose: What Summer Looked Like Across New Relic](https://newrelic.com/blog/news/sweaters-sunscreens-and-shared-purpose-what-summer-looked-like-across-new-relic): Explore how New Relic's global team built community, gave back, and fostered career growth across regions this summer.
 - [How Standards Get Adopted: OTel and Platform Engineering](https://newrelic.com/blog/observability/how-standards-get-adopted-otel-and-platform-engineering): OpenTelemetry didn't win on vendor neutrality alone — it won by changing how platform teams and developers work together. Here's how.
@@ -185,19 +190,14 @@ experience on every platform.
 - [The Next Competitive Advantage in Enterprise AI](https://newrelic.com/blog/ai/new-relic-ground-truth-enterprise-ai): Learn why trusted operational intelligence is becoming the foundation for enterprise AI and how New Relic Ground Truth enables reliable autonomous operations.
 - [Cleared for Launch: Ahead of the framework by design – Part 1](https://newrelic.com/blog/observability/cleared-for-launch-ahead-of-the-framework-by-design-part-1): New Relic uses STAR to accelerate releases for all products, including AI. See how this unified framework streamlines security, legal, and compliance.
 - [Empowering Relics to Own Their Career Growth](https://newrelic.com/blog/news/empowering-relics-to-own-their-career-growth): Learn how New Relic’s 5th Grow Your Career Month equips employees with continuous learning, leadership development, and AI skills to drive career growth.
-- [New Relic SecurityRX - Security for Operational Reliability](https://newrelic.com/blog/security/securityrx-agent-released): Treat security as a reliability problem. New UI experience (with the homepage), automation capabilities (with Jira), and the agent public preview for a complete remediation workflow.
-- [Azure Cost Management Tools: Comparison and Buyer’s Guide (2026)](https://newrelic.com/blog/observability/azure-cost-management-tools): Discover the best Azure cost management tools to gain real-time visibility, control spend, and optimize your Azure environment with confidence.
-- [How to Choose Digital Experience Monitoring Tools](https://newrelic.com/blog/observability/digital-experience-monitoring-tools): Discover how digital experience monitoring tools help you understand user issues beyond APM, enabling faster, clearer insights for better software performance.
-- [Session Replay Tools: A Technical Buyer’s Guide and Comparison](https://newrelic.com/blog/observability/session-replay-tools): Discover how to evaluate session replay tools for engineering teams, ensuring they meet technical needs for incident response and observability.
-- [AWS Cloud Cost Management Tools: Comprehensive Buyer’s Guide (2026)](https://newrelic.com/blog/observability/aws-cloud-cost-management-tools): Discover the best AWS cloud cost management tools to gain visibility, reduce waste, and connect spend data with system performance for smarter decisions.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [[On-demand] Proactively monitor availability and performance with New Relic Synthetics (EMEA)](https://newrelic.com/events/2026-09-16/proactively-monitor-availability-and-performance-with-new-relic-synthetics-emea-on-demand): Watch an overview of synthetic monitoring in New Relic, to find out where specific errors and slow pages are so that you can deliver the best customer experience.
+- [Visit New Relic at Booth 159 at KubeCon](https://newrelic.com/events/2026-11-09/kubecon-salt-lake-city): Visit New Relic at Booth 159 at KubeCon
 - [[Webinar] From Click to Code: Instrumenting New Relic Mobile and Browser Monitoring (APAC) (on demand)](https://newrelic.com/events/2026-10-09/mobile-monitoring-apac-on-demand): Join us for this 60-minute workshop to learn how New Relic Browser and Mobile Monitoring provide real-time, end-to-end visibility into frontend performance.
 - [New Relic & Verisk on Stage at re:Invent](https://newrelic.com/events/2026-12-01/reinvent-speaking-sessions): New Relic joins forces with our customer Verisk on stage for a breakout session at AWS re:Invent on Tue Dec 1 at 11.30am.
 - [[Webinar] Proactively monitor availability and performance with New Relic Synthetics (APAC) (on demand)](https://newrelic.com/events/2026-03-09/nru-synthetics-workshop-apac-on-demand): Join us for an overview of synthetic monitoring in New Relic, to find out where specific errors and slow pages are so that you can deliver the best customer experience.
-- [Product Pulse On Demand](https://newrelic.com/events/2026-08-27/product-pulse-on-demand): Watch our monthly live Product Pulse sessions on demand with Feature Spotlights, Expert Q&A, and Practical Guidance.
-- [Visit New Relic's Booth 21102 at Money20/20](https://newrelic.com/events/2026-10-19/money2020): Visit New Relic's Booth 21102 at Money20/20
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.
@@ -240,7 +240,7 @@ experience on every platform.
 - [Cloudflare Network Logs](https://newrelic.com/instant-observability/cloudflare): Cloudflare is an industry leading global network designed to make everything you connect to the Internet secure, private, fast, and reliable. Protect and accele...
 - [Akamai DataStream 2](https://newrelic.com/instant-observability/datastream2): Akamai and DataStream 2
 - [Confluent Cloud - Managed Kafka](https://newrelic.com/instant-observability/otelcol-confluent-cloud): Confluent makes it easy to connect your apps, data systems, and entire organization with real-time data flows and processing.
-- [LambdaTest](https://newrelic.com/instant-observability/lambdatest): LambdaTest is an AI-powered test orchestration and execution platform to run manual and automated tests at scale. With LambdaTest, developers and testers can te...
+- [TestMu AI (Formerly LambdaTest)](https://newrelic.com/instant-observability/lambdatest): About TestMu AI (Formerly LambdaTest)
 - [PHP](https://newrelic.com/instant-observability/php): PHP server monitoring
 - [Java](https://newrelic.com/instant-observability/java): Java is a compiled language, with the potential to be very fast. However, there are a a lot of Java-specific quirks that make the average program slow such as h...
 - [.NET](https://newrelic.com/instant-observability/dotnet): Comprehensive monitoring quickstart for .NET

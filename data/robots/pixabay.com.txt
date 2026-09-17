@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /api/docs/
 Allow: /static/*.*
+Allow: /*/search/forum/
+Allow: /*/search/feeds/
+Allow: /*/search/like/
+Allow: /*/search/bootstrap/
 Disallow: *?*orientation=*
 Disallow: *?*manual_search=*
 Disallow: *?*min_width=*
