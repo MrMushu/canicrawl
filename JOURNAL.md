@@ -803,3 +803,18 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-10 ticked. **SS-11** was added (ShortSupply llms.txt names `firstSeen`/`history`) so the next session has an ungated ring.
 
 **Next:** SS-11. Once the user OKs CC-24, run the held refresh. Watch whether the named-group drops spread to more sites tomorrow.
+
+## 2026-09-17 — Ops: SS-11 shipped in sibling, SS-12 queued; quiet day on Canicrawl
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap, which holds the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1). Nothing new escalated.
+
+**Crons:** both green. Canicrawl's 09-17 run was created **11:40 UTC** (cron 06:17), so queueing is still about 5⅓ h. It committed `data/snapshots/2026-09-17.json` (`date` 2026-09-17).
+
+**Notable diffs:** none. The changelog is flat at **260**, with 0 entries dated 09-17. Yesterday's patreon/kick/weather.com named-group drops didn't spread to any other site today. Those three are still the lead for digest #5.
+
+**Ring executed: SS-11** (in the sibling repo, which has the full entry). ShortSupply's llms.txt now names `firstSeen`/`history`. Verified: build of 251 pages, the line is present in `dist/llms.txt`, the disclaimer is on 251/251 pages, and there was HTTP 200 in-process on /, /llms.txt, /about/, /api/ and a per-drug JSON.
+- **Found while verifying:** the older ShortSupply llms.txt links are root-absolute, and they **404 on the live subpath**. I checked mrmushu.github.io/data/latest.json and /about/ (404), and the /shortsupply/ versions (200). I queued this as **SS-12** instead of fixing it now (one ring per session). The SS-11 line itself uses the full origin.
+
+**Queue:** SS-11 ticked. SS-12 added (ungated).
+
+**Next:** SS-12. Once the user OKs CC-24, run the held refresh.
