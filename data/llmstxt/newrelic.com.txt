@@ -7,7 +7,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 
 - [New Relic Observability Platform](https://newrelic.com/platform): New Relic is an intelligent observability platform brings telemetry, operational context, AI, and business data together for better, faster decisions.
 - [SRE Agent ](https://newrelic.com/platform/sre-agent): New Relic SRE Agent uses AI-driven automation to detect issues, explain incidents, and guide remediation. Reduce MTTR and improve reliability with intelligent SRE workflows.
-- [Agentic Integrations](https://newrelic.com/platform/agentic-integrations): Build, deploy, and govern AI agents with real-time observability. The New Relic agentic platform powers autonomous operations with confidence.
 - [AIOps and Applied Intelligence](https://newrelic.com/platform/applied-intelligence): Use AIOps to detect and manage incidents, dependencies, and anomalies across your stack. Alert teams, determine root cause, and resolve critical issues faster.
 - [Cloud Cost Intelligence](https://newrelic.com/platform/cloud-cost-intelligence): Connect cloud and AI spend to service performance through real-time visibility, intelligent recommendations, and AI-powered actions. 
 - [Business observability that connects technology to outcomes](https://newrelic.com/platform/pathpoint): Connect technical performance to real business outcomes so teams can prioritize what matters most to customers, revenue, and growth.
@@ -193,11 +192,11 @@ experience on every platform.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [[On-demand] Exploring the Power of New Relic Browser Monitoring and Session Replay (EMEA)](https://newrelic.com/events/2026-09-17/browser-monitoring-session-replay): Learn how to use New Relic browser monitoring to help ensure successful deployments and quickly troubleshoot customer-visible problems, measure full page life cycle data and the information you need to ensure customer satisfaction.
 - [[On-demand] Proactively monitor availability and performance with New Relic Synthetics (EMEA)](https://newrelic.com/events/2026-09-16/proactively-monitor-availability-and-performance-with-new-relic-synthetics-emea-on-demand): Watch an overview of synthetic monitoring in New Relic, to find out where specific errors and slow pages are so that you can deliver the best customer experience.
 - [Visit New Relic at Booth 159 at KubeCon](https://newrelic.com/events/2026-11-09/kubecon-salt-lake-city): Visit New Relic at Booth 159 at KubeCon
 - [[Webinar] From Click to Code: Instrumenting New Relic Mobile and Browser Monitoring (APAC) (on demand)](https://newrelic.com/events/2026-10-09/mobile-monitoring-apac-on-demand): Join us for this 60-minute workshop to learn how New Relic Browser and Mobile Monitoring provide real-time, end-to-end visibility into frontend performance.
 - [New Relic & Verisk on Stage at re:Invent](https://newrelic.com/events/2026-12-01/reinvent-speaking-sessions): New Relic joins forces with our customer Verisk on stage for a breakout session at AWS re:Invent on Tue Dec 1 at 11.30am.
-- [[Webinar] Proactively monitor availability and performance with New Relic Synthetics (APAC) (on demand)](https://newrelic.com/events/2026-03-09/nru-synthetics-workshop-apac-on-demand): Join us for an overview of synthetic monitoring in New Relic, to find out where specific errors and slow pages are so that you can deliver the best customer experience.
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.

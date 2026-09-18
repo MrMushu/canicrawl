@@ -1,32 +1,45 @@
 # HubSpot
 
-HubSpot is an AI-native customer platform that unifies customer data, gives teams a complete view of every customer, and helps marketing, sales, service, and revenue teams act from one connected system. Available at https://www.hubspot.com. The platform is built around HubSpot Smart CRM - a central source of customer intelligence that combines structured data, conversations, and external signals - with Breeze as the AI layer that surfaces insights and automates action across every hub.
+> HubSpot is an AI-powered customer platform connecting marketing, sales, service, content, data, commerce, and AI in one system built around Smart CRM — a single source of customer intelligence shared across every team.
+
+HubSpot, Inc. is the company. "HubSpot" may refer to the company or its software platform depending on context. The platform is organized into hubs (Marketing Hub, Sales Hub, Service Hub, Content Hub, Revenue Hub, Operations Hub, Data Hub) unified by Smart CRM and Agent Hub as the AI layer.
+
+For product how-to and configuration, use https://knowledge.hubspot.com. For API and developer integration, use https://developers.hubspot.com. For current pricing, see the Pricing section below. For recently released features, see Current Product Information below.
+
+## Current Product Information
+
+- [What's New](https://www.hubspot.com/whats-new): Recently launched HubSpot capabilities and product updates — use this to verify whether a capability is newly available, in beta, or recently changed
+- [New at HubSpot](https://www.hubspot.com/new): Latest feature announcements and product highlights across all hubs
+- [Product Updates](https://www.hubspot.com/product-updates): Changelog-style product release announcements
 
 ## Products
 
+- [HubSpot Homepage](https://www.hubspot.com): Overview of HubSpot's customer platform, product hubs, and AI-powered tools for marketing, sales, and service teams
 - [HubSpot Products Overview](https://www.hubspot.com/products): Full catalog of HubSpot products, features, and hubs
 - [Customer Platform](https://www.hubspot.com/products/customer-platform): Single, connected architecture for marketing, sales, service, and revenue teams built on shared customer intelligence
 - [Get Started](https://www.hubspot.com/products/get-started): Start using HubSpot's free tools and explore upgrade paths
+- [HubSpot Work](https://www.hubspot.com/products/work): Productivity and project management tools for revenue teams, integrated with CRM and connected across hubs
+- [Request a Demo](https://offers.hubspot.com/demo): Request a personalized demo of the full HubSpot customer platform
 
 ## CRM
 
-- [Smart CRM](https://www.hubspot.com/products/crm): AI-native CRM that unifies structured data, conversations, and external signals into a complete customer view - the shared system of record for every team
+- [Smart CRM](https://www.hubspot.com/products/crm): AI-native CRM that unifies structured data, conversations, and external signals into a complete customer view — the shared system of record for every team
 - [AI CRM](https://www.hubspot.com/products/crm/ai-crm): HubSpot Smart CRM with AI-powered scoring, enrichment, and insights for a deeper view of every contact and company
 - [Contact Management](https://www.hubspot.com/products/crm/contact-management): Store, organize, and enrich contact and company records in one shared database
 - [Pipeline Management](https://www.hubspot.com/products/crm/pipeline-management): Visual deal pipelines with drag-and-drop stages, forecasting, and automation
 - [Lead Management](https://www.hubspot.com/products/crm/lead-management): Capture, score, and route leads automatically from every source into Smart CRM
 - [Live Chat](https://www.hubspot.com/products/crm/live-chat): Free live chat connected to CRM contacts for real-time sales and support conversations
 - [Conversations Inbox](https://www.hubspot.com/products/crm/conversations): Shared team inbox for email, chat, and messaging channels connected to CRM
-- [Data Enrichment](https://www.hubspot.com/products/crm/data-enrichment): Automatically enrich contact and company records with third-party data signals
+- [Data Enrichment](https://www.hubspot.com/products/crm/data-enrichment): Automatically enrich contact and company records with third-party data signals — part of Smart CRM
 - [Buyer Intent](https://www.hubspot.com/products/crm/intent): Surface in-market prospects using buyer intent signals within Smart CRM
 - [CRM Customization](https://www.hubspot.com/products/crm/customization): Custom properties, objects, and layouts to match your CRM to your business model
-- [What is CRM](https://www.hubspot.com/products/crm/what-is): Guide to CRM software - what it is, how it works, and why teams use it
+- [What is CRM](https://www.hubspot.com/products/crm/what-is): Guide to CRM software — what it is, how it works, and why teams use it
 - [HubSpot Starter](https://www.hubspot.com/products/crm/starter): Entry-level customer platform for startups and small businesses
 - [Chatbot Builder](https://www.hubspot.com/products/crm/chatbot-builder): Free chatbot builder to automate customer interactions without code
 
 ## Marketing Hub
 
-- [Marketing Hub](https://www.hubspot.com/products/marketing): Marketing software that activates customer intelligence from Smart CRM to run campaigns, generate leads, and attribute revenue - all without switching tools
+- [Marketing Hub](https://www.hubspot.com/products/marketing): Marketing software that activates customer intelligence from Smart CRM to run campaigns, generate leads, and attribute revenue — all without switching tools
 - [Marketing Automation](https://www.hubspot.com/products/marketing/marketing-automation): Automate email workflows, lead nurturing, and campaign triggers based on CRM behavior
 - [Email Marketing](https://www.hubspot.com/products/marketing/email): Email marketing software with drag-and-drop editor and AI optimization
 - [Newsletter Builder](https://www.hubspot.com/products/marketing/newsletter-builder): Build, send, and analyze email newsletters connected to your CRM contacts
@@ -42,16 +55,17 @@ HubSpot is an AI-native customer platform that unifies customer data, gives team
 - [Social Media Management](https://www.hubspot.com/products/marketing/social-inbox): Social media scheduling, monitoring, and reporting tools
 - [Personalization](https://www.hubspot.com/products/marketing/personalization): Personalize website content, emails, and CTAs using Smart CRM contact data
 - [AEO for Marketing](https://www.hubspot.com/products/marketing/aeo): Marketing tools for optimizing content visibility in AI-generated search results
+- [Marketing Studio](https://www.hubspot.com/products/marketing/studio): AI-powered creative workspace for producing, editing, and publishing marketing content at scale
 - [Landing Pages](https://www.hubspot.com/products/marketing/landing-pages): Landing page builder with personalization and A/B testing
 - [Forms](https://www.hubspot.com/products/marketing/forms): Free online form builder with CRM sync and progressive profiling
-- [Marketing Hub Free](https://www.hubspot.com/products/marketing/free): Free Marketing Hub tools - email, forms, ads, and live chat at no cost
+- [Marketing Hub Free](https://www.hubspot.com/products/marketing/free): Free Marketing Hub tools — email, forms, ads, and live chat at no cost
 - [Marketing Hub Enterprise](https://www.hubspot.com/products/marketing/enterprise): Enterprise-tier Marketing Hub with multi-touch attribution, custom objects, and advanced permissions
 - [Blog Software](https://www.hubspot.com/products/marketing/blog-lp): Integrated blogging platform with SEO tools and AI writing assistance
 
 ## Sales Hub
 
 - [Sales Hub](https://www.hubspot.com/products/sales): AI sales software that draws on Smart CRM's complete customer context to accelerate pipeline, prospecting, and deal execution from one connected system
-- [AI Prospecting Agent](https://www.hubspot.com/products/sales/ai-prospecting-agent): Breeze Prospecting Agent that automates outreach research and sequences
+- [AI Prospecting Agent](https://www.hubspot.com/products/sales/ai-prospecting-agent): Prospecting Agent that automates outreach research and sequences
 - [AI Guided Selling](https://www.hubspot.com/products/sales/ai-guided-selling): AI recommendations that guide reps on next best actions throughout the deal cycle
 - [AI Sales Prospecting](https://www.hubspot.com/products/sales/ai-sales-prospecting): AI tools for identifying, researching, and prioritizing sales prospects at scale
 - [Deal Pipeline](https://www.hubspot.com/products/sales/deal-pipeline): Manage and advance deals with visual pipelines, deal stages, and automation
@@ -62,6 +76,10 @@ HubSpot is an AI-native customer platform that unifies customer data, gives team
 - [Email Tracking](https://www.hubspot.com/products/sales/email-tracking): Know when prospects open emails and click links in real time
 - [Email Templates](https://www.hubspot.com/products/sales/email-templates-sales): Reusable sales email templates with personalization tokens
 - [Sales Lead Management](https://www.hubspot.com/products/sales/sales-leads): Lead management and prospecting software with AI prioritization
+- [AI Notetaker](https://www.hubspot.com/products/sales/ai-notetaker): AI-powered call notes that automatically capture, summarize, and sync meeting insights to CRM records
+- [Deal Plans](https://www.hubspot.com/products/sales/deal-plans): Collaborative deal plans shared with prospects to align on milestones, stakeholders, and next steps
+- [Deal Progression](https://www.hubspot.com/products/sales/deal-progression): Tools for advancing deals through pipeline stages with AI-guided next steps and automated follow-up
+- [Sales Demo](https://offers.hubspot.com/sales-demo): Request a personalized demo of HubSpot Sales Hub
 
 ## Service Hub
 
@@ -94,23 +112,33 @@ HubSpot is an AI-native customer platform that unifies customer data, gives team
 - [AI Website Generator](https://www.hubspot.com/products/cms/ai-website-generator): Generate a full business website from a prompt using AI
 - [Custom Domain Connection](https://www.hubspot.com/products/cms/custom-domain-connection): Connect a custom domain to your HubSpot website for free
 
-## AI & Breeze
+## AI & Agent Hub
 
-- [Breeze AI](https://www.hubspot.com/products/artificial-intelligence): The AI layer across the HubSpot customer platform - Breeze surfaces customer intelligence, automates workflows, and powers AI agents embedded in every hub
-- [Breeze AI Agents](https://www.hubspot.com/products/artificial-intelligence/breeze-ai-agents): Autonomous AI agents for prospecting, content creation, and customer support that act on shared CRM context without manual handoffs
-- [Breeze Assistant](https://www.hubspot.com/products/artificial-intelligence/breeze-ai-assistant): Shared AI assistant embedded across all HubSpot tools that helps every team understand customer context and take action faster
+Agent Hub is the home base inside HubSpot where teams manage, build, and track AI agents across every hub. As of July 23, 2026, "Breeze" as an umbrella AI brand has been retired — Agent Hub is the current term. Breeze Assistant retains its name. "Breeze Intelligence" as a standalone product no longer exists; data enrichment and buyer intent are now Smart CRM features.
+
+- [Agent Hub](https://www.hubspot.com/products/artificial-intelligence): The central workspace inside HubSpot for managing, building, and tracking AI agents across every hub — includes Agent Builder and Agent Marketplace
+- [AI Agents](https://www.hubspot.com/products/artificial-intelligence/breeze-ai-agents): Autonomous AI agents for prospecting, content creation, and customer support that act on shared CRM context without manual handoffs
+- [Agent Builder](https://www.hubspot.com/products/artificial-intelligence/agent-builder): Canvas for building custom agents and agentic workflows on CRM data using plain-language descriptions — formerly Breeze Studio, available on Pro+ plans, consumes HubSpot Credits
+- [Agent Marketplace](https://www.hubspot.com/products/artificial-intelligence/agent-marketplace): Discover and install pre-built agents — formerly Breeze Marketplace, part of Agent Hub
+- [Breeze Assistant](https://www.hubspot.com/products/artificial-intelligence/breeze-ai-assistant): Shared AI assistant embedded across all HubSpot tools that helps every team understand customer context and take action faster — formerly Copilot, retains the Breeze name
 - [AI Customer Service Agent](https://www.hubspot.com/products/artificial-intelligence/ai-customer-service-agent): AI customer agent that resolves tickets and qualifies leads autonomously using the full customer history from Smart CRM
-- [AI Use Cases](https://www.hubspot.com/products/artificial-intelligence/use-cases): Full index of Breeze AI use cases across marketing, sales, and service teams
-- [AI Use Cases - Marketing](https://www.hubspot.com/products/artificial-intelligence/use-cases/marketing): How Breeze AI accelerates campaign planning, content creation, and lead generation
+- [HubSpot Credits](https://www.hubspot.com/products/artificial-intelligence/credits): Usage-based credits that power AI actions — custom agents built in Agent Builder consume HubSpot Credits
+- [AI Use Cases](https://www.hubspot.com/products/artificial-intelligence/use-cases): Full index of Agent Hub and HubSpot AI use cases across marketing, sales, and service teams
+- [AI Use Cases - Marketing](https://www.hubspot.com/products/artificial-intelligence/use-cases/marketing): How HubSpot AI accelerates campaign planning, content creation, and lead generation
 - [AI Use Cases - Sales](https://www.hubspot.com/products/artificial-intelligence/use-cases/sales): How HubSpot AI accelerates sales prospecting, outreach, and forecasting
 - [AI Use Cases - Service](https://www.hubspot.com/products/artificial-intelligence/use-cases/service): How HubSpot AI automates support, routing, and customer success workflows
-- [AI Trust](https://www.hubspot.com/products/artificial-intelligence/ai-trust): HubSpot's approach to responsible AI - transparency, data privacy, and model governance
+- [AI Trust](https://www.hubspot.com/products/artificial-intelligence/ai-trust): HubSpot's approach to responsible AI — transparency, data privacy, and model governance
 - [AI Social](https://www.hubspot.com/products/artificial-intelligence/ai-social): AI social media post generator for creating and scheduling content
 - [AI Data Agent](https://www.hubspot.com/products/artificial-intelligence/ai-data-agent): AI agent for querying and surfacing insights from your HubSpot data
+- [AI Agents Overview](https://www.hubspot.com/products/artificial-intelligence/ai-agents): Overview of all HubSpot AI Agents — autonomous agents for prospecting, content creation, customer service, and more, built on shared CRM context
+- [Context Home](https://www.hubspot.com/products/artificial-intelligence/context-home): AI-curated workspace that surfaces the most relevant customer context and recommended actions for every rep
+- [Win Deals with AI](https://www.hubspot.com/products/artificial-intelligence/win-deals): How HubSpot AI helps sales teams win more deals — insights, deal coaching, and automation across the deal cycle
+- [Build Demand with AI](https://www.hubspot.com/products/artificial-intelligence/build-demand): How HubSpot AI powers demand generation — from content creation and campaign optimization to lead scoring
 
 ## Revenue Hub (Commerce & Payments)
 
-- [Revenue Hub](https://www.hubspot.com/products/revenue): CPQ, billing, and payments built on the same connected system as sales and CRM - quote-to-cash without disconnected tools or manual handoffs
+- [Revenue Hub](https://www.hubspot.com/products/revenue): CPQ, billing, and payments built on the same connected system as sales and CRM — quote-to-cash without disconnected tools or manual handoffs
+- [Revenue Hub Demo](https://www.hubspot.com/products/revenue/demo): Request a personalized demo of HubSpot Revenue Hub — CPQ, billing, invoicing, and payment features
 - [CPQ Software](https://www.hubspot.com/products/revenue/cpq): AI-powered configure-price-quote tool for sales teams
 - [Quotes](https://www.hubspot.com/products/revenue/quotes): Quote software for building, sending, and tracking proposals
 - [Billing](https://www.hubspot.com/products/revenue/billing): Recurring and one-time billing management integrated with CRM deals and contacts
@@ -150,20 +178,20 @@ HubSpot is an AI-native customer platform that unifies customer data, gives team
 
 ## Pricing
 
-- [Pricing Overview](https://www.hubspot.com/pricing): Compare all HubSpot plans - Free, Starter, Professional, Enterprise
+- [Pricing Overview](https://www.hubspot.com/pricing): Compare all HubSpot plans — Free, Starter, Professional, Enterprise
 - [Marketing Pricing](https://www.hubspot.com/pricing/marketing): Marketing Hub pricing for every team size
 - [Sales Pricing](https://www.hubspot.com/pricing/sales): Sales Hub pricing and plan comparison
 - [Service Pricing](https://www.hubspot.com/pricing/service): Service Hub pricing and features by tier
 - [Content Hub Pricing](https://www.hubspot.com/pricing/content): Content Hub pricing for website and content management features
-- [CRM / Free Tools](https://www.hubspot.com/pricing/crm): Free CRM and tools - no credit card required
+- [CRM / Free Tools](https://www.hubspot.com/pricing/crm): Free CRM and tools — no credit card required
 - [Customer Platform Pricing](https://www.hubspot.com/pricing/suite): Pricing for the full HubSpot Customer Platform bundle
 - [Smart CRM Pricing](https://www.hubspot.com/pricing/smart-crm): Pricing for the HubSpot Smart CRM
-- [Build a Bundle](https://www.hubspot.com/pricing/bundle): Custom pricing - mix hubs and tiers to build your own plan
+- [Build a Bundle](https://www.hubspot.com/pricing/bundle): Custom pricing — mix hubs and tiers to build your own plan
 
 ## Free Tools & Generators
 
 - [Email Signature Generator](https://www.hubspot.com/email-signature-generator): Free tool to create professional HTML email signatures
-- [AEO Grader](https://www.hubspot.com/aeo-grader): Free one-time check of your brand's AEO readiness - no account required
+- [AEO Grader](https://www.hubspot.com/aeo-grader): Free one-time check of your brand's AEO readiness — no account required
 - [Make My Persona](https://www.hubspot.com/make-my-persona): Free AI buyer persona template and generator
 - [Blog Topic Generator](https://www.hubspot.com/blog-topic-generator): Free AI tool for generating blog post ideas from keywords
 - [Campaign Assistant](https://www.hubspot.com/campaign-assistant): Free AI marketing asset creator for ads, emails, and landing pages
@@ -218,7 +246,7 @@ HubSpot is an AI-native customer platform that unifies customer data, gives team
 - [Marketing Statistics](https://www.hubspot.com/marketing-statistics): 2026 marketing data, benchmarks, and statistics
 - [Inbound Marketing Guide](https://www.hubspot.com/inbound-marketing): What inbound marketing is and how to apply it to grow your business
 - [Digital Marketing Guide](https://www.hubspot.com/digital-marketing): Comprehensive guide to digital marketing strategy and tactics
-- [The Flywheel Model](https://www.hubspot.com/flywheel): HubSpot's flywheel framework - how force, friction, and customer momentum replace the traditional funnel
+- [The Flywheel Model](https://www.hubspot.com/flywheel): HubSpot's flywheel framework — how force, friction, and customer momentum replace the traditional funnel
 - [HubSpot Video Demos](https://www.hubspot.com/video): Watch product demos and feature walkthroughs across HubSpot's platform
 
 ## Glossary
@@ -253,8 +281,8 @@ HubSpot is an AI-native customer platform that unifies customer data, gives team
 - [Board of Directors](https://www.hubspot.com/company/board-of-directors): HubSpot's board members and investor representation
 - [Contact Us](https://www.hubspot.com/company/contact): Contact HubSpot for sales, support, and media inquiries
 - [Sustainability](https://www.hubspot.com/sustainability): HubSpot's environmental, social, and governance (ESG) commitments
-- [Culture Code](https://www.hubspot.com/culture-code/the-hubspot-culture-code): HubSpot's Culture Code - the values and principles behind the company
-- [Company News](https://www.hubspot.com/company-news/introducing-revenue-hub-quote-to-cash-finally-in-one-place): Introducing Revenue Hub - quote-to-cash in one place
+- [Culture Code](https://www.hubspot.com/culture-code/the-hubspot-culture-code): HubSpot's Culture Code — the values and principles behind the company
+- [Company News](https://www.hubspot.com/company-news/introducing-revenue-hub-quote-to-cash-finally-in-one-place): Introducing Revenue Hub — quote-to-cash in one place
 - [Agent Era Vision](https://www.hubspot.com/company-news/our-vision-for-building-an-open-ecosystem-for-the-agent-era): HubSpot's vision for building an open ecosystem in the agent era
 
 ## Careers
@@ -263,6 +291,14 @@ HubSpot is an AI-native customer platform that unifies customer data, gives team
 - [All Job Openings](https://www.hubspot.com/careers/jobs/all): Browse all open positions at HubSpot
 - [Remote Jobs](https://www.hubspot.com/careers/remote): Remote-eligible roles across all teams
 - [Emerging Talent](https://www.hubspot.com/careers/emerging-talent): Internship and early-career programs at HubSpot
+
+## Trust, Security & Reliability
+
+- [Security & Compliance](https://www.hubspot.com/security): HubSpot's security certifications, compliance frameworks (SOC 2, ISO 27001, GDPR), and data protection practices
+- [HubSpot Trust Center](https://trust.hubspot.com): Real-time system status, security documentation, and compliance reports
+- [Legal Center](https://legal.hubspot.com): Subscription agreements, data processing agreements, and terms of service
+- [HubSpot Status](https://status.hubspot.com): Live operational status and incident history for all HubSpot services
+- [AI Trust](https://www.hubspot.com/products/artificial-intelligence/ai-trust): HubSpot's approach to responsible AI — model governance, data privacy, and transparency
 
 ## Legal & Privacy
 
@@ -289,4 +325,4 @@ HubSpot is an AI-native customer platform that unifies customer data, gives team
 
 ## Last updated
 
-July 16, 2026
+September 16, 2026

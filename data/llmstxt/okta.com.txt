@@ -891,7 +891,6 @@
 - [Identity 25 U.S. Public Sector honorees: Part 2, Bridging academic innovation and government implementation](https://www.okta.com/blog/customers-and-partners/identity-25-u-s-public-sector-honorees-part-2-bridging-academic-innovation-and)
 - [Okta welcomes US DoW and mission partners to Okta Identity Governance, Workflows, and AI](https://www.okta.com/blog/product-innovation/okta-welcomes-dod-and-mission-partners-to-iga-workflows-ai)
 - [Elevating Okta Workflows observability: Execution Log Streaming and Execution History Inspector now Generally Available](https://www.okta.com/blog/product-innovation/elevating-okta-workflows-observability--execution-log-streaming)
-- [Unified Requester Experience: Your one-stop shop for Access Requests](https://www.okta.com/blog/product-innovation/unified-requester-experience-your-one-stop-shop-for-access-requests)
 - [Request for builders: Six key focus areas in Identity ](https://www.okta.com/blog/industry-insights/request-for-builders-six-key-focus-areas-in-identity)
 - [Okta Partners with DigitalOcean, Netlify, and Vercel to Simplify Identity for Developers](https://www.okta.com/blog/customers-and-partners/okta-partners-to-simplify-identity)
 - [Passkeys: The key to a passwordless future](https://www.okta.com/blog/identity-security/passkeys--the-key-to-a-passwordless-future)
@@ -1279,6 +1278,7 @@
 - [Top Organizations Are Automating Identity With Okta Workflows](https://www.okta.com/blog/customers-and-partners/top-organizations-are-automating-identity-with-okta-workflows)
 - [Enterprise security best practices for autonomous AI agents](https://www.okta.com/blog/ai/securing-autonomous-ai-agents)
 - [Beyond SSO and MFA: Why your identity security strategy needs continuous control](https://www.okta.com/blog/identity-security/beyond-sso-mfa-continuous-identity)
+- [Unified Requester Experience: Your one-stop shop for Okta Access Requests](https://www.okta.com/blog/product-innovation/unified-requester-experience-your-one-stop-shop-for-access-requests)
 
 ## Newsroom
 
@@ -1510,4 +1510,6 @@
 - [Closing the frontline MFA coverage gap with Okta NFC](https://www.okta.com/newsroom/articles/nfc-authentication-frontline-workers)
 - [Okta recognized in the 2026 Gartner® Market Guide for Identity Governance and Administration](https://www.okta.com/newsroom/articles/okta-recognized-in-2026-gartner-market-guide)
 - [How a leading fintech platform secured its AI wave before it even began](https://www.okta.com/newsroom/articles/how-a-leading-fintech-platform-secured-its-ai-wave-before-it-even-began)
+- [Lessons learned from securing our digital workforce](https://www.okta.com/newsroom/articles/lessons-from-securing-our-digital-workforce)
+- [What CISOs need to know about runtime identity enforcement for AI agents](https://www.okta.com/newsroom/articles/what-cisos-need-to-know-about-ai-agents-at-runtime)
 

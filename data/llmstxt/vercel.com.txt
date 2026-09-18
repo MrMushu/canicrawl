@@ -34,7 +34,7 @@ Use this index to find machine-readable documentation and platform resources. Fo
 ## REST API and developer resources
 
 - [Vercel REST API documentation](https://vercel.com/docs/rest-api.md): Endpoint reference for the public Vercel REST API.
-- [Vercel REST API OpenAPI description](https://openapi.vercel.sh/): Machine-readable OpenAPI 3.0 description for the public REST API.
+- [Vercel REST API OpenAPI description](https://vercel.com/openapi.json): Machine-readable OpenAPI 3.0 description for the public REST API.
 - [Vercel REST API authentication](https://vercel.com/docs/accounts/access-tokens.md#use-a-scoped-token-with-the-api): Create scoped access tokens and use them as Bearer tokens in API requests.
 - [Vercel webhook documentation](https://vercel.com/docs/webhooks.md): Event subscriptions, payloads, and delivery behavior.
 - [Vercel MCP server](https://vercel.com/docs/agent-resources/vercel-mcp.md): OAuth-authenticated tools for Vercel documentation and account resources.

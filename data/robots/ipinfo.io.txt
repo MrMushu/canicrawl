@@ -21,6 +21,7 @@ Disallow: /case-studies/
 Disallow: /probenet/live/
 
 Sitemap: https://ipinfo.io/sitemap.xml
+Sitemap: https://ipinfo.io/learn/sitemap.xml
 Sitemap: https://ipinfo.io/static/sitemaps/countries.xml
 Sitemap: https://ipinfo.io/static/sitemaps/8s.xml
 Sitemap: https://ipinfo.io/static/sitemaps/16s.xml

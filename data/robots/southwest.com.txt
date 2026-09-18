@@ -15,4 +15,3 @@ Sitemap: https://mobile.southwest.com/sitemap.xml
 Sitemap: https://www.investors.southwest.com/sitemap.xml
 Sitemap: https://rapidrewardsshopping.southwest.com/sitemap.php
 Sitemap: https://support.southwest.com/helpcenter/s/sitemap.xml
-Sitemap: https://support.southwest.com/helpcenter/sfsites/c/resource/HelpCenter_Sitemap
