@@ -1279,6 +1279,7 @@
 - [Enterprise security best practices for autonomous AI agents](https://www.okta.com/blog/ai/securing-autonomous-ai-agents)
 - [Beyond SSO and MFA: Why your identity security strategy needs continuous control](https://www.okta.com/blog/identity-security/beyond-sso-mfa-continuous-identity)
 - [Unified Requester Experience: Your one-stop shop for Okta Access Requests](https://www.okta.com/blog/product-innovation/unified-requester-experience-your-one-stop-shop-for-access-requests)
+- [Identity may be the design primitive you're overlooking](https://www.okta.com/blog/customers-and-partners/ai-agent-identity-design-primitive)
 
 ## Newsroom
 
@@ -1512,4 +1513,5 @@
 - [How a leading fintech platform secured its AI wave before it even began](https://www.okta.com/newsroom/articles/how-a-leading-fintech-platform-secured-its-ai-wave-before-it-even-began)
 - [Lessons learned from securing our digital workforce](https://www.okta.com/newsroom/articles/lessons-from-securing-our-digital-workforce)
 - [What CISOs need to know about runtime identity enforcement for AI agents](https://www.okta.com/newsroom/articles/what-cisos-need-to-know-about-ai-agents-at-runtime)
+- [Okta names Helen Riley to board of directors](https://www.okta.com/newsroom/press-releases/okta-names-helen-riley-to-board-of-directors)
 

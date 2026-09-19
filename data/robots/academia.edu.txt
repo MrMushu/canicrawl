@@ -2612,8 +2612,6 @@ Allow: /Documents/in/
 
 User-agent: Google-Extended
 Disallow: /
-Allow: /3
-Allow: /9
 
 User-agent: *
 Disallow: /

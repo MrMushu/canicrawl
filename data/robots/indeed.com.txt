@@ -1,3 +1,4 @@
+# Default rules for all unspecified bots. Note that these apply to Bingbot too.
 User-agent: *
 Allow: /
 Allow: /*&start=0&
@@ -57,6 +58,7 @@ Disallow: /empregos/BR/
 Disallow: /empregos/title
 Disallow: /forum/profile
 Disallow: /g/
+Disallow: /generate-question
 Disallow: /graphql
 Disallow: /imgping
 Disallow: /ita?
@@ -118,7 +120,7 @@ Disallow: /m/moreLoc
 Disallow: /m/newjobs
 Disallow: /m/recommended
 Disallow: /m/rpc/
-Disallow: /m/viewjob?
+Disallow: /m/viewjob
 Disallow: /my/
 Disallow: /*oc=1
 Disallow: /ofertas/ES/
@@ -160,24 +162,29 @@ Disallow: /tos/banner.js
 Disallow: /trabajo/
 Disallow: /uie/clk
 Disallow: /url
+Disallow: /v1/alerts
+Disallow: /v1/impressions
 Disallow: /vacature/
-Disallow: /vacature-bekijken?
+Disallow: /vacature-bekijken
 Disallow: /vacatures/NL/
 Disallow: /vacatures/title/
-Disallow: /ver-empleo?
-Disallow: /ver-emprego?
-Disallow: /ver-oferta?
-Disallow: /viewjob?
-Disallow: /visajobb?
-Disallow: /voir-emploi?
-Disallow: /Zeige-Job?
+Disallow: /ver-empleo
+Disallow: /ver-emprego
+Disallow: /ver-oferta
+Disallow: /viewjob
+Disallow: /visajobb
+Disallow: /voir-emploi
+Disallow: /Zeige-Job
 Disallow: //applystart
+Disallow: /hire/o/ats-partners
+Disallow: /hire/ats-partners
+Disallow: /offers
 
 
+# Rules for traditional search engines and for retrieval/grounding bots.
 User-agent: Googlebot
 User-agent: Google-Extended
 User-agent: ChatGPT-User
-User-agent: Bingbot
 User-agent: Slurp
 User-agent: DuckDuckBot
 User-agent: YahooJP
@@ -387,6 +394,7 @@ User-agent: msnbot-media
 Disallow: /trendgraph/*
 
 
+# Full disallow for aggressive scrapers, legacy crawlers, and unwanted utility bots.
 User-Agent: OmniExplorer_Bot
 User-agent: ia_archiver
 User-agent: 008
@@ -402,6 +410,7 @@ User-agent: MyCentralAIScraperBot
 Disallow: / 
 
 
+# Rules for Social Media / Link Preview bots.
 User-agent: facebookexternalhit
 User-agent: WhatsApp
 User-agent: snapchat
@@ -411,6 +420,7 @@ User-agent: Slackbot-LinkExpanding
 Allow: /
 
 
+# Rules for Foundational (Training) bots.
 User-agent: GPTBot
 User-agent: CCBot
 User-agent: anthropic-ai
@@ -474,6 +484,7 @@ Disallow: /emplois/title/
 Disallow: /emprego/
 Disallow: /forum/profile
 Disallow: /g/
+Disallow: /generate-question
 Disallow: /graphql
 Disallow: /imgping
 Disallow: /ita?
@@ -526,14 +537,19 @@ Disallow: /tmn/ccs/
 Disallow: /tos/banner.js
 Disallow: /uie/clk
 Disallow: /url
+Disallow: /v1/alerts
+Disallow: /v1/impressions
 Disallow: /vacature/
-Disallow: /vacature-bekijken?
-Disallow: /ver-empleo?
-Disallow: /ver-emprego?
-Disallow: /ver-oferta?
-Disallow: /visajobb?
-Disallow: /voir-emploi?
-Disallow: /Zeige-Job?
+Disallow: /vacature-bekijken
+Disallow: /ver-empleo
+Disallow: /ver-emprego
+Disallow: /ver-oferta
+Disallow: /visajobb
+Disallow: /voir-emploi
+Disallow: /Zeige-Job
+Disallow: /hire/o/ats-partners
+Disallow: /hire/ats-partners
+Disallow: /offers
 Disallow: /c/info/
 Disallow: /hire/how-to-hire/
 Disallow: /hire/interview-questions/

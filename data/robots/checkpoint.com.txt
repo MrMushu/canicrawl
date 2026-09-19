@@ -51,4 +51,4 @@ Disallow: *related_series=*
 Disallow: *tribe_geofence=*
 Disallow: *tribe_organizer=*
 
-Sitemap: https://www.checkpoint.com/sitemap.xml
+Sitemap: https://www.checkpoint.com/sitemap_index.xml
