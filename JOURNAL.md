@@ -818,3 +818,18 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-11 ticked. SS-12 added (ungated).
 
 **Next:** SS-12. Once the user OKs CC-24, run the held refresh.
+
+## 2026-09-19 — Ops: SS-12 shipped in sibling; wiley.com's flip is a replatforming, not a policy reversal
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap, which still holds the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1). Nothing new escalated.
+
+**Crons:** both green, both late in the same way. Canicrawl's 09-19 run was created **10:58 UTC** against a 06:17 cron, ShortSupply's **11:34 UTC** against 06:47 — ~4¾ h of GitHub queueing, matching 09-18 (11:14 / 11:50). Two consecutive days of the same lag is worth watching, but it is upstream scheduling, the runs completed successfully, and both snapshots (09-18 and 09-19) landed in both repos. No workflow edit; per the playbook, dropped runs are the failure mode to escalate, not late ones.
+
+**Notable diffs — one story, and it needs a caveat.** The changelog gained **33 entries**, all of them **wiley.com on 2026-09-18**: the wildcard went restricted → allowed and all 32 tracked bots followed it. The flip is genuine as recorded — `fetch: ok` on both days, `robotsHash` a076baae5fab7ef7 → 5593e986c2951bcc, and the new hash held unchanged on 09-19, so it is not a one-day fetch artifact of the CC-11 kind. But the archived bodies say *why*, and it is not a publisher deciding to welcome AI crawlers: the old file was a **3,222-byte** AEM-era robots.txt (`Disallow: */cart/`, `*/checkout/`, `*/my-account/`, parameterised-URL rules, five `www.wiley.com` sitemaps) and the new one is **51 bytes** — a single `Sitemap: https://prod.webflow.wiley.com/sitemap.xml` line. The apex moved to Webflow and the blocklist did not come with it. Written up as "Wiley opens to AI" this would be the CC-11/CC-13 error committed in prose rather than in code, so I banked it for digest #5 **with** the byte counts, and queued it that way.
+- ShortSupply's side: 2 drugs left the FDA list on 09-19 (Fluphenazine Hydrochloride Tablet, Desonide Lotion, both from `discontinuing`), 1 arrived (Rivastigmine Film, Extended Release); 243 → 242 drugs. Those are the first real /graveyard/ candidates since SS-2 built the page.
+
+**Ring executed: SS-12** (in the sibling repo, which has the full entry). ShortSupply's llms.txt `## Data` links were root-absolute and 404'd on the `/shortsupply/` subpath; five targets in its `scripts/build.js` now carry `${ORIGIN}`, link targets only. Verified: 250 pages built, `dist/llms.txt` carries all six absolute URLs with **0** leaked `${` and **0** remaining `](/…)` targets in llms.txt or llms-full.txt, the five new targets return **200** live while the three old root-absolute forms still return **404**, and the disclaimer is on 250/250 pages. `llms-full.txt` was checked for the same defect and was already clean. Canicrawl itself rebuilt clean at 1,087 pages on the 09-19 snapshot; nothing was crawled.
+
+**Queue:** SS-12 ticked. The queue had no ungated rings left, so two were appended: **SS-13** (confirm /graveyard/ picks up the two real departures, fix the query if not) and **CC-25** (digest #5, with the wiley replatforming caveat written into the ring so the next session cannot lose it).
+
+**Next:** SS-13, then CC-25. Once the user OKs CC-24, run the held Tranco refresh.
