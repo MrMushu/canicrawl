@@ -431,6 +431,13 @@ Disallow: /admin/
 Disallow: /admin?
 Disallow: /s/about/trust-center/report
 
+User-agent: AhrefsBot
+Content-Signal: ai-train=no, search=yes
+Disallow: /admin$
+Disallow: /admin/
+Disallow: /admin?
+Disallow: /s/about/trust-center/report
+
 # Fallback, disallow scraping
 User-agent: *
 Disallow: /

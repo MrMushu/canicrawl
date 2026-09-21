@@ -4,7 +4,6 @@ Disallow: /?
 Disallow: /403.html
 Disallow: /404.html
 Disallow: /500.html
-Disallow: /about.html
 Disallow: /adddata
 Disallow: /adresa-segmentator
 Disallow: /advanced_engl.html
@@ -21,18 +20,10 @@ Disallow: /all-supported-params
 Disallow: /articles
 Disallow: /aura/
 Allow: /aura/promo/
-Disallow: /autopoet
 Disallow: /blog/*?text=
 Disallow: /blog/*?tag=
 Disallow: /blog/*/*/*
 Disallow: /blog/punto
-Disallow: /blogs*
-Allow: /blogs$
-Allow: /blogs/$
-Allow: /blogs/pad/$
-Allow: /blogs/pad$
-Disallow: /bus/orders*
-Disallow: /bus/api/*
 Disallow: /MAPS/
 Disallow: /MaPS/
 Disallow: /MapS/
@@ -46,7 +37,6 @@ Disallow: /catalog/?text=
 Disallow: /chat
 Disallow: /cgi-bin/
 Disallow: /cgi/
-Disallow: /chisla.html
 Disallow: /clck
 Disallow: /collections/
 Disallow: /company/*.rss
@@ -58,7 +48,6 @@ Disallow: /cy
 Disallow: /cycounter
 Disallow: /dzen
 Disallow: /experiments.xml
-Disallow: /efir
 Disallow: /formfeedback
 Disallow: /fresh
 Disallow: /goto_issue/
@@ -80,7 +69,6 @@ Allow: /images/touch/search?rpt=imageview
 Allow: /images/pad/search?text=*&source=morda*
 Allow: /images/pad/search?rpt=imageview
 Disallow: /index_m
-Disallow: /infected
 Disallow: /iznanka/
 Disallow: /int_search_summary
 Disallow: /delivery_tracking
@@ -111,11 +99,6 @@ Disallow: /neuralsearch/api
 Disallow: /norobot
 Disallow: /opensearch.xml
 Disallow: /padsearch
-Disallow: /patents/
-Disallow: /people/*
-Allow: /people/$
-Allow: /people/pad/$
-Allow: /people/pad$
 Disallow: /person
 Disallow: /podpiska/login.pl
 Disallow: /pogoda/search
@@ -165,7 +148,6 @@ Disallow: /redir
 Disallow: /region_map
 Disallow: /regions_list.xml
 Disallow: /regions.html?
-Disallow: /rubric2sport
 Disallow: /s/
 Disallow: /save
 Disallow: /safety/?
@@ -175,7 +157,6 @@ Allow: /search/entity/touch/
 Disallow: /setup
 Disallow: /showcaptcha
 Disallow: /sitesearch
-Disallow: /skazki
 Disallow: /sl/*.html
 Disallow: /soft/extensions/goodbye
 Disallow: /sportagent
@@ -197,11 +178,6 @@ Disallow: /support/*zout_
 Disallow: /support/search-results/
 Disallow: /support/praktikum/flow.html
 Disallow: /support/praktikum-english/
-Disallow: /talk/create
-Disallow: /talk/api
-Disallow: /talk/user/*/article
-Allow: /talk
-Allow: /talk/user
 Disallow: /telsearch
 Disallow: /themes
 Disallow: /toggle-experiment
@@ -214,9 +190,6 @@ Disallow: /v$
 Disallow: /viewconfig$
 Disallow: /images/v$
 Disallow: /images/viewconfig$
-Allow: /uslugi/*
-Disallow: /uslugi/cab
-Disallow: /uslugi/*/category/doctors/
 Allow: /tutor
 Disallow: /tutor/admin
 Disallow: /tutor/search/problems
@@ -238,18 +211,6 @@ Allow: /video/touch/search?text=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE$
 Allow: /video/video_sitemap_*.xml
 Allow: /video/movies_sitemap_*.xml
 Disallow: /xmlsearch
-Disallow: /yaca
-Allow: /yaca/$
-Allow: /yaca/m/$
-Allow: /yaca/m/yca/cat/*/$
-Allow: /yaca/*.xml$
-Allow: /yaca/cat/*/$
-Disallow: /yaca/result.xml
-Disallow: /yaca/*/tungrp/
-Disallow: /yaca/*/time/
-Disallow: /yaca/*/geo/
-Disallow: /yaca/cat/*/geo/*
-Disallow: /yaca/*/synt2/
 Disallow: /yandsearch
 Disallow: /yca/cy
 Disallow: /soft/distribution
@@ -261,15 +222,8 @@ Disallow: /soft/bm/?*
 Disallow: /soft/browsers/?*
 Disallow: /soft/punto/?*
 Disallow: /ie/?*
-Disallow: /element/?*
-Disallow: /element/*goodbye*
 Disallow: /soft/*goodbye*
 Disallow: /adult
-Disallow: /sport*?*parent-reqid*
-Disallow: /mirror*?*parent-reqid*
-Disallow: /mirror/hide
-Disallow: /sport*?*ajax=1*
-Disallow: /mirror*?*ajax=1*
 Disallow: /addappterless
 Disallow: /archive/api/image.jpg*
 Allow: /archive$
@@ -317,16 +271,13 @@ Disallow: /finance/banks/*/reviews*?*
 
 Sitemap: https://yandex.ru/support/sitemap.xml
 Sitemap: https://yandex.ru/blog/sitemap.xml
-Sitemap: https://yandex.ru/znatoki/sitemap/sitemap-index.xml
 Sitemap: https://frontend.s3.yandex.net/health/sitemap.xml
-Sitemap: https://yandex.ru/talk/sitemap.xml
 Sitemap: https://yandex.ru/uslugi/sitemap/sitemap.xml.gz
 Sitemap: https://yandex.ru/turbo/public/sitemap.xml
 Sitemap: https://yandex.ru/tutor/sitemap/?sitemap=sitemap.xml
 Sitemap: https://yandex.ru/turbo/talk-sitemap-index.xml
 Sitemap: https://yandex.ru/games/sitemaps/sitemap.index.xml
 Sitemap: https://yandex.ru/q/sitemap/sitemap-index.xml
-Sitemap: https://yandex.ru/efir/sitemap.xml
 Sitemap: https://yandex.ru/images/sitemap.xml
 Sitemap: https://yandex.ru/medicine/sitemaps/sitemap.xml
 Sitemap: https://yandex.ru/finance/sitemaps/sitemap.xml
@@ -338,7 +289,6 @@ Disallow: /?
 Disallow: /403.html
 Disallow: /404.html
 Disallow: /500.html
-Disallow: /about.html
 Disallow: /adddata
 Disallow: /adresa-segmentator
 Disallow: /advanced_engl.html
@@ -355,18 +305,10 @@ Disallow: /all-supported-params
 Disallow: /articles
 Disallow: /aura/
 Allow: /aura/promo/
-Disallow: /autopoet
 Disallow: /blog/*?text=
 Disallow: /blog/*?tag=
 Disallow: /blog/*/*/*
 Disallow: /blog/punto
-Disallow: /blogs*
-Allow: /blogs$
-Allow: /blogs/$
-Allow: /blogs/pad/$
-Allow: /blogs/pad$
-Disallow: /bus/orders*
-Disallow: /bus/api/*
 Disallow: /MAPS/
 Disallow: /MaPS/
 Disallow: /MapS/
@@ -378,7 +320,6 @@ Disallow: /catalog/?text=
 Disallow: /chat
 Disallow: /cgi-bin/
 Disallow: /cgi/
-Disallow: /chisla.html
 Disallow: /clck
 Disallow: /collections/
 Disallow: /company/*.rss
@@ -390,7 +331,6 @@ Disallow: /cy
 Disallow: /cycounter
 Disallow: /dzen
 Disallow: /experiments.xml
-Disallow: /efir
 Disallow: /formfeedback
 Disallow: /fresh
 Disallow: /goto_issue/
@@ -411,7 +351,6 @@ Allow: /images/touch/search?rpt=imageview
 Allow: /images/pad/search?text=*&source=morda*
 Allow: /images/pad/search?rpt=imageview
 Disallow: /index_m
-Disallow: /infected
 Disallow: /iznanka/
 Disallow: /int_search_summary
 Disallow: /delivery_tracking
@@ -442,11 +381,6 @@ Disallow: /n/
 Disallow: /norobot
 Disallow: /opensearch.xml
 Disallow: /padsearch
-Disallow: /patents/
-Disallow: /people/*
-Allow: /people/$
-Allow: /people/pad/$
-Allow: /people/pad$
 Disallow: /person
 Disallow: /podpiska/login.pl
 Disallow: /pogoda/search
@@ -495,7 +429,6 @@ Disallow: /redir
 Disallow: /region_map
 Disallow: /regions_list.xml
 Disallow: /regions.html?
-Disallow: /rubric2sport
 Disallow: /s/
 Disallow: /save
 Disallow: /safety/?
@@ -516,7 +449,6 @@ Allow: /products$
 Disallow: /setup
 Disallow: /showcaptcha
 Disallow: /sitesearch
-Disallow: /skazki
 Disallow: /sl/*.html
 Disallow: /soft/extensions/goodbye
 Disallow: /sportagent
@@ -538,11 +470,6 @@ Disallow: /support/*zout_
 Disallow: /support/search-results/
 Disallow: /support/praktikum/flow.html
 Disallow: /support/praktikum-english/
-Disallow: /talk/create
-Disallow: /talk/api
-Disallow: /talk/user/*/article
-Allow: /talk
-Allow: /talk/user
 Disallow: /telsearch
 Disallow: /themes
 Disallow: /toggle-experiment
@@ -554,9 +481,6 @@ Disallow: /v$
 Disallow: /viewconfig$
 Disallow: /images/v$
 Disallow: /images/viewconfig$
-Allow: /uslugi/*
-Disallow: /uslugi/cab
-Disallow: /uslugi/*/category/doctors/
 Allow: /tutor
 Disallow: /tutor/admin
 Disallow: /tutor/search/problems
@@ -579,18 +503,6 @@ Allow: /video/touch/search?text=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE$
 Allow: /video/video_sitemap_*.xml
 Allow: /video/movies_sitemap_*.xml
 Disallow: /xmlsearch
-Disallow: /yaca
-Allow: /yaca/$
-Allow: /yaca/m/$
-Allow: /yaca/m/yca/cat/*/$
-Allow: /yaca/*.xml$
-Allow: /yaca/cat/*/$
-Disallow: /yaca/result.xml
-Disallow: /yaca/*/tungrp/
-Disallow: /yaca/*/time/
-Disallow: /yaca/*/geo/
-Disallow: /yaca/cat/*/geo/*
-Disallow: /yaca/*/synt2/
 Disallow: /yandsearch
 Disallow: /yca/cy
 Disallow: /soft/distribution
@@ -602,15 +514,8 @@ Disallow: /soft/bm/?*
 Disallow: /soft/browsers/?*
 Disallow: /soft/punto/?*
 Disallow: /ie/?*
-Disallow: /element/?*
-Disallow: /element/*goodbye*
 Disallow: /soft/*goodbye*
 Disallow: /adult
-Disallow: /sport*?*parent-reqid*
-Disallow: /mirror*?*parent-reqid*
-Disallow: /mirror/hide
-Disallow: /sport*?*ajax=1*
-Disallow: /mirror*?*ajax=1*
 Disallow: /addappterless
 Disallow: /archive/api/image.jpg*
 Allow: /archive$
@@ -659,7 +564,6 @@ Disallow: /?
 Disallow: /403.html
 Disallow: /404.html
 Disallow: /500.html
-Disallow: /about.html
 Disallow: /adddata
 Disallow: /adresa-segmentator
 Disallow: /advanced_engl.html
@@ -678,18 +582,10 @@ Disallow: /all-supported-params
 Disallow: /articles
 Disallow: /aura/
 Allow: /aura/promo/
-Disallow: /autopoet
 Disallow: /blog/*?text=
 Disallow: /blog/*?tag=
 Disallow: /blog/*/*/*
 Disallow: /blog/punto
-Disallow: /blogs*
-Allow: /blogs$
-Allow: /blogs/$
-Allow: /blogs/pad/$
-Allow: /blogs/pad$
-Disallow: /bus/orders*
-Disallow: /bus/api/*
 Disallow: /MAPS/
 Disallow: /MaPS/
 Disallow: /MapS/
@@ -699,7 +595,6 @@ Disallow: /catalog/?text=
 Disallow: /chat
 Disallow: /cgi-bin/
 Disallow: /cgi/
-Disallow: /chisla.html
 Disallow: /clck
 Disallow: /collections/
 Disallow: /company/*.rss
@@ -713,7 +608,6 @@ Disallow: /cy
 Disallow: /cycounter
 Disallow: /dzen
 Disallow: /experiments.xml
-Disallow: /efir
 Disallow: /formfeedback
 Disallow: /fresh
 Disallow: /games/*?experimental=
@@ -734,7 +628,6 @@ Allow: /images/touch/search?rpt=imageview
 Allow: /images/pad/search?text=*&source=morda*
 Allow: /images/pad/search?rpt=imageview
 Disallow: /index_m
-Disallow: /infected
 Disallow: /iznanka/
 Disallow: /int_search_summary
 Disallow: /delivery_tracking
@@ -767,11 +660,6 @@ Disallow: /n/
 Disallow: /norobot
 Disallow: /opensearch.xml
 Disallow: /padsearch
-Disallow: /patents/
-Disallow: /people/*
-Allow: /people/$
-Allow: /people/pad/$
-Allow: /people/pad$
 Disallow: /person
 Disallow: /podpiska/login.pl
 Disallow: /pogoda/amp/*
@@ -814,7 +702,6 @@ Disallow: /redir
 Disallow: /region_map
 Disallow: /regions_list.xml
 Disallow: /regions.html?
-Disallow: /rubric2sport
 Disallow: /s/
 Disallow: /save
 Disallow: /safety/?*
@@ -823,7 +710,6 @@ Allow: /search/entity/touch/
 Disallow: /setup
 Disallow: /showcaptcha
 Disallow: /sitesearch
-Disallow: /skazki
 Disallow: /sl/*.html
 Disallow: /soft/extensions/goodbye
 Disallow: /sportagent
@@ -845,11 +731,6 @@ Disallow: /support/*zout_
 Disallow: /support/search-results/
 Disallow: /support/praktikum/flow.html
 Disallow: /support/praktikum-english/
-Disallow: /talk/create
-Disallow: /talk/api
-Disallow: /talk/user/*/article
-Allow: /talk
-Allow: /talk/user
 Disallow: /telsearch
 Disallow: /themes
 Disallow: /toggle-experiment
@@ -865,9 +746,6 @@ Disallow: /v$
 Disallow: /viewconfig$
 Disallow: /images/v$
 Disallow: /images/viewconfig$
-Disallow: /uslugi/*
-Disallow: /uslugi/cab
-Disallow: /uslugi/*/category/doctors/
 Disallow: /versions
 Disallow: /video/*
 Allow: /video/$
@@ -884,18 +762,6 @@ Allow: /video/touch/search?text=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE$
 Allow: /video/video_sitemap_*.xml
 Allow: /video/movies_sitemap_*.xml
 Disallow: /xmlsearch
-Disallow: /yaca
-Allow: /yaca/$
-Allow: /yaca/m/$
-Allow: /yaca/m/yca/cat/*/$
-Allow: /yaca/*.xml$
-Allow: /yaca/cat/*/$
-Disallow: /yaca/result.xml
-Disallow: /yaca/*/tungrp/
-Disallow: /yaca/*/time/
-Disallow: /yaca/*/geo/
-Disallow: /yaca/cat/*/geo/*
-Disallow: /yaca/*/synt2/
 Disallow: /yandsearch
 Disallow: /yca/cy
 Disallow: /soft/distribution
@@ -907,8 +773,6 @@ Disallow: /soft/bm/?*
 Disallow: /soft/browsers/?*
 Disallow: /soft/punto/?*
 Disallow: /ie/?*
-Disallow: /element/?*
-Disallow: /element/*goodbye*
 Disallow: /soft/*goodbye*
 Disallow: /adult
 Disallow: /addappterless
@@ -936,7 +800,6 @@ Disallow: /?
 Disallow: /403.html
 Disallow: /404.html
 Disallow: /500.html
-Disallow: /about.html
 Disallow: /adddata
 Disallow: /adresa-segmentator
 Disallow: /advanced_engl.html
@@ -957,18 +820,10 @@ Disallow: /articles
 Disallow: /archive/search
 Disallow: /aura/
 Allow: /aura/promo/
-Disallow: /autopoet
 Disallow: /blog/*?text=
 Disallow: /blog/*?tag=
 Disallow: /blog/*/*/*
 Disallow: /blog/punto
-Disallow: /blogs*
-Allow: /blogs$
-Allow: /blogs/$
-Allow: /blogs/pad/$
-Allow: /blogs/pad$
-Disallow: /bus/orders*
-Disallow: /bus/api/*
 Disallow: /business/widget
 Disallow: /MAPS/
 Disallow: /MaPS/
@@ -980,7 +835,6 @@ Disallow: /maps-api/docs/js-api/reference-guide/instruction-rs.html
 Disallow: /catalog/?text=
 Disallow: /cgi-bin/
 Disallow: /cgi/
-Disallow: /chisla.html
 Disallow: /clck
 Disallow: /collections/
 Disallow: /company/*.rss
@@ -992,7 +846,6 @@ Disallow: /cy
 Disallow: /cycounter
 Disallow: /dzen
 Disallow: /experiments.xml
-Disallow: /efir
 Disallow: /formfeedback
 Disallow: /fresh
 Disallow: /goto_issue/
@@ -1017,7 +870,6 @@ Allow: /images/touch/search?
 
 Allow: /images/sitemap
 Disallow: /index_m
-Disallow: /infected
 Disallow: /iznanka/
 Disallow: /int_search_summary
 Disallow: /delivery_tracking
@@ -1049,11 +901,6 @@ Disallow: /n/
 Disallow: /norobot
 Disallow: /opensearch.xml
 Disallow: /padsearch
-Disallow: /patents/
-Disallow: /people/*
-Allow: /people/$
-Allow: /people/pad/$
-Allow: /people/pad$
 Allow: /products/sitemaps/new/*
 Disallow: /person
 Disallow: /podpiska/login.pl
@@ -1103,7 +950,6 @@ Disallow: /redir
 Disallow: /region_map
 Disallow: /regions_list.xml
 Disallow: /regions.html?
-Disallow: /rubric2sport
 Disallow: /s/
 Disallow: /save
 Disallow: /safety/?
@@ -1124,7 +970,6 @@ Allow: /products$
 Disallow: /setup
 Disallow: /showcaptcha
 Disallow: /sitesearch
-Disallow: /skazki
 Disallow: /sl/*.html
 Disallow: /soft/extensions/goodbye
 Disallow: /sportagent
@@ -1146,11 +991,6 @@ Disallow: /support/*zout_
 Disallow: /support/search-results/
 Disallow: /support/praktikum/flow.html
 Disallow: /support/praktikum-english/
-Disallow: /talk/create
-Disallow: /talk/api
-Disallow: /talk/user/*/article
-Allow: /talk
-Allow: /talk/user
 Disallow: /telsearch
 Disallow: /themes
 Disallow: /toggle-experiment
@@ -1163,9 +1003,6 @@ Disallow: /v$
 Disallow: /viewconfig$
 Disallow: /images/v$
 Disallow: /images/viewconfig$
-Allow: /uslugi/*
-Disallow: /uslugi/cab
-Disallow: /uslugi/*/category/doctors/
 Allow: /tutor
 Disallow: /tutor/admin
 Disallow: /tutor/search/problems
@@ -1189,18 +1026,6 @@ Allow: /video/touch/movies/catalog
 Allow: /video/video_sitemap_*.xml
 Allow: /video/movies_sitemap_*.xml
 Disallow: /xmlsearch
-Disallow: /yaca
-Allow: /yaca/$
-Allow: /yaca/m/$
-Allow: /yaca/m/yca/cat/*/$
-Allow: /yaca/*.xml$
-Allow: /yaca/cat/*/$
-Disallow: /yaca/result.xml
-Disallow: /yaca/*/tungrp/
-Disallow: /yaca/*/time/
-Disallow: /yaca/*/geo/
-Disallow: /yaca/cat/*/geo/*
-Disallow: /yaca/*/synt2/
 Disallow: /yandsearch
 Disallow: /yca/cy
 Disallow: /soft/distribution
@@ -1212,15 +1037,8 @@ Disallow: /soft/bm/?*
 Disallow: /soft/browsers/?*
 Disallow: /soft/punto/?*
 Disallow: /ie/?*
-Disallow: /element/?*
-Disallow: /element/*goodbye*
 Disallow: /soft/*goodbye*
 Disallow: /adult
-Disallow: /sport*?*parent-reqid*
-Disallow: /mirror*?*parent-reqid*
-Disallow: /mirror/hide
-Disallow: /sport*?*ajax=1*
-Disallow: /mirror*?*ajax=1*
 Disallow: /addappterless
 Disallow: /archive/api/image.jpg*
 Allow: /archive$
@@ -1266,16 +1084,12 @@ Disallow: /finance/assistant
 Sitemap: https://yandex.ru/pogoda/sitemap-index.xml
 Sitemap: https://yandex.ru/support/sitemap.xml
 Sitemap: https://yandex.ru/blog/sitemap.xml
-Sitemap: https://yandex.ru/znatoki/sitemap/sitemap-index.xml
 Sitemap: https://frontend.s3.yandex.net/health/sitemap.xml
-Sitemap: https://yandex.ru/talk/sitemap.xml
 Sitemap: https://yandex.ru/uslugi/sitemap/sitemap.xml.gz
 Sitemap: https://yandex.ru/turbo/public/sitemap.xml
 Sitemap: https://yandex.ru/tutor/sitemap/?sitemap=sitemap.xml
-Sitemap: https://yandex.ru/turbo/talk-sitemap-index.xml
 Sitemap: https://yandex.ru/games/sitemaps/sitemap.index.xml
 Sitemap: https://yandex.ru/q/sitemap/sitemap-index.xml
-Sitemap: https://yandex.ru/efir/sitemap.xml
 Sitemap: https://yandex.ru/images/sitemap.xml
 Sitemap: https://yandex.ru/medicine/sitemaps/sitemap.xml
 Sitemap: https://yandex.ru/yandexapp/ru/callerid/sitemap.xml
@@ -1287,10 +1101,6 @@ Sitemap: https://yandex.ru/archive/sitemap.xml
 
 Clean-Param: ncrnd&redircnt&clid&_&win /
 Clean-Param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&utm_nooverride&utm_expid&gclid&_openstat&yclid&gsaid&_gs_rmark&_gs_ref&_gs_cttl&iframe /health/
-Clean-Param: p&msp&occupationId&specId&serviceId&rubric&afterWorkerPage&clarifier&create_order&workerId&categoryId&specializationId&title&onlyForInvited&price&priceMeasure&isPromotion&from&source&region&max_reactions_count&adbody&adurl&backpath&query&saas_webreqid&action&displayid&promoAction&ref&orderId&utm&ig_source&creative&campaignid&adgroupid&worker_id&order_access_key&push_id&intent&family&status&t&tss&utm_campa&utm_left&utm_sup_project&utm_sup_source&utm_sup_type&yhid /uslugi/*
-Clean-Param: view&lonlat&span&baobab_event_id&etext&q&wizextra&utm_source&utm_medium&utm_campaign&utm_content&yclid&utm_term&clid&wprid&yaclid&id&noreask&retflag&type&completely_moderated&address_type&yandex_ad_order_id&acton&yandex_ad_client_id&idkey&city&geoname_exact&phone&repeatOrderId&call_center&retpath&exp_boxes&gref&referrer&cc&keyword&fyandex&state&code&description&template&s&lr&region_id&onboardingStep&bathroom&room&amp&createCleaningStep&selfieType&address&customerName /uslugi/*
-Clean-Param: afterRegistration&gclid&selfieStep&whenGoDatetime&form_source&utm_from&queryReason&complainOrderId&cleaningCustomFormStep&review&customerEmail&disableHeader&detectParams&sort_by&fn&showCustomerPhone&sort_order&am_social&utm_sourc&distr_type&i&vid&fp&name&z&mclid&n&tkn&ut&pp&utm_so&fromQrCode&searchable&puid&utm_cgid&collectionId&go&m&redircnt&surname&useAddress&_aid&ard&c&cardId&cbir_page&cliff&language&list&cbird&ts&utm_m&w&country&Brow&banerid&eea&o&plc&utm_campaig /uslugi/*
-Clean-Param: index&is_copy_url&utm_med&is_from_webapp&ncrnd&rpt&smartleads_src&url&utm_me&_prevcmd&cmbck&dedica&gbraid&lc&smartleads_pid&utm_&displayId /uslugi/*
 Clean-Param: print=1 /tutor/
 Clean-Param: w&w_question_id /q/question/*
 Clean-Param: &appsearch_header=1&comments=1 /news/story/
