@@ -848,3 +848,15 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-13 ticked. **SS-14** appended (departed-drug tombstone pages, with the live 404s and the spot check written into the ring). CC-25 (digest #5) remains the other ungated ring.
 
 **Next:** SS-14, then CC-25. Once the user OKs CC-24, run the held Tranco refresh.
+
+## 2026-09-21 — Ops: SS-14 shipped (departed-drug archive pages); zero flips on both products again
+
+**USER-NEEDED (standing, unchanged):** CC-24 (highwebmedia.com filter gap, still holding the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1). Nothing new escalated.
+
+**Crons:** both green. Canicrawl's 09-21 scheduled run was created **12:47 UTC** (cron 06:17) and ShortSupply's **13:21 UTC** (cron 06:47) — ~6.5 h of GitHub queueing, slightly worse than the ~5 h of 09-18..09-20. Both committed `2026-09-21` snapshots; both repos pulled fast-forward.
+
+**Notable diffs:** Canicrawl changelog flat at **293** (0 dated 09-21), ShortSupply flat at **102** (0). Archived bodies changed for dell, etsy, kayak, linktr.ee, moloco, pinimg, pinterest, wordpress, yandex.ru (−190 lines) and asus llms.txt; grepping the robots diffs for AI-bot tokens finds nothing. The one new user-agent line is **linktr.ee adding an `AhrefsBot` group carrying `Content-Signal: ai-train=no, search=yes`** — not a tracked bot and no verdict change, but a small data point that Cloudflare-style Content-Signals are being copied into per-bot groups (possible digest colour, not a lead).
+
+**Ring executed: SS-14** (full entry in the sibling repo). Departed drugs now keep their URL as a last-known archive page built from the last snapshot before removal, kept out of counts, stats and the sitemap (decided explicitly). Verified: counts 242/70 unchanged vs. the pre-change build on the same snapshot, `stats/index.html` and `sitemap.xml` byte-identical, 10 archive pages + JSON exist, methotrexate-injection states its 2026-09-03 removal and the disclaimer, /graveyard/ rows all link, disclaimer 260/260. SS-14 ticked in OPERATIONS.md.
+
+**Next:** CC-25 (digest #5) is the only ungated ring left; confirm SS-14's URLs are 200 live. Once the user OKs CC-24, run the held Tranco refresh.
