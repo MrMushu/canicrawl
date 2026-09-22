@@ -1,1 +1,4 @@
+Allow: /
+Sitemap: https://sitemap.prod.webflow.wiley.com/sitemap.xml
+
 Sitemap: https://prod.webflow.wiley.com/sitemap.xml

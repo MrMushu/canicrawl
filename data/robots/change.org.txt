@@ -125,6 +125,8 @@ Disallow: /p/*/signed-petition-home$
 Disallow: /p/*/signed-petition-home?*
 Disallow: /p/*/sponsors/new$
 Disallow: /p/*/sponsors/new?*
+Disallow: /p/*/start-strong$
+Disallow: /p/*/start-strong?*
 Disallow: /p/*/starter-onboarding/*$
 Disallow: /p/*/starter-onboarding/*?*
 Disallow: /p/*/u/*/edit$

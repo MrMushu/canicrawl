@@ -1280,6 +1280,7 @@
 - [Beyond SSO and MFA: Why your identity security strategy needs continuous control](https://www.okta.com/blog/identity-security/beyond-sso-mfa-continuous-identity)
 - [Unified Requester Experience: Your one-stop shop for Okta Access Requests](https://www.okta.com/blog/product-innovation/unified-requester-experience-your-one-stop-shop-for-access-requests)
 - [Identity may be the design primitive you're overlooking](https://www.okta.com/blog/customers-and-partners/ai-agent-identity-design-primitive)
+- [Securing the modern workforce: What Google Android and Chrome Enterprise are building with Okta](https://www.okta.com/blog/customers-and-partners/google-okta-zero-trust-chrome-android)
 
 ## Newsroom
 

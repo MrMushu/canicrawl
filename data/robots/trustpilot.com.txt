@@ -28,6 +28,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -63,6 +64,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -98,6 +100,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -133,6 +136,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -168,6 +172,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -203,6 +208,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -238,6 +244,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -273,6 +280,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -308,6 +316,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -343,6 +352,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -378,6 +388,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -413,6 +424,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -448,6 +460,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -483,6 +496,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -518,6 +532,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -553,6 +568,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -588,6 +604,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -623,6 +640,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -658,6 +676,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -693,6 +712,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -728,6 +748,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -763,6 +784,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -798,6 +820,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create
@@ -833,6 +856,7 @@ Disallow: /users/
 Allow: /users/connect
 Disallow: /users/connect?redirect
 Disallow: /users/connect?signup
+Disallow: /users/connect?intent
 Disallow: /users/activate
 Disallow: /users/embed-login-to-edit
 Disallow: /users/create

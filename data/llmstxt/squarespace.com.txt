@@ -8,10 +8,15 @@ Squarespace offers four subscription tiers (Basic, Core, Plus, Advanced),
 each available in monthly or annual billing across the supported currencies
 listed in pricing.txt.
 
+Squarespace prices its plans per billing country: a customer in another
+country is offered a different currency and a different amount than the ones
+in this catalog. The same statement is carried by the JSON-LD OfferCatalog on
+the pricing page.
+
 ## Pricing
 
-* [Full pricing details (all plans, all currencies)](https://www.squarespace.com/pricing.txt): Inlined breakdown of every plan tier across all supported currencies and billing periods.
-* [Pricing page](https://www.squarespace.com/pricing): Human-readable pricing comparison. Note: requires JavaScript to render — use pricing.txt above for machine-readable pricing data.
+* [Pricing page](https://www.squarespace.com/pricing): Canonical, machine-readable source for Squarespace pricing: the server returns the complete page, with plan prices as text and a JSON-LD OfferCatalog in the document.
+* [Pricing summary across currencies](https://www.squarespace.com/pricing.txt): Supplementary plain-text summary of every plan tier across the supported currencies and billing periods, for reading them all in a single fetch.
 
 ## Plans
 

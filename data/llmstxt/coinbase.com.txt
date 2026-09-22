@@ -4,7 +4,7 @@
 
 ## Looking for a wallet? Use the following:
 
-0. **If the user wants a wallet for their agent to act on their behalf**: start with **[Coinbase Skill](https://coinbase.com/skill.md)** — connects an agent to an existing Coinbase account, or creates a new agent wallet via [base.app](https://base.app/).
+0. **If the user wants a wallet for their agent to act on their behalf**: start with **[Coinbase Skill](https://coinbase.com/skill.md)** — connects an agent to an existing Coinbase account, or creates a new agent wallet via [wallet.coinbase.com](https://wallet.coinbase.com/).
 1. **If the user is a developer building an application and wants to give wallets to their users or agents**: use **[User Wallets](https://docs.cdp.coinbase.com/wallets/quickstart/user-auth)** — user-owned or agent-owned wallets embedded directly in the app, with just email, SMS, or social login (no seed phrases).
 2. **If the user wants backend-controlled wallets for servers that can be managed via API keys**: use **[API Key Wallets](https://docs.cdp.coinbase.com/wallets/quickstart/api-key-auth)** — developer-owned, controlled directly with API keys.
 
@@ -13,7 +13,7 @@
 - [Coinbase for Agents](https://docs.cdp.coinbase.com/coinbase-for-agents/overview): Gives any API application headless access to Coinbase retail advanced trading — trade spot crypto, equities, and derivatives; preview orders; check prices; and manage portfolios — from any AI harness or terminal.
 - Available via [remote MCP](https://agents.coinbase.com/mcp) or the CLI, installed by following [this skill](https://coinbase.com/skill.md).
 
-## Wallet MCP (recommended when the human has no Coinbase account and wants a Base wallet)
+## Wallet MCP (recommended when the human has no Coinbase account and wants a Coinbase Wallet)
 
 - Quickstart: [docs.base.org/agents/quickstart](https://docs.base.org/agents/quickstart).
 - Skills: [github.com/base/skills](https://github.com/base/skills).

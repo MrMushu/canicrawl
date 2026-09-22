@@ -23,6 +23,10 @@ Disallow: /business/search
 Disallow: /business/teams/search
 Disallow: /organizations/
 Disallow: /programs/
+Disallow: /5JKLVK/
+
+User-agent: AdsBot-Google
+Allow: /
 
 # Block all /courses pagination
 Disallow: /courses?page=
@@ -54,7 +58,6 @@ Allow: /courses?*&page=5&
 
 Sitemap: https://www.coursera.org/sitemap.xml
 
-
 User-agent: CCBot
 Disallow: /lecture/
 Disallow: /courses?page=
@@ -79,7 +82,6 @@ Allow: /courses?*&page=4$
 Allow: /courses?*&page=4&
 Allow: /courses?*&page=5$
 Allow: /courses?*&page=5&
-
 
 User-agent: GPTBot
 Disallow: /lecture/
@@ -106,7 +108,6 @@ Allow: /courses?*&page=4&
 Allow: /courses?*&page=5$
 Allow: /courses?*&page=5&
 
-
 User-agent: ClaudeBot
 Disallow: /lecture/
 Disallow: /courses?page=
@@ -131,7 +132,6 @@ Allow: /courses?*&page=4$
 Allow: /courses?*&page=4&
 Allow: /courses?*&page=5$
 Allow: /courses?*&page=5&
-
 
 User-agent: MistralAI-User
 Disallow: /lecture/
@@ -158,7 +158,6 @@ Allow: /courses?*&page=4&
 Allow: /courses?*&page=5$
 Allow: /courses?*&page=5&
 
-
 User-agent: Google-Extended
 Disallow: /lecture/
 Disallow: /courses?page=
@@ -183,7 +182,6 @@ Allow: /courses?*&page=4$
 Allow: /courses?*&page=4&
 Allow: /courses?*&page=5$
 Allow: /courses?*&page=5&
-
 
 User-agent: PerplexityBot
 Disallow: /lecture/
@@ -210,7 +208,6 @@ Allow: /courses?*&page=4&
 Allow: /courses?*&page=5$
 Allow: /courses?*&page=5&
 
-
 User-agent: LinkedInBot
 Allow: /account/accomplishments/
 Disallow: /courses?page=
@@ -235,7 +232,6 @@ Allow: /courses?*&page=4$
 Allow: /courses?*&page=4&
 Allow: /courses?*&page=5$
 Allow: /courses?*&page=5&
-
 
 User-agent: Twitterbot
 Allow: /account/accomplishments/
@@ -262,10 +258,8 @@ Allow: /courses?*&page=4&
 Allow: /courses?*&page=5$
 Allow: /courses?*&page=5&
 
-
 User-agent: meta-externalagent
 Disallow: /
-
 
 User-agent: OAI-SearchBot
 Allow: /api/utilities/v1/imageproxy
@@ -292,7 +286,6 @@ Allow: /courses?*&page=4$
 Allow: /courses?*&page=4&
 Allow: /courses?*&page=5$
 Allow: /courses?*&page=5&
-
 
 User-agent: ChatGPT-User
 Allow: /api/utilities/v1/imageproxy
