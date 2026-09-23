@@ -874,3 +874,17 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Decision:** I left the staff names in weather.com's file header out of the digest (only the ticket number is cited), on the same privacy grounds as always: publish policy, not people.
 
 **Next:** CC-26 (stale cohort label) is the only ungated ring. Confirm /digest/5/ returns 200 live. Once the user OKs CC-24, run the held Tranco refresh.
+
+## 2026-09-23 — Ops: CC-26 shipped (stale cohort members labelled); first ShortSupply revision burst in four days
+
+**USER-NEEDED (standing, unchanged):** CC-24 (highwebmedia.com filter gap, still holding the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1). Nothing new escalated.
+
+**Crons:** both green. Canicrawl's 09-23 scheduled run was created **11:35 UTC** (cron 06:17) and ShortSupply's **12:12 UTC** (cron 06:47), so GitHub queueing is still ~5.3 h. Both committed `2026-09-23` snapshots and both repos pulled fast-forward. Digest #5 is **200 live** at /digest/5/.
+
+**Notable diffs (09-23):** the Canicrawl changelog is flat at **293** (0 dated 09-23). 14 robots bodies changed. The ones with AI tokens in them: **tradingview.com added `OAI-SearchBot` and `ChatGPT-User` to its existing AI-bot group** (Bytespider, DeepSeekBot and others), which carries path disallows (`/ideas/*`, `/scripts/*` …), not a site-wide block, so no verdict flipped. **yandex.ru added a ~270-line `OAI-SearchBot` group** of path disallows, again with no flip. Both could be digest colour ("OpenAI's search/user agents getting their own path rules"). wiley.com now has a real `User-agent: *` above its orphan `Allow: /` and a single wiley.com sitemap, which fixes the no-group oddity noted 09-22. flashscore.com +212 lines of non-AI rules. ShortSupply is summarised in the sibling journal: 15 entries (13 availability rewordings, dominated by injectables, plus 1 new and 2 removed).
+
+**Ring executed: CC-26.** On the stats page, any "Blocklists nobody wrote" cohort member whose fetch is not `ok` today now shows "(last read YYYY-MM-DD)" beside its name. The date is the latest snapshot where its fetch was `ok`, computed in the existing snapshot loop in `scripts/build.js`. One sentence was added to the cohort footnote. This is presentation only: membership and counts still come from the archived files. **Verified:** a 1,088-page build on the 09-23 snapshot. The cohort and category count cells (`<td>label</td><td>N</td>`) are identical before and after, at CF Managed **3**, Content Signals **24** and robotstxt.com/ai **1**. gamespot.com reads **"last read 2026-09-15"** (in both rows it belongs to), which matches the ring's spot check. Two more stale members turned up: **nexusmods.com (last read 2026-09-01)** and **launchpad.net (last read 2026-09-22)**, the latter unreadable for the first time today. The stats page returned HTTP 200 on the local serve.js, with the label present. No crawl was run and no snapshot was touched.
+
+**Queue:** CC-26 ticked. Every remaining CC/SS ring was user-gated, so I appended **SS-15** (per-category RSS, scoping first). It escalates if FDA data has no category field, because we must not invent a taxonomy.
+
+**Next:** SS-15. Confirm the CC-26 labels are live on /stats/. Once the user OKs CC-24, run the held Tranco refresh.

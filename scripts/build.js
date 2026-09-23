@@ -239,9 +239,13 @@ const changelog = fs.existsSync(path.join(ROOT, "data/changelog.json"))
 // (the CC-10 newcomers began 2026-09-08, not at the founding). Until this ring the
 // page printed "Tracking began <today's snapshot date>" on every site, every day.
 const firstSeen = {};
+const lastOk = {}; // latest snapshot date a domain's robots.txt read "ok" (CC-26)
 for (const f of fs.readdirSync(path.join(ROOT, "data/snapshots")).filter((f) => /^\d{4}-\d\d-\d\d\.json$/.test(f)).sort()) {
   const s = JSON.parse(fs.readFileSync(path.join(ROOT, "data/snapshots", f), "utf8"));
-  for (const d of Object.keys(s.domains)) firstSeen[d] ??= s.date;
+  for (const [d, e] of Object.entries(s.domains)) {
+    firstSeen[d] ??= s.date;
+    if (e.fetch === "ok") lastOk[d] = s.date;
+  }
 }
 const siteHistory = new Map();
 for (const e of [...changelog.entries].reverse()) {
@@ -552,9 +556,9 @@ write("stats/index.html", page({
 <p>Not every block is a decision. Some arrive as infrastructure: a CDN inserts a managed section, or a site copies a community roster of AI user agents. Either can be switched on or off in one move by someone who never reads the names inside — on 2026-09-01 roblox.com un-blocked eight AI crawlers at once by deleting a Cloudflare managed block, and on 2026-09-02 semafor.com un-blocked 31 by deleting a copied list. Each cohort is small enough to name in full, so we do, and we re-count them from the archived files every day.</p>
 <div class="tablewrap"><table class="statgrid">
 <thead><tr><th>Boilerplate</th><th>Sites</th><th>Which ones</th><th>What it is</th></tr></thead>
-<tbody>${boilerplate.map((c) => `<tr><td>${esc(c.label)}</td><td>${c.members.length}</td><td class="domains">${c.members.length ? c.members.map((d) => `<a href="../site/${esc(d)}/">${esc(d)}</a>`).join(" · ") : "—"}</td><td>${esc(c.what)}</td></tr>`).join("\n")}</tbody>
+<tbody>${boilerplate.map((c) => `<tr><td>${esc(c.label)}</td><td>${c.members.length}</td><td class="domains">${c.members.length ? c.members.map((d) => `<a href="../site/${esc(d)}/">${esc(d)}</a>${D[d].fetch !== "ok" && lastOk[d] ? ` <span class="updated">(last read ${esc(lastOk[d])})</span>` : ""}`).join(" · ") : "—"}</td><td>${esc(c.what)}</td></tr>`).join("\n")}</tbody>
 </table></div>
-<p class="note">Counted by matching the archived <code>robots.txt</code> of every readable domain against the marker each cohort leaves behind, on ${esc(snap.date)}. A site can appear in more than one row. Membership is a fact about the file, not a judgement about the site: the Content Signals preamble states a preference and blocks nothing by itself.</p>
+<p class="note">Counted by matching the archived <code>robots.txt</code> of every readable domain against the marker each cohort leaves behind, on ${esc(snap.date)}. A site can appear in more than one row. Membership is a fact about the file, not a judgement about the site: the Content Signals preamble states a preference and blocks nothing by itself. A member we could not read on this crawl is counted from its last archived file, dated beside its name.</p>
 <h2>Citing these numbers</h2>
 <p class="note">Data is CC BY 4.0. Cite as "Canicrawl, AI crawler access census, ${esc(snap.date)}" with a link. Raw data: <a href="../data/latest.json">latest.json</a>. Methodology: <a href="../about/">about</a>. Every figure is reproducible from the committed daily snapshots.</p>`,
 }));
