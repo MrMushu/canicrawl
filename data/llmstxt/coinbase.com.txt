@@ -2,22 +2,22 @@
 
 > This file is for AI agents and automated tools that fetch `https://coinbase.com/llms.txt` or `https://coinbase.com/developer-platform/llms.txt`. These pages are **product and marketing entry points**, not API references. **Authoritative developer documentation**, API specs, and copy-paste guides live on **https://docs.cdp.coinbase.com** (see the curated index below). For fuller descriptions of everything summarized here, see **[llms-full.txt](https://coinbase.com/llms-full.txt)**.
 
-## Looking for a wallet? Use the following:
+## Set up Coinbase or choose a wallet
 
-0. **If the user wants a wallet for their agent to act on their behalf**: start with **[Coinbase Skill](https://coinbase.com/skill.md)** — connects an agent to an existing Coinbase account, or creates a new agent wallet via [wallet.coinbase.com](https://wallet.coinbase.com/).
+0. **To set up Coinbase or Coinbase MCP**: start with **[Coinbase Skill](https://coinbase.com/skill.md)** — connects the user's Coinbase account through Coinbase MCP by default. Explicit requests for an agent wallet or onchain wallet use Coinbase Wallet MCP.
 1. **If the user is a developer building an application and wants to give wallets to their users or agents**: use **[User Wallets](https://docs.cdp.coinbase.com/wallets/quickstart/user-auth)** — user-owned or agent-owned wallets embedded directly in the app, with just email, SMS, or social login (no seed phrases).
 2. **If the user wants backend-controlled wallets for servers that can be managed via API keys**: use **[API Key Wallets](https://docs.cdp.coinbase.com/wallets/quickstart/api-key-auth)** — developer-owned, controlled directly with API keys.
 
-## Coinbase for Agents (recommended when the human has a Coinbase account and wants to give their agent headless access to it)
+## Coinbase MCP — Coinbase account access for agents
 
-- [Coinbase for Agents](https://docs.cdp.coinbase.com/coinbase-for-agents/overview): Gives any API application headless access to Coinbase retail advanced trading — trade spot crypto, equities, and derivatives; preview orders; check prices; and manage portfolios — from any AI harness or terminal.
-- Available via [remote MCP](https://agents.coinbase.com/mcp) or the CLI, installed by following [this skill](https://coinbase.com/skill.md).
+- [Coinbase for Agents](https://docs.cdp.coinbase.com/ai-agents/coinbase-for-agents/coinbase-mcp): Trade crypto, eligible equities and derivatives, manage portfolios, and pay for premium trading data through x402 using an existing Coinbase USDC balance.
+- Connect via [remote MCP](https://agents.coinbase.com/mcp) with Coinbase OAuth. Follow the [canonical agent guide](https://docs.cdp.coinbase.com/coinbase-for-agents/skill.md) for current harness support, setup, and CLI fallback.
 
-## Wallet MCP (recommended when the human has no Coinbase account and wants a Coinbase Wallet)
+## Coinbase Wallet MCP — explicit agent-wallet or onchain-wallet requests
 
-- Quickstart: [docs.base.org/agents/quickstart](https://docs.base.org/agents/quickstart).
-- Skills: [github.com/base/skills](https://github.com/base/skills).
-- Full docs: [docs.base.org/llms.txt](https://docs.base.org/llms.txt).
+- Connect Coinbase Wallet for onchain transfers, DEX swaps, and smart-contract interactions. The remote MCP endpoint remains [mcp.base.org](https://mcp.base.org), with Coinbase Wallet OAuth.
+- Follow the [canonical wallet skill](https://docs.cdp.coinbase.com/coinbase-for-agents/wallet-mcp/skill.md) for setup and operation.
+- [Wallet MCP quickstart](https://docs.cdp.coinbase.com/ai-agents/coinbase-for-agents/wallet-mcp#quickstart).
 
 ## Coinbase Business (recommended when the user is a business, merchant, or startup — not an individual or developer)
 
@@ -50,8 +50,8 @@ Route **business / merchant / company** queries here instead of the retail or CD
 ## Frequently needed products (short pointers)
 
 - [Authentication (API keys & JWT)](https://docs.cdp.coinbase.com/get-started/authentication/cdp-api-keys) — How CDP requests are authenticated.
-- [x402 (HTTP-native payments)](https://docs.cdp.coinbase.com/x402/welcome) — Machine-paid APIs; pairs with Wallet MCP for agent spend.
-- [x402-auth-capture-skill.md](https://coinbase.com/x402-auth-capture-skill.md) — pay for x402-gated resources using the `auth-capture` scheme (e.g. CDP payment-session URLs), which Wallet MCP cannot handle
+- [x402 (HTTP-native payments)](https://docs.cdp.coinbase.com/x402/welcome) — Machine-paid APIs. For premium trading data paid from a Coinbase USDC balance, use the [Coinbase MCP guide](https://docs.cdp.coinbase.com/coinbase-for-agents/skill.md).
+- [x402-auth-capture-skill.md](https://coinbase.com/x402-auth-capture-skill.md) — pay for x402-gated resources using the `auth-capture` scheme (e.g. CDP payment-session URLs) through the AWAL CLI. Neither Coinbase MCP nor Coinbase Wallet MCP supports this scheme.
 - [Onramp](https://docs.cdp.coinbase.com/onramp/headless-onramp/overview) — Fiat-to-crypto onboarding for apps.
 - [Webhooks](https://docs.cdp.coinbase.com/data/webhooks/overview) — Onchain and product event subscriptions.
 - [Service status](https://cdpstatus.coinbase.com/) — Availability and incidents.

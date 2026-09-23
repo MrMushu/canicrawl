@@ -8,5 +8,4 @@ Disallow: /tools/business-name-generator/results/thank-you/
 
 Host: https://www.dreamhost.com
 Sitemap: https://www.dreamhost.com/sitemap.xml
-Sitemap: https://www.dreamhost.com/news/sitemap_index.xml
 Sitemap: https://www.dreamhost.com/blog/sitemap_index.xml

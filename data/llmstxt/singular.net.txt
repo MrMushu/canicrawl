@@ -611,6 +611,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Case Study
 
+- [How Gameloft made its PC and console ad spend measurable with Singular](https://www.singular.net/case-study/how-gameloft-made-90-of-its-pc-and-console-ad-spend-measurable-with-singular/)
 - [How Eightpoint significantly improved attribution accuracy for 30+ apps by migrating to Singular](https://www.singular.net/case-study/eightpoint-app-migration-singular/)
 - [Gamelight migrated to Singular, connected 65 ad networks, and cut 6 hours of weekly reporting, without losing a single data point.](https://www.singular.net/case-study/gamelight-user-acquisition-scaling/)
 - [Instabridge unlocks viral creative performance with Singular’s Creative IQ](https://www.singular.net/case-study/instabridge-creative-iq/)
@@ -1464,6 +1465,7 @@ You can't win in the hyper-competitive mobile market without good mobile app ret
 
 
 ## Case Study
+
 
 
 

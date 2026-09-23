@@ -98,7 +98,7 @@ Disallow: /store/marketing-agency/help/
 Disallow: /us/payroll/v1/help/
 Disallow: /sa/payroll/
 Disallow: /cards/
-Disallow: /en-gb/payroll/
+Disallow: /uk/payroll/
 
 
 

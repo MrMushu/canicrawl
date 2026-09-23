@@ -162,6 +162,16 @@
 
 [What role does BrazeAI™ play in cross-channel messaging?](https://www.braze.com/product/cross-channel-messaging): BrazeAI™ assists in creating and personalizing content, generating copy and creative, and determining the best channel and timing for each customer interaction.
 
+[What is WhatsApp marketing?](https://www.braze.com/resources/articles/whatsapp-marketing): WhatsApp marketing is the practice of reaching customers with personalized, interactive, two-way messages on the WhatsApp Business Platform. Brands use it for promotions, order updates, cart recovery, and support, integrated into cross-channel campaigns, to drive engagement, conversions, and loyalty on a channel billions of people use daily.
+
+[How do I measure WhatsApp marketing success?](https://www.braze.com/resources/articles/whatsapp-marketing): Measure campaign performance with read rate, click-through rate, and conversion rate. Measure the program overall with uplift in sessions, purchases, retention and lifetime value versus other channels. Because WhatsApp is a premium channel, track incremental impact, not just raw sends.
+
+[How do I set up a WhatsApp Business Account for marketing?](https://www.braze.com/resources/articles/whatsapp-marketing): Connect WhatsApp to a customer engagement platform (your Business Solution Provider), create your Meta and WhatsApp Business accounts, verify your business, apply for Official Business Account status, scale your messaging limits, collect opt-ins, and submit message templates for approval before sending campaigns.
+
+[Do you need opt-in for WhatsApp marketing?](https://www.braze.com/resources/articles/whatsapp-marketing): Yes. WhatsApp requires explicit consent before sending marketing messages. Collect opt-ins through your website, landing pages, phone-capture forms, QR codes, and social links, be transparent about what subscribers will receive, and follow regional privacy laws to keep a high-quality sending reputation.
+
+[What are the best WhatsApp marketing use cases?](https://www.braze.com/resources/articles/whatsapp-marketing): High-impact use cases include onboarding and abandoned-registration nudges, abandoned cart recovery, order updates, back-in-stock alerts, loyalty enrollment, upsell and cross-sell, surveys, and win-back campaigns. The strongest programs pair these with other channels and personalize with first-party data.
+
 [What is MCP (Model Context Protocol)?](https://www.braze.com/resources/articles/introducing-braze-mcp-server): ​​Model Context Protocol, or MCP, is a standard that lets AI agents connect to and work with data from another platform.
 
 [What is the Braze MCP Server?](https://www.braze.com/resources/articles/introducing-braze-mcp-server): A service provided by another platform, like Braze, that defines which tools the AI can use and what data it can access.
@@ -221,16 +231,6 @@
 [What benefits does WhatsApp provide as part of a cross-channel strategy?](https://www.braze.com/resources/articles/the-powerful-impact-of-using-whatsapp-for-customer-engagement): WhatsApp enhances a cross-channel strategy by providing seamless, instant customer engagement that complements email, SMS, and social media touchpoints.
 
 [How can rich media and two-way messaging improve performance?](https://www.braze.com/resources/articles/the-powerful-impact-of-using-whatsapp-for-customer-engagement): Rich media and two-way messaging improve performance by making interactions more interactive, visually appealing, and fostering meaningful customer conversations.
-
-[What is WhatsApp marketing?](https://www.braze.com/resources/articles/whatsapp-marketing): WhatsApp marketing is the practice of reaching customers with personalized, interactive, two-way messages on the WhatsApp Business Platform. Brands use it for promotions, order updates, cart recovery, and support, integrated into cross-channel campaigns, to drive engagement, conversions, and loyalty on a channel billions of people use daily.
-
-[How do I measure WhatsApp marketing success?](https://www.braze.com/resources/articles/whatsapp-marketing): Measure campaign performance with read rate, click-through rate, and conversion rate. Measure the program overall with uplift in sessions, purchases, retention and lifetime value versus other channels. Because WhatsApp is a premium channel, track incremental impact, not just raw sends.
-
-[How do I set up a WhatsApp Business Account for marketing?](https://www.braze.com/resources/articles/whatsapp-marketing): Connect WhatsApp to a customer engagement platform (your Business Solution Provider), create your Meta and WhatsApp Business accounts, verify your business, apply for Official Business Account status, scale your messaging limits, collect opt-ins, and submit message templates for approval before sending campaigns.
-
-[Do you need opt-in for WhatsApp marketing?](https://www.braze.com/resources/articles/whatsapp-marketing): Yes. WhatsApp requires explicit consent before sending marketing messages. Collect opt-ins through your website, landing pages, phone-capture forms, QR codes, and social links, be transparent about what subscribers will receive, and follow regional privacy laws to keep a high-quality sending reputation.
-
-[What are the best WhatsApp marketing use cases?](https://www.braze.com/resources/articles/whatsapp-marketing): High-impact use cases include onboarding and abandoned-registration nudges, abandoned cart recovery, order updates, back-in-stock alerts, loyalty enrollment, upsell and cross-sell, surveys, and win-back campaigns. The strongest programs pair these with other channels and personalize with first-party data.
 
 [What is conversational marketing?](https://www.braze.com/resources/articles/conversational-marketing): Conversational marketing is a customer-centric approach built on real-time, one-to-one, two-way conversations across channels like chat, messaging apps (WhatsApp, Messenger), SMS, and email. Instead of broadcasting a single message, it engages each customer individually with personalized, context-aware dialogue, increasingly powered by AI so it can happen at scale.
 

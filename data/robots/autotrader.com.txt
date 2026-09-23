@@ -7,6 +7,7 @@ User-agent: Tag Inspector Spider
 Allow: /
 
 User-agent: *
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /research/
 Disallow: *keyword=
 Disallow: /cars-for-sale/cbh/history/
@@ -174,6 +175,7 @@ Disallow: /cars-for-sale/vehicle-conditioning/
 Disallow: /lead-dashboard*
 
 User-agent: AdsBot-Google
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /research/article/article.xhtml
 Disallow: /research/article/articleCMSContent.xhtml
 Disallow: /research/article/articleSearchResults.xhtml
@@ -269,6 +271,7 @@ Disallow: /sell-my-car/ad/upload-photos.xhtml
 Disallow: /comment-summary
 
 User-agent: GPTBot
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -282,6 +285,7 @@ Allow: /cars-for-sale/inventory/
 Disallow: /wp-json/inventory/
 
 User-agent: OAI-SearchBot
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -295,6 +299,7 @@ Allow: /cars-for-sale/inventory/
 Disallow: /wp-json/inventory/
 
 User-agent: ChatGPT-User
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -311,6 +316,7 @@ User-agent: Amazonbot
 Disallow: *
 
 User-agent: CCBot
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -322,6 +328,7 @@ Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: Claude-User
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -333,6 +340,7 @@ Disallow: */pep
 Disallow: /wp-json/inventory/
 
 User-agent: ClaudeBot
+Disallow: /cars-for-sale/srp-dark/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/
@@ -340,6 +348,7 @@ Disallow: /pixall
 Disallow: */pixall
 
 User-agent: Claude-SearchBot
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -351,6 +360,7 @@ Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: DuckAssistBot
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -363,6 +373,7 @@ Disallow: */pixall
 Disallow: /kbbreport/
 
 User-agent: PerplexityBot
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -374,6 +385,7 @@ Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: Perplexity-User
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -385,6 +397,7 @@ Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: GrokBot
+Disallow: /cars-for-sale/srp-dark/
 Disallow: /*.js
 Disallow: /*.css
 Disallow: /*.json
@@ -396,6 +409,7 @@ Disallow: */pixall
 Disallow: /wp-json/inventory/
 
 User-agent: AhrefsBot
+Disallow: /cars-for-sale/srp-dark/
 Allow: /
 Disallow: /pep
 Disallow: */pep

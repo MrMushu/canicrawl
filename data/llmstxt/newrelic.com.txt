@@ -108,6 +108,18 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Travel & Transportation](https://newrelic.com/customers?category=travel_transportation): Customer success stories in travel and transportation sector
 ## Resources
 
+### Report
+- [AI makes software faster to build and harder to run](https://newrelic.com/resources/report/observability-forecast/2026-emea): Discover how 750 technology leaders across Europe and the Gulf are balancing rapid AI agent deployment with cost management and regulatory compliance in the 2026 EMEA Observability Forecast.
+- [Asia-Pacific is outrunning the world on AI adoption—and paying the highest price for downtime](https://newrelic.com/resources/report/observability-forecast/2026-apac): Discover how APAC IT leaders are mastering agentic monitoring, balancing rapid AI adoption, and reducing high-impact outage risks in the 2026 APAC Observability Forecast.
+- [The State of AI & Observability: Insights From 2,500+ Leaders](https://newrelic.com/resources/report/observability-forecast/2026): Discover insights from 2,500+ IT leaders in the Observability Forecast. Learn how to monitor AI-generated code, control tool sprawl, and manage autonomous agent risk.
+- [The 2026 State of AI Coding Report](https://newrelic.com/resources/report/the-2026-state-of-ai-coding-report): Read the 2026 State of AI Coding Report to discover why AI-generated code speeds up development but complicates production.
+- [New Relic Named a Leader in the 2026 IDC MarketScape for Worldwide AIOps](https://newrelic.com/resources/report/idc-marketscape-worldwide-aiops): See why New Relic was named a leader in the 2026 IDC MarketScape Report for Worldwide AIOps.
+- [2026 AI Impact Report](https://newrelic.com/resources/report/2026-ai-impact-report): Discover how AI is transforming engineering. New Relic’s 2026 AI Impact Report reveals how teams achieved 2x higher correlation rates and 80% more deployments. Read the full insights from 6M+ users.
+- [2025 Observability Forecast for Financial Services ](https://newrelic.com/resources/report/2025-observability-forecast-financial-services): Explore the State of Observability for Financial Services 2025 report. See how 156 financial services organizations are navigating an increasingly complex technology landscape. 
+- [Using Agentic AI and Intelligent Observability to Reduce MTTR for IT Operations](https://newrelic.com/resources/report/using-agentic-ai-and-intelligent-observability-reduce-mttr-for-it-operations): Watch this session to learn how the New Relic ServiceNow integration uses agentic AI to reduce MTTR, enhance incident management, and enable automation.
+- [2025 Telecommunications & Technology Observability Report](https://newrelic.com/resources/report/2025-telecommunications-technology-observability-report): Explore the State of Observability for IT and Telecommunications 2025 report. Get key insights, trends, and strategies for leveraging modern observability to create efficient, secure code.
+- [New Relic is a Leader in IDC’s Worldwide Observability Report](https://newrelic.com/resources/report/idc-marketscape-worldwide-observability): Discover why IDC named New Relic an Observability Leader, highlighting 5x faster MTTR, OpenTelemetry support, and flexible, predictable consumption-based pricing.
+
 ### Guide
 - [A guide to agentic AI systems & observability](https://newrelic.com/resources/guide/agentic-ai-systems-observability-lp): Agentic AI systems can plan, act, and fail in unpredictable ways. Discover the developer's guide to building resilient AI agents and why observability is your only shield against million-dollar outages.
 - [Value Calculator](https://newrelic.com/resources/guide/value-calculator): Calculate the ROI of observability
@@ -127,18 +139,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Observability for Engineers: How a Systems Architect Uses New Relic](https://newrelic.com/resources/video/observability-systems-architect): See how Senior Systems Architect at EveryMatrix, Alex Bularca, leverages New Relic as an essential part of his day-to-day job.
 - [Observability for Executives: How a CTO Uses New Relic](https://newrelic.com/resources/video/observability-group-cto): Hear from the Group CTO of EveryMatrix, Mihnea Dobre, why New Relic is essential to their engineering organization.
 - [Observability Forecast 2024 Highlights](https://newrelic.com/resources/video/state-of-observability-2024-highlights): State of Observability 2024 Highlights
-
-### Report
-- [The 2026 State of AI Coding Report](https://newrelic.com/resources/report/the-2026-state-of-ai-coding-report): Read the 2026 State of AI Coding Report to discover why AI-generated code speeds up development but complicates production.
-- [New Relic Named a Leader in the 2026 IDC MarketScape for Worldwide AIOps](https://newrelic.com/resources/report/idc-marketscape-worldwide-aiops): See why New Relic was named a leader in the 2026 IDC MarketScape Report for Worldwide AIOps.
-- [2026 AI Impact Report](https://newrelic.com/resources/report/2026-ai-impact-report): Discover how AI is transforming engineering. New Relic’s 2026 AI Impact Report reveals how teams achieved 2x higher correlation rates and 80% more deployments. Read the full insights from 6M+ users.
-- [2025 Observability Forecast for Financial Services ](https://newrelic.com/resources/report/2025-observability-forecast-financial-services): Explore the State of Observability for Financial Services 2025 report. See how 156 financial services organizations are navigating an increasingly complex technology landscape. 
-- [Using Agentic AI and Intelligent Observability to Reduce MTTR for IT Operations](https://newrelic.com/resources/report/using-agentic-ai-and-intelligent-observability-reduce-mttr-for-it-operations): Watch this session to learn how the New Relic ServiceNow integration uses agentic AI to reduce MTTR, enhance incident management, and enable automation.
-- [2025 Telecommunications & Technology Observability Report](https://newrelic.com/resources/report/2025-telecommunications-technology-observability-report): Explore the State of Observability for IT and Telecommunications 2025 report. Get key insights, trends, and strategies for leveraging modern observability to create efficient, secure code.
-- [New Relic is a Leader in IDC’s Worldwide Observability Report](https://newrelic.com/resources/report/idc-marketscape-worldwide-observability): Discover why IDC named New Relic an Observability Leader, highlighting 5x faster MTTR, OpenTelemetry support, and flexible, predictable consumption-based pricing.
-- [22 Winning Observability Strategies](https://newrelic.com/resources/report/winning-observability-strategies): Download our ebook on the 22 winning observability strategies you need to improve customer experience, increase operational efficiency, and accelerate innovation.
-- [2025 Observability Forecast](https://newrelic.com/resources/report/observability-forecast-2025-report): Download the 2025 Observability Forecast and discover insights on observability benefits, challenges, and technologies from over 1,700 survey respondents.
-- [2025 Retail & eCommerce Observability Report](https://newrelic.com/resources/report/state-of-observability-for-retail-ecommerce-2025): Explore the State of Observability for Retail 2025 report. Get key insights, trends, and strategies for leveraging modern observability to drive retail performance and customer experience.
 
 ### Presentations
 - [Dunnhumby Workshop: Workloads](https://newrelic.com/resources/presentations/dunnhumby-workloads): Workloads workshop content for Dunnhumby
@@ -160,13 +160,14 @@ experience on every platform.
 
 ### Ebooks
 - [Does your DEM Strategy Connect All the Dots? ](https://newrelic.com/resources/ebooks/does-your-dem-strategy-connect-all-the-dots): Does Your DEM Strategy Connect All the Dots? 
-- [6 Steps to Achieve Business Observability for Bell Canada ](https://newrelic.com/resources/ebooks/6-steps-to-achieve-business-observability-for-bell-canada): Hey Bell, we've got a customized report to speed you on your journey from Telco to TechCo. It's ready for you now 
 
 ### Executive-brief
 - [ Advanced AI Strategies Demand Full-Stack AI Observability](https://newrelic.com/resources/executive-brief/ai-monitoring): Businesses are seeing the immediate benefits of generative AI, but AI Observability is necessary to innovate while reducing risk to your business.
 
 ## Blog
 
+- [How to Build an SRE Agent That Actually Works (Without Blowing the Token Budget)](https://newrelic.com/blog/observability/how-to-build-an-sre-agent-that-actually-works-without-blowing-the-token-budget): Learn how to build an SRE agent that delivers accurate, low-latency incident triage with multi-tiered memory and RAG—without blowing your token budget.
+- [Announcing the 2026 Observability Forecast](https://newrelic.com/blog/observability/announcing-the-2026-observability-forecast): The Observability Forecast 2026 offers insights from 2,575 IT and engineering leaders and practitioners worldwide on the future of observability. 
 - [LLM Observability: The 8 Best Tools for Production AI Systems](https://newrelic.com/blog/ai/llm-observability): Compare the top LLM observability tools for production AI — tracing, cost tracking, and evaluation — and see what to weigh before you add another tool to your stack.
 - [Centralized Log Management: A Comprehensive Guide for Engineers](https://newrelic.com/blog/log/centralized-log-management): Learn how centralized log management helps developers and engineers improve incident response, reduce costs, and gain better control over log data.
 - [7 Best Synthetic Monitoring Tools for Engineering Teams](https://newrelic.com/blog/dem/synthetic-monitoring-tools): Compare the top synthetic monitoring tools for engineering teams — uptime checks, browser tests, and how each correlates with the rest of your stack.
@@ -187,8 +188,6 @@ experience on every platform.
 - [Best Cloud Cost Management Tools in 2026: A Buyer's Guide](https://newrelic.com/blog/observability/best-cloud-cost-management-tools): Compare the best cloud cost management tools for AWS, Azure, and GCP. See how FinOps platforms, observability tools, and Kubernetes cost tools stack up — and what actually drives savings.
 
 - [The Next Competitive Advantage in Enterprise AI](https://newrelic.com/blog/ai/new-relic-ground-truth-enterprise-ai): Learn why trusted operational intelligence is becoming the foundation for enterprise AI and how New Relic Ground Truth enables reliable autonomous operations.
-- [Cleared for Launch: Ahead of the framework by design – Part 1](https://newrelic.com/blog/observability/cleared-for-launch-ahead-of-the-framework-by-design-part-1): New Relic uses STAR to accelerate releases for all products, including AI. See how this unified framework streamlines security, legal, and compliance.
-- [Empowering Relics to Own Their Career Growth](https://newrelic.com/blog/news/empowering-relics-to-own-their-career-growth): Learn how New Relic’s 5th Grow Your Career Month equips employees with continuous learning, leadership development, and AI skills to drive career growth.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

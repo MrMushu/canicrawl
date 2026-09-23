@@ -55,6 +55,7 @@ Disallow: /api-proxy/
 Disallow: /cdn-cgi/
 Disallow: /cake/
 Disallow: /domain-name-results
+Disallow: /transfer-domain-results
 Disallow: /special/000webhost
 Disallow: /special/webhost
 Disallow: /ae/special/000webhost
@@ -488,6 +489,7 @@ Disallow: /api-proxy/
 Disallow: /cdn-cgi/
 Disallow: /cake/
 Disallow: /domain-name-results
+Disallow: /transfer-domain-results
 Disallow: /special/000webhost
 Disallow: /special/webhost
 Disallow: /ae/special/000webhost

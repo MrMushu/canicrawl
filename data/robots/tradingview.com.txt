@@ -34,6 +34,8 @@ User-agent: AI2Bot
 User-agent: Bytespider
 User-agent: TikTokspider
 User-agent: DeepSeekBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
 Disallow: /ideas/*
 Disallow: /scripts/*
 Disallow: /script/*

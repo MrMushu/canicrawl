@@ -57,6 +57,7 @@
 [Zenbook](https://www.asus.com/laptops/for-home/zenbook/)
 [Vivobook](https://www.asus.com/laptops/for-home/vivobook/)
 [Chromebook](https://www.asus.com/laptops/for-home/chromebook/)
+[Googlebook](https://www.asus.com/laptops/for-home/googlebook/)
 
 #### [For Work](https://www.asus.com/laptops/for-work/all-series/)
 [All series](https://www.asus.com/laptops/for-work/all-series/)

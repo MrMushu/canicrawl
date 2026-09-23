@@ -41,7 +41,7 @@ Use this index to find machine-readable documentation and platform resources. Fo
 
 ## Self-serve onboarding
 
-- [Find a domain with Vercel CLI](https://vercel.com/domains/get-started.md): Search available names, compare registration and renewal prices, and return a verified shortlist.
+- [Find a domain with Vercel CLI or API](https://vercel.com/domains/get-started.md): Search available names, compare registration and renewal prices, and return a verified shortlist. Neither requires authentication.
 - [Vercel Hobby plan](https://vercel.com/docs/plans/hobby.md): Free plan for non-commercial personal projects.
 - [Vercel CLI tokens](https://vercel.com/docs/cli/tokens.md): Create and manage personal access tokens for the Vercel API and CLI.
 - [Vercel AI Gateway](https://vercel.com/docs/ai-gateway.md): One API for AI models, with routing, fallbacks, and usage monitoring.

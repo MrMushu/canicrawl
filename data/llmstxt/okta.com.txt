@@ -431,7 +431,7 @@
 - [Okta Workforce Identity](https://www.okta.com/products/workforce-identity)
 - [Identity Security Posture Management](https://www.okta.com/products/identity-security-posture-management)
 - [Release Overview](https://www.okta.com/products/release-overview-workforce-identity)
-- [Okta for AI Agents](https://www.okta.com/products/govern-ai-agent-identity)
+- [Okta for AI Agents | Secure & Govern Your AI Workforce](https://www.okta.com/products/govern-ai-agent-identity)
 
 ## Blog
 
@@ -473,7 +473,6 @@
 - [Decentralized Identity: The future of digital Identity management](https://www.okta.com/blog/identity-security/what-is-decentralized-identity)
 - [What Is Identity and Access Management (IAM)?](https://www.okta.com/blog/identity-security/what-is-identity-and-access-management-iam)
 - [Tools for enforcing authentication policy](https://www.okta.com/blog/identity-security/tools-for-enforcing-authentication-policy)
-- [What is SCIM?](https://www.okta.com/blog/identity-security/what-is-scim)
 - [The Ultimate Authentication Playbook](https://www.okta.com/blog/identity-security/the-ultimate-authentication-playbook)
 - [What Is SMS Authentication and Is It Secure?](https://www.okta.com/blog/identity-security/sms-authentication)
 - [What is Federation and Why Should Your Apps Support it?](https://www.okta.com/blog/identity-security/what-is-federation-and-why-should-your-apps-support-it)
@@ -508,7 +507,6 @@
 - [How Okta simplifies NIS2 compliance: a deep dive](https://www.okta.com/blog/identity-security/how-okta-simplifies-nis2-compliance-a-deep-dive)
 - [Top 10 Ways To Automate IT & Security Tasks With Okta Workflows](https://www.okta.com/blog/identity-security/automate-it-security)
 - [How Okta is helping society prepare for future cyberthreats](https://www.okta.com/blog/identity-security/how-okta-is-helping-society-prepare-for-future-cyberthreats)
-- [6 Steps to Practice Strong Laptop Security](https://www.okta.com/blog/identity-security/6-steps-to-practice-strong-laptop-security)
 - [Okta Workflows How-To: Determine User Sign-In Location](https://www.okta.com/blog/identity-security/determine-user-sign-in-location)
 - [Thought leadership series: Exploring CMMC 2.0 identity requirements](https://www.okta.com/blog/identity-security/how-okta-can-help-meet-cmmc-2-0-identity-and-access-management-requirements)
 - [Contextual Access Management: What Does It Actually Mean?](https://www.okta.com/blog/identity-security/contextual-access-management-what-does-it-actually-mean)
@@ -1281,6 +1279,9 @@
 - [Unified Requester Experience: Your one-stop shop for Okta Access Requests](https://www.okta.com/blog/product-innovation/unified-requester-experience-your-one-stop-shop-for-access-requests)
 - [Identity may be the design primitive you're overlooking](https://www.okta.com/blog/customers-and-partners/ai-agent-identity-design-primitive)
 - [Securing the modern workforce: What Google Android and Chrome Enterprise are building with Okta](https://www.okta.com/blog/customers-and-partners/google-okta-zero-trust-chrome-android)
+- [Six steps to secure your company laptop: Enterprise security guide](https://www.okta.com/blog/identity-security/6-steps-to-practice-strong-laptop-security)
+- [Unlock secure enterprise AI with the growing Cross App Access ecosystem](https://www.okta.com/blog/product-innovation/cross-app-access-enterprise-ai)
+- [What is SCIM?](https://www.okta.com/blog/identity-security/what-is-scim)
 
 ## Newsroom
 
@@ -1515,4 +1516,7 @@
 - [Lessons learned from securing our digital workforce](https://www.okta.com/newsroom/articles/lessons-from-securing-our-digital-workforce)
 - [What CISOs need to know about runtime identity enforcement for AI agents](https://www.okta.com/newsroom/articles/what-cisos-need-to-know-about-ai-agents-at-runtime)
 - [Okta names Helen Riley to board of directors](https://www.okta.com/newsroom/press-releases/okta-names-helen-riley-to-board-of-directors)
+- [New Okta for AI Agents innovations increase visibility into agent behavior, secure connections at runtime, and enforce continuous agent governance](https://www.okta.com/newsroom/press-releases/ai-innovations-oktane-2026)
+- [Industry leaders form the Blueprint Alliance to advance a shared architecture for securing AI agents](https://www.okta.com/newsroom/press-releases/industry-leaders-form-the-blueprint-alliance)
+- [Okta announces 2026 Partner Awards: Ecosystem leaders driving secure AI innovation](https://www.okta.com/newsroom/press-releases/okta-partner-award-winners-2026)
 
