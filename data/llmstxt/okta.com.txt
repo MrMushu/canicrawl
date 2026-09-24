@@ -432,6 +432,7 @@
 - [Identity Security Posture Management](https://www.okta.com/products/identity-security-posture-management)
 - [Release Overview](https://www.okta.com/products/release-overview-workforce-identity)
 - [Okta for AI Agents | Secure & Govern Your AI Workforce](https://www.okta.com/products/govern-ai-agent-identity)
+- [Homepage US - 9/23 - 8:30a PT](https://www.okta.com/products/home-oktane-during-event)
 
 ## Blog
 
@@ -1519,4 +1520,5 @@
 - [New Okta for AI Agents innovations increase visibility into agent behavior, secure connections at runtime, and enforce continuous agent governance](https://www.okta.com/newsroom/press-releases/ai-innovations-oktane-2026)
 - [Industry leaders form the Blueprint Alliance to advance a shared architecture for securing AI agents](https://www.okta.com/newsroom/press-releases/industry-leaders-form-the-blueprint-alliance)
 - [Okta announces 2026 Partner Awards: Ecosystem leaders driving secure AI innovation](https://www.okta.com/newsroom/press-releases/okta-partner-award-winners-2026)
+- [Oktane 2026: Setting the standard for the secure agentic future](https://www.okta.com/newsroom/articles/setting-the-standard-for-the-secure-agentic-future)
 

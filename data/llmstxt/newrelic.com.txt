@@ -191,11 +191,11 @@ experience on every platform.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [AI Engineering and Infrastructure Reli-Birds Challenge Sydney](https://newrelic.com/events/2026-10-01/ai-engineering-infra-summit-sydney): New Relic at AI Engineering and Infrastructure Sydney. Join us for a Reli-Bird's Mobile Game Challenge!
 - [[On-demand] Exploring the Power of New Relic Browser Monitoring and Session Replay (EMEA)](https://newrelic.com/events/2026-09-17/browser-monitoring-session-replay): Learn how to use New Relic browser monitoring to help ensure successful deployments and quickly troubleshoot customer-visible problems, measure full page life cycle data and the information you need to ensure customer satisfaction.
 - [[On-demand] Proactively monitor availability and performance with New Relic Synthetics (EMEA)](https://newrelic.com/events/2026-09-16/proactively-monitor-availability-and-performance-with-new-relic-synthetics-emea-on-demand): Watch an overview of synthetic monitoring in New Relic, to find out where specific errors and slow pages are so that you can deliver the best customer experience.
 - [Visit New Relic at Booth 159 at KubeCon](https://newrelic.com/events/2026-11-09/kubecon-salt-lake-city): Visit New Relic at Booth 159 at KubeCon
 - [[Webinar] From Click to Code: Instrumenting New Relic Mobile and Browser Monitoring (APAC) (on demand)](https://newrelic.com/events/2026-10-09/mobile-monitoring-apac-on-demand): Join us for this 60-minute workshop to learn how New Relic Browser and Mobile Monitoring provide real-time, end-to-end visibility into frontend performance.
-- [New Relic & Verisk on Stage at re:Invent](https://newrelic.com/events/2026-12-01/reinvent-speaking-sessions): New Relic joins forces with our customer Verisk on stage for a breakout session at AWS re:Invent on Tue Dec 1 at 11.30am.
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.

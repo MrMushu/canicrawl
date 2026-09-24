@@ -8,6 +8,9 @@ Disallow: /ch-en/*?amp=1
 Disallow: /ch-en/?*
 Disallow: /ch-en/*/amp/
 Disallow: /macs_cookies/
+Sitemap: https://www.capgemini.com/au-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/co-es/sitemap_index.xml
+Sitemap: https://www.capgemini.com/ch-en/sitemap_index.xml
 # START YOAST BLOCK
 # ---------------------------
 User-agent: *

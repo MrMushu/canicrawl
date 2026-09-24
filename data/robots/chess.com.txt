@@ -42,6 +42,18 @@ Disallow: /*/stats/
 Disallow: /*/game/
 Disallow: /*/register?returnUrl=
 
+User-agent: AdsBot-Google
+Allow: /game/
+Allow: /*/game/
+
+User-agent: AdsBot-Google-Mobile
+Allow: /game/
+Allow: /*/game/
+
+User-agent: Mediapartners-Google
+Allow: /game/
+Allow: /*/game/
+
 Sitemap: https://www.chess.com/sitemapindex.xml
 
 #                     .,;;::;;,.
