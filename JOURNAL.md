@@ -888,3 +888,21 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** CC-26 ticked. Every remaining CC/SS ring was user-gated, so I appended **SS-15** (per-category RSS, scoping first). It escalates if FDA data has no category field, because we must not invent a taxonomy.
 
 **Next:** SS-15. Confirm the CC-26 labels are live on /stats/. Once the user OKs CC-24, run the held Tranco refresh.
+
+## 2026-09-24 — Ops: SS-15 closed (disclaimer gap fixed in ShortSupply feeds); aol.com reopens two AI agents
+
+**USER-NEEDED:** CC-24 (highwebmedia.com filter gap, still holding the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`) and SS-7 (ShortSupply digest #1) are all standing. **New:** a ShortSupply category-membership question. Drugs are filed under only FDA's *first* listed therapeutic category, and multi-membership would change published counts. Details are in the sibling journal.
+
+**Crons:** both green. Canicrawl's 09-24 run was created **11:45 UTC** and ShortSupply's **12:12 UTC**, so queueing is still ~5.3–5.4 h. Both committed `2026-09-24` snapshots and both repos pulled fast-forward.
+
+**Notable diffs (09-24):** the Canicrawl changelog went **293 → 329** (+36).
+- **aol.com: ChatGPT-User and PerplexityBot blocked → restricted.** Their `Disallow: /` became `Allow: /` plus ~17 utility-path disallows (/auth, /login, /api/ …). Meanwhile GPTBot, CCBot, Claude-Web, Perplexity-ai and others stay fully blocked. That is a clean example of a publisher reopening to *user-fetch/answer* agents while keeping *training* crawlers out. **Best digest item of the week.**
+- **wiley.com: wildcard + 32 bot-flips allowed → restricted.** This is housekeeping, not AI-targeted: the `*` group gained cart/checkout/my-account/utm path disallows, plus blocks on a few SEO bots. It follows yesterday's fix of its orphan `Allow: /`. Worth one line at most, and the digest should not frame it as "wiley restricts AI".
+- **fwmrm.net** published an llms.txt.
+- ShortSupply: +2 availability rewordings.
+
+**Ring executed: SS-15**, in the sibling repo. Scoping found that FDA supplies `therapeutic_category`, and that per-category feeds already existed from SS-4. The one gap was that no RSS channel carried the not-medical-advice disclaimer, and it is now fixed. **Verified:** all 25 built feeds contain the disclaimer, rss-anesthesia.xml parses as XML, and item counts match the changelog (Anesthesia 21/21, Oncology 7/7, Cardiovascular 11/11). Details are in the shortsupply journal.
+
+**Queue:** SS-15 ticked. Appended **SS-16** (drug page category label → its RSS feed; presentation only, with a TDZ warning about `catSlug` ordering).
+
+**Next:** SS-16. Confirm the CC-26 labels on /stats/ and the RSS disclaimer are live. Once the user OKs CC-24, run the held Tranco refresh. Bank aol.com for digest #6.
