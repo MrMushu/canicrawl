@@ -76,6 +76,7 @@ Disallow: /watch/neslomlennaya-2026/*
 Disallow: /watch/vse-v-tvoih-rukah-rossiya/*
 Disallow: /watch/kogda-vanya-vstretil-anyu-2026/*
 Disallow: /watch/lyubov-s-tretego-vzglyada-2026/*
+Disallow: /watch/istoriya-ego-sluzhanki-1/*
 Clean-param: sort
 Clean-param: sort&rating_part&rating_model
 Clean-param: episode
@@ -186,5 +187,6 @@ Disallow: /watch/neslomlennaya-2026/*
 Disallow: /watch/vse-v-tvoih-rukah-rossiya/*
 Disallow: /watch/kogda-vanya-vstretil-anyu-2026/*
 Disallow: /watch/lyubov-s-tretego-vzglyada-2026/*
+Disallow: /watch/istoriya-ego-sluzhanki-1/*
 User-agent: Twitterbot
 Disallow:

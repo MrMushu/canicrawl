@@ -77,6 +77,7 @@
 - https://cursor.com/docs/bugbot.md
 - https://cursor.com/docs/security-agents.md
 - https://cursor.com/docs/approval-agents.md
+- https://cursor.com/docs/rollouts.md
 - https://cursor.com/docs/cloud-agent/mobile.md
 - https://cursor.com/docs/cloud-agent/security.md
   - https://cursor.com/docs/cloud-agent/security-network.md
@@ -433,6 +434,9 @@
 - https://cursor.com/help/grok-bot/delete-account.md
 - https://cursor.com/help/grok-bot/connect-plugins.md
 - https://cursor.com/help/grok-bot/routines.md
+- https://cursor.com/help/grok-bot/edit-bot.md
+- https://cursor.com/help/grok-bot/group-chats.md
+- https://cursor.com/help/grok-bot/voice-chat.md
 - https://cursor.com/help/grok-bot/computer-recovery.md
 - https://cursor.com/help/grok-bot/secrets.md
 - https://cursor.com/help/grok-bot/get-help.md
@@ -443,6 +447,7 @@
 - https://cursor.com/help/troubleshooting/tab-issues.md
 - https://cursor.com/help/troubleshooting/install-issues.md
 - https://cursor.com/help/troubleshooting/network.md
+- https://cursor.com/help/troubleshooting/sign-in-domains.md
 - https://cursor.com/help/troubleshooting/extensions.md
 - https://cursor.com/help/troubleshooting/performance.md
 - https://cursor.com/help/troubleshooting/reporting-bugs.md

@@ -1521,4 +1521,5 @@
 - [Industry leaders form the Blueprint Alliance to advance a shared architecture for securing AI agents](https://www.okta.com/newsroom/press-releases/industry-leaders-form-the-blueprint-alliance)
 - [Okta announces 2026 Partner Awards: Ecosystem leaders driving secure AI innovation](https://www.okta.com/newsroom/press-releases/okta-partner-award-winners-2026)
 - [Oktane 2026: Setting the standard for the secure agentic future](https://www.okta.com/newsroom/articles/setting-the-standard-for-the-secure-agentic-future)
+- [World Central Kitchen accelerates secure AI adoption with Okta](https://www.okta.com/newsroom/articles/world-central-kitchen-accelerates-secure-ai-adoption-with-okta)
 

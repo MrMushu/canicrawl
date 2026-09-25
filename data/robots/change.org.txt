@@ -51,10 +51,6 @@ Disallow: /ambassadors/terms$
 Disallow: /ambassadors/terms?*
 Disallow: /decision-maker/*$
 Disallow: /decision-maker/*?*
-Disallow: /decision-makers/*/admin_accounts$
-Disallow: /decision-makers/*/admin_accounts?*
-Disallow: /decision-makers/*/edit$
-Disallow: /decision-makers/*/edit?*
 Disallow: /login_or_join$
 Disallow: /login_or_join?*
 Disallow: /member$

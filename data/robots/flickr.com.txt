@@ -74,3 +74,4 @@ Sitemap: https://www.flickr.com/sitemap/index/tags/sitemap-index-tags-00000000.x
 Sitemap: https://www.flickr.com/sitemap/index/sets/sitemap-index-sets-00000000.xml.gz
 Sitemap: https://www.flickr.com/sitemap/index/photos/sitemap-index-photos-00000000.xml.gz
 Sitemap: https://www.flickr.com/sitemap/index/groups/sitemap-index-groups-00000000.xml.gz
+Sitemap: https://www.flickr.com/sitemap/cameras/sitemap-cameras-00000000.xml.gz

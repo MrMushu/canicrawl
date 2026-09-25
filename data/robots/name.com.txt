@@ -92,4 +92,5 @@ Sitemap: https://www.name.com/sitemap.xml
 User-agent: MJ12bot
 Disallow: /
 
-
+User-agent: meta-externalagent
+Disallow: /

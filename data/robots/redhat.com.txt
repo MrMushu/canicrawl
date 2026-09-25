@@ -80,7 +80,6 @@ Disallow: /apps/user/
 Disallow: /apps/user/*
 Disallow: /WebX/*
 Disallow: /webx/*
-Disallow: /WebX/*
 Disallow: /test_community/
 Disallow: /test_community/*
 Disallow: /network
@@ -103,6 +102,7 @@ Disallow: *f%5B*
 
 Sitemap: https://www.redhat.com/sitemap.xml
 Sitemap: https://www.redhat.com/markdown-sitemap.xml
+Sitemap: https://www.redhat.com/sitemap-news.xml
 Sitemap: https://www.redhat.com/en/sitemap.xml
 Sitemap: https://www.redhat.com/de/sitemap.xml
 Sitemap: https://www.redhat.com/es/sitemap.xml

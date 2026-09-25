@@ -127,3 +127,5 @@ Disallow: /web.projects/
 Disallow: /webview/
 User-agent: Googlebot-News
 Disallow: /sponsor
+Disallow: /ShapBot
+Disallow: /Shap-User
