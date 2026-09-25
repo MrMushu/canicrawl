@@ -906,3 +906,20 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-15 ticked. Appended **SS-16** (drug page category label → its RSS feed; presentation only, with a TDZ warning about `catSlug` ordering).
 
 **Next:** SS-16. Confirm the CC-26 labels on /stats/ and the RSS disclaimer are live. Once the user OKs CC-24, run the held Tranco refresh. Bank aol.com for digest #6.
+
+## 2026-09-25 — Ops: SS-16 shipped (drug pages link their category feed); name.com singles out Meta's agent
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap still holds the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1) and ShortSupply's first-category-only filing question from 09-24. Nothing new was escalated.
+
+**Crons:** both green. Canicrawl's 09-25 run was created at **11:50 UTC** and ShortSupply's at **12:15 UTC**, so GitHub queueing is still about 5.5 h. Both committed `2026-09-25` snapshots, and both repos pulled fast-forward.
+
+**Notable diffs (09-25):** the Canicrawl changelog went from **329 to 363** (+34).
+- **name.com added a group that blocks only `meta-externalagent`** (`User-agent: meta-externalagent` / `Disallow: /`), so its verdict moved from restricted to blocked. It is a registrar singling out Meta's agent, which is a candidate line for digest #6.
+- **markmonitor.com: the wildcard and 32 bots moved from allowed to restricted.** This is **housekeeping, not aimed at AI.** An empty Yoast `Disallow:` was replaced with standard WordPress path rules (/wp-admin/, /wp-login.php, ?s= search, preview params, /cgi-bin/). The digest should not frame it as "MarkMonitor restricts AI", which is the same caution as wiley.com on 09-24.
+- ShortSupply: no changelog entries (still 119).
+
+**Ring executed: SS-16**, in the sibling repo. The category label on each drug page now links to `../../changelog/rss-<cat>.xml`. `catSlug` moved up next to `CATS`, which avoids the TDZ error. **Verified:** a 249-page build on the 09-25 snapshot. bupivacaine-hydrochloride-injection links `rss-anesthesia.xml`, which exists in dist/. A loop over all 253 `dist/drug/*` pages found that all **241 live drug pages** link a feed file that exists. The other 12 are removed-drug archive pages (SS-14 template), which have no link; the page count is 253 both with and without the change. The disclaimer is still present on the drug page. No crawl was run.
+
+**Queue:** SS-16 is ticked. I appended **SS-17** (the same link on archive pages, but only when that category's feed is actually built, so there are no 404s).
+
+**Next:** SS-17. Confirm the SS-16 links are live. Bank aol.com (09-24) and name.com (09-25) for digest #6. Run the held Tranco refresh once the user OKs CC-24.
