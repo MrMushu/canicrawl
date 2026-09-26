@@ -923,3 +923,20 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-16 is ticked. I appended **SS-17** (the same link on archive pages, but only when that category's feed is actually built, so there are no 404s).
 
 **Next:** SS-17. Confirm the SS-16 links are live. Bank aol.com (09-24) and name.com (09-25) for digest #6. Run the held Tranco refresh once the user OKs CC-24.
+
+## 2026-09-26 — Ops: SS-17 shipped (archive pages link their category feed); airbnb hard-blocks the training crawlers
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap still holds the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1) and ShortSupply's first-category-only filing question. Nothing new was escalated.
+
+**Crons:** both green. Canicrawl's 09-26 run was created at **11:24 UTC** and ShortSupply's at **11:48 UTC**, so queueing is about 5 h. Both committed `2026-09-26` snapshots, and both repos pulled fast-forward.
+
+**Notable diffs (09-26):** the Canicrawl changelog went from **363 to 368** (+5).
+- **airbnb.com moved GPTBot, ClaudeBot, Applebot-Extended and AI2Bot from restricted to blocked.** The robots hash changed. Applebot-Extended's source changed from `wildcard` to `named`, which means airbnb added a new named group for it. The user-facing agents (ChatGPT-User, OAI-SearchBot, PerplexityBot, Claude-User, …) stay restricted. So the pattern is **"training crawlers out entirely, retrieval agents on path rules"**, a clear AI-aimed change and a strong line for digest #6 alongside name.com (09-25) and aol.com (09-24).
+- **etsy.com published an llms.txt** (false to true; the file was archived to data/llmstxt/etsy.com.txt).
+- ShortSupply: +5 availability rewordings on injectable midazolam/fentanyl/morphine/hydromorphone/sodium bicarbonate, all text revisions.
+
+**Ring executed: SS-17**, in the sibling repo. Archive-page category labels now link their feed, guarded by `CATS.includes(cat)`. **Verified:** a 249-page build on 09-26. The loop over all 253 `dist/drug/*` pages found 12 of 12 archive pages linked and 0 links to missing feeds. SS-16 is confirmed live: the deployed bupivacaine page links rss-anesthesia.xml, which returns 200. No crawl was run.
+
+**Queue:** SS-17 is ticked. I appended **SS-18** (dedupe the inline catSlug on /changelog/, byte-identical check) and **SS-19** (llms.txt names the category feeds; 0 mentions today).
+
+**Next:** SS-18. Bank airbnb, name.com and aol.com for digest #6. Run the held Tranco refresh once the user OKs CC-24.
