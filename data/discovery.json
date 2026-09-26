@@ -1,7 +1,7 @@
 {
- "date": "2026-09-25",
+ "date": "2026-09-26",
  "filesScanned": 610,
- "distinctTokens": 2079,
+ "distinctTokens": 2080,
  "aiCandidates": [
   {
    "token": "img2dataset",
@@ -236,18 +236,18 @@
    "aiHint": false
   },
   {
-   "token": "Google-CloudVertexBot",
+   "token": "Webzio-Extended",
    "sites": 55,
    "sample": [
+    "airbnb.com",
     "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
+    "amazon.ca"
    ],
    "aiHint": false
   },
   {
-   "token": "Webzio-Extended",
-   "sites": 54,
+   "token": "Google-CloudVertexBot",
+   "sites": 55,
    "sample": [
     "allrecipes.com",
     "amazon.ca",
@@ -356,6 +356,16 @@
    "aiHint": false
   },
   {
+   "token": "ShapBot",
+   "sites": 35,
+   "sample": [
+    "allrecipes.com",
+    "amazon.ca",
+    "amazon.co.jp"
+   ],
+   "aiHint": false
+  },
+  {
    "token": "Kangaroo Bot",
    "sites": 35,
    "sample": [
@@ -364,16 +374,6 @@
     "amazon.co.uk"
    ],
    "aiHint": true
-  },
-  {
-   "token": "ShapBot",
-   "sites": 34,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": false
   },
   {
    "token": "AwarioSmartBot",

@@ -70,3 +70,7 @@ Run production workloads in isolated containers on Vercel.
 [Deploy now](/new)
 
 Onboard your agent by asking it to fetch and follow [the Vercel setup guide](/get-started.md).
+
+## Brand assets
+
+Official Vercel and product logos are available in the [brand asset catalog](https://vercel.com/geist/brands.md), with direct SVG and PNG downloads and usage guidelines.

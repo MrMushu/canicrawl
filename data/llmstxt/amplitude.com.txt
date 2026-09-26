@@ -143,6 +143,7 @@ Customers use Amplitude to ship faster, grow revenue, and retain more users.
 ## Resources for developers and AI agents
 
 - Documentation: [https://amplitude.com/docs](https://amplitude.com/docs)
+- Build tutorials (copy-paste install and integration guides for developers and coding agents): [https://amplitude.com/build](https://amplitude.com/build.md)
 - Curated site index (every public page, grouped by category): [https://amplitude.com/sitemap-llms.txt](https://amplitude.com/sitemap-llms.txt)
 - OpenAPI specification for Amplitude's public HTTP APIs: [https://amplitude.com/openapi.json](https://amplitude.com/openapi.json)
 - Agentic resource catalog (MCP servers, skills, APIs), per the Agentic Resource Discovery spec: [https://amplitude.com/.well-known/ai-catalog.json](https://amplitude.com/.well-known/ai-catalog.json)

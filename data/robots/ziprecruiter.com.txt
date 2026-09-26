@@ -26,6 +26,7 @@ Disallow: /tap/
 Disallow: /ojob/
 Disallow: /job-preview/
 Disallow: /svc/seo/
+Disallow: /quiz/*/post
 
 
 # ALLOWED BOTS
@@ -82,6 +83,7 @@ Disallow: /jobs/
 Disallow: /ojob/
 Disallow: /job-preview/
 Disallow: /svc/seo/
+Disallow: /quiz/*/post
 Disallow: /jobs-search
 
 # LLM manifest: /llms.txt

@@ -1105,7 +1105,7 @@
 - [Zero Trust and Zero Worries: How to extend your enterprise security strategy to on-premise SAP ERP](https://www.okta.com/blog/identity-security/zero-trust-sap-erp)
 - [Onboarding to Okta Design](https://www.okta.com/blog/company-and-culture/onboarding-to-okta-design)
 - [Universities exposed to account takeover risk from contract cheating services](https://www.okta.com/blog/threat-intelligence/universities-contract-cheating-services)
-- [A summary of Okta’s FIPS compliance](https://www.okta.com/blog/identity-security/a-summary-of-oktas-fips-compliance)
+- [Okta FIPS compliance: Technical guide and CMVP certificate map](https://www.okta.com/blog/identity-security/a-summary-of-oktas-fips-compliance)
 - [From Principles to Practice: Implementing AI Ethics in Organizations](https://www.okta.com/blog/ai/implementing-ai-ethics-in-organizations)
 - [Identity and authorization: The operating system for AI security](https://www.okta.com/blog/ai/agent-security-identity-authorization)
 - [Adding passkeys to your apps with Okta CIC powered by Auth0](https://www.okta.com/blog/product-innovation/adding-passkeys-to-your-apps-with-okta-cic-powered-by-auth0)
@@ -1522,4 +1522,5 @@
 - [Okta announces 2026 Partner Awards: Ecosystem leaders driving secure AI innovation](https://www.okta.com/newsroom/press-releases/okta-partner-award-winners-2026)
 - [Oktane 2026: Setting the standard for the secure agentic future](https://www.okta.com/newsroom/articles/setting-the-standard-for-the-secure-agentic-future)
 - [World Central Kitchen accelerates secure AI adoption with Okta](https://www.okta.com/newsroom/articles/world-central-kitchen-accelerates-secure-ai-adoption-with-okta)
+- [Oktane 2026: AI agents are in the enterprise—now what?](https://www.okta.com/newsroom/articles/oktane-2026-highlights)
 

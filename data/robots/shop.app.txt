@@ -14,7 +14,7 @@
 User-agent: *
 Disallow: /bag
 Disallow: /cart
-Disallow: /download
+Disallow: /download/
 Disallow: /download-shop-ai
 Disallow: /explore
 Disallow: /home-feed

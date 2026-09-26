@@ -2821,6 +2821,45 @@
    "bot": "Gemini-Deep-Research",
    "from": "allowed",
    "to": "restricted"
+  },
+  {
+   "date": "2026-09-26",
+   "domain": "etsy.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-09-26",
+   "domain": "airbnb.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-09-26",
+   "domain": "airbnb.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-09-26",
+   "domain": "airbnb.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-09-26",
+   "domain": "airbnb.com",
+   "kind": "bot-flip",
+   "bot": "AI2Bot",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }
