@@ -2860,6 +2860,30 @@
    "bot": "AI2Bot",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-09-27",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-27",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-09-27",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "blocked",
+   "to": "restricted"
   }
  ]
 }

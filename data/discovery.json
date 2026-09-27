@@ -1,5 +1,5 @@
 {
- "date": "2026-09-26",
+ "date": "2026-09-27",
  "filesScanned": 610,
  "distinctTokens": 2080,
  "aiCandidates": [
@@ -164,22 +164,22 @@
    "aiHint": true
   },
   {
-   "token": "Perplexity‑User",
-   "sites": 4,
-   "sample": [
-    "academia.edu",
-    "chatgpt.com",
-    "launchpad.net"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "DeepSeek",
    "sites": 4,
    "sample": [
     "hostinger.com",
     "spiegel.de",
     "uol.com.br"
+   ],
+   "aiHint": true
+  },
+  {
+   "token": "Perplexity‑User",
+   "sites": 3,
+   "sample": [
+    "academia.edu",
+    "chatgpt.com",
+    "launchpad.net"
    ],
    "aiHint": true
   },
