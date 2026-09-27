@@ -940,3 +940,19 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-17 is ticked. I appended **SS-18** (dedupe the inline catSlug on /changelog/, byte-identical check) and **SS-19** (llms.txt names the category feeds; 0 mentions today).
 
 **Next:** SS-18. Bank airbnb, name.com and aol.com for digest #6. Run the held Tranco refresh once the user OKs CC-24.
+
+## 2026-09-27 — Ops: SS-18 shipped (one catSlug on /changelog/); seekingalpha drops three named AI-bot blocks
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap still holds the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1) and ShortSupply's first-category-only filing question. Nothing new was escalated.
+
+**Crons:** both green. Canicrawl's 09-27 run was created at **12:01 UTC** and ShortSupply's at **12:27 UTC**, so queueing is about 5.5 h. Both committed `2026-09-27` snapshots, and both repos pulled fast-forward.
+
+**Notable diffs (09-27):** the Canicrawl changelog went from **368 to 371** (+3), all on one domain.
+- **seekingalpha.com moved Applebot-Extended, PerplexityBot and Amazonbot from blocked to restricted.** I checked the snapshots: on 09-26 each bot had `source: named`, and on 09-27 each has `source: wildcard`. So seekingalpha **deleted the named groups** for these three bots, and they now fall through to the `*` path rules. This is a loosening, the reverse of airbnb's direction on 09-26, and a good counterpoint for digest #6. Treat it as removal of the named block, not as an explicit welcome.
+- ShortSupply: no changes (still 124).
+
+**Ring executed: SS-18**, in the sibling repo. The `/changelog/` category line now calls `catSlug(c)` in place of the inline replace chain. **Verified:** I saved `dist/changelog/index.html` from a pre-change build (249 pages, snapshot 2026-09-27). After the edit and a rebuild, `cmp` reports it **byte-identical**. dist/changelog has 25 `.xml` files: 24 `rss-<category>.xml` plus the main `rss.xml`, the same count as a pre-change build checked via stash. The ring's "25 rss-*.xml" counted `rss.xml` too. No crawl was run.
+
+**Queue:** SS-18 is ticked. SS-19 (llms.txt names the category feeds) is next and still open.
+
+**Next:** SS-19. Bank seekingalpha (loosening) next to airbnb, name.com and aol.com (tightening) for digest #6.
