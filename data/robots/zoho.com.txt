@@ -97,7 +97,6 @@ Disallow: /store/apex/help/
 Disallow: /store/marketing-agency/help/
 Disallow: /us/payroll/v1/help/
 Disallow: /sa/payroll/
-Disallow: /cards/
 Disallow: /uk/payroll/
 
 
@@ -148,4 +147,4 @@ User-agent: zs-crawler
 User-agent: zoho-scrapy
 Allow: /
 
-Sitemap: http://www.zoho.com/sitemap-index.xml
+Sitemap: https://www.zoho.com/sitemap-index.xml

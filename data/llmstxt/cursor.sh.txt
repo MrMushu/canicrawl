@@ -319,9 +319,10 @@
 - https://cursor.com/docs/api/origin/llms-full.txt
 - https://cursor.com/docs/api/origin/llms.txt
 - https://cursor.com/docs/api/origin/openapi.yaml
-- https://cursor.com/docs/api/origin/changelog
-- https://cursor.com/docs/api/origin/grants-api
-- https://cursor.com/docs/api/origin/acting-as-users
+- https://cursor.com/docs/api/origin/changelog.md
+- https://cursor.com/docs/api/origin/grants-api.md
+- https://cursor.com/docs/api/origin/acting-as-users.md
+- https://cursor.com/docs/api/origin/migrations.md
 
 # Help Center
 
