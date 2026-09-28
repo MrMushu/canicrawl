@@ -956,3 +956,17 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-18 is ticked. SS-19 (llms.txt names the category feeds) is next and still open.
 
 **Next:** SS-19. Bank seekingalpha (loosening) next to airbnb, name.com and aol.com (tightening) for digest #6.
+
+## 2026-09-28 — Ops: SS-19 shipped (ShortSupply llms.txt names the category feeds); a quiet data day
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap still holds the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1) and ShortSupply's first-category-only filing question. Nothing new was escalated.
+
+**Crons:** both green. Canicrawl's 09-28 run was created at **13:53 UTC** and ShortSupply's at **14:29 UTC**, so queueing is about **7.5 h**, up from about 5 h (09-26) and 5.5 h (09-27). Both committed `2026-09-28` snapshots, and both repos pulled fast-forward. The two 09-27 15:15 UTC runs were the deploys triggered by last session's pushes. The delay is growing but the runs still succeed. Watch item, not an incident: if a run ever slips past midnight UTC, snapshot dates could collide, and that is the point to look closer.
+
+**Notable diffs (09-28):** none. The Canicrawl changelog is flat at **371** and ShortSupply's at **124**. For digest #6 the banked lines stay the same: airbnb (09-26, training crawlers hard-blocked), name.com (09-25) and aol.com (09-24) tightening, against seekingalpha (09-27, named blocks deleted) loosening.
+
+**Ring executed: SS-19**, in the sibling repo. ShortSupply's llms.txt `## Data` gained one line: per-category RSS, one feed per FDA therapeutic category, listed on `${ORIGIN}/changelog/`, with `rss-oncology.xml` as the example. **Verified:** a 249-page build on the 09-28 snapshot. The line is in dist/llms.txt with 0 leaked `${`. `dist/changelog/rss-oncology.xml` exists (2,673 bytes) and /changelog/ links it. 0 pages are missing the disclaimer. Both link targets already return **HTTP 200 live**. No crawl was run.
+
+**Queue:** SS-19 is ticked. With only user-gated rings left, I appended **SS-20** (/about/ names the category feeds; 0 rss mentions today) and **CC-27** (Canicrawl llms.txt names the /digest/ archive; 0 mentions today).
+
+**Next:** SS-20 or CC-27. Confirm the SS-19 line on live llms.txt after deploy. Keep watching cron queueing.
