@@ -6,7 +6,7 @@
 - https://cursor.com/docs/get-started/quickstart.md
 - https://cursor.com/docs/models-and-pricing.md
   - https://cursor.com/docs/cursor-router.md
-  - https://cursor.com/docs/models/claude-sonnet-5.md
+  - https://cursor.com/docs/models/claude-sonnet-5-5.md
   - https://cursor.com/docs/models/claude-opus-5-5.md
   - https://cursor.com/docs/models/claude-fable-5-1.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
@@ -440,6 +440,7 @@
 - https://cursor.com/help/grok-bot/routines.md
 - https://cursor.com/help/grok-bot/edit-bot.md
 - https://cursor.com/help/grok-bot/group-chats.md
+- https://cursor.com/help/grok-bot/team-bots.md
 - https://cursor.com/help/grok-bot/voice-chat.md
 - https://cursor.com/help/grok-bot/computer-recovery.md
 - https://cursor.com/help/grok-bot/secrets.md

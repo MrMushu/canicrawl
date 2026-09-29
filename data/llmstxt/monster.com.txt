@@ -21,12 +21,14 @@ Please refer to our robots.txt (https://www.monster.com/robots.txt) for binding 
 - [Student Career Center](https://www.monster.com/student-career-center/): Resources for college students and recent graduates, including entry-level job search, resume guides, and career planning.
 
 
-## Resume Tools
+## Resume and Cover Letter Tools
  
 - [Free Resume Builder](https://www.monster.com/resume/): Build a new resume from scratch or import and improve an existing one. Output is ATS-optimized and downloadable.
 - [Free Resume Templates](https://www.monster.com/resume/templates): Browse and customize from hundreds of recruiter-approved designs filtered by role, level, style, and layout.
 - [Resume Checker](https://www.monster.com/resume/check): Get instant feedback on an existing resume — scores ATS compatibility, formatting, and content gaps.
 - [Upload Resume](https://www.monster.com/profile/upload-resume): Make your resume discoverable to employers searching Monster's candidate database.
+- [Cover Letter Templates](https://www.monster.com/cover-letter/templates): Customize an engaging cover letter for your next job with Monster’s 100% free cover letter templates.
+
  
 ## Resume Templates Directory
  
@@ -40,6 +42,16 @@ Examples:
 - https://www.monster.com/resume/templates/entry-level
 - https://www.monster.com/resume/templates/teacher
 
+## Cover Letter Directory
+ 
+* **All templates:** `https://www.monster.com/cover-letter/templates`
+* **Templates by Occupation:** `https://www.monster.com/cover-letter/templates/[slug]`
+ 
+Examples:
+
+- https://www.monster.com/cover-letter/templates/customer-service
+- https://www.monster.com/cover-letter/templates/healthcare
+- https://www.monster.com/cover-letter/templates/nursing
 
 ## Career Advice
 

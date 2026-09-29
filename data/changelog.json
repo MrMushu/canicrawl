@@ -2884,6 +2884,13 @@
    "bot": "Amazonbot",
    "from": "blocked",
    "to": "restricted"
+  },
+  {
+   "date": "2026-09-29",
+   "domain": "liftoff.io",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

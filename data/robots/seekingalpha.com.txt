@@ -344,3 +344,4 @@ Sitemap: https://seekingalpha.com/author/index.xml
 Sitemap: https://seekingalpha.com/checkout/index.xml
 Sitemap: https://seekingalpha.com/symbol/sitemap_index.xml
 Sitemap: https://seekingalpha.com/evergreen_sitemap.xml
+Sitemap: https://kr.seekingalpha.com/sitemaps/ko/index.xml

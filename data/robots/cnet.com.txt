@@ -182,6 +182,7 @@ user-agent: YiyanBot
 user-agent: YouBot
 user-agent: ZanistaBot
 Allow: /home/internet/do-you-need-symmetrical-internet-speeds-what-to-know-before-you-upgrade/
+Allow: /home/internet/dont-buy-internet-until-you-check-the-cost-per-mbps/
 Allow: /home/internet/equipment-for-fast-home-internet/
 Allow: /home/internet/fix-wi-fi-dead-spots-how-to-get-internet-throughout-your-home/
 Allow: /home/internet/gigabit-internet-is-it-worth-splurging-for-a-faster-internet-plan/
@@ -195,6 +196,9 @@ Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /home/internet/your-internet-bill-might-be-booby-trapped-heres-what-to-do/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
 Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
+Allow: /paid-content/dji-builds-on-12-years-of-handheld-imaging-innovation-with-the-dji-osmo-360-ii/
+Allow: /paid-content/how-fast-should-your-home-internet-be-for-browsing-and-streaming-t-mobile/
+Allow: /paid-content/is-it-time-to-upgrade-your-iphone-with-t-mobiles-trade-in-offers-the-answer-is-yes/
 Allow: /paid-content/news/cash-app-families-guide-how-to-set-up-a-teen-or-child-account-step-by-step/
 Allow: /paid-content/news/cash-apps-new-kids-debit-card-what-parents-need-to-know/
 Allow: /paid-content/news/cricket-wireless-offers-reliable-prepaid-nationwide-5g/
@@ -246,9 +250,14 @@ Allow: /paid-content/news/why-a-reliable-fiber-powered-network-from-xfinity-is-t
 Allow: /paid-content/news/why-tax-filers-are-choosing-h-r-block-this-season/
 Allow: /paid-content/news/why-you-need-a-cutting-edge-vpn-to-keep-you-safe-online/
 Allow: /paid-content/news/why-you-need-an-internet-provider-with-no-data-caps/
+Allow: /paid-content/nordictrack-just-out-engineered-its-own-best-treadmill-heres-everything-thats-new-on-the-ultra-1/
+Allow: /paid-content/nordictrack-rowing-machine-or-exercise-bike-which-one-will-you-actually-stick-with/
 Allow: /paid-content/samsung-micro-rgb-tvs-show-you-more-colors-than-ever-before/
+Allow: /paid-content/studio-pilates-vs-a-home-reformer-the-math-on-how-much-youd-actually-save/
+Allow: /paid-content/roboform-for-everyday-use-ease-of-use-cost-and-getting-set-up/
 Allow: /paid-content/t-mobile-5g-home-internet-gets-you-online-fast-with-no-technicians-or-contracts/
 Allow: /paid-content/t-mobile-fiber-vs-cable-internet-why-ultra-fast-internet-is-worth-the-upgrade/
+Allow: /paid-content/the-nordictrack-treadmill-you-actually-need-for-the-12-3-30-workout/
 Allow: /paid-content/whats-a-good-casetify-case-for-my-next-iphone-a-complete-guide-to-practical-protection/
 Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-every-age/
 Allow: /paid-content/how-fast-should-your-home-internet-be/
@@ -256,10 +265,14 @@ Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-e
 Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
 Allow: /paid-content/what-can-ray-ban-meta-ai-glasses-do-5-use-cases-for-your-everyday-routine/
 Allow: /paid-content/what-to-include-in-a-heart-health-daily-regimen-from-supplements-to-home-monitors/
+Allow: /paid-content/which-dell-laptops-are-actually-ai-ready-in-canada/
 Allow: /paid-content/why-the-samsung-galaxy-s26-ultra-feels-like-the-first-phone-truly-built-for-ai/
 Allow: /paid-content/how-to-check-if-t-mobile-fiber-is-available-at-your-address/
 Allow: /tech/mobile/apple-iphone-17-event-september-2025-what-to-expect/
 Allow: /tech/mobile/i-underestimated-workout-buddy-apples-playing-the-long-game-for-ai-coaching/
+Allow: /tech/mobile/new-iphone-buying-guide-carrier-vs-apple-unlocked/
+Allow: /tech/mobile/phone-deals-carrier-bill-credits-installment-plan-buying-guide/
+Allow: /tech/mobile/phone-plan-home-internet-bundle/
 Allow: /tech/mobile/samsung-galaxy-s26-and-s26-plus-hands-on-first-take/
 Allow: /tech/mobile/samsung-galaxy-s26-ultra-vs-galaxy-s26-and-s26-plus-flagship-specs-comparison/
 Allow: /tech/mobile/tomorrow-we-could-see-the-iphone-17-debut-with-a-long-overdue-update/

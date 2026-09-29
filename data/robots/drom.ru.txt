@@ -434,6 +434,5 @@ Sitemap: https://www.drom.ru/sitemaps/shina/generated/shina_firms_sizes_seasons_
 Sitemap: https://www.drom.ru/sitemaps/shina/generated/shina_model_photos_index.xml
 Sitemap: https://www.drom.ru/sitemaps/shina/generated/shina_models_index.xml
 Sitemap: https://www.drom.ru/sitemaps/shina/generated/shina_sizes_seasons_index.xml
-Sitemap: https://www.drom.ru/sitemaps/compare/generated/compare_index.xml
 Sitemap: https://www.drom.ru/sitemaps/info/generated/info_firms_index.xml
 Sitemap: https://www.drom.ru/sitemaps/info/generated/info_models_index.xml

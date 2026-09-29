@@ -78,3 +78,6 @@
 ## Changelog
 - [Changelog](https://sentry.io/changelog/)
 - [Blog](https://blog.sentry.io/)
+
+## Full Page Index
+- [Complete AI-readable page index](https://sentry.io/llms-full.txt)
