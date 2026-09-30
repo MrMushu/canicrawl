@@ -62,6 +62,7 @@ User-agent: *
 Allow: /
 Content-Signal: search=yes, ai-train=yes, ai-input=no
 Disallow: /*?app_name=
+Disallow: /*?matchcenter=
 Disallow: *{{data.c.link_offerId}}
 
 

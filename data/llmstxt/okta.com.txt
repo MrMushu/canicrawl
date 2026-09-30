@@ -691,7 +691,6 @@
 - [Cultivating an innovation culture — the power of hackathons](https://www.okta.com/blog/company-and-culture/cultivating-an-innovation-culture-the-power-of-hackathons)
 - [Amplifying the power of recognition with Oktappreciate](https://www.okta.com/blog/company-and-culture/amplifying-the-power-of-recognition-with-oktappreciate)
 - [Behind the Scenes of Our Brand Evolution](https://www.okta.com/blog/company-and-culture/behind-the-scenes-of-our-brand-evolution)
-- [Announcing the 2023 Okta For Good Impact Report](https://www.okta.com/blog/company-and-culture/announcing-the-2023-okta-for-good-impact-report)
 - [Celebrating excellence: Okta’s Certified Technical Architects shine on the Nasdaq Tower](https://www.okta.com/blog/company-and-culture/celebrating-excellence-oktas-certified-technical-architects-shine-on-the-nasdaq-tower)
 - [Founders in Focus: Paul Klein IV of Browserbase](https://www.okta.com/blog/company-and-culture/founders-in-focus-paul-klein-iv-of-browserbase)
 - [Building a more secure world: Okta for Good’s $50 million, five-year commitment](https://www.okta.com/blog/company-and-culture/building-a-more-secure-world-okta-for-goods-50-million-five-year-commitment)
@@ -1043,7 +1042,7 @@
 - [The challenges of managing digital Identity in the not-for-profit sector](https://www.okta.com/blog/customers-and-partners/the-challenges-of-managing-digital-identity-in-the-not-for-profit-sector)
 - [Healthcare: can modern Identity management deliver a vital shot of patient centricity?](https://www.okta.com/blog/customers-and-partners/healthcare-can-modern-identity-management-deliver-a-vital-shot-of-patient-centricity)
 - [Higher education: where modern Identity management means business](https://www.okta.com/blog/customers-and-partners/higher-education-where-modern-identity-management-means-business)
-- [Oktane 2023: Fighting Phishing & Battling the Bots with AI-Powered Identity](https://www.okta.com/blog/ai/oktane2023-fighting-phishing-battling-the-bots-with-ai-powered-identity)
+- [Oktane 2023: AI-Powered Identity Fights Phishing & Bots](https://www.okta.com/blog/ai/oktane2023-fighting-phishing-battling-the-bots-with-ai-powered-identity)
 - [Leverage Okta to close the vulnerability window of workforce onboarding](https://www.okta.com/blog/identity-security/okta-close-vulnerability-workforce-onboarding)
 - [Discover the Newest “Enterprise Identity-Ready” Apps in the Okta Integration Network](https://www.okta.com/blog/identity-security/secure-saas-spotlight-oin)
 - [How Auth0 mitigates OWASP’s agentic AI threats](https://www.okta.com/blog/ai/auth0-mitigates-owasp-agentic-ai-threats)
@@ -1283,6 +1282,8 @@
 - [Beyond ID’s top identity threats in 2025](https://www.okta.com/blog/customers-and-partners/beyond-id-s-top-identity-threats-in-2025)
 - [Navigating the future of security at Oktane](https://www.okta.com/blog/customers-and-partners/navigating-the-future-of-security-at-oktane)
 - [Preventing Credential-Based Attacks with Okta and Palo Alto Networks](https://www.okta.com/blog/customers-and-partners/preventing-credential-based-attacks-with-okta-and-palo-alto-networks)
+- [Make Okta authentication policy changes with confidence: Introducing Policy Branches](https://www.okta.com/blog/product-innovation/okta-policy-branches)
+- [Announcing the 2023 Okta For Good Impact Report](https://www.okta.com/blog/company-and-culture/announcing-the-2023-okta-for-good-impact-report)
 
 ## Newsroom
 

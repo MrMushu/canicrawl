@@ -113,6 +113,13 @@ disallow: */search/*sort=longest
 disallow: */search/*sort=views
 disallow: */search/*angle=
 disallow: */search/*dimension=
+disallow: */search/*exclude=
+disallow: */search/*fps=
+disallow: */search/*sort=relevance
+disallow: */search/*sort=rjib
+disallow: */search/*quality=781
+disallow: */search/*quality=hd
+disallow: */search/*format=px
 
 # Disallow search filters
 Disallow: */search/*format=vr

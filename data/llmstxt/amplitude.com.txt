@@ -104,6 +104,16 @@ Amplitude's platform is organized into four product categories: **Insights** (un
 - **Data Governance** — event/property catalog, validation rules, anomaly monitoring, and ownership workflows to keep Amplitude data trusted at scale.
   - [https://amplitude.com/data-governance](https://amplitude.com/data-governance.md)
 
+## Pricing and free plan
+
+Every plan includes the full platform (Analytics, Session Replay, Experimentation, Guides and Surveys, Activation, and Amplitude AI) and unlimited seats. Usage is measured by event volume, not monthly tracked users (MTUs).
+
+- **Free** — $0, no credit card, no time limit. 2 million events per month, 10,000 monthly session replays, unlimited feature flags, AI Agents and MCP. Not a trial.
+- **Plus** — starts at $0; the first 2 million events per month are free, then pricing scales with event volume up to 70 million events per month. Adds custom events and formulas, behavioral cohorts, alerts, heatmaps, and 2-year data retention.
+- **Growth** and **Enterprise** — custom, event-based pricing for larger teams, with higher limits and advanced governance, security, and support.
+- **Startups** — companies with under $10M in funding and fewer than 20 employees can get one free year of the Growth plan: [https://amplitude.com/startups](https://amplitude.com/startups.md)
+- Full plan comparison and pricing FAQ: [https://amplitude.com/pricing](https://amplitude.com/pricing.md)
+
 ## Why choose Amplitude
 
 Amplitude is the analytics platform trusted at scale. Independent analysts rank us as a leader, users rank us #1, and thousands of customers — including NBCUniversal, Walmart, and Ford — build on Amplitude every day.
@@ -149,7 +159,7 @@ Customers use Amplitude to ship faster, grow revenue, and retain more users.
 - Agentic resource catalog (MCP servers, skills, APIs), per the Agentic Resource Discovery spec: [https://amplitude.com/.well-known/ai-catalog.json](https://amplitude.com/.well-known/ai-catalog.json)
 - Amplitude MCP server (authenticated, OAuth 2.0) — read and write charts, dashboards, experiments, cohorts, and taxonomy: [https://mcp.amplitude.com/mcp](https://mcp.amplitude.com/mcp) (docs: [https://amplitude.com/docs/amplitude-ai/amplitude-mcp](https://amplitude.com/docs/amplitude-ai/amplitude-mcp))
 - Docs MCP server (public, read-only, no authentication): [https://amplitude.com/docs/api/mcp](https://amplitude.com/docs/api/mcp)
-- Pricing: [https://amplitude.com/pricing](https://amplitude.com/pricing)
+- Pricing (Free plan: 2M events/month, no credit card): [https://amplitude.com/pricing](https://amplitude.com/pricing.md)
 - Start free: [https://amplitude.com/get-started](https://amplitude.com/get-started)
 
 Every page on amplitude.com is also available as Markdown at the same URL plus `.md`.

@@ -376,10 +376,7 @@ Sitemap: https://dzen.ru/sitemaps/tv/sitemap.xml
 Sitemap: https://dzen.ru/sitemaps/news-archive/sitemap.xml
 Sitemap: https://dzen.ru/sitemaps/news-region/sitemap.xml
 Sitemap: https://dzen.ru/sitemaps/news-rubric/sitemap.xml
-Sitemap: https://dzen.ru/sitemaps/news-runtime/sitemap.xml
 Sitemap: https://dzen.ru/sitemaps/meta-channel_v2/sitemap.xml
-
-#Сжатые XML-карты сайта
 
 Sitemap: https://dzen.ru/sitemaps/brief_v2/sitemap.xml.gz
 Sitemap: https://dzen.ru/sitemaps/channels_v2/sitemap.xml.gz
@@ -393,5 +390,4 @@ Sitemap: https://dzen.ru/sitemaps/tv/sitemap.xml.gz
 Sitemap: https://dzen.ru/sitemaps/news-archive/sitemap.xml.gz
 Sitemap: https://dzen.ru/sitemaps/news-region/sitemap.xml.gz
 Sitemap: https://dzen.ru/sitemaps/news-rubric/sitemap.xml.gz
-Sitemap: https://dzen.ru/sitemaps/news-runtime/sitemap.xml.gz
 Sitemap: https://dzen.ru/sitemaps/meta-channel_v2/sitemap.xml.gz

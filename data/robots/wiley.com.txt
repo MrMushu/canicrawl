@@ -40,3 +40,5 @@ Disallow: /
 
 User-agent: Barkrowler
 Disallow: /
+
+Sitemap: https://prod.webflow.wiley.com/sitemap.xml

@@ -166,6 +166,7 @@ experience on every platform.
 
 ## Blog
 
+- [Cut Carbon, Cut Costs: Achieve ESG Compliance with New Relic Cloud Cost Intelligence.](https://newrelic.com/blog/observability/cut-carbon-cut-costs-achieve-esg-compliance-with-new-relic-cloud-cost-intelligence): Align cloud cost and sustainability. Discover how New Relic uses Cloud Cost Intelligence to cut emissions by 37% and meet global ESG compliance.
 - [How to Build an SRE Agent That Actually Works (Without Blowing the Token Budget)](https://newrelic.com/blog/observability/how-to-build-an-sre-agent-that-actually-works-without-blowing-the-token-budget): Learn how to build an SRE agent that delivers accurate, low-latency incident triage with multi-tiered memory and RAG—without blowing your token budget.
 - [Announcing the 2026 Observability Forecast](https://newrelic.com/blog/observability/announcing-the-2026-observability-forecast): The Observability Forecast 2026 offers insights from 2,575 IT and engineering leaders and practitioners worldwide on the future of observability. 
 - [LLM Observability: The 8 Best Tools for Production AI Systems](https://newrelic.com/blog/ai/llm-observability): Compare the top LLM observability tools for production AI — tracing, cost tracking, and evaluation — and see what to weigh before you add another tool to your stack.
@@ -187,15 +188,14 @@ experience on every platform.
 - [JavaScript Monitoring Tools: A Developer's Guide to Choosing the Right One](https://newrelic.com/blog/observability/javascript-monitoring-tools): JavaScript errors are everywhere — but not all monitoring tools surface them with the same depth. Compare the top JavaScript monitoring tools and learn what to look for beyond basic error capture.
 - [Best Cloud Cost Management Tools in 2026: A Buyer's Guide](https://newrelic.com/blog/observability/best-cloud-cost-management-tools): Compare the best cloud cost management tools for AWS, Azure, and GCP. See how FinOps platforms, observability tools, and Kubernetes cost tools stack up — and what actually drives savings.
 
-- [The Next Competitive Advantage in Enterprise AI](https://newrelic.com/blog/ai/new-relic-ground-truth-enterprise-ai): Learn why trusted operational intelligence is becoming the foundation for enterprise AI and how New Relic Ground Truth enables reliable autonomous operations.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [ANZ Bank M.A.R.S Gameday (Melbourne)](https://newrelic.com/events/2026-10-22/new-relic-anz-bank-mars-gameday): New Relic x ANZ Bank M.A.R.S Gameday! Join us on October 22 for a competitive, team-based simulation experience built on cloud native standards
 - [AI Engineering and Infrastructure Reli-Birds Challenge Sydney](https://newrelic.com/events/2026-10-01/ai-engineering-infra-summit-sydney): New Relic at AI Engineering and Infrastructure Sydney. Join us for a Reli-Bird's Mobile Game Challenge!
 - [[On-demand] Exploring the Power of New Relic Browser Monitoring and Session Replay (EMEA)](https://newrelic.com/events/2026-09-17/browser-monitoring-session-replay): Learn how to use New Relic browser monitoring to help ensure successful deployments and quickly troubleshoot customer-visible problems, measure full page life cycle data and the information you need to ensure customer satisfaction.
 - [[On-demand] Proactively monitor availability and performance with New Relic Synthetics (EMEA)](https://newrelic.com/events/2026-09-16/proactively-monitor-availability-and-performance-with-new-relic-synthetics-emea-on-demand): Watch an overview of synthetic monitoring in New Relic, to find out where specific errors and slow pages are so that you can deliver the best customer experience.
 - [Visit New Relic at Booth 159 at KubeCon](https://newrelic.com/events/2026-11-09/kubecon-salt-lake-city): Visit New Relic at Booth 159 at KubeCon
-- [[Webinar] From Click to Code: Instrumenting New Relic Mobile and Browser Monitoring (APAC) (on demand)](https://newrelic.com/events/2026-10-09/mobile-monitoring-apac-on-demand): Join us for this 60-minute workshop to learn how New Relic Browser and Mobile Monitoring provide real-time, end-to-end visibility into frontend performance.
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.

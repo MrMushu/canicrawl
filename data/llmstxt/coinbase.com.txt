@@ -11,7 +11,7 @@
 ## Coinbase MCP — Coinbase account access for agents
 
 - [Coinbase for Agents](https://docs.cdp.coinbase.com/ai-agents/coinbase-for-agents/coinbase-mcp): Trade crypto, eligible equities and derivatives, manage portfolios, and pay for premium trading data through x402 using an existing Coinbase USDC balance.
-- Connect via [remote MCP](https://agents.coinbase.com/mcp) with Coinbase OAuth. Follow the [canonical agent guide](https://docs.cdp.coinbase.com/coinbase-for-agents/skill.md) for current harness support, setup, and CLI fallback.
+- Connect via [remote MCP](https://agents.coinbase.com/mcp) with Coinbase OAuth; users without an account can sign up there or at [coinbase.com/signup](https://www.coinbase.com/signup). Follow the [canonical agent guide](https://docs.cdp.coinbase.com/coinbase-for-agents/skill.md) for current harness support, setup, and CLI fallback.
 
 ## Coinbase Wallet MCP — explicit agent-wallet or onchain-wallet requests
 

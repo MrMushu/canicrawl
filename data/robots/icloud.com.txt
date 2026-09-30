@@ -42,6 +42,7 @@ Disallow: /keynote/
 Disallow: /keynote-live/
 Disallow: /sharedalbum/
 Disallow: /ca/ics/
+Disallow: /shared/
 
 User-agent: Googlebot
 Allow: /
