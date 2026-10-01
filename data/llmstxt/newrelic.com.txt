@@ -31,10 +31,10 @@ New Relic provides comprehensive observability solutions for modern software tea
 ## Pricing
 
 - [Transparent Pricing - Start for Free](https://newrelic.com/pricing): Simple, transparent pricing. Only pay for what you use.
-- [Request Standard Pricing](https://newrelic.com/request-pricing-standard): Contact New Relic Sales
-- [Request Pro Pricing](https://newrelic.com/request-pricing-pro): Contact New Relic Sales
-- [Request Enterprise Pricing](https://newrelic.com/request-pricing-enterprise): Contact New Relic Sales
-- [Request Pricing](https://newrelic.com/request-pricing): Contact New Relic Sales
+- [Request Standard Pricing](https://newrelic.com/request-pricing-standard): Get Standard pricing for small teams starting with observability. Customized, easy-to-estimate pricing, ticketed support, and SAML single sign-on.
+- [Request Pro Pricing](https://newrelic.com/request-pricing-pro): Get Pro pricing for teams with more than five engineers. Includes unlimited platform users, Data Plus, and consumption-based Compute pricing.
+- [Request Enterprise Pricing](https://newrelic.com/request-pricing-enterprise): Get Enterprise pricing for at-scale organizations. Includes FedRAMP and HIPAA eligibility, 24/7 support, and consumption-based Compute pricing.
+- [Request Pricing](https://newrelic.com/request-pricing): Get a custom quote for New Relic's full-stack observability platform, trusted by 75,000+ businesses. Explore usage-based and Compute pricing options.
 ## Solutions
 
 - [AIOps](https://newrelic.com/solutions/aiops): New Relic AIOps prevents revenue-impacting incidents through AI-powered detection, automated investigation, and proactive remediation—in one unified platform.
@@ -184,10 +184,9 @@ experience on every platform.
 - [Enterprise APM: How to Choose Application Performance Monitoring at Scale](https://newrelic.com/blog/observability/enterprise-apm): Enterprise APM goes beyond basic uptime checks. Explore what enterprise-grade application performance monitoring requires, how it differs from SMB tools, and what to look for when managing distributed systems at scale.
 - [APM Dashboard: What It Shows, How to Use It, and What to Look For](https://newrelic.com/blog/observability/apm-dashboard): An APM dashboard is where performance data becomes actionable. Learn what a good APM dashboard should include, how to read the key metrics, and how unified dashboards accelerate incident resolution.
 - [New Relic's Japan Region Is Now Generally Available](https://newrelic.com/blog/news/japan-region-generally-available): New Relic's Japan region is now generally available. Ensure data sovereignty for regulated industries with in-region data storage and AI processing.
+- [Headless Observability: The Next Evolution of Autonomous Operations](https://newrelic.com/blog/news/blogheadless-observability-autonomous-operations): Discover why AI agents need trusted operational intelligence and how headless observability creates a foundation for autonomous operations.
 - [Choosing the Right GCP Cost Optimization Tools for Your Environment](https://newrelic.com/blog/observability/gcp-cost-optimization-tools): Discover the right GCP cost optimization tools for your environment. Get clear, actionable signals to control cloud spend efficiently and sustainably.
 - [JavaScript Monitoring Tools: A Developer's Guide to Choosing the Right One](https://newrelic.com/blog/observability/javascript-monitoring-tools): JavaScript errors are everywhere — but not all monitoring tools surface them with the same depth. Compare the top JavaScript monitoring tools and learn what to look for beyond basic error capture.
-- [Best Cloud Cost Management Tools in 2026: A Buyer's Guide](https://newrelic.com/blog/observability/best-cloud-cost-management-tools): Compare the best cloud cost management tools for AWS, Azure, and GCP. See how FinOps platforms, observability tools, and Kubernetes cost tools stack up — and what actually drives savings.
-
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

@@ -50,6 +50,7 @@ Disallow: /product-fe-recommendations/recommendations*
 Disallow: /*.js
 Disallow: /finditem.ml
 Disallow: /afiliados/item/
+Disallow: /*redirect_to_reviews=
 Allow: /tienda/*/clips
 Allow: /pagina/*/clips
 Allow: /home/recommendations/pom
@@ -94,6 +95,7 @@ Disallow: /clips?short_id=
 Disallow: /clips?*&short_id=
 Disallow: /clips/?short_id=
 Disallow: /clips/?*&short_id=
+Disallow: /*redirect_to_reviews=
 Allow: /tienda/*/clips
 Allow: /pagina/*/clips
 Allow: /home/recommendations/pom

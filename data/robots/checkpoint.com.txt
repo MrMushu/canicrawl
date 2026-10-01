@@ -51,4 +51,35 @@ Disallow: *related_series=*
 Disallow: *tribe_geofence=*
 Disallow: *tribe_organizer=*
 
+# AI Agents & LLM Crawlers
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: FirecrawlAgent
+Allow: /
+User-agent: ExaBot
+Allow: /
+User-agent: PhindBot
+Allow: /
+User-agent: AndiBot
+Allow: /
+
 Sitemap: https://www.checkpoint.com/sitemap_index.xml
+
+# AI Discovery Endpoints (Documentation Reference)
+LLMS: https://www.checkpoint.com/llms.txt

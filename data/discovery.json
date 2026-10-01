@@ -1,5 +1,5 @@
 {
- "date": "2026-09-30",
+ "date": "2026-10-01",
  "filesScanned": 610,
  "distinctTokens": 2081,
  "aiCandidates": [
@@ -35,7 +35,7 @@
   },
   {
    "token": "FirecrawlAgent",
-   "sites": 27,
+   "sites": 28,
    "sample": [
     "allrecipes.com",
     "bbc.co.uk",
@@ -306,6 +306,16 @@
    "aiHint": true
   },
   {
+   "token": "meta-webindexer",
+   "sites": 38,
+   "sample": [
+    "allrecipes.com",
+    "amazon.ca",
+    "amazon.co.jp"
+   ],
+   "aiHint": false
+  },
+  {
    "token": "magpie-crawler",
    "sites": 38,
    "sample": [
@@ -322,16 +332,6 @@
     "agoda.com",
     "aol.com",
     "bbc.co.uk"
-   ],
-   "aiHint": false
-  },
-  {
-   "token": "meta-webindexer",
-   "sites": 37,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
    ],
    "aiHint": false
   },
@@ -416,6 +416,16 @@
    "aiHint": false
   },
   {
+   "token": "FirecrawlAgent",
+   "sites": 28,
+   "sample": [
+    "allrecipes.com",
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "ISSCyberRiskCrawler",
    "sites": 28,
    "sample": [
@@ -424,16 +434,6 @@
     "amazon.co.jp"
    ],
    "aiHint": false
-  },
-  {
-   "token": "FirecrawlAgent",
-   "sites": 27,
-   "sample": [
-    "allrecipes.com",
-    "bbc.co.uk",
-    "bbc.com"
-   ],
-   "aiHint": true
   },
   {
    "token": "factset_spyderbot",

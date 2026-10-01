@@ -1106,7 +1106,6 @@
 - [The Security Multiplier: Maximizing the Reach and Impact of AI Agents for Nonprofits](https://www.okta.com/blog/ai/securing-nonprofit-impact-with-ai-agents)
 - [Enabling security-driven governance](https://www.okta.com/blog/industry-insights/enabling-security-driven-governance)
 - [OpenAI highlights the operational gap in agentic AI deployments](https://www.okta.com/blog/ai/openai-agentic-ai-operational-gap)
-- [Engineering the Standard: IAM@okta Best Practices for Robust Okta Workflows](https://www.okta.com/blog/product-innovation/iam-okta-best-practices-robust-workflows)
 - [How Okta Deploys and Secures AI for its Employees](https://www.okta.com/blog/ai/okta-ai-security-unified-gateway)
 - [Unlocking Privileged Access Governance with Okta Access Certifications for Service Accounts](https://www.okta.com/blog/identity-security/okta-access-certifications-service-accounts)
 - [The next chapter for Okta Privileged Access: Integrating Axiom to accelerate our roadmap](https://www.okta.com/blog/company-and-culture/the-next-chapter-for-okta-privileged-access-integrating-axiom-to-accelerate-our)
@@ -1284,6 +1283,9 @@
 - [Preventing Credential-Based Attacks with Okta and Palo Alto Networks](https://www.okta.com/blog/customers-and-partners/preventing-credential-based-attacks-with-okta-and-palo-alto-networks)
 - [Make Okta authentication policy changes with confidence: Introducing Policy Branches](https://www.okta.com/blog/product-innovation/okta-policy-branches)
 - [Announcing the 2023 Okta For Good Impact Report](https://www.okta.com/blog/company-and-culture/announcing-the-2023-okta-for-good-impact-report)
+- [Okta for AI Agents wins SiliconANGLE’s 2026 TechForward Award](https://www.okta.com/blog/ai/okta-for-ai-agents-techforward-award-2026)
+- [Resource Access Certifications for AI Agents: Reduce the agent attack surface. Close the audit gap.](https://www.okta.com/blog/product-innovation/resource-access-certifications-for-ai-agents)
+- [Engineering the Standard: IAM@okta Best Practices for Robust Okta Workflows](https://www.okta.com/blog/product-innovation/iam-okta-best-practices-robust-workflows)
 
 ## Newsroom
 

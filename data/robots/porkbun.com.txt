@@ -21,3 +21,5 @@ Disallow: /your-first-website-in-ten-minutes
 Disallow: /stop-overpaying-for-domains
 Disallow: /launch-a-professional-website-under-30-dollars
 Disallow: /is-your-personal-info-public-now
+
+Sitemap: https://porkbun.com/sitemap.xml

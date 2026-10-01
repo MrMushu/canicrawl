@@ -49,6 +49,7 @@ Use this index to find machine-readable documentation and platform resources. Fo
 
 ## Knowledge Base
 
+- [Knowledge Base](https://vercel.com/kb.md): Featured and recent guides, plus a directory of topics.
 - [Knowledge Base sitemap](https://vercel.com/kb/sitemap.md): Troubleshooting guides, topics, videos, bulletins, and product references.
 
 ## Learning and updates

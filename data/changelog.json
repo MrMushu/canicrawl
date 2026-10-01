@@ -2891,6 +2891,110 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "figma.com",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "checkpoint.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "checkpoint.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "checkpoint.com",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "checkpoint.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "checkpoint.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "checkpoint.com",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "checkpoint.com",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "checkpoint.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "checkpoint.com",
+   "kind": "bot-flip",
+   "bot": "Claude-Web",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "trustpilot.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "trustpilot.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-01",
+   "domain": "trustpilot.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "blocked",
+   "to": "restricted"
   }
  ]
 }
