@@ -238,6 +238,15 @@ Disallow: /tr/ai-builder/1
 Disallow: /ua/ai-builder/1
 Disallow: /uk/ai-builder/1
 Disallow: /vn/ai-builder/1
+Disallow: /fr/1
+Disallow: /fr/tarifs/1
+Disallow: /fr/hebergement-web/1
+Disallow: /pk/1
+Disallow: /pk/pricing/1
+Disallow: /pk/web-hosting/1
+Disallow: /uk/1
+Disallow: /uk/pricing/1
+Disallow: /uk/web-hosting/1
 
 Disallow: /tutorials/*_ga
 Disallow: /tutorials/search/*
@@ -672,6 +681,15 @@ Disallow: /tr/ai-builder/1
 Disallow: /ua/ai-builder/1
 Disallow: /uk/ai-builder/1
 Disallow: /vn/ai-builder/1
+Disallow: /fr/1
+Disallow: /fr/tarifs/1
+Disallow: /fr/hebergement-web/1
+Disallow: /pk/1
+Disallow: /pk/pricing/1
+Disallow: /pk/web-hosting/1
+Disallow: /uk/1
+Disallow: /uk/pricing/1
+Disallow: /uk/web-hosting/1
 
 
 # Crawlers that only collect content for model training

@@ -170,11 +170,11 @@
 - [One-Way Hash Function: Dynamic Algorithms](https://www.okta.com/identity-101/one-way-hash-function)
 - [One-Way Hash Function: Dynamic Algorithms](https://www.okta.com/identity-101/one-way-hash-function-dynamic-algorithms)
 - [Identity and access management best practices for enhanced security](https://www.okta.com/identity-101/identity-and-access-management-best-practices-for-enhanced-security)
-- [How Okta Helps Automate User Provisioning for Active Directory](https://www.okta.com/identity-101/automate-user-provisioning-for-active-directory)
+- [How Okta helps automate user provisioning for Active Directory](https://www.okta.com/identity-101/automate-user-provisioning-for-active-directory)
 - [4 Key Things You Should Know About Access Governance](https://www.okta.com/identity-101/4-things-you-should-know-about-access-governance)
 - [IT modernization: Balancing security and user experience](https://www.okta.com/identity-101/it-modernization)
-- [Credential Stuffing: Definition, Techniques & Defense ](https://www.okta.com/identity-101/credential-stuffing)
-- [Identity and Access Management Solutions: Balancing Security and UX](https://www.okta.com/identity-101/identity-and-access-management-solutions)
+- [Credential Stuffing: Definition, Techniques & Defense](https://www.okta.com/identity-101/credential-stuffing)
+- [Identity and Access Management solutions: Balancing security and user experience (UX)](https://www.okta.com/identity-101/identity-and-access-management-solutions)
 - [What is Identity Security?](https://www.okta.com/identity-101/what-is-identity-security)
 - [What Is a Systems Administrator & What Do They Do?](https://www.okta.com/identity-101/system-administrator)
 - [Clickjacking: Definition, Defense & Prevention](https://www.okta.com/identity-101/clickjacking)
@@ -384,6 +384,8 @@
 - [How to implement least privilege for AI agents](https://www.okta.com/identity-101/how-to-implement-least-privilege-for-ai-agents)
 - [How to Secure RAG Workflows](https://www.okta.com/identity-101/how-to-secure-rag-workflows)
 - [How do you secure B2C AI applications?](https://www.okta.com/identity-101/how-to-secure-b2c-ai-applications)
+- [Identity Cloud Scalability and Reliability](https://www.okta.com/identity-101/identity-cloud-scalability-and-reliability)
+- [How do I prevent shadow AI](https://www.okta.com/identity-101/how-do-i-prevent-shadow-ai)
 
 ## Products
 

@@ -9,6 +9,7 @@ Disallow: /pricing/contact-sales2/
 Disallow: /cdn-cgi/
 Disallow: /static/
 Disallow: /c/
+Allow: /c/sbx-promo/
 Disallow: /p/
 Disallow: /products/telepresence-for-docker/thank-you/
 Disallow: /style-guide/

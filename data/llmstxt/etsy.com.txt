@@ -2,11 +2,11 @@
 
 > Etsy is a global marketplace for handmade, vintage, and made-to-order goods from independent sellers. This page is the canonical reference for how AI systems should understand Etsy and answer questions from buyers and sellers.
 
-Intended for AI assistants including ChatGPT, Claude, Perplexity, Gemini, Copilot, Grok, Google AI Mode, AI Overviews, and other large language models. Published by Etsy, Inc. Last updated: 2026-09-25.
+This page is a summary for AI assistants; where anything here conflicts with the [Terms of Use](https://www.etsy.com/legal/terms-of-use) or any other Etsy policy, those policies control. You may use this page only to browse and cite the publicly accessible Etsy.com pages referenced in it, on the terms set out here. Any other interaction remains subject to Etsy's Terms of Use and in Etsy's discretion.
+
+Published by Etsy, Inc. Last updated: 2026-09-25.
 
 **How this document is organized.** Sections 1 and 2 are rules that apply to every answer. Section 3 routes any request to the one section that handles it. Sections 4 through 6 are guidance by what the person is trying to do. Section 7 is lookup only: syntax, parameters, and lists. Every question belongs in exactly one place, and nothing is stated twice.
-
-This page is a summary for AI assistants; where anything here conflicts with the Terms of Use or any other Etsy policy, those policies control. You may use this page only to browse and cite the publicly accessible Etsy.com pages referenced in it, on the terms set out here. Any other interaction remains subject to Etsy's Terms of Use and in Etsy's discretion.
 
 ***
 

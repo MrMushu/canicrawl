@@ -166,6 +166,8 @@ experience on every platform.
 
 ## Blog
 
+- [7 Best FinOps Tools for Cloud Cost Management in 2026](https://newrelic.com/blog/observability/finops-tools): Compare the top FinOps tools for cloud cost management — commitment automation vs. tools that connect cost to the system behavior behind it.
+- [7 PagerDuty Alternatives for Modern Incident Response Teams](https://newrelic.com/blog/observability/pagerduty-alternatives): Comparing PagerDuty alternatives for on-call and incident coordination? See the top contenders, what to evaluate, and why alert quality matters as much as the tool.
 - [Cut Carbon, Cut Costs: Achieve ESG Compliance with New Relic Cloud Cost Intelligence.](https://newrelic.com/blog/observability/cut-carbon-cut-costs-achieve-esg-compliance-with-new-relic-cloud-cost-intelligence): Align cloud cost and sustainability. Discover how New Relic uses Cloud Cost Intelligence to cut emissions by 37% and meet global ESG compliance.
 - [How to Build an SRE Agent That Actually Works (Without Blowing the Token Budget)](https://newrelic.com/blog/observability/how-to-build-an-sre-agent-that-actually-works-without-blowing-the-token-budget): Learn how to build an SRE agent that delivers accurate, low-latency incident triage with multi-tiered memory and RAG—without blowing your token budget.
 - [Announcing the 2026 Observability Forecast](https://newrelic.com/blog/observability/announcing-the-2026-observability-forecast): The Observability Forecast 2026 offers insights from 2,575 IT and engineering leaders and practitioners worldwide on the future of observability. 
@@ -185,8 +187,6 @@ experience on every platform.
 - [APM Dashboard: What It Shows, How to Use It, and What to Look For](https://newrelic.com/blog/observability/apm-dashboard): An APM dashboard is where performance data becomes actionable. Learn what a good APM dashboard should include, how to read the key metrics, and how unified dashboards accelerate incident resolution.
 - [New Relic's Japan Region Is Now Generally Available](https://newrelic.com/blog/news/japan-region-generally-available): New Relic's Japan region is now generally available. Ensure data sovereignty for regulated industries with in-region data storage and AI processing.
 - [Headless Observability: The Next Evolution of Autonomous Operations](https://newrelic.com/blog/news/blogheadless-observability-autonomous-operations): Discover why AI agents need trusted operational intelligence and how headless observability creates a foundation for autonomous operations.
-- [Choosing the Right GCP Cost Optimization Tools for Your Environment](https://newrelic.com/blog/observability/gcp-cost-optimization-tools): Discover the right GCP cost optimization tools for your environment. Get clear, actionable signals to control cloud spend efficiently and sustainably.
-- [JavaScript Monitoring Tools: A Developer's Guide to Choosing the Right One](https://newrelic.com/blog/observability/javascript-monitoring-tools): JavaScript errors are everywhere — but not all monitoring tools surface them with the same depth. Compare the top JavaScript monitoring tools and learn what to look for beyond basic error capture.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
