@@ -2995,6 +2995,14 @@
    "bot": "Meta-ExternalFetcher",
    "from": "blocked",
    "to": "restricted"
+  },
+  {
+   "date": "2026-10-03",
+   "domain": "ign.com",
+   "kind": "bot-flip",
+   "bot": "GrokBot",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

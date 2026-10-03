@@ -15,7 +15,7 @@
 
 ## Coinbase Wallet MCP — explicit agent-wallet or onchain-wallet requests
 
-- Connect Coinbase Wallet for onchain transfers, DEX swaps, and smart-contract interactions. The remote MCP endpoint remains [mcp.base.org](https://mcp.base.org), with Coinbase Wallet OAuth.
+- Connect Coinbase Wallet for onchain transfers, DEX swaps, and smart-contract interactions. The remote MCP endpoint remains [wallet-mcp.coinbase.com](https://wallet-mcp.coinbase.com), with Coinbase Wallet OAuth.
 - Follow the [canonical wallet skill](https://docs.cdp.coinbase.com/coinbase-for-agents/wallet-mcp/skill.md) for setup and operation.
 - [Wallet MCP quickstart](https://docs.cdp.coinbase.com/ai-agents/coinbase-for-agents/wallet-mcp#quickstart).
 

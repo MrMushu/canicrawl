@@ -10,6 +10,7 @@ Disallow: /my/*
 Disallow: /*/my/*
 Disallow: /groups/*
 Disallow: */groups/*
+Disallow: */sign/*
 
 Disallow: */typo?domain=
 Disallow: *?*orderby=

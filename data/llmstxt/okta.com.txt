@@ -386,6 +386,7 @@
 - [How do you secure B2C AI applications?](https://www.okta.com/identity-101/how-to-secure-b2c-ai-applications)
 - [Identity Cloud Scalability and Reliability](https://www.okta.com/identity-101/identity-cloud-scalability-and-reliability)
 - [How do I prevent shadow AI](https://www.okta.com/identity-101/how-do-i-prevent-shadow-ai)
+- [Agent SSO vs Human SSO Cross-App Access](https://www.okta.com/identity-101/agent-sso-vs-human-sso-cross-app-access)
 
 ## Products
 
@@ -1288,6 +1289,7 @@
 - [Okta for AI Agents wins SiliconANGLE’s 2026 TechForward Award](https://www.okta.com/blog/ai/okta-for-ai-agents-techforward-award-2026)
 - [Resource Access Certifications for AI Agents: Reduce the agent attack surface. Close the audit gap.](https://www.okta.com/blog/product-innovation/resource-access-certifications-for-ai-agents)
 - [Engineering the Standard: IAM@okta Best Practices for Robust Okta Workflows](https://www.okta.com/blog/product-innovation/iam-okta-best-practices-robust-workflows)
+- [The agent is not the user: Using Amazon Bedrock AgentCore with Okta to secure AI agent identity](https://www.okta.com/blog/ai/okta-amazon-bedrock-agentcore-security)
 
 ## Newsroom
 

@@ -111,9 +111,6 @@
 #### [AI PC]()
 [AI PC](https://www.asus.com/content/asus-ai-pc/)
 
-#### [Copilot+ PC]()
-[Copilot+ PC](https://www.asus.com/content/copilot-plus-pc/)
-
 
 ### Displays / Desktops
 #### [Monitors](https://www.asus.com/displays-desktops/monitors/all-series/)
@@ -165,6 +162,7 @@
 #### [NUCs](https://www.asus.com/displays-desktops/nucs/all-series/)
 [NUC Overview](https://www.asus.com/content/nuc-overview/)
 [AI NUC](https://www.asus.com/content/ai-nuc/)
+[NUC Mini PC Ecosystem](https://www.asus.com/content/nuc-mini-pc-ai-agent-ecosystem/)
 [NUC Mini PCs](https://www.asus.com/displays-desktops/nucs/nuc-mini-pcs/)
 [NUC Kits](https://www.asus.com/displays-desktops/nucs/nuc-kits/)
 [NUC Boards](https://www.asus.com/displays-desktops/nucs/nuc-boards/)

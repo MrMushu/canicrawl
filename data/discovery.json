@@ -1,7 +1,7 @@
 {
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "filesScanned": 610,
- "distinctTokens": 2081,
+ "distinctTokens": 2105,
  "aiCandidates": [
   {
    "token": "img2dataset",
@@ -25,7 +25,7 @@
   },
   {
    "token": "Kangaroo Bot",
-   "sites": 35,
+   "sites": 34,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -64,8 +64,8 @@
    "aiHint": true
   },
   {
-   "token": "Grok-DeepSearch",
-   "sites": 15,
+   "token": "xAI-Grok",
+   "sites": 16,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -74,7 +74,7 @@
    "aiHint": true
   },
   {
-   "token": "xAI-Grok",
+   "token": "Grok-DeepSearch",
    "sites": 15,
    "sample": [
     "amazon.ca",
@@ -134,22 +134,22 @@
    "aiHint": true
   },
   {
+   "token": "MistralAI-Index",
+   "sites": 6,
+   "sample": [
+    "allrecipes.com",
+    "ign.com",
+    "investopedia.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "Grok",
    "sites": 6,
    "sample": [
     "dailymail.co.uk",
     "dailymail.com",
     "msn.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "MistralAI-Index",
-   "sites": 5,
-   "sample": [
-    "allrecipes.com",
-    "investopedia.com",
-    "lemonde.fr"
    ],
    "aiHint": true
   },
@@ -190,6 +190,26 @@
     "cnet.com",
     "ign.com",
     "usatoday.com"
+   ],
+   "aiHint": true
+  },
+  {
+   "token": "CohereBot",
+   "sites": 3,
+   "sample": [
+    "ign.com",
+    "lefigaro.fr",
+    "lemonde.fr"
+   ],
+   "aiHint": true
+  },
+  {
+   "token": "MistralBot",
+   "sites": 3,
+   "sample": [
+    "ign.com",
+    "lemonde.fr",
+    "sharethrough.com"
    ],
    "aiHint": true
   },
@@ -277,7 +297,7 @@
   },
   {
    "token": "GoogleOther",
-   "sites": 45,
+   "sites": 46,
    "sample": [
     "2gis.com",
     "adform.net",
@@ -367,7 +387,7 @@
   },
   {
    "token": "Kangaroo Bot",
-   "sites": 35,
+   "sites": 34,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -526,6 +546,16 @@
    "aiHint": false
   },
   {
+   "token": "CloudflareBrowserRenderingCrawler",
+   "sites": 24,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
    "token": "Google-InspectionTool",
    "sites": 23,
    "sample": [
@@ -556,7 +586,7 @@
    "aiHint": false
   },
   {
-   "token": "CloudflareBrowserRenderingCrawler",
+   "token": "PhindBot",
    "sites": 23,
    "sample": [
     "amazon.ca",
@@ -592,16 +622,6 @@
     "allrecipes.com",
     "baidu.com",
     "bloomberg.com"
-   ],
-   "aiHint": false
-  },
-  {
-   "token": "Datenbank Crawler",
-   "sites": 22,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
    ],
    "aiHint": false
   }

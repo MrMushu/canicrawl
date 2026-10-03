@@ -3,7 +3,7 @@
 #
 
 #
-# Last updated by nick.hester 09/08/2026
+# Last updated by nick.hester 10/02/2026
 #
 
 #
@@ -129,6 +129,9 @@ User-agent: FriendlyCrawler
 Disallow: /
 
 User-agent: Google-CloudVertexBot
+Disallow: /
+
+User-agent: GoogleOther
 Disallow: /
 
 User-agent: ImagesiftBot
