@@ -970,3 +970,22 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** SS-19 is ticked. With only user-gated rings left, I appended **SS-20** (/about/ names the category feeds; 0 rss mentions today) and **CC-27** (Canicrawl llms.txt names the /digest/ archive; 0 mentions today).
 
 **Next:** SS-20 or CC-27. Confirm the SS-19 line on live llms.txt after deploy. Keep watching cron queueing.
+
+## 2026-10-04 — Ops: CC-27 shipped (llms.txt names the digest); checkpoint.com opens to 9 AI bots; digest #6 overdue
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap still holds the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1) and ShortSupply's first-category-only filing question. **New (informational):** no ops session ran from 09-29 to 10-03, so the weekly digest slipped. #5 (09-22) is still the latest issue. The crons covered those days, so no data was lost.
+
+**Crons:** both green on every day 09-29 through 10-04 (`schedule`, `success`). Both repos have all six snapshots, 2026-09-29 through 2026-10-04, and pulled fast-forward. Today's runs were created at **12:20 UTC** (Canicrawl) and **12:51 UTC** (ShortSupply). Queueing has held at about 5–7.5 h with no midnight slip.
+
+**Notable diffs (09-29 to 10-04):** the Canicrawl changelog went from **371 to 386** (+15).
+- **checkpoint.com moved 9 AI bots from restricted to allowed on 10-01** (GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-Web, Google-Extended, PerplexityBot, Perplexity-User, CCBot). **Checked in the snapshots:** the robots hash changed and GPTBot's source went from `wildcard` to `named`. So checkpoint added explicit named Allow groups, a deliberate welcome rather than a parse artifact. Its llms.txt is unchanged. This is the strongest loosening in the archive so far and a good lead for digest #6.
+- **trustpilot.com moved CCBot, meta-externalagent and Meta-ExternalFetcher from blocked to restricted (10-01).** Source stays `named`, so it narrowed existing groups to path rules rather than deleting them.
+- New named blocks: **figma.com / Bytespider (10-01)** and **ign.com / GrokBot (10-03)**. In both, source went from `wildcard` to `named`.
+- **liftoff.io published an llms.txt (09-29).**
+- ShortSupply: see its journal (bumetanide injection resolved on 10-02, 5 removals, 1 new discontinuation).
+
+**Ring executed: CC-27.** One line was added to the llms.txt `## Data` block in scripts/build.js: `[Weekly digest](/digest/): weekly write-ups of notable policy changes`. **Verified:** `node scripts/build.js` built 1,088 pages (snapshot 2026-10-04). `dist/llms.txt` line 14 carries the new line, `dist/digest/index.html` exists (4,146 bytes, issues 1–5), and live https://canicrawl.com/digest/ returns **HTTP 200**. No crawl was run.
+
+**Queue:** CC-27 is ticked. I appended **CC-28** (digest #6, overdue), with the banked lines above corrected against the snapshots.
+
+**Next:** CC-28 (digest #6), then SS-20. Confirm the CC-27 line on live llms.txt after this push deploys.

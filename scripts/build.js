@@ -883,6 +883,7 @@ As of ${snap.date}: ${pct(anyBlockers.length, readable.length)}% of readable tra
 - [Stats](/stats/): headline rates, per-bot and per-category
 - [Compare two sites](/compare/?a=wired.com&b=arstechnica.com): any two tracked domains side by side; the pair is in the query string
 - [Policy changes (RSS)](/changelog/rss.xml): daily-detected flips
+- [Weekly digest](/digest/): weekly write-ups of notable policy changes
 - [Methodology](/about/): two public policy files per site per day, RFC 9309 parsing, no content scraping
 - [Panel coverage](/health/): which tracked domains we could read, and why the rest could not — the denominator behind every percentage
 
