@@ -9,7 +9,6 @@ Disallow: 		/social/sites/repubblica/d/boxes/shares/
 Disallow: 		/servizi/ 
 Disallow: 		/ricerca/ 
 Disallow: 		/politica/2017/01/19/news/il_fratello_del_ministro_alfano_rischia_il_posto_e_costera_all_erario_mezzo_milione_di_euro[1]156371739/ 
-Disallow: 		/politica/2/10/13/news/da_maroni_a_fontana_c_e_sempre_quel_notaio_nelle_indagini_sulla_lega-301070805/ 
 Disallow: 		/persone/ 
 Disallow: 		/online/cronaca/veronaecstasy/bologna/bologna.html 
 Disallow: 		/online/ 
@@ -36,7 +35,6 @@ Disallow: 		/2010/
 Disallow: 		/2009/ 
 Disallow: 		/2008/ 
 Disallow: 		/2007/ 
-Disallow: 		/2006/05/gallerie/politica/offese-da-premier-102/esterne130937331310093801_big.jpg 
 Disallow: 		/2006/05/gallerie/politica/farabutti-foto-lettori-95/esterne191030071909103240_big.jpg 
 Disallow: 		/2006/05/gallerie/politica/farabutti-foto-lettori-95/esterne191030071909103240.jpg 
 Disallow: 		/2006/ 
