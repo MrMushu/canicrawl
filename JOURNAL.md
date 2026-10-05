@@ -989,3 +989,26 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** CC-27 is ticked. I appended **CC-28** (digest #6, overdue), with the banked lines above corrected against the snapshots.
 
 **Next:** CC-28 (digest #6), then SS-20. Confirm the CC-27 line on live llms.txt after this push deploys.
+
+## 2026-10-05 — Ops: CC-28 shipped (digest #6); banked AOL line corrected
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap is still holding the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`; Corriere and usatoday still apply), SS-7 (ShortSupply digest #1) and ShortSupply's first-category-only filing question. Nothing new.
+
+**Crons:** both green (`schedule`, `success`). Today's runs were created at **14:37 UTC** (Canicrawl) and **15:17 UTC** (ShortSupply), later than yesterday's 12:20/12:51. That is still inside the normal queueing band. Both repos pulled fast-forward with the 2026-10-05 snapshot. Live https://canicrawl.com/llms.txt now carries the CC-27 digest line, so yesterday's push deployed.
+
+**Notable diffs (10-04 to 10-05):** the changelog went from 386 to **387** (+1). **telegraph.co.uk moved Google-Extended from allowed to restricted.** A `User-agent: Google-Extended` line was inserted at the top of a group of path rules that the same edit tidied. Headline numbers: 31.7% (205/646) block at least one crawler, and 116 sites (11.4%) publish llms.txt. Bytespider (24.8%) now leads CCBot (24.5%) on its own; they were tied at 24.9% in #5.
+
+**Ring executed: CC-28 (digest #6).** I appended issue #6, "The first open door with a name on it", to data/digests.json. It covers 2026-09-23 to 2026-10-05, a window with 94 changelog entries: 89 flips, 2 default-policy changes and 3 new llms.txt files. Every story was checked against the archived robots.txt diffs at each day's snapshot commit:
+- checkpoint: 13 `Allow: /` groups, 9 of them tracked bots, plus a non-standard `LLMS:` line. Its llms.txt dates from 09-11.
+- wiley: path rules returned on 09-24 in a 694-byte file, versus 3,222 bytes before.
+- markmonitor: a Yoast empty-`Disallow:` block was replaced by WordPress path rules.
+- airbnb: 6 new `Disallow: /` groups, and GPTBot's old path-rule group was deleted. Retrieval agents and anthropic-ai/cohere-ai/meta-externalagent keep path rules.
+- seekingalpha: one of the four deleted groups was a duplicate `Perplexity‑User` written with U+2011 (bytes e2 80 91), so it never matched. The real Perplexity-User block remains.
+- ign: added 86 UA lines, and only GrokBot flipped.
+- **Correction:** the CC-28 banked line said aol.com *tightened* on 09-24. It loosened: ChatGPT-User and PerplexityBot went from `Disallow: /` to `Allow: /` plus 17 path rules. The digest says so.
+
+**Verified:** `node scripts/build.js` built **1,089 pages** (1,088 before). dist/digest/6/index.html is 12,183 B and appears in dist/sitemap.xml and on the /digest/ index. **37/37** internal links resolve in dist, and the page has 0 `${`. The digests.json diff is +7 lines only (#1–#5 untouched; JSON round-trip checked byte-identical before writing). Cohort counts (3 / 1 / 24) and stats come from the built stats page. No crawl was run.
+
+**Queue:** CC-28 is ticked, with the correction noted. The only unchecked rings that aren't user-gated are SS-20 and later ones.
+
+**Next:** SS-20 (/about/ names the category feeds). Confirm /digest/6/ returns 200 live after this push deploys.
