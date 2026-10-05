@@ -3003,6 +3003,14 @@
    "bot": "GrokBot",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-10-05",
+   "domain": "telegraph.co.uk",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "allowed",
+   "to": "restricted"
   }
  ]
 }

@@ -25,6 +25,8 @@ User-agent: Googlebot
 User-agent: bingbot
 User-agent: Yeti
 Disallow: /*/message
+Disallow: /login?*
+Disallow: /signup?*
 Disallow: /embed/*
 Disallow: /*/archives
 Disallow: /*/archives/*

@@ -1,4 +1,4 @@
-#2026-08-21
+#2026-10-05
 User-agent: *
 
 Disallow: */career-advice/article?q=*
@@ -52,3 +52,4 @@ Disallow: /jobs/search?
 Disallow: /jobs/search?*recency=*
 Disallow: /jobs/search?*rd=*
 Disallow: /jobs/search?*et=*
+Disallow: /profile/auth/callback
