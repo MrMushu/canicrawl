@@ -60,6 +60,26 @@ Intercom's AI Agent is Fin, served on a sister property at [fin.ai](https://fin.
 
 ---
 
+## Blog
+*(Intercom's own articles, podcasts, and videos on customer service and AI agents — the largest content surface on intercom.com)*
+
+- [Intercom Blog](https://www.intercom.com/blog): Index of all posts, newest first
+- Articles: `/blog/<slug>`
+- Podcasts: `/blog/podcasts/<slug>`
+- Videos: `/blog/videos/<slug>`
+
+### Categories
+- [AI & Automation](https://www.intercom.com/blog/category/ai-ml)
+- [Customer Engagement](https://www.intercom.com/blog/category/marketing)
+- [Customer Service](https://www.intercom.com/blog/category/customer-support)
+- [Engineering](https://www.intercom.com/blog/category/engineering)
+- [Guides & Reports](https://www.intercom.com/blog/category/guides-reports)
+- [News & Updates](https://www.intercom.com/blog/category/news)
+- [Product & Design](https://www.intercom.com/blog/category/product-and-design)
+- [The Ticket](https://www.intercom.com/blog/category/the-ticket)
+
+---
+
 ## Research & Reports
 
 - [2026 Customer Service Transformation Report](https://www.intercom.com/customer-transformation-report): Annual industry research
@@ -106,7 +126,6 @@ Intercom (this site) is the parent organization. Fin is a sub-organization (same
 
 - [Fin (AI Agent — sister property)](https://fin.ai/)
 - [Trust Portal](https://trust.intercom.com/)
-- [Intercom Blog](https://www.intercom.com/blog)
 - [Intercom Engineering Blog](https://intercom.engineering/)
 - [Developer Docs & API Reference](https://developers.intercom.com/)
 - [Fin Academy](https://academy.fin.ai/)

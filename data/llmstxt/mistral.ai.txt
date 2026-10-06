@@ -19,7 +19,7 @@ All solutions prioritize data ownership, compliance, and scalability, with flexi
 - [Mistral Studio](https://mistral.ai/products/studio): End-to-end platform for building, deploying, and managing AI agents with observability and governance
 - [Mistral Vibe](https://mistral.ai/products/vibe): Customizable AI assistant for enterprise knowledge, multimodal tasks, and secure collaboration
 - [Mistral Vibe Code](https://mistral.ai/products/vibe/code): Specialized coding stack
-- [Mistral AI Cloud](https://mistral.ai/products/aicloud): European AI cloud platform with high-performance GPUs and sovereign data control
+- [Mistral AI Cloud](https://mistral.ai/products/ai-cloud): European AI cloud platform with high-performance GPUs and sovereign data control
 - [Mistral Forge](https://mistral.ai/products/forge): Platform for building and deploying custom AI models
 
 ## Latest Models

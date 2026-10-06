@@ -11,7 +11,8 @@ Disallow: *st.redirect*
 Disallow: *cmd=logExternal*
 Disallow: *?fromTime=*
 Disallow: *?cmd*
-Disallow: /messages/join/*
+Disallow: /messages/join/
+Disallow: /?st.password=*
 Disallow: /joincall/*
 Disallow: /gifts/link/*
 Disallow: /qrCode/*

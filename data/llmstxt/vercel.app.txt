@@ -49,7 +49,7 @@ Features
 
 ### eve
 
-A framework for building durable agents.
+eve is a framework for building durable agents.
 
 [Learn more](/eve)
 

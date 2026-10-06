@@ -77,6 +77,10 @@ Disallow: /watch/vse-v-tvoih-rukah-rossiya/*
 Disallow: /watch/kogda-vanya-vstretil-anyu-2026/*
 Disallow: /watch/lyubov-s-tretego-vzglyada-2026/*
 Disallow: /watch/istoriya-ego-sluzhanki-1/*
+Disallow: /watch/ne-zhili-bogato-2026/*
+Disallow: /watch/shik--/*
+Disallow: /watch/zolotoe-dno-2026/*
+
 Clean-param: sort
 Clean-param: sort&rating_part&rating_model
 Clean-param: episode
@@ -188,5 +192,8 @@ Disallow: /watch/vse-v-tvoih-rukah-rossiya/*
 Disallow: /watch/kogda-vanya-vstretil-anyu-2026/*
 Disallow: /watch/lyubov-s-tretego-vzglyada-2026/*
 Disallow: /watch/istoriya-ego-sluzhanki-1/*
+Disallow: /watch/zolotoe-dno-2026/*
+Disallow: /watch/ne-zhili-bogato-2026/*
+Disallow: /watch/shik--/*
 User-agent: Twitterbot
 Disallow:
