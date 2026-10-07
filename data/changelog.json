@@ -3011,6 +3011,70 @@
    "bot": "Google-Extended",
    "from": "allowed",
    "to": "restricted"
+  },
+  {
+   "date": "2026-10-07",
+   "domain": "flashscore.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-07",
+   "domain": "flashscore.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-07",
+   "domain": "flashscore.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-07",
+   "domain": "pexels.com",
+   "kind": "bot-flip",
+   "bot": "Claude-User",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-07",
+   "domain": "pexels.com",
+   "kind": "bot-flip",
+   "bot": "Claude-SearchBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-07",
+   "domain": "pexels.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-07",
+   "domain": "pexels.com",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-07",
+   "domain": "pexels.com",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "allowed",
+   "to": "restricted"
   }
  ]
 }

@@ -42,7 +42,6 @@ Disallow: /pay/sdk-session
 Disallow: /pay/authentication
 Disallow: /pay/sdk-authorize
 Disallow: /pay/hop
-Disallow: /pay/session
 Disallow: /checkouts/internal
 Disallow: /delete-account/confirm
 Disallow: /u/account

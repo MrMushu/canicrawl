@@ -927,8 +927,6 @@
 - [Behind the scenes at Access Requests: Worker tasks](https://www.okta.com/blog/product-innovation/behind-the-scenes-at-access-requests-worker-tasks)
 - [Implementing security best practices in Okta developer orgs](https://www.okta.com/blog/product-innovation/implementing-security-best-practices-in-okta-developer-orgs)
 - [AutoGuardian: How Okta solved flaky tests](https://www.okta.com/blog/product-innovation/autoguardian-how-okta-solved-flaky-tests)
-- [Announcing Okta Identity Governance for Customer Identity](https://www.okta.com/blog/product-innovation/announcing-okta-identity-governance-for-customer-identity)
-- [Simplifying the Complexities of B2B Collaboration](https://www.okta.com/blog/product-innovation/simplifying-the-complexities-of-b2b-collaboration)
 - [Designing a resilient identity security fabric with Okta](https://www.okta.com/blog/identity-security/designing-a-resilient-identity-security-fabric-with-okta)
 - [Interning with Okta’s Productivity Engineering team](https://www.okta.com/blog/company-and-culture/interning-with-okta-s-productivity-engineering-team)
 - [Okta Certification Circle members shine on the Nasdaq tower](https://www.okta.com/blog/company-and-culture/okta-certification-circle-nasdaq-tower-2025)
@@ -1051,7 +1049,6 @@
 - [How Auth0 mitigates OWASP’s agentic AI threats](https://www.okta.com/blog/ai/auth0-mitigates-owasp-agentic-ai-threats)
 - [Demandbase: Turning Identity governance into business efficiency](https://www.okta.com/blog/customers-and-partners/demandbase-turning-identity-governance-into-business-efficiency)
 - [3 MFA myths that are holding you back](https://www.okta.com/blog/identity-security/3-mfa-myths-holding-you-back)
-- [Securing privileged Active Directory accounts with Okta](https://www.okta.com/blog/product-innovation/securing-privileged-active-directory-accounts-with-okta)
 - [Okta Workflows How-To: Handling an External API Call Error](https://www.okta.com/blog/product-innovation/okta-workflows-handling-errors)
 - [Work safer and faster with Device-Bound Single Sign-On](https://www.okta.com/blog/product-innovation/device-bound-sso-safer-faster)
 - [Controlling access to shared social media accounts with Okta](https://www.okta.com/blog/identity-security/controlling-access-to-shared-social-media-accounts-with-okta)
@@ -1219,7 +1216,6 @@
 - [Accelerating system access at mission speed: Retiring legacy SAAR to improve operational efficiency](https://www.okta.com/blog/identity-security/replace-dd-2875-automated-icam-workflows)
 - [How to stop attackers from self-serving their way into accounts](https://www.okta.com/blog/threat-intelligence/intrusion-actors-self-serve-their-way-into-accounts)
 - [Integrating Windows Hello biometrics with Okta Device Access](https://www.okta.com/blog/product-innovation/okta-device-access-windows-hello)
-- [Automating partner access with Okta Workflows and Realms](https://www.okta.com/blog/industry-insights/automating-partner-access-with-okta-workflows-and-realms)
 - [Agentic AI readiness is identity readiness](https://www.okta.com/blog/identity-security/securing-agentic-ai-workforce)
 - [Beyond the badge: The real-world impact of Okta Certification](https://www.okta.com/blog/industry-insights/okta-certification-impact-survey-2026)
 - [The fast lane to access: Bulk provisioning with Okta Workflows](https://www.okta.com/blog/product-innovation/enhanced-bulk-provisioning-with-okta-workflows)
@@ -1290,6 +1286,11 @@
 - [Resource Access Certifications for AI Agents: Reduce the agent attack surface. Close the audit gap.](https://www.okta.com/blog/product-innovation/resource-access-certifications-for-ai-agents)
 - [Engineering the Standard: IAM@okta Best Practices for Robust Okta Workflows](https://www.okta.com/blog/product-innovation/iam-okta-best-practices-robust-workflows)
 - [The agent is not the user: Using Amazon Bedrock AgentCore with Okta to secure AI agent identity](https://www.okta.com/blog/ai/okta-amazon-bedrock-agentcore-security)
+- [Automating partner access with Okta Workflows and Realms](https://www.okta.com/blog/industry-insights/automating-partner-access-with-okta-workflows-and-realms)
+- [Simplifying the complexities of B2B collaboration](https://www.okta.com/blog/product-innovation/simplifying-the-complexities-of-b2b-collaboration)
+- [Announcing Okta Identity Governance for Customer Identity](https://www.okta.com/blog/product-innovation/announcing-okta-identity-governance-for-customer-identity)
+- [Securing privileged Active Directory accounts with Okta](https://www.okta.com/blog/product-innovation/securing-privileged-active-directory-accounts-with-okta)
+- [When enrollment isn’t enough: How attackers trick users into MFA downgrades | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/when_enrollment_isnt_enough)
 
 ## Newsroom
 
@@ -1530,4 +1531,5 @@
 - [Oktane 2026: Setting the standard for the secure agentic future](https://www.okta.com/newsroom/articles/setting-the-standard-for-the-secure-agentic-future)
 - [World Central Kitchen accelerates secure AI adoption with Okta](https://www.okta.com/newsroom/articles/world-central-kitchen-accelerates-secure-ai-adoption-with-okta)
 - [Oktane 2026: AI agents are in the enterprise—now what?](https://www.okta.com/newsroom/articles/oktane-2026-highlights)
+- [Survey: How friction, not ignorance, is stalling enterprise security](https://www.okta.com/newsroom/articles/global-state-of-authentication-2026-ai-phishing-resistance)
 

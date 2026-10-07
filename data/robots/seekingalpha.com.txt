@@ -282,6 +282,9 @@ Disallow: /
 User-agent: Scrapy
 Disallow: /
 
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
 User-agent: SeekrBot
 Disallow: /
 

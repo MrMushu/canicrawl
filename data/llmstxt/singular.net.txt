@@ -679,7 +679,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 ## Guides
 
 - [Winning with Creative: What the Experts Say](https://www.singular.net/guides/winning-with-creative-what-the-experts-say/): Aperture, AppAgent, Craftsman+, Liftoff, Mobile Action, Mys Tyler, Playable Factory, Shamsco, Singular and SnapChat share their best practice tactics and...
-- [Q1 2024 Quarterly Trends Report](https://www.singular.net/guides/q1-2024-quarterly-trends-report/): If you’re looking for a taste of what happened in the world of user acquisition in Q1 2024, we analyzed billions of dollars of ad spend, trillions of impressions, billions of installs, and tens of billions of clicks, and included some insights from Fluent, Mistplay, and RevenueCat.
+- [Q1 2024 Quarterly Trends Report](https://www.singular.net/guides/q1-2024-quarterly-trends-report/): If you’re looking for a taste of what happened in the world of user acquisition in Q1 2024, we analyzed...
 - [Essential Guide to All Things SKAN](https://www.singular.net/guides/essential-guide-to-all-things-skan/): Think of it as your cheat sheet for SKAN success: both SKAN 3 and SKAN 4. It’s going to be short, quick, brutally brief … and you can always watch the full sessions any time you want.
 - [Q4 2023 Quarterly Trends Report](https://www.singular.net/guides/q4-2023-quarterly-trends-report/): Guide your 2024 user acquisition with CPI rates, top ad networks, share of spend, web versus in-app ads, ATT opt-in...
 - [ROI Index 2023 Portuguese](https://www.singular.net/guides/roi-index-2023-spanish-copy/)
@@ -1610,6 +1610,14 @@ Singular Support Actionfit to Achieve 150% YoY Growth
 
 
 ## Guides
+
+
+
+Guide your 2024 user acquisition with CPI rates, top ad networks, share of spend, web versus in-app ads, ATT opt-in rates, paid versus organic, and hundreds of regional stats.
+
+
+
+
 
 
 
