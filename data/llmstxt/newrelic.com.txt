@@ -189,11 +189,11 @@ experience on every platform.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [Skyscanner x New Relic M.A.R.S. GameDay Challenge](https://newrelic.com/events/2026-10-29/skyscanner-mars-gameday): Skyscanner, join New Relic in Edinburgh on 29 October and discover how the New Relic Intelligent Observability platform opens up unexpected possibilities—and then get hands-on in a M.A.R.S. GameDay. 
 - [Melbourne Engineering and DevOps Summit Reli-Birds Challenge ](https://newrelic.com/events/2026-10-15/eng-and-devops-summit-melb): New Relic at Engineering and DevOps summit Melbourne. Join us for a Reli-Bird's Mobile Game Challenge!
 - [ANZ Bank M.A.R.S Gameday (Melbourne)](https://newrelic.com/events/2026-10-22/new-relic-anz-bank-mars-gameday): New Relic x ANZ Bank M.A.R.S Gameday! Join us on October 22 for a competitive, team-based simulation experience built on cloud native standards
 - [AI Engineering and Infrastructure Reli-Birds Challenge Sydney](https://newrelic.com/events/2026-10-01/ai-engineering-infra-summit-sydney): New Relic at AI Engineering and Infrastructure Sydney. Join us for a Reli-Bird's Mobile Game Challenge!
 - [[On-demand] Exploring the Power of New Relic Browser Monitoring and Session Replay (EMEA)](https://newrelic.com/events/2026-09-17/browser-monitoring-session-replay): Learn how to use New Relic browser monitoring to help ensure successful deployments and quickly troubleshoot customer-visible problems, measure full page life cycle data and the information you need to ensure customer satisfaction.
-- [[On-demand] Proactively monitor availability and performance with New Relic Synthetics (EMEA)](https://newrelic.com/events/2026-09-16/proactively-monitor-availability-and-performance-with-new-relic-synthetics-emea-on-demand): Watch an overview of synthetic monitoring in New Relic, to find out where specific errors and slow pages are so that you can deliver the best customer experience.
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.

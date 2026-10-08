@@ -3075,6 +3075,61 @@
    "bot": "Perplexity-User",
    "from": "allowed",
    "to": "restricted"
+  },
+  {
+   "date": "2026-10-08",
+   "domain": "instagram.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-08",
+   "domain": "instagram.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-08",
+   "domain": "instagram.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-08",
+   "domain": "instagram.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-08",
+   "domain": "instagram.com",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-08",
+   "domain": "instagram.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-08",
+   "domain": "ea.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

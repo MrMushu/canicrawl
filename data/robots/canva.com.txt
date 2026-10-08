@@ -168,6 +168,7 @@ Allow: /pt_pt/criar/
 Allow: /ru_ru/sozdat/
 Allow: /sv_se/skapa/
 Allow: /th_th/create/
+Allow: /tr_tr/yapma/
 Allow: /uk_ua/stvoryty/
 Allow: /vi_vn/thiet-ke/
 Allow: /zh_hk/create/
@@ -191,6 +192,7 @@ Allow: /nl_nl/functies/
 Allow: /pt_pt/ferramentas/
 Allow: /sv_se/funktioner/
 Allow: /th_th/features/
+Allow: /tr_tr/ozellikler/
 Allow: /vi_vn/tinh-nang/
 Allow: /zh_hk/features/
 Allow: /zh_tw/features/
@@ -214,6 +216,8 @@ Allow: /pt_br/graficos/
 Allow: /pt_pt/graficos/
 Allow: /sv_se/grafer/
 Allow: /th_th/graphs/
+Allow: /tr_tr/grafik/
+Allow: /tr_tr/sema/
 Allow: /vi_vn/bieu-do/
 Allow: /zh_hk/graphs/
 Allow: /zh_tw/graphs/

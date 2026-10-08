@@ -132,6 +132,7 @@ Disallow: /pagead/
 Disallow: /poka%C5%BCprac%C4%99?
 Disallow: /praca/
 Disallow: /preferences
+Disallow: /promo/
 Disallow: /*radius=
 Disallow: /rc/
 Disallow: /rdr/
@@ -333,6 +334,7 @@ Disallow: /pagead/
 Disallow: /poka%C5%BCprac%C4%99?
 Disallow: /praca/
 Disallow: /preferences
+Disallow: /promo/
 Disallow: /*radius=
 Disallow: /rc/
 Disallow: /rdr/

@@ -9,6 +9,9 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Pages
 
+- [Research and Reports](https://www.singular.net/report-and-guides/): Research & Reports Playbooks and insights for each growth stage
+- [Webinars and Workshops](https://www.singular.net/videos/): Webinars & Workshops Live and on-demand sessions with experts on app growth
+- [Singular Blog: Insights on Attribution, Growth, and Analytics](https://www.singular.net/blog/): The Singular blog Fresh insights, trends, and strategies for today’s growth marketers
 - [Data Security &amp; Privacy](https://www.singular.net/data-security-privacy/): Security &amp; Privacy Up to date compliance, security and privacy measures that keep up with the evolving needs of the...
 - [Privacy Policy](https://www.singular.net/privacy-policy/): Privacy Policy This Privacy Policy (“Privacy Policy”) explains how information is collected and used by Singular Labs, Inc. (“Singular” or...
 - [Children&#039;s Privacy Notice](https://www.singular.net/children-privacy-notice/): Children’s Privacy Notice Introduction We, at Singular Labs, Inc. (“we”, “our” or “us”) have developed and offer a technology platform...
@@ -64,9 +67,6 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [Growth Masterminds Podcast](https://www.singular.net/growth-masterminds-podcast/): Growth experts sharing insights on strategy, tactics, and trends Subscribe on:
 - [Press](https://www.singular.net/press/): Catch up on our newsworthy stories, download our brand materials, or contact us
 - [PC and Console Attribution | Singular](https://www.singular.net/pages/pc-and-console/)
-- [Webinars](https://www.singular.net/videos/):  
-- [Guides](https://www.singular.net/report-and-guides/)
-- [Blog](https://www.singular.net/blog/):  
 - [Success Stories](https://www.singular.net/customers-love-singular/): Learn why top brands trust Singular for advanced attribution and analytics, seamless data integration, and actionable insights to fuel their growth
 - [Mobile Attribution Reviews](https://www.singular.net/mobile-attribution-reviews/): Don’t take it from us... read what our customers have to say Singular reviews sourced by G2
 - [SKAN Adoption](https://www.singular.net/skadnetwork-adoption/): Live SKAdNetworkAdoption Dashboard Keep up with industry SKAN adoption in real-time to benchmark your adoption and improve your campaign planning. SKAdNetwork...

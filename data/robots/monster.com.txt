@@ -1,4 +1,4 @@
-#2026-10-06
+#2026-10-08
 User-agent: *
 
 Disallow: */career-advice/article?q=*
@@ -52,7 +52,7 @@ Disallow: /jobs/search?
 Disallow: /jobs/search?*recency=*
 Disallow: /jobs/search?*rd=*
 Disallow: /jobs/search?*et=*
-Disallow: /profile/auth/callback
+Disallow: /profile/auth/
 
 # PSP parameter handling
 Disallow: /jobs/*?sid=

@@ -1,6 +1,6 @@
 {
- "date": "2026-10-07",
- "filesScanned": 610,
+ "date": "2026-10-08",
+ "filesScanned": 611,
  "distinctTokens": 2105,
  "aiCandidates": [
   {
@@ -237,7 +237,7 @@
   },
   {
    "token": "Yandex",
-   "sites": 66,
+   "sites": 67,
    "sample": [
     "2gis.com",
     "academia.edu",

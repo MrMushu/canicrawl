@@ -244,14 +244,12 @@ Disallow: /
 User-agent: meta-externalagent
 Disallow: /
 
+#PROD-555221
 User-agent: PetalBot
-#PROD-547531
-Disallow: /*used-*
-Disallow: /*new-*
-Disallow: /*dealerships*
-Disallow: */vin/*
-Disallow: /*?pagenum*
-Disallow: /*&pagenum*
-Disallow: /*?pagenumber*
-Disallow: /*&pagenumber*
-Disallow: /*lease-deals*
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /

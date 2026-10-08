@@ -1,7 +1,7 @@
 #
 # robots.txt for https://www.w3.org/
 #
-# $Id: robots.txt,v 1.106 2026/07/14 19:25:44 gerald Exp $
+# $Id: robots.txt,v 1.107 2026/10/07 16:17:21 gerald Exp $
 #
 
 # the following settings apply to all bots
@@ -122,6 +122,7 @@ Disallow: /WAI/ut4/
 Disallow: /WAI/drafts/
 Disallow: /WAI/search/?
 Disallow: /TR/?
+Disallow: /groups/*/activity/*?
 
 # Allow W3C Link checker to check any paths on this site
 User-agent: W3C-checklink

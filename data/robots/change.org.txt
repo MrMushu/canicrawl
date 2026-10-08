@@ -113,6 +113,8 @@ Disallow: /p/*/psf/promote_or_share$
 Disallow: /p/*/psf/promote_or_share?*
 Disallow: /p/*/psf/share$
 Disallow: /p/*/psf/share?*
+Disallow: /p/*/psf/social_starter$
+Disallow: /p/*/psf/social_starter?*
 Disallow: /p/*/responses/new$
 Disallow: /p/*/responses/new/complete-profile$
 Disallow: /p/*/responses/new/complete-profile?*

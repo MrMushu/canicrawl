@@ -108,6 +108,8 @@ Disallow: /draft/
 Disallow: /emails/
 Disallow: /hidebanner/
 Disallow: /logout.php
+Disallow: */signup/?rp=*
+Disallow: */login/?rp=*
 Disallow: /opt/widget-cache.php
 Disallow: /pdf-submission/
 Disallow: /preview/
@@ -272,6 +274,8 @@ Disallow: /draft/
 Disallow: /emails/
 Disallow: /hidebanner/
 Disallow: /logout.php
+Disallow: */signup/?rp=*
+Disallow: */login/?rp=*
 Disallow: /opt/widget-cache.php
 Disallow: /pdf-submission/
 Disallow: /preview/
@@ -431,6 +435,8 @@ Disallow: /draft/
 Disallow: /emails/
 Disallow: /hidebanner/
 Disallow: /logout.php
+Disallow: */signup/?rp=*
+Disallow: */login/?rp=*
 Disallow: /opt/widget-cache.php
 Disallow: /pdf-submission/
 Disallow: /preview/

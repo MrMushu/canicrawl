@@ -107,11 +107,12 @@ User-agent: Meta-ExternalFetcher
 User-agent: MistralAI-User
 User-agent: OAI-Operator
 User-agent: Perplexity-User
+Disallow: /
 Allow: /travel/explore-dubai/
 Allow: /travel/luxury-stays/
 Allow: /business/uk-business-growth/
 Allow: /ads.txt
-Disallow: /
+
 
 # Sitemap URLs
 Sitemap: https://www.telegraph.co.uk/sitemap.xml
@@ -119,6 +120,8 @@ Sitemap: https://www.telegraph.co.uk/custom/authors/sitemap.xml
 Sitemap: https://www.telegraph.co.uk/custom/main-pages/sitemap.xml
 Sitemap: https://www.telegraph.co.uk/custom/daily-news/sitemap.xml
 Sitemap: https://www.telegraph.co.uk/custom/author-pages/sitemap.xml
+
+
 
 
 
