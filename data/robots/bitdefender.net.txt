@@ -18,6 +18,7 @@ Disallow: /content/bitdefender/nl/
 Disallow: /content/bitdefender/be/
 Disallow: /content/bitdefender/br/
 Disallow: /*.plain.html
+Disallow: /geoip
 
 # Legacy rules
 Disallow: /en/

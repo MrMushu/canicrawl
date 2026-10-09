@@ -108,6 +108,18 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Travel & Transportation](https://newrelic.com/customers?category=travel_transportation): Customer success stories in travel and transportation sector
 ## Resources
 
+### Video
+- [New Relic Now June 2026](https://newrelic.com/resources/video/new-relic-now-june-2026): Watch New Relic Now 2026 on-demand to learn how AI is creating new challenges and opportunities in software observability.
+- [Winter New Relic Now 2025](https://newrelic.com/resources/video/winter-new-relic-now-2025): Watch New Relic Now Winter 2025
+- [New Relic for SAP](https://newrelic.com/resources/video/new-relic-for-sap): Watch the New Relic for SAP demo to see how intelligent observability works for digital business
+- [Data Bytes: ServiceNow + New Relic AI integration demo](https://newrelic.com/resources/video/data-bytes-servicenow-new-relic-ai-integration-demo): New Relic for ServiceNow brings observability insights into workstreams, helps you resolve tickets faster with agentic AI, and automate business-impact analysis.
+- [Using Agentic AI and Intelligent Observability to Reduce MTTR for IT Operations](https://newrelic.com/resources/video/using-agentic-ai-and-intelligent-observability-to-reduce-mttr-for-it-operations): Watch this session to learn how the New Relic ServiceNow integration uses agentic AI to reduce MTTR, enhance incident management, and enable automation.
+- [New Relic Now On Demand June 2025](https://newrelic.com/resources/video/new-relic-now-on-demand-june-2025): Watch New Relic Now, June 2025, to see how agentic integrations bring observability insights to ServiceNow, GitHub Copilot, and Google Gemini. 
+- [Observability for IT Governance: How an IT Leader Uses New Relic](https://newrelic.com/resources/video/observability-it-governance): See how Head of IT Governance at EveryMatrix, Tiberius Guiu, leverages New Relic for the organization's incident response management.
+- [Observability for Engineers: How a Systems Architect Uses New Relic](https://newrelic.com/resources/video/observability-systems-architect): See how Senior Systems Architect at EveryMatrix, Alex Bularca, leverages New Relic as an essential part of his day-to-day job.
+- [Observability for Executives: How a CTO Uses New Relic](https://newrelic.com/resources/video/observability-group-cto): Hear from the Group CTO of EveryMatrix, Mihnea Dobre, why New Relic is essential to their engineering organization.
+- [Observability Forecast 2024 Highlights](https://newrelic.com/resources/video/state-of-observability-2024-highlights): State of Observability 2024 Highlights
+
 ### Report
 - [AI makes software faster to build and harder to run](https://newrelic.com/resources/report/observability-forecast/2026-emea): Discover how 750 technology leaders across Europe and the Gulf are balancing rapid AI agent deployment with cost management and regulatory compliance in the 2026 EMEA Observability Forecast.
 - [Asia-Pacific is outrunning the world on AI adoption—and paying the highest price for downtime](https://newrelic.com/resources/report/observability-forecast/2026-apac): Discover how APAC IT leaders are mastering agentic monitoring, balancing rapid AI adoption, and reducing high-impact outage risks in the 2026 APAC Observability Forecast.
@@ -129,17 +141,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [A software engineer's guide to agentic AI systems & observability](https://newrelic.com/resources/guide/agentic-ai-systems-and-observability): Agentic AI systems can plan, act, and fail in unpredictable ways. Discover the developer's guide to building resilient AI agents and why observability is your only shield against million-dollar outages.
 - [AI-Powered DEM: Bring Greater Intelligence to Every Digital Experience](https://newrelic.com/resources/guide/ai-powered-dem-bring-greater-intelligence-to-every-digital-experience): AI-Powered DEM: Bring Greater Intelligence to Every Digital Experience
 
-### Video
-- [Winter New Relic Now 2025](https://newrelic.com/resources/video/winter-new-relic-now-2025): Watch New Relic Now Winter 2025
-- [New Relic for SAP](https://newrelic.com/resources/video/new-relic-for-sap): Watch the New Relic for SAP demo to see how intelligent observability works for digital business
-- [Data Bytes: ServiceNow + New Relic AI integration demo](https://newrelic.com/resources/video/data-bytes-servicenow-new-relic-ai-integration-demo): New Relic for ServiceNow brings observability insights into workstreams, helps you resolve tickets faster with agentic AI, and automate business-impact analysis.
-- [Using Agentic AI and Intelligent Observability to Reduce MTTR for IT Operations](https://newrelic.com/resources/video/using-agentic-ai-and-intelligent-observability-to-reduce-mttr-for-it-operations): Watch this session to learn how the New Relic ServiceNow integration uses agentic AI to reduce MTTR, enhance incident management, and enable automation.
-- [New Relic Now On Demand June 2025](https://newrelic.com/resources/video/new-relic-now-on-demand-june-2025): Watch New Relic Now, June 2025, to see how agentic integrations bring observability insights to ServiceNow, GitHub Copilot, and Google Gemini. 
-- [Observability for IT Governance: How an IT Leader Uses New Relic](https://newrelic.com/resources/video/observability-it-governance): See how Head of IT Governance at EveryMatrix, Tiberius Guiu, leverages New Relic for the organization's incident response management.
-- [Observability for Engineers: How a Systems Architect Uses New Relic](https://newrelic.com/resources/video/observability-systems-architect): See how Senior Systems Architect at EveryMatrix, Alex Bularca, leverages New Relic as an essential part of his day-to-day job.
-- [Observability for Executives: How a CTO Uses New Relic](https://newrelic.com/resources/video/observability-group-cto): Hear from the Group CTO of EveryMatrix, Mihnea Dobre, why New Relic is essential to their engineering organization.
-- [Observability Forecast 2024 Highlights](https://newrelic.com/resources/video/state-of-observability-2024-highlights): State of Observability 2024 Highlights
-
 ### Presentations
 - [Dunnhumby Workshop: Workloads](https://newrelic.com/resources/presentations/dunnhumby-workloads): Workloads workshop content for Dunnhumby
 - [Dunnhumby Workshop: Alerts Quality Management](https://newrelic.com/resources/presentations/dunnhumby-alerts-quality-management): Alerts Quality Management.
@@ -152,8 +153,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 ### Datasheets
 - [Why ServiceNow customers choose New Relic](https://newrelic.com/resources/datasheets/why-servicenow-customers-choose-new-relic): ServiceNow and New Relic Intelligent Observability Platform bring Automation and Intelligence to our customers for a best-in-class partnership.
 - [Observability for Luxury Retail](https://newrelic.com/resources/datasheets/observability-for-luxury-retail): Luxury brands are working toward a seamless digital and physical experience. While in-person experiences remain a cornerstone of luxury retail, the digital presence is increasingly important for reaching consumers, increasing engagement, and driving sales.
-- [Digital Experience Management for Bell](https://newrelic.com/resources/datasheets/digital-experience-management-for-bell): Digital Experience Management for Bell. Give every customer an optimal
-experience on every platform.
 
 ### Checklist
 - [AI-Powered DEM Solution Critical Capabilities Checklist](https://newrelic.com/resources/checklist/ai-powered-dem-solution-critical-capabilities-checklist): AI-Powered DEM Solution Critical Capabilities Checklist

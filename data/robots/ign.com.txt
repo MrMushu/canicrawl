@@ -26,6 +26,7 @@ Disallow: /sign-in
 Disallow: /sugarfif.html
 Disallow: /wikis/*/edit
 Disallow: /wikis/*/compare/*
+Allow: /sponsored/
 
 #block crawlers
 User-agent: Amzn-SearchBot
@@ -42,6 +43,7 @@ User-agent: OAI-SearchBot
 User-agent: opencode
 User-agent: TerraCotta
 User-agent: Trae
+Allow: /sponsored/
 Disallow: /
 
 #Block AI content scrapers
@@ -353,6 +355,7 @@ Allow: /sponsored/
 Disallow: /
 
 User-agent: DuckDuckBot
+Allow: /sponsored/
 Allow: /
 
 Sitemap: https://www.ign.com/rss/sitemap-articles.xml

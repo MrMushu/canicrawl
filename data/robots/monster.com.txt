@@ -1,4 +1,4 @@
-#2026-10-08
+#2026-10-09
 User-agent: *
 
 Disallow: */career-advice/article?q=*
@@ -45,6 +45,9 @@ Disallow: /profile/detail/security-clearance
 Disallow: /profile/skill-tools/skills-coach
 Disallow: /profile/upload-resume
 Disallow: /message-center
+Disallow: /profile/auth/
+
+# SJR parameter handling
 Disallow: /jobs/search?*&page=
 Disallow: /jobs/search?*page=
 Allow: /jobs/search?q=
@@ -52,13 +55,10 @@ Disallow: /jobs/search?
 Disallow: /jobs/search?*recency=*
 Disallow: /jobs/search?*rd=*
 Disallow: /jobs/search?*et=*
-Disallow: /profile/auth/
 
 # PSP parameter handling
 Disallow: /jobs/*?sid=
 Disallow: /jobs/*&sid=
-Disallow: /jobs/*?et=
-Disallow: /jobs/*&et=
 Disallow: /jobs/*?recency=
 Disallow: /jobs/*&recency=
 Disallow: /jobs/*?rd=

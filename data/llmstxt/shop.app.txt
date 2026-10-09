@@ -4,11 +4,9 @@
 
 ## For Agents
 
-- [Shop skill](https://shop.com/SKILL.md): **Start here.** The agent skill for Shop: search the catalog, show products, build a checkout on the merchant's domain, and handle orders, tracking, returns, and reorders. It also carries the rules you must follow, so read it before your first call.
-- [Skills index](https://shop.com/.well-known/skills/index.json): The skills Shop publishes, in JSON, for agents that discover skills through `.well-known`.
-- [Agent skills manifest](https://shop.com/.well-known/agent-skills/index.json): The same skill as an Agent Skills discovery manifest, with a digest you can check.
-- [Shop CLI](https://www.npmjs.com/package/@shopify/shop-cli): Install `@shopify/shop-cli` and run `shop search`, `shop checkout`, `shop orders`, and `shop auth`. Prefer the CLI. It handles tokens, request shapes, and pagination for you.
-- [Direct API reference](https://shop.com/references/direct-api.md): The no-CLI path, in raw request form. Device sign-in at https://accounts.shop.app/oauth/device, token exchange, the Global Catalog MCP at `https://catalog.shopify.com/api/ucp/mcp` (search works unauthenticated), checkout creation, and order lookups. The skill's safety, security, and personal-use rules apply unchanged.
+- [Shop skill](https://shop.com/SKILL.md): **Start here.** Search by text or image, find similar products, compare options, build and update carts and checkouts, and buy with Shop Pay. Connect Shop to use saved addresses and cards, view spending budgets, request approval for purchases completed in a browser, and search order history to track deliveries or reorder. Read the skill before your first call for setup, supported actions, and purchase-approval rules.
+- [Shop CLI](https://www.npmjs.com/package/@shopify/shop): Install the command and its bundled skill with `npm install --global @shopify/shop@latest && shop skill --install`. Use `shop --help` to discover commands and `shop skill` to read the guidance.
+- [HTTP reference](https://shop.com/references/http.md): Use Shop through `https://mcp.shop.com/` when neither the CLI nor native MCP is available. Includes request examples, discovery, and sign-in guidance.
 - [Universal Commerce Protocol](https://www.shopify.com/ucp): The open standard behind agentic commerce on Shopify. Agents discover products, build carts, check out, and track orders across any UCP merchant, with Shop Pay built in.
 
 ## URL Structure
@@ -25,7 +23,7 @@ Use the sitemaps below to enumerate real values for `{id}`, `{handle}`, and `{st
 
 ## Discover All Pages
 
-Sitemaps enumerate every public page:
+Sitemaps list public pages:
 
 - https://shop.com/sitemap.xml
 - https://shop.com/cdn/shopifycloud/shop-web/sitemaps/shop-com/products/sitemap_products.xml

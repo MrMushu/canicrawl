@@ -803,6 +803,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Glossary Terms
 
+- [Conversions API (CAPI)](https://www.singular.net/glossary/conversions-api/)
 - [Monthly active users (MAU)](https://www.singular.net/glossary/monthly-active-users-mau/)
 - [Deep linking](https://www.singular.net/glossary/deep-linking/)
 - [Return on ad spend (ROAS)](https://www.singular.net/glossary/return-on-ad-spend-roas/)

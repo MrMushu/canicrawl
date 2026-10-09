@@ -190,6 +190,8 @@ Disallow: /gp/video/profiles
 Disallow: /gp/video/search
 Disallow: /gp/video/auth
 Disallow: /gp/video/salp/i
+Disallow: /shoptheshow/*?cat=
+Disallow: /shoptheshow/*&cat=
 
 User-agent: EtaoSpider
 Disallow: /

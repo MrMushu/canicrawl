@@ -60,6 +60,8 @@ Disallow: /ru/node/
 Disallow: /ko/node/
 Disallow: /site-index-search
 Disallow: /*/site-index-search
+Disallow: /omnibar-search-results-json-v2
+Disallow: /*/omnibar-search-results-json-v2
 Disallow: /forms-pubs-search
 Disallow: /*/forms-pubs-search
 Disallow: /ita-index-search

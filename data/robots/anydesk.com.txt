@@ -4,9 +4,9 @@ Disallow: /cve/*
 Disallow: /misc/*
 
 # Thank you / post-submit pages
-Disallow: /thank-you*
-Disallow: /contact/thank-you*
-Disallow: /downloads/thank-you*
-Disallow: /trial/thank-you*
+Disallow: /*/thank-you*
+Disallow: /*/contact/thank-you*
+Disallow: /*/downloads/thank-you*
+Disallow: /*/trial/thank-you*
 
 Sitemap: https://www.anydesk.com/sitemap.xml
