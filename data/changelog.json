@@ -3407,6 +3407,14 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-10-10",
+   "domain": "cnet.com",
+   "kind": "bot-flip",
+   "bot": "GrokBot",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

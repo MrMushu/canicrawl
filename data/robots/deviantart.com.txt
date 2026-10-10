@@ -1,6 +1,13 @@
 User-agent: *
 Disallow: /users/*?
 Disallow: /join/*?
+# Allow language-only landing pages; keep additional query parameters blocked.
+Allow: /join/?lang=
+Disallow: /join/?lang=*&
+Allow: /users/login?lang=
+Disallow: /users/login?lang=*&
+Allow: /users/login/?lang=
+Disallow: /users/login/?lang=*&
 Disallow: /download/
 Disallow: /checkout/
 Disallow: /global/

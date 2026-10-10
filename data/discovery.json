@@ -1,5 +1,5 @@
 {
- "date": "2026-10-09",
+ "date": "2026-10-10",
  "filesScanned": 611,
  "distinctTokens": 2105,
  "aiCandidates": [
@@ -65,7 +65,7 @@
   },
   {
    "token": "xAI-Grok",
-   "sites": 16,
+   "sites": 17,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -516,6 +516,16 @@
    "aiHint": false
   },
   {
+   "token": "CloudflareBrowserRenderingCrawler",
+   "sites": 25,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
    "token": "Devin",
    "sites": 24,
    "sample": [
@@ -537,16 +547,6 @@
   },
   {
    "token": "Google-NotebookLM",
-   "sites": 24,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": false
-  },
-  {
-   "token": "CloudflareBrowserRenderingCrawler",
    "sites": 24,
    "sample": [
     "amazon.ca",
