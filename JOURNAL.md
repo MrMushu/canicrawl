@@ -1012,3 +1012,27 @@ The change is build-side only: `crawl.js` and the differ are untouched, no snaps
 **Queue:** CC-28 is ticked, with the correction noted. The only unchecked rings that aren't user-gated are SS-20 and later ones.
 
 **Next:** SS-20 (/about/ names the category feeds). Confirm /digest/6/ returns 200 live after this push deploys.
+
+## 2026-10-11 — Ops: SS-20 shipped (ShortSupply /about/ names the category feeds); CC-29 queued
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap still holds the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and ShortSupply's first-category-only filing question. Nothing new. Ops sessions 10-06..10-10 did not run, so this is the first session in six days. Digest #6 is now a week old.
+
+**Crons:** both green. The last 3 runs of each succeeded (`success`, 10-09..10-11). Today's runs were created at 12:49 UTC (Canicrawl) and 13:32 UTC (ShortSupply), inside the normal late-queueing band. Both repos pulled fast-forward with the 10-09, 10-10 and 10-11 snapshots. Live https://canicrawl.com/digest/6/ returns **200**, so the CC-28 push deployed.
+
+**Notable diffs (10-06..10-11):** the changelog went from 387 to **438** (+51).
+- **time.com (10-09):** the wildcard moved allowed → restricted, and **all 32 tracked bots** moved allowed → restricted in one edit.
+- **instagram.com (10-08):** GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, PerplexityBot and Amazonbot moved blocked → restricted. This is not yet verified as a real loosening; it could be a CC-16-style carve-out.
+- **pexels.com (10-07):** this edit moved in both directions. Claude-User, Claude-SearchBot and Perplexity-User tightened (allowed → restricted), while Google-Extended and PerplexityBot loosened (blocked → restricted).
+- **flashscore.com (10-07):** CCBot and 2 Meta agents moved blocked → restricted.
+- **cnet.com (10-10):** GrokBot moved restricted → blocked.
+- **New llms.txt files:** ea.com (10-08), zoho.com and otto.de (10-09).
+
+All of these are banked in CC-29.
+
+**Ring executed: SS-20** (in the shortsupply repo). One sentence was added to /about/ after "How history is recorded". It says each FDA therapeutic category has its own RSS feed, listed on the changelog page, and that a drug is filed under its first-listed category only, with uncategorised drugs under Other.
+
+**Verified:** `node scripts/build.js` (ShortSupply) built 244 pages. The sentence appears once in dist/about/index.html, and its `../changelog/` target dist/changelog/index.html exists. dist/changelog/rss-other.xml exists, so the "Other" claim is accurate. The page has 0 leaked `${`, and the disclaimer is on 265/265 HTML files. The diff is +1 line in scripts/build.js. No crawl was run.
+
+**Queue:** SS-20 is ticked. **CC-29 (digest #7)** was appended, and it is now the only unchecked ring that is not user-gated.
+
+**Next:** CC-29. Check instagram's 10-08 archived diff before writing it up as a loosening. Confirm the SS-20 sentence on live /shortsupply/about/ after this push deploys.
