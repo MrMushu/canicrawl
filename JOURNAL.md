@@ -1036,3 +1036,25 @@ All of these are banked in CC-29.
 **Queue:** SS-20 is ticked. **CC-29 (digest #7)** was appended, and it is now the only unchecked ring that is not user-gated.
 
 **Next:** CC-29. Check instagram's 10-08 archived diff before writing it up as a loosening. Confirm the SS-20 sentence on live /shortsupply/about/ after this push deploys.
+
+## 2026-10-12 — Ops: CC-29 shipped (digest #7, "Instagram lets the training crawlers back in")
+
+**USER-NEEDED (standing, unchanged):** CC-24 (highwebmedia.com filter gap, still holding the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and the ShortSupply first-category-only filing question. Nothing new.
+
+**Crons:** both green through 10-11. The most recent runs of each succeeded; those were the push-triggered runs at 15:34 UTC on 10-11. **Today's (10-12) scheduled runs had not been created as of ~15:20 UTC.** Recent days queued between 12:49 and 15:17 UTC, so this is probably late queueing, not a failure. Neither repo had anything new to pull. **Next session: confirm a 2026-10-12 snapshot commit exists in both repos.** If either is missing, treat it as a missed run per the playbook.
+
+**Notable diffs:** none new since the 10-11 entry (changelog still 438). The window 10-06..10-11 is written up in digest #7.
+
+**Ring executed: CC-29 (digest #7).** I appended issue #7, dated 2026-10-11, to data/digests.json. It covers 51 changelog entries: 47 flips, 1 default-policy change and 3 new llms.txt files. Each story was checked against the archived robots.txt diff at that day's snapshot commit:
+- **instagram (10-08), resolving the banked question:** this is a real loosening, not a CC-16 carve-out. The edit deleted 7 one-line `Disallow: /` groups and re-added the same 7 names (6 of them tracked, plus Brightbot) at the bottom. Each new group has 8 `Disallow:` path rules and `Allow: /places/c/`, and none has `Disallow: /`. Those rules are a subset of the Googlebot/Bingbot group's 11, which also disallows `/*/c/`, `/*/comments/` and `/*/liked_by/`. My first draft said the rules "match"; I corrected it to "subset" before shipping. Instagram still blocks 26 tracked bots, including ChatGPT-User, Claude-User and Perplexity-User, so it allows training crawlers while blocking retrieval agents, the reverse of the usual split. The Meta "no automated collection" notice is unchanged.
+- **time (10-09):** a single `Disallow: /c/` moved from the Googlebot group to `*`. Time names none of the 32 tracked bots, so 32 flips plus the default policy come from that one line.
+- **pexels (10-07):** an `Allow: /` group for Claude-SearchBot, Claude-User and Perplexity-User was deleted, and those bots fall back to `*`'s path rules. Google-Extended and PerplexityBot were removed from the `Disallow: /` group. GPTBot, ClaudeBot, Applebot-Extended, Bytespider and CCBot stay blocked.
+- **flashscore (10-07):** the CCBot, Meta-ExternalAgent and Meta-ExternalFetcher block groups were deleted.
+- **cnet (10-10):** 32 `user-agent:` lines were added to its blocklist, plus some `Allow:` paths. Only GrokBot is tracked.
+- **Stats reconciliation:** the blocker count rose from 205 to 206 (31.7% → 31.9% of 645 readable sites). No site started or stopped blocking because of an edit. The change is reachability churn: chatgpt.com and gosuslugi.ru became readable (both block), and kwai.net became unreachable. llms.txt went from 116 to 120 (11.8%); 3 of the new files are in the changelog. Cohorts are unchanged at 3/1/24.
+
+**Verified:** `node scripts/build.js` built **1,090 pages** (1,089 before). dist/digest/7/index.html exists, appears in dist/sitemap.xml, and is linked as `7/` on /digest/. **61/61** internal links resolve in dist, and the page has 0 `${`. The digests.json diff is +7 lines with 0 removed, so #1–#6 are untouched. Headline stats were read from the built dist/stats/ page and cross-checked against the 10-05 and 10-11 snapshots. Live https://canicrawl.com/digest/6/ returns **200**, and live ShortSupply /about/ returns 200 with the SS-20 feed sentence present. No crawl was run.
+
+**Queue:** CC-29 is ticked. **CC-30 (digest #8, window 10-12 onward, due ~10-18)** was appended and is the only ring that isn't user-gated.
+
+**Next:** confirm the 10-12 snapshots landed. Confirm /digest/7/ returns 200 live after this push deploys. Bank stories for CC-30 as they arrive.
