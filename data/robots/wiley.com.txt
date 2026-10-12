@@ -40,3 +40,24 @@ Disallow: /
 
 User-agent: Barkrowler
 Disallow: /
+
+
+# Account Pages
+Disallow: /login
+Disallow: /register
+Disallow: /wishlist
+Disallow: /order-confirmation
+
+# Search Pages
+Disallow: /search
+Disallow: /*?q=
+Disallow: /*?query=
+
+# URL Parameters
+Disallow: /*?sort=
+Disallow: /*?view=
+Disallow: /*?pageSize=
+
+# Administrative and API Paths
+Disallow: /admin/
+Disallow: /api/
