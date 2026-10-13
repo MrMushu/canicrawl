@@ -32,6 +32,7 @@ Disallow: /comment-summary
 Disallow: /kbbreport/
 Disallow: *bvstate
 Disallow: */decision-tree
+Disallow: /category/0/
 
 User-agent: Amazonbot
 Disallow: /
@@ -46,6 +47,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: ClaudeBot
 Disallow: */pep
@@ -53,6 +55,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: Claude-User
 Disallow: /*.js
@@ -64,6 +67,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: Claude-SearchBot
 Disallow: /*.js
@@ -75,6 +79,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: DuckAssistBot
 Disallow: /*.js
@@ -87,6 +92,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: PerplexityBot
 Disallow: /*.js
@@ -98,6 +104,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: Perplexity-User
 Disallow: /*.js
@@ -109,6 +116,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: GrokBot
 Disallow: /*.js
@@ -120,6 +128,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: OAI-SearchBot
 Disallow: /*.js
@@ -131,6 +140,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: OAI-AdsBot
 Disallow: /*.js
@@ -142,6 +152,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: GPTBot
 Disallow: /*.js
@@ -153,6 +164,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: ChatGPT-User
 Disallow: /*.js
@@ -164,6 +176,7 @@ Disallow: /pep
 Disallow: /kbbreport/
 Disallow: /pixall
 Disallow: */pixall
+Disallow: /category/0/
 
 User-agent: Google-InspectionTool
 Allow: *

@@ -110,6 +110,7 @@
 - https://cursor.com/docs/origin/agents.md
 - https://cursor.com/docs/origin/apps.md
   - https://cursor.com/docs/origin/apps/build-app.md
+  - https://cursor.com/docs/origin/apps/publish.md
 - https://cursor.com/docs/origin/settings.md
 
 ## Integrations
@@ -470,6 +471,10 @@
 - https://cursor.com/help/grok-bot/computer-recovery.md
 - https://cursor.com/help/grok-bot/secrets.md
 - https://cursor.com/help/grok-bot/get-help.md
+
+## The X Subscription
+
+- https://cursor.com/help/the-x-subscription/overview.md
 
 ## Troubleshooting
 

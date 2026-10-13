@@ -270,6 +270,7 @@
 #### [External Graphics Docks](https://www.asus.com/motherboards-components/external-graphics-docks/all-series/)
 [XG STATION PRO](https://www.asus.com/Motherboards-Components/External-Graphics-Docks/All-series/XG-STATION-PRO)
 [ROG - Republic of Gamers](https://www.asus.com/motherboards-components/external-graphics-docks/rog-republic-of-gamers/)
+[ASUS XG Core](https://www.asus.com/motherboards-components/external-graphics-docks/all-series/xg-core-rx9060xt-lp-16g/)
 
 #### [AI Accelerator](https://www.asus.com/motherboards-components/ai-accelerator/all-series/)
 [All Series](https://www.asus.com/motherboards-components/ai-accelerator/all-series/)

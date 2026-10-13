@@ -3415,6 +3415,14 @@
    "bot": "GrokBot",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-10-13",
+   "domain": "spiegel.de",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "blocked",
+   "to": "restricted"
   }
  ]
 }

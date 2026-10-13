@@ -203,7 +203,7 @@
 - [DDoS Attack: A guide to distributed denial-of-service attacks](https://www.okta.com/identity-101/ddos-attack)
 - [Biometric Passport: Security, Data Protection & How They Work](https://www.okta.com/identity-101/biometric-passport)
 - [Secrets Management: Tools & Methods for Authentication](https://www.okta.com/identity-101/secrets-management)
-- [XSS Vulnerability 101: Identify and Stop Cross-Site Scripting](https://www.okta.com/identity-101/xss-vulnerability)
+- [Cross-Site Scripting (XSS) Vulnerability 101: Identify and Stop XSS Attacks](https://www.okta.com/identity-101/xss-vulnerability)
 - [What Is Hybrid Cloud Architecture and How Can We Use It?](https://www.okta.com/identity-101/what-is-hybrid-cloud-architecture)
 - [What Is the Cloud? Defining Remote Internet Infrastructures](https://www.okta.com/identity-101/what-is-the-cloud)
 - [Understanding Proxy Servers and How They Work](https://www.okta.com/identity-101/proxy-server)
@@ -481,7 +481,6 @@
 - [What Is SMS Authentication and Is It Secure?](https://www.okta.com/blog/identity-security/sms-authentication)
 - [What is Federation and Why Should Your Apps Support it?](https://www.okta.com/blog/identity-security/what-is-federation-and-why-should-your-apps-support-it)
 - [Securing the future of work: Why Zero Trust is critical in a hybrid world](https://www.okta.com/blog/identity-security/securing-the-future-of-work-why-zero-trust-is-critical-in-a-hybrid-world)
-- [The Need for Phishing-Resistant Multi-Factor Authentication](https://www.okta.com/blog/identity-security/the-need-for-phishing-resistant-multi-factor-authentication)
 - [New secure Identity integrations streamline advanced protection for your most critical applications](https://www.okta.com/blog/identity-security/new-secure-identity-integrations-streamline-advanced-protection-for-your-most-critical)
 - [What is WebAuthn?](https://www.okta.com/blog/identity-security/what-is-webauthn)
 - [What is Zero Trust Security?](https://www.okta.com/blog/identity-security/what-is-zero-trust-security)
@@ -1285,7 +1284,9 @@
 - [How Okta mitigates OWASP’s Top 10 Non-Human Identity Risks](https://www.okta.com/blog/ai/how-okta-mitigates-owasps-top-10-non-human-identity-risks)
 - [Powering Productivity, Responsibly: How Okta is measuring the energy consumption of AI](https://www.okta.com/blog/ai/okta-sustainable-ai-energy-methodology)
 - [Your agent IdP for any identity stack](https://www.okta.com/blog/ai/agent-idp-identity-stack)
+- [The Need for Phishing-Resistant Multi-Factor Authentication](https://www.okta.com/blog/identity-security/the-need-for-phishing-resistant-multi-factor-authentication)
 - [Founders in Focus: Joel Bauman of Synqly](https://www.okta.com/blog/company-and-culture/founders-in-focus-joel-bauman-of-synqly)
+- [What it takes to own AI agent identity as agents spread](https://www.okta.com/blog/ai/ai-agent-identity-build-vs-buy)
 - [Your security tools aren't talking. Attackers love that.](https://www.okta.com/blog/identity-security/identity-security-fabric-for-the-modern-threat-landscape)
 - [Key insights from Okta's CSO survey: Challenges and opportunities for Okta Ventures portfolio](https://www.okta.com/blog/industry-insights/key-insights-cso-identity-security-survey)
 - [Governing AI agents: Four questions every government agency needs to answer](https://www.okta.com/blog/industry-insights/securing-ai-agents-government)
@@ -1293,6 +1294,7 @@
 - [Launch Week ‘25: New Year Edition](https://www.okta.com/blog/product-innovation/launch-week-25-new-year-edition)
 - [Okta for US Military: A New milestone in DoD IL4 Identity](https://www.okta.com/blog/customers-and-partners/okta-for-us-military-a-new-milestone-in-dod-il4-identity)
 - [Securing AI agents at runtime with Okta’s Agent Gateway](https://www.okta.com/blog/product-innovation/okta-agent-gateway-runtime-security)
+- [Modernizing DoW/IL5 Office 365 identity lifecycle management](https://www.okta.com/blog/product-innovation/dow-il5-office-365-identity-management)
 
 ## Newsroom
 

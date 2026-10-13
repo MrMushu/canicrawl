@@ -80,6 +80,8 @@ Disallow: /watch/istoriya-ego-sluzhanki-1/*
 Disallow: /watch/ne-zhili-bogato-2026/*
 Disallow: /watch/shik--/*
 Disallow: /watch/zolotoe-dno-2026/*
+Disallow: /watch/okolotochnyij-1/*
+
 
 Clean-param: sort
 Clean-param: sort&rating_part&rating_model
@@ -195,5 +197,9 @@ Disallow: /watch/istoriya-ego-sluzhanki-1/*
 Disallow: /watch/zolotoe-dno-2026/*
 Disallow: /watch/ne-zhili-bogato-2026/*
 Disallow: /watch/shik--/*
+Disallow: /watch/okolotochnyij-1/*
+Disallow: /en/watch/okolotochnyij-1*
+Disallow: /kk/watch/okolotochnyij-1*
+Disallow: /uz/watch/okolotochnyij-1*
 User-agent: Twitterbot
 Disallow:

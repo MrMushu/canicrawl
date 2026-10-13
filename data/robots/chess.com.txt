@@ -28,6 +28,7 @@ Disallow: /topic/
 Disallow: /awards/
 Disallow: /stats/
 Disallow: /game/
+Disallow: /analysis/game/
 Disallow: /register?returnUrl=
 
 User-agent: *
@@ -40,6 +41,7 @@ Disallow: /*/topic/
 Disallow: /*/awards/
 Disallow: /*/stats/
 Disallow: /*/game/
+Disallow: /*/analysis/game/
 Disallow: /*/register?returnUrl=
 
 User-agent: AdsBot-Google
@@ -53,6 +55,26 @@ Allow: /*/game/
 User-agent: Mediapartners-Google
 Allow: /game/
 Allow: /*/game/
+
+User-agent: facebookexternalhit
+Allow: /analysis/game/
+Allow: /*/analysis/game/
+
+User-agent: Facebot
+Allow: /analysis/game/
+Allow: /*/analysis/game/
+
+User-agent: Twitterbot
+Allow: /analysis/game/
+Allow: /*/analysis/game/
+
+User-agent: LinkedInBot
+Allow: /analysis/game/
+Allow: /*/analysis/game/
+
+User-agent: Discordbot
+Allow: /analysis/game/
+Allow: /*/analysis/game/
 
 Sitemap: https://www.chess.com/sitemapindex.xml
 
