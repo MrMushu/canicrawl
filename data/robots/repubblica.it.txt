@@ -18,7 +18,6 @@ Disallow: 		/ipad/
 Disallow: 		/interstitial/ 
 Disallow: 		/indici/ 
 Disallow: 		/il-gusto/2022/04/27/news/frode_fiscale_bancarotta_fraudolenta_arrestato_giovanni_maspero_ristorante_i_tigli_in_theoria-347110162/ 
-Disallow: 		/esteri/2024/07/24/diretta/kamala_harris_nel_mirino_dei_repubblicani_usa_ricorso_contro_il_trasferimento_dei_fondi_dalla_campagna_di_biden-423411481/ 
 Disallow: 		/embed/* 
 Disallow: 		/economia/miojob/ 
 Disallow: 		/economia/2013/01/31/news/mps_verso_sequestro_conservativo- 51615470/ 

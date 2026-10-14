@@ -1285,8 +1285,11 @@
 - [Powering Productivity, Responsibly: How Okta is measuring the energy consumption of AI](https://www.okta.com/blog/ai/okta-sustainable-ai-energy-methodology)
 - [Your agent IdP for any identity stack](https://www.okta.com/blog/ai/agent-idp-identity-stack)
 - [The Need for Phishing-Resistant Multi-Factor Authentication](https://www.okta.com/blog/identity-security/the-need-for-phishing-resistant-multi-factor-authentication)
+- [Modernizing DoW/IL5 Office 365 identity lifecycle management](https://www.okta.com/blog/product-innovation/dow-il5-office-365-identity-management)
 - [Founders in Focus: Joel Bauman of Synqly](https://www.okta.com/blog/company-and-culture/founders-in-focus-joel-bauman-of-synqly)
 - [What it takes to own AI agent identity as agents spread](https://www.okta.com/blog/ai/ai-agent-identity-build-vs-buy)
+- [The anatomy of modern identity attacks: Defending public sector missions in an AI-driven threat landscape](https://www.okta.com/blog/industry-insights/defending-public-sector-identity-attacks)
+- [How Okta Workflows scales enterprise IT and security operations](https://www.okta.com/blog/customers-and-partners/okta-workflows-identity-security)
 - [Your security tools aren't talking. Attackers love that.](https://www.okta.com/blog/identity-security/identity-security-fabric-for-the-modern-threat-landscape)
 - [Key insights from Okta's CSO survey: Challenges and opportunities for Okta Ventures portfolio](https://www.okta.com/blog/industry-insights/key-insights-cso-identity-security-survey)
 - [Governing AI agents: Four questions every government agency needs to answer](https://www.okta.com/blog/industry-insights/securing-ai-agents-government)
@@ -1294,7 +1297,6 @@
 - [Launch Week ‘25: New Year Edition](https://www.okta.com/blog/product-innovation/launch-week-25-new-year-edition)
 - [Okta for US Military: A New milestone in DoD IL4 Identity](https://www.okta.com/blog/customers-and-partners/okta-for-us-military-a-new-milestone-in-dod-il4-identity)
 - [Securing AI agents at runtime with Okta’s Agent Gateway](https://www.okta.com/blog/product-innovation/okta-agent-gateway-runtime-security)
-- [Modernizing DoW/IL5 Office 365 identity lifecycle management](https://www.okta.com/blog/product-innovation/dow-il5-office-365-identity-management)
 
 ## Newsroom
 

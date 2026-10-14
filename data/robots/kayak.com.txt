@@ -1,5 +1,5 @@
-#Build version: R838d
-#Generated on: Tue Oct 13 01:00:00 EDT 2026
+#Build version: R839b
+#Generated on: Wed Oct 14 01:00:00 EDT 2026
 
 User-agent: *
 Allow: /api/search/V8/hotel/

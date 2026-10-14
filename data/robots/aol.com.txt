@@ -141,4 +141,3 @@ Sitemap: https://www.aol.com/products/sitemap.xml
 Sitemap: https://www.aol.com/editorial/experience-manager/us/channel_xml/sitemap.xml
 Sitemap: https://www.aol.com/sitemaps/us/sitemap-index.xml.gz
 Sitemap: https://www.aol.com/sitemaps/us/news-sitemap-index.xml.gz
-Sitemap: https://www.aol.com/sitemaps/us/archive/seo-archive-sitemap-index.xml.gz

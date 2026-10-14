@@ -45,16 +45,35 @@ Disallow: /*/analysis/game/
 Disallow: /*/register?returnUrl=
 
 User-agent: AdsBot-Google
-Allow: /game/
-Allow: /*/game/
-
 User-agent: AdsBot-Google-Mobile
-Allow: /game/
-Allow: /*/game/
-
 User-agent: Mediapartners-Google
-Allow: /game/
-Allow: /*/game/
+User-agent: Assaybot
+User-agent: ias_crawler
+Disallow: /_
+Disallow: /en/
+Disallow: /cdn-cgi/
+Disallow: /admin
+Disallow: /developers
+Disallow: /download/pgn
+Disallow: /fb
+Disallow: /logout
+Disallow: /message
+Disallow: /settings
+Disallow: /switch
+Disallow: /unsubscribe
+Disallow: /webhook
+Disallow: /password-management
+Disallow: /club/*/join/
+Disallow: /login_
+Disallow: /login_and_go
+Disallow: /payment/
+Disallow: /register?returnUrl=
+Disallow: /service/user-activity/
+Disallow: /callback/bucket
+Disallow: /*/login_
+Disallow: /*/login_and_go
+Disallow: /*/payment/
+Disallow: /*/register?returnUrl=
 
 User-agent: facebookexternalhit
 Allow: /analysis/game/

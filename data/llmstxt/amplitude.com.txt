@@ -1,5 +1,7 @@
 # Amplitude
 
+For an executable setup entry point, fetch [install.md](https://amplitude.com/install.md). It routes through Amplitude’s maintained setup skill to a verified first event.
+
 Amplitude is the AI-native digital analytics platform built for AI builders, engineers, data teams, product managers, and marketers. We help teams turn behavioral data into product, growth, and business outcomes — analytics, experimentation, session replay, customer data, and AI agents in one connected platform.
 
 This file is a brief orientation to amplitude.com for AI assistants. Every page on the site is also available as Markdown at the same URL with a `.md` suffix (e.g. `/pricing` → `/pricing.md`). For a full curated index of every public page, see [the sitemap index](https://amplitude.com/sitemap-llms.txt).
@@ -155,6 +157,8 @@ Customers use Amplitude to ship faster, grow revenue, and retain more users.
 - Documentation: [https://amplitude.com/docs](https://amplitude.com/docs)
 - Build tutorials (copy-paste install and integration guides for developers and coding agents): [https://amplitude.com/build](https://amplitude.com/build.md)
 - Curated site index (every public page, grouped by category): [https://amplitude.com/sitemap-llms.txt](https://amplitude.com/sitemap-llms.txt)
+- Scoped index for developer and agent resources (APIs, MCP servers, skills, SDKs): [Developer resources](https://amplitude.com/developers/llms.txt)
+- Agent instructions for the amplitude-corpsite repository: [AGENTS.md](https://github.com/amplitude/amplitude-corpsite/blob/main/AGENTS.md)
 - OpenAPI specification for Amplitude's public HTTP APIs: [https://amplitude.com/openapi.json](https://amplitude.com/openapi.json)
 - Agentic resource catalog (MCP servers, skills, APIs), per the Agentic Resource Discovery spec: [https://amplitude.com/.well-known/ai-catalog.json](https://amplitude.com/.well-known/ai-catalog.json)
 - Amplitude MCP server (authenticated, OAuth 2.0) — read and write charts, dashboards, experiments, cohorts, and taxonomy: [https://mcp.amplitude.com/mcp](https://mcp.amplitude.com/mcp) (docs: [https://amplitude.com/docs/amplitude-ai/amplitude-mcp](https://amplitude.com/docs/amplitude-ai/amplitude-mcp))

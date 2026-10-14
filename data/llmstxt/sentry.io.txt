@@ -368,7 +368,7 @@
 
 ## Cookbook
 - [Sentry Cookbook: Debugging & Monitoring Recipes](https://sentry.io/cookbook/): Step-by-step recipes for debugging, monitoring, and fixing issues with Sentry.
-- [Build AI agent evals from production conversations](https://sentry.io/cookbook/agent-conversations-to-evals/): Export real AI agent conversations from Sentry with the CLI or MCP server and turn them into eval datasets in Braintrust
+- [Build AI agent evals from production conversations](https://sentry.io/cookbook/agent-conversations-to-evals/): Export real AI agent conversations from Sentry with the Sentry CLI and turn them into eval datasets in Braintrust, Langf
 - [Automate AI agent error triage with Claude Routines](https://sentry.io/cookbook/automate-ai-agent-triage-claude-routines/): Set up a Claude Routine that uses Sentry Agent Tracing via MCP to automatically triage your AI agent's overnight errors,
 - [Connect Your Source Code with the Sentry GitLab Integration](https://sentry.io/cookbook/connect-sentry-to-gitlab/): Connect code stored in GitLab to Sentry. Create the OAuth app in GitLab, link groups, and add repositories to unlock cod
 - [Create Sentry Dashboards with Your AI Coding Agent](https://sentry.io/cookbook/create-dashboards-with-ai-agent/): Use the Sentry CLI and your AI coding agent's repo context to automatically create meaningful dashboards (errors, perfor
@@ -383,7 +383,7 @@
 - [Auto-Fix Sentry User Feedback with Cursor Automations](https://sentry.io/cookbook/fix-user-feedback-with-cursor-agents/): Set up a Cursor Automation that triggers when Sentry user feedback is assigned, investigates the issue using Sentry MCP,
 - [Install the Sentry Plugin in Your Coding Agent](https://sentry.io/cookbook/install-sentry-plugin-coding-agent/): Install the Sentry plugin in Claude Code, Cursor, Codex, or Grok with one command, then use prompts for setup, debugging
 - [Instrument Flue agents with Sentry](https://sentry.io/cookbook/instrument-flue-agents-with-sentry/): Add Sentry to a Flue agent. Trace model calls and tools, correlate logs, and capture terminal agent failures as Sentry I
-- [Track Vercel AI SDK costs and LLM calls in Next.js](https://sentry.io/cookbook/monitor-ai-agent-costs-nextjs/): Add Sentry's Vercel AI integration to your Next.js app to track LLM token usage, per-model costs, tool calls, and agent 
+- [Track Vercel AI SDK costs and LLM calls in Next.js](https://sentry.io/cookbook/monitor-ai-agent-costs-nextjs/): Add LLM cost tracking to your Next.js app with Sentry, and see Vercel AI SDK token usage, per-model costs, tool calls, a
 - [Monitor LLM spend with Sentry dashboards and alerts](https://sentry.io/cookbook/monitor-ai-agent-spend-with-dashboards-and-alerts/): Build a Sentry dashboard with the CLI for AI agent cost, tokens, top spenders, and models, then add static and anomaly d
 - [Monitor Claude Code Usage and Costs with Sentry](https://sentry.io/cookbook/monitor-claude-code-with-sentry/): Track Claude Code token usage, API costs, and tool activity with Sentry AI Observability. Set up OpenTelemetry-based obs
 - [Monitor Your MCP Server with Sentry: Tools & Errors](https://sentry.io/cookbook/monitor-mcp-server/): Add monitoring to your own Node.js or Python MCP server with one line of code. Track clients, transports, tool performan
@@ -404,7 +404,7 @@
 - [Replace console.log with structured logging using LogTape](https://sentry.io/cookbook/structured-logging-logtape/): Set up LogTape with Sentry to replace console.log with structured, trace-connected logging. Query, alert on, and debug p
 - [Turn Supabase Security Advisories into Sentry Issues](https://sentry.io/cookbook/supabase-advisories-to-sentry-issues/): Wire up the Supabase and Sentry MCP servers in Claude Code to fetch security advisories and turn them into trackable iss
 - [Fix React Native Performance in a Slow Checkout Flow](https://sentry.io/cookbook/track-checkout-performance-react-native/): Use Sentry tracing to instrument a React Native checkout flow with a Python backend, identify slow HTTP requests, and se
-- [Send Vercel AI SDK telemetry to Sentry via OpenTelemetry](https://sentry.io/cookbook/vercel-ai-sdk-otel-sentry/): Keep your existing Vercel AI SDK and OpenTelemetry setup, and route LLM spans to Sentry's AI Agents Insights without rip
+- [Use @vercel/otel with Sentry to trace Vercel AI SDK calls](https://sentry.io/cookbook/vercel-ai-sdk-otel-sentry/): Export Vercel AI SDK spans from your @vercel/otel pipeline to Sentry over OTLP on SDK v11, without duplicate spans or a 
 
 ## Features
 - [Breadcrumbs](https://sentry.io/features/breadcrumbs/): With Breadcrumbs, you can see what events lead to errors on both the client side & the servicer side. Request a demo & t
