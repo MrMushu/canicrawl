@@ -39,3 +39,11 @@ allow: /kategoria/*bi_s=archiwum_allegro*
 user-agent: Mediapartners-Google
 disallow: *origin_url=*
 disallow: /transakcja/
+
+User-agent: CCBot
+Allow: /robots.txt$
+Disallow: /*robots.txt
+Disallow: /*bmatch=*
+Disallow: /*gclid=*
+Disallow: /*utm_campaign=*
+Disallow: /*bi_s=*

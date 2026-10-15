@@ -45,6 +45,8 @@ User-agent: amazonbot
 User-agent: amazon-qbusiness
 User-Agent: meta-externalagent
 User-Agent: meta-webindexer
+User-Agent: Applebot
+User-Agent: Applebot-Extended
 Disallow: /
 
 ##################################################

@@ -165,6 +165,7 @@ New Relic provides comprehensive observability solutions for modern software tea
 
 ## Blog
 
+- [Introducing Claude Platform Tracing in New Relic AI Monitoring](https://newrelic.com/blog/news/anthropic-otel-ai-observability): Claude Platform exports OpenTelemetry (OTel) traces natively from Claude Managed Agents, the Messages API and the Claude SDKs, in public beta.
 - [Eliminate the Database War Room with New Relic Database 360](https://newrelic.com/blog/infrastructure-monitoring/new-relic-database-360-ga): Unify apps, databases, and infrastructure with New Relic Database 360. Pinpoint query bottlenecks faster and eliminate war rooms.
 - [Improving developer productivity with New Relic AI](https://newrelic.com/blog/news/improving-developer-productivity-with-new-relic-ai): Context switching is one of the biggest hidden costs in a developer's day. New Relic Ground Truth closes that gap by providing AI systems with trusted operational context from your production environment.
 - [Introducing AI Evaluation: Close the Loop Across the Full AI Lifecycle](https://newrelic.com/blog/news/introducing-ai-evaluation): Discover New Relic AI Evaluation: Bridge pre-production prompt testing with live transaction telemetry to evaluate quality, reduce costs, and scale GenAI.
@@ -184,7 +185,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Bridging the Context Gap: Pathpoint for Real-Time Business Observability](https://newrelic.com/blog/observability/bridging-the-context-gap-pathpoint-for-real-time-business-observability): Bridge the context gap between system health and business KPIs with Pathpoint. Slash MTTR and eliminate manual translation bottlenecks.
 - [Kubernetes Monitoring Metrics: What to Track, How to Collect, & Best Practices](https://newrelic.com/blog/infrastructure-monitoring/kubernetes-monitoring-metrics): Learn how effectively monitoring Kubernetes metrics provides clarity, improves incident response, and helps you troubleshoot faster in complex environments.
 - [ Bridging the AI Visibility Gap](https://newrelic.com/blog/ai/bridging-the-ai-visibility-gap): Traditional monitoring fails GenAI. Discover how to solve semantic blind spots, secure OTel telemetry, and safely scale AI to production.
-- [Introducing Advanced APM: Connecting Telemetry to Business Outcomes](https://newrelic.com/blog/news/introducing-advanced-apm-connecting-telemetry-to-business-outcomes): Eliminate diagnostic toil, catch silent performance killers before alerts fire, and align full-stack telemetry with business KPIs using Advanced APM.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

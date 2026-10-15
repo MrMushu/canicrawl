@@ -3423,6 +3423,78 @@
    "bot": "Amazonbot",
    "from": "blocked",
    "to": "restricted"
+  },
+  {
+   "date": "2026-10-15",
+   "domain": "cnn.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-15",
+   "domain": "aliexpress.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-15",
+   "domain": "aliexpress.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-15",
+   "domain": "aliexpress.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-15",
+   "domain": "aliexpress.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-15",
+   "domain": "aliexpress.com",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-15",
+   "domain": "aliexpress.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-15",
+   "domain": "facebook.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-15",
+   "domain": "pcgamer.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

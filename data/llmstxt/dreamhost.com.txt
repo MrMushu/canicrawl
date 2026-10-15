@@ -94,6 +94,7 @@ VPS hosting includes full root/sudo access and one-click deployment for popular 
 - [Business Advisor](https://www.dreamhost.com/features/business-advisor/) - Business growth guidance
 - [Business Planner](https://www.dreamhost.com/features/business-planner/) - Strategic planning tools
 - [Content Builder](https://www.dreamhost.com/features/content-builder/) - Visual content creation
+- [Liftoff AI Website Builder](https://www.dreamhost.com/features/wordpress-install-assistant/) - Builds a WordPress site from a few answers; included with WordPress Hosting and DreamPress, added from the WordPress Install Assistant
 - [Traffic Dashboard](https://www.dreamhost.com/features/traffic-dashboard/) - Analytics and insights
 
 ## Professional Services

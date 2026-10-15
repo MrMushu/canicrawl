@@ -1,5 +1,5 @@
-#Build version: R839b
-#Generated on: Wed Oct 14 01:00:00 EDT 2026
+#Build version: R839c
+#Generated on: Thu Oct 15 01:00:00 EDT 2026
 
 User-agent: *
 Allow: /api/search/V8/hotel/
@@ -923,7 +923,6 @@ Allow: /flightreservation
 Allow: /api/whisky/V5/flight/
 Allow: /api/whisky/V1/userData
 Allow: /api/pricePrediction/V1/flight
-Allow: /api/moonshine/collect
 Allow: /api/staticdata/whiskyStaticInfo/v1
 Allow: /api/moonshine/V2/validatephone
 Allow: /api/whisky/V1/flight/seatmaps

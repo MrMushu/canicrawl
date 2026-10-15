@@ -403,6 +403,9 @@
 - [Adopt structured logging for faster debugging](https://sentry.io/cookbook/structure-your-logs/): Replace noisy console.log and print statements with structured, queryable log events in Sentry using stable event names,
 - [Replace console.log with structured logging using LogTape](https://sentry.io/cookbook/structured-logging-logtape/): Set up LogTape with Sentry to replace console.log with structured, trace-connected logging. Query, alert on, and debug p
 - [Turn Supabase Security Advisories into Sentry Issues](https://sentry.io/cookbook/supabase-advisories-to-sentry-issues/): Wire up the Supabase and Sentry MCP servers in Claude Code to fetch security advisories and turn them into trackable iss
+- [Trace Claude Managed Agents and the Messages API in Sentry](https://sentry.io/cookbook/trace-claude-platform-with-opentelemetry/): Send OpenTelemetry traces from Claude Managed Agents and the Messages API to Sentry with no code. See every model call, 
+- [Trace the Claude Python SDK in Sentry with OpenTelemetry](https://sentry.io/cookbook/trace-claude-python-sdk-with-opentelemetry/): Export OpenTelemetry traces from the Claude Python SDK to Sentry. See each model call, tool call, and token of your agen
+- [Trace the Claude TypeScript SDK in Sentry with OpenTelemetry](https://sentry.io/cookbook/trace-claude-typescript-sdk-with-opentelemetry/): Export OpenTelemetry traces from the Claude TypeScript SDK to Sentry. See each model call, tool call, and token of your 
 - [Fix React Native Performance in a Slow Checkout Flow](https://sentry.io/cookbook/track-checkout-performance-react-native/): Use Sentry tracing to instrument a React Native checkout flow with a Python backend, identify slow HTTP requests, and se
 - [Use @vercel/otel with Sentry to trace Vercel AI SDK calls](https://sentry.io/cookbook/vercel-ai-sdk-otel-sentry/): Export Vercel AI SDK spans from your @vercel/otel pipeline to Sentry over OTLP on SDK v11, without duplicate spans or a 
 

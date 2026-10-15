@@ -1293,6 +1293,7 @@
 - [Your security tools aren't talking. Attackers love that.](https://www.okta.com/blog/identity-security/identity-security-fabric-for-the-modern-threat-landscape)
 - [Key insights from Okta's CSO survey: Challenges and opportunities for Okta Ventures portfolio](https://www.okta.com/blog/industry-insights/key-insights-cso-identity-security-survey)
 - [Governing AI agents: Four questions every government agency needs to answer](https://www.okta.com/blog/industry-insights/securing-ai-agents-government)
+- [Okta and AWS: Bringing fine-grained entitlement management to cloud infrastructure](https://www.okta.com/blog/product-innovation/okta-aws-entitlement-management)
 - [When enrollment isn’t enough: How attackers trick users into MFA downgrades | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/when_enrollment_isnt_enough)
 - [Launch Week ‘25: New Year Edition](https://www.okta.com/blog/product-innovation/launch-week-25-new-year-edition)
 - [Okta for US Military: A New milestone in DoD IL4 Identity](https://www.okta.com/blog/customers-and-partners/okta-for-us-military-a-new-milestone-in-dod-il4-identity)
