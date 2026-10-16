@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Allow: /wp-json/llm/v1/
 Disallow: /wp-content/uploads/2024/04/Everest_Group_-_Making_Brownfield_Factories_Smarter_and_Greener_Capgemini.pdf
 Disallow: /es-es/noticias/casos-de-exito/ice-leverages-supply-chain-best-practices-to-improve-operational-efficiencies/
 Disallow: /wp-content/uploads/2026/05/WPCIR_2026_2MB-Weblock-1.pdf

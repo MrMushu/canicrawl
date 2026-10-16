@@ -45,6 +45,8 @@ Use this index to find machine-readable documentation and platform resources. Fo
 - [Vercel Hobby plan](https://vercel.com/docs/plans/hobby.md): Free plan for non-commercial personal projects.
 - [Vercel CLI tokens](https://vercel.com/docs/cli/tokens.md): Create and manage personal access tokens for the Vercel API and CLI.
 - [Vercel AI Gateway](https://vercel.com/docs/ai-gateway.md): One API for AI models, with routing, fallbacks, and usage monitoring.
+- [AI Gateway models](https://vercel.com/ai-gateway/models.md): Every AI Gateway model with pricing, context window, providers, and capability tags.
+- [AI Gateway model list API](https://ai-gateway.vercel.sh/v1/models): Live JSON list of every model ID with pricing and capabilities. No API key required.
 - [Vercel Sandbox](https://vercel.com/docs/sandbox.md): Isolated compute for running code and agent workloads.
 
 ## Knowledge Base

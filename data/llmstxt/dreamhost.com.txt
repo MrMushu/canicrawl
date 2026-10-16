@@ -241,4 +241,4 @@ VPS hosting includes full root/sudo access and one-click deployment for popular 
 - [Professional Services Terms](https://www.dreamhost.com/legal/professional-services/) - Service agreements
 - [Government Requests](https://www.dreamhost.com/legal/government-requests/) - Transparency report
 - [Open Source License Disclosure](https://www.dreamhost.com/legal/open-source-license-disclosure/) - OSS licenses
-- [Refer & Earn Terms](https://www.dreamhost.com/legal/legacy-refer-and-earn-terms-and-conditions/) - Referral program terms
+- [TUNE Terms and Conditions](https://www.dreamhost.com/legal/tune-terms-and-conditions/) - Affiliate program terms

@@ -4,7 +4,7 @@
 
 Fin (formerly Intercom) is the Customer Agent company delivering perfect customer experiences from support to sales to commerce. The company's primary site is [fin.ai](https://fin.ai/). intercom.com covers the Intercom Helpdesk, the company's human-agent workspace (omnichannel inbox, ticketing, Copilot, knowledge hub, reporting), used by 30,000+ businesses including Anthropic, Amazon, Miro, Linear, Lightspeed, Lovable, Perplexity, and WHOOP. The Helpdesk works alongside Fin, the company's AI Agent, so AI and human teams collaborate seamlessly.
 
-For an authoritative description of Intercom, the Intercom Helpdesk, and how it works with Fin, see [AI Instructions and Information for Intercom](https://www.intercom.com/ai-instructions).
+For a description of Intercom, the Intercom Helpdesk, and how it works with Fin, see [Facts about Intercom](https://www.intercom.com/ai-instructions).
 
 ---
 

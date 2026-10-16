@@ -13,7 +13,7 @@ Disallow: /alice/old-browser
 Disallow: /alice/store/orders/
 Disallow: /alice?share=
 Disallow: /alice/chat/
-Disallow: /alice/*?
+Disallow: /alice*?
 Disallow: /alice/*&
 Disallow: /all-supported-params
 Disallow: /articles
@@ -286,7 +286,7 @@ Disallow: /alice/old-browser
 Disallow: /alice/store/orders/
 Disallow: /alice?share=
 Disallow: /alice/chat/
-Disallow: /alice/*?
+Disallow: /alice*?
 Disallow: /alice/*&
 Disallow: /all-supported-params
 Disallow: /articles
@@ -560,6 +560,7 @@ Disallow: /alice/term/
 Disallow: /alice/*/term/
 Disallow: /alice?share=
 Disallow: /alice/chat/
+Disallow: /alice*?
 Disallow: /alice/old-browser
 Disallow: /all-supported-params
 Disallow: /articles
@@ -829,7 +830,7 @@ Disallow: /alice/old-browser
 Disallow: /alice/store/orders/
 Disallow: /alice?share=
 Disallow: /alice/chat/
-Disallow: /alice/*?
+Disallow: /alice*?
 Disallow: /alice/*&
 Disallow: /all-supported-params
 Disallow: /articles

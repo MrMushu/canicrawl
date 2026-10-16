@@ -43,6 +43,8 @@ Disallow: /pay/authentication
 Disallow: /pay/sdk-authorize
 Disallow: /pay/hop
 Disallow: /checkouts/internal
+Allow: /accounts/login$
+Allow: /accounts/login?
 Disallow: /delete-account/confirm
 Disallow: /u/account
 Disallow: /account

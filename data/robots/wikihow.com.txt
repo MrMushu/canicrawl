@@ -1,17 +1,7 @@
 # robots.txt for wikiHow
-# based on wikipedia.org's robots.txt
 #
-# Crawlers that are kind enough to obey, but which we'd rather not have
-# unless they're feeding search engines.
 # Sitemap: https://www.wikihow.com/sitemap_index.xml
 # Or: /sitemap.xml on some other domains.
-#
-# If your bot supports such a thing using the 'Crawl-delay' or another
-# instruction, we can add it to our robots.txt.
-#
-# Friendly, low-speed bots are welcome viewing article pages, but not
-# dynamically-generated pages please. Article pages contain our site's
-# real content.
 #
 # NOTICE: All crawlers and bots, regardless of whether or not they are
 # specified below, are strictly prohibited from using our content for the

@@ -47,3 +47,6 @@ Disallow: /*bmatch=*
 Disallow: /*gclid=*
 Disallow: /*utm_campaign=*
 Disallow: /*bi_s=*
+Disallow: /logowanie*
+Disallow: /auth/
+Disallow: /uzytkownik/notfound*

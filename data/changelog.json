@@ -3495,6 +3495,36 @@
    "bot": "Applebot-Extended",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-10-16",
+   "domain": "pinterest.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-16",
+   "domain": "fontawesome.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-10-16",
+   "domain": "pinimg.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-16",
+   "domain": "seedtag.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }
