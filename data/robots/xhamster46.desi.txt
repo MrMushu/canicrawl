@@ -31,6 +31,10 @@ disallow: *?min-duration=
 disallow: *&max-duration=
 disallow: *&min-duration=
 disallow: *?geo=
+disallow: */gifs/best/alltime
+disallow: */gifs/best/daily
+disallow: */gifs/best/monthly
+disallow: */gifs/best/year-20
 disallow: */categories/*/best/daily
 disallow: */categories/*/best/monthly
 disallow: */categories/*/best/weekly

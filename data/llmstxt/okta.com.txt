@@ -1298,6 +1298,7 @@
 - [Launch Week ‘25: New Year Edition](https://www.okta.com/blog/product-innovation/launch-week-25-new-year-edition)
 - [Okta for US Military: A New milestone in DoD IL4 Identity](https://www.okta.com/blog/customers-and-partners/okta-for-us-military-a-new-milestone-in-dod-il4-identity)
 - [Securing AI agents at runtime with Okta’s Agent Gateway](https://www.okta.com/blog/product-innovation/okta-agent-gateway-runtime-security)
+- [Beyond Workflows connectors: Integration Builder expands what you can automate with Okta](https://www.okta.com/blog/product-innovation/okta-integration-builder-ga)
 
 ## Newsroom
 
@@ -1478,7 +1479,6 @@
 - [How tech and nonprofits are teaming up to fight cyber threats](https://www.okta.com/newsroom/articles/how-tech-and-nonprofits-are-teaming-up-to-fight-cyber-threats)
 - [Okta and McLaren F1 Team: Lando Norris on securing what matters most](https://www.okta.com/newsroom/articles/okta-and-mclaren-lando-norris-on-securing-what-matters-most)
 - [Okta names Rob Bernshteyn and Paul Sagan to Board of Directors](https://www.okta.com/newsroom/press-releases/okta-names-new-board-members)
-- [Okta announces $1 billion share repurchase program](https://www.okta.com/newsroom/press-releases/okta-announces--1-billion-share-repurchase-program-)
 - [Why AI agents must be treated as privileged users](https://www.okta.com/newsroom/articles/why-ai-agents-must-be-treated-as-privileged-users)
 - [Identity’s next era: Why Okta is betting on partners](https://www.okta.com/newsroom/articles/identitys-next-era-why-okta-is-betting-on-partners)
 - [Why basic MFA isn't enough to defeat modern phishing](https://www.okta.com/newsroom/articles/why-basic-mfa-isnt-enough)
@@ -1541,4 +1541,5 @@
 - [How customer feedback shaped Okta for AI Agents](https://www.okta.com/newsroom/articles/how-customer-feedback-shaped-okta-for-ai-agents)
 - [New speed, same tricks: Defend against AI threats with security fundamentals](https://www.okta.com/newsroom/articles/new-speed-same-tricks-defend-against-ai-threats-with-security-fundamentals)
 - [How SEGA keeps players moving at Sonic speed with Auth0](https://www.okta.com/newsroom/articles/how-sega-keeps-players-moving-at-sonic-speed-with-auth0)
+- [Okta announces $1 billion share repurchase program](https://www.okta.com/newsroom/press-releases/okta-announces-1-billion-share-repurchase-program)
 

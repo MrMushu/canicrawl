@@ -4,7 +4,7 @@ For coding agents to ship apps and agents automated by agents.
 
 - For coding agents to deploy in their native language, with Vercel's API, CLI, MCP, and Skills.
 
-- To ship apps and agents in Sandboxed VMs, with durable backends, powered by hundreds of models.
+- To ship apps and agents in Sandboxed VMs, with durable backends, powered by 400+ models.
 
 - Automated by agents who autonomously investigate errors, plan fixes, and open PRs.
 
@@ -47,23 +47,23 @@ Features
 
 ## Recently shipped
 
-### eve
+### Backends
 
-eve is a framework for building durable agents.
+Run Python backends, queues, and daemons on Vercel, alongside your frontend.
 
-[Learn more](/eve)
+[Learn more](/backends)
 
-### Passport
+### Agents
 
-Secure every internal agent, app, and deployment with your identity provider.
+Build agents and run them on Vercel's agent stack.
 
-[Learn more](/passport)
+[Learn more](/agents)
 
-### Containers
+### Sandbox
 
-Run production workloads in isolated containers on Vercel.
+The safest way to run code you didn't write.
 
-[Learn more](https://vercel.com/blog/dockerfile-on-vercel)
+[Learn more](/sandbox)
 
 ## Built by you, or your agents
 

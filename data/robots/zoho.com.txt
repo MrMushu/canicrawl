@@ -97,7 +97,7 @@ Disallow: /store/apex/help/
 Disallow: /store/marketing-agency/help/
 Disallow: /us/payroll/v1/help/
 Disallow: /sa/payroll/
-Disallow: /uk/payroll/
+
 
 
 

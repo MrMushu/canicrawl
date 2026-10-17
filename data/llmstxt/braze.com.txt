@@ -62,6 +62,10 @@
 
 ## Blog Posts
 
+- [B2C Personalization: A Practical Playbook](https://www.braze.com/resources/articles/b2c-personalization.md): How B2C personalization works across retail, media, and financial services, plus real-time triggers, product recommendations, and privacy-first tactics
+- [AI In eCommerce: Use Cases, Examples, And What To Build First](https://www.braze.com/resources/articles/ai-in-ecommerce.md): AI in eCommerce covers recommendations, search, cart recovery, messaging, and shopping assistants. Here are six use cases with real results and where to start.
+- [B2C email marketing: How to engage modern consumers](https://www.braze.com/resources/articles/b2c-email-marketing.md): B2C email marketing keeps consumers engaged between purchases. See the campaign types that work, how AI strengthens each, and the metrics that prove impact.
+- [Best email marketing platforms In 2027](https://www.braze.com/resources/articles/best-email-marketing-platforms.md): Compare the best email marketing platforms in 2027 on send volume, personalization, deliverability and pricing, with real examples from brands across industries.
 - [Braze vs Salesforce: Which customer engagement platform is right for your business?](https://www.braze.com/resources/articles/braze-vs-salesforce-comparison.md): Compare Braze vs Salesforce on real-time personalization, mobile engagement, journey orchestration, and TCO to choose the right fit.
 - [Braze vs Adobe: Which customer engagement platform is right for your brand?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison.md): Compare Braze vs Adobe for customer engagement—mobile-first messaging, real-time personalization, integrations, ease of use, and time-to-value.
 
@@ -165,16 +169,6 @@
 
 [What role does BrazeAI™ play in cross-channel messaging?](https://www.braze.com/product/cross-channel-messaging): BrazeAI™ assists in creating and personalizing content, generating copy and creative, and determining the best channel and timing for each customer interaction.
 
-[What is the best email marketing platform in 2027?](https://www.braze.com/resources/articles/best-email-marketing-platforms): There isn't one. The right platform depends on how much you send, how deeply you personalize, how much deliverability control you need and how much of the program runs automatically. Klaviyo suits ecommerce, Mailchimp suits small businesses, HubSpot suits CRM-led teams, and Braze suits consumer brands sending real-time, personalized email at volume.
-
-[What features should an email marketing platform include?](https://www.braze.com/resources/articles/best-email-marketing-platforms): A drag-and-drop builder with reusable content blocks, audience segmentation across behavioral and transactional data, triggered sending that fires on customer actions, deliverability infrastructure covering dedicated IPs, IP warming and inbox placement monitoring. Look for AI that aids your email marketing workflow (whether that’s content generation or decisioning), data warehouse integrations, and flexible reporting that ties sends to revenue.
-
-[Is Braze an email marketing platform?](https://www.braze.com/resources/articles/best-email-marketing-platforms): Yes, Braze is an email marketing platform. It sends hundreds of billions of emails a year, with a drag-and-drop and HTML editor, Figma and Canva integrations, real-time behavioral triggers, personalization at send or open, automated IP warming and an in-house deliverability team. Other channels are available but not required.
-
-[What is the difference between an email service provider (ESP) and a customer engagement platform?](https://www.braze.com/resources/articles/best-email-marketing-platforms): An email service provider (ESP) handles email only: lists, templates, automation and deliverability. A customer engagement platform runs email alongside push, SMS, in-app and web from one customer profile, coordinating between them. Both send email well. The difference is whether other channels are available later without moving to a different system.
-
-[How much does an email marketing platform cost?](https://www.braze.com/resources/articles/best-email-marketing-platforms): Cost depends on the features you need and how many active users or contacts. Some platforms have free or trial tiers. For enterprise packages, you usually need to ask for a custom quote.
-
 [How can B2C brands deliver 1:1 personalization at scale?](https://www.braze.com/resources/articles/b2c-personalization): Brands deliver 1:1 personalization at scale by unifying customer profiles, using AI decisioning to choose the best message, channel, and timing per person, and orchestrating cross-channel journeys with guardrails like frequency caps. AI agents and reusable content make individual-level relevance possible across millions of consumers.
 
 [How can B2C marketers personalize web experiences?](https://www.braze.com/resources/articles/b2c-personalization): Marketers personalize web experiences by using real-time behavioral data — pages viewed, products browsed, session activity — to tailor on-site messages, banners, and recommendations. Web personalization works best when connected to the same unified profile powering email, push, and in-app, so the experience stays consistent across channels.
@@ -184,6 +178,16 @@
 [How do you balance privacy and personalization in B2C marketing?](https://www.braze.com/resources/articles/b2c-personalization): Balance privacy and personalization by collecting only the data you need, being transparent about why, and honoring consent per channel. Prioritize zero-party and first-party data customers share willingly, offer a preference center, and base messages on recent actions people would expect you to use.
 
 [How do you personalize product recommendations?](https://www.braze.com/resources/articles/b2c-personalization): Personalize product recommendations by ranking items on each customer's behavior, affinity, and context — recent browsing, past purchases, and availability. AI-powered recommendations update in real time and render dynamically across email, push, in-app, and web, so every customer sees the most relevant products in the moment.
+
+[What is the best email marketing platform in 2027?](https://www.braze.com/resources/articles/best-email-marketing-platforms): There isn't one. The right platform depends on how much you send, how deeply you personalize, how much deliverability control you need and how much of the program runs automatically. Klaviyo suits ecommerce, Mailchimp suits small businesses, HubSpot suits CRM-led teams, and Braze suits consumer brands sending real-time, personalized email at volume.
+
+[What features should an email marketing platform include?](https://www.braze.com/resources/articles/best-email-marketing-platforms): A drag-and-drop builder with reusable content blocks, audience segmentation across behavioral and transactional data, triggered sending that fires on customer actions, deliverability infrastructure covering dedicated IPs, IP warming and inbox placement monitoring. Look for AI that aids your email marketing workflow (whether that’s content generation or decisioning), data warehouse integrations, and flexible reporting that ties sends to revenue.
+
+[Is Braze an email marketing platform?](https://www.braze.com/resources/articles/best-email-marketing-platforms): Yes, Braze is an email marketing platform. It sends hundreds of billions of emails a year, with a drag-and-drop and HTML editor, Figma and Canva integrations, real-time behavioral triggers, personalization at send or open, automated IP warming and an in-house deliverability team. Other channels are available but not required.
+
+[What is the difference between an email service provider (ESP) and a customer engagement platform?](https://www.braze.com/resources/articles/best-email-marketing-platforms): An email service provider (ESP) handles email only: lists, templates, automation and deliverability. A customer engagement platform runs email alongside push, SMS, in-app and web from one customer profile, coordinating between them. Both send email well. The difference is whether other channels are available later without moving to a different system.
+
+[How much does an email marketing platform cost?](https://www.braze.com/resources/articles/best-email-marketing-platforms): Cost depends on the features you need and how many active users or contacts. Some platforms have free or trial tiers. For enterprise packages, you usually need to ask for a custom quote.
 
 [What is enterprise generative AI, and how does it differ from consumer AI?](https://www.braze.com/resources/articles/enterprise-generative-ai): Enterprise generative AI uses governed, first-party data to create, test, and personalize content safely at scale. Unlike consumer tools, it operates within secure systems built for scale, reliability, and brand control.
 

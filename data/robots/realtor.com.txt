@@ -294,11 +294,7 @@ Disallow: /advice/search/
 Disallow: /guides/search/
 Disallow: /living/search/
 Disallow: /realestateandhomes-detail/*/gallery/
-Disallow: /realestateandhomes-search/*/price-
-Allow:    /realestateandhomes-search/*price-na-
-Disallow: /realestateandhomes-search/*,
-Disallow: /realestateandhomes-search/*%2C
-Disallow: /realestateandhomes-search/*%2c
+
 
 User-agent: Yandex
 Disallow: /

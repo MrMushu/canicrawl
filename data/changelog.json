@@ -3525,6 +3525,45 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-10-17",
+   "domain": "businessinsider.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-10-17",
+   "domain": "cisco.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-17",
+   "domain": "cisco.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-17",
+   "domain": "cisco.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-17",
+   "domain": "cisco.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "allowed",
+   "to": "restricted"
   }
  ]
 }
