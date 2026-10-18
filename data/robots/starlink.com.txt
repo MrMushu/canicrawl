@@ -10,6 +10,7 @@ Disallow: /invitation-invalid/
 Disallow: /confirmation/
 Disallow: /unsubscribe/
 Disallow: /order/
+Disallow: /assets-new/speedtest/
 
 ### Redirects
 Disallow: /rv/

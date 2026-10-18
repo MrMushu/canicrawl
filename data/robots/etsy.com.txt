@@ -1808,7 +1808,7 @@ Allow: /se/search/shops
 # llms.txt: https://www.etsy.com/llms.txt
 
 #
-# Per dindirindina!#   \
+# ¿Qué te pasa, calabaza?#   \
 #
 #    -----
 #   | . . |
