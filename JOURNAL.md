@@ -1058,3 +1058,25 @@ All of these are banked in CC-29.
 **Queue:** CC-29 is ticked. **CC-30 (digest #8, window 10-12 onward, due ~10-18)** was appended and is the only ring that isn't user-gated.
 
 **Next:** confirm the 10-12 snapshots landed. Confirm /digest/7/ returns 200 live after this push deploys. Bank stories for CC-30 as they arrive.
+
+## 2026-10-18 — Ops: CC-30 shipped (digest #8, "AliExpress names six crawlers and blocks them")
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap is still holding the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and ShortSupply's first-category-only filing question. Nothing new. Ops sessions 10-13..10-17 did not run, so this is the first session in six days.
+
+**Crons:** both green. The last 4 runs of each succeeded (10-15..10-18). Today's runs were created at 11:03 UTC (Canicrawl) and 11:44 UTC (ShortSupply). Both repos pulled fast-forward with snapshots 10-12 through 10-18, so the 10-12 snapshot the last entry flagged did land. Live https://canicrawl.com/digest/7/ returns **200**.
+
+**Notable diffs (10-12..10-18):** the Canicrawl changelog went from 438 to **457** (+19). The headline stories are in digest #8. ShortSupply had 31 availability revisions (20 on 10-15, 11 on 10-16), and on 10-17 three drugs left the FDA list from `discontinuing`: Pemetrexed Disodium Injection, Vigabatrin Oral Solution and Voriconazole Injection. These are /graveyard/ material for whenever SS-7 is unblocked.
+
+**Ring executed: CC-30 (digest #8).** I appended issue #8, dated 2026-10-18, to data/digests.json. It covers 19 entries: 16 flips, 0 default-policy changes and 3 new llms.txt files. Each story was checked against the archived robots.txt diff at that day's snapshot commit:
+- **aliexpress (10-15):** appended 7 one-line `Disallow: /` groups (6 tracked bots + SemrushBot) and moved its Googlebot-only API rule into the general groups. It is the only site that became a blocker through an edit.
+- **cisco (10-17):** deleted an Allow-only group for GPTBot/CCBot/Google-Extended/ClaudeBot that pointed them to `.md`, `.llms.txt` and llms.txt, plus the companion Googlebot/Bingbot group. The `*` group has about 40 path rules (40 Disallow/Allow lines counted). Cisco's llms.txt is still archived.
+- **pinterest (10-16):** removed `meta-externalfetcher` from a shared path-rule group, so it falls to `*: Disallow: /`. pinimg.com serves the same blob (3a1d460→8a20d23), so it is one edit counted twice.
+- **facebook (10-15):** a Google-Extended group of 41 Disallow rules became one line, `Disallow: /`, at the top. **cnn (10-15):** Google-Extended was removed from the blocklist, and ExaSearchBot/ExaUser were added. **spiegel (10-13):** Amazonbot's group was deleted, and 107 `Disallow: /` lines remain. **pcgamer (10-15):** added Applebot and Applebot-Extended to its block group. Applebot is untracked (not in bots.json).
+- **Caught in verification:** att.com joined Content Signals (24 → 25, from `git grep -l` at f5040d0 vs dff8fb5). Its first version on 10-14 said **`ai-train=yes`**, changed to `no` on 10-16, and on 10-17 the line was copied to its Googlebot group. A start/end diff would have hidden the yes. The digest reports it, and CC-31 now says to trace signals day by day. My first draft had two errors, both fixed before shipping: it placed Facebook's edit on the "same day" as Pinterest's (they were a day apart), and it understated Cisco's `*` rules.
+- **Stats reconciliation:** 206 blockers on both 10-11 and 10-18, while readable sites (`ok` + `no-robots`) went from 645 to 647, so the rate is 31.9% → 31.8%. aliexpress.com was added by an edit, and gosuslugi.ru was lost to a timeout. llms.txt stayed at 120: 3 new files arrived, and 3 sites (time.com, americanexpress.com, yieldmo.com) dropped to `llmsFetch: unknown` with no removal recorded.
+
+**Verified:** `node scripts/build.js` built **1,091 pages** (1,090 before). dist/digest/8/index.html is 11,054 B, appears once in dist/sitemap.xml, and is linked as `8/` on /digest/. **61/61** internal links resolve, and the page has 0 `${`. The digests.json diff is +7/−0 (the file's CRLF endings are preserved; a round-trip guard refused to write until it matched byte-for-byte). Headline stats come from the built dist/stats/ page (31.8%, 647 readable, 11.8%, Bytespider 24.9%) and were cross-checked against the snapshots. No crawl was run. ShortSupply was not modified.
+
+**Queue:** CC-30 is ticked. **CC-31 (digest #9, window 10-19 onward, due ~10-25)** is appended and is the only ring that isn't user-gated.
+
+**Next:** confirm /digest/8/ returns 200 live after this push deploys. Bank stories for CC-31.
