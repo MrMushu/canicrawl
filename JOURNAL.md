@@ -1080,3 +1080,19 @@ All of these are banked in CC-29.
 **Queue:** CC-30 is ticked. **CC-31 (digest #9, window 10-19 onward, due ~10-25)** is appended and is the only ring that isn't user-gated.
 
 **Next:** confirm /digest/8/ returns 200 live after this push deploys. Bank stories for CC-31.
+
+## 2026-10-19 — Ops: CC-32 shipped (digest RSS feed)
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap is still holding the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and ShortSupply's first-category-only filing question. Nothing new. Also: the preview server (`.claude/launch.json` "canicrawl") was declined in this unattended run, so HTTP checks used an in-process static server instead.
+
+**Crons:** both green. The last 4 runs of each succeeded. Today's scheduled runs were created at 13:13 UTC (Canicrawl) and 13:57 UTC (ShortSupply), later than usual but normal. Both repos pulled fast-forward with the 2026-10-19 snapshot. Live https://canicrawl.com/digest/8/ returns **200**, so yesterday's push deployed.
+
+**Notable diffs (10-19):** the Canicrawl changelog went from 457 to **469** (+12). **facebook.com and instagram.com** each moved the same 5 bots (GPTBot, ClaudeBot, Applebot-Extended, PerplexityBot, Amazonbot) from restricted back to blocked. Instagram loosened those bots to restricted on 10-08 (digest #7), so this looks like a reversal; Google-Extended is not in today's set. investopedia.com: Diffbot restricted → blocked. paloaltonetworks.com: llms.txt went away. Banked for CC-31; none of it is verified against the archived robots.txt diffs yet. ShortSupply: no new changelog entries since the 10-17 removals (184 entries).
+
+**Ring executed: CC-32 (new, appended this session).** The queue had no actionable ring: CC-31 (digest #9) isn't due until ~10-25 and the rest are user-gated. /digest/ had no feed, so `scripts/build.js` now writes `digest/rss.xml` from data/digests.json (one item per issue, newest first, guid = issue URL, pubDate = issue date at 12:00 UTC). It also adds a `rel=alternate` link and "Subscribe via RSS" to /digest/, plus a `[Digest (RSS)](/digest/rss.xml)` line in llms.txt.
+
+**Verified:** `node scripts/build.js` built **1,091 pages**. A diff against a pre-change copy of dist/ shows exactly 3 files changed: digest/index.html, llms.txt, and the new digest/rss.xml. The feed has 8 items for 8 issues, 0 `${`, 53/53 balanced tags, no bare `&`, and every pubDate parses. In-process HTTP returned 200 on /digest/rss.xml, /digest/, /llms.txt, /digest/8/ and /changelog/rss.xml. No crawl was run and no data was touched. ShortSupply was not modified.
+
+**Queue:** CC-32 is ticked. Appended **CC-33** (make sure /about/ or the press page names both feeds).
+
+**Next:** confirm https://canicrawl.com/digest/rss.xml returns 200 after this push deploys. Verify the facebook/instagram 10-19 reversal against archived diffs for CC-31.

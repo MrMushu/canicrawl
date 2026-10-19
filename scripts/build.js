@@ -725,9 +725,10 @@ write("digest/index.html", page({
   title: "State of the Agent Web — Canicrawl digest",
   desc: `A weekly digest of how the web's posture toward AI crawlers is shifting, drawn from our daily census of ${DOMAINS.length} top sites.`,
   depth: 1, active: "Digest",
+  extraHead: `<link rel="alternate" type="application/rss+xml" title="Canicrawl digest" href="rss.xml">`,
   content: `
 <h1>State of the Agent Web</h1>
-<p class="sub">A weekly read on how the web's doors are opening and closing to AI — written from our own daily census data.</p>
+<p class="sub">A weekly read on how the web's doors are opening and closing to AI — written from our own daily census data. Subscribe via <a href="rss.xml">RSS</a>.</p>
 ${[...digests].reverse().map((d) => `<h2><a href="${d.number}/">#${d.number} — ${esc(d.title)}</a></h2><p class="cat">${esc(d.date)}</p><p>${esc(d.summary)}</p>`).join("\n")}`,
 }));
 for (const d of digests) {
@@ -743,6 +744,20 @@ ${d.html}
 <p class="note">Every number in this issue is reproducible from the committed daily snapshots. Cite "Canicrawl" with a link — data CC BY 4.0.</p>`,
   }));
 }
+write("digest/rss.xml", `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Canicrawl — State of the Agent Web digest</title>
+<link>${ORIGIN}/digest/</link>
+<description>A weekly digest of how the web's posture toward AI crawlers is shifting.</description>
+${[...digests].reverse().map((d) => `<item>
+<title>${esc(`#${d.number}: ${d.title}`)}</title>
+<link>${ORIGIN}/digest/${d.number}/</link>
+<guid>${ORIGIN}/digest/${d.number}/</guid>
+<pubDate>${new Date(d.date + "T12:00:00Z").toUTCString()}</pubDate>
+<description>${esc(d.summary)}</description>
+</item>`).join("\n")}
+</channel></rss>
+`);
 
 // ---------- api ----------
 write("api/index.html", page({
@@ -884,6 +899,7 @@ As of ${snap.date}: ${pct(anyBlockers.length, readable.length)}% of readable tra
 - [Compare two sites](/compare/?a=wired.com&b=arstechnica.com): any two tracked domains side by side; the pair is in the query string
 - [Policy changes (RSS)](/changelog/rss.xml): daily-detected flips
 - [Weekly digest](/digest/): weekly write-ups of notable policy changes
+- [Digest (RSS)](/digest/rss.xml): one item per weekly issue
 - [Methodology](/about/): two public policy files per site per day, RFC 9309 parsing, no content scraping
 - [Panel coverage](/health/): which tracked domains we could read, and why the rest could not — the denominator behind every percentage
 
