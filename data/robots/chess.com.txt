@@ -14,6 +14,7 @@ Disallow: /switch
 Disallow: /unsubscribe
 Disallow: /webhook
 Disallow: /callback/
+Disallow: /callback/analysis/game/
 Disallow: /service/
 Disallow: /password-management
 Disallow: /club/*/join/
@@ -76,22 +77,49 @@ Disallow: /*/payment/
 Disallow: /*/register?returnUrl=
 
 User-agent: facebookexternalhit
-Allow: /analysis/game/
-Allow: /*/analysis/game/
-
 User-agent: Facebot
-Allow: /analysis/game/
-Allow: /*/analysis/game/
-
 User-agent: Twitterbot
-Allow: /analysis/game/
-Allow: /*/analysis/game/
-
 User-agent: LinkedInBot
-Allow: /analysis/game/
-Allow: /*/analysis/game/
-
 User-agent: Discordbot
+Disallow: /_
+Disallow: /en/
+Disallow: /cdn-cgi/
+Disallow: /admin
+Disallow: /developers
+Disallow: /download/pgn
+Disallow: /fb
+Disallow: /home/
+Disallow: /logout
+Disallow: /message
+Disallow: /settings
+Disallow: /switch
+Disallow: /unsubscribe
+Disallow: /webhook
+Disallow: /callback/
+Disallow: /callback/analysis/game/
+Disallow: /service/
+Disallow: /password-management
+Disallow: /club/*/join/
+Disallow: /login_
+Disallow: /login_and_go
+Disallow: /payment/
+Disallow: /games/archive
+Disallow: /games/search
+Disallow: /topic/
+Disallow: /awards/
+Disallow: /stats/
+Disallow: /game/
+Disallow: /register?returnUrl=
+Disallow: /*/login_
+Disallow: /*/login_and_go
+Disallow: /*/payment/
+Disallow: /*/games/archive
+Disallow: /*/games/search
+Disallow: /*/topic/
+Disallow: /*/awards/
+Disallow: /*/stats/
+Disallow: /*/game/
+Disallow: /*/register?returnUrl=
 Allow: /analysis/game/
 Allow: /*/analysis/game/
 

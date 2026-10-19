@@ -107,4 +107,6 @@ and are not listed here. They are discoverable via the sitemaps in `/robots.txt`
 - [Sitemap index (profile directory)](https://linktr.ee/discover/profile-directory/sitemapindex.xml): Index of crawlable public profiles.
 - [Marketing sitemap](https://linktr.ee/s/wf/sitemap.xml): Sitemap for marketing and content pages.
 - [Marketplace sitemap](https://linktr.ee/marketplace/sitemap.xml): Sitemap for marketplace apps and integrations.
+- [Templates sitemap](https://linktr.ee/s/templates/sitemap.xml): Sitemap for Linktree templates and template categories.
+- [Help Center sitemap](https://linktr.ee/help/sitemap.xml): Sitemap for Help Center articles and collections.
 - [Robots.txt](https://linktr.ee/robots.txt): Crawler access policy and full list of sitemaps.

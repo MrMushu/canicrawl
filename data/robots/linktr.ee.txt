@@ -445,4 +445,6 @@ Disallow: /
 Sitemap: https://linktr.ee/discover/profile-directory/sitemapindex.xml
 Sitemap: https://linktr.ee/marketplace/sitemap.xml
 Sitemap: https://linktr.ee/s/wf/sitemap.xml
+Sitemap: https://linktr.ee/s/templates/sitemap.xml
+Sitemap: https://linktr.ee/help/sitemap.xml
   

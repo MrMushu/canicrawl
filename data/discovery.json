@@ -1,5 +1,5 @@
 {
- "date": "2026-10-18",
+ "date": "2026-10-19",
  "filesScanned": 612,
  "distinctTokens": 2105,
  "aiCandidates": [
@@ -104,22 +104,22 @@
    "aiHint": true
   },
   {
+   "token": "Diffbot-User",
+   "sites": 8,
+   "sample": [
+    "bbc.co.uk",
+    "bbc.com",
+    "corriere.it"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "MyCentralAIScraperBot",
    "sites": 8,
    "sample": [
     "bild.de",
     "cnn.com",
     "indeed.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Diffbot-User",
-   "sites": 7,
-   "sample": [
-    "bbc.co.uk",
-    "bbc.com",
-    "corriere.it"
    ],
    "aiHint": true
   },

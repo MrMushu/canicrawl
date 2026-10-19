@@ -85,6 +85,7 @@ disallow: */channels/*fps=
 disallow: */pornstars/*fps=
 disallow: */creators/*fps=
 disallow: */celebrities/*fps=
+disallow: /videos/*?t=
 
 # Disallow pornstar deep filters (3-4 components)
 disallow: */pornstars/*/4k/full-length?*
