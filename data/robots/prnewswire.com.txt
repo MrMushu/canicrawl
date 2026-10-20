@@ -7,11 +7,8 @@ Disallow: /templates/PRN_Custom_MultiVu_Recommendation
 Disallow: /templates/get-bitly-url.txt
 Disallow: /widget-landing-page.html
 Disallow: /multivu/
+Disallow: /search/
 
-# AI Context File
-Sitemap: https://www.prnewswire.com/llms.txt
-
-# Standard Sitemap
 Sitemap: https://www.prnewswire.com/sitemap.xml
 Sitemap: https://www.prnewswire.com/sitemap-news.xml
 
@@ -74,7 +71,7 @@ Sitemap: https://www.prnewswire.com/apac/sitemap-news.xml
 
 Sitemap: https://www.prnewswire.com/id/sitemap.xml
 Sitemap: https://www.prnewswire.com/id/sitemap-news.xml
-
+ 
 Sitemap: https://www.prnewswire.com/apac/zh/sitemap.xml
 Sitemap: https://www.prnewswire.com/apac/zh/sitemap-news.xml
  

@@ -5,7 +5,6 @@ Disallow: /pages/news-connect
 Disallow: /error404.aspx
 Disallow: /widget/
 Disallow: /*ns/local_news*
-Disallow: /bentoapi/
 Disallow: /akam/
 Disallow: /sigma.html
 Disallow: /sports/world-cup/fifa-world-cup-2026-bracket-challenge/group
@@ -202,6 +201,7 @@ Allow: /tips/
 Allow: /information/nbc-news-info/closed-captioning-n1307063
 
 User-agent: ExaBot
+User-agent: ExaSearchBot
 Disallow: /
 Allow: /select
 Allow: /select/
@@ -231,6 +231,18 @@ Allow: /tips/
 Allow: /information/nbc-news-info/closed-captioning-n1307063
 
 User-agent: GPTBot
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
+User-agent: ImageBot/1.0
 Disallow: /
 Allow: /select
 Allow: /select/
@@ -321,17 +333,6 @@ Allow: /tips/
 Allow: /information/nbc-news-info/closed-captioning-n1307063
 
 User-agent: omgili
-Disallow: /
-Allow: /select
-Allow: /select/
-Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
-Allow: /subscribe/supplemental-terms
-Allow: /information/nbc-news-info/contact-us-n1232521
-Allow: /news/us-news/nbc-news-digital-editors-n893846
-Allow: /tips
-Allow: /tips/
-Allow: /information/nbc-news-info/closed-captioning-n1307063
-
 User-agent: omgilibot
 Disallow: /
 Allow: /select
@@ -401,6 +402,18 @@ Allow: /select
 Allow: /select/
 
 User-agent: ShapBot
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
+User-agent: TaraGroup Intelligent Bot
 Disallow: /
 Allow: /select
 Allow: /select/

@@ -3659,6 +3659,51 @@
    "kind": "llmstxt",
    "from": true,
    "to": false
+  },
+  {
+   "date": "2026-10-20",
+   "domain": "dailymail.co.uk",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-10-20",
+   "domain": "allrecipes.com",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-20",
+   "domain": "seriouseats.com",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-20",
+   "domain": "paloaltonetworks.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-10-20",
+   "domain": "dailymail.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-10-20",
+   "domain": "people.com",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

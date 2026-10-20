@@ -1298,6 +1298,7 @@
 - [Launch Week ‘25: New Year Edition](https://www.okta.com/blog/product-innovation/launch-week-25-new-year-edition)
 - [Okta for US Military: A New milestone in DoD IL4 Identity](https://www.okta.com/blog/customers-and-partners/okta-for-us-military-a-new-milestone-in-dod-il4-identity)
 - [Securing AI agents at runtime with Okta’s Agent Gateway](https://www.okta.com/blog/product-innovation/okta-agent-gateway-runtime-security)
+- [Diagnosing modern healthcare identity attacks](https://www.okta.com/blog/industry-insights/healthcare-identity-attacks-defense-guide)
 - [Beyond Workflows connectors: Integration Builder expands what you can automate with Okta](https://www.okta.com/blog/product-innovation/okta-integration-builder-ga)
 
 ## Newsroom

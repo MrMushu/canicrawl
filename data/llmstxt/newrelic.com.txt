@@ -191,7 +191,7 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [DevOps Summit NSW Reli-Birds Challenge Sydney](https://newrelic.com/events/2026-10-21/devops-summit-nsw): New Relic at DevOps Summit NSW. Join us for a Reli-Bird's Mobile Game Challenge!
 - [Skyscanner x New Relic M.A.R.S. GameDay Challenge](https://newrelic.com/events/2026-10-29/skyscanner-mars-gameday): Skyscanner, join New Relic in Edinburgh on 29 October and discover how the New Relic Intelligent Observability platform opens up unexpected possibilities—and then get hands-on in a M.A.R.S. GameDay. 
 - [Melbourne Engineering and DevOps Summit Reli-Birds Challenge ](https://newrelic.com/events/2026-10-15/eng-and-devops-summit-melb): New Relic at Engineering and DevOps summit Melbourne. Join us for a Reli-Bird's Mobile Game Challenge!
-- [ANZ Bank M.A.R.S Gameday (Melbourne)](https://newrelic.com/events/2026-10-22/new-relic-anz-bank-mars-gameday): New Relic x ANZ Bank M.A.R.S Gameday! Join us on October 22 for a competitive, team-based simulation experience built on cloud native standards
+- [ANZ Bank M.A.R.S Gameday (Melbourne)](https://newrelic.com/events/2026-11-12/new-relic-anz-bank-mars-gameday): New Relic x ANZ Bank M.A.R.S Gameday! Join us on November 12 for a competitive, team-based simulation experience built on cloud native standards
 - [AI Engineering and Infrastructure Reli-Birds Challenge Sydney](https://newrelic.com/events/2026-10-01/ai-engineering-infra-summit-sydney): New Relic at AI Engineering and Infrastructure Sydney. Join us for a Reli-Bird's Mobile Game Challenge!
 ## New Relic University
 

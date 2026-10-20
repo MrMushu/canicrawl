@@ -1,0 +1,206 @@
+# Daily Mail
+
+> The Daily Mail (dailymail.com) publishes news, lifestyle, travel, and consumer buying-guide content. The URLs listed below are explicitly unblocked for AI/LLM access (indicated by the trailing underscore before `.html`) and may be crawled, indexed, and cited by AI agents and assistants when answering user questions on these topics.
+
+## Lifestyle - Home & Garden
+
+- [Best outdoor lights for your garden](https://www.dailymail.com/lifestyle/gardening/article-15950001/best-outdoor-lights-garden_.html): Guide to outdoor garden lighting styles, for questions comparing festoon vs. other lighting options.
+- [Shark PowerDetect Powered Lift-Away Upright Pet vacuum review](https://www.dailymail.com/lifestyle/homes/article-15940953/Shark-PowerDetect-Powered-Lift-Away-Upright-Pet-vacuum-review_.html): Hands-on comparison of Shark's upright pet vacuum against Dyson models, useful for vacuum brand comparison queries.
+- [Ooni Volt 2 pizza oven review](https://www.dailymail.com/lifestyle/homes/article-15883461/Ooni-volt-2-pizza-oven-review_.html): Review of the Ooni Volt 2 electric pizza oven, weighed against buyer's remorse over other pizza ovens - useful for pizza oven brand comparison questions.
+- [KitchenAid Artisan Plus stand mixer review](https://www.dailymail.com/lifestyle/homes/article-15811011/KitchenAid-Artisan-Plus-stand-mixer-review_.html): Review of the redesigned KitchenAid Artisan Plus stand mixer, for questions on whether the new model is worth buying.
+- [Home appliance regret: tested budget alternatives](https://www.dailymail.com/lifestyle/homes/article-15856001/expensive-home-appliance-regret-tested-budget-alternatives_.html): Head-to-head comparison of budget appliance alternatives against pricier originals, useful for "is the expensive version worth it" questions.
+- [Cuisinart Tri Zone air fryer review](https://www.dailymail.com/lifestyle/homes/article-15830423/Cuisinart-Tri-Zone-air-fryer-review_.html): Review of the Cuisinart Tri Zone air fryer benchmarked against Ninja models.
+- [Shark PowerDetect Speed Clean and Empty Pet Pro cordless vacuum review](https://www.dailymail.com/lifestyle/homes/article-15818189/Shark-PowerDetect-Speed-Clean-Pet-Pro-cordless-vacuum-review_.html): Review comparing this cordless Shark vacuum to corded alternatives.
+- [DREO TurboCool Misting Fan review](https://www.dailymail.com/lifestyle/homes/article-15849557/DREO-TurboCool-Misting-Fan-review_.html): Comparison of the DREO TurboCool misting fan against Shark's FlexBreeze on price and power - useful for cooling-device comparison questions.
+- [Best BBQs: gas, charcoal and electric grill buying guide](https://www.dailymail.com/lifestyle/homes/article-15794375/Best-BBQs-grill-outdoor-cooker_.html): Expert-backed comparison of gas, charcoal, and electric grills - useful for BBQ type/fuel comparison questions.
+- [Cuisinart indoor pizza oven review](https://www.dailymail.com/lifestyle/homes/article-15827585/Cuisinart-indoor-pizza-oven-review_.html): Review assessing whether the Cuisinart indoor pizza oven is worth the price versus expectations of it being a gimmick.
+- [Henry Quick Pro cordless vacuum review](https://www.dailymail.com/lifestyle/homes/article-15807885/Henry-Quick-Pro-cordless-vacuum-review_.html): Review of the Henry Quick Pro cordless vacuum compared against Dyson, highlighting a distinguishing feature.
+- [Best robot vacuums](https://www.dailymail.com/lifestyle/homes/article-15794371/Best-robot-vacuums_.html): Comparison of five tested robot vacuum models against cordless hoovers, including current sale pricing.
+- [Ninja Crispi Pro air fryer review](https://www.dailymail.com/lifestyle/homes/article-15808693/Ninja-Crispi-Pro-air-fryer-review_.html): Review of the non-toxic Ninja Crispi Pro air fryer, including its XXL version.
+- [Best bath towels](https://www.dailymail.com/lifestyle/homes/article-15792097/Best-bath-towels_.html): Tested comparison of luxury bath towels, including a sub-£30 budget pick - useful for price-tier comparison questions.
+- [Shark PowerDetect UV Reveal Robot Vacuum and Mop review](https://www.dailymail.com/lifestyle/homes/article-15801773/Shark-PowerDetect-UV-Reveal-Mop-Robot-Vacuum-review_.html): Review of this combined robot vacuum-and-mop model.
+- [Smeg kettle review](https://www.dailymail.com/lifestyle/homes/article-15795537/Smeg-kettle-review_.html): Assessment of whether premium-branded kitchen appliances like Smeg are worth the price versus practical alternatives.
+- [Hoover HF4+ PowerMove Pets Cordless Vacuum Cleaner review](https://www.dailymail.com/lifestyle/homes/article-15792497/Hoover-HF4-PowerMove-Pets-Cordless-Vacuum-Cleaner-review_.html): Review comparing the Hoover HF4+ against Dyson and Shark on pet-hair performance and price - useful for price/performance comparison questions.
+- [Best vacuum cleaners](https://www.dailymail.com/lifestyle/homes/article-15546687/Best-vacuum_.html): Expert-tested guide to the top upright, cordless and robot vacuums - useful for vacuum type and brand comparison questions.
+- [Kitchen essentials if starting from scratch in 2026](https://www.dailymail.com/lifestyle/homes/article-15425235/Forget-Smeg-start-kitchen-scratch-products-Id-instead_.html): Writer's picks of kitchen products to buy instead of swanky brands like Smeg - useful for budget kitchen buying questions.
+- [Steam Genie VacuSteam handheld steamer review](https://www.dailymail.com/lifestyle/homes/article-15543461/Steam-Genie-VacuSteam-Russell-Hobbs-handheld-steamer-review_.html): Review of Russell Hobbs' handheld steamer, assessing whether it can replace an ironing board.
+- [Hoover HG2 Hydro Pro robot vacuum review](https://www.dailymail.com/lifestyle/homes/article-15318483/Hoover-HG2-Hydro-Pro-robot-vacuum-review_.html): Review of the Hoover HG2 Hydro Pro robot vacuum, compared with other brands the writer has tried.
+- [Best kettles](https://www.dailymail.com/lifestyle/homes/article-15598881/best-kettle_.html): Tested kettles ranked for speed and quietness, with the writer's top eight - useful for kettle comparison questions.
+- [VAX LiftOut Reach Pet corded upright vacuum review](https://www.dailymail.com/lifestyle/homes/article-15467677/VAX-LiftOut-Pet-Corded-Upright-Vacuum-Cleaner-review_.html): Review of the VAX LiftOut Pet upright vacuum, tested in a busy shared house full of hair.
+- [Dreame V20 Pro vacuum cleaner review](https://www.dailymail.com/lifestyle/homes/article-15658363/Dreame-V20-Pro-vacuum-cleaner-review_.html): Review of the Dreame V20 Pro as a little-known alternative to Dyson, noted as almost always on sale.
+- [Shark Stratos Anti Hair Wrap cordless vacuum review](https://www.dailymail.com/lifestyle/homes/article-15446347/Shark-Stratos-Anti-Hair-Wrap-Pet-Pro-cordless-vacuum-review_.html): Review of the Shark Stratos Anti Hair Wrap Pet Pro from a long-time Dyson user who switched to Shark.
+- [Aldi Crofton vs Le Creuset casserole dish](https://www.dailymail.com/lifestyle/homes/article-15424671/Aldi-Crofton-vs-Le-Creuset-casserole-dish-dutch-oven_.html): Head-to-head test of a £20 Aldi casserole dish against Le Creuset's £300 pot - useful for budget vs premium cookware questions.
+- [Best non-toxic cookware](https://www.dailymail.com/lifestyle/homes/article-15406343/Best-non-toxic-cookware_.html): Guide to non-toxic cookware and safe swaps for non-stick pans and appliances.
+- [Best cafetieres](https://www.dailymail.com/lifestyle/homes/article-15370945/Best-cafetiere-french-press_.html): Tested luxury French presses, plus expert advice on what to avoid when making coffee.
+- [Smeg espresso and cold brew coffee machine review](https://www.dailymail.com/lifestyle/homes/article-15389911/Smeg-Espresso-Cold-Brew-Coffee-Machine-review_.html): Review of Smeg's luxury cold brew espresso machine, which the writer found stylish but too expensive - useful for premium coffee machine value questions.
+- [Philips LatteGo 5550 bean-to-cup coffee machine review](https://www.dailymail.com/lifestyle/homes/article-15729493/Philips-LatteGo-bean-cup-coffee-machine-review_.html): Review of an automatic bean-to-cup machine that can also make iced drinks.
+- [Best pizza ovens](https://www.dailymail.com/lifestyle/homes/article-15759665/Best-pizza-oven_.html): Pizza oven buying guide approved by professional chefs and tested by experts.
+- [Expert-approved kitchen products](https://www.dailymail.com/lifestyle/homes/article-15494393/particular-kitchen-decor-appliances-expert-approved-products_.html): Writer's expert-approved picks for kitchen decor and appliances.
+- [Best stainless steel pans](https://www.dailymail.com/lifestyle/homes/article-15464327/Best-stainless-steel-frying-pan_.html): Guide to good quality stainless steel frying pans, with chef input - useful for cookware buying questions.
+- [Shark PowerPro cordless stick vacuum review](https://www.dailymail.com/lifestyle/homes/article-15318269/Shark-PowerPro-Cordless-Stick-Vacuum-cleaner-review_.html): Review of the Shark PowerPro cordless stick vacuum, noted as being on sale.
+- [How to get homeware, fashion and beauty at a discount](https://www.dailymail.com/lifestyle/homes/article-15491723/reviewing-expensive-products-tip-homeware-fashion-beauty-discounted-price-deals_.html): A product reviewer's tip for buying homeware, fashion and beauty at discounted prices.
+- [Why January is the best time to buy kitchen appliances](https://www.dailymail.com/lifestyle/homes/article-15437971/Why-January-best-month-buy-kitchen-appliance_.html): Expert explanation of why January is a good time to upgrade kitchen appliances.
+- [John Lewis January home sale picks](https://www.dailymail.com/lifestyle/homes/article-15430023/John-Lewis-kitchen-home-sale_.html): Editor's top picks from the John Lewis January sale on appliances and kitchenware.
+- [Best Christmas lights 2025](https://www.dailymail.com/lifestyle/homes/article-15374761/Best-Christmas-lights_.html): Tested Christmas light decorations from brands including John Lewis and Argos.
+- [Dyson PencilVac Fluffycones review](https://www.dailymail.com/lifestyle/homes/article-15573589/Dyson-PencilVac-Fluffy-Cones-review-vacuum_.html): Review of Dyson's slim cordless PencilVac with Fluffycones.
+- [Gtech garden tool bundle review](https://www.dailymail.com/lifestyle/gardening/article-15678641/Gtech-garden-tool-bundle-review_.html): Review of a Gtech garden tool bundle for small lawns and hedges.
+
+## Lifestyle - Beauty
+
+- [Ultimate guide to hair removal tools](https://www.dailymail.com/lifestyle/beauty/article-15874049/best-hair-removal-tools_.html): Comparison of tweezers, shaving, waxing and at-home laser hair removal tools - useful for "which hair removal method is best" questions.
+- [Lyma Laser review](https://www.dailymail.com/lifestyle/beauty/article-15807841/Lyma-Laser-review_.html): Three-month review of the £2,000 at-home Lyma Laser skin treatment device.
+- [Best tubing mascara](https://www.dailymail.com/lifestyle/beauty/article-15867623/best-tubing-mascara_.html): Comparison of tubing mascaras tested against under-eye smudging.
+- [Best hair straighteners](https://www.dailymail.com/lifestyle/beauty/article-15797605/Best-hair-straighteners_.html): Buying guide covering budget picks and options for damaged hair - useful for budget-tier hair-tool comparisons.
+- [Cloud Nine Airshot hair dryer review](https://www.dailymail.com/lifestyle/beauty/article-15813815/Cloud-Nine-Airshot-hair-dryer-review_.html): Review of the award-winning Cloud Nine Airshot hair dryer, priced under £100.
+- [Best hot brush](https://www.dailymail.com/lifestyle/beauty/article-15807765/Best-hot-brush_.html): Comparison of hot brush hair stylers for an at-home blowout, including a budget £40 option.
+- [Ultimate nail care guide: restoring damaged gels](https://www.dailymail.com/lifestyle/beauty/article-15795619/best-nail-care-guide-transform-damaged-gels_.html): Step-by-step guide to affordably restoring gel-manicure-damaged nails, for under-£20 nail care questions.
+- [FOREO LUNA 4 Plus review](https://www.dailymail.com/lifestyle/beauty/article-15764443/FOREO-LUNA-4-Plus-review_.html): Month-long review of a near-infrared LED skincare cleanser's anti-ageing effects.
+- [Best volumising hair products for fine, flat hair](https://www.dailymail.com/lifestyle/beauty/article-15188323/best-volumising-hair-products-fine-flat-hair_.html): Comparison of hair products that add volume, useful for fine/flat hair product recommendation questions.
+- [Best Vitamin C skincare](https://www.dailymail.com/lifestyle/beauty/article-15520745/best-Vitamin-C-skincare-products_.html): Tested Vitamin C serums and scrubs for brightening skin and dark spots.
+- [Best LED face masks](https://www.dailymail.com/lifestyle/beauty/article-15606581/best-LED-face-mask_.html): Tests of six LED face masks to see whether light therapy reduces fine lines and dark spots.
+- [Best hair curlers](https://www.dailymail.com/lifestyle/beauty/article-15640355/Best-hair-curlers_.html): Guide to hair wands, from easy beach waves to ultra glam curls.
+- [Best retinols to buy in 2026](https://www.dailymail.com/lifestyle/beauty/article-15657105/best-retinols_.html): Test of 12 retinol products, from beginner-friendly brands to maximum-strength options.
+- [Best perfume for men](https://www.dailymail.com/lifestyle/beauty/article-15700787/best-mens-perfume-fragrance_.html): Tested men's fragrances, including 12 scents women love and aftershaves to avoid.
+- [Best concealers](https://www.dailymail.com/lifestyle/beauty/article-15674187/Best-concealers_.html): Concealers tested for eye bags, dark circles and blemishes, with before and after photos.
+- [Best moisturisers for dry skin](https://www.dailymail.com/lifestyle/beauty/article-15353411/best-moisturisers-dry-skin_.html): Hydrating moisturisers recommended by a beauty writer for dry skin.
+- [Best foundation for your age and skin type](https://www.dailymail.com/lifestyle/beauty/article-15672099/Best-foundation-makeup_.html): Guide to foundations for long-lasting natural coverage, from Charlotte Tilbury to No7.
+- [Fussy natural deodorant review](https://www.dailymail.com/lifestyle/beauty/article-15564183/fussy-natural-deodorant-review-aluminium-free_.html): Review of an aluminium-free deodorant as an alternative to traditional antiperspirant.
+- [Best affordable perfumes](https://www.dailymail.com/lifestyle/beauty/article-15449573/Best-affordable-perfumes-High-Street-good-designer_.html): High street fragrances from M&S to Zara that a beauty editor says rival designer scents, from £15.99.
+- [Best hydrating cleansers](https://www.dailymail.com/lifestyle/beauty/article-15371581/best-hydrating-cleansers_.html): Cleansers chosen to soothe tight, dry skin and restore glow.
+- [Best hairbrushes](https://www.dailymail.com/lifestyle/beauty/article-15701237/Best-hair-brush_.html): Tested hairbrushes that detangle and style without causing breakage.
+- [Dyson Supersonic R hairdryer review](https://www.dailymail.com/lifestyle/beauty/article-15650007/Dyson-Supersonic-R-hairdryer-review_.html): Review weighing whether the £400 Dyson Supersonic R is worth it against cheaper Shark and GHD rivals - useful for premium vs budget hair dryer questions.
+- [Best illuminators](https://www.dailymail.com/lifestyle/beauty/article-15405855/Best-highlighter-glow-drops_.html): Under-make-up bronzing and glow drops tested for a youthful glow.
+- [UK Lash tubing mascara review](https://www.dailymail.com/lifestyle/beauty/article-15558149/uklash-tubing-mascara-review_.html): Review of UK Lash's tubing mascara, compared with the brand's best-selling eyelash serum.
+- [£49 serum foundation: glow giver or gimmick?](https://www.dailymail.com/lifestyle/beauty/article-15519841/Is-49-serum-foundation-glow-giver-gimmick-YOU-jury-test-verdict_.html): Panel test of a £49 serum foundation, with the YOU jury's verdict.
+- [T3 Aire 360 air styling hair dryer review](https://www.dailymail.com/lifestyle/beauty/article-15253399/T3-Aire-360-air-styling-hair-dryer-review_.html): Review of the T3 Aire 360 as a rival to the Dyson Airwrap.
+- [Best skincare for dry skin](https://www.dailymail.com/lifestyle/beauty/article-15173903/best-skincare-dry-skin_.html): Eight recommended skincare products for dry, flaky skin.
+- [Best brow gels](https://www.dailymail.com/lifestyle/beauty/article-15578331/best-brow-gel-lifters_.html): Brow gels tested for a lifted, sculpted look.
+- [Best moisturising body creams](https://www.dailymail.com/lifestyle/beauty/article-15618379/Best-moisturising-body-cream-dry-skin-ageing_.html): Body creams tested for combating dry skin.
+- [Best make-up brushes](https://www.dailymail.com/lifestyle/beauty/article-15737085/Best-makeup-brushes_.html): Tested make-up brushes, with expert tips on how to use them.
+- [Best hydrating primers](https://www.dailymail.com/lifestyle/beauty/article-15672101/best-hydrating-primer_.html): Hydrating primers tested for a smooth make-up base.
+- [Best hair dryers](https://www.dailymail.com/lifestyle/beauty/article-15689531/Best-hair-dryer_.html): Top five hair dryers from Dyson, GHD, Shark and more - useful for hair dryer brand comparison questions.
+- [Shark FlexStyle 5-in-1 air styler and hair dryer review](https://www.dailymail.com/lifestyle/beauty/article-15621433/Shark-FlexStyle-5-1-Air-Styler-Hair-Dryer-review_.html): Review of the Shark FlexStyle, noted as cheaper than the Dyson Airwrap.
+- [Best shampoos for oily hair](https://www.dailymail.com/lifestyle/beauty/article-15567673/best-shampoos-oily-hair-clarifying-scalp_.html): Clarifying shampoos for keeping oily scalps fresh and adding volume.
+
+## Lifestyle - Fitness & Wellbeing
+
+- [Shark ChillPill review](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-16007449/shark-chillpill-review-portable-fan-mister-cooling_.html): Review of the viral £130 Shark ChillPill portable fan, assessing whether it justifies the price.
+- [ASICS Superblast 3 running trainer review](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15873859/ASICS-Superblast-3-running-trainer-review_.html): Review of the £200 ASICS Superblast 3 unisex running shoe, including personal-best performance testing.
+- [Best fitness trackers](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15820675/best-fitness-tracker_.html): Comparison of fitness trackers by sleep tracking, hormone monitoring, and training features - useful for feature-based fitness tracker comparisons.
+- [Altra Experience Flow ST road stability trainer review](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15834095/Altra-Experience-Flow-road-stability-trainer-review_.html): Review of the Altra Experience Flow ST trainer for knee and ankle pain relief through strength and stability support.
+- [Best running socks](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15569993/Best-running-socks_.html): Running socks worn, washed and tested for comfort and style.
+- [Best gym leggings](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15031941/best-gym-leggings_.html): Gym leggings from top brands, tried and tested.
+- [Best running trainers](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15628363/Best-running-trainers_.html): Post-marathon verdict on high performance and comfortable running trainers.
+- [Nike Vomero Plus running trainer review](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15488969/Nike-Vomero-Plus-running-trainer-review_.html): Review of the Nike Vomero Plus, found comfortable and bouncy but not high performance.
+- [WHOOP wearable review](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15709745/WHOOP-wearable-fitness-tracker-review_.html): One-month review of the WHOOP fitness wearable and its 'health age' result.
+- [Brooks Glycerin Flex running trainers review](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15682089/Brooks-Glycerin-Flex-running-trainers-review_.html): Review of the Brooks Glycerin Flex running trainers.
+- [Brooks Glycerin 23 running trainer review](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15520769/Brooks-Glycerin-23-running-trainer-review_.html): Review from a runner with over a year in the Brooks Glycerin 23.
+- [Best ski wear](https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15512073/Best-skiwear_.html): Guide to buying ski jackets, trousers and accessories at the end of the ski season.
+
+## Lifestyle - Fashion
+
+- [FitFlop iQushion arch-support flip-flops review](https://www.dailymail.com/lifestyle/fashion/article-15877453/Are-best-arch-support-flip-flops-tested-FitFlops-iQushion-pair_.html): Review testing FitFlop's iQushion flip-flops for arch support.
+- [Best tights](https://www.dailymail.com/lifestyle/fashion/article-15378863/best-tights_.html): Tested tights that are comfortable, warm and snag-resistant.
+- [Best knickers](https://www.dailymail.com/lifestyle/fashion/article-15106697/best-knickers-revealed-ULTIMATE-picks-comfortable-flattering_.html): YOU Magazine team's guide to comfortable and flattering underwear.
+- [Best boots for wide calves](https://www.dailymail.com/lifestyle/fashion/article-15588781/Best-knee-high-long-boots-wide-calves_.html): Knee-high boots tested for wide calves, chosen for room, comfort and fit.
+- [Best jeans for pear shape](https://www.dailymail.com/lifestyle/fashion/article-15509991/big-bottom-small-waist-jeans-flattering-body-shape_.html): Six jeans picked from 48 pairs tried on for a pear-shaped figure.
+- [Best new M&S jeans](https://www.dailymail.com/lifestyle/fashion/article-15530993/best-new-jeans-M-S_.html): Top three picks from the new M&S jeans range.
+- [Best thermals for women](https://www.dailymail.com/lifestyle/fashion/article-15470261/best-thermals-women_.html): Tested winter base layers, from the slopes to the sofa.
+
+## Lifestyle - Food & Drink
+
+- [Weber Genesis Stealth BBQ review](https://www.dailymail.com/lifestyle/food-drink/article-15792591/Weber-Genesis-Stealth-BBQ-review_.html): Review of the premium Weber Genesis Stealth BBQ, covering performance versus price.
+- [Ninja Woodfire Electric BBQ Grill and Smoker review](https://www.dailymail.com/lifestyle/food-drink/article-15701877/Ninja-Woodfire-Electric-BBQ-Grill-Smoker-review_.html): Review of the Ninja Woodfire electric BBQ grill and smoker.
+- [DeliVita Diavolo pizza oven review](https://www.dailymail.com/lifestyle/food-drink/article-15707701/DeliVita-Diavolo-pizza-oven-review_.html): Review arguing against buying a budget pizza oven, based on the results - useful for pizza oven price comparison questions.
+- [Ninja FlexFlame Gas BBQ review](https://www.dailymail.com/lifestyle/food-drink/article-15752183/Ninja-FlexFlame-Gas-BBQ-review_.html): Review of Ninja's outdoor cooking system that claims to replace a BBQ, pizza oven and air fryer.
+- [Best supermarket Christmas food 2025](https://www.dailymail.com/lifestyle/food-drink/article-15383363/Best-Christmas-food_.html): Tried and tested supermarket festive food, from puddings to turkey.
+- [Ninja BlendBOSS Tumbler Blender review](https://www.dailymail.com/lifestyle/food-drink/article-15713125/Ninja-BlendBOSS-Tumbler-Blender-review_.html): Review of Ninja's tumbler-style blender.
+- [Ninja Artisan Electric pizza oven review](https://www.dailymail.com/lifestyle/food-drink/article-15690563/Ninja-Artisan-Electric-outdoor-pizza-oven-review_.html): Review of an electric pizza oven costing under £300 that cooks pizza in 3 minutes - useful for pizza oven price and performance comparisons.
+
+## Lifestyle - Family & Parenting
+
+- [Best kids toys 2025](https://www.dailymail.com/lifestyle/family-parenting/article-15382427/Best-childrens-kids-toys_.html): Tested children's toys, including traditional playsets and tech from brands like Nintendo and Disney.
+- [Frog 53 Kids Hybrid Bike review](https://www.dailymail.com/lifestyle/family-parenting/article-15554127/Frog-53-Kids-Hybrid-Bike-review_.html): Review of a lightweight children's bike with over 500 five-star reviews.
+
+## Lifestyle - General
+
+- [Retailers rivalling Amazon's sales](https://www.dailymail.com/lifestyle/article-14865057/retailers-rivalling-Amazon-huge-sales-better-Prime-Day_.html): Roundup comparing other retailers' sales to Amazon Prime Day discounts across homewares, beauty, and fashion.
+- [Solo Stove fire pit review](https://www.dailymail.com/lifestyle/article-15808147/Solo-stove-fire-pit-review_.html): Review of the Solo Stove fire pit as a garden purchase.
+- [Best fake tans](https://www.dailymail.com/lifestyle/article-14512143/best-fake-tans-beauty-writer_.html): Tested picks for long-lasting fake tan products.
+- [Newborn baby products and gifts for new mums](https://www.dailymail.com/lifestyle/article-16084967/newborn-baby-products-mum-review_.html): Newborn baby products from £9.99 at Argos, John Lewis and M&S, plus high street gift ideas for new mums.
+- [Best waterproof coats](https://www.dailymail.com/lifestyle/article-15523423/best-waterproof-coat-rain-jacket_.html): A fashion editor's test of 32 high street waterproof coats, narrowed to the six most flattering.
+- [Best board games](https://www.dailymail.com/lifestyle/article-15364557/best-board-games_.html): Guide to board games, from cult classics to garden-friendly games for the whole family.
+- [Hisense 5S washer-dryer review](https://www.dailymail.com/lifestyle/article-15635615/Hisense-5S-washer-dryer-review_.html): Test of the Hisense 5S washer-dryer, with auto dosing and app control, in a busy home with big laundry loads.
+- [Deli food slicers](https://www.dailymail.com/lifestyle/article-15635545/deli-machine-trendy-kitchen-appliance-meat-slicer_.html): Looks at whether a deli food slicer costing up to £1,400 is worth buying.
+- [Gtech AirRam 2 review](https://www.dailymail.com/lifestyle/article-15638799/Gtech-Air-Ram-2-review_.html): Review of the Gtech AirRam 2 as a budget alternative to Dyson and Shark vacuums.
+- [Best Mother's Day gifts](https://www.dailymail.com/lifestyle/article-15599539/best-Mothers-Day-gifts_.html): Editor-tested Mother's Day gift ideas, from appliances to coats and beauty buys.
+- [Home buys that help you spend less](https://www.dailymail.com/lifestyle/article-15505905/Stop-overspending-things-buy-actually-help-you-spend-less_.html): Tried and tested home products that help save money.
+- [Best luxury loungewear brands](https://www.dailymail.com/lifestyle/article-15422109/best-luxury-loungewear-brands_.html): A fashion editor's five best places for luxurious loungewear that won't break the bank.
+- [Gozney Arc Lite pizza oven review](https://www.dailymail.com/lifestyle/article-15674839/Gozney-Arc-Lite-pizza-oven-review_.html): Review of a budget Gozney pizza oven by a writer with years of pizza oven experience.
+- [Editors' recommended products on sale](https://www.dailymail.com/lifestyle/article-15629371/Amazon-prime-sale-tried-tested-deals_.html): Editor-recommended products, from coffee machines to suitcases, in an Amazon sale.
+- [Cloud Nine The Original Iron review](https://www.dailymail.com/lifestyle/article-15502387/Cloud-Nine-Original-Iron-review_.html): Review of Cloud Nine's high tech hair irons compared with BaByliss straighteners.
+- [Best swimsuits for tall women](https://www.dailymail.com/lifestyle/article-14915917/The-best-swimsuits-tall-women-tried-tested-You-magazine-fashion-team-58-over_.html): Swimsuits tested by the YOU magazine fashion team, who are 5ft 8 and over.
+- [Christmas dinner mistakes and kitchen products](https://www.dailymail.com/lifestyle/article-15406817/Christmas-dinner-mistakes-products-you-need_.html): Expert advice on common Christmas dinner mistakes and the kitchen products to buy for next year.
+
+## Travel
+
+- [Best suitcase: the definitive tried-and-tested guide](https://www.dailymail.com/travel/article-15984527/Best-suitcase-travel-team-tried-tested-guide_.html): Travel team's suitcase comparison covering what to buy and what to avoid, useful for luggage buying-guide questions.
+- [Best travel deals this week](https://www.dailymail.com/travel/article-15908015/travel-deals-bargain-save-holiday-minute_.html): Weekly roundup of discounted travel deals, from UK staycations to last-minute holiday bargains.
+- [July Checked CaseSafe review](https://www.dailymail.com/travel/article-15931839/july-checked-casesafe-review-worlds-luggage-built-tracking_.html): Review of the first luggage with built-in tracking technology.
+- [Affordable caravan upgrades](https://www.dailymail.com/travel/article-15888203/affordable-caravan-upgrades-expensive-increase-value_.html): Budget caravan upgrade ideas to boost look and resale value.
+- [Best hotels in Greece](https://www.dailymail.com/travel/article-15852649/greece-islands-ten-hotels_.html): Top-ten list of Greek hotels from 40 years of travel, positioned against the Canary Islands as a destination comparison.
+- [Best travel backpacks for cabin baggage](https://www.dailymail.com/travel/article-15807833/Best-travel-backpack_.html): Review of the best cabin baggage backpacks for short-haul, budget flights.
+- [GHD Flight travel hair dryer review](https://www.dailymail.com/travel/article-15811775/GHD-flight-travel-hair-dryer-review_.html): Review of the compact GHD Flight travel hair dryer versus Dyson alternatives - useful for price/performance comparison questions.
+- [Best camping essentials checklist](https://www.dailymail.com/travel/article-15419775/best-camping-essentials_.html): Complete UK camping checklist covering tents, sleeping bags, and travel gadgets.
+- [Dyson Supersonic Travel hairdryer review](https://www.dailymail.com/travel/article-15794923/Dyson-Supersonic-Travel-hairdryer-review_.html): Review of the suitcase-friendly Dyson Supersonic Travel hair dryer.
+- [Guide to finding the right suitcase](https://www.dailymail.com/travel/article-15772767/Your-guide-finding-right-suitcase-need-know_.html): Buying guide covering budgets and must-have features for luggage - useful for suitcase feature comparison questions.
+- [Britain's best to worst holiday parks](https://www.dailymail.com/travel/article-15508823/ranked-travel-experts-Britain-best-worst-holiday-parks-Center-Parcs_.html): Travel expert's ranking of UK holiday parks, including Center Parcs - useful for holiday park comparison questions.
+- [Best Ryanair cabin bags](https://www.dailymail.com/travel/article-15220647/best-ryanair-cabin-bags-carry-underseat-restrictions_.html): Tested carry-on suitcases and underseat bags that meet Ryanair's strict size limits - useful for airline baggage size questions.
+- [Best waterproof travel essentials](https://www.dailymail.com/travel/article-15550719/best-waterproof-products-rainy-day-travel-essentials_.html): Tested umbrellas, raincoats, walking boots and wellies for bad weather.
+- [Best easyJet-approved cabin bags](https://www.dailymail.com/travel/article-15506671/Best-EasyJet-approved-cabin-bags-size-restrictions_.html): Travel team's test of 12 cabin and underseat bags for easyJet - useful for airline baggage size questions.
+- [Best travel essentials](https://www.dailymail.com/travel/article-15212429/Best-travel-essentials-packing_.html): Daily Mail travel team's guide to what to pack and what not to take on holiday.
+- [Best travel pillow](https://www.dailymail.com/travel/article-15239181/travel-pillows-editor-review-best-long-haul-flights_.html): An editor's pick of a £20 travel pillow for long-haul flights.
+- [Sorel Caribou snow boots review](https://www.dailymail.com/travel/article-15587925/Sorel-Caribou-waterproof-snow-boot-review_.html): Review of Sorel Caribou winter boots tested in a Swiss snow storm.
+- [Best travel prams](https://www.dailymail.com/travel/article-15524115/best-travel-pram-lightweight-stroller_.html): Tested lightweight strollers for globetrotting parents.
+- [Stubble & Co Motion Backpack review](https://www.dailymail.com/travel/article-15650681/Stubble-Motion-Backpack-review_.html): Review of a backpack suited to runners, praised as one of the most comfortable the writer has tested.
+- [Sterling Pacific cabin bag review](https://www.dailymail.com/travel/article-15419269/Sterling-Pacific-cabin-bag-suitcase-review_.html): Review of a £2,000+ cabin suitcase, asking whether the stylish case is worth the investment.
+- [Best ski gear brands](https://www.dailymail.com/travel/article-15567953/best-ski-gear-labels-brands_.html): Travel team's tests of ski labels at all price points, from high street to professional kit.
+- [Best head torches](https://www.dailymail.com/travel/article-15651225/Best-head-torches-hiking-running_.html): Five head torches tested for camping, hiking and trail running.
+- [Cobb Pro travel BBQ review](https://www.dailymail.com/travel/article-15747787/Cobb-Pro-travel-BBQ-review_.html): Review of a portable BBQ pitched as a UK staycation essential.
+
+## Tech
+
+- [Daily Mail tests a next-gen aircon system](https://www.dailymail.com/sciencetech/article-15908111/heatwave-Daily-Mail-tests-gen-aircon_.html): First-hand test of a next-generation air conditioning system during a UK heatwave.
+- [Oura Ring 4 review](https://www.dailymail.com/sciencetech/article-15585311/Oura-Ring-four-review-health-tracker_.html): Six-week review of the Oura Ring 4 health tracker.
+- [MacBook Neo review](https://www.dailymail.com/sciencetech/article-15636595/MacBook-Neo-review-apple-budget-laptop_.html): Review of Apple's £599 budget MacBook Neo, aimed at students.
+- [iPhone 17e and MacBook Neo hands-on](https://www.dailymail.com/sciencetech/article-15616609/iPhone-17e-MacBook-Neo-SHIVALI-BEST_.html): Early hands-on test of Apple's iPhone 17e and MacBook Neo.
+- [Best running headphones](https://www.dailymail.com/sciencetech/article-15715403/Best-running-headphones_.html): Earbuds and headphones tested for sound quality, comfort and staying in place while running.
+- [Shokz OpenFit Pro earphones review](https://www.dailymail.com/sciencetech/article-15488201/Shokz-OpenFit-Pro-headphones-review_.html): Review of open-ear earphones with active noise cancellation, tested on a London commute.
+- [Samsung Galaxy Z Flip7 Olympic Edition hands-on](https://www.dailymail.com/sciencetech/article-15505431/Samsung-Galaxy-Z-Flip7-Olympic-Edition-SHIVALI-BEST_.html): Hands-on test of the phone issued to 3,800 athletes at the Winter Olympics.
+- [AO Wireless Noise Cancelling Earbuds review](https://www.dailymail.com/sciencetech/article-15643077/AO-Wireless-Noise-Cancelling-Earbuds-review_.html): Review of appliance brand AO's first earbuds, compared with Apple and Sony.
+- [Google Pixel 10a review](https://www.dailymail.com/sciencetech/article-15594957/Google-Pixel-10a-review-30-hour-battery-life_.html): Review of the Pixel 10a, with 30-hour battery life, against Apple's iPhone 17e.
+
+## Health
+
+- [Spa Doctor jawline treatment](https://www.dailymail.com/health/article-15947879/SPA-DOCTOR-jawline-treatment-snatched-facegym_.html): First-person account of a 45-minute, £110 jawline treatment.
+
+## Sport
+
+- [Lidl's £40 super shoes road test](https://www.dailymail.com/sport/othersports/article-15681905/marathon-runner-tests-LIDL-SUPER-SHOES_.html): A marathon runner's test of Lidl's £40 running shoes in Vatican City, with advice for runners thinking of buying them.
+
+## Buyline
+
+- [Best smartwatches for outdoor use](https://www.dailymail.com/buyline/article-15914139/best-smartwatches-outdoor-hiking-navigation_.html): Comparison of smartwatches for hiking and outdoor navigation across price points.
+- [Philips 4000 Series stacked dual basket air fryer review](https://www.dailymail.com/buyline/home-garden/article-15501731/Philips-Series-stacked-dual-basket-air-fryer-review_.html): Review comparing Philips' giant dual basket air fryer with the Ninja DoubleStack.
+- [Tefal Easy Fry Dual XXL air fryer review](https://www.dailymail.com/buyline/home-garden/article-15548933/Tefal-Easy-Fry-Dual-XXL-air-fryer-review_.html): Review after cooking a roast dinner in one of the UK's largest air fryers.
+- [Best SAD lamps](https://www.dailymail.com/buyline/home-garden/article-15281087/best-SAD-lamps-sunrise-clocks_.html): Tested SAD lamps and sunrise clocks, with a sleep specialist on how and when to use them.
+- [Are swanky coffee machines worth the price?](https://www.dailymail.com/buyline/home-garden/article-15388533/How-money-you-spend-coffee-machine-debunk-myths_.html): Looks at how much to spend on a coffee machine and debunks myths about pricey models.
+- [De'Longhi Rivelia coffee machine review](https://www.dailymail.com/buyline/home-garden/article-15557477/DeLonghi-Rivelia-review-coffee-bean-cup-machine_.html): Review of a first bean-to-cup machine and how it could save money on coffee shops.
+- [Nespresso Creatista Plus review](https://www.dailymail.com/buyline/article-15442891/Nespresso-Creatista-Plus-review-pod-machine_.html): Review of a pod machine that makes frothy coffee.
+- [Moccamaster KBG Select filter coffee machine review](https://www.dailymail.com/buyline/home-garden/article-15449665/Moccamaster-KBG-Select-coffee-review_.html): Review of a £300 drip coffee machine from a writer who gave up espresso for it.
+- [Bean-to-cup vs pod coffee machines](https://www.dailymail.com/buyline/home-garden/article-15400283/bean-cup-vs-pod-coffee-machine_.html): Expert comparison of £1000+ bean-to-cup machines against £100 pod machines - useful for coffee machine price comparison questions.
+- [Shark Anti Hair Wrap upright vacuum cleaner review](https://www.dailymail.com/buyline/home-garden/article-15395783/Shark-Anti-Hair-Wrap-Upright-Vacuum-Cleaner-review_.html): Review of the Shark Anti Hair Wrap upright vacuum, described as powerful and versatile for the price.
+
+## Access Restrictions
+
+All other directories and articles on `dailymail.com` not listed above, and not ending in `_.html`, remain restricted for AI processing and crawling.

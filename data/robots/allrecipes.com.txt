@@ -69,8 +69,11 @@ User-agent: Claude-User
 User-agent: Claude-Web
 User-agent: ClaudeBot
 User-agent: cohere-training-data-crawler
+User-agent: Diffbot-User
+User-agent: Diffbot
 User-agent: DuckAssistBot
 User-agent: ERNIEBot
+User-agent: ExaSearchBot
 User-agent: FacebookBot
 User-agent: FirecrawlAgent
 User-agent: FriendlyCrawler
@@ -84,6 +87,7 @@ User-agent: imageSpider
 User-agent: ISSCyberRiskCrawler
 User-agent: Kagibot
 User-agent: LinerBot
+User-agent: LinkUpBot
 User-agent: Mastodon
 User-agent: Meltwaterimageservice
 User-agent: MeltwaterNews

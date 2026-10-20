@@ -1,7 +1,7 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "filesScanned": 612,
- "distinctTokens": 2105,
+ "distinctTokens": 2106,
  "aiCandidates": [
   {
    "token": "img2dataset",
@@ -84,6 +84,16 @@
    "aiHint": true
   },
   {
+   "token": "Diffbot-User",
+   "sites": 11,
+   "sample": [
+    "allrecipes.com",
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "meta-externalads",
    "sites": 11,
    "sample": [
@@ -100,16 +110,6 @@
     "allrecipes.com",
     "bild.de",
     "investopedia.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Diffbot-User",
-   "sites": 8,
-   "sample": [
-    "bbc.co.uk",
-    "bbc.com",
-    "corriere.it"
    ],
    "aiHint": true
   },
@@ -616,12 +616,12 @@
    "aiHint": false
   },
   {
-   "token": "Yisouspider",
+   "token": "LinkUpBot",
    "sites": 22,
    "sample": [
     "allrecipes.com",
-    "baidu.com",
-    "bloomberg.com"
+    "amazon.ca",
+    "amazon.co.jp"
    ],
    "aiHint": false
   }
