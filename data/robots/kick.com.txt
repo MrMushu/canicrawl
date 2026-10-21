@@ -4,6 +4,7 @@ Disallow: /login?
 Disallow: /oauth/
 Disallow: /billing/
 Disallow: /password/
+Disallow: /qr/
 Disallow: /verify-new-email$
 Disallow: /verify-new-email/
 Disallow: /*?*sort=

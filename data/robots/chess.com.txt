@@ -50,6 +50,7 @@ User-agent: AdsBot-Google-Mobile
 User-agent: Mediapartners-Google
 User-agent: Assaybot
 User-agent: ias_crawler
+User-agent: AudigentAdBot
 Disallow: /_
 Disallow: /en/
 Disallow: /cdn-cgi/
@@ -65,14 +66,10 @@ Disallow: /unsubscribe
 Disallow: /webhook
 Disallow: /password-management
 Disallow: /club/*/join/
-Disallow: /login_
-Disallow: /login_and_go
 Disallow: /payment/
 Disallow: /register?returnUrl=
 Disallow: /service/user-activity/
 Disallow: /callback/bucket
-Disallow: /*/login_
-Disallow: /*/login_and_go
 Disallow: /*/payment/
 Disallow: /*/register?returnUrl=
 
@@ -124,6 +121,7 @@ Allow: /analysis/game/
 Allow: /*/analysis/game/
 
 Sitemap: https://www.chess.com/sitemapindex.xml
+Sitemap: https://www.chess.com/sitemap/sitemap.xml
 
 #                     .,;;::;;,.
 #                  .:codddddollll;.

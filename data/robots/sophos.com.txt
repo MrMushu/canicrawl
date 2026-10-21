@@ -72,8 +72,14 @@ Allow: /
 User-agent: xAI-Bot
 Allow: /
 
-User-agent: Amazonbot
+User-agent: Amzn-SearchBot
 Allow: /
+
+User-agent: Amzn-User
+Allow: /
+
+User-agent: Amazonbot
+Disallow: /
 
 User-agent: FirecrawlAgent 
 Allow: / 

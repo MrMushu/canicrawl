@@ -96,6 +96,5 @@ Disallow: /benchmarks/es/*/
 Disallow: /benchmarks/pt/*/
 Disallow: /benchmarks/ko/*/
 Disallow: /benchmarks/ja/*/
-Disallow: /benchmarks/cn/*/
 Disallow: /benchmarks/fr/*/
 Disallow: /pricing/v1/

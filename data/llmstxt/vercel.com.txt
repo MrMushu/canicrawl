@@ -48,6 +48,7 @@ Use this index to find machine-readable documentation and platform resources. Fo
 - [AI Gateway models](https://vercel.com/ai-gateway/models.md): Every AI Gateway model with pricing, context window, providers, and capability tags.
 - [AI Gateway model list API](https://ai-gateway.vercel.sh/v1/models): Live JSON list of every model ID with pricing and capabilities. No API key required.
 - [Vercel Sandbox](https://vercel.com/docs/sandbox.md): Isolated compute for running code and agent workloads.
+- [Vercel Templates](https://vercel.com/templates.md): Deployable starter projects for frameworks, AI, storage, and more, each with a one-click deploy link.
 
 ## Knowledge Base
 

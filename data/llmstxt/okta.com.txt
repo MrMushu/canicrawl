@@ -542,7 +542,6 @@
 - [Identity governance: Converged vs. disparate models](https://www.okta.com/blog/identity-security/identity-governance-converged-vs-disparate-models)
 - [Insights from our experience: Okta deploys Okta Device Access](https://www.okta.com/blog/identity-security/insights-from-our-experience-okta-deploys-okta-device-access)
 - [The problem with legacy thinking around identity security](https://www.okta.com/blog/identity-security/the-problem-with-legacy-thinking-around-identity-security)
-- [The surprising details behind your MFA enforcement status](https://www.okta.com/blog/identity-security/the-surprising-details-behind-your-mfa-enforcement-status)
 - [Flowcase 2022: Celebrating Okta Workflows Leaders Driving Innovation in Identity Automation](https://www.okta.com/blog/product-innovation/flowcase-2022-celebrating-okta-workflows-leaders-driving-innovation-in-identity)
 - [Actions Templates to power extensibility with Okta CIC Powered by Auth0](https://www.okta.com/blog/product-innovation/actions-templates-to-power-extensibility-with-okta-cic-powered-by-auth0)
 - [An Automated Approach to Convert Okta System Logs into Open Cybersecurity Schema Framework (OCSF) Schema](https://www.okta.com/blog/product-innovation/an-automated-approach-to-convert-okta-system-logs-into-open-cybersecurity-schema)
@@ -1290,6 +1289,7 @@
 - [Founders in Focus: Joel Bauman of Synqly](https://www.okta.com/blog/company-and-culture/founders-in-focus-joel-bauman-of-synqly)
 - [What it takes to own AI agent identity as agents spread](https://www.okta.com/blog/ai/ai-agent-identity-build-vs-buy)
 - [The anatomy of modern identity attacks: Defending public sector missions in an AI-driven threat landscape](https://www.okta.com/blog/industry-insights/defending-public-sector-identity-attacks)
+- [The surprising details behind your MFA enforcement status](https://www.okta.com/blog/identity-security/the-surprising-details-behind-your-mfa-enforcement-status)
 - [Your security tools aren't talking. Attackers love that.](https://www.okta.com/blog/identity-security/identity-security-fabric-for-the-modern-threat-landscape)
 - [Key insights from Okta's CSO survey: Challenges and opportunities for Okta Ventures portfolio](https://www.okta.com/blog/industry-insights/key-insights-cso-identity-security-survey)
 - [Governing AI agents: Four questions every government agency needs to answer](https://www.okta.com/blog/industry-insights/securing-ai-agents-government)
@@ -1300,6 +1300,7 @@
 - [Securing AI agents at runtime with Okta’s Agent Gateway](https://www.okta.com/blog/product-innovation/okta-agent-gateway-runtime-security)
 - [Diagnosing modern healthcare identity attacks](https://www.okta.com/blog/industry-insights/healthcare-identity-attacks-defense-guide)
 - [Beyond Workflows connectors: Integration Builder expands what you can automate with Okta](https://www.okta.com/blog/product-innovation/okta-integration-builder-ga)
+- [Build and deploy custom app integrations directly in your Okta org using the Okta Integration Wizard](https://www.okta.com/blog/product-innovation/okta-integration-wizard-custom-apps)
 
 ## Newsroom
 
@@ -1543,4 +1544,5 @@
 - [New speed, same tricks: Defend against AI threats with security fundamentals](https://www.okta.com/newsroom/articles/new-speed-same-tricks-defend-against-ai-threats-with-security-fundamentals)
 - [How SEGA keeps players moving at Sonic speed with Auth0](https://www.okta.com/newsroom/articles/how-sega-keeps-players-moving-at-sonic-speed-with-auth0)
 - [Okta announces $1 billion share repurchase program](https://www.okta.com/newsroom/press-releases/okta-announces-1-billion-share-repurchase-program)
+- [Phishing resistance in the AI era with Okta Deputy CSO Charlotte Wylie](https://www.okta.com/newsroom/articles/phishing-resistance-in-the-ai-era-with-okta-deputy-cso-charlotte-wylie)
 

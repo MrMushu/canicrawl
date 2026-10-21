@@ -8,4 +8,12 @@ Disallow: /user/account/*
 User-agent: AmazonAdBot
 Allow: /
 
+User-agent: Google-Extended
+Disallow: /m/*/pictures
+Disallow: /tv/*/pictures
+Disallow: /search
+Disallow: /critics/self-submission/
+Disallow: /user/account/*
+Disallow: /napi/*
+
 Sitemap: https://www.rottentomatoes.com/sitemaps/sitemap.xml

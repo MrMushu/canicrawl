@@ -1,5 +1,5 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "filesScanned": 612,
  "distinctTokens": 2106,
  "aiCandidates": [
@@ -35,7 +35,7 @@
   },
   {
    "token": "FirecrawlAgent",
-   "sites": 28,
+   "sites": 29,
    "sample": [
     "allrecipes.com",
     "bbc.co.uk",
@@ -85,7 +85,7 @@
   },
   {
    "token": "Diffbot-User",
-   "sites": 11,
+   "sites": 12,
    "sample": [
     "allrecipes.com",
     "bbc.co.uk",
@@ -426,6 +426,16 @@
    "aiHint": false
   },
   {
+   "token": "FirecrawlAgent",
+   "sites": 29,
+   "sample": [
+    "allrecipes.com",
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "Cotoyogi",
    "sites": 29,
    "sample": [
@@ -434,16 +444,6 @@
     "amazon.co.uk"
    ],
    "aiHint": false
-  },
-  {
-   "token": "FirecrawlAgent",
-   "sites": 28,
-   "sample": [
-    "allrecipes.com",
-    "bbc.co.uk",
-    "bbc.com"
-   ],
-   "aiHint": true
   },
   {
    "token": "ISSCyberRiskCrawler",
@@ -566,6 +566,16 @@
    "aiHint": false
   },
   {
+   "token": "TavilyBot",
+   "sites": 23,
+   "sample": [
+    "academia.edu",
+    "amazon.ca",
+    "amazon.co.jp"
+   ],
+   "aiHint": false
+  },
+  {
    "token": "aiHitBot",
    "sites": 23,
    "sample": [
@@ -592,16 +602,6 @@
     "amazon.ca",
     "amazon.co.jp",
     "amazon.co.uk"
-   ],
-   "aiHint": false
-  },
-  {
-   "token": "TavilyBot",
-   "sites": 22,
-   "sample": [
-    "academia.edu",
-    "amazon.ca",
-    "amazon.co.jp"
    ],
    "aiHint": false
   },

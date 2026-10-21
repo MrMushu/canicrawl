@@ -62,6 +62,7 @@
 
 ## Blog Posts
 
+- [Message Prioritization: Make your most important messages win](https://www.braze.com/resources/articles/message-prioritization.md): Marketers today have to send a lot of questions, but making sure that the most important messages get priority has historically been a challenge. Now, with Braze Message Prioritization, brands can better manage what messages their users see and when.
 - [BrazeAI Operator™ Use Cases: How Marketers Launch Campaigns, Build Segments, And QA In Minutes](https://www.braze.com/resources/articles/brazeai-operator-use-cases.md): See what BrazeAI Operatorᵀᴹ use cases look like day to day: three real workflows for building campaigns, segments, and QA, with the prompts and the timings.
 - [B2C Personalization: A Practical Playbook](https://www.braze.com/resources/articles/b2c-personalization.md): How B2C personalization works across retail, media, and financial services, plus real-time triggers, product recommendations, and privacy-first tactics
 - [AI In eCommerce: Use Cases, Examples, And What To Build First](https://www.braze.com/resources/articles/ai-in-ecommerce.md): AI in eCommerce covers recommendations, search, cart recovery, messaging, and shopping assistants. Here are six use cases with real results and where to start.

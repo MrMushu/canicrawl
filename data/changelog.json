@@ -3704,6 +3704,14 @@
    "bot": "Diffbot",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-10-21",
+   "domain": "sophos.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "allowed",
+   "to": "blocked"
   }
  ]
 }
