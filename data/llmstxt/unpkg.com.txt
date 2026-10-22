@@ -1,0 +1,17 @@
+# UNPKG
+
+> UNPKG is a fast, global content delivery network for everything on npm. Load any file from any package with a URL like `https://unpkg.com/:package@:version/:file`.
+
+## Use UNPKG
+
+- [UNPKG home](https://unpkg.com/): URL pattern, semver ranges, nobuild apps, inline scripts, browser modules, metadata API, cache performance
+- [Supply Chain Security](https://unpkg.com/#supply-chain-security): UNPKG Shield (currently in Beta) — edge defense for production traffic, adoption visibility for package owners
+
+## Related
+
+- [UNPKG Shield](https://shield.unpkg.com/): supply chain defense for the packages and domains you depend on — currently in Beta
+- [Shield agent brief](https://shield.unpkg.com/llms.txt): machine-readable Shield product brief
+
+## Full detail
+
+- [llms-full.txt](https://unpkg.com/llms-full.txt): the complete machine-readable UNPKG brief

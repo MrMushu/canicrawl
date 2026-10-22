@@ -8,13 +8,14 @@ Disallow: /
 User-agent: *
 Allow: /a/feeds/
 Allow: /ads.txt
-Sitemap: https://www.fool.com/sitemap/
+Sitemap: https://www.fool.com/sitemap-recent.xml
+Sitemap: https://www.fool.com/news-sitemap.xml
+Sitemap: https://www.fool.com/money/news-sitemap.xml
 Sitemap: https://www.fool.com/wag-sitemap.xml
 Sitemap: https://www.fool.com/quotes-sitemap.xml
 Sitemap: https://www.fool.com/money/sitemap.xml
 Sitemap: https://www.fool.com/hreflang-tag-sitemap.xml
-Sitemap: https://www.fool.com/news-sitemap.xml
-Sitemap: https://www.fool.com/money/news-sitemap.xml
+Sitemap: https://www.fool.com/sitemap/
 Disallow: /3910
 Disallow: /a/
 Disallow: /account/

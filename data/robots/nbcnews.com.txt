@@ -279,6 +279,31 @@ Allow: /tips
 Allow: /tips/
 Allow: /information/nbc-news-info/closed-captioning-n1307063
 
+User-agent: Meta-ExternalFetcher
+User-agent: meta-externalfetcher
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
+User-agent: Meta-WebIndexer
+User-agent: meta-webindexer/1.1
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
+
 User-agent: MistralAI-User
 Disallow: /
 Allow: /select

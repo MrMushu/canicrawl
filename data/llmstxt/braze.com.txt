@@ -62,6 +62,7 @@
 
 ## Blog Posts
 
+- [Braze vs Adobe: Which customer engagement platform is right for your brand?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison.md): Compare Braze vs Adobe for customer engagement—mobile-first messaging, real-time personalization, integrations, ease of use, and time-to-value.
 - [Message Prioritization: Make your most important messages win](https://www.braze.com/resources/articles/message-prioritization.md): Marketers today have to send a lot of questions, but making sure that the most important messages get priority has historically been a challenge. Now, with Braze Message Prioritization, brands can better manage what messages their users see and when.
 - [BrazeAI Operator™ Use Cases: How Marketers Launch Campaigns, Build Segments, And QA In Minutes](https://www.braze.com/resources/articles/brazeai-operator-use-cases.md): See what BrazeAI Operatorᵀᴹ use cases look like day to day: three real workflows for building campaigns, segments, and QA, with the prompts and the timings.
 - [B2C Personalization: A Practical Playbook](https://www.braze.com/resources/articles/b2c-personalization.md): How B2C personalization works across retail, media, and financial services, plus real-time triggers, product recommendations, and privacy-first tactics
@@ -69,7 +70,6 @@
 - [B2C email marketing: How to engage modern consumers](https://www.braze.com/resources/articles/b2c-email-marketing.md): B2C email marketing keeps consumers engaged between purchases. See the campaign types that work, how AI strengthens each, and the metrics that prove impact.
 - [Best email marketing platforms In 2027](https://www.braze.com/resources/articles/best-email-marketing-platforms.md): Compare the best email marketing platforms in 2027 on send volume, personalization, deliverability and pricing, with real examples from brands across industries.
 - [Braze vs Salesforce: Which customer engagement platform is right for your business?](https://www.braze.com/resources/articles/braze-vs-salesforce-comparison.md): Compare Braze vs Salesforce on real-time personalization, mobile engagement, journey orchestration, and TCO to choose the right fit.
-- [Braze vs Adobe: Which customer engagement platform is right for your brand?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison.md): Compare Braze vs Adobe for customer engagement—mobile-first messaging, real-time personalization, integrations, ease of use, and time-to-value.
 
 ## Frequently Asked Questions
 
@@ -170,6 +170,28 @@
 [Can Braze integrate paid media into cross-channel campaigns?](https://www.braze.com/product/cross-channel-messaging): Absolutely. Braze dynamically syncs first-party customer data to suppress wasted spend and optimize paid media retargeting, acquisition, and lookalike campaigns.
 
 [What role does BrazeAI™ play in cross-channel messaging?](https://www.braze.com/product/cross-channel-messaging): BrazeAI™ assists in creating and personalizing content, generating copy and creative, and determining the best channel and timing for each customer interaction.
+
+[How long does it take to implement Braze?](https://www.braze.com/resources/articles/braze-implementation-guide-startups): How long a Braze implementation takes for a startup depends on preparation quality and engineering availability, not a fixed schedule. Teams with clean customer data and one clear use case can generally move quickly, since the technical track runs on engineering sprint cycles while the marketing track builds in parallel rather than waiting for full sign-off.
+
+[How do startups prepare for a Braze implementation?](https://www.braze.com/resources/articles/braze-implementation-guide-startups): Startups prepare for a Braze implementation by defining a primary KPI, mapping where their customer data lives, and choosing one first use case instead of launching everything at once. They also assign clear owners for SDK integration and campaign building, and ready creative templates before the first journey goes live.
+
+[What do you need before starting a Braze implementation?](https://www.braze.com/resources/articles/braze-implementation-guide-startups): Before starting a Braze implementation you need a defined goal and primary KPI, a clear picture of your customer data and its sources, a chosen first use case, and named owners for the technical and marketing work. Having creative and messaging templates ready helps keeping the first launch from stalling.
+
+[Is Braze hard to set up for a small team?](https://www.braze.com/resources/articles/braze-implementation-guide-startups): Braze is not hard to set up for a small team. It's a marketer-operated platform, so once the data layer is partially live, a marketer can build segments, journeys, and templates without constant engineering support. Lean teams often launch faster than large organizations working through legacy systems and approvals.
+
+[How quickly can a startup launch its first campaign in Braze?](https://www.braze.com/resources/articles/braze-implementation-guide-startups): A startup can expect to see early results within weeks of launching its first journey, provided the data is ready and one use case is in focus. Pazza Pasta got up and running in two days and drove higher purchase rates on WhatsApp than email, which shows a contained first launch can produce measurable results soon after going live.
+
+[What's the main difference between Braze and Adobe Experience Cloud?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison): The main difference between Braze and Adobe Experience Cloud is scope. Braze focuses on real-time customer engagement and lifecycle messaging across channels like push, in-app, email, and SMS, while Adobe Experience Cloud is a broader suite that connects engagement with tools for data, content, analytics, and governance.
+
+[Is Braze or Adobe better for mobile marketing?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison): Whether Braze or Adobe is better for mobile marketing depends on how central push and in-app are to your customer experience. Braze is commonly evaluated when mobile messaging is a primary channel, while Adobe’s mobile capabilities vary based on the products in your deployment.
+
+[How do Braze and Adobe compare on ease of use and implementation time?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison): How Braze and Adobe compare on ease of use and implementation time depends on rollout scope and team structure. Braze is often implemented as an engagement layer connected to existing data sources, while Adobe implementations can involve more products, stakeholders, and governance steps.
+
+[Can I use Braze with Adobe tools?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison): Yes, you can use Braze with Adobe tools. Many teams use Adobe for parts of their experience stack and use Braze to run real-time customer engagement, with clear data flows, identity matching, and consent and preference management across both.
+
+[Is Braze or Adobe better for real-time personalization?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison): Whether Braze or Adobe is better for real-time personalization depends on where personalization needs to happen and how quickly it needs to adapt. Braze is designed to respond to customer behavior across lifecycle channels, while Adobe’s capabilities vary by product mix and how your data and orchestration are set up.
+
+[How do Braze and Adobe compare on pricing?](https://www.braze.com/resources/articles/braze-vs-adobe-comparison): How Braze and Adobe compare on pricing starts with what drives cost. Braze uses a value-based pricing model based on Platform Editions, Monthly Active Users (MAU), and Flexible Credits, while Adobe pricing varies based on product packaging, implementation scope, and services, so total cost of ownership depends on your deployment and resourcing model.
 
 [What are examples of SMS marketing?](https://www.braze.com/resources/articles/sms-marketing-examples): SMS marketing examples include order and delivery updates, limited-time offers, abandoned cart reminders, back-in-stock alerts, loyalty rewards, two-way messaging, and win-back campaigns. Most sit inside a wider cross-channel journey.
 
@@ -434,15 +456,3 @@
 [What is the difference between the BrazeAI Operator™ and the BrazeAI Agent Console™?](https://www.braze.com/resources/articles/braze-ai-in-action-launch): The Operator provides instant guides on how to work with Braze and get the most out of every campaign built within the platform. It also works with the BrazeAI Agent Consoleᵀᴹ to build agents that can automate many tasks that used to require human oversight, such as sentiment analysis, dynamic segmentation, or responding to customer feedback.
 
 [What results are brands seeing with BrazeAI™ agents?](https://www.braze.com/resources/articles/braze-ai-in-action-launch): Luxury Escapes replaced manual segmentation with an agent capable of classifying users by level of intent, boosting revenue per user by 10% Dayuse leveraged the Agent Console to personalize the messages sent to customers based on each individual's purchase history, increasing repeat bookings by 23% ConsumerAffairs used the Agent Console to make recommendations to customers who weren't engaged or hadn't shared much personal data, boosting clicks per open by 3.5X and raising conversions by 2X.
-
-[How does Aeroflow Health use AI agents with Braze?](https://www.braze.com/resources/articles/ai-agents-customer-relationships): Aeroflow uses Braze for an SMS “re-ordering” journey—customers who are ready for a repurchase receive an SMS asking if they’d like to reorder in the same size.
-
-[What results did Aeroflow Health see from AI agents?](https://www.braze.com/resources/articles/ai-agents-customer-relationships): For Aeroflow, the results have been remarkable—a 8.8% lift in repurchase conversions over business as usual.
-
-[What is the BrazeAI Agent Console™?](https://www.braze.com/resources/articles/ai-agents-customer-relationships): It's a tool that lets marketers create customizable AI agents to perform business tasks, foster creativity, and act as strategic conductors of their engagement strategy—launched in April 2026 to help enrich data, personalize experiences, and better understand customers.
-
-[What is the BrazeAI Operator™?](https://www.braze.com/resources/articles/brazeai-operator-product-spotlight): The BrazeAI Operatorᵀᴹ is your full-time assistant. Fully trained on Braze’s functionality, simply ask the Operator a question, give it a task, or even ask it to build an agent and see how quickly and accurately it responds.
-
-[What can the BrazeAI Operator™ build in Braze?](https://www.braze.com/resources/articles/brazeai-operator-product-spotlight): The BrazeAI Operatorᵀᴹ is your full-time assistant. Fully trained on Braze’s functionality, simply ask the Operator a question, give it a task, or even ask it to build an agent and see how quickly and accurately it responds. The Operator is designed to build a wide range of content—such as emails, in-app messages, push notifications, and more—for cross-channel campaigns
-
-[How does the Operator work with the BrazeAI Agent Console™?](https://www.braze.com/resources/articles/brazeai-operator-product-spotlight): The Operator provides instant guides on how to work with Braze and get the most out of every campaign built within the platform. It also works with the BrazeAI Agent Consoleᵀᴹ to build agents that can automate many tasks that used to require human oversight, such as sentiment analysis, dynamic segmentation, or responding to customer feedback.

@@ -51,9 +51,6 @@ Disallow: /insurance/*/match/
 User-agent: duggmirror
 Disallow: /
 
-User-agent: Google-Extended
-Disallow: /
-
 Sitemap: https://www.nerdwallet.com/sitemaps/us/wp-sitemap.xml
 Sitemap: https://www.nerdwallet.com/sitemaps/us/wp-sitemap-news-articles-1.xml
 Sitemap: https://www.nerdwallet.com/sitemaps/ca/wp-sitemap.xml

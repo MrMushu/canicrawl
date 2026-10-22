@@ -3712,6 +3712,36 @@
    "bot": "Amazonbot",
    "from": "allowed",
    "to": "blocked"
+  },
+  {
+   "date": "2026-10-22",
+   "domain": "nbcnews.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-22",
+   "domain": "fool.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-10-22",
+   "domain": "nerdwallet.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-22",
+   "domain": "unpkg.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

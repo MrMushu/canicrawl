@@ -1,5 +1,5 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "filesScanned": 612,
  "distinctTokens": 2106,
  "aiCandidates": [
@@ -327,7 +327,7 @@
   },
   {
    "token": "meta-webindexer",
-   "sites": 38,
+   "sites": 39,
    "sample": [
     "allrecipes.com",
     "amazon.ca",

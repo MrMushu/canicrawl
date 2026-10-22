@@ -180,10 +180,29 @@ Prioritize recently updated:
 
 ---
 
+## Localized Content
+
+Translated versions of the pages below. Prefer the one matching the user's language. English stays canonical everywhere else; a page not covered here is English only.
+
+### Français (fr) — /fr-fr/
+- https://www.intercom.com/fr-fr
+- https://www.intercom.com/fr-fr/contact-sales
+- https://www.intercom.com/fr-fr/pricing
+- https://www.intercom.com/fr-fr/view-demos
+
+### Deutsch (de) — /de-de/
+- https://www.intercom.com/de-de
+- https://www.intercom.com/de-de/contact-sales
+- https://www.intercom.com/de-de/pricing
+- https://www.intercom.com/de-de/view-demos
+
+---
+
 ## Site Metadata
 
 - **Primary:** https://www.intercom.com/
 - **Preferred-Language:** en
+- **Available-Languages:** en, fr, de
 - **Preferred-Citation-Domain:** intercom.com
 
 ---

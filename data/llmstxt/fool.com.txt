@@ -1,0 +1,30 @@
+# The Motley Fool
+
+> Stock investing research, market news, and personal finance from The Motley Fool.
+
+fool.com publishes investing analysis, stock quotes, educational articles, and podcasts. This file is a short map of the public site for AI agents.
+
+## Pages
+
+- [Home](https://www.fool.com/): Featured investing stories and market coverage
+- [Stock quotes](https://www.fool.com/quote/): Quote lookup, charts, and company data
+- [Investing news](https://www.fool.com/investing-news/): Latest investing articles
+- [Trending news](https://www.fool.com/trending-news/): Popular market stories
+- [Podcasts](https://www.fool.com/podcasts/): Show list and episodes
+- [Authors](https://www.fool.com/author/): Author directory
+- [Calculators](https://www.fool.com/calculators/index/): Personal finance calculators
+- [How to invest](https://www.fool.com/investing/how-to-invest/): Investing education
+- [Financial terms](https://www.fool.com/terms/): Glossary of investing and finance terms
+- [Research](https://www.fool.com/research/): Data-driven analysis and financial statistics
+- [Markets](https://www.fool.com/markets/): Market data tables and stock performance lists
+- [Stock market basics](https://www.fool.com/investing/stock-market/): Evergreen investing articles
+- [Slideshows](https://www.fool.com/slideshow/): Visual investing guides
+- [About](https://www.fool.com/about/): Company information
+- [Legal](https://www.fool.com/legal/terms-and-conditions/): Terms and legal pages
+
+## Notes
+
+- Quote pages use `/quote/{exchange}/{symbol}/` (example: [/quote/nasdaq/aapl/](https://www.fool.com/quote/nasdaq/aapl/)).
+- Article URLs often include a date: `/{section}/YYYY/MM/DD/{slug}/`.
+- Podcast shows use `/podcasts/{show}/` and episodes use `/podcasts/{show}/{YYYY-MM-DD}-{slug}/` (example: [/podcasts/hidden-gems/](https://www.fool.com/podcasts/hidden-gems/)).
+- Earnings call transcripts use `/earnings/call-transcripts/YYYY/MM/DD/{slug}/`.
