@@ -5,6 +5,7 @@ Disallow: /addineyeV2l
 Disallow: /eyeblaster
 Disallow: /doubleclick/
 Disallow: /ads/sponsored
+Disallow: /_fs-ch-1T1wmsGaOgGaSxcX/
 
 # Disallow Bots
 User-agent: Amazonbot

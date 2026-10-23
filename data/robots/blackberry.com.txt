@@ -18,7 +18,7 @@ Disallow: /select/pdfs/technicalreference/
 Disallow: /support/tsupport/pdfs/noindex/
 Disallow: /content/dam/blackberry-com/asset/enterprise/pdf/direct
 Disallow: /content/dam/blackberry-com/asset/enterprise/webcast/direct
-Disallow: /us/en/support/software-support-life-cycle/bcn-uem-downloads 
+Disallow: /us/en/support/software-support-life-cycle/bcn-uem-downloads
 Disallow: /us/en/support/software-support-life-cycle/bcn-ues-downloads
 Disallow: /*/unindexed/
 Disallow: /*/thankyou

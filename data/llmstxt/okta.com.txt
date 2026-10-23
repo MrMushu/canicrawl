@@ -1205,7 +1205,7 @@
 - [Every Agent Needs an Identity: Introducing Okta for AI Agents in Early Access (EA)](https://www.okta.com/blog/ai/okta-ai-agents-early-access-announcement)
 - [Disrupting ShieldGuard: a security extension primed to drain crypto wallets](https://www.okta.com/blog/threat-intelligence/disrupting-shieldguard--a-security-extension-primed-to-drain-cry)
 - [The Next Frontier in Identity Security with LLM-Driven Risk Scoring](https://www.okta.com/blog/ai/llm-identity-risk-scoring)
-- [AI-Powered Identity Threat Defense: How Okta is Redefining Trust in the Era of Identity Fabric and AI Agents](https://www.okta.com/blog/ai/okta-isf-ai-defense)
+- [AI-powered identity threat defense: How Okta is redefining trust in the era of identity fabric and AI agents](https://www.okta.com/blog/ai/okta-isf-ai-defense)
 - [From Noise to Narratives: How AI Transforms Security Signals into Executive Action](https://www.okta.com/blog/ai/ai-powered-security-briefs)
 - [Okta Ensures Real-Time Policy Consistency with Smart Database Read Isolation (DBRI)](https://www.okta.com/blog/product-innovation/okta-smart-dbri-consistency)
 - [Unifying the Retail Customer Journey from Web to AI Agent with Auth0](https://www.okta.com/blog/ai/retail-customer-journey-ai-auth0)
@@ -1293,6 +1293,7 @@
 - [Key insights from Okta's CSO survey: Challenges and opportunities for Okta Ventures portfolio](https://www.okta.com/blog/industry-insights/key-insights-cso-identity-security-survey)
 - [Governing AI agents: Four questions every government agency needs to answer](https://www.okta.com/blog/industry-insights/securing-ai-agents-government)
 - [Okta and AWS: Bringing fine-grained entitlement management to cloud infrastructure](https://www.okta.com/blog/product-innovation/okta-aws-entitlement-management)
+- [How Okta is securing agent identity with Client ID Metadata Documents (CIMD)](https://www.okta.com/blog/product-innovation/okta-cimd-ai-agent-identity)
 - [When enrollment isn’t enough: How attackers trick users into MFA downgrades | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/when_enrollment_isnt_enough)
 - [Launch Week ‘25: New Year Edition](https://www.okta.com/blog/product-innovation/launch-week-25-new-year-edition)
 - [Modern identity at work: Productivity meets security](https://www.okta.com/blog/identity-security/modern-identity-at-work-productivity-meets-security)
@@ -1300,8 +1301,10 @@
 - [Securing AI agents at runtime with Okta’s Agent Gateway](https://www.okta.com/blog/product-innovation/okta-agent-gateway-runtime-security)
 - [Diagnosing modern healthcare identity attacks](https://www.okta.com/blog/industry-insights/healthcare-identity-attacks-defense-guide)
 - [Founders in Focus: Ivan Burazin, Co-Founder and CEO of Daytona](https://www.okta.com/blog/company-and-culture/founders-in-focus-ivan-burazin-of-daytona)
+- [Cybersecurity Awareness Month: Four essential steps to secure agentic AI in government](https://www.okta.com/blog/industry-insights/secure-agentic-ai-government)
 - [Beyond Workflows connectors: Integration Builder expands what you can automate with Okta](https://www.okta.com/blog/product-innovation/okta-integration-builder-ga)
 - [Build and deploy custom app integrations directly in your Okta org using the Okta Integration Wizard](https://www.okta.com/blog/product-innovation/okta-integration-wizard-custom-apps)
+- [Okta for AI Agents makes agent and MCP server registration easier across platforms](https://www.okta.com/blog/product-innovation/registering-ai-agents-mcp-servers)
 
 ## Newsroom
 

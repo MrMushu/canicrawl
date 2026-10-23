@@ -15,7 +15,6 @@
 [ASUS Pad (T3201)](https://www.asus.com/mobile-handhelds/tablets/all-series/asus-pad-t3201/)
 
 #### [Gaming Handhelds]()
-[ROG XBOX Ally X20 (2026)](https://rog.asus.com/gaming-handhelds/rog-ally/rog-xbox-ally-x20-2026/)
 [ROG XBOX Ally X20 Bundle (2026) ](https://rog.asus.com/gaming-handhelds/rog-ally/rog-xbox-ally-x20-bundle-2026/)
 [ROG Xbox Ally / Ally X](https://rog.asus.com/content/rog-xbox-ally/)
 [ROG Xbox Ally X (2025)](https://rog.asus.com/gaming-handhelds/rog-ally/rog-xbox-ally-x-2025/)
@@ -46,6 +45,7 @@
 [ASUS Miraico ICD-10 Coding Assistant](https://www.asus.com/mobile-handhelds/wearable-healthcare/miraico-icd-10-coding-assistant/asus-miraico-icd-10-coding-assistant/)
 [ASUS Clinical AI Assistant](https://www.asus.com/mobile-handhelds/wearable-healthcare/clinical-ai-assistant/asus-clinical-ai-assistant/)
 [ASUS Endoscopy AI EndoAim](https://www.asus.com/mobile-handhelds/wearable-healthcare/asus-endoaim-ai-endoscopy-system/asus-endoaim)
+[ASUS HealthHub for Telehealth](https://www.asus.com/mobile-handhelds/wearable-healthcare/asus-healthhub/asus-healthhub-max/)
 
 #### [Accessories](https://www.asus.com/mobile-handhelds/accessories/all-series/)
 
@@ -57,7 +57,6 @@
 [Zenbook](https://www.asus.com/laptops/for-home/zenbook/)
 [Vivobook](https://www.asus.com/laptops/for-home/vivobook/)
 [Chromebook](https://www.asus.com/laptops/for-home/chromebook/)
-[Googlebook](https://www.asus.com/laptops/for-home/googlebook/)
 
 #### [For Work](https://www.asus.com/laptops/for-work/all-series/)
 [All series](https://www.asus.com/laptops/for-work/all-series/)
@@ -95,7 +94,6 @@
 [ProArt Creator Hub](https://www.asus.com/proart/software-solutions/proart-creator-hub/)
 [MuseTree](https://www.asus.com/proart/software-solutions/musetree/)
 [StoryCube](https://www.asus.com/proart/software-solutions/storycube/)
-[ASUS Zenni Claw](https://www.asus.com/content/asus-zenni-claw/)
 [Armoury Crate](https://rog.asus.com/content/armoury-crate/)
 [GlideX](https://www.asus.com/content/GlideX)
 [McAfee](https://www.asus.com/content/McAfee)
@@ -110,6 +108,9 @@
 
 #### [AI PC]()
 [AI PC](https://www.asus.com/content/asus-ai-pc/)
+
+#### [Copilot+ PC]()
+[Copilot+ PC](https://www.asus.com/content/copilot-plus-pc/)
 
 
 ### Displays / Desktops
@@ -162,7 +163,6 @@
 #### [NUCs](https://www.asus.com/displays-desktops/nucs/all-series/)
 [NUC Overview](https://www.asus.com/content/nuc-overview/)
 [AI NUC](https://www.asus.com/content/ai-nuc/)
-[NUC Mini PC Ecosystem](https://www.asus.com/content/nuc-mini-pc-ai-agent-ecosystem/)
 [NUC Mini PCs](https://www.asus.com/displays-desktops/nucs/nuc-mini-pcs/)
 [NUC Kits](https://www.asus.com/displays-desktops/nucs/nuc-kits/)
 [NUC Boards](https://www.asus.com/displays-desktops/nucs/nuc-boards/)
@@ -270,7 +270,6 @@
 #### [External Graphics Docks](https://www.asus.com/motherboards-components/external-graphics-docks/all-series/)
 [XG STATION PRO](https://www.asus.com/Motherboards-Components/External-Graphics-Docks/All-series/XG-STATION-PRO)
 [ROG - Republic of Gamers](https://www.asus.com/motherboards-components/external-graphics-docks/rog-republic-of-gamers/)
-[ASUS XG Core](https://www.asus.com/motherboards-components/external-graphics-docks/all-series/xg-core-rx9060xt-lp-16g/)
 
 #### [AI Accelerator](https://www.asus.com/motherboards-components/ai-accelerator/all-series/)
 [All Series](https://www.asus.com/motherboards-components/ai-accelerator/all-series/)
@@ -322,12 +321,12 @@
 [Zenbo Junior II](https://zenbo.asus.com/product/zenbojuniorII/overview/)
 
 #### [AIoT & Industrial Solutions](https://www.asus.com/networking-iot-servers/aiot-industrial-solutions/all-series/)
-[Industrial Edge Server](https://iot.asus.com/industrial-edge-servers/server-motherboards/filter?Series=Server-Motherboards)
 [Industrial Motherboard](https://iot.asus.com/industrial-motherboards/all-series/)
 [Single-Board Computer](https://iot.asus.com/single-board-computers/all-series/)
 [Computer-On-Module](https://iot.asus.com/computer-on-modules/com-express/filter?Series=COM-Express)
 [Embedded Computer & Edge AI System](https://iot.asus.com/embedded-computers-edge-ai-systems/all-series/)
 [Edge AI Jetson computers](https://iot.asus.com/embedded-computers-edge-ai-systems/edge-ai-gpu-computers/filter?Series=Edge-AI-GPU-Computers&Spec=2213)
+[Industrial Panel PC](https://iot.asus.com/industrial-panel-pcs/x86-based/filter?Series=x86-based)
 [AI Software](https://iot.asus.com/ai-software-ai-platforms/ai-software-ai-platforms/filter?Series=AI-Software-AI-Platforms)
 [GPU & Edge AI Accelerator](https://iot.asus.com/gpu-edge-ai-accelerators/google-tpu/)
 [Tinker Board Website](https://tinker-board.asus.com/index.html)
@@ -340,13 +339,12 @@
 #### [Servers](https://www.asus.com/networking-iot-servers/servers/all-series/)
 [AI Infrastructure Overview](https://servers.asus.com/)
 [ASUS AI Factory](https://www.asus.com/event/asus-ai-factory/)
-[NVIDIA Vera Rubin NVL72](https://www.asus.com/event/asus-ai-pod-nvidia-vera-rubin-nvl72/)
-[NVIDIA HGX Rubin NVL8](https://www.asus.com/event/liquid-cooled-nvidia-hgx-rubin-gpu-server/)
+[AI Server](https://www.asus.com/event/ai-server-solutions/)
+[NVIDIA-Certified Systems](https://www.asus.com/event/nvidia-certified-systems/)
 [NVIDIA GB300 NVL72](https://www.asus.com/event/nvidia-gb300-nvl72/)
-[NVIDIA HGX B300/ RTX PRO Server](https://www.asus.com/event/nvidia-certified-systems/)
-[AMD EPYC 9006 Processor](https://www.asus.com/event/amd-epyc-9006-servers/)
-[AMD EPYC 9005 Processor](https://www.asus.com/event/amd-epyc-9005-servers/)
 [Intel Xeon 6 Processor](https://www.asus.com/event/intel-xeon-6-processor-servers/)
+[AMD EPYC 9005 Processor](https://www.asus.com/event/amd-epyc-9005-servers/)
+[AI Solutions for Finance ](https://www.asus.com/event/ai-in-financial-services/)
 
 #### [Smart Home](https://www.asus.com/networking-iot-servers/smart-home/all-series/)
 [All series](https://www.asus.com/networking-iot-servers/smart-home/all-series/)
@@ -396,7 +394,6 @@
 
 #### [Adapters and Chargers](https://www.asus.com/accessories/adapters-and-chargers/all-series/)
 [All series](https://www.asus.com/accessories/adapters-and-chargers/all-series/)
-[ROG - Republic of Gamers](https://www.asus.com/accessories/adapters-and-chargers/rog-republic-of-gamers/)
 [ASUS Adapters and Chargers](https://www.asus.com/accessories/adapters-and-chargers/asus-adapters-and-chargers/)
 
 #### [Wireless Charger]()
@@ -419,9 +416,6 @@
 
 #### [Controller](https://www.asus.com/accessories/controller/all-series/)
 [ROG - Republic of Gamers](https://www.asus.com/accessories/controller/rog-republic-of-gamers/)
-
-#### [Bike Booster]()
-[ASUS Oxiis](https://www.asus.com/accessories/bike-booster/asus-oxiis/)
 
 #### [Gimbal](https://www.asus.com/accessories/gimbal/all-series/)
 [All Series](https://www.asus.com/accessories/gimbal/all-series/)
@@ -447,13 +441,13 @@
 
 
 ## ASUS Campaigns and Events
-[Join the Upgrade What Matters Giveaway](https://www.asus.com/microsite/motherboard/upgrade-what-matters-2026/)
-[ASUS Powering Every AI Choice Campaign](https://asus.click/PEAC-ASUSCampaignBanner)
-[ASUS SecureGo Device Protection with McAfee](https://asus.click/51i08k)
-[ROG Certified Program｜Trusted Memory Compatibility](https://rog.asus.com/content/rog-certified-products/?utm_source=asus_official_site&utm_medium=campaign_banner&utm_campaign=rog_certified_program)
-[ ASUS AiProtection - Free Home & Router Security](https://asus.click/6vqntx)
-[Unlock ProArt Masters Talks with ProArt Product Registration](https://www.asus.com/events/landingPage/activity_Registration_ProArt_Masters_Talks)
-[Excel Esports Landmark Battle Livestream |  ASUS ZenScreen & ExpertBook Ultra](https://www.asus.com/content/excel-esports-landmark-battle/?utm_source=ASUSsite&utm_medium=website&utm_campaign=Campaign-awarness&utm_content=LearnMore&utm_term=Excel-Esports-LandmarkBattle)
+[All Set for WiFi 7 - Explore Router Upgrade Deals](https://asus.click/dumaqp)
+[WE ARE T1 Giveaway Campaign](https://www.asus.com/content/ASUST1Gaming?utm_source=asus&utm_medium=banner&utm_campaign=ASUST1Gaming)
+[ROG NUC x Intel Spring Game Bundle](https://www.asus.com/events/infoM/activity_10819)
+[Create with the Best](https://www.asus.com/proart/proartevents/createwiththebest/?utm_source=asus&utm_medium=campaignbanner2&utm_campaign=2026-q2_proart-campaign_hq)
+[Shape the Future of ProArt Masters Talks](https://www.asus.com/proart/proartevents/createwiththebest?utm_medium=asuscampaignbanner&utm_campaign=2026-q2-proart-campaign-hq)
+[Join the "ROG OLED: Worth The Upgrade Challenge" Giveaway Campaign
+ ](https://rog.asus.com/content/best-oled-gaming-monitor/#join-now)
 [First Look: New ASUS Laptops at CES 2026](https://www.asus.com/blog/first-look-new-asus-laptops-at-ces-2026/)
 [What is WiFi 8? Discover ASUS's Latest Breakthroughs at CES 2026.](https://www.asus.com/content/what-is-wifi8/)
 [A Guide to ASUS Laptops at CES 2026: Which One Is Right for You? ](https://www.asus.com/blog/a-guide-to-asus-laptops-at-ces-2026-which-one-is-right-for-you/)
@@ -462,6 +456,7 @@
 [Unlock Your Multi-Screen Superpower: How ASUS GlideX Creates a Seamless Workflow Across All Your Devices](https://www.asus.com/blog/unlock-multi-screen-power-how-asus-glidex-creates-a-seamless-workflow-across-all-your-devices/)
 [ASUS GlideX: The App That Transforms Your AI PC Experience](https://www.asus.com/blog/asus-glidex-the-app-that-transforms-your-ai-pc-experience/)
 [Get Monster Hunter Wilds™ when you buy select AMD products](https://www.asus.com/microsite/gamebundle-amd/)
+[No.1 Gaming Monitor Brand](https://www.asus.com/content/best-gaming-monitor/)
 
 
 ## ASUS All Local Sites

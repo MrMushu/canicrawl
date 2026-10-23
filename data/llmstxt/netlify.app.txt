@@ -28,6 +28,7 @@
 - [About](https://www.netlify.com/about.md): About Netlify.
 - [Security](https://www.netlify.com/security.md): Security, compliance, and trust.
 - [Agent experience](https://www.netlify.com/agent-experience.md): How Netlify builds for AI agents.
+- [Agent authentication](https://www.netlify.com/auth.md): How AI agents get credentials for Netlify (MCP OAuth, personal access tokens, OAuth apps, CLI).
 - [Careers](https://www.netlify.com/careers.md): Open roles at Netlify.
 - [Contact](https://www.netlify.com/contact.md): Get in touch.
 

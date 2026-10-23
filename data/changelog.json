@@ -3742,6 +3742,38 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-10-23",
+   "domain": "soundcloud.com",
+   "kind": "bot-flip",
+   "bot": "Claude-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-23",
+   "domain": "soundcloud.com",
+   "kind": "bot-flip",
+   "bot": "Claude-SearchBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-23",
+   "domain": "soundcloud.com",
+   "kind": "bot-flip",
+   "bot": "omgili",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-23",
+   "domain": "soundcloud.com",
+   "kind": "bot-flip",
+   "bot": "omgilibot",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

@@ -29,9 +29,7 @@ Disallow: /amp$
 Disallow: /application/*
 Disallow: /ixale/
 Disallow: /core/Content/
-Disallow: /promotions/emails/
 Disallow: /r/
-Disallow: /sponsored/travel/msc-cruises/
 Disallow: /travel/hotel/e/*
 Disallow: /travel/hotels/hotel-finder/
 Disallow: /podcasts-more/
@@ -112,6 +110,75 @@ Allow: /travel/explore-dubai/
 Allow: /travel/luxury-stays/
 Allow: /business/uk-business-growth/
 Allow: /ads.txt
+Allow: /bah-avis/usa-sports-road-trip-map
+Allow: /betting/
+Allow: /british-airways-holidays/cyprus-hotel-map
+Allow: /business/ai-era-job-skills/
+Allow: /business/ai-workflow-transformation/
+Allow: /business/future-hr-technology/
+Allow: /business/golf-dp-world-tour/
+Allow: /business/search-marketing/
+Allow: /business/waste-management/
+Allow: /deals/
+Allow: /environment/woodland-action/
+Allow: /fashion/joseph-ribkoff-autumn-collection/
+Allow: /financial-services/
+Allow: /food-and-drink/m-and-s-seasonal-favourites/
+Allow: /food-and-drink/m-and-s-seasonal-favourites/organic-range/
+Allow: /food-and-drink/maldon-salt-perfect-pyramid-challenge/
+Allow: /food-and-drink/spanish-dining-uk/
+Allow: /football/global-football-industry-awards/
+Allow: /health-fitness/how-to-choose-private-hospital-hca-healthcare/
+Allow: /interiors/next-home-autumn-interiors-trends/
+Allow: /junior-golf/
+Allow: /lifestyle-solutions/
+Allow: /lifestyle/apl-media/
+Allow: /branded-content/
+Allow: /money/investing/fc-investment-trust/long-term-investing/
+Allow: /branded-content/
+Allow: /rugby-union/grassroots-rugby-heroes/
+Allow: /rugby-union/levelling-the-playing-field/
+Allow: /sailgp/inside-f50-catamaran
+Allow: /seabourn/explore-the-mediterranean
+Allow: /sport/sailgp-championship/
+Allow: /travel/active-family-holidays/
+Allow: /travel/away-holidays/
+Allow: /travel/barbados-holiday-guide/
+Allow: /travel/british-airways-american-express/
+Allow: /travel/canadian-affair-holidays/rocky-mountaineer-train-route/
+Allow: /travel/croatia-holidays/
+Allow: /travel/cruises/holland-america-line-luxury-holidays/
+Allow: /travel/cruises/seabourn-luxury-cruises/
+Allow: /travel/discover-america/
+Allow: /travel/exclusiveoffers/
+Allow: /branded-content/
+Allow: /travel/florida-guide/
+Allow: /travel/fly-drive-holidays/
+Allow: /travel/grenada-guide/
+Allow: /travel/icons-of-the-sky/
+Allow: /travel/indian-ocean-escapes/
+Allow: /travel/indulge-in-ireland/
+Allow: /travel/jamaica-holiday-guide/
+Allow: /travel/japan-ninja-heritage/
+Allow: /travel/luxury-all-inclusive-resorts/affordable-caribbean-hotels/
+Allow: /travel/luxury-holidays/
+Allow: /travel/luxury-hotel-getaways/
+Allow: /travel/luxury-island-escapes/
+Allow: /travel/maldives-holiday-guide/
+Allow: /travel/ski-resorts-for-everyone/
+Allow: /travel/spark/best-of-switzerland/
+Allow: /travel/tailor-made-tours/
+Allow: /travel/tenerife-holidays/
+Allow: /travel/tips-for-visiting-spain/
+Allow: /travel/travel-counsellors/book-a-cruise-with-travel-counsellors/
+Allow: /travel/travel-solutions/
+Allow: /travel/visit-cayman-islands/
+Allow: /travel/why-choose-malta/
+Allow: /trusted-partners/
+Allow: /brand-usa
+Allow: /travel/visit-aarhus/
+Allow: /bespoke-content/
+
 
 
 # Sitemap URLs
@@ -120,9 +187,4 @@ Sitemap: https://www.telegraph.co.uk/custom/authors/sitemap.xml
 Sitemap: https://www.telegraph.co.uk/custom/main-pages/sitemap.xml
 Sitemap: https://www.telegraph.co.uk/custom/daily-news/sitemap.xml
 Sitemap: https://www.telegraph.co.uk/custom/author-pages/sitemap.xml
-
-
-
-
-
 

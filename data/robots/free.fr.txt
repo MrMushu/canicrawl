@@ -16,8 +16,8 @@ User-Agent: Pinterest
 Allow: /
 
 User-Agent: *
-Disallow: /freebox/informations/avis-freebox/?page=
-Allow: /freebox/informations/avis-freebox/?page=1
+Disallow: /informations/avis-free/?page=
+Allow: /informations/avis-free/?page=1
 Disallow: /apps/
 Disallow: /*contentOnly*
 

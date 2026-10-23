@@ -1,12 +1,14 @@
 # =============================================================================
 # robots.txt for soundcloud.com
-# Updated: 2026-05-05
+# Updated: 2026-10-21
 # =============================================================================
 
 # AI Crawlers: editorial only, no UGC training
 User-Agent: anthropic-ai
 User-Agent: ClaudeBot
 User-Agent: Claude-Web
+User-Agent: Claude-User
+User-Agent: Claude-SearchBot
 User-Agent: GPTBot
 User-Agent: ChatGPT-User
 User-Agent: OAI-SearchBot
@@ -18,6 +20,9 @@ User-Agent: Bytespider
 User-Agent: Amazonbot
 User-Agent: Meta-ExternalAgent
 User-Agent: cohere-ai
+User-Agent: omgili
+User-Agent: omgilibot
+User-Agent: Brightbot
 
 # Homepage
 Allow: /$

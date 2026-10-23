@@ -82,20 +82,20 @@
 - [Real User Monitoring (RUM) for Web and Mobile](https://sentry.io/solutions/real-user-monitoring-rum/): Find out why users quit or rage-click. Sentry's RUM connects every user session to the trace, error, and replay behind i
 
 ## Platforms
-- [Android Crash Reporting and Performance Monitoring](https://sentry.io/for/android/): `Decrease your crash rates & boost visibility with Android performance monitoring & crash reporting. Get started with Se
+- [Android Crash Reporting and Performance Monitoring](https://sentry.io/for/android/): Decrease your crash rates & boost visibility with Android performance monitoring & crash reporting. Get started with Sen
 - [Angular Error and Performance Monitoring](https://sentry.io/for/angular/): Resolve performance bottlenecks & errors with Angular performance monitoring. Learn how to start prioritizing live issue
-- [ASP.NET Error Tracking and Performance Monitoring](https://sentry.io/for/aspnet/): Get insights you can act on with ASP.NET Core application monitoring. Learn how you can easily diagnose, fix, & optimize
+- [ASP.NET Error Tracking and Performance Monitoring](https://sentry.io/for/aspnet/): Get insights you can act on with ASP.NET application monitoring. Learn how you can easily diagnose, fix, & optimize perf
 - [ASP.NET Core Error Tracking and Performance Monitoring](https://sentry.io/for/aspnetcore/): See here how you can use actionable insights to easily diagnose, resolve, & optimize the performance of your ASP.NET Cor
 - [Astro Error and Performance Monitoring](https://sentry.io/for/astro/): Get started identifying & resolving performance issues with Astro error & performance monitoring. Learn how to get start
 - [Debugging on AWS Lambda with Code-Level Visibility](https://sentry.io/for/aws-lambda/): Monitor your AWS application health & identify issues easier with Sentry. Learn how to get started with our error & perf
 - [Debugging on Azure with Code-Level Visibility](https://sentry.io/for/azure/): Make debugging as painless as possible with code-level visibility & quick identification with Sentry on Azure. Discover 
 - [Backbone Error and Performance Monitoring](https://sentry.io/for/backbone/): Identify & resolve performance bottlenecks with Backbone performance monitoring. Request a demo or get started today for
 - [Backend Error Tracking and Monitoring](https://sentry.io/for/backend/): Get extra visability into a backend infrastructure with Sentry. Learn how to use our backend application monitoring to r
-- [Bottle Error Monitoring](https://sentry.io/for/bottle/): Resolve Bottle application performance errors & get a full-view of releases with Sentry's Bottle error monitoring. Get s
+- [Bottle Error Monitoring](https://sentry.io/for/bottle/): Resolve Bottle application performance errors & get a full view of releases with Sentry's Bottle error monitoring. Get s
 - [Sentry for Breakpad](https://sentry.io/for/breakpad/): Stop guessing & see the big picture with Breakpad. Generate & upload minidumps to triage issues with C++. Get started wi
-- [C Error Monitoring](https://sentry.io/for/c/): Resolve issues & improve the debugging process with C Error monitoring. Get started preventing crashes across your entir
+- [C Error Monitoring](https://sentry.io/for/c/): Resolve issues & improve the debugging process with C error monitoring. Get started preventing crashes across your entir
 - [C++ Error Monitoring](https://sentry.io/for/c-plus-plus/): Prevent crashes across your entire stack with C++ error monitoring. Sentry allows you to debug & resolve issues easily t
-- [Celery Error Monitoring](https://sentry.io/for/celery/): With Celery application monitoring, developers can easily diagnose & optimize their projects while tracking errors. Ger 
+- [Celery Error Monitoring](https://sentry.io/for/celery/): With Celery application monitoring, developers can easily diagnose & optimize their projects while tracking errors. Get 
 - [Cloudflare Pages Error Tracking and Performance Monitoring](https://sentry.io/for/cloudflare-pages/): With Sentry for Cloudflare Pages, you can get code-level visibility to resolve errors and quickly identify function late
 - [Cloudflare Workers Error Tracking and Performance Monitoring](https://sentry.io/for/cloudflare-workers/): With Sentry for Cloudflare Workers, you can get code-level visibility to resolve errors and quickly identify function la
 - [Cocoa Error Monitoring](https://sentry.io/for/cocoa/): Cocoa error monitoring captures crashes recorded on macOS, iOS, & tvOS, allowing you to get error details without diggin
@@ -144,7 +144,7 @@
 - [Node.js debugging on Azure with Code-Level Visibility](https://sentry.io/for/node-azure/): Fill in the gaps and see what happened before the error occurred with Sentry for Node.js on Azure. See how we made debug
 - [Cloud Functions for Firebase Error Tracking and Performance Monitoring](https://sentry.io/for/node-firebase-functions/): With Sentry for Cloud Functions for Firebase, you can get code-level visibility to resolve errors and quickly identify f
 - [Node.js debugging on Google Cloud Functions with Code-Level Visibility](https://sentry.io/for/node-google-cloud-functions/): Make debugging as painless as possible with Sentry for Node.js on Google Cloud Functions. Learn how to keep everything u
-- [Nuxt Error and Performance Monitoring](https://sentry.io/for/nuxt/): Get started identifying & resolving performance issues with Astro error & performance monitoring. Learn how to get start
+- [Nuxt Error and Performance Monitoring](https://sentry.io/for/nuxt/): Get started identifying & resolving performance issues with Nuxt error & performance monitoring. Learn how to get starte
 - [Objective-C Error Monitoring](https://sentry.io/for/objc/): See important details like function & line numbers with Objective-C performance monitoring. Start resolving issues witho
 - [Sentry for Open Source](https://sentry.io/for/open-source/): If you've got a great open source project that could use the power of Sentry, you can apply for a free Sentry account. L
 - [Perl Error Monitoring](https://sentry.io/for/perl/): Easily resolve issues with a Perl monitoring workflow that improves the debugging process. Try Sentry for free or reques
@@ -158,7 +158,7 @@
 - [React](https://sentry.io/for/react-ecom/): Get started with Sentry for React.
 - [React Native Error Monitoring & Crash Reporting](https://sentry.io/for/react-native/): Debug native crashes and JavaScript errors with readable stack traces, session replay, and TTID/TTFD timings. Works with
 - [Remix Error and Performance Monitoring](https://sentry.io/for/remix/): Resolve Remix performance issues with Remix error monitoring. Discover how to use actionable insights to resolve React e
-- [RQ Error Monitoring](https://sentry.io/for/rq/): Trace RQ performance issues back to poor performing API calls & performance errrors with RQ error monitoring by Sentry. 
+- [RQ Error Monitoring](https://sentry.io/for/rq/): Trace RQ performance issues back to poor performing API calls & performance errors with RQ error monitoring by Sentry. R
 - [Ruby Error and Performance Monitoring](https://sentry.io/for/ruby/): Use Sentry's Ruby performance & error monitoring to resolve performance issues across your entire stack. Discover how to
 - [Rust Error Tracking and Performance Monitoring](https://sentry.io/for/rust/): Use Rust performance monitoring to debug & prevent crashes across your entire stack. Learn how to trace performance issu
 - [Scala Error Monitoring](https://sentry.io/for/scala/): See important file details and monitor errors at scale with Scala error & performance monitoring. Request a demo or try 
@@ -174,7 +174,7 @@
 - [Swift Error Monitoring](https://sentry.io/for/swift/): With Swift, crashes & error details are automatically captured. Discover how to get started with Swift error & performan
 - [Symfony Error and Performance Monitoring](https://sentry.io/for/symfony/): Resolve performance errors & avoid bottlenecks in your Symfony app with Sentry's Symfony error monitoring. Get started w
 - [Tornado Error Monitoring](https://sentry.io/for/tornado/): Optimize performance on your code, resolve issues, & deliver fast customer experiences with Tornado performance monitori
-- [iOS Error and tvOS Performance Monitoring](https://sentry.io/for/tvos/): Improve your current monitoring set up & resolve bottlenecks with Sentry's tvOS error tracking & performance monitoring.
+- [iOS Error and tvOS Performance Monitoring](https://sentry.io/for/tvos/): Improve your current monitoring setup & resolve bottlenecks with Sentry's tvOS error tracking & performance monitoring. 
 - [Unity Crash Reporting & Error Monitoring](https://sentry.io/for/unity/): Get C# line numbers in IL2CPP builds, native crash reports, and release health across mobile, desktop, PlayStation, Xbox
 - [Unreal Engine Crash Reporting](https://sentry.io/for/unrealengine/): Prevent mad players & games crashing with Unreal Engine performance monitoring. Learn how our alerts & detailed insights
 - [User Feedback](https://sentry.io/for/user-feedback/): Understand when & where something went wrong on your app with Sentry's User Feedback feature. Learn how to get access to
@@ -188,12 +188,13 @@
 - [Sentry 201: Making Sentry More Useful](https://sentry.io/resources/201-series/): A 3-part workshop series on everything already included in your Sentry subscription and how to actually use it. Sessions
 - [The session replays you want without the noise](https://sentry.io/resources/201-session-replays/): Session Replay isn't just the video attached to your error. Join us for a hands-on look at custom React hooks, User Feed
 - [Building with Bots - Agent Tracing in Sentry](https://sentry.io/resources/agent-monitoring-workshop/): In this workshop, we'll show you how to use Sentry Agent Tracing to crack open the black box that is AI — inputs and out
-- [How Sentry debugs its own AI agents](https://sentry.io/resources/agent-tracing-series/): Join Ryan and Serge on October 14 to see how Sentry engineers use Agent Tracing to debug the agents behind Sentry's AI f
+- [How Sentry debugs its own AI agents](https://sentry.io/resources/agent-tracing-series/): Watch Ryan and Serge show how Sentry engineers use Agent Tracing to debug the agents behind Sentry's AI features and fin
 - [[Workshop] Break production less with AI code review](https://sentry.io/resources/ai-code-review-workshop/): ​In this workshop, we do a complete walkthrough of Sentry’s new AI code review features.
 - [Intro to Sentry Demo](https://sentry.io/resources/apac-live-demo/): In this demo, Willis Li provides a full overview of the Sentry platform. You’ll see how to fix broken code fast, monitor
 - [Application Performance Monitoring Explained | Sentry](https://sentry.io/resources/application-performance-monitoring-explained/): Learn how to use Sentry’s frontend error monitoring to identify and fix user errors in a React app.
 - [Sentry Logs, Beyond the Basics](https://sentry.io/resources/beyond-logs-basics-workshop/): Sentry Logs are an important piece of your debugging toolkit. Learn how to use logs alongside traces and errors to find 
 - [[Workshop] Building and Monitoring AI Agents and MCP servers](https://sentry.io/resources/building-and-monitoring-ai-agents/): ​See how Agent Tracing gives you a better look at all things model usage, call duration, prompting, and more
+- [Changelog Live](https://sentry.io/resources/changelog-live/): We’re taking the Sentry Changelog live! Join us for a livestream showcase of our latest releases — everything you (and y
 - [Monitor and Debug Laravel Applications with Sentry](https://sentry.io/resources/debug-laravel-with-sentry/): A hands-on workshop to master error monitoring, replays, performance tracking, and AI-powered fixes with Sentry
 - [Debugging agents in different environments](https://sentry.io/resources/debugging-agents-in-different-environments/): An ecommerce chatbot, a Slack agent, and a PR review agent can each fail across multiple steps. Watch Serge show how to 
 - [Debugging e-commerce performance issues with Session Replay](https://sentry.io/resources/debugging-ecommerce-session-replay/): See exactly what shoppers experience with Sentry Session Replay for Shopify. Capture sessions, spot issues, and fix chec
@@ -393,7 +394,7 @@
 - [Monitor a Mistral Support Agent With Sentry](https://sentry.io/cookbook/monitor-mistral-with-sentry/): Trace Mistral calls automatically in a TypeScript support assistant. Inspect tool requests, tokens, and streaming, then 
 - [Monitor Neon Functions with Sentry](https://sentry.io/cookbook/monitor-neon-functions-sentry/): Add error tracking, structured logs, request tracing, and AI agent observability to your Neon Functions using the Sentry
 - [Monitor OpenCode Token Usage and Costs with Sentry](https://sentry.io/cookbook/monitor-opencode-with-sentry/): Add Sentry AI observability to OpenCode in minutes. Track tool calls, token usage, model costs, and session durations ac
-- [Monitor your pi coding agent sessions with Sentry](https://sentry.io/cookbook/monitor-pi-with-sentry/): Add Sentry AI observability to pi in minutes. Track tool calls, LLM calls, token usage, and model costs across every pi 
+- [Monitor your pi coding agent sessions with Sentry](https://sentry.io/cookbook/monitor-pi-with-sentry/): Add Sentry AI observability to pi in minutes with @sentry/pi. Track tool calls, LLM calls, token usage, and model costs 
 - [Monitor Stripe webhooks in Next.js with Sentry](https://sentry.io/cookbook/monitor-stripe-webhooks-nextjs/): Monitor Stripe webhooks in Next.js with Sentry. Log every event, catch handler failures with resendable event IDs, and a
 - [Automate weekly performance triage with Claude Code](https://sentry.io/cookbook/performance-bot-sentry-claude/): Set up a Claude Code scheduled task that uses the Sentry MCP server to find your slowest endpoints each week, run Seer a
 - [Write Incident Playbooks in Sentry Dashboard Widgets](https://sentry.io/cookbook/playbooks-in-dashboard-markdown-widgets/): Keep incident runbooks and triage playbooks inside Sentry dashboards using markdown text widgets so on-call always has t

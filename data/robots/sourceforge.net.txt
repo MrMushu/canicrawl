@@ -171,9 +171,10 @@ Allow: /llms.txt
 # /directory param rules: permit ?q= and ?page= on their own, but no other params
 # longest match takes precedence.  listed in length order
 Disallow: /directory/*?
-Allow: /directory/*?q
-Disallow: /directory/*?q*&
+Allow: /directory/*?q=
+Disallow: /directory/*?q=*&
 Allow: /directory/*?page=
+Disallow: /directory/*?page=*&
 
 # mailman flags
 Disallow: *?style=flat

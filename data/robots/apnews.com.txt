@@ -19,6 +19,8 @@ Disallow: /press-release/*
 Disallow: /*/widgets/
 Disallow: /*/widget/
 
+# Monitoring Test
+
 Sitemap: https://apnews.com/ap-sitemap.xml
 Sitemap: https://apnews.com/news-sitemap-content.xml
 Sitemap: https://apnews.com/hubs-sitemap-content.xml
