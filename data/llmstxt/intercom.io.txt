@@ -187,14 +187,30 @@ Translated versions of the pages below. Prefer the one matching the user's langu
 ### Français (fr) — /fr-fr/
 - https://www.intercom.com/fr-fr
 - https://www.intercom.com/fr-fr/contact-sales
+- https://www.intercom.com/fr-fr/helpdesk
 - https://www.intercom.com/fr-fr/pricing
 - https://www.intercom.com/fr-fr/view-demos
+
+### Español (Latinoamérica) (es) — /es-la/
+- https://www.intercom.com/es-la
+- https://www.intercom.com/es-la/contact-sales
+- https://www.intercom.com/es-la/helpdesk
+- https://www.intercom.com/es-la/pricing
+- https://www.intercom.com/es-la/view-demos
 
 ### Deutsch (de) — /de-de/
 - https://www.intercom.com/de-de
 - https://www.intercom.com/de-de/contact-sales
+- https://www.intercom.com/de-de/helpdesk
 - https://www.intercom.com/de-de/pricing
 - https://www.intercom.com/de-de/view-demos
+
+### Português (Brasil) (pt-BR) — /pt-br/
+- https://www.intercom.com/pt-br
+- https://www.intercom.com/pt-br/contact-sales
+- https://www.intercom.com/pt-br/helpdesk
+- https://www.intercom.com/pt-br/pricing
+- https://www.intercom.com/pt-br/view-demos
 
 ---
 
@@ -202,7 +218,7 @@ Translated versions of the pages below. Prefer the one matching the user's langu
 
 - **Primary:** https://www.intercom.com/
 - **Preferred-Language:** en
-- **Available-Languages:** en, fr, de
+- **Available-Languages:** en, fr, es, de, pt-BR
 - **Preferred-Citation-Domain:** intercom.com
 
 ---

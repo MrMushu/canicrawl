@@ -230,6 +230,7 @@ Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /home/internet/your-internet-bill-might-be-booby-trapped-heres-what-to-do/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
+Allow: /paid-content/air-fry-without-the-countertop-clutter-how-mideas-new-appliances-can-help-your-holiday-cooking/
 Allow: /paid-content/cash-app-families-guide-how-to-set-up-a-teen-or-child-account-step-by-step/
 Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
 Allow: /paid-content/cash-apps-new-kids-debit-card-what-parents-need-to-know/
@@ -243,6 +244,7 @@ Allow: /paid-content/galaxy-s26-camera-system-the-biggest-questions-answered-bef
 Allow: /paid-content/get-an-unlimited-5g-phone-plan-for-25-per-month-with-metro-by-t-mobile/
 Allow: /paid-content/get-everything-you-need-for-the-world-cup-delivered-with-doordash/
 Allow: /paid-content/h-r-blocks-local-tax-pros-help-you-navigate-complex-returns/
+Allow: /paid-content/host-the-holidays-with-less-work-sharkninja-gear-for-cooking-treats-and-cleanup/
 Allow: /paid-content/how-cash-app-builds-savings-habits-for-kids-and-teens/
 Allow: /paid-content/how-cash-app-sponsorship-works-adding-removing-and-managing-parental-controls/
 Allow: /paid-content/how-families-get-more-with-t-mobile/
@@ -254,6 +256,7 @@ Allow: /paid-content/how-h-r-block-simplifies-taxes-for-first-time-filers/
 Allow: /paid-content/how-h-r-blocks-experts-can-help-you-avoid-common-filing-mistakes/
 Allow: /paid-content/how-samsungs-galaxy-ai-boosts-gaming-performance/
 Allow: /paid-content/how-sling-is-disrupting-the-old-live-tv-streaming-model/
+Allow: /paid-content/how-to-build-a-solo-video-setup-with-dji-the-camera-stabilizer-and-mic-you-actually-need/
 Allow: /paid-content/how-to-choose-a-reliable-home-internet-provider-in-2026/
 Allow: /paid-content/how-to-choose-the-right-dell-ai-laptop-for-your-workflow/
 Allow: /paid-content/how-to-get-fast-reliable-fiber-internet-at-a-predictable-transparent-price/
@@ -269,6 +272,7 @@ Allow: /paid-content/is-wi-fi-7-worth-the-upgrade-heres-how-msis-roamii-mesh-sys
 Allow: /paid-content/life-changes-and-new-laws-can-affect-your-tax-refund-how-to-estimate/
 Allow: /paid-content/maximize-your-refund-with-h-r-blocks-smart-tax-tools/
 Allow: /paid-content/maximize-your-wireless-savings-with-the-t-mobile-visa-credit-card/
+Allow: /paid-content/meet-the-new-hp-omnibook-5-an-oled-laptop-built-for-long-days-of-work-class-and-streaming/
 Allow: /paid-content/meta-ray-ban-wayfarer-ai-glasses-discount-may-2026/
 Allow: /paid-content/news/cash-app-families-guide-how-to-set-up-a-teen-or-child-account-step-by-step/
 Allow: /paid-content/news/cash-apps-new-kids-debit-card-what-parents-need-to-know/
@@ -324,15 +328,19 @@ Allow: /paid-content/news/why-you-need-an-internet-provider-with-no-data-caps/
 Allow: /paid-content/nomad-esim-wants-to-give-you-more-than-just-data/
 Allow: /paid-content/nordictrack-just-out-engineered-its-own-best-treadmill-heres-everything-thats-new-on-the-ultra-1/
 Allow: /paid-content/nordictrack-rowing-machine-or-exercise-bike-which-one-will-you-actually-stick-with/
+Allow: /paid-content/oled-or-mini-led-how-to-pick-the-right-lg-tv-for-your-room-lighting-and-viewing-habits/
+Allow: /paid-content/ready-to-take-better-photos-how-to-pick-the-right-canon-camera-for-beginners/
 Allow: /paid-content/samsung-micro-rgb-tvs-show-you-more-colors-than-ever-before/
 Allow: /paid-content/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/
 Allow: /paid-content/shop-now-save-now-12-walmart-tech-picks-at-great-prices-no-promo-code-needed/
 Allow: /paid-content/shopping-for-a-major-appliance-let-best-buy-do-the-heavy-lifting/
+Allow: /paid-content/should-you-buy-a-frigidaire-refrigerator-at-best-buy-what-to-consider/
 Allow: /paid-content/should-you-get-the-iphone-18-now-or-wait-what-to-know-about-preorder-and-carrier-deals/
 Allow: /paid-content/stop-comparing-home-internet-providers-by-fiber-vs-cable-use-this-checklist-instead/
 Allow: /paid-content/streamline-your-weeknight-cooking-routine-with-a-multi-speed-air-fryer/
 Allow: /paid-content/studio-pilates-vs-a-home-reformer-the-math-on-how-much-youd-actually-save/
+Allow: /paid-content/what-can-a-roborock-robot-vacuum-and-mop-do-5-common-scenarios-plus-models-to-shop/
 Allow: /paid-content/roboform-for-everyday-use-ease-of-use-cost-and-getting-set-up/
 Allow: /paid-content/switch-to-t-mobile-in-15-minutes-and-get-up-to-800-dollars/
 Allow: /paid-content/t-mobile-5g-home-internet-gets-you-online-fast-with-no-technicians-or-contracts/

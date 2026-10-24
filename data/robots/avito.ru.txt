@@ -239,7 +239,6 @@ Disallow: /booking/
 Disallow: /promotions/
 Disallow: /catalog/*/compare-equipment
 Sitemap: https://www.avito.ru/sitemap/index.xml
-Sitemap: https://m.avito.ru/sitemap/mobile_index.xml
 
 User-agent: *
 Disallow: /auto-logbook
@@ -382,7 +381,6 @@ Disallow: /booking/
 Disallow: /promotions/
 Disallow: /catalog/*/compare-equipment
 Sitemap: https://www.avito.ru/sitemap/index.xml
-Sitemap: https://m.avito.ru/sitemap/mobile_index.xml
 
 User-agent: Mediapartners-Google
 Disallow:
