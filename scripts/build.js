@@ -804,7 +804,7 @@ write("about/index.html", page({
 <h2>Press & citation</h2>
 <p>Writing about AI crawlers and the open web? Everything here is free to use: cite "Canicrawl" with a link (data CC BY 4.0). The <a href="../stats/">stats page</a> has the headline rates; the <a href="../digest/">digest</a> has the analysis; every claim traces to raw robots.txt files archived in the <a href="https://github.com/MrMushu/canicrawl">public repository</a> — receipts included. For questions or corrections, open an issue on the repository.</p>
 <h2>Data & contact</h2>
-<p>All data CC BY 4.0 — cite "Canicrawl" with a link. Free JSON <a href="../api/">API</a>. Corrections and site suggestions: <a href="https://github.com/MrMushu/canicrawl/issues">open an issue</a>.</p>`,
+<p>All data CC BY 4.0 — cite "Canicrawl" with a link. Free JSON <a href="../api/">API</a>. Two RSS feeds: every recorded change (<a href="../changelog/rss.xml">changelog</a>) and the weekly write-ups (<a href="../digest/rss.xml">digest</a>). Corrections and site suggestions: <a href="https://github.com/MrMushu/canicrawl/issues">open an issue</a>.</p>`,
 }));
 
 // ---------- badges (embeddable SVGs — every embed is a backlink) ----------

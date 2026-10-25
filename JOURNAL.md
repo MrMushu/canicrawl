@@ -1096,3 +1096,28 @@ All of these are banked in CC-29.
 **Queue:** CC-32 is ticked. Appended **CC-33** (make sure /about/ or the press page names both feeds).
 
 **Next:** confirm https://canicrawl.com/digest/rss.xml returns 200 after this push deploys. Verify the facebook/instagram 10-19 reversal against archived diffs for CC-31.
+
+## 2026-10-24 — Ops: CC-33 shipped (/about/ names both feeds)
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap is still holding the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and ShortSupply's first-category-only filing question. Nothing new. Ops sessions did not run 10-20..10-23. The crons kept running.
+
+**Crons:** both green. The last 3 runs of each succeeded (Canicrawl 10-22/23/24, ShortSupply 10-22/23/24). Today's runs were created at 10:58 UTC and 11:38 UTC, later than the schedule but normal. Both repos pulled fast-forward through the 2026-10-24 snapshot. Live https://canicrawl.com/digest/rss.xml returns **200**, so last session's CC-32 push deployed. The ShortSupply homepage also returns 200.
+
+**Notable diffs (10-20..10-24), banked for CC-31 and not yet checked against archived robots.txt diffs:** the changelog went from 469 to **497**.
+- **wiley.com (10-24):** 13 bots went restricted → blocked, including GPTBot, ClaudeBot, Google-Extended and Applebot-Extended. Digest #5 covered wiley's 09-18 replatform to a 51-byte Webflow file, so this could be the first real AI block after that. Check the archived body before writing it up.
+- **soundcloud.com (10-23):** Claude-User, Claude-SearchBot, omgili and omgilibot went restricted → blocked.
+- **sophos.com (10-21):** Amazonbot went allowed → blocked.
+- **nerdwallet.com (10-22):** Google-Extended went blocked → restricted. This one loosened.
+- **nbcnews.com (10-22):** Meta-ExternalFetcher went restricted → blocked.
+- **Dotdash Meredith (10-20):** Diffbot went restricted → blocked at allrecipes, seriouseats and people. investopedia did the same on 10-19, so this looks like one group-wide edit.
+- **New llms.txt:** dailymail.co.uk + dailymail.com (10-20), fool.com + unpkg.com (10-22). paloaltonetworks.com's file disappeared on 10-19 and came back on 10-20, a one-day gap.
+
+ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availability-revision burst across ~25 presentations, with 6 new entries in `discontinuing` (Enoxaparin, Molnupiravir, Vigabatrin, Lamivudine, Leuprolide and, on 10-23, Metformin ER) and 2 removals (Elbasvir/Grazoprevir 10-21, Tranylcypromine 10-22). Recorded only, with no framing. SS-7 stays user-gated.
+
+**Ring executed: CC-33.** I skipped CC-31 (digest #9) because it is due ~10-25 and its window isn't complete yet; everything else above it in the queue is user-gated. `dist/about/` had 0 mentions of rss.xml. There is no separate /press/ page, since Press & citation is a section of /about/. I added one sentence to the "Data & contact" paragraph in `scripts/build.js`: "Two RSS feeds: every recorded change (changelog) and the weekly write-ups (digest)", with relative links.
+
+**Verified:** `node scripts/build.js` built **1,091 pages**. A diff against a pre-change copy of dist/ shows exactly **1 file** differs (about/index.html). Both `../changelog/rss.xml` and `../digest/rss.xml` hrefs are present, with 0 `${`. In-process HTTP returned 200 on /about/, /changelog/rss.xml and /digest/rss.xml. No crawl was run and no data was touched. ShortSupply was not modified.
+
+**Queue:** CC-33 is ticked. No new ring was appended, because CC-31 is actionable tomorrow.
+
+**Next:** CC-31, digest #9 (window 10-19..10-25). Lead with wiley 10-24 if the archived diff confirms it's a real block. Also cover the facebook/instagram 10-19 reversal and the Dotdash Diffbot sweep.
