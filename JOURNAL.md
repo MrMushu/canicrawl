@@ -1121,3 +1121,24 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Queue:** CC-33 is ticked. No new ring was appended, because CC-31 is actionable tomorrow.
 
 **Next:** CC-31, digest #9 (window 10-19..10-25). Lead with wiley 10-24 if the archived diff confirms it's a real block. Also cover the facebook/instagram 10-19 reversal and the Dotdash Diffbot sweep.
+
+## 2026-10-25 — Ops: CC-31 shipped (digest #9)
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap is still holding the weekly Tranco refresh), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and ShortSupply's first-category-only filing question. Nothing new. CC-16 came up twice more this week: soundcloud.com (10-23) and nbcnews.com (10-22) each put a tracked bot in a `Disallow: /` group with narrow `Allow:` exceptions, and we print those bots as blocked. Digest #9 states that caveat plainly and doesn't reclassify anything.
+
+**Crons:** both green. Canicrawl's scheduled run was created 10-25 at 11:27 UTC and succeeded; there was also a push run at 04:22. ShortSupply's was created 10-25 at 12:00 UTC and succeeded, and its 10-23 and 10-24 runs did too. Both repos pulled fast-forward through the 2026-10-25 snapshot.
+
+**Notable diffs:** the 10-25 snapshot added no Canicrawl changelog entries, so the total holds at 497. ShortSupply also holds at 226; its newest entry is a Clonazepam Tablet availability revision on 10-24. Recorded only, with no framing.
+
+**Ring executed: CC-31, digest #9:** "Wiley switches on Cloudflare's AI block". The window is 10-19..10-25: 40 entries, made up of 34 flips (33 tighter, 1 looser) and 6 llms.txt changes. I checked every story against the archived robots.txt diff at that day's snapshot commit:
+- **wiley.com (10-24)** put Cloudflare's managed section, with its marker comments, above its own rules. It opens with `Content-Signal: search=yes,ai-train=no,use=reference`, and 13 tracked bots went restricted → blocked. It is Wiley's first AI rule, and Wiley joins both cohorts.
+- **instagram.com (10-19)** is now byte-identical to its 10-07 file (robotsHash fe84b391… both days), so it fully reverted the 10-08 loosening. Its Google-Extended re-block on 10-15 has **no changelog entry**, because 10-14 was `html-response` (unknown). The digest says so. **facebook.com (10-19)** added the same top-of-file `Disallow: /` groups. It had not blocked those five bots at any point since 08-25.
+- **Dotdash Meredith**: investopedia (10-19), then allrecipes, seriouseats and people (10-20), added Diffbot, Diffbot-User, ExaSearchBot and LinkUpBot to a shared group. That is one edit rolled out over two days.
+- **sophos.com (10-21)** moved Amazonbot from allowed to blocked, and gave Amzn-SearchBot and Amzn-User their own Allow. **nerdwallet.com (10-22)** deleted its only block (Google-Extended), so it left the blocker set.
+- **vercel.com (10-21)** deleted its `Content-Signal` line. No flip resulted, but it is a cohort membership change.
+
+**Verified:** I reconciled the counts by building the 10-18 snapshot commit (dff8fb5) in a temp worktree, which has since been removed. Blockers are 206 → 206 (wiley in, nerdwallet out, both by edit). Readable sites went 647 → 645 (miit.gov.cn and ys7.com unreachable, timeweb.ru returned html-response, yieldmo.com came back). llms.txt went 120 → 125: 4 new files, plus yieldmo answering again. Cloudflare Managed went 3 → 4. Content Signals held at 25 (wiley in, vercel out). The live build has **1,092 pages**, and `dist/digest/9/index.html` is 12,072 B. #9 is in the sitemap, on /digest/ and in digest/rss.xml. **81/81** internal links resolve, there are 0 `${`, and six load-bearing strings read back out of the page. The digests.json diff is +7 lines, with #1–#8 untouched. No crawl was run and no snapshot was touched. ShortSupply was not modified.
+
+**Queue:** CC-31 is ticked. I appended CC-34 (digest #10, due ~11-01). It adds a cohort-membership reconcile step, because a count can hold steady while its members swap.
+
+**Next:** follow the CC-34 procedure. The weekly Tranco refresh stays blocked on CC-24.
