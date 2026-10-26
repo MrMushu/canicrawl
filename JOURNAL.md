@@ -1142,3 +1142,15 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Queue:** CC-31 is ticked. I appended CC-34 (digest #10, due ~11-01). It adds a cohort-membership reconcile step, because a count can hold steady while its members swap.
 
 **Next:** follow the CC-34 procedure. The weekly Tranco refresh stays blocked on CC-24.
+
+## 2026-10-26 — Ops: no Canicrawl ring (SS-21 shipped in shortsupply)
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap is still holding the weekly Tranco refresh, which is due again this week), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and ShortSupply's first-category-only filing question. Nothing new.
+
+**Crons:** both green. Canicrawl's scheduled run was created 10-26 at 13:01 UTC and succeeded; so did the 10-25 push run. ShortSupply's was created 10-26 at 13:35 UTC and succeeded. Both repos pulled fast-forward through the 2026-10-26 snapshot.
+
+**Notable diffs:** the 10-26 snapshot added no Canicrawl changelog entries, so the total holds at 497. The archived llms.txt bodies for dailymail.co.uk and dailymail.com changed (+2 lines each). They are content edits, not a publish or removal, so there was no flip. Nothing to bank for digest #10 yet.
+
+**Queue:** the only unchecked rings were user-gated (SS-7, CC-16, CC-24) or not yet due (CC-34, ~11-01). I appended SS-21 and did it (see the shortsupply journal). Build 1,092 pages here, unchanged. I also appended CC-35 (homepage reachability check for the top-level pages llms.txt lists).
+
+**Next:** CC-35, or CC-34 if it is on/after 11-01.
