@@ -16,6 +16,9 @@
 ## NVIDIA GTC AI Conference Website
 - [GTC](https://www.nvidia.com/gtc/llms.txt): Conference locations, sessions, speakers, venues.
 
+## NVIDIA Blog Website
+- [NVIDIA Corporate Blog](https://blogs.nvidia.com/llms.txt): Corporate blog posts and author pages. Browse topics by category or tag pages.
+
 ## NVIDIA Regional Blog RSS Feeds
 - [NVIDIA Corporate Blog RSS Feed](https://blogs.nvidia.com/feed/): Latest corporate blog posts.
 - [NVIDIA Developer Technical Blog RSS Feed](https://developer.nvidia.com/blog/feed/): Latest developer blog posts.

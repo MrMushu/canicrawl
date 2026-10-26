@@ -1,4 +1,4 @@
-#2026-10-21
+#2026-10-26
 User-agent: *
 
 Disallow: */career-advice/article?q=*
@@ -47,6 +47,7 @@ Disallow: /profile/upload-resume
 Disallow: /message-center
 Disallow: /profile/auth/
 Disallow: /resume/eb/api/v1/gdpr/visitors/
+Disallow: /resume/eb/api/
 
 # SJR parameter handling
 Disallow: /jobs/search?*&page=

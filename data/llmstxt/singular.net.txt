@@ -106,6 +106,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Posts
 
+- [The creative volume myth: why more creatives aren’t the only KPI that moves your performance, and what to track instead](https://www.singular.net/blog/creative-volume-myth/): Every performance marketer has heard some version of the advice: run more creatives, and your results will improve. It’s intuitive:...
 - [Beyond last touch: what multi-touch attribution reveals about your real ROAS](https://www.singular.net/blog/beyond-last-touch-multi-touch-attribution/): Every growth team has one channel it argues about. The CPI looks expensive, someone proposes cutting it, and the people...
 - [Sync your Singular audiences straight into ChatGPT Ads](https://www.singular.net/blog/sync-your-singular-audiences-straight-into-chatgpt-ads/): ChatGPT Ads now supports Custom Audiences, which let you bring your own customer and prospect lists into campaign targeting. Singular...
 - [Who owns the truth? Why measurement must answer to the advertiser](https://www.singular.net/blog/independent-measurement/): Every company relies on signals in order to make the right marketing decisions to grow their business, things like which...
@@ -606,7 +607,6 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [It’s Official — Apsalar Joins Singular!](https://www.singular.net/blog/official%e2%80%8a-%e2%80%8aapsalar-joins-singular/): When we started Singular three years ago, it seemed obvious to us that the fragmented world of digital marketing needed...
 - [Top Takeaways From AppBoy’s LTR Summit](https://www.singular.net/blog/top-takeaways-appboys-ltr-summit/): Data and analytics insights from the Appboy LTR event. Includes perspective on "buy versus build", data unification, and downstream event measurement.
 - [San Francisco Business Times Chooses Singular as a Best Place to Work in 2017!](https://www.singular.net/blog/san-francisco-business-times-chooses-singular-best-place-work-2017/): San Francisco-based Singular has been named of the best places to work in San Francisco, CA by the San Francisco Business Times.
-- [Singular Raised $15 Million – Here’s What it Means](https://www.singular.net/blog/singular-raised-15-million-heres-means/): I’m extremely excited to share with you the news of our $15m Series A funding. Singular started in late 2013...
 
 
 ## Case Study
@@ -1050,6 +1050,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 
 
+
 Learn how creative optimization is becoming creative intelligence in 2026, and how leading teams scale performance with AI and experimentation.
 
 
@@ -1106,7 +1107,6 @@ Introducing Singular AI, the next generation of AI marketing intelligence. Turn 
 
 
 You can't win in the hyper-competitive mobile market without good mobile app retargeting. Get this guide now to up your game ...
-
 
 
 
