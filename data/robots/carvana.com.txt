@@ -18,6 +18,13 @@ Disallow: /inventory/
 Disallow: /cars/filters/
 Disallow: /api/
 Disallow: /vehicle/autocheck/
+Allow: /sell-my-car/$
+Allow: /sell-my-car/?
+Allow: /value-tracker/$
+Allow: /value-tracker/?
+Allow: /value-tracker/track/
+Disallow: /sell-my-car/
+Disallow: /value-tracker/
 
 User-agent: Yandex
 Disallow: /

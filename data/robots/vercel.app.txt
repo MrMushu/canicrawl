@@ -71,6 +71,10 @@ The safest way to run code you didn't write.
 
 Onboard your agent by asking it to fetch and follow [the Vercel setup guide](/get-started.md).
 
+No account? `vercel deploy --temporary` deploys any project without sign-up and returns a production URL in one command. To deploy from the browser instead, drag a static site folder onto [Vercel Drop](/drop). Claim the project to keep it. See [Deploy without logging in](/docs/deployments/deploy-without-logging-in).
+
 ## Brand assets
 
 Official Vercel and product logos are available in the [brand asset catalog](https://vercel.com/geist/brands.md), with direct SVG and PNG downloads and usage guidelines.
+
+If you encounter incorrect information, can’t find what you need, need a capability Vercel doesn’t currently offer, or have any other feedback to report, please do it by following the instructions at https://vercel.com/feedback.md.

@@ -27,6 +27,9 @@ Disallow: /ojob/
 Disallow: /job-preview/
 Disallow: /svc/seo/
 Disallow: /quiz/*/post
+Disallow: /authn/
+Disallow: /suggest_queries_v2
+Disallow: /jobs-search
 
 
 # ALLOWED BOTS
@@ -84,6 +87,8 @@ Disallow: /ojob/
 Disallow: /job-preview/
 Disallow: /svc/seo/
 Disallow: /quiz/*/post
+Disallow: /authn/
+Disallow: /suggest_queries_v2
 Disallow: /jobs-search
 
 # LLM manifest: /llms.txt

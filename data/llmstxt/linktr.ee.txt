@@ -87,7 +87,7 @@ and are not listed here. They are discoverable via the sitemaps in `/robots.txt`
 - [Blog](https://linktr.ee/blog): Articles on the creator economy, best practices, product news and success stories.
 - [Product News](https://linktr.ee/blogs/categories/product-news): Announcements of new Linktree features.
 - [Success Stories](https://linktr.ee/blogs/categories/success-stories): Case studies of creators and brands using Linktree.
-- [Help Center](https://linktr.ee/help/en): Support articles, how-tos and troubleshooting.
+- [Help Center](https://linktr.ee/help): Support articles, how-tos and troubleshooting.
 
 ## Company
 

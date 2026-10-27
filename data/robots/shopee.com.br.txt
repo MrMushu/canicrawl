@@ -113,3 +113,18 @@ Disallow: /mes.consumidor.ofertas
 Disallow: /ofertas.mes.consumidor
 Disallow: *utm_source=an_
 Disallow: /search?keyword=folha%20de%20fichario$
+
+Sitemap: https://sitemap.shopee.com.br/sitemap.search-1.xml.gz
+Sitemap: https://sitemap.shopee.com.br/sitemap.search-4-1.xml.gz
+Sitemap: https://sitemap.shopee.com.br/sitemap.items.typeA1.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.items.typeA2.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.items.typeB1.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.items.typeB2.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.items.typeC1.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.items.typeC2.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.image.items.typeA1.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.image.items.typeA2.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.image.items.typeB1.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.image.items.typeB2.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.image.items.typeC1.xml
+Sitemap: https://sitemap.shopee.com.br/sitemap.image.items.typeC2.xml

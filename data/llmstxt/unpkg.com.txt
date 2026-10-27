@@ -4,12 +4,22 @@
 
 ## Use UNPKG
 
-- [UNPKG home](https://unpkg.com/): URL pattern, semver ranges, nobuild apps, inline scripts, browser modules, metadata API, cache performance
-- [Supply Chain Security](https://unpkg.com/#supply-chain-security): UNPKG Shield (currently in Beta) — edge defense for production traffic, adoption visibility for package owners
+Every page below is also served as Markdown: append .md to the URL, or send an Accept: text/markdown header on the HTML URL. Markdown URLs are the preferred form for agents.
+
+- [UNPKG home](https://unpkg.com/index.md): URL pattern, semver ranges, nobuild apps, inline scripts, browser modules, metadata API, cache performance
+- [Guides](https://unpkg.com/guides.md): a map of the UNPKG guides: files, nobuild apps, inline scripts, browser modules, metadata API, caching
+- [Loading files](https://unpkg.com/guides/loading-files.md): the URL pattern, versions and tags, entry points and exports
+- [Browser modules](https://unpkg.com/guides/browser-modules.md): esm.unpkg.com: every parameter, stylesheet handling, errors
+- [Metadata API](https://unpkg.com/guides/metadata-api.md): the ?meta JSON format for discovering package contents
+- [Cache performance](https://unpkg.com/guides/cache-performance.md): permanent URLs and the pinning trade-off
+- [Network](https://unpkg.com/network.md): how files are served: Cloudflare edge, digest-verified origin fetches, self-healing caches
+- [Status](https://unpkg.com/status.md): the surfaces behind UNPKG and how changes ship safely
+- [About](https://unpkg.com/about.md): the open source project, contacts, abuse and security reporting
+- [Supply Chain Security](https://unpkg.com/guides/supply-chain-security.md): UNPKG Shield (currently in Beta), edge defense for production traffic, adoption visibility for package owners
 
 ## Related
 
-- [UNPKG Shield](https://shield.unpkg.com/): supply chain defense for the packages and domains you depend on — currently in Beta
+- [UNPKG Shield](https://shield.unpkg.com/): supply chain defense for the packages and domains you depend on, currently in Beta
 - [Shield agent brief](https://shield.unpkg.com/llms.txt): machine-readable Shield product brief
 
 ## Full detail

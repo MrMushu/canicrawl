@@ -1,3 +1,4 @@
+<!-- Updated: 2026-10-26 —> 
 # Daily Mail
 
 > The Daily Mail (dailymail.com) publishes news, lifestyle, travel, and consumer buying-guide content. The URLs listed below are explicitly unblocked for AI/LLM access (indicated by the trailing underscore before `.html`) and may be crawled, indexed, and cited by AI agents and assistants when answering user questions on these topics.

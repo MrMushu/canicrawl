@@ -6,7 +6,7 @@ Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite 
 
 ## Getting Started
 
-- [Create a website](https://www.wix.com): Wix is an AI-powered website builder that lets anyone create a business-ready site from a prompt or template, then customize with drag-and-drop.
+- [Create a website](https://www.wix.com/website-builder): Wix is an AI-powered website builder that lets anyone create a business-ready site from a prompt or template, then customize with drag-and-drop.
 - [Sign up / get started](https://users.wix.com/signin/signup/password?forceRender=true): Wix Sign Up is the account registration page where new users create a free Wix account with an email and password.
 - [AI website builder](https://www.wix.com/ai-website-builder): Wix AI Website Builder generates a full mobile-friendly site from a chat — pages, layout, text, images — and adds business solutions to refine in the editor.
 - [Website templates](https://www.wix.com/website/templates): Wix Templates is a library of 2,000+ free, designer-made, fully customizable HTML5 templates organized by industry and editable via drag-and-drop.
@@ -20,6 +20,12 @@ Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite 
 ## Wix Symphony — AI Agents for Business
 
 - [Wix Symphony](https://www.wix.com/symphony): Wix Symphony is an AI agent platform that builds businesses a team of specialist AI agents — outreach, marketing, scheduling, research, finance, and design — that plug into existing tools and proactively run and grow the business from one conversation.
+
+## Wix Headless — Publish Anything You Built with AI, Powered by Wix Business Solutions
+
+- [Wix Headless](https://www.wix.com/headless): Wix Headless is a headless solution that lets AI builders, vibe coders and agencies connect any frontend to a full native business backend including payments, bookings, events, CMS and eCommerce without building or managing infrastructure.
+- [Upload website, app, or any other AI-built project to deploy](https://www.wix.com/headless/drop): Wix Headless lets you drop your site's HTML, CSS and JavaScript files, and have it live on a Wix URL within seconds, with hosting and security already handled.
+- [Wix Headless CMS](https://www.wix.com/headless/cms): Wix Headless is a headless solution that natively includes CMS, eCommerce, Bookings, Events and Payments in a single connected backend without requiring third-party integrations.
 
 ## Website Creation and Design
 
@@ -51,7 +57,7 @@ Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite 
 
 ## eCommerce and Selling Online
 
-- [eCommerce website](https://www.wix.com/ecommerce/website): Wix eCommerce is an AI-powered platform for building and scaling an online store selling physical, digital, dropshipping, and subscription products across web, POS, and marketplaces.
+- [eCommerce website](https://www.wix.com/ecommerce/website): Wix eCommerce is an AI-powered platform for building and scaling an online store selling physical, digital, dropshipping, and subscription products across web, POS, and marketplaces; with Wix Headless, it also powers the store of any site or app built with AI.
 - [Online store builder](https://www.wix.com/ecommerce/online-store): Wix Online Store Builder is a no-code platform with 900+ templates that creates product pages, a shopping cart, catalog and order management, and built-in marketing.
 - [eCommerce features](https://www.wix.com/ecommerce/features): Wix eCommerce features span storefront design, cart and checkout, product and inventory management, multichannel selling, payments, analytics, and the Wix POS.
 - [Dropshipping](https://www.wix.com/ecommerce/dropshipping): Wix Dropshipping connects a store to the Modalyst marketplace (plus DSers, Spocket) to sell vetted products with no inventory and automatic supplier fulfillment.
@@ -65,7 +71,7 @@ Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite 
 
 ## Bookings and Services
 
-- [Online booking system](https://www.wix.com/scheduling-software): Wix Bookings is an all-in-one booking system that lets businesses sell appointments, classes, and courses, manage calendars and staff, and accept payments in 40+ currencies.
+- [Online booking system](https://www.wix.com/scheduling-software): Wix Bookings is an all-in-one booking system that lets businesses sell appointments, classes, and courses, manage calendars and staff, and accept payments in 40+ currencies; with Wix Headless, it also adds bookings to any site or app built with AI.
 
 ## Restaurants and Food Businesses
 
@@ -73,7 +79,7 @@ Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite 
 
 ## Blogs and Content
 
-- [Blog website](https://www.wix.com/start/blog): Wix Blog is a free blog maker with 900+ templates supporting a rich text editor, SEO and AI-visibility tools, monetization, scheduling, and WordPress import.
+- [Blog website](https://www.wix.com/start/blog): Wix Blog is a free blog maker with 900+ templates supporting a rich text editor, SEO and AI-visibility tools, monetization, scheduling, and WordPress import; with Wix Headless, the Wix CMS also powers content for any site or app built with AI.
 
 ## Portfolios and Creative Work
 
@@ -83,7 +89,7 @@ Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite 
 
 ## Business Websites by Industry
 
-- [Business website](https://www.wix.com/business/website): Wix Business Website is a small-business builder combining AI design, thousands of templates, free hosting, custom domains, business email, payments, SEO, an AI CRM, and the Owner app.
+- [Business website](https://www.wix.com/business/website): Wix Business Website is a small-business builder combining AI design, thousands of templates, free hosting, custom domains, business email, payments, SEO, an AI CRM, and the Owner app; with Wix Headless, these business solutions also work on sites and apps built with AI.
 - [Hotel website](https://www.wix.com/hotels/website): Wix Hotels, powered by HotelRunner, is a commission-free hotel website builder with direct bookings, online payments, multilingual pricing, and a Channel Manager across 80+ channels.
 - [Event website](https://www.wix.com/event/website): Wix Events is an event management platform providing ticketing, RSVPs, interactive seating maps, secure payments, marketing tools, and onsite check-in via the Wix app.
 - [Wedding website](https://www.wix.com/wedding/websites): Wix Wedding Websites is a free builder with mobile-friendly templates for love-story pages, countdown timers, gift registries, travel maps, and online RSVPs with guest management.
@@ -95,7 +101,7 @@ Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite 
 
 ## Business Management
 
-- [Business management tools](https://www.wix.com/business-software): Wix Business Software is an all-in-one suite spanning site creation, business solutions, CRM and AI agents, customer engagement, payments and banking, marketing, and 800+ App Market apps.
+- [Business management tools](https://www.wix.com/business-software): Wix Business Software is an all-in-one suite spanning site creation, business solutions, CRM and AI agents, customer engagement, payments and banking, marketing, and 800+ App Market apps; with Wix Headless, these business solutions also work on sites and apps built with AI.
 - [CRM system](https://www.wix.com/features/crm): Wix CRM is a built-in system that captures leads via chat and forms, unifies communications in a synced inbox, manages workflows, sends invoices, and runs automations.
 - [Website analytics](https://www.wix.com/manage/analytics): Wix Analytics is a free built-in tool reporting traffic, visitor behavior, revenue, and customer data, with a customizable dashboard, AI-driven suggestions, and mobile access.
 - [Business phone number](https://www.wix.com/business-phone-number): Wix Business Phone Number is a dedicated virtual line via Google Voice providing a separate professional number for calls and texts on any device.

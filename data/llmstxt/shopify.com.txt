@@ -69,7 +69,7 @@
 ## Sell Internationally
 
 - [Shopify Markets](https://www.shopify.com/markets): Customize selling for each market, B2B or D2C, online or in person, at home or across borders, with local currencies, languages, and duties.
-- [Managed Markets](https://www.shopify.com/international/managed): Sell globally with Shopify as your merchant of record, with international payments, duties, and compliance handled.
+- [Managed Markets](https://www.shopify.com/international/managed): Sell globally with Global-e as your merchant of record, with international payments, duties, and compliance handled.
 - [International settings](https://help.shopify.com/en/manual/international): Configure markets, currencies, and shipping zones for new regions.
 
 ## Shopify Plans

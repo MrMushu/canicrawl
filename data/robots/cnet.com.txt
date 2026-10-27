@@ -234,6 +234,7 @@ Allow: /paid-content/air-fry-without-the-countertop-clutter-how-mideas-new-appli
 Allow: /paid-content/cash-app-families-guide-how-to-set-up-a-teen-or-child-account-step-by-step/
 Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
 Allow: /paid-content/cash-apps-new-kids-debit-card-what-parents-need-to-know/
+Allow: /paid-content/can-you-use-an-alienware-laptop-for-both-gaming-and-professional-work/
 Allow: /paid-content/cricket-wireless-offers-reliable-prepaid-nationwide-5g/
 Allow: /paid-content/dji-builds-on-12-years-of-handheld-imaging-innovation-with-the-dji-osmo-360-ii/
 Allow: /paid-content/dji-osmo-pocket-4p-is-a-powerful-tool-for-independent-filmmakers/
@@ -348,6 +349,7 @@ Allow: /paid-content/t-mobile-5g-home-internet-offers-a-solution-to-contracts-co
 Allow: /paid-content/t-mobile-fiber-vs-cable-internet-why-ultra-fast-internet-is-worth-the-upgrade/
 Allow: /paid-content/tempos-fresh-chef-crafted-meals-make-your-meal-prep-smarter-and-tastier/
 Allow: /paid-content/the-dell-xps-13-is-subtle-luxury-in-laptop-form/
+Allow: /paid-content/the-dell-14-plus-is-a-copilot-pc-heres-what-that-actually-means/
 Allow: /paid-content/the-difference-between-fiber-to-the-home-and-fiber-powered-internet/
 Allow: /paid-content/the-nordictrack-commercial-2450-combines-big-speed-with-smart-adjustment-features/
 Allow: /paid-content/the-nordictrack-treadmill-you-actually-need-for-the-12-3-30-workout/
@@ -362,6 +364,7 @@ Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-e
 Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
 Allow: /paid-content/what-can-ray-ban-meta-ai-glasses-do-5-use-cases-for-your-everyday-routine/
 Allow: /paid-content/what-to-include-in-a-heart-health-daily-regimen-from-supplements-to-home-monitors/
+Allow: /paid-content/what-does-an-npu-actually-do-and-does-your-laptop-need-one/
 Allow: /paid-content/which-dell-laptops-are-actually-ai-ready-in-canada/
 Allow: /paid-content/why-a-reliable-fiber-powered-network-from-xfinity-is-the-ultimate-solution-for-home-wi-fi/
 Allow: /paid-content/why-tax-filers-are-choosing-h-r-block-this-season/

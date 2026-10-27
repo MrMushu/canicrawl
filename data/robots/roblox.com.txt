@@ -49,6 +49,8 @@ Sitemap: https://www.roblox.com/sitemap-ja.xml
 Sitemap: https://www.roblox.com/sitemap-games-ja.xml
 Sitemap: https://www.roblox.com/sitemap-ko.xml
 Sitemap: https://www.roblox.com/sitemap-games-ko.xml
+Sitemap: https://www.roblox.com/sitemap-nl.xml
+Sitemap: https://www.roblox.com/sitemap-games-nl.xml
 Sitemap: https://www.roblox.com/sitemap-pl.xml
 Sitemap: https://www.roblox.com/sitemap-games-pl.xml
 Sitemap: https://www.roblox.com/sitemap-pt.xml

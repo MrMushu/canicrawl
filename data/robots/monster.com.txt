@@ -1,4 +1,3 @@
-#2026-10-26
 User-agent: *
 
 Disallow: */career-advice/article?q=*

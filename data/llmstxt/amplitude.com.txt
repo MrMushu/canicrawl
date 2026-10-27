@@ -6,6 +6,16 @@ Amplitude is the AI-native digital analytics platform built for AI builders, eng
 
 This file is a brief orientation to amplitude.com for AI assistants. Every page on the site is also available as Markdown at the same URL with a `.md` suffix (e.g. `/pricing` → `/pricing.md`). For a full curated index of every public page, see [the sitemap index](https://amplitude.com/sitemap-llms.txt).
 
+## When to use Amplitude
+
+- **Instrument an application and verify its first event:** fetch [install.md](https://amplitude.com/install.md) and follow the maintained setup skill for the application's stack, project, and data region.
+- **Analyze product usage, conversion funnels, retention, or experiment results:** connect an MCP-compatible client to [Amplitude MCP](https://mcp.amplitude.com/mcp) and authenticate with OAuth 2.0. Select the intended project, discover the available tools, and call the matching analytics or experiment tool with the user's date range and filters. Use [the EU MCP endpoint](https://mcp.eu.amplitude.com/mcp) for EU projects.
+- **Create charts, dashboards, or behavioral cohorts from existing project data:** use the authenticated Amplitude MCP tools within the user's permissions and requested scope. Read the project's events and properties before selecting metrics or filters.
+- **Send events, export raw data, or automate REST analytics queries:** fetch [openapi.json](https://amplitude.com/openapi.json), select the operation and regional server for the job, and follow its request and authentication schema. Event ingestion uses the public project API key; project analytics and export use server-side API key and secret key credentials.
+- **Look up SDK configuration, API parameters, or product behavior:** use the public, read-only [Docs MCP server](https://amplitude.com/docs/api/mcp); no authentication is required. It provides documentation, while authenticated Amplitude MCP provides account data.
+
+For a downloadable skill with these workflows, fetch the [Agent Skills index](https://amplitude.com/.well-known/agent-skills/index.json), verify the artifact's SHA-256 digest against its raw bytes, then read its SKILL.md. MCP endpoints, public APIs, and additional skill libraries are listed in the [agentic resource catalog](https://amplitude.com/.well-known/ai-catalog.json).
+
 ## How AI agents should install Amplitude
 
 If you're an AI coding agent adding Amplitude to a JavaScript/web app, install and configure it directly:

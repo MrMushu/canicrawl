@@ -135,111 +135,165 @@
     Sitemap: https://www.pexels.com/sitemaps/en-US/video-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/en-US/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/en-US/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/pt-BR/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/pt-BR/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/pt-BR/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/pt-BR/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/pt-BR/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/pt-BR/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/pt-BR/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/pt-BR/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/es-ES/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/es-ES/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/es-ES/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/es-ES/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/es-ES/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/es-ES/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/es-ES/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/es-ES/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ca-ES/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ca-ES/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ca-ES/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ca-ES/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ca-ES/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ca-ES/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ca-ES/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ca-ES/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/de-DE/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/de-DE/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/de-DE/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/de-DE/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/de-DE/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/de-DE/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/de-DE/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/de-DE/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/it-IT/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/it-IT/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/it-IT/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/it-IT/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/it-IT/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/it-IT/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/it-IT/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/it-IT/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/fr-FR/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/fr-FR/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/fr-FR/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/fr-FR/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/fr-FR/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/fr-FR/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/fr-FR/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/fr-FR/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/sv-SE/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/sv-SE/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/sv-SE/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/sv-SE/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/sv-SE/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/sv-SE/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/sv-SE/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/sv-SE/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/id-ID/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/id-ID/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/id-ID/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/id-ID/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/id-ID/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/id-ID/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/id-ID/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/id-ID/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/pl-PL/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/pl-PL/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/pl-PL/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/pl-PL/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/pl-PL/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/pl-PL/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/pl-PL/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/pl-PL/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ja-JP/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ja-JP/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ja-JP/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ja-JP/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ja-JP/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ja-JP/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ja-JP/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ja-JP/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/zh-TW/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/zh-TW/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/zh-TW/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/zh-TW/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/zh-TW/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/zh-TW/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/zh-TW/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/zh-TW/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/zh-CN/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/zh-CN/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/zh-CN/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/zh-CN/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/zh-CN/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/zh-CN/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/zh-CN/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/zh-CN/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ko-KR/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ko-KR/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ko-KR/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ko-KR/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ko-KR/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ko-KR/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ko-KR/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ko-KR/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/th-TH/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/th-TH/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/th-TH/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/th-TH/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/th-TH/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/th-TH/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/th-TH/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/th-TH/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/nl-NL/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/nl-NL/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/nl-NL/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/nl-NL/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/nl-NL/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/nl-NL/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/nl-NL/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/nl-NL/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/hu-HU/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/hu-HU/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/hu-HU/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/hu-HU/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/hu-HU/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/hu-HU/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/hu-HU/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/hu-HU/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/vi-VN/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/vi-VN/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/vi-VN/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/vi-VN/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/vi-VN/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/vi-VN/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/vi-VN/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/vi-VN/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/cs-CZ/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/cs-CZ/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/cs-CZ/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/cs-CZ/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/cs-CZ/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/cs-CZ/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/cs-CZ/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/cs-CZ/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/da-DK/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/da-DK/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/da-DK/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/da-DK/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/da-DK/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/da-DK/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/da-DK/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/da-DK/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/fi-FI/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/fi-FI/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/fi-FI/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/fi-FI/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/fi-FI/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/fi-FI/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/fi-FI/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/fi-FI/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/uk-UA/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/uk-UA/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/uk-UA/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/uk-UA/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/uk-UA/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/uk-UA/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/uk-UA/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/uk-UA/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/el-GR/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/el-GR/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/el-GR/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/el-GR/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/el-GR/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/el-GR/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/el-GR/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/el-GR/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ro-RO/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ro-RO/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ro-RO/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ro-RO/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ro-RO/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ro-RO/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ro-RO/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ro-RO/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/nb-NO/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/nb-NO/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/nb-NO/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/nb-NO/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/nb-NO/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/nb-NO/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/nb-NO/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/nb-NO/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/sk-SK/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/sk-SK/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/sk-SK/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/sk-SK/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/sk-SK/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/sk-SK/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/sk-SK/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/sk-SK/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/tr-TR/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/tr-TR/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/tr-TR/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/tr-TR/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/tr-TR/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/tr-TR/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/tr-TR/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/tr-TR/video-search-queries-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ru-RU/photo-sitemap.xml.gz
-    Sitemap: https://www.pexels.com/sitemaps/ru-RU/video-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ru-RU/photo-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ru-RU/photo-proven-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ru-RU/video-recent-sitemap.xml.gz
+    Sitemap: https://www.pexels.com/sitemaps/ru-RU/video-proven-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ru-RU/photo-search-queries-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/ru-RU/video-search-queries-sitemap.xml.gz

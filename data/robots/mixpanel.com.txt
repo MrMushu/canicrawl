@@ -8,6 +8,8 @@ Disallow: */forgot-password/*
 Disallow: /signup/?*
 Disallow: */sign-up/*/
 Disallow: /m/*
+Allow: /m/free-plan$
+Allow: /m/free-plan/
 
 # Host
 Host: https://mixpanel.com

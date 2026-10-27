@@ -309,7 +309,6 @@
 - [How Riot Gaming Levels Up With Sentry](https://sentry.io/customers/riot/): If errors are the enemies of game development, then error monitoring is like getting a character boost. Below is an exce
 - [The reliability platform that relies on Sentry—how Rootly reduces MTTR by 50%](https://sentry.io/customers/rootly/): The reliability platform that relies on Sentry—how Rootly reduces MTTR by 50&#37;
 - [Prioritizing and Resolving Issues in Under 10 Minutes with Custom Error Context](https://sentry.io/customers/rush/): How Sentry helps Rush proactively monitor edge cases, prioritize issues with the biggest impact on their customers, cap 
-- [How Shift Improved Observability while migrating from a Monolith to Microservices](https://sentry.io/customers/shift/): About Shift Shift is on a mission to make buying and selling used cars “fun, fair, and accessible to everyone.” Headquar
 - [Changing the Tires on a Moving Codebase](https://sentry.io/customers/simplelegal/): _2020 was a year of reckonings. And for all that was beyond one’s control, as the year went on, I found myself pouring m
 - [How the #1 pool management system is shipping ~65% faster with 50% YoY growth and 0 extra tabs](https://sentry.io/customers/skimmer/): Skimmer uses Sentry’s .NET/React/MAUI SDKs to tie errors to releases and commits, attach Session Replay, and follow one 
 - [How SmugMug continues to improve its customer experience with Sentry](https://sentry.io/customers/smugmug/): How SmugMug continues to improve its customer experience with Sentry
