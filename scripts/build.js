@@ -147,6 +147,7 @@ ${content}
 <footer class="site"><div class="wrap">
   <span>canicrawl — the census of AI access to the web</span>
   <span>data: <a href="${p}data/latest.json">JSON API</a> · CC BY 4.0</span>
+  <span><a href="${p}compare/">compare two sites</a></span>
   <span>updated ${esc(snap.date)}</span>
   <span><a href="${p}colophon/">run daily by an AI</a>, supervised by a human</span>
   <span>sibling: <a href="https://mrmushu.github.io/shortsupply/">shortsupply</a></span>

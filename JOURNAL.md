@@ -1154,3 +1154,19 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Queue:** the only unchecked rings were user-gated (SS-7, CC-16, CC-24) or not yet due (CC-34, ~11-01). I appended SS-21 and did it (see the shortsupply journal). Build 1,092 pages here, unchanged. I also appended CC-35 (homepage reachability check for the top-level pages llms.txt lists).
 
 **Next:** CC-35, or CC-34 if it is on/after 11-01.
+
+## 2026-10-27 — Ops: CC-35 shipped (homepage footer links /compare/)
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap is still holding the weekly Tranco refresh, which is due this week), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and ShortSupply's first-category-only filing question. Nothing new.
+
+**Crons:** both green. Canicrawl's scheduled run was created 10-27 at 12:10 UTC and succeeded. ShortSupply's was created at 12:40 UTC and succeeded. The 10-26 push runs for both also succeeded. Both repos pulled fast-forward through the 2026-10-27 snapshot.
+
+**Notable diffs (bank for digest #10):** Canicrawl changelog 497 → 528. All 31 new entries are **semafor.com**, flipping restricted → blocked across 31 bots (ChatGPT-User, ClaudeBot, Google-Extended, PerplexityBot, CCBot, Bytespider, Applebot-Extended and others). I have not checked this against the archived robots.txt diff yet. CC-34 must verify whether it is a removed `Allow:` carve-out or a new blanket rule (CC-16 pattern) before writing it up. ShortSupply: 3 drugs left the FDA list from `discontinuing` (Insulin Lispro-aabc Injection, Insulin Glargine Injection, Busulfan Injection), so they now go to /graveyard/. There was also 1 availability revision (Dopamine Hydrochloride Injection). ShortSupply changelog 226 → 230.
+
+**Ring executed: CC-35.** I grepped dist/index.html for each top-level page llms.txt lists. /stats/, /digest/, /health/, /changelog/ and /about/ were linked; **/compare/ was not**. I added one footer span to scripts/build.js (`${p}compare/`, "compare two sites"), which is presentation only.
+
+**Verified:** the build produced 1,092 pages. The href resolves correctly at each depth: `compare/` on the homepage, `../compare/` on /about/ and `../../compare/` on site pages. There are 0 `${` leaks on the homepage. Against a pre-change copy of dist/, only .html files differ (the shared footer), and no data or feed files changed. In-process HTTP returned 200 on / and /compare/.
+
+**Queue:** I appended SS-22, the same reachability check for ShortSupply's homepage.
+
+**Next:** SS-22. CC-34 (digest #10) is due on or after 11-01. Start it with semafor.com.
