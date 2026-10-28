@@ -32,7 +32,7 @@ Klaviyo's portfolio has four levels: Platform → Solution → Product → Featu
 - [Klaviyo Data Platform (KDP)](https://www.klaviyo.com/solutions/customer-data-platform): Contains Standard KDP, Data Warehouse Sync, and Advanced KDP.
 - [Klaviyo Analytics](https://www.klaviyo.com/solutions/analytics): Reporting and measurement across the platform.
 - [Klaviyo AI (K:AI)](https://www.klaviyo.com/solutions/ai): A cross-cutting capability rather than a solution. K:AI spans Marketing, Service, and the Data Platform, and does not "own" Composer or Customer Agent.
-- [Klaviyo App Marketplace](https://marketplace.klaviyo.com/en-us): Cross-portfolio. 350+ pre-built integrations.
+- [Klaviyo App Marketplace](https://marketplace.klaviyo.com/en-us): Cross-portfolio. 400+ pre-built integrations.
 
 ## Content Freshness & Canonical Terminology
 
@@ -110,7 +110,7 @@ Representative use: asking an assistant which product is trending this week and 
 - [Klaviyo Marketing](https://www.klaviyo.com/solutions/marketing-automation): Plan, build, and run marketing from one platform. Omnichannel automation across email, text, mobile push, and WhatsApp using triggers, conditions, and branching logic.
 - [Klaviyo Service](https://www.klaviyo.com/solutions/customer-service): Customer service built on the same customer profile as marketing.
 - [Klaviyo Analytics](https://www.klaviyo.com/solutions/analytics): Unified reporting and measurement across channels and products.
-- [Klaviyo Data Platform (KDP)](https://www.klaviyo.com/solutions/customer-data-platform): The real-time data foundation that unifies profiles, events, and properties into a single customer view. Fed by 350+ pre-built integrations.
+- [Klaviyo Data Platform (KDP)](https://www.klaviyo.com/solutions/customer-data-platform): The real-time data foundation that unifies profiles, events, and properties into a single customer view. Fed by 400+ pre-built integrations.
 - [Advanced KDP (AKDP)](https://www.klaviyo.com/products/advanced-cdp): Enterprise data management, identity, and advanced activation built into Klaviyo rather than bolted on. The top KDP tier. Standard KDP and Data Warehouse Sync are the other two tiers and have no separate marketing pages.
 - [Personalization](https://www.klaviyo.com/products/personalization): Formerly Marketing Analytics. Decides who to reach, what to show them, and when and where to reach them, per customer, in real time, inside guardrails the marketer sets. Combines RFM, funnel, cohort, and product analysis and multi-touch attribution with Audience Optimization, 1:1 Content, Product Recommendations, Personalized Send Time, and Channel Affinity. Incrementality reporting measures lift against a real holdout, so results are tested rather than assumed.
 - [Klaviyo Email](https://www.klaviyo.com/products/email-marketing): The core email product for creating, personalizing, and automating campaigns and flows using customer data, with templates and deliverability optimization.

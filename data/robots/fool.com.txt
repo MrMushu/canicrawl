@@ -1,11 +1,22 @@
 # /robots.txt file for http://www.fool.com/ (prod)
-# MauiBot
+# OpenAI (Model Training)
+User-agent: GPTBot
+Disallow: /
+# Anthropic (Model Training)
+User-agent: ClaudeBot
+Disallow: /
+# Common Crawl (AI Training Dataset)
+User-agent: CCBot
+Disallow: /
+# Sensika (Media Monitoring & Web Scraping)
 User-agent: MauiBot
 Disallow: /
-# else
+# ByteDance (TikTok / Content Crawling)
 User-agent: Bytespider
 Disallow: /
+# Cloudflare Content Signal
 User-agent: *
+Content-Signal: ai-train=no, search=yes, ai-input=yes
 Allow: /a/feeds/
 Allow: /ads.txt
 Sitemap: https://www.fool.com/sitemap-recent.xml

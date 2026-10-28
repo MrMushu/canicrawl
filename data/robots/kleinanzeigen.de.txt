@@ -10,6 +10,7 @@ Disallow: /ck/
 Disallow: /classified/latest/
 Disallow: /dc/accessibilite
 Disallow: /dc/decisions_de_justice
+Disallow: /empfehlungen?keywords=
 Disallow: /m-abmelden.html
 Disallow: /m-anzeige-loeschen.html
 Disallow: /m-anzeige-loeschen-mail.html

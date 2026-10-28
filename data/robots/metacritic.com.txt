@@ -26,6 +26,12 @@ Disallow: /
 User-agent: OAI-SearchBot
 Disallow: /
 
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
 User-agent: ImagesiftBot
 Disallow: /
 

@@ -1,14 +1,17 @@
 User-Agent: *
 Disallow: /templates/Blank-HTML
-Disallow: /templates/Multivuplayer.html 
-Disallow: /templates/Home-page-with-spaces.html 
-Disallow: /templates/Home-page-with-out-spaces.html 
+Disallow: /templates/Multivuplayer.html
+Disallow: /templates/Home-page-with-spaces.html
+Disallow: /templates/Home-page-with-out-spaces.html
 Disallow: /templates/PRN_Custom_MultiVu_Recommendation
 Disallow: /templates/get-bitly-url.txt
 Disallow: /widget-landing-page.html
 Disallow: /multivu/
-Disallow: /search/
 
+# AI Context File
+Sitemap: https://www.prnewswire.com/llms.txt
+
+# Standard Sitemap
 Sitemap: https://www.prnewswire.com/sitemap.xml
 Sitemap: https://www.prnewswire.com/sitemap-news.xml
 
@@ -71,16 +74,16 @@ Sitemap: https://www.prnewswire.com/apac/sitemap-news.xml
 
 Sitemap: https://www.prnewswire.com/id/sitemap.xml
 Sitemap: https://www.prnewswire.com/id/sitemap-news.xml
- 
+
 Sitemap: https://www.prnewswire.com/apac/zh/sitemap.xml
 Sitemap: https://www.prnewswire.com/apac/zh/sitemap-news.xml
- 
+
 Sitemap: https://www.prnewswire.com/br/sitemap.xml
 Sitemap: https://www.prnewswire.com/br/sitemap-news.xml
 
 Sitemap: https://www.prnewswire.com/mx/sitemap.xml
 Sitemap: https://www.prnewswire.com/mx/sitemap-news.xml
- 
+
 Sitemap: https://www.prnewswire.com/kr/sitemap.xml
 Sitemap: https://www.prnewswire.com/kr/sitemap-news.xml
 
@@ -89,3 +92,6 @@ Sitemap: https://www.prnewswire.com/jp/sitemap-news.xml
 
 Sitemap: https://www.prnewswire.com/vn/sitemap.xml
 Sitemap: https://www.prnewswire.com/vn/sitemap-news.xml
+
+Sitemap: https://www.prnewswire.com/me/sitemap.xml
+Sitemap: https://www.prnewswire.com/me/sitemap-news.xml

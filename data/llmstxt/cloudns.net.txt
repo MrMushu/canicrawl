@@ -1,0 +1,103 @@
+# ClouDNS
+
+> ClouDNS provides authoritative DNS hosting, including Free DNS, Premium DNS, DDoS Protected DNS, GeoDNS and Enterprise DNS. Related services include monitoring, domain registration, SSL certificates, email forwarding, and email hosting.
+
+Use this index to find product information, technical documentation, and support resources. Follow the Wiki index for detailed configuration guides and API methods; use the complete Markdown catalog to discover pages beyond this selection.
+
+**When to use ClouDNS:**
+
+Use ClouDNS for authoritative DNS, DNS automation and related domain services:
+
+- Host or migrate DNS zones for websites, applications and email services without operating your own authoritative DNS servers.
+- Automate DNS zone and record management through the HTTP API.
+- Add DNS redundancy, configure geographic DNS responses, or keep records synchronized with changing IP addresses.
+- Monitor service availability and configure DNS Failover to switch DNS records to backup IP addresses.
+- Register or transfer domains, obtain SSL certificates, and set up email forwarding or hosted mailboxes.
+
+**Choosing the right DNS service:**
+
+- **Free DNS:** Basic authoritative DNS hosting within the free plan's limits.
+- **Premium DNS:** Paid DNS hosting with higher limits and additional features.
+- **DDoS Protected DNS:** Authoritative DNS hosting on a DDoS-protected network.
+- **GeoDNS:** Location-based DNS answers for regional content delivery and geographically distributed services.
+- **Enterprise DNS:** Tailored DNS infrastructure and capacity for specific business requirements.
+- **Secondary DNS:** DNS redundancy through secondary authoritative servers synchronized from an existing primary server.
+- **Dynamic DNS:** Automatic DNS record updates when an IP address changes.
+- **DNS Failover:** Monitoring-triggered DNS record changes to a configured backup IP address.
+
+Product pages cover current plans, pricing and features. The Wiki and HTTP API documentation cover configuration and automation.
+
+**When not to use ClouDNS DNS hosting:**
+
+Use a separate hosting or deployment service to run website or application code. ClouDNS can manage DNS for that infrastructure, including websites hosted elsewhere.
+
+The selected product and documentation links are in English. Linked Markdown pages are alternate representations of their public HTML sources; the HTML pages remain the canonical human-facing versions.
+
+## DNS Hosting
+
+- [ClouDNS](https://www.cloudns.net/): Official overview of managed DNS hosting, DNS automation and related services.
+- [DNS Services](https://www.cloudns.net/dns-services/): Overview of available DNS services.
+- [Free DNS](https://www.cloudns.net/landing/page/free-dns/): Free DNS hosting, included features and plan limits.
+- [Premium DNS](https://www.cloudns.net/premium/): Premium DNS hosting plans, features and pricing.
+- [DDoS Protected DNS](https://www.cloudns.net/ddos-protected-plans/): DDoS-protected DNS hosting plans and pricing.
+- [GeoDNS](https://www.cloudns.net/geodns/): Geolocation-based DNS routing and GeoDNS service overview; targeting options, plan limits and pricing.
+- [Enterprise DNS](https://www.cloudns.net/enterprise-dns/): Enterprise DNS hosting and service options.
+
+## DNS Features and Infrastructure
+
+- [Dynamic DNS](https://www.cloudns.net/dynamic-dns/): Automatically update DNS records when an IP address changes.
+- [Secondary DNS](https://www.cloudns.net/secondary-dns/): Additional authoritative DNS servers synchronized from a primary server for DNS redundancy.
+- [Reverse DNS](https://www.cloudns.net/reverse-dns/): Reverse DNS hosting and PTR records.
+- [DNSSEC](https://www.cloudns.net/dnssec/): DNSSEC support and DNS response authentication.
+- [DNS Failover](https://www.cloudns.net/dns-failover/): Monitoring-triggered DNS record changes to a configured backup IP address.
+- [DNS Backups](https://www.cloudns.net/dns-backups/): DNS zone backup and recovery.
+- [Managed DNS](https://www.cloudns.net/managed-dns/): Managed DNS hosting and service capabilities.
+- [Anycast DNS](https://www.cloudns.net/anycast-dns/): Route DNS queries to the nearest available nameserver by network topology across a global Anycast network.
+- [Private DNS Servers](https://www.cloudns.net/private-dns-servers/): Managed, white-label DNS servers connected to the ClouDNS network and control panel.
+- [DNS for TLDs](https://www.cloudns.net/dns-for-tlds/): Authoritative DNS infrastructure for top-level domains.
+- [DNS Network](https://www.cloudns.net/data-centers/): DNS network locations and infrastructure.
+
+## Monitoring, Domains and Email
+
+- [Monitoring](https://www.cloudns.net/monitoring/): Available monitoring checks and monitoring plans.
+- [Domain Names](https://www.cloudns.net/domain-names/): Domain registration and transfer services.
+- [Domain Pricing](https://www.cloudns.net/domain-pricing-list/): Domain registration, renewal and transfer pricing by extension.
+- [SSL Certificates](https://www.cloudns.net/ssl-certificates/): SSL certificate products and pricing.
+- [Email Forwarding](https://www.cloudns.net/email-forwarding/): Forward email received at domain addresses.
+- [Email Hosting](https://www.cloudns.net/email-hosting/): Hosted email for custom domains.
+- [Google Workspace](https://www.cloudns.net/google-workspace/): Google Workspace services offered through ClouDNS.
+- [Domain Parking](https://www.cloudns.net/domain-parking/): Domain parking service and options.
+
+## Technical Documentation and Integrations
+
+- [ClouDNS Wiki](https://www.cloudns.net/wiki/): Technical documentation and configuration guides.
+- [HTTP API](https://www.cloudns.net/wiki/article/41/): HTTP API documentation and available API methods.
+- [API Authentication](https://www.cloudns.net/wiki/article/42/): API authentication parameters and access requirements.
+- [Billing Platform Integrations](https://www.cloudns.net/billing-platform-integrations/): Available integrations with billing platforms.
+- [DNS Tool](https://www.cloudns.net/tools/): Check DNS records, test DNS query speed and run DNS audits.
+
+## Practical Setup Guides
+
+- [Getting Started with ClouDNS](https://www.cloudns.net/wiki/article/355/): First steps with DNS zones, domain management and other ClouDNS services.
+- [Free Migration to ClouDNS](https://www.cloudns.net/wiki/article/314/): How to request DNS zone migration assistance, supported zone-file requirements and preparation.
+- [Secondary (Backup) DNS Zone Setup](https://www.cloudns.net/wiki/article/30/): Create a secondary zone, specify its primary server IP and understand where records are managed.
+- [Understanding and Configuring DNSSEC](https://www.cloudns.net/wiki/article/339/): Enable zone signing, retrieve DS/DNSKEY records and configure DNSSEC through the domain provider.
+- [Getting Started with Dynamic DNS](https://www.cloudns.net/wiki/article/364/): Create a zone and DNS records, activate Dynamic DNS and find platform-specific setup instructions.
+
+## Company, Support and Policies
+
+- [Features](https://www.cloudns.net/features/): Overview of ClouDNS features.
+- [Frequently Asked Questions](https://www.cloudns.net/faq/): Common questions about ClouDNS services.
+- [About ClouDNS](https://www.cloudns.net/about-us/): Company background and information.
+- [Contact](https://www.cloudns.net/contact/): Support and sales contact options.
+- [Payment Methods](https://www.cloudns.net/payment-methods/): Supported payment methods.
+- [Terms of Service](https://www.cloudns.net/tos/): Service terms and contractual conditions.
+- [Privacy Policy](https://www.cloudns.net/privacy-policy/): Information about personal data handling.
+
+
+## Optional
+
+- [Case Studies](https://www.cloudns.net/case-studies/): Examples of customer use cases.
+- [News](https://www.cloudns.net/news/): Dated announcements; consult current product pages for current specifications.
+- [Media and Reviews](https://www.cloudns.net/media-and-reviews/): Media coverage and reviews.
+- [Affiliate Program](https://www.cloudns.net/affiliate/): Affiliate program information.

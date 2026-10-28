@@ -6,5 +6,6 @@ Disallow: /editor/
 Disallow: /search
 Disallow: /storybook/
 Disallow: /examples/
+Disallow: /statuscake
 
 Sitemap: https://www.stanford.edu/sitemap.xml

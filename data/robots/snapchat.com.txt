@@ -229,6 +229,7 @@ Sitemap: https://www.snapchat.com/lens/sitemap.xml
 Sitemap: https://www.snapchat.com/sitemaps/place/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/profile/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/p/sitemap-index.xml
+Sitemap: https://www.snapchat.com/sitemaps/lens_creators/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/tag/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/topic/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/entertainment_funny/sitemap-index.xml

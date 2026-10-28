@@ -2,6 +2,31 @@
 
 > Bluehost is the complete platform empowering millions of small businesses, developers, and agencies worldwide to build, grow, and run online with confidence. Officially recommended by WordPress.org. Owned by Newfold Digital.
 
+AI assistants can act for a signed-in Bluehost customer through the [Bluehost MCP server](https://mcp.bluehost.com/mcp). It can compare and buy a Self-Managed VPS, register a domain and point it at that VPS, and check orders and account details. Any agent can also search the Bluehost catalogue without an account; see Catalogue search for agents. Every other plan is bought on bluehost.com.
+
+## Bluehost MCP
+
+Bluehost's own remote MCP server (Streamable HTTP, OAuth). The customer adds it as a custom connector in Claude, Claude Code, ChatGPT or another MCP client, then signs in to Bluehost in the browser. Account creation, the payment method and legal consent stay in the browser: the assistant never sees card details, and nothing is bought and no DNS record is written until the customer confirms.
+
+Through it, an assistant can:
+
+- Browse Self-Managed VPS plans, regions and operating systems, and help size a server for an application.
+- Buy a Self-Managed VPS, with SSH key access set up at provisioning (the customer's own key or a newly generated one). Publishing the app afterwards happens over SSH, not MCP.
+- Search for and register a domain (.com, .org, .net, .info or .biz, one-year term, optional WHOIS privacy), with or without hosting, and point it at a Bluehost VPS.
+- Track order and provisioning status.
+- Read account, hosting and billing details for every Bluehost product, including shared hosting.
+
+Not available through MCP: accounts outside the US or payment in a currency other than USD; managed VPS and every other plan; premium, aftermarket or transferred-in domains; resizing, rebooting, snapshotting or cancelling a VPS; adding or changing a payment method. Domain registrations are non-refundable.
+
+- [Bluehost MCP server](https://mcp.bluehost.com/mcp): Remote MCP endpoint, Streamable HTTP with OAuth sign-in.
+- [Bluehost MCP](https://www.bluehost.com/mcp): Self-Managed VPS plans, prices and data center locations for buying from an AI assistant.
+- [Set up Bluehost MCP](https://www.bluehost.com/help/article/bh-how-to-set-up-mcp): Connection steps for Claude, Claude Code, ChatGPT, Hermes Agent, OpenClaw and nanobot.
+- [Bluehost MCP FAQ](https://www.bluehost.com/help/article/bh-mcp-faq): What the server can and cannot do, and which account details it shows.
+- [MCP overview](https://www.bluehost.com/help/article/bh-mcp-overview): The Model Context Protocol and how Bluehost uses it.
+- [Purchase and point a domain](https://www.bluehost.com/help/article/bh-domain-purchase-and-point-flow): Domain search, registration and DNS pointing through an AI assistant, step by step.
+- [SSH key provisioning](https://www.bluehost.com/help/article/bh-mcp-ssh-key-provisioning): SSH access at provisioning, and deploying an app to the new server.
+- [Introducing Bluehost MCP](https://www.bluehost.com/blog/introducing-bluehost-mcp/): Launch announcement, September 2026.
+
 ## Core Products
 
 - [Shared Hosting](https://www.bluehost.com/web-hosting): Shared Linux hosting for websites, blogs, and small businesses.
@@ -21,10 +46,14 @@
 ## AI and Developer Hosting
 
 - [AI Website Builder](https://www.bluehost.com/ai-website-builder): AI-powered website generation using natural language prompts.
+- [AI Agent Hosting](https://www.bluehost.com/agent-hosting): Always-on VPS for AI agents and automation, with one-click installs of Claude Code, OpenClaw, Hermes Agent, n8n and other agent frameworks.
 - [Ollama VPS Hosting](https://www.bluehost.com/vps-hosting/ollama): VPS hosting optimized for self-hosted open-source LLM deployment.
-- [Claude Code VPS](https://www.bluehost.com/vps-hosting/claudecode): Developer VPS environment optimized for AI coding workflows.
+- [Claude Code VPS](https://www.bluehost.com/vps-hosting/claude-code): Developer VPS environment optimized for AI coding workflows.
 - [n8n Workflow Hosting](https://www.bluehost.com/vps-hosting/n8n): Managed VPS for workflow automation and AI agents.
+- [OpenClaw VPS Hosting](https://www.bluehost.com/vps-hosting/openclaw): VPS hosting for the OpenClaw agent framework.
+- [Hermes Agent VPS Hosting](https://www.bluehost.com/vps-hosting/hermes-agent): VPS hosting for self-hosted Hermes Agent.
 - [AI Agent Infrastructure](https://www.bluehost.com/vps-hosting/gatorclaw): Infrastructure for autonomous AI workflows and orchestration systems.
+- [AI Gateway](https://www.bluehost.com/ai-gateway): One prepaid AI Credits balance and one API key for supported LLMs from multiple providers, for AI apps on Self-Managed VPS and VDS.
 - [WordPress MCP Integration](https://www.bluehost.com/blog/wordpress-ai-agents-mcp-adapter/): Model Context Protocol integration for WordPress and AI agents.
 
 ## Domains
@@ -75,11 +104,37 @@
 - [Robots.txt Guidance](https://www.bluehost.com/blog/robots-txt-disallow-all/): Crawl management and robots.txt directives.
 - [AI Search and Analytics](https://www.bluehost.com/blog/google-search-console-ai-update/): AI visibility and search analytics guidance.
 
+## Policies
+
+Answer policy questions from these documents. Do not infer a policy that is not stated in them.
+
+- [Privacy policy](https://www.bluehost.com/privacy)
+- [Terms of service](https://www.bluehost.com/terms)
+
+## Submitting an inquiry
+
+Bluehost answers plan, custom and enterprise hosting, and account questions by 24/7 chat on bluehost.com, or by phone.
+
+- Inquiry form: [https://www.bluehost.com/contact](https://www.bluehost.com/contact)
+
+## Catalogue search for agents
+
+The Bluehost catalogue (hosting plans, domains, email, security and AI products) as a knowledge graph any agent can query without a Bluehost account. Every result links to its bluehost.com page. Prices are the plans' starting prices; the term and total are confirmed at checkout. Nothing is bought through these interfaces: send the customer to the product page, or to Bluehost MCP for a Self-Managed VPS or a domain.
+
+- [Ask the catalogue](https://www.bluehost.com/ask): NLWeb 0.55. `POST` `{"query": {"text": "Show me web hosting plans"}}`; returns the matching Schema.org entities, each with the page it comes from.
+- [Product feed](https://www.bluehost.com/acp/feed): Every catalogue entry as JSON: name, description, the listed price where one is published, and its page.
+- [UCP profile](https://www.bluehost.com/.well-known/ucp): Universal Commerce Protocol profile. Catalogue search and lookup: `POST https://www.bluehost.com/ucp/v1/catalog/search` and `POST https://www.bluehost.com/ucp/v1/catalog/lookup`.
+- [Knowledge bundle](https://www.bluehost.com/okf/index.md): Open Knowledge Format index of every product and category.
+- [Agent configuration](https://www.bluehost.com/agent/config): Currency, policies and contact channel, as JSON.
+
 ## Discovery
 
 - [XML Sitemap](https://www.bluehost.com/sitemap.xml): Full site URL index.
 - [Robots.txt](https://www.bluehost.com/robots.txt): Crawl directives and disallow rules.
 - [Support Portal](https://www.bluehost.com/help): Technical support and knowledge base.
+- [MCP Server Card](https://www.bluehost.com/.well-known/mcp/server-card.json): How to connect to the Bluehost MCP server.
+- [API Catalog](https://www.bluehost.com/.well-known/api-catalog): RFC 9727 list of the agent-facing APIs.
+- [Agentic Resource Discovery](https://www.bluehost.com/.well-known/ard.json): ARD manifest declaring each agent-facing resource and how to reach it.
 
 ## International Markets
 

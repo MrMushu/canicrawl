@@ -8,6 +8,7 @@ Allow: /users/login?lang=
 Disallow: /users/login?lang=*&
 Allow: /users/login/?lang=
 Disallow: /users/login/?lang=*&
+Disallow: /dreamup?
 Disallow: /download/
 Disallow: /checkout/
 Disallow: /global/

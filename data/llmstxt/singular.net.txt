@@ -622,7 +622,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [Singular Support Actionfit to Achieve 150% YoY Growth](https://www.singular.net/case-study/actionfit-games/): Singular Support Actionfit to Achieve 150% YoY Growth
 - [ConfirmTkt drives growth across 6+ marketing channels](https://www.singular.net/case-study/confirmtkt-marketing-growth/)
 - [Rec Room doubles install rates through cross-platform innovation](https://www.singular.net/case-study/rec-room-cross-platform-growth/)
-- [Kakao Games effectively tracks Cross-Platform performance with Singular](https://www.singular.net/case-study/kakao-games-cross-platform-performance/): Learn how Kakao Games tracks cross-platform performance with Singular for better insights and growth.
+- [Kakao Games effectively tracks Cross-Platform performance with Singular](https://www.singular.net/case-study/kakao-games-cross-platform-performance/)
 - [Innplay increases spend by 200x since their migration](https://www.singular.net/case-study/innplay-labs-200-times-spend-increase/): Learn how Innplay Labs drove a 200X increase in marketing spend and scaled their operations with Singular's solutions
 - [REPLUG + Singular = Success for Bohemian Research](https://www.singular.net/case-study/bohemian-research-replug-singular-success/): Learn how Bohemian Research achieved a 191% ad spend increase and 272% ROAS with REPLUG and Singular partnership
 - [NG.CASH increases downloads by 177% since migrating MMPs](https://www.singular.net/case-study/ngcash-case-study/)
@@ -633,24 +633,24 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [DraftKings generates 100 links per minute with a 99% reduction in creation time](https://www.singular.net/case-study/draftkings-case-study/): DraftKings generates 100 links per minute, saving 44 hours per week with Singular’s Tracking Link API. Click here to learn how!
 - [Playsome meets KPI goals and nets impressive growth with minimal resources](https://www.singular.net/case-study/udonis-and-playsome/): Learn how Playsome boosted ROAS by 115% through strategic collaboration with Udonis and Singular's marketing analytics tools. Read the case study!
 - [Ciao Games-MAF transitions & manages 30+ apps seamlessly](https://www.singular.net/case-study/ciao-games-and-maf/): Ciao Games seamlessly transitioned 30+ apps to Singular. Learn how Singular's platform & support boosted their efficiency & growt
-- [Offerwise raises attribution standards across mobile and web](https://www.singular.net/case-study/offerwise-redefines-mobile-and-web-attribution/): Offerwise improves mobile and web performance with cohorted events, owned campaign tracking, and custom visualization dashboards.
+- [Offerwise raises attribution standards across mobile and web](https://www.singular.net/case-study/offerwise-redefines-mobile-and-web-attribution/)
 - [AstroPay migrates MMPs for full cross-platform attribution with zero data loss](https://www.singular.net/case-study/astropay-mmp-migration/)
-- [Star Stable takes on iOS and Android with compliant performance measurement](https://www.singular.net/case-study/star-stable-privacy-compliant/): Learn how Star Stable, the world's #1 horse game, leveraged Singular's privacy-compliant mobile measurement solution to achieve an 800% ROI increase
-- [Domino’s scales spend 2-3x since moving to Singular](https://www.singular.net/case-study/dominos-2-3x-spend-scale/): Learn how Domino's India used Singular to solve its fraud problems, improve attribution reporting, and scale its spend 2-3x
+- [Star Stable takes on iOS and Android with compliant performance measurement](https://www.singular.net/case-study/star-stable-privacy-compliant/)
+- [Domino’s scales spend 2-3x since moving to Singular](https://www.singular.net/case-study/dominos-2-3x-spend-scale/)
 - [Carry1st leads the way with SKAN 4 adoption](https://www.singular.net/case-study/carry1st-skan-4-adoption/): Learn how Carry1st, Africa's leading publisher of games and digital content, partnered with Singular to successfully adopt SKAN 4 and achieve impressive results
-- [Mad Brain Games improves efficiency &amp; scales their growth](https://www.singular.net/case-study/mad-brain-games-improves-efficiency-scales-growth/): Mad Brain Games improved efficiency and scaled growth with Singular's mobile attribution solution. Click here to learn how!
-- [Rovio’s Angry Birds exceeds ROAS targets by 10%](https://www.singular.net/case-study/rovio-angry-birds-exceeds-roas-targets/): Rovio’s Angry Birds boosted ROAS by 10% with Singular’s mobile attribution solution. Click here to learn how!
+- [Mad Brain Games improves efficiency & scales their growth](https://www.singular.net/case-study/mad-brain-games-improves-efficiency-scales-growth/)
+- [Rovio’s Angry Birds exceeds ROAS targets by 10%](https://www.singular.net/case-study/rovio-angry-birds-exceeds-roas-targets/)
 - [Wise celebrates seamless MMP migration](https://www.singular.net/case-study/wise-mmp-migration/)
-- [Gameloft unites creative and UA teams with one single source of creative performance truth](https://www.singular.net/case-study/case-study-gameloft/): Learn how Gameloft unites creative and UA teams with one single source of creative performance truth
+- [Gameloft unites creative and UA teams with one single source of creative performance truth](https://www.singular.net/case-study/case-study-gameloft/)
 - [Drops sees 40x non-organic ​​UA in the first quarter with Applica and Singular](https://www.singular.net/case-study/drops-40x-user-acquisition/): With Singular, Drops increased non-organic user acquisition by 40x in 1 quarter! Learn how they did it and how you can too
-- [Pipa Studios increases # of new payers by 2x per day](https://www.singular.net/case-study/case-study-pipa/): Learn how Pipa Studios increases the number of payers by 2x with better data visibility and access using Singular's MMP solution
-- [PRIVO Approved: Compliant Attribution for Kids Apps](https://www.singular.net/case-study/case-study-privo-kids-apps/): Learn how Singular has developed a privacy-compliant solution for children's apps that ensures data protection and adherence to regulations.
+- [Pipa Studios increases # of new payers by 2x per day](https://www.singular.net/case-study/case-study-pipa/)
+- [PRIVO Approved: Compliant Attribution for Kids Apps](https://www.singular.net/case-study/case-study-privo-kids-apps/)
 - [Luno saves hours in manual work and aligns all teams with 1 source of truth](https://www.singular.net/case-study/case-study-luno-user-acquisition/)
-- [Hothead Games measures against industry benchmarks to power a winning growth strategy](https://www.singular.net/case-study/case-study-hothead-games/): Learn how Hothead Games measures against industry benchmarks to power a winning growth strategy
+- [Hothead Games measures against industry benchmarks to power a winning growth strategy](https://www.singular.net/case-study/case-study-hothead-games/)
 - [A Thinking Ape lowers SKAN eCPIs after migrating to Singular](https://www.singular.net/case-study/case-study-athinkingape/)
-- [Appvertiser + Singular: Improving ad performance through creative optimization](https://www.singular.net/case-study/case-study-appvertiser/): Learn how appvertiser improved their ad performance using Singular's creative analytics and optimization
-- [Lessmore hits top gaming ranks with trusted campaign performance views](https://www.singular.net/case-study/case-study-lessmore/): Learn how Lessmore hits top gaming ranks with trusted campaign performance views using Singular's MMP solution
-- [Lessmore exceeds ROAS goal by 80% with dual ROAS model by Moloco powered by Singular](https://www.singular.net/case-study/case-study-lessmore-moloco/): Learn how hybrid casual game studio Lessmore exceeds ROAS goal by 80% within just 2 weeks with dual ROAS model by Moloco powered by Singular
+- [Appvertiser + Singular: Improving ad performance through creative optimization](https://www.singular.net/case-study/case-study-appvertiser/)
+- [Lessmore hits top gaming ranks with trusted campaign performance views](https://www.singular.net/case-study/case-study-lessmore/)
+- [Lessmore exceeds ROAS goal by 80% with dual ROAS model by Moloco powered by Singular](https://www.singular.net/case-study/case-study-lessmore-moloco/)
 - [WorkIndia drives 400,000+ install growth in 4 months](https://www.singular.net/case-study/case-study-workindia2023/): Read this case study to learn how Singular helped Work India achieve growth of 400,000+ installs in just 4 months
 - [Home & Shopping increases ROI by 73% with Singular](https://www.singular.net/case-study/marketing-intelligence-home-shopping/): “With Singular’s platform, the team was able to uncover new opportunities to optimize our efforts. We can now test new...
 - [Oyo scales growth with 1 single source of truth](https://www.singular.net/case-study/case-study-oyo/): Read this case study to learn how Singular has helped OYO increase efficiency and save an enormous amount of time
@@ -663,17 +663,17 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [CrazyLabs unlocks efficient growth and automates their marketing analytics](https://www.singular.net/case-study/crazylabs-unlocks-efficient-growth-and-automates-their-marketing-analytics/): Check out how the CrazyLabs team saved 15+ hrs/week and were able to make quicker, better decisions about their advertising spend.
 - [1mg increases userbase while reducing acquisition costs with Marketing Intelligence](https://www.singular.net/case-study/1mg-case-study/): 1mg is a digital retail and e-commerce platform located in Gurugram that delivers healthcare products directly to consumers, making healthcare...
 - [3Q Digital powers faster, smarter growth for clients](https://www.singular.net/case-study/3qdigital-powers-growth-performance-insights/): 3Q Digital's Director of Mobile Strategy discusses how they drive growth for their clients with accurate, granular and timely performance insights.
-- [DraftKings unifies siloed marketing data to uncover deep insights for growth](https://www.singular.net/case-study/unified-marketing-data-for-superior-optimizations/): DraftKings Sr. Director of Growth Marketing, Jayne Pimentel, discusses how her team unified their marketing data and uncovered deep performance insights.
-- [Personal Capital tackles cross-platform measurement](https://www.singular.net/case-study/cross-platform-measurement-personal-capital/): We sat with the Director of Digital Marketing at Personal Capital to discuss how they're connecting their users' journeys with cross-platform measurement.
-- [LinkedIn establishes a single source of truth for marketing performance](https://www.singular.net/case-study/linkedin-establishes-single-source-of-truth/): Jake Bailey from LinkedIn discusses how they used Singular to align their internal teams with a single source of truth for marketing performance.
+- [DraftKings unifies siloed marketing data to uncover deep insights for growth](https://www.singular.net/case-study/unified-marketing-data-for-superior-optimizations/): We sat down with DraftKings Senior Director of Growth Marketing, Jayne Pimentel, to discuss how her team leveraged Singular to...
+- [Personal Capital tackles cross-platform measurement](https://www.singular.net/case-study/cross-platform-measurement-personal-capital/): We sat down with Rachel Chanco, Director of Digital Marketing & Mobile Growth at Personal Capital, to discuss how they’re...
+- [LinkedIn establishes a single source of truth for marketing performance](https://www.singular.net/case-study/linkedin-establishes-single-source-of-truth/): We sat down with LinkedIn‘s Senior Manager of Digital Marketing and Strategy, Jake Bailey, to discuss how they were able...
 - [Ilyon takes their growth game to the next level with 98% increase in installs](https://www.singular.net/case-study/ilyon-takes-their-growth-game-to-the-next-level-with-98-increase-in-installs-2/): Find out how Ilyon leveraged Singular, the marketing intelligence platform, to increase their installs by 98% in a matter of a year.
-- ['The hype is real:' Lyft Head of Marketing Science Alok Gupta on marketing measurement](https://www.singular.net/case-study/hype-real-lyft-head-marketing-science-alok-gupta-marketing-measurement/): When it comes to marketing measurement, it's all about finding ways to unlock efficiency with reliable practices.
-- [Mobile user acquisition in India: How the most efficient advertisers grow faster](https://www.singular.net/case-study/mobile-user-acquisition-india-strategies-efficient-advertisers-use-growth/): Growth strategies differ based on region. Learn more about how a prominent business in India runs mobile user acquisition.
-- [Jam City optimizes campaign performance and creative strategy with Singular](https://www.singular.net/case-study/jam-city-optimizes-campaign-performance-creative-strategy-singular-video/): We got to sit down with Jam City's VP of UA Marketing, Brian Sapp, to discuss how his team is using Singular to optimize campaign and creative performance.
-- [DGN Games hits the jackpot with 85% growth YoY](https://www.singular.net/case-study/dgn-games-hits-the-jackpot-with-85-growth-yoy/): Find out how DGN Games leveraged Singular, the marketing intelligence platform, to become the fastest growing social casino gaming app in the industry.
-- [Yelp Partners With Singular Analytics Platform to Advance Its Next-Generation Marketing](https://www.singular.net/case-study/yelp-partners-singular-analytics-platform/): Explains how Yelp is using the Singular unified analytics platform to advance its next generation of marketing efforts for its Android and iOS apps.
-- [Singular’s Granular Reporting Gives Match Group a Competitive Edge to Target More Accurately](https://www.singular.net/case-study/match-customer-story-blog/): How Singular's rich and granular reporting capabilities are helping Match market its apps for effectively to single consumers.
-- [Postmates Partners with Singular to Scale its Growth Marketing with Deeper Insights](https://www.singular.net/case-study/postmates-partners-singular-scale-growth-marketing-deeper-insights/): Discover how Postmates leverages Singular's unified analytics platform to scale its growth marketing efforts using deeper insights.
+- ['The hype is real:' Lyft Head of Marketing Science Alok Gupta on marketing measurement](https://www.singular.net/case-study/hype-real-lyft-head-marketing-science-alok-gupta-marketing-measurement/): Marketing is an art. Marketing is a science. Just maybe, measurement is the Gordian knot that ties them both together. We’ve...
+- [Mobile user acquisition in India: How the most efficient advertisers grow faster](https://www.singular.net/case-study/mobile-user-acquisition-india-strategies-efficient-advertisers-use-growth/): The following is an in-depth overview of the growth strategies of a very well-respected and profitable online business in India....
+- [Jam City optimizes campaign performance and creative strategy with Singular](https://www.singular.net/case-study/jam-city-optimizes-campaign-performance-creative-strategy-singular-video/): We got to sit down with Jam City’s VP of User Acquisition Marketing, Brian Sapp, to discuss how his team...
+- [DGN Games hits the jackpot with 85% growth YoY](https://www.singular.net/case-study/dgn-games-hits-the-jackpot-with-85-growth-yoy/): #1 fastest growing social casino game 85% growth YoY 15 hrs saved per week Singular has been a gamechanger for our growth efforts and...
+- [Yelp Partners With Singular Analytics Platform to Advance Its Next-Generation Marketing](https://www.singular.net/case-study/yelp-partners-singular-analytics-platform/): We are thrilled to announce that Yelp and Yelp Eat24 has partnered with Singular to advance both apps’ marketing operations...
+- [Singular’s Granular Reporting Gives Match Group a Competitive Edge to Target More Accurately](https://www.singular.net/case-study/match-customer-story-blog/): Match Group is a pioneer in the online dating industry, with an enviable market share and operating over 45 of...
+- [Postmates Partners with Singular to Scale its Growth Marketing with Deeper Insights](https://www.singular.net/case-study/postmates-partners-singular-scale-growth-marketing-deeper-insights/): Postmates, the on-demand delivery logistics company that defined the food and delivery industry as we know it today, has partnered...
 
 
 ## Guides
@@ -1577,6 +1577,19 @@ Scrambly scales ad spend 5× with Singular
 
 
 Singular Support Actionfit to Achieve 150% YoY Growth
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

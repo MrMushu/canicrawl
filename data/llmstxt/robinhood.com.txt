@@ -1,0 +1,77 @@
+# Robinhood
+
+
+
+> Robinhood is a US-based financial services platform offering commission-free investing, options trading, cryptocurrency trading, retirement accounts, cash management, and agentic finance tools. Robinhood Financial LLC is a registered broker-dealer, member FINRA and SIPC. Cryptocurrency services are offered through Robinhood Crypto, LLC, registered with FinCEN and licensed as a Money Services Business.
+
+
+
+## Available Regions
+- US (en) — /us/en/
+- GB (en) — /gb/en/
+- EU (en, it, pl, lt, es, nl, de, fr) — /eu/{lang}/
+- CA (en, fr) — /ca/{lang}/
+- SG (en) — /sg/en/
+- INT (en) — /int/en/
+
+
+
+## Agentic Products
+- [Robinhood | Agentic Credit Card](https://robinhood.com/us/en/agentic-credit-card): Create a virtual card for any AI agent. Set limits, approve transactions, and earn 3% cash back. All with the Robinhood Gold Card.
+
+## Investing — Stocks & ETFs
+- [Start Trading & Investing with Robinhood App (First Stock is on us)](https://robinhood.com/us/en/invest): Robinhood offers commission-free investing &  tools to help shape your financial future. Sign up today to start building your portfolio. Terms and fees apply.
+- [ IPO Access. Buy shares at the IPO price | Robinhood](https://robinhood.com/us/en/ipo-access): No commission fees. No account minimums. Other fees may apply.
+
+- [Built For The Future of Trading | Robinhood](https://robinhood.com/us/en/about/trading): Robinhood’s intuitive design makes trading seamless. Spot opportunities and take control of your trades with tools like screeners, simulated returns, and strategy-builder. Sign up today. Terms and fees may apply.
+
+- [Robinhood Strategies | This Is More Than a "Robo Advisor"](https://robinhood.com/us/en/strategies): Define your financial goals and get a tailored, expert-managed portfolio. Follow current market trends, always know why your money moves, and invest with confidence.                                                                                                                           
+- [Robinhood Legend: Advanced Desktop Trading & Analysis](https://robinhood.com/us/en/legend): Robinhood Legend is an all-new desktop platform for stocks, options, and crypto trading with real-time data, customizable charts, & advanced analysis tools.
+- [Custodial Accounts | Robinhood ](https://robinhood.com/us/en/custodial): Open a Robinhood custodial account (UTMA) for a child and start investing in their future—so what you set aside today can grow over time.
+
+## Options & Futures
+- [Stock Options Trading | Robinhood](https://robinhood.com/us/en/about/options): Access advanced charts, some of the lowest margin rates in the industry, cash accounts, and more on Robinhood.
+- [Robinhood | Futures](https://robinhood.com/us/en/about/futures): Meet futures. Trade with leverage on the S&P 500, oil, Bitcoin, and more. Get some of the lowest commissions in the market, special tax treatment, no PDT rules, no time decay, and a nearly 24-hour trading window.
+
+
+## Crypto
+- [Robinhood Crypto: Trade crypto at one of the lowest costs on average](https://robinhood.com/us/en/crypto): Buy and sell Bitcoin, Ethereum, Dogecoin, and other cryptocurrencies 24/7 with Robinhood Crypto.
+- [Robinhood Earn: Put your crypto to work and earn an estimated 7% APY](https://robinhood.com/us/en/crypto/earn): Lend USDG onchain through a self-custody wallet in the Robinhood app and accrue rewards in real time. 
+- [Staking on Robinhood](https://robinhood.com/us/en/crypto/staking): Earn staking rewards on your ETH, SOL and ADA for as little as $1 of crypto.
+- [Robinhood Chain: Built for onchain finance](https://robinhood.com/us/en/crypto/chain): The blockchain built for financial services and tokenized real-world assets.
+- [Robinhood Chain: Discover the ecosystem](https://robinhood.com/us/en/crypto/chain/ecosystem): Explore the ecosystem of Robinhood Chain across trading, lending, infrastructure, wallets, and more.
+- [Robinhood Wallet | Self-custody crypto wallet](https://robinhood.com/us/en/crypto/wallet): Own, manage, and store crypto in a secure wallet supporting Bitcoin, Ethereum, Solana, and more.
+
+- [Robinhood Connect is your low-cost crypto on-ramp](https://robinhood.com/us/en/on-ramp): Connect your customers to the world of web3 with ease.
+
+## Retirement
+- [Robinhood Retirement | Claim up to $225 on annual contributions](https://robinhood.com/us/en/about/retirement): Earn a 3% boost on every annual contribution when you subscribe to Robinhood Gold. Limitations apply.
+
+## Robinhood Gold
+- [Robinhood Gold Membership: First 30 Days are free!](https://robinhood.com/us/en/gold): Supercharge your money with leading rates & financial perks usually reserved for the wealthy. Only $5/month to join Robinhood Gold! Terms apply.
+- [Robinhood Concierge](https://robinhood.com/us/en/concierge)
+
+## Banking
+- [Robinhood Banking](https://robinhood.com/us/en/banking): Private banking, unlocked. Get 3.60% savings APY, estate planning, professional tax prep, access to events like the Met Gala, and more. Robinhood is a financial technology company, not a bank. Banking services are provided by Coastal Community Bank, member FDIC.
+- [Robinhood Platinum Card ](https://robinhood.com/us/en/creditcard/platinum): Extraordinary limits, 99.9% pure platinum plating, 5% cash back on dining and flights, 10% on hotels, and $3,000+ in annual value. Invitation only.
+
+## Prediction Markets
+- [Prediction Markets | Robinhood](https://robinhood.com/us/en/prediction-markets): Turn your insights into trades. Prediction markets let you express your view on real-world events — from sports to politics to economics. 
+
+## Learn
+- [Robinhood Money Drills: Financial Education for Students and Athletes](https://robinhood.com/us/en/policy/money-drills): Robinhood Money Drills® is focused on broadening access to financial education so students and athletes feel confident in their financial knowledge.
+
+
+## Robinhood Ventures
+- [Robinhood Ventures: Invest in private companies.](https://robinhood.com/us/en/ventures): Many companies stay private for years. Now, everyone can get exposure to some of them through Robinhood Ventures Fund I and II.
+- [Robinhood Ventures: Invest in private companies](https://robinhood.com/us/en/ventures/rvi): Many companies stay private for years. Now, everyone can get exposure to some of them through Robinhood Ventures. 
+- [Robinhood Ventures Fund II: Early stage access is here](https://robinhood.com/us/en/ventures/rvii): Shares are now trading for Robinhood Ventures Fund II (RVII). Explore the portfolio of early and growth stage companies now.
+
+## Company
+- [Robinhood: 24/5 Commission-Free Stock Trading & Investing ](https://robinhood.com/us/en): Trade stocks on Robinhood with commission-free investing & advanced trading tools. Access fractional shares, real-time market data, and more. Terms and fees may apply.
+
+## Legal & Disclosures
+- [Disclosure Library](https://robinhood.com/us/en/legal): Full library of Robinhood Financial LLC and Robinhood Crypto, LLC regulatory disclosures, agreements, and policies.
+- [Trump Accounts Disclosure Library](https://robinhood.com/us/en/legal/trump-accounts): Disclosures specific to Trump Accounts, a traditional IRA established under IRC section 530A.
+- [RHD Financial Disclosures](https://robinhood.com/us/en/legal/rhd-financial-disclosures): Robinhood Derivatives financial disclosures.
+

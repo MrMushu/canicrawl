@@ -4126,6 +4126,68 @@
    "bot": "Gemini-Deep-Research",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-10-28",
+   "domain": "metacritic.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-28",
+   "domain": "metacritic.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-28",
+   "domain": "ikea.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-28",
+   "domain": "fool.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-28",
+   "domain": "fool.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-28",
+   "domain": "fool.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-28",
+   "domain": "robinhood.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-10-28",
+   "domain": "cloudns.net",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

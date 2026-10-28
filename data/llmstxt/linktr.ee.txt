@@ -44,6 +44,7 @@ and are not listed here. They are discoverable via the sitemaps in `/robots.txt`
 - [Home](https://linktr.ee/): What Linktree is and who it is for.
 - [Pricing](https://linktr.ee/s/pricing): Free, Starter, Pro and Premium plan tiers, with monthly and annual billing.
 - [All features](https://linktr.ee/features): Index of what the platform does.
+- [All Linktree features: formatted for AI agents](https://linktr.ee/features.md): The /features taxonomy as markdown for AI agents.
 - [Link in bio](https://linktr.ee/features/link-in-bio): For anyone building online who wants one always-current destination for their audience, without updating links every time something changes.
 - [Analytics](https://linktr.ee/features/analytics): Track link performance and traffic sources, and see which platforms drive growth.
 - [Audience manager](https://linktr.ee/features/audience-management): Collect and organize leads in one place, and sync them to your email tools.

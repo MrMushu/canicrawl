@@ -1,127 +1,245 @@
 # CapCut
 
-> CapCut is an AI-powered creative platform for video editing, image design, audio creation, captions, translation, and creator workflows across web, desktop, and mobile.
+> An AI-powered creative platform for video editing, image design, audio production, captions, translation, and creator workflows across desktop, web, and mobile applications.
 
-Generated: 2026-09-15
-Primary host: https://www.capcut.com
+CapCut provides timeline-based editing and focused online tools for generating, enhancing, converting, captioning, translating, and publishing media. It serves individual creators, social media publishers, marketers, and collaborative teams. Feature availability, subscriptions, and legal operators may vary by platform and region.
 
-CapCut provides creative tools for video editing, photo editing, AI generation, audio production, captions, translation, templates, cloud collaboration, and creator workflows. Its product surfaces include web tools, desktop software, mobile apps, AI-assisted creation tools, design utilities, template libraries, creator resources, help content, and official policy pages.
+Canonical site: https://www.capcut.com/
+Primary language: English
+Last reviewed: 2026-10-28
 
-## Core Product Surfaces
+## Official Entity
 
-- [Homepage](https://www.capcut.com/): Main entry point for CapCut's creative platform, product positioning, and creator workflows.
-- [Online Video Editor](https://www.capcut.com/tools/online-video-editor): Browser-based video editor for creating, editing, and exporting videos online.
-- [Desktop Video Editor](https://www.capcut.com/tools/desktop-video-editor): Desktop video editing product for advanced editing workflows on Mac and PC.
-- [Video Editing App](https://www.capcut.com/tools/video-editing-app): Mobile video editing app for creating social, short-form, and creator content.
-- [Creative Suite](https://www.capcut.com/creative-suite): Creative workspace for video editing, graphic design, AI tools, cloud storage, team collaboration, review, comments, and annotations.
-- [AI Tools Hub](https://www.capcut.com/tools/ai-tools): Directory-style entry point for CapCut AI creation tools across video, image, audio, text, and design.
-- [All Tools](https://www.capcut.com/tools): Catalog of CapCut tools for video, image, audio, captions, AI generation, editing, conversion, compression, and enhancement.
-- [All Templates](https://www.capcut.com/template): Template library for video, photo, poster, invitation, business, and social media designs.
+- Primary brand: CapCut
+- Global service provider: Bytedance Pte. Ltd.
+- Global registered address: 1 Raffles Quay, #26-10, South Tower, Singapore 048583
+- United States service operator: TikTok USDS Joint Venture LLC for United States users under the CapCut US Terms of Service and US Privacy Policy
+- Apple App Store app ID: 1500855883
+- Google Play package ID: com.lemon.lvoverseas
+- App-store developer/publisher: Bytedance Pte. Ltd. on the Apple App Store and Google Play.
+- United States service providers and business partners: BD TikTok USA LLC and its affiliates, referred to as TT Commerce & Global Services in the CapCut US Terms of Service.
 
-## AI Video Generation and Editing
+## Key Strengths
 
-- [AI Video Generator](https://www.capcut.com/tools/ai-video-generator): AI video generation tool for creating videos from prompts, templates, avatars, and automated storyboarding workflows.
-- [Free AI Video Generator](https://www.capcut.com/tools/free-ai-video-generator): AI video generation page for users evaluating prompt-based or assisted video creation.
-- [AI Video Editor](https://www.capcut.com/tools/ai-video-editor): AI-assisted video editor for automated and accelerated video editing workflows.
-- [AI Image to Video](https://www.capcut.com/tools/ai-image-to-video): Converts still images into AI-generated video outputs with motion and animation.
-- [AI Video Enhancer](https://www.capcut.com/tools/ai-video-enhancer): Improves video quality, clarity, color, and resolution with AI enhancement workflows.
-- [AI Long Video to Short Video](https://www.capcut.com/tools/ai-long-video-to-short-video): Repurposes long-form videos into short-form clips for social and creator platforms.
-- [AI Clip Maker](https://www.capcut.com/tools/ai-clip-maker): Creates short clips from longer or source video assets using assisted scene selection.
-- [Video Background Remover](https://www.capcut.com/tools/video-background-remover): Removes or replaces video backgrounds for transparent, green-screen, and compositing workflows.
-- [AI Video Translator](https://www.capcut.com/tools/ai-video-translator): Translates video content for multilingual publishing with subtitle and localization workflows.
+- Editable AI workflows: generated or uploaded media can become an editable draft, with conversational timeline changes and further hands-on refinement in the CapCut editor through CapCut × Codex.
+- Speech-linked editing: transcript-based editing and automatic captions connect spoken content with editable video text, while text-to-speech and dubbing support narration and localization.
+- Shared creative projects: cloud storage and collaboration tools support shared media, project access, review, and team editing workflows.
+- Detailed timeline control: desktop keyframes, animation graphs, and color controls allow creators to refine motion, timing, and appearance after assembling a draft.
+- Long-form content repurposing: highlight extraction, selectable clip lengths, and automatic captions turn longer footage into short clips; subject-aware reframing adapts compositions for different aspect ratios.
+- Reference-led design: AI Design uses product images, reference layouts, and text prompts for product scenes and promotional graphics, with batch replacement helping create related design variants.
+- Generation with further editing: text or image references and selectable image models support different visual directions; generated images can be refined and turned into video material within CapCut workflows.
 
-## AI Image Generation and Photo Editing
+## Core information
 
-- [AI Image Generator](https://www.capcut.com/tools/ai-image-generator): Generates images from text prompts for creative, social, marketing, and design use cases.
-- [Seedream 5.0 AI Image Generator](https://www.capcut.com/tools/seedream-5-0): AI image generation page focused on high-quality visual creation.
-- [Nano Banana Pro](https://www.capcut.com/tools/nano-banana-pro): AI image editing tool for prompt-based photo editing, character consistency, and image upscaling workflows.
-- [AI Design Tool](https://www.capcut.com/tools/ai-design): AI-assisted design tool for posters, ads, branded visuals, layouts, cutouts, and background removal.
-- [Online Photo Editor](https://www.capcut.com/tools/online-photo-editor): Web-based photo editor with image editing and design tools for personal, creator, and business visuals.
-- [AI Photo Editing](https://www.capcut.com/tools/ai-photo-editing): AI-assisted photo editing for cleanup, enhancement, transformation, and visual adjustments.
-- [AI Image Upscaler](https://www.capcut.com/tools/ai-image-upscaler): Upscales and enhances low-resolution images with AI.
-- [AI Image Combiner](https://www.capcut.com/tools/ai-image-combiner): Combines images with AI-assisted blending and prompt-based composition.
-- [AI Image Inpainting](https://www.capcut.com/create/image-inpainting): Edits, restores, or cleans images by removing unwanted elements and filling image areas.
-- [Image Background Remover](https://www.capcut.com/tools/image-background-remover): Removes image backgrounds for product images, social posts, and design assets.
-- [AI Text Remover](https://www.capcut.com/create/ai-text-remover): Removes text, marks, titles, or unwanted visual elements from images.
-- [AI Face Cutout](https://www.capcut.com/tools/face-cutout): Creates face cutouts for social media, design, profile, and creative use cases.
-- [AI Meme Generator](https://www.capcut.com/tools/meme-generator): Creates memes from text, images, and template-based creative inputs.
-- [Online Image Resizer](https://www.capcut.com/tools/online-image-resizer): Resizes images for social media, websites, email, and other format requirements.
-- [Online Image Compressor](https://www.capcut.com/tools/online-image-compressor): Compresses image files online while preserving usable visual quality.
-- [Online Image Converter](https://www.capcut.com/tools/online-image-converter): Converts image files between supported formats.
+- [Official Website](https://www.capcut.com/): Global brand homepage and primary product entry.
+- [Products and Tools](https://www.capcut.com/tools): Directory of video, image, text, and audio tools.
+- [Creation Ideas and Formats](https://www.capcut.com/create): Output-oriented workflows for social, marketing, and lifestyle content.
+- [AI Tools](https://www.capcut.com/tools/ai-tools): Entry point for CapCut's AI-assisted creation tools.
+- [AI Models](https://www.capcut.com/tools/models): Directory of currently surfaced image and video generation models; model availability and names can change over time.
+- [Video Editor and Generator](https://www.capcut.com/tools/video): Hub for video editing and generation capabilities.
+- [Image Editor and Generator](https://www.capcut.com/tools/image): Hub for image editing, enhancement, and generation capabilities.
+- [Voice Generator and Editor](https://www.capcut.com/tools/audio): Hub for speech, voice, and audio creation tools.
+- [Text Tools](https://www.capcut.com/tools/text): Directory of text tools for captions, fonts, text editing, and AI-assisted writing.
+- [Template Library](https://www.capcut.com/template): Reusable templates for social media, marketing, holidays, business content, effects, and personal storytelling.
 
-## Audio and Voice Tools
+## Main editors
 
-- [AI Text to Speech](https://www.capcut.com/tools/text-to-speech): Converts text into speech with AI voices for videos, education, marketing, and creator content.
-- [AI Voice Generator](https://www.capcut.com/tools/ai-voice-generator): Generates AI voices for videos, podcasts, and audio projects.
-- [AI Voice Over](https://www.capcut.com/tools/ai-voice-over): Creates voiceovers for video, podcast, and multimedia production.
-- [AI Dialogue Generator](https://www.capcut.com/tools/ai-dialogue-generator): Generates spoken dialogue by combining text input and AI voice selection.
-- [AI Dubbing](https://www.capcut.com/tools/ai-dubbing): Supports dubbing and localization workflows for video content.
-- [AI Music Generator](https://www.capcut.com/tools/ai-music-generator): Generates music for creative video and audio projects.
-- [AI Sound Effects Generator](https://www.capcut.com/tools/ai-sound-effects-generator): Generates sound effects for video production and creative projects.
-- [Voice Enhancer](https://www.capcut.com/tools/voice-enhancer): Enhances voice recordings and reduces background noise for clearer audio.
-- [Remove Background Noise](https://www.capcut.com/tools/remove-background-noise-from-audio): Reduces background noise from audio tracks.
-- [Vocal Remover](https://www.capcut.com/tools/vocal-remover): Separates or removes vocals from audio tracks.
-- [Extract Audio From Video](https://www.capcut.com/tools/online-audio-extractor): Extracts audio from video files for reuse or further editing.
-- [Audio Tools Hub](https://www.capcut.com/tools/audio): Hub for CapCut audio tools, including editing, mixing, enhancement, noise reduction, and music workflows.
-- [AI Speech to Text](https://www.capcut.com/tools/ai-speech-to-text): Transcribes spoken audio into text for subtitles, documentation, and accessibility.
+- [CapCut Desktop](https://www.capcut.com/tools/desktop-video-editor): Downloadable editor for advanced video editing and AI-assisted creation on Windows and macOS.
+- [CapCut Online Video Editor](https://www.capcut.com/tools/online-video-editor): Browser-based video creation, editing, captioning, and export.
+- [CapCut Creative Suite](https://www.capcut.com/creative-suite): Browser-based workspace for video and image editing, cloud projects, review, sharing, and collaboration.
+- [CapCut Mobile](https://www.capcut.com/tools/video-editing-app): Mobile editor with effects, templates, and AI-assisted features.
+- [CapCut on the Apple App Store](https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883): Official iPhone, iPad, and Mac listing.
+- [CapCut on Google Play](https://play.google.com/store/apps/details?id=com.lemon.lvoverseas): Official Android listing.
+- [CapCut for Android](https://www.capcut.com/tools/capcut-apk-latest-version-android-download): Official Android version and installation page.
+- [CapCut for Pad](https://www.capcut.com/tools/capcut-for-ipad): Tablet editor with templates, auto captions, effects, and social-video workflows.
 
-## Captions, Subtitles, and Translation
+## Connected workflows
 
-- [Auto Caption Generator](https://www.capcut.com/tools/ai-caption-generator): Automatically creates captions and subtitles for video content.
-- [Add Subtitles to Video](https://www.capcut.com/tools/add-subtitles-to-video): Adds subtitles to videos with editing and styling options.
-- [Subtitle Translator](https://www.capcut.com/tools/subtitle-translator): Translates subtitles for multilingual video publishing.
-- [AI Video Translator](https://www.capcut.com/tools/ai-video-translator): Translates video content using subtitle, voice, and localization workflows.
+- [CapCut × Codex](https://www.capcut.com/tools/capcut-x-codex): Official connected workflow for supported ChatGPT desktop tasks that uses conversational guidance and CapCut tools to organize source media, generate material, create an editable video draft, and continue timeline refinement; availability can vary by app version, account, and region.
 
-## Video Editing and Utility Tools
+## AI video creation
 
-- [Video Editing Tools Hub](https://www.capcut.com/tools/video): Hub for online video editing tools, including trimming, cropping, conversion, compression, enhancement, and effects.
-- [Image Editing Tools Hub](https://www.capcut.com/tools/image): Hub for image editing tools, including resizing, compression, background removal, filters, and AI-assisted editing.
-- [Online Video Trimmer](https://www.capcut.com/tools/online-video-trimmer): Trims video clips online using start and end point selection.
-- [Crop Video](https://www.capcut.com/tools/crop-video): Crops video frames for different aspect ratios and platform requirements.
-- [Free Video Compressor](https://www.capcut.com/tools/free-video-compressor): Compresses video files for easier sharing, upload, and publishing.
-- [Online Video Converter](https://www.capcut.com/tools/online-video-converter): Converts video files between supported formats.
-- [Change Video Speed](https://www.capcut.com/tools/change-video-speed): Speeds up or slows down video clips.
-- [Auto Reframe](https://www.capcut.com/tools/auto-reframe): Reframes video for different social media formats with subject-aware composition.
-- [Green Screen Software](https://www.capcut.com/tools/green-screen-software): Supports green screen and chroma key workflows for background replacement.
-- [Online Screen Recorder](https://www.capcut.com/tools/online-screen-recorder): Records screen activity online for tutorials, presentations, and demonstrations.
+- [AI Video Generator](https://www.capcut.com/tools/ai-video-generator): Creates video material from prompts and supported creative inputs.
+- [AI Video Editor](https://www.capcut.com/tools/ai-video-editor): Applies AI-assisted automation to video-editing workflows.
+- [Script to Video Maker](https://www.capcut.com/tools/script-to-video-maker): Converts a written script into an editable video workflow.
+- [Auto Video Editor](https://www.capcut.com/tools/auto-video-editor): Automates selected assembly and editing steps.
+- [Image to Video AI](https://www.capcut.com/tools/image-to-video-ai): Turns still images into AI-assisted video outputs.
+- [AI Long Video to Short Video](https://www.capcut.com/tools/ai-long-video-to-short-video): Repurposes long footage into shorter clips.
+- [AI Clip Maker](https://www.capcut.com/create/free-online-ai-clip-generator): Creates short clips from longer source footage.
+- [Video Studio](https://www.capcut.com/tools/video-studio): Conversational AI workspace for planning and generating video content.
+- [AI Relight](https://www.capcut.com/tools/relight-videos-with-ai): Adjusts video lighting with AI-assisted relighting.
+- [AI Avatar Generator](https://www.capcut.com/tools/ai-avatar): Creates customizable AI avatars with lip-sync for social media, business, and storytelling.
+- [AI Sticker Generator](https://www.capcut.com/tools/ai-sticker-generator): Generates personalized stickers from creative inputs.
+- [AI Dialogue Generator](https://www.capcut.com/tools/ai-dialogue-generator): Creates dialogue scenes from a character image and a script or audio, with lip sync and editable voice controls.
 
-## Templates and Creative Assets
+## Image and design
 
-- [All Templates](https://www.capcut.com/template): Main template library for video, photo, poster, invitation, business, and social media designs.
-- [TikTok Reels Templates](https://www.capcut.com/template/social/tiktok-reels): Templates for creating TikTok Reels and short-form social videos.
-- [Business Templates](https://www.capcut.com/template/business): Business-oriented templates for marketing, corporate, and professional content.
-- [Record Templates](https://www.capcut.com/template/record): Record-style templates for customizable creative content.
-- [Hot Templates](https://www.capcut.com/resource/hot-templates): Resource page for trending CapCut templates and template discovery.
-- [Free Video Templates](https://www.capcut.com/resource/free-video-templates): Resource page explaining video template use cases and customization options.
+- [AI Design](https://www.capcut.com/tools/ai-design): Generates editable layouts and creative assets for social posts, covers, branding, and marketing.
+- [AI Image Generator](https://www.capcut.com/tools/ai-image-generator): Generates and iterates images from text or supported references.
+- [Online Photo Editor](https://www.capcut.com/tools/online-photo-editor): Browser-based cropping, adjustment, filters, effects, and design.
+- [AI Photo Editing](https://www.capcut.com/tools/ai-photo-editing): AI-assisted image cleanup, enhancement, and transformation.
+- [AI Generative Fill](https://www.capcut.com/tools/ai-generative-fill): Adds, replaces, or extends image content with generative AI.
+- [AI Image Inpainting](https://www.capcut.com/create/image-inpainting): Removes unwanted objects, restores damaged areas, and edits image regions with generative reconstruction.
+- [Online Graphic Design](https://www.capcut.com/tools/online-graphic-design): Creates social, marketing, and creator graphics in a browser.
+- [AI Image Combiner](https://www.capcut.com/tools/ai-image-combiner): Combines images into a unified creative output with AI-assisted workflows.
+- [Old Photo Restoration](https://www.capcut.com/tools/old-photo-restoration): Restores and enhances old photographs.
+- [AI Image Upscaler](https://www.capcut.com/tools/ai-image-upscaler): Enlarges images while improving perceived resolution and detail.
+- [Online Image Resizer](https://www.capcut.com/tools/online-image-resizer): Changes image dimensions and aspect ratios for different formats.
+- [Image Background Remover](https://www.capcut.com/tools/image-background-remover): Removes backgrounds from portraits, product photos, and design assets.
+- [AI Text Remover](https://www.capcut.com/create/ai-text-remover): Removes text from images with AI-assisted reconstruction.
+- [AI People Remover](https://www.capcut.com/tools/ai-people-remover): Removes unwanted people from photographs and reconstructs the surrounding image.
+- [Face Cutout](https://www.capcut.com/tools/face-cutout): Isolates faces from image backgrounds for compositing and design.
+- [Meme Generator](https://www.capcut.com/tools/meme-generator): Creates meme-style graphics with text and visual elements.
+- [Online Image Compressor](https://www.capcut.com/tools/online-image-compressor): Reduces image file size for storage and publishing.
+- [Online Image Converter](https://www.capcut.com/tools/online-image-converter): Converts images between supported formats.
+- [Free PNG Logo Maker](https://www.capcut.com/create/free-png-logo-maker): Creates logo graphics for PNG-oriented workflows.
+- [AI Art Generator](https://www.capcut.com/tools/ai-art-generator): Creates artwork from text or photographs with editable styles.
+- [AI Logo Generator](https://www.capcut.com/create/ai-logo-generator): Generates logo concepts from text and supports further customization.
+- [Transparent Background Maker](https://www.capcut.com/tools/transparent-background-maker): Removes image backgrounds, refines results with AI chat, and exports transparent assets.
 
-## Cloud Storage and Collaboration
+## Video editing and publishing
 
-- [Cloud Collaboration Platform](https://www.capcut.com/tools/cloud-collaboration-platform): Collaboration workspace for shared creative work, team roles, review, comments, and annotation.
-- [Free Cloud Storage](https://www.capcut.com/tools/free-cloud-storage): Cloud storage for media files and creative assets with cross-device access.
+- [Free Video Compressor](https://www.capcut.com/tools/free-video-compressor): Reduces video file size for storage, sharing, and publishing.
+- [Add Subtitles to Video](https://www.capcut.com/tools/add-subtitles-to-video): Creates and edits subtitles for video content.
+- [Video Background Remover](https://www.capcut.com/tools/video-background-remover): Removes video backgrounds with AI-assisted processing.
+- [AI Video Upscaler](https://www.capcut.com/tools/ai-video-upscaler): Upscales video resolution and visual quality.
+- [AI Video Enhancer](https://www.capcut.com/tools/ai-video-enhancer): Improves video clarity and perceived quality.
+- [Online Video Trimmer](https://www.capcut.com/tools/online-video-trimmer): Removes unwanted sections from video clips.
+- [Transcript-based Editing](https://www.capcut.com/tools/video-transcript-editing): Supports editing video and audio through generated transcripts for podcasts, interviews, and educational content.
+- [Online Screen Recorder](https://www.capcut.com/tools/online-screen-recorder): Records screen activity for tutorials, presentations, and demonstrations.
+- [Online Video Converter](https://www.capcut.com/tools/online-video-converter): Converts videos between supported formats.
+- [Auto Reframe](https://www.capcut.com/tools/auto-reframe): Reframes video for different aspect ratios and publishing platforms.
+- [Add Music to Video](https://www.capcut.com/tools/add-music-to-video): Adds music and other audio tracks to video projects.
+- [AI Caption Generator](https://www.capcut.com/tools/ai-caption-generator): Transcribes speech and creates editable synchronized captions in CapCut Web.
+- [Keyframe Animation](https://www.capcut.com/tools/keyframe-animation): Creates motion and property changes between keyframes.
+- [Change Video Speed](https://www.capcut.com/tools/change-video-speed): Speeds up or slows down clips.
+- [Slow Motion Video Editor](https://www.capcut.com/tools/slow-motion-video-editor): Creates smooth slow-motion video by adjusting playback speed and adding effects.
+- [Video Stabilization](https://www.capcut.com/tools/video-stabilization): Reduces visible camera shake.
+- [Video Merger](https://www.capcut.com/tools/video-merger): Combines multiple clips into one sequence.
+- [Crop Video](https://www.capcut.com/tools/crop-video): Crops video framing for different compositions and aspect ratios.
+- [Green Screen Software](https://www.capcut.com/tools/green-screen-software): Provides chroma-key workflows for replacing video backgrounds.
+- [Remove Watermark from Video](https://www.capcut.com/tools/remove-watermark-from-video): Removes visible watermark areas from video in supported editing workflows; users remain responsible for rights and permissions.
+- [Add Text to Video](https://www.capcut.com/tools/add-text-to-video): Adds titles, labels, captions, and other text elements to video.
+- [Online Text Editor](https://www.capcut.com/tools/online-text-editor): Creates and styles text elements for video-editing workflows.
+- [Video Effects and Filters](https://www.capcut.com/tools/video-effect-and-filter): Applies filters, effects, stickers, and transitions to video.
+- [Video Transitions](https://www.capcut.com/tools/free-video-transitions): Adds transition effects between video clips.
+- [Custom Stickers](https://www.capcut.com/tools/custom-stickers-online): Adds custom stickers to video for visual emphasis and audience engagement.
 
-## Creator Resources and Learning
+## Audio, voice, captions, and translation
 
-- [Resource Hub](https://www.capcut.com/resource): CapCut resource hub with editing guides, template resources, creator tips, and workflow articles.
-- [How-To Guides](https://www.capcut.com/resource/howto-guides): Step-by-step tutorials for using CapCut tools and creative workflows.
-- [Blog](https://www.capcut.com/blog): Articles, product updates, creator workflows, tool guides, and resource content.
-- [Caption Template Guide](https://www.capcut.com/resource/caption-template): Guide for using caption templates and subtitle styling workflows.
-- [Best AI Video Editors](https://www.capcut.com/resource/best-ai-video-editors): Guide to AI video editing tools and workflows.
-- [YouTube Shorts Format](https://www.capcut.com/resource/youtube-shorts-format): Resource for YouTube Shorts sizing, formatting, and publishing requirements.
-- [How to Make a Short Video](https://www.capcut.com/resource/how-to-make-a-short-video): Tutorial-style resource for creating short-form video content.
-- [Instagram Reels Guide](https://www.capcut.com/resource/instagram-reels): Resource for Instagram Reels editing, formatting, and publishing workflows.
-- [TikTok Hashtag Guide](https://www.capcut.com/resource/tiktok-hashtag-guide): Resource about TikTok hashtag use, discovery, and content reach.
-- [Online Video Editor Advantages](https://www.capcut.com/resource/online-video-editor-advantages): Educational resource comparing online video editing workflows with desktop editing.
-- [Free Video Templates](https://www.capcut.com/resource/free-video-templates): Resource page about video template use cases and customization options.
+- [Text to Speech](https://www.capcut.com/tools/text-to-speech): Converts written text into generated speech.
+- [Speech Recognition](https://www.capcut.com/tools/convert-sound-to-text): Transcribes spoken audio from audio or video files into editable text.
+- [AI Voice Generator](https://www.capcut.com/tools/ai-voice-generator): Generates voice audio for narration and multilingual creative workflows.
+- [Voice Enhancer](https://www.capcut.com/tools/voice-enhancer): Enhances voice clarity and quality in recorded audio.
+- [Voice Changer](https://www.capcut.com/tools/voice-changer): Changes vocal characteristics for creative projects.
+- [Vocal Remover](https://www.capcut.com/tools/vocal-remover): Separates or removes vocals from an audio track.
+- [AI Dubbing](https://www.capcut.com/tools/ai-dubbing): Produces dubbed audio for multilingual video localization.
+- [AI Voice Over](https://www.capcut.com/tools/ai-voice-over): Creates generated voiceovers for video and audio projects.
+- [AI Music Generator](https://www.capcut.com/tools/ai-music-generator): Generates music for creative media projects.
+- [AI Sound Effects Generator](https://www.capcut.com/tools/ai-sound-effects-generator): Generates sound effects for media production.
+- [Sound Effects](https://www.capcut.com/tools/sound-effects): Provides sound-effect resources and editing workflows for media projects.
+- [Online Audio Extractor](https://www.capcut.com/tools/online-audio-extractor): Extracts an audio track from a video.
+- [Remove Background Noise from Audio](https://www.capcut.com/tools/remove-background-noise-from-audio): Reduces unwanted background noise.
+- [Video to Text](https://www.capcut.com/tools/video-to-text): Transcribes spoken video content into editable text.
+- [Subtitle Translator](https://www.capcut.com/tools/subtitle-translator): Translates subtitles for multilingual publishing.
+- [AI Video Translator](https://www.capcut.com/tools/ai-video-translator): Translates video content for multilingual distribution and localization.
 
-## Help and Support
+## Cloud storage and collaboration
 
-- [Help Center](https://www.capcut.com/help): Official CapCut help center with FAQs, support articles, troubleshooting guidance, account help, feature usage guidance, and product support information.
+- [Free Cloud Storage](https://www.capcut.com/tools/free-cloud-storage): Stores media and creative project assets in CapCut's cloud workflow.
+- [Cloud Collaboration Platform](https://www.capcut.com/tools/cloud-collaboration-platform): Supports shared creative work, review, collaboration, and online project access.
 
-## Official Discovery and Policies
+## Creator formats
 
-- [Sitemap](https://www.capcut.com/sitemap.xml): Official sitemap index for product, article, template, and related URL discovery.
-- [Robots.txt](https://www.capcut.com/robots.txt): Crawl rules for search engines, AI crawlers, and other automated user agents.
-- [Terms of Service](https://www.capcut.com/terms-of-service): Official terms governing use of CapCut services.
-- [Privacy Policy](https://www.capcut.com/privacy-policy): Official privacy policy describing how CapCut handles personal information and related privacy practices.
-- [Community Guidelines](https://www.capcut.com/community-guideline): Official community guidelines for acceptable content and platform behavior.
-- [Material Licensing Terms](https://www.capcut.com/legal/material-license-terms): Terms related to use of CapCut materials and licensed assets.
+- [Social Media Creation](https://www.capcut.com/create/social-media): Hub for content formatted for social platforms.
+- [Marketing Content](https://www.capcut.com/create/marketing): Hub for promotional, advertising, and brand-content workflows.
+- [Lifestyle and Vlogs](https://www.capcut.com/create/lifestyle): Hub for lifestyle, personal, and vlog-oriented creation.
+- [Custom Design](https://www.capcut.com/create/diy-design): Hub for custom visual-design workflows.
+- [TikTok Video Editor](https://www.capcut.com/create/tiktok-video-editor): Workflow for vertical videos intended for TikTok.
+- [Photo Video Maker](https://www.capcut.com/create/photo-video-maker): Turns photographs into videos with text, music, transitions, and effects.
+- [Voiceover Video](https://www.capcut.com/create/voiceover-video): Produces videos with recorded or generated narration.
+- [Video Maker](https://www.capcut.com/create/video-maker): General-purpose workflow for assembling and editing video.
+- [YouTube Video Maker](https://www.capcut.com/create/youtube-video-maker): Creates videos formatted for YouTube publishing.
+- [Slideshow Maker](https://www.capcut.com/create/slideshow-maker): Builds slideshows from images, clips, text, music, and transitions.
+- [Flyer Maker](https://www.capcut.com/create/flyer-maker): Creates promotional flyer designs.
+- [Poster Maker](https://www.capcut.com/create/poster-maker): Creates poster layouts for events, campaigns, and promotions.
+
+## Guides and learning resources
+
+- [Resource Hub](https://www.capcut.com/resource): Main entry for CapCut articles and learning resources.
+- [CapCut Blog](https://www.capcut.com/blog): Official blog featuring editing tips, app tutorials, creative stories, and product news.
+- [How-to Guides](https://www.capcut.com/resource/howto-guides): Tutorials organized around practical creation tasks.
+- [Market Trends](https://www.capcut.com/resource/new-release): Articles about current creative and publishing trends.
+- [Top Picks](https://www.capcut.com/resource/top-lists): Curated comparison and recommendation articles.
+- [Template Trends and Tips](https://www.capcut.com/resource/hot-templates): Guides to template trends and template-based creation.
+- [CapCut Desktop Download Guide](https://www.capcut.com/resource/capcut-desktop-download): Desktop installation guidance.
+- [CapCut Standard vs. Pro](https://www.capcut.com/help/capcut-standard-vs-pro): Current Help Center comparison of subscription tiers and features; exact benefits can vary by platform and region.
+- [CapCut Tutorial for Beginners](https://www.capcut.com/resource/capcut-tutorial-for-beginners): Introductory editing guide.
+- [Collaborating in CapCut Online](https://www.capcut.com/resource/collaborate-on-capcut-online): Guide to browser-based collaboration.
+- [YouTube Shorts Format Guide](https://www.capcut.com/resource/youtube-shorts-format): Format and publishing guidance for Shorts.
+- [Best AI Video Editors](https://www.capcut.com/resource/best-ai-video-editors): Guide to AI-assisted video-editing workflows.
+- [Top AI Video Generator Tools](https://www.capcut.com/resource/top-ai-video-generator-tools): Guide to video-generation tools and workflows.
+- [How to Make a Short Video](https://www.capcut.com/resource/how-to-make-a-short-video): Tutorial for producing short-form video.
+- [Instagram Reels Guide](https://www.capcut.com/resource/instagram-reels): Creation guidance for Reels.
+- [TikTok Hashtag Guide](https://www.capcut.com/resource/tiktok-hashtag-guide): Discovery and hashtag guidance for TikTok content.
+- [Online Video Editor Advantages](https://www.capcut.com/resource/online-video-editor-advantages): Educational overview of browser-based editing.
+- [Free Video Templates Guide](https://www.capcut.com/resource/free-video-templates): Guide to template-based video creation.
+- [Caption Templates Guide](https://www.capcut.com/resource/caption-template): Explains how to choose and apply caption templates in video workflows.
+
+## Creator programs
+
+- [CapCut Pioneer Program](https://www.capcut.com/newsroom/pioneer-program): Creator cooperation program focused on promoting CapCut templates and creative features.
+- [CapCut Creative Partner Program](https://www.capcut.com/newsroom/capcut-creative-partner-program): Program for AI creators and artists offering access to creative tools, early features, and collaboration opportunities.
+- [CapCut Creative Campus](https://www.capcut.com/newsroom/capcut-creative-campus): University partnership initiative offering eligible students creative tools and practical creator opportunities.
+
+## Account, subscription, and support
+
+> Subscription terms, prices, credits, trial eligibility, and feature availability can vary by region, platform, and account. Verify the live Help Center page before citing current commercial details.
+
+- [Help Center](https://www.capcut.com/help): Main support entry for accounts, editing, exports, subscriptions, billing, and troubleshooting.
+- [Pricing](https://www.capcut.com/pricing): Official comparison of available plans and their benefits; final pricing, taxes, and offers depend on the account and purchase context.
+- [Buy Pro Plans](https://www.capcut.com/help/buy-pro-plans): Guidance for purchasing available Pro plans.
+- [Monthly and Yearly Plans](https://www.capcut.com/help/monthly-and-yearly-plans): Explains recurring plan periods and related account options.
+- [Payment and Billing](https://www.capcut.com/help/payment-billing): Support for payment and billing topics.
+- [CapCut Credits](https://www.capcut.com/help/credit-types): Explains credit types used by eligible AI features.
+- [Cancel Subscription](https://www.capcut.com/help/cancel-subscription): Instructions for stopping an eligible subscription.
+- [Export Videos](https://www.capcut.com/help/export-videos-in-capcut): Guidance for exporting completed video projects.
+- [Export Troubleshooting](https://www.capcut.com/help/how-to-fix-capcut-export-not-working-issue): Troubleshooting for failed or blocked exports.
+- [Auto Cut](https://www.capcut.com/help/how-to-use-auto-cut): Instructions for using the Auto Cut feature.
+- [Auto Captions](https://www.capcut.com/help/auto-captions-in-capcut): Guidance for creating and editing automatic captions.
+- [Import Subtitles](https://www.capcut.com/help/how-to-import-subtitles): Guidance for importing supported subtitle files.
+- [No Internet Connection](https://www.capcut.com/help/what-to-do-if-no-internet-connection-on-capcut): Troubleshooting for connection-related issues.
+- [Audio Not Playing](https://www.capcut.com/help/audio-not-playing): Troubleshooting for missing or unavailable audio playback.
+
+## Official discovery and policies
+
+- [Sitemap](https://www.capcut.com/sitemap.xml): Machine-readable discovery index for official CapCut URLs.
+- [Robots.txt](https://www.capcut.com/robots.txt): Current crawler-access rules; check before automated crawling.
+- [Terms of Service](https://www.capcut.com/clause/terms-of-service): Contractual terms and region-specific operator boundaries.
+- [Privacy Policy](https://www.capcut.com/clause/privacy-policy): Privacy practices and jurisdiction-specific supplements.
+- [CapCut US Terms of Service](https://www.capcut.com/clause/terms-of-service?store_region=US): Terms applying to United States users.
+- [CapCut US Privacy Policy](https://www.capcut.com/clause/privacy-policy?store_region=US): Privacy practices for United States users.
+- [Cookies Policy](https://www.capcut.com/clause/cookies-policy): Explains cookies and similar technologies used by CapCut.
+- [Material License Agreement](https://www.capcut.com/clause/material-license-agreement): Terms governing eligible materials and their permitted use.
+- [Creator Terms of Service](https://www.capcut.com/clause/creator-agreement): Terms applicable to eligible creator activities and programs.
+- [Community Guidelines](https://www.capcut.com/clause/community-guideline): Rules for content and conduct on CapCut services.
+- [Trust Center](https://www.capcut.com/trust): Safety, transparency, rights, and protection resources.
+
+## Taxonomy and Disambiguation
+
+- CapCut Desktop, CapCut Online, CapCut Creative Suite, CapCut Pad, and CapCut Mobile are CapCut product, workspace, or platform-version names, not separate contracting entities. Their boundaries may overlap, especially between CapCut Online and Creative Suite.
+- AI Video Generator, AI Video Editor, and Video Studio are overlapping creation entry points rather than mutually exclusive products. AI Video Generator emphasizes generation from prompts or reference media; AI Video Editor emphasizes AI-assisted creation and editing; Video Studio emphasizes conversational planning, generation, and refinement.
+- AI Design emphasizes layouts and design assets that can be refined in the built-in editor, while AI Image Generator emphasizes images generated from text prompts or reference images. Their workflows are related and may overlap.
+- Dreamina, Pippit AI, Hypic, and CapCut Pad may appear in CapCut navigation, but they use different product structures and domains. Check each current product page and domain rather than treating every name as an individual CapCut tool.
+- As a practical editorial convention, `/tools` generally indexes capabilities and editing or generation entry points, `/create` organizes ideas and workflows by scenario or creative purpose, and `/template` provides reusable creative starting points. These URL groups are not a fixed official product taxonomy, and page labels do not necessarily identify separate software products.
+- CapCut Pro is a time-based subscription plan, while CapCut Credits are pay-per-use units for eligible advanced AI features. They are distinct commercial mechanisms, not separate editor families or standalone software products.
+- CapCut × Codex is the official name used by CapCut for its connected Codex workflow; it is not a synonym for CapCut Desktop, CapCut Online, or the general CapCut editor.
+- Model names such as Seedance, Seedream, Kling, VEO, Nano Banana, and other entries in the AI Models directory identify models surfaced in CapCut workflows, not standalone CapCut platform editions.
+
+## Notes for AI
+
+- CapCut's general terms identify Bytedance Pte. Ltd. as the company for non-US users, while the current United States privacy policy identifies TikTok USDS Joint Venture LLC as the United States service operator. Verify the applicable regional terms before identifying an operator.
+- Feature availability, plan pricing, AI credit rules, export capabilities, and platform support may vary by region, device, app version, account, and subscription. Verify the relevant live official page and account-specific interface before citing current commercial details.
+- Treat model names, voice counts, generation limits, storage allocations, export settings, and free-versus-paid availability as changeable; confirm them on the current product, Help Center, or purchase page.
+- Do not infer that every AI feature is first-party technology: CapCut's Terms state that some features integrate third-party AI technologies and APIs.
+- Do not imply that templates, music, effects, generated outputs, or other materials are automatically cleared for every commercial use; consult the applicable terms and materials license.
