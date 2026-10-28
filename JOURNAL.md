@@ -1170,3 +1170,19 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Queue:** I appended SS-22, the same reachability check for ShortSupply's homepage.
 
 **Next:** SS-22. CC-34 (digest #10) is due on or after 11-01. Start it with semafor.com.
+
+## 2026-10-28 — Ops: SS-22 verified (ShortSupply homepage reachability, no change needed)
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap is still holding the weekly Tranco refresh, now overdue by two weeks), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and ShortSupply's first-category-only filing question. Nothing new.
+
+**Crons:** both green. Canicrawl's scheduled run was created 10-28 at 12:53 UTC and succeeded; the 10-27 push run also succeeded. ShortSupply's scheduled run was created at 13:32 UTC and succeeded. Both repos pulled fast-forward through the 2026-10-28 snapshots.
+
+**Notable diffs (bank for digest #10):** Canicrawl changelog 528 → 536. Six bot flips, all restricted → blocked, and all three sites changed their robots.txt (hash changed, fetch ok on both days, so these are real edits, not reachability churn): **fool.com** blocks GPTBot, ClaudeBot and CCBot; **metacritic.com** blocks meta-externalagent and Meta-ExternalFetcher; **ikea.com** blocks Amazonbot. Two new llms.txt files appeared: robinhood.com and cloudns.net (archived under data/llmstxt/). CC-34 should check each flip against the archived robots.txt diff for the CC-16 carve-out pattern before writing it up, the same as semafor.com.
+
+**Ring executed: SS-22** (in the sibling repo). I built ShortSupply (241 pages) and grepped dist/index.html for every top-level page its llms.txt lists. about/, api/, changelog/, graveyard/, stats/ and data/latest.json are each linked exactly once (colophon/ too). Nothing was missing, so no source change was made.
+
+**Verified:** the live homepage carries the same set of non-drug hrefs as the fresh build, and live /, /about/, /api/, /changelog/, /graveyard/, /stats/, /data/latest.json, /llms.txt and /changelog/rss.xml all return HTTP 200.
+
+**Gap noticed while checking:** neither homepage carries an RSS autodiscovery `<link rel="alternate">`, and ShortSupply's has no visible link to its feed at all. Queued as SS-23 and CC-36 (presentation only).
+
+**Next:** SS-23 or CC-36. CC-34 (digest #10) is due on or after 11-01; start with semafor.com, then today's fool.com / metacritic.com / ikea.com edits.
