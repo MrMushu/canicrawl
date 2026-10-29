@@ -1186,3 +1186,19 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Gap noticed while checking:** neither homepage carries an RSS autodiscovery `<link rel="alternate">`, and ShortSupply's has no visible link to its feed at all. Queued as SS-23 and CC-36 (presentation only).
 
 **Next:** SS-23 or CC-36. CC-34 (digest #10) is due on or after 11-01; start with semafor.com, then today's fool.com / metacritic.com / ikea.com edits.
+
+## 2026-10-29 — Ops: SS-23 shipped (ShortSupply RSS autodiscovery); 21 Canicrawl flips
+
+**USER-NEEDED (standing, unchanged):** CC-24 (the highwebmedia.com filter gap is still holding the weekly Tranco refresh, now overdue by more than two weeks), CC-16 (Allow carve-outs under `Disallow: /`), SS-7 (ShortSupply digest #1), and ShortSupply's first-category-only filing question.
+
+**USER-NEEDED (new, methodology — tracked-bot list):** dailymail added three user-agent tokens we do not track: **Meta-WebIndexer**, GPTBot-Search and xAI-SearchBot. A grep of the archived robots.txt corpus finds Meta-WebIndexer named in **41** of the ~1,000 panel files, xAI-SearchBot in 4 and GPTBot-Search in 2. Adding a tracked bot changes published counts, so it is the user's call; Meta-WebIndexer at 41 sites clears the Phase D1 "≥3 sites" new-token bar by a wide margin and is front-page material either way. Nothing was changed.
+
+**Crons:** both green. Canicrawl's scheduled run was created 10-29 at 12:59 UTC and succeeded; the 10-28 push run also succeeded. ShortSupply's scheduled run was created at 13:44 UTC and succeeded. GitHub status: all systems operational. Both repos pulled fast-forward through the 2026-10-29 snapshots.
+
+**Notable diffs (bank for digest #10):** changelog 536 → 557, 21 bot flips across 5 domains, all backed by real robots.txt edits (fetch ok both days, file content changed): **theatlantic.com** went allowed → restricted for GPTBot, ChatGPT-User, OAI-SearchBot and DuckAssistBot — it added named per-bot groups with the same six path disallows (/ab/, /zephr/, /video/embed/, search) and `Crawl-delay: 1`, i.e. it chose to name AI bots and give them the ordinary rules rather than block them. **kick.com** adopted the Cloudflare managed Content Signals block and now names and blocks 13 tracked bots (restricted → blocked for GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, CCBot, Bytespider, meta-externalagent, Amazonbot, anthropic-ai, Claude-Web, cohere-ai, Diffbot, omgili) — a Content Signals cohort change for the reconciliation step in CC-34. **cnbc.com** added Claude-SearchBot and Perplexity-User to its merged `Disallow: /` + `Allow: /select/` group (restricted → blocked under current rules; CC-16 caveat applies). **dailymail.co.uk** and **dailymail.com** (robots.txt dated 29/10/2026) added cohere-training-data-crawler to the blocked list, plus the three untracked tokens above. ShortSupply: no changes today (232 entries, 233 drugs, 69 in shortage).
+
+**Ring executed: SS-23** (in the sibling repo). Three presentation-only edits to its scripts/build.js: a global `<link rel="alternate" type="application/rss+xml">` to `${p}changelog/rss.xml` in the shared head, a footer `RSS` link beside the JSON API link, and removal of the changelog page's own now-redundant copy of the tag.
+
+**Verified:** build 241 pages clean; the tag appears exactly once on dist/index.html, dist/changelog/index.html (href ../changelog/rss.xml) and a drug page (../../changelog/rss.xml); footer link present on both; dist/changelog/rss.xml exists; 0 `${` leaks; disclaimer intact. Live check after push is recorded below this entry's commit if it landed within the session.
+
+**Next:** CC-36 (the Canicrawl twin). CC-34 (digest #10) is due on or after 11-01 — today adds kick.com (Content Signals), theatlantic.com (named-but-not-blocked) and the Meta-WebIndexer count to the semafor.com / fool.com / metacritic.com / ikea.com material already banked.
