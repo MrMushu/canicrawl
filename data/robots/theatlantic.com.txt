@@ -38,6 +38,13 @@ Crawl-delay: 1
 Allow: /
 
 User-agent: AmazonAdBot
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: Amazonbot
@@ -48,12 +55,26 @@ User-agent: anthropic-ai
 Disallow: /
 
 User-agent: Applebot
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: Applebot-Extended
 Disallow: /
 
 User-agent: ArcSpanScraper
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: AwarioRssBot
@@ -62,6 +83,13 @@ Disallow: /
 
 User-agent: BingBot
 Content-signal: search=yes, ai-input=no, ai-train=no
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: Bytespider
@@ -71,6 +99,13 @@ User-agent: CCBot
 Disallow: /
 
 User-agent: ChatGPT-User
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: ClaudeBot
@@ -98,10 +133,24 @@ Disallow: /
 
 User-agent: DuckAssistBot
 Content-signal: search=yes, ai-input=no, ai-train=no
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: FacebookBot
 Content-signal: search=yes, ai-input=no, ai-train=no
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: Google-Extended
@@ -109,10 +158,23 @@ Disallow: /
 
 User-agent: Googlebot
 Content-signal: search=yes, ai-input=no, ai-train=no
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
 Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: GPTBot
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: magpie-crawler
@@ -140,9 +202,23 @@ User-agent: omgilibot
 Disallow: /
 
 User-agent: OAI-SearchBot
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: Operator
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: PetalBot
@@ -157,6 +233,13 @@ Allow: /sponsored/
 Disallow: /
 
 User-agent: ProRataInc
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: Quora-Bot
@@ -166,6 +249,13 @@ User-agent: Scrapy
 Disallow: /
 
 User-agent: TerraCotta
+Disallow: /4624/TheAtlanticOnline/*
+Disallow: /ab/*
+Disallow: /video/embed/
+Disallow: /zephr/*
+Disallow: /video/iframe/*
+Disallow: /search/?*q=*
+Crawl-delay: 1
 Allow: /
 
 User-agent: TimpiBot

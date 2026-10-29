@@ -19,6 +19,7 @@ Disallow: /*/likes
 Disallow: /*/magazines
 Disallow: /*/menu/*
 Disallow: /*/message
+Disallow: /*/n/*/comments
 Disallow: /*/terms/specified
 
 User-agent: Googlebot
@@ -30,6 +31,7 @@ Disallow: /signup?*
 Disallow: /embed/*
 Disallow: /*/archives
 Disallow: /*/archives/*
+Disallow: /*/n/*/comments
 Disallow: /*/terms/specified
 Disallow: /api/v2/boards/*/reserved_posts
 Disallow: /api/v2/attachments

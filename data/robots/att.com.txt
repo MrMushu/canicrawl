@@ -379,6 +379,8 @@ Disallow: /acctmgmt/*
 # ====================================================================
 
 Sitemap: https://www.att.com/sitemap.xml
+
+# Custom AI catalog directive
 Agentmap: https://www.att.com/.well-known/ai-catalog.json
 # Agent discovery resources are published through trust.txt and ai.txt.
 # https://www.att.com/.well-known/agent-card.json

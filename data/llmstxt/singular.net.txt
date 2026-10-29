@@ -67,6 +67,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [Growth Masterminds Podcast](https://www.singular.net/growth-masterminds-podcast/): Growth experts sharing insights on strategy, tactics, and trends Subscribe on:
 - [Press](https://www.singular.net/press/): Catch up on our newsworthy stories, download our brand materials, or contact us
 - [PC and Console Attribution | Singular](https://www.singular.net/pages/pc-and-console/)
+- [Guides](https://www.singular.net/pages/report-and-guides/)
 - [Success Stories](https://www.singular.net/customers-love-singular/): Learn why top brands trust Singular for advanced attribution and analytics, seamless data integration, and actionable insights to fuel their growth
 - [Mobile Attribution Reviews](https://www.singular.net/mobile-attribution-reviews/): Don’t take it from us... read what our customers have to say Singular reviews sourced by G2
 - [SKAN Adoption](https://www.singular.net/skadnetwork-adoption/): Live SKAdNetworkAdoption Dashboard Keep up with industry SKAN adoption in real-time to benchmark your adoption and improve your campaign planning. SKAdNetwork...
@@ -611,6 +612,8 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Case Study
 
+- [How Snowprint Studios gets more with Singular](https://www.singular.net/case-study/how-snowprint-studios-gets-more-with-singular/): We sat down with Arthur Chin, UA Lead at Snowprint Studios, to discuss how they get more out of their...
+- [How Ecosia put privacy first with Singular](https://www.singular.net/case-study/how-ecosia-put-privacy-first-with-singular/): We sat down with Maria Brigida Deleonardis, Paid Growth Lead at Ecosia, to discuss why they partnered with Singular to...
 - [How East Side Games streamlined UA‑creative collaboration with Creative IQ](https://www.singular.net/case-study/east-side-games-creative-iq/)
 - [How Gameloft made its PC and console ad spend measurable with Singular](https://www.singular.net/case-study/how-gameloft-made-90-of-its-pc-and-console-ad-spend-measurable-with-singular/)
 - [How Eightpoint significantly improved attribution accuracy for 30+ apps by migrating to Singular](https://www.singular.net/case-study/eightpoint-app-migration-singular/)
@@ -963,6 +966,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 
 ## Pages
+
 
 
 
@@ -1561,6 +1565,8 @@ You can't win in the hyper-competitive mobile market without good mobile app ret
 
 
 ## Case Study
+
+
 
 
 

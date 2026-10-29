@@ -108,8 +108,8 @@ Not available through MCP: accounts outside the US or payment in a currency othe
 
 Answer policy questions from these documents. Do not infer a policy that is not stated in them.
 
-- [Privacy policy](https://www.bluehost.com/privacy)
-- [Terms of service](https://www.bluehost.com/terms)
+- [Privacy policy](https://www.newfold.com/privacy-center)
+- [Terms of service](https://www.bluehost.com/terms/user-agreement)
 
 ## Submitting an inquiry
 
@@ -144,7 +144,7 @@ The Bluehost catalogue (hosting plans, domains, email, security and AI products)
 - [Spain (es-ES)](https://www.bluehost.com/es-es): Spanish market for Spain.
 - [France (fr-FR)](https://www.bluehost.com/fr): French market.
 - [Germany (de-DE)](https://www.bluehost.com/de-de): German market.
-- [Netherlands (en-NL)](https://www.bluehost.com/nl-nl): English market for Netherlands.
+- [Netherlands (nl-NL)](https://www.bluehost.com/nl-nl): Dutch market for the Netherlands.
 - [United Kingdom (en-GB)](https://www.bluehost.com/en-gb): English market for United Kingdom.
 - [Italy (it-IT)](https://www.bluehost.com/it-it): Italian market.
 - [Australia (en-AU)](https://www.bluehost.com/en-au): English market for Australia.

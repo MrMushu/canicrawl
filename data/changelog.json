@@ -4188,6 +4188,174 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "dailymail.co.uk",
+   "kind": "bot-flip",
+   "bot": "cohere-training-data-crawler",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "cnbc.com",
+   "kind": "bot-flip",
+   "bot": "Claude-SearchBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "cnbc.com",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "dailymail.com",
+   "kind": "bot-flip",
+   "bot": "cohere-training-data-crawler",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "anthropic-ai",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "Claude-Web",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "cohere-ai",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-10-29",
+   "domain": "kick.com",
+   "kind": "bot-flip",
+   "bot": "omgili",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

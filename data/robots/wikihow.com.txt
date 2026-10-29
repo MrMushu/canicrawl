@@ -225,6 +225,9 @@ Disallow: /
 User-agent: Xenu
 Disallow: /
 
+User-agent: YisouSpider
+Disallow: /
+
 User-agent: YouBot
 Disallow: /
 
