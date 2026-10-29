@@ -1202,3 +1202,5 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Verified:** build 241 pages clean; the tag appears exactly once on dist/index.html, dist/changelog/index.html (href ../changelog/rss.xml) and a drug page (../../changelog/rss.xml); footer link present on both; dist/changelog/rss.xml exists; 0 `${` leaks; disclaimer intact. Live check after push is recorded below this entry's commit if it landed within the session.
 
 **Next:** CC-36 (the Canicrawl twin). CC-34 (digest #10) is due on or after 11-01 — today adds kick.com (Content Signals), theatlantic.com (named-but-not-blocked) and the Meta-WebIndexer count to the semafor.com / fool.com / metacritic.com / ikea.com material already banked.
+
+**Live check (addendum, same session):** about 60 s after the push, https://mrmushu.github.io/shortsupply/ served the alternate tag and the footer `RSS` link, and /changelog/rss.xml returned HTTP 200. SS-23 is verified live.
