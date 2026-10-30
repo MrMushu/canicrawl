@@ -132,7 +132,6 @@ The Bluehost catalogue (hosting plans, domains, email, security and AI products)
 - [XML Sitemap](https://www.bluehost.com/sitemap.xml): Full site URL index.
 - [Robots.txt](https://www.bluehost.com/robots.txt): Crawl directives and disallow rules.
 - [Support Portal](https://www.bluehost.com/help): Technical support and knowledge base.
-- [MCP Server Card](https://www.bluehost.com/.well-known/mcp/server-card.json): How to connect to the Bluehost MCP server.
 - [API Catalog](https://www.bluehost.com/.well-known/api-catalog): RFC 9727 list of the agent-facing APIs.
 - [Agentic Resource Discovery](https://www.bluehost.com/.well-known/ard.json): ARD manifest declaring each agent-facing resource and how to reach it.
 

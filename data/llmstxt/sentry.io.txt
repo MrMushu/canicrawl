@@ -72,7 +72,7 @@
 - [Uptime monitoring for developers](https://sentry.io/product/uptime-monitoring/): Know when your site goes down before your users do. Sentry monitors your URLs every minute and links outages to traces s
 
 ## Solutions
-- [AI Observability: Monitor & Trace Agents and LLMs](https://sentry.io/solutions/ai-observability/): Monitor and trace AI agents, LLM calls, and tool executions in production. Catch errors, latency, token costs, and budge
+- [AI Observability: Monitor & Trace Agents and LLMs](https://sentry.io/solutions/ai-observability/): AI observability and LLM monitoring for production apps. Trace agent runs, LLM calls, and tool calls, and catch errors, 
 - [Application Observability | Sentry](https://sentry.io/solutions/application-observability/): Your observability stack accumulated over time. Sentry connects errors, traces, logs, replays, and application metrics i
 - [Application Performance Monitoring (APM) Solution](https://sentry.io/solutions/application-performance-monitoring/): Sentry for Application Performance Monitoring. See why your code is slow, not just that it's slow.
 - [Ecommerce Performance Monitoring & Error Tracking](https://sentry.io/solutions/ecommerce/): Monitor and optimize your online store with Sentry. Catch JS errors, third-party outages and checkout delays fast—resolv
@@ -438,6 +438,7 @@
 - [See you at Google Cloud Next 2026](https://sentry.io/events/google-cloud-next/): Move faster with AI — and know exactly what to do when it breaks. Sentry has the context. Seer has the answers. See us a
 - [Sentry @ Google Cloud Next 2025](https://sentry.io/events/google-cloud-next-2025/): Join Sentry at Google Cloud Next 2025 in Las Vegas.
 - [See you at HumanX 2026](https://sentry.io/events/humanx/): Your AI agent is running, then suddenly goes off the rails. Sentry has the context, and Seer has the answers. Come see u
+- [Quit Buggin’. Sentry’s at KubeCon 2026](https://sentry.io/events/kubecon-2026/): Your agents are writing code and running in your CI. When one breaks something, Sentry finds out why and helps those age
 - [Sentry @ Microsoft Build 2025](https://sentry.io/events/microsoft-build-2025/): Visit Sentry at Microsoft Build 2025 in Seattle. Find us at booth #316.
 - [Sentry @ PyCon US 2025](https://sentry.io/events/pycon-us-2025/): Visit Sentry at PyCon US 2025 in Pittsburgh. Find us at booth #608.
 - [Someone's gotta babysit the bots. Sentry's at RAISE Summit](https://sentry.io/events/raise-summit-2026/): AI agents break in ways traditional monitoring was never designed to catch. Sentry gives you full visibility into every 

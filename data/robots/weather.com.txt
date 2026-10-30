@@ -3,7 +3,7 @@
 #
 
 #
-# Last updated by nick.hester 10/06/2026
+# Last updated by nick.hester 10/26/2026
 #
 
 #
@@ -181,7 +181,6 @@ Disallow: /
 # Sitemaps
 #
 
-Sitemap: https://weather.com/en-US/sitemaps/news-0-1300.xml
 Sitemap: https://weather.com/en-US/sitemaps/bios-sitemap.xml
 Sitemap: https://weather.com/en-US/sitemaps/collections-manual.xml
 Sitemap: https://weather.com/api/payload/v1/sitemaps/en-US/news.xml

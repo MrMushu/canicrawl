@@ -1,0 +1,11 @@
+User-agent: *
+Crawl-delay: 2
+
+Disallow: /domain/*/backlink
+Disallow: /domain/*/screenshot
+
+User-Agent: panscient.com
+Disallow: /
+
+User-agent: fidget-spinner-bot
+Disallow: /

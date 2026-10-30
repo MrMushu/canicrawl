@@ -8,7 +8,7 @@ DreamHost has been providing web hosting services since 1997 and hosts over 1.5 
 
 ## Remixer Agentic AI Website & App Builder
 
-Remixer is DreamHost's agentic AI website and app builder: describe what you need in plain language and Remixer plans and builds it — full websites and web apps with logins, payments, and a database built in, no templates or code required.
+Remixer is DreamHost's agentic AI website and app builder: describe what you need in plain language and Remixer plans and builds it — full websites and web apps with logins, payments, and a database built in, no code required. Start from a description, a template, or both.
 
 - [Remixer Agentic AI Website & App Builder](https://www.dreamhost.com/remixer-website-builder/) - Product overview, pricing, and free trial
 - Standalone subscription: $9.99/month billed yearly ($14.99 month-to-month)

@@ -1,10 +1,71 @@
-User-agent: *
+# - LLM / AI Crawlers - Explicitly Permitted -
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: ai2-crawler
+Allow: /
 
 # If you are reading this looking for a means of reporting a security issue, please see security.txt @ https://www.delta.com/us/en/legal/vulnerability-disclosure-guidelines
 
+User-agent: *
+
+Allow: /en_US/skymiles/medallion-program/reclaim-my-status.html
+Allow: /en_US/skymiles/medallion-program/reclaim-my-status/enrollment.html
+Disallow: /en_US/
+
 # Allow Individual Pages
 Allow: /egift/eGiftPurchase.action
-Allow: /profile/enrolllanding.action
 Allow: /etc/designs/global/clientlib-overview.css
 
 # Allow Individual .jsp Pages
@@ -52,25 +113,19 @@ Disallow: /*.jsp
 Disallow: /*.pdf
 
 # Disallow generated pages
-Disallow: /flight-status/
-Disallow: /flight-status
 Disallow: *flight-status*
-Disallow: /flight-status/*
 Disallow: *cacheKey*
-Disallow: /*cacheKey*
-Disallow: /*?*cacheKeySuffix=
 Disallow: *?*paymentRef=
 Disallow: /site-search?searchTerm=*
 Disallow: /profile/enrolllanding.action?partnerCd*
 Disallow: /merch/searchHotelAction.action?locationCode*
 Disallow: /merch/searchCarAction.action?locationCode*
-Disallow: /edoc/displayEdocTNC.action*
+Disallow: /edoc/displayEdoc*
 Disallow: /edoc/redeemDocuments.action?action=*
 Disallow: /air-shopping/findFlights.action*
 Disallow: /findFlights.action*
 Disallow: /flight-search/book-a-flight?cacheKeySuffix=
-Disallow: /flight-search/search?&tripType=
-Disallow: /flight-search/search?action=
+Disallow: /flight-search/search?
 Disallow: /custlogin/showResetPassword.action*
 Disallow: /flight-search-2/
 Disallow: /search*
@@ -86,14 +141,12 @@ Disallow: /my-trips/search?*
 Disallow: /reshop/
 Disallow: /cartreshop/activity/reshopPurchase.action
 Disallow: /contactus/pages/business_programs_services/agency_irop/index.jsp
-Disallow: /edoc/displayEdocTnC.action*
 Disallow: /mypromos/registerPromotion.action
 Disallow: /profile/promotionconfirm.action*
 Disallow: /skyclub/purchasemembership_removePromotion.action
 Disallow: /profile/enrollconfirm.action
 
 # Disallow Subfolders
-Disallow: /home
 Disallow: /home/
 Disallow: /completepurchase
 Disallow: /complete-purchase
@@ -125,6 +178,8 @@ Disallow: /air-shopping/
 Disallow: /air-shopping/*
 Disallow: /air-shopping*
 Disallow: /agency-refund/
+Disallow: /_jcr_content/
+Disallow: /jcr:content/
 
 # Disallow Individual App Pages
 Disallow: /book/activity/confirmation.action

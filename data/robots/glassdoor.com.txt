@@ -143,20 +143,21 @@ Disallow: /Photos/
 Disallow: /Location/All-*-Office-Locations*
 
 # Block pages with low SEO potential to reduce crawling
-Disallow: /Compare/-vs-
-Disallow: /Salary/_DEPT*
-Disallow: /Interview/_IL
+Disallow: /Compare/*-vs-*
+Disallow: /Salary/*_DEPT*
+Disallow: /Interview/*_IL*
 
 # Block specific query filter parameters
-Disallow: *filter.searchCategory
-Disallow: *filter.overallRating
-Disallow: *filter.employmentStatus
-Disallow: *sort
-Disallow: *experienceLevel
-Disallow: *locationId
-Disallow: *filter.experience
-Disallow: *filter.jobFunction
-Disallow: *filter.location
+Disallow: *filter.searchCategory=*
+Disallow: *filter.overallRating=*
+Disallow: *filter.employmentStatus=*
+Disallow: *sort=*
+Disallow: *experienceLevel=*
+Disallow: *locationId=*
+Disallow: *sort.sortType=*
+Disallow: *filter.experience=*
+Disallow: *filter.jobFunction=*
+Disallow: *filter.location=*
 
 # Blocking pagination on employer infosite TR-12
 Disallow: /Jobs/*_P*.htm*

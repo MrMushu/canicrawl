@@ -373,6 +373,9 @@ Allow: /paid-content/how-to-check-if-t-mobile-fiber-is-available-at-your-address
 Allow: /paid-content/why-you-need-a-cutting-edge-vpn-to-keep-you-safe-online/
 Allow: /paid-content/why-you-need-an-internet-provider-with-no-data-caps/
 Allow: /tech/mobile/apple-iphone-17-event-september-2025-what-to-expect/
+Allow: /tech/mobile/best-android-phone/
+Allow: /tech/mobile/best-cheap-phone/
+Allow: /tech/mobile/best-phone/
 Allow: /tech/mobile/i-underestimated-workout-buddy-apples-playing-the-long-game-for-ai-coaching/
 Allow: /tech/mobile/new-iphone-buying-guide-carrier-vs-apple-unlocked/
 Allow: /tech/mobile/phone-deals-carrier-bill-credits-installment-plan-buying-guide/
