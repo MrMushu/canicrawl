@@ -133,6 +133,8 @@ function page({ title, desc, depth, active, content, extraHead = "" }) {
 <meta name="description" content="${esc(desc)}">
 <link rel="stylesheet" href="${p}style.css">
 <link rel="icon" type="image/svg+xml" href="${p}favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Canicrawl policy changes" href="${p}changelog/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="Canicrawl digest" href="${p}digest/rss.xml">
 ${extraHead}
 </head>
 <body>
@@ -697,7 +699,6 @@ write("changelog/index.html", page({
   title: "Changelog — Canicrawl",
   desc: `Every AI-crawler policy flip we observe across ${DOMAINS.length} tracked sites, newest first. ${changelog.entries.length} entries and counting.`,
   depth: 1, active: "Changelog",
-  extraHead: `<link rel="alternate" type="application/rss+xml" title="Canicrawl policy changes" href="rss.xml">`,
   content: `
 <h1>Changelog</h1>
 <p class="sub">Every AI-policy flip we observe lands here, newest first — detected by comparing daily snapshots. Subscribe via <a href="rss.xml">RSS</a>.</p>
@@ -726,7 +727,6 @@ write("digest/index.html", page({
   title: "State of the Agent Web — Canicrawl digest",
   desc: `A weekly digest of how the web's posture toward AI crawlers is shifting, drawn from our daily census of ${DOMAINS.length} top sites.`,
   depth: 1, active: "Digest",
-  extraHead: `<link rel="alternate" type="application/rss+xml" title="Canicrawl digest" href="rss.xml">`,
   content: `
 <h1>State of the Agent Web</h1>
 <p class="sub">A weekly read on how the web's doors are opening and closing to AI — written from our own daily census data. Subscribe via <a href="rss.xml">RSS</a>.</p>
