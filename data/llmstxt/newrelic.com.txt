@@ -188,11 +188,11 @@ New Relic provides comprehensive observability solutions for modern software tea
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [Sainsbury's x New Relic M.A.R.S. GameDay Challenge](https://newrelic.com/events/2026-11-10/sainsburys-mars-gameday): Sainsbury's, join New Relic on 10 November and discover how the New Relic Intelligent Observability platform opens up unexpected possibilities—and then get hands-on in a M.A.R.S. GameDay. 
 - [Using AI Effectively: Practical Skills for Everyday Use (EMEA)](https://newrelic.com/events/2026-10-28/using-ai-effectively-emea-on-demand): Watch on demand for a practical guide focused on building essential skills to integrate AI into daily workflows.
 - [New Relic at AWS re:Invent 2026](https://newrelic.com/events/2026-11-30/aws-reinvent-2026): Join New Relic at AWS re:Invent Nov 30 to Dec 4. Swing by the booth, book a meeting, don't miss our gameday and customer speaking session, and of course join us for happy hour!
 - [ANZ Bank M.A.R.S Gameday (Bengaluru)](https://newrelic.com/events/2026-10-29/anz-mars-gameday-bengaluru): New Relic x ANZ Bank M.A.R.S Gameday! Join us on October 29 for a competitive, team-based simulation experience built on cloud native standards
 - [[On-demand] Understanding AI: How LLMs and AI Agents Really Work (EMEA](https://newrelic.com/events/2026-10-21/understanding-ai-emea-on-demand): Join on demand for a foundational session introducing the core concepts and mechanics behind artificial intelligence.
-- [New Relic Japan - Topgolf Networking & Drinks at AWS re:Invent](https://newrelic.com/events/2026-12-01/new-relic-aws-reinvent-top-golf-jp): AWS re:Invent期間中、New Relic Japan主催のカジュアルレセプションを開催！現地時間12月1日（火）午後7時〜9時、Topgolf Las Vegasにて、美味しいディナー、フリードリンク、デジタルゴルフをアットホームな雰囲気でお楽しみください。
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.
