@@ -1254,3 +1254,5 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Queue:** CC-34 ticked. Appended CC-37 (digest #11, window 11-02 onward, due ~2026-11-08, same procedure).
 
 **Next:** SS-25 (sitemap entries for departed drugs) is the small ring for tomorrow. CC-37 from 11-08. Live check of /digest/10/ after the push is recorded below if it lands within the session.
+
+**Live check (addendum, same session):** about 30 s after the push, https://canicrawl.com/digest/10/ returned HTTP 200 with the issue title present, and the live /digest/rss.xml carries the digest/10/ item. CC-34 is verified live.
