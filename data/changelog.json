@@ -4508,6 +4508,53 @@
    "bot": "Meta-ExternalFetcher",
    "from": "restricted",
    "to": "allowed"
+  },
+  {
+   "date": "2026-11-02",
+   "domain": "bbc.com",
+   "kind": "bot-flip",
+   "bot": "Claude-SearchBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-02",
+   "domain": "bbc.com",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-02",
+   "domain": "researchgate.net",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-02",
+   "domain": "bbc.co.uk",
+   "kind": "bot-flip",
+   "bot": "Claude-SearchBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-02",
+   "domain": "bbc.co.uk",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-02",
+   "domain": "appsflyer.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

@@ -1285,7 +1285,6 @@
 - [Modernizing DoW/IL5 Office 365 identity lifecycle management](https://www.okta.com/blog/product-innovation/dow-il5-office-365-identity-management)
 - [Building the future of secure federal identity governance: FedRAMP milestones](https://www.okta.com/blog/product-innovation/okta-iga-for-federal-identity-security-fabric)
 - [How Okta Workflows scales enterprise IT and security operations](https://www.okta.com/blog/customers-and-partners/okta-workflows-identity-security)
-- [Multi-agent attack tools leave no stone unturned | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/multi_agent_attack_tools_leave_no_stone_unturned)
 - [Founders in Focus: Joel Bauman of Synqly](https://www.okta.com/blog/company-and-culture/founders-in-focus-joel-bauman-of-synqly)
 - [What it takes to own AI agent identity as agents spread](https://www.okta.com/blog/ai/ai-agent-identity-build-vs-buy)
 - [The anatomy of modern identity attacks: Defending public sector missions in an AI-driven threat landscape](https://www.okta.com/blog/industry-insights/defending-public-sector-identity-attacks)
@@ -1315,6 +1314,7 @@
 - [Beyond Workflows connectors: Integration Builder expands what you can automate with Okta](https://www.okta.com/blog/product-innovation/okta-integration-builder-ga)
 - [Build and deploy custom app integrations directly in your Okta org using the Okta Integration Wizard](https://www.okta.com/blog/product-innovation/okta-integration-wizard-custom-apps)
 - [Okta for AI Agents makes agent and MCP server registration easier across platforms](https://www.okta.com/blog/product-innovation/registering-ai-agents-mcp-servers)
+- [Multi-agent attack tools leave no stone unturned | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/multi_agent_attack_tools_leave_no_stone_unturned)
 
 ## Newsroom
 

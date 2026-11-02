@@ -53,6 +53,8 @@ User-agent: Googlebot
 Disallow: /*/hotel/all/
 Disallow: /search
 Disallow: /*/search$
+Disallow: /accom/search
+Disallow: /*/accom/search$
 Disallow: /activities/detail
 Disallow: /activities/detail?*
 Disallow: /*/activities/detail?*

@@ -20,4 +20,5 @@
 
 ## Agent tools
 
+- [AI agent tools](https://fontawesome.com/ai.md): Font Awesome's agent skills and fa CLI for AI coding tools like Claude, Cursor, and Copilot, and how to install them.
 - [fontawesome-agent-tools on GitHub](https://github.com/FortAwesome/fontawesome-agent-tools): Skills package for AI coding agents that adds Font Awesome-specific tooling. Install with `npx skills add FortAwesome/fontawesome-agent-tools`.

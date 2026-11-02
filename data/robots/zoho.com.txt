@@ -2,7 +2,7 @@
 # ZOHO Corp. -- http://www.zoho.com
 # Robot Exclusion File -- robots.txt
 # Author: Zoho Creative
-# Last Updated: 30/09/2024
+# Last Updated: 02/11/2026
 # ------------------------------------------
 
 User-agent: *

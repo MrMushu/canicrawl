@@ -1,4 +1,5 @@
 User-agent: Yandex
+Disallow: /*/postavshchiki/
 Disallow: /auto-logbook
 Allow: /pets/lost-and-found$
 Allow: /pets/lost-and-found/$
@@ -114,6 +115,7 @@ Clean-param: searchEnable&ctime&aviclid&hideExampleReportButton&group
 Sitemap: https://www.avito.ru/sitemap/index.xml
 
 User-agent: Googlebot
+Disallow: /*/postavshchiki/
 Disallow: /auto-logbook
 Allow: /pets/lost-and-found$
 Allow: /pets/lost-and-found/$
@@ -241,6 +243,7 @@ Disallow: /catalog/*/compare-equipment
 Sitemap: https://www.avito.ru/sitemap/index.xml
 
 User-agent: *
+Disallow: /*/postavshchiki/
 Disallow: /auto-logbook
 Allow: /pets/lost-and-found$
 Allow: /pets/lost-and-found/$
