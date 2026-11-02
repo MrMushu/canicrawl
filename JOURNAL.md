@@ -1274,3 +1274,5 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Queue:** SS-25 ticked. Nothing appended; CC-37 (digest #11, window 11-02 onward) is due ~11-08 and already has bbc, researchgate and appsflyer/ora banked above.
 
 **Next:** the user dispatches today's ShortSupply run if it has not appeared. Tomorrow's session has no small ring queued besides CC-37; append one if the queue is still empty of unblocked items (for example: a CC twin of SS-25 is not needed, Canicrawl has no departed-page concept).
+
+**Live check (addendum, same session):** about 70 s after the shortsupply push (push run created 16:17:54 UTC, succeeded), https://mrmushu.github.io/shortsupply/sitemap.xml serves **271** `<loc>` entries with `drug/moxifloxacin-injection/` present once and 0 duplicates; the archive page returns HTTP 200. SS-25 is verified live. At 16:20 UTC ShortSupply still has no `schedule` run for 2026-11-02 — the time-sensitive USER-NEEDED dispatch at the top of this entry stands.
