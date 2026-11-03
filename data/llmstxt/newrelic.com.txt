@@ -109,6 +109,7 @@ New Relic provides comprehensive observability solutions for modern software tea
 ## Resources
 
 ### Report
+- [The Observability Forecast 2026 | India ](https://newrelic.com/resources/report/the-observability-forecast-2026-india): Explore New Relic's Observability Forecast 2026 (India). Discover insights on AI agent monitoring, outage impacts, and ROI trends among 488 IT leaders.
 - [Observability Forecast for Financial Services ](https://newrelic.com/resources/report/state-of-observability-for-financial-services-report): Explore the State of Observability for Financial Services 2026 report. See how 156 financial services organizations are navigating an increasingly complex technology landscape. 
 - [AI makes software faster to build and harder to run](https://newrelic.com/resources/report/observability-forecast/2026-emea): Discover how 750 technology leaders across Europe and the Gulf are balancing rapid AI agent deployment with cost management and regulatory compliance in the 2026 EMEA Observability Forecast.
 - [Asia-Pacific is outrunning the world on AI adoption—and paying the highest price for downtime](https://newrelic.com/resources/report/observability-forecast/2026-apac): Discover how APAC IT leaders are mastering agentic monitoring, balancing rapid AI adoption, and reducing high-impact outage risks in the 2026 APAC Observability Forecast.
@@ -118,7 +119,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [2026 AI Impact Report](https://newrelic.com/resources/report/2026-ai-impact-report): Discover how AI is transforming engineering. New Relic’s 2026 AI Impact Report reveals how teams achieved 2x higher correlation rates and 80% more deployments. Read the full insights from 6M+ users.
 - [Using Agentic AI and Intelligent Observability to Reduce MTTR for IT Operations](https://newrelic.com/resources/report/using-agentic-ai-and-intelligent-observability-reduce-mttr-for-it-operations): Watch this session to learn how the New Relic ServiceNow integration uses agentic AI to reduce MTTR, enhance incident management, and enable automation.
 - [2025 Telecommunications & Technology Observability Report](https://newrelic.com/resources/report/2025-telecommunications-technology-observability-report): Explore the State of Observability for IT and Telecommunications 2025 report. Get key insights, trends, and strategies for leveraging modern observability to create efficient, secure code.
-- [New Relic is a Leader in IDC’s Worldwide Observability Report](https://newrelic.com/resources/report/idc-marketscape-worldwide-observability): Discover why IDC named New Relic an Observability Leader, highlighting 5x faster MTTR, OpenTelemetry support, and flexible, predictable consumption-based pricing.
 
 ### Video
 - [New Relic Now June 2026](https://newrelic.com/resources/video/new-relic-now-june-2026): Watch New Relic Now 2026 on-demand to learn how AI is creating new challenges and opportunities in software observability.
@@ -165,6 +165,7 @@ New Relic provides comprehensive observability solutions for modern software tea
 
 ## Blog
 
+- [The 2026 Observability Forecast: India Edition](https://newrelic.com/blog/observability/the-observability-forecast-2026-india): New Relic partnered with Enterprise Technology Research (ETR) to survey 2,575 IT and engineering leaders and practitioners worldwide. 500 of these are based in India, 20% of the global sample and the second largest single-country cut in the study.
 - [Optimize your NRQL with Macros!](https://newrelic.com/blog/news/optimize-your-nrql-with-macros): Parse, transform, and analyse your data with NRQL Macros
 - [Track your Black October vulnerabilities from visibility to validated patch](https://newrelic.com/blog/security/black-october-cves-new-relic): PHP2Shell and Node2Shell hit the runtimes under your apps. Here's how New Relic users can find exposed services and confirm the fix is running everywhere.
 - [Turo + New Relic: Turn AI code volume into production reliability](https://newrelic.com/blog/ai/turo-new-relic-turn-ai-code-volume-into-production-reliability): See how Turo uses the New Relic MCP server to give AI agents live production context, slash incident triage to 60 seconds, and scale releases safely.
@@ -184,7 +185,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Reduce MTTR: Accelerate Cloud Incident Triage with New Relic Infrastructure 360](https://newrelic.com/blog/infrastructure-monitoring/new-relic-infrastructure-360-pp): Discover how New Relic Infrastructure 360 unifies cloud resource discovery, app-infra topology, and config change differences to eliminate blind spots and reduce MTTR.
 - [Improving developer productivity with New Relic AI](https://newrelic.com/blog/news/improving-developer-productivity-with-new-relic-ai): Context switching is one of the biggest hidden costs in a developer's day. New Relic Ground Truth closes that gap by providing AI systems with trusted operational context from your production environment.
 - [Introducing AI Evaluation: Close the Loop Across the Full AI Lifecycle](https://newrelic.com/blog/news/introducing-ai-evaluation): Discover New Relic AI Evaluation: Bridge pre-production prompt testing with live transaction telemetry to evaluate quality, reduce costs, and scale GenAI.
-- [The Velocity Dilemma in Modern Software Delivery](https://newrelic.com/blog/observability/launchdarkly-new-relic-close-the-loop): LaunchDarkly and New Relic close the loop between release and observability, automating rollbacks before incidents reach your users.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

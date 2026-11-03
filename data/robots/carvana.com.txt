@@ -17,7 +17,6 @@ Disallow: /drive/
 Disallow: /inventory/
 Disallow: /cars/filters/
 Disallow: /api/
-Disallow: /vehicle/autocheck/
 Allow: /sell-my-car/$
 Allow: /sell-my-car/?
 Allow: /value-tracker/$
@@ -34,3 +33,4 @@ Disallow: /
 
 Sitemap: https://www.carvana.com/sitemap.xml
 Sitemap: https://www.carvana.com/buy/sitemap.xml
+Sitemap: https://www.carvana.com/careers/sitemap.xml

@@ -100,7 +100,7 @@ Disallow: /benchmarks/fr/*/
 Disallow: /pricing/v1/
 
 # BEGIN ora — managed by Agent Front. Edit in Studio, not here.
-# 0 crawler rule(s) · generated 2026-11-02T10:59:45.373Z
+# 0 crawler rule(s) · generated 2026-11-02T21:34:39.074Z
 
 Sitemap: https://appsflyer.com/sitemap.xml
 

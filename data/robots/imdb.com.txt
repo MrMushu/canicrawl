@@ -65,5 +65,8 @@ Disallow: /*/user/ur*/reviews
 User-agent: AmazonAdBot
 Allow: /
 
+User-Agent: __usage_ai-training
+Disallow: /
+
 User-agent: *
 Disallow: /

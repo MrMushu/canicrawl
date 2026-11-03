@@ -62,6 +62,7 @@
 
 ## Blog Posts
 
+- [Bring Braze Intelligence into the Tools You Already Use with Operator Connect](https://www.braze.com/resources/articles/operator-connect-product-spotlight.md): BrazeAI Operator™ Connect, now available in limited Beta, brings BrazeAI Operator™ into the agentic tools and internal platforms where your team already works, so you can analyze performance, build campaigns, Canvases, and segments, and get the answers you need, grounded in your own Braze workspace.
 - [Best SMS Marketing Platforms in 2027](https://www.braze.com/resources/articles/best-sms-marketing-platforms.md): Compare the best SMS marketing platforms for enterprise, mid-market, and small business brands, with the key criteria, costs, and the questions to ask vendors.
 - [Unlocking identity resolution with Snowflake and Braze](https://www.braze.com/resources/articles/braze-and-snowflake-identity-resolution.md): Braze and Snowflake offer complementary tools to help marketers with identity resolution, supporting more accurate message targeting and deeper personalization.
 - [Launch with confidence every time with BrazeAI Agentic Standards](https://www.braze.com/resources/articles/agentic-standards-spotlight.md): Agentic Standards is designed to let marketing teams define compliance and quality requirements upfront, and automatically validate every campaign and journey before a single message is sent.

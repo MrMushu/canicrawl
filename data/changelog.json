@@ -4555,6 +4555,13 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-11-03",
+   "domain": "mixpanel.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

@@ -1,3 +1,22 @@
 User-agent: *
 Disallow: /medialist/detail/
 Disallow: /index.html
+Disallow: /zh-Hant/
+Disallow: /en/
+Disallow: /ja/
+Disallow: /es/
+Disallow: /pt/
+Disallow: /id/
+Disallow: /th/
+Disallow: /ar/
+
+User-agent: facebookexternalhit
+User-agent: Facebot
+User-agent: Twitterbot
+User-agent: LinkedInBot
+User-agent: Slackbot
+User-agent: TelegramBot
+User-agent: Discordbot
+User-agent: WhatsApp
+Disallow: /medialist/detail/
+Disallow: /index.html

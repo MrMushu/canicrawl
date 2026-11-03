@@ -1017,7 +1017,7 @@
 - [Your guide to modern identity governance](https://www.okta.com/blog/industry-insights/your-guide-to-modern-identity-governance)
 - [Scaling identity lifecycle with Okta Identity Governance](https://www.okta.com/blog/industry-insights/scaling-identity-lifecycle-with-okta-identity-governance)
 - [Modernizing access reviews with Okta](https://www.okta.com/blog/industry-insights/modernizing-access-reviews-with-okta)
-- [Simplifying Role-Based Access Control at scale](https://www.okta.com/blog/industry-insights/simplifying-role-based-access-control-at-scale)
+- [Simplifying role-based access control at scale](https://www.okta.com/blog/industry-insights/simplifying-role-based-access-control-at-scale)
 - [Why entitlement management needs a modern take](https://www.okta.com/blog/industry-insights/why-entitlement-management-needs-a-modern-take)
 - [End-to-end visibility for governance and compliance](https://www.okta.com/blog/industry-insights/end-to-end-visibility-for-governance-and-compliance)
 - [The ZSP Blueprint: Implementing True PIM with Okta Identity Governance](https://www.okta.com/blog/identity-security/the-zsp-blueprint-implementing-true-pim-with-okta-identity-governance)
@@ -1557,6 +1557,8 @@
 - [How customer feedback shaped Okta for AI Agents](https://www.okta.com/newsroom/articles/how-customer-feedback-shaped-okta-for-ai-agents)
 - [New speed, same tricks: Defend against AI threats with security fundamentals](https://www.okta.com/newsroom/articles/new-speed-same-tricks-defend-against-ai-threats-with-security-fundamentals)
 - [How SEGA keeps players moving at Sonic speed with Auth0](https://www.okta.com/newsroom/articles/how-sega-keeps-players-moving-at-sonic-speed-with-auth0)
+- [Phishing is a trap. Passkeys aren’t.](https://www.okta.com/newsroom/articles/phishing-is-a-trap-passkeys-arent)
+- [Okta named a Leader in 2026 Gartner® Magic Quadrant™ for Customer Identity and Access Management](https://www.okta.com/newsroom/press-releases/okta-named-a-leader-in-2026-gartner-magic-quadrant)
 - [Okta announces $1 billion share repurchase program](https://www.okta.com/newsroom/press-releases/okta-announces-1-billion-share-repurchase-program)
 - [Phishing resistance in the AI era with Okta Deputy CSO Charlotte Wylie](https://www.okta.com/newsroom/articles/phishing-resistance-in-the-ai-era-with-okta-deputy-cso-charlotte-wylie)
 
