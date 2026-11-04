@@ -32,12 +32,44 @@ Disallow: /suggest_queries_v2
 Disallow: /jobs-search
 
 
+User-agent: bingbot
+Allow: /
+Disallow: /facebook/
+Disallow: /?search=
+Disallow: /geo/job_title
+Disallow: /blog/wp-admin/
+Disallow: /resume-database/preview-iframe
+Disallow: /resume/preview/
+Disallow: /admin
+Disallow: /login/
+Disallow: /trk
+Disallow: /get-auto-banners
+Disallow: /events
+Disallow: /apply/
+Disallow: /eclk/
+Disallow: /ek/
+Disallow: /job-redirect
+Disallow: /pixel/
+Disallow: /observations/
+Disallow: /fingerprint/
+Disallow: /ptid
+Disallow: /tap/
+Disallow: /jobs/
+Disallow: /ojob/
+Disallow: /job-preview/
+Disallow: /svc/seo/
+Disallow: /quiz/*/post
+Disallow: /authn/
+Disallow: /suggest_queries_v2
+Disallow: /jobs-search
+Disallow: /Jobs/*?lk=
+Disallow: /Jobs/*&lk=
+
 # ALLOWED BOTS
 User-agent: Google-Extended
 User-agent: Google-News
 User-agent: Googlebot-Image/1.0
 User-agent: Googlebot-Video/1.0
-User-agent: bingbot
 User-agent: Bravebot
 User-agent: Applebot
 User-agent: Pinterestbot

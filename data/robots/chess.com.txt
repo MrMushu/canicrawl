@@ -51,6 +51,7 @@ User-agent: Mediapartners-Google
 User-agent: Assaybot
 User-agent: ias_crawler
 User-agent: AudigentAdBot
+User-agent: TTD-Content
 Disallow: /_
 Disallow: /en/
 Disallow: /cdn-cgi/

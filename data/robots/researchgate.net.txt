@@ -1,6 +1,11 @@
 User-agent: Applebot-Extended
 Disallow: /
 
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+Disallow: /
+
 User-agent: *
 Allow: /
 Disallow: /cdn-cgi/

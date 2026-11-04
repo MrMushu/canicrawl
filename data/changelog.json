@@ -4562,6 +4562,150 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "allowed",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "Claude-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "Claude-SearchBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "allowed",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "MistralAI-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "cohere-ai",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "cohere-training-data-crawler",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "omgili",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "omgilibot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "ImagesiftBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "AI2Bot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "DeepSeekBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "GrokBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "PanguBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-04",
+   "domain": "hostinger.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "blocked",
+   "to": "restricted"
   }
  ]
 }

@@ -1,7 +1,5 @@
 # LEGAL NOTICE: Per https://www.realtor.com's Terms of Service, scraping data from this website is unauthorized without the express written permission from Move Sales, Inc., operator of https://www.realtor.com.
 
-User-agent: bingbot
-Crawl-delay: 1
 
 User-agent: *
 Allow: /news/*?cid=
@@ -295,10 +293,48 @@ Disallow: /guides/search/
 Disallow: /living/search/
 Disallow: /realestateandhomes-detail/*/gallery/
 Disallow: /realestateandhomes-search/*/price-
-Allow:    /realestateandhomes-search/*price-na-
+Allow:    /realestateandhomes-search/*/price-na-
 Disallow: /realestateandhomes-search/*,
 Disallow: /realestateandhomes-search/*%2C
 Disallow: /realestateandhomes-search/*%2c
+Disallow: /embed/
+Disallow: /international/*//
+Disallow: /international/*/p1
+Disallow: /international/*/p2
+Disallow: /international/*/p3
+Disallow: /international/*/p4
+Disallow: /international/*/p5
+Disallow: /international/*/p6
+Disallow: /international/*/p7
+Disallow: /international/*/p8
+Disallow: /international/*/p9
+Disallow: /international/*aaaaa
+Disallow: /international/*%25C3
+Disallow: /international/*%25C2
+Disallow: /realestateandhomes-search/*/*/*/*
+Disallow: /realestateandhomes-search/*/*/*/*price-na-
+Disallow: /realestateandhomes-search/*/*/price-na-*/*
+Disallow: /realestateandhomes-search/*/price-na-*/*/*
+Allow:    /realestateandhomes-search/*/schools/*/*
+Allow:    /realestateandhomes-search/*/schools/*/price-na-
+Disallow: /realestateandhomes-search/*/schools/*/*/*
+Disallow: /realestateandhomes-search/*/schools/*/*/*price-na-
+Disallow: /realestateandhomes-search/*/schools/*/price-na-*/*
+Allow:    /realestateandhomes-search/*/district/*/*
+Allow:    /realestateandhomes-search/*/district/*/price-na-
+Disallow: /realestateandhomes-search/*/district/*/*/*
+Disallow: /realestateandhomes-search/*/district/*/*/*price-na-
+Disallow: /realestateandhomes-search/*/district/*/price-na-*/*
+Allow:    /realestateandhomes-search/*/park/*/*
+Allow:    /realestateandhomes-search/*/park/*/price-na-
+Disallow: /realestateandhomes-search/*/park/*/*/*
+Disallow: /realestateandhomes-search/*/park/*/*/*price-na-
+Disallow: /realestateandhomes-search/*/park/*/price-na-*/*
+Allow:    /realestateandhomes-search/*/university/*/*
+Allow:    /realestateandhomes-search/*/university/*/price-na-
+Disallow: /realestateandhomes-search/*/university/*/*/*
+Disallow: /realestateandhomes-search/*/university/*/*/*price-na-
+Disallow: /realestateandhomes-search/*/university/*/price-na-*/*
 
 User-agent: Yandex
 Disallow: /

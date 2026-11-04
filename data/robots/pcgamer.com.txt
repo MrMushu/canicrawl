@@ -21,6 +21,7 @@ Disallow: *sortBy=*
 Disallow: *productBrand=*
 Disallow: *%7B*%7D*
 Disallow: *seenMatchId=*
+Disallow: *q=*
 
 # Infinite scroll paths
 Disallow: /infinite-scroll-article/*

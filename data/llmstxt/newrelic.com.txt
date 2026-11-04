@@ -165,6 +165,8 @@ New Relic provides comprehensive observability solutions for modern software tea
 
 ## Blog
 
+- [Datadog Pricing Explained: What Drives the Bill and How to Avoid Surprises](https://newrelic.com/blog/observability/datadog-pricing): Datadog charges separately for hosts, logs, and custom metrics, and the bill can grow fast. See how the pricing model works and what to check before you sign.
+- [Datadog vs. New Relic Pricing: What Actually Drives Your Bill](https://newrelic.com/blog/observability/datadog-vs-new-relic-pricing): Compare how Datadog and New Relic actually price observability — data, hosts, and users — so you can size your real cost before you commit.
 - [The 2026 Observability Forecast: India Edition](https://newrelic.com/blog/observability/the-observability-forecast-2026-india): New Relic partnered with Enterprise Technology Research (ETR) to survey 2,575 IT and engineering leaders and practitioners worldwide. 500 of these are based in India, 20% of the global sample and the second largest single-country cut in the study.
 - [Optimize your NRQL with Macros!](https://newrelic.com/blog/news/optimize-your-nrql-with-macros): Parse, transform, and analyse your data with NRQL Macros
 - [Track your Black October vulnerabilities from visibility to validated patch](https://newrelic.com/blog/security/black-october-cves-new-relic): PHP2Shell and Node2Shell hit the runtimes under your apps. Here's how New Relic users can find exposed services and confirm the fix is running everywhere.
@@ -183,16 +185,15 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Introducing Claude Platform Tracing in New Relic AI Monitoring](https://newrelic.com/blog/news/anthropic-otel-ai-observability): Claude Platform exports OpenTelemetry (OTel) traces natively from Claude Managed Agents, the Messages API and the Claude SDKs, in public beta.
 - [Eliminate the Database War Room with New Relic Database 360](https://newrelic.com/blog/infrastructure-monitoring/new-relic-database-360-ga): Unify apps, databases, and infrastructure with New Relic Database 360. Pinpoint query bottlenecks faster and eliminate war rooms.
 - [Reduce MTTR: Accelerate Cloud Incident Triage with New Relic Infrastructure 360](https://newrelic.com/blog/infrastructure-monitoring/new-relic-infrastructure-360-pp): Discover how New Relic Infrastructure 360 unifies cloud resource discovery, app-infra topology, and config change differences to eliminate blind spots and reduce MTTR.
-- [Improving developer productivity with New Relic AI](https://newrelic.com/blog/news/improving-developer-productivity-with-new-relic-ai): Context switching is one of the biggest hidden costs in a developer's day. New Relic Ground Truth closes that gap by providing AI systems with trusted operational context from your production environment.
-- [Introducing AI Evaluation: Close the Loop Across the Full AI Lifecycle](https://newrelic.com/blog/news/introducing-ai-evaluation): Discover New Relic AI Evaluation: Bridge pre-production prompt testing with live transaction telemetry to evaluate quality, reduce costs, and scale GenAI.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [[On demand] New Relic for AI: Observability for AI, AI for Observability (EMEA)](https://newrelic.com/events/2026-11-04/new-relic-for-ai-emea-on-demand): Join us for an interactive, hands-on workshop focused on monitoring AI applications and leveraging AI features within New Relic.
+- [Fewer outages, lower cloud bills. Observability for the AI era.](https://newrelic.com/events/2026-11-25/emea-dubai-fewer-outages-lower-cloud-bills-observability-for-the-ai-era): Join New Relic for a two-hour event including live demo, networking opportunity and lunch at the AWS office in Dubai. 
+
 - [Sainsbury's x New Relic M.A.R.S. GameDay Challenge](https://newrelic.com/events/2026-11-10/sainsburys-mars-gameday): Sainsbury's, join New Relic on 10 November and discover how the New Relic Intelligent Observability platform opens up unexpected possibilities—and then get hands-on in a M.A.R.S. GameDay. 
 - [Using AI Effectively: Practical Skills for Everyday Use (EMEA)](https://newrelic.com/events/2026-10-28/using-ai-effectively-emea-on-demand): Watch on demand for a practical guide focused on building essential skills to integrate AI into daily workflows.
 - [New Relic at AWS re:Invent 2026](https://newrelic.com/events/2026-11-30/aws-reinvent-2026): Join New Relic at AWS re:Invent Nov 30 to Dec 4. Swing by the booth, book a meeting, don't miss our gameday and customer speaking session, and of course join us for happy hour!
-- [ANZ Bank M.A.R.S Gameday (Bengaluru)](https://newrelic.com/events/2026-10-29/anz-mars-gameday-bengaluru): New Relic x ANZ Bank M.A.R.S Gameday! Join us on October 29 for a competitive, team-based simulation experience built on cloud native standards
-- [[On-demand] Understanding AI: How LLMs and AI Agents Really Work (EMEA](https://newrelic.com/events/2026-10-21/understanding-ai-emea-on-demand): Join on demand for a foundational session introducing the core concepts and mechanics behind artificial intelligence.
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.

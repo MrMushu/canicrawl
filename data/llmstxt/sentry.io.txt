@@ -57,7 +57,7 @@
 ## Products
 - [Developer first Code Coverage platform](https://sentry.io/product/code-coverage/): Discover what untested code is causing errors & how to avoid similar errors in the future with Sentry's Codecov integrat
 - [Cron Monitoring](https://sentry.io/product/cron-monitoring/): Know why your scheduled jobs fail & where to fix the problem in your code with Cron error monitoring. Get started here f
-- [Error Monitoring Built for Developers](https://sentry.io/product/error-monitoring/): Resolve the errors that matter first. Sentry's error monitoring traces every issue to its root cause in code, complete w
+- [Error Monitoring Software](https://sentry.io/product/error-monitoring/): Error monitoring and error tracking for developers. See each error with its stack trace, breadcrumbs, and suspect commit
 - [Structured Logging Connected to Errors and Traces](https://sentry.io/product/logs/): Send structured logs to Sentry and see them alongside your errors, traces, and issues. Search, filter, and aggregate wit
 - [Application Metrics — Trace-Connected and High-Cardinality](https://sentry.io/product/metrics/): Sentry's application metrics are trace-connected and high-cardinality. Tag any measurement with customer_id, route, or r
 - [Continuous Profiling for Backend and Mobile Application Performance Issues](https://sentry.io/product/profiling/): See code-level insights from your backend & mobile app performance, including what's causing a slowdown with Profiling. 
@@ -288,6 +288,7 @@
 - [Securing Applications & Educating Developers with HackEDU](https://sentry.io/customers/hackedu/): Developers, especially at larger companies, need secure coding training. With ever-shifting security and compliance conc
 - [How Hawaya improved app stability with Sentry for mobile](https://sentry.io/customers/hawaya/): About Hawaya Hawaya is a matchmaking platform that helps single Muslims meet and build long-lasting relationships with o
 - [How Honra Cut Their Review Time by 75% with Seer AI Code Review](https://sentry.io/customers/honra/): A five-person dev team ships faster and with fewer bugs, by swapping verbose reviews for precise, instant feedback.
+- [How Hospitable catches incidents before customers do](https://sentry.io/customers/hospitable/): Learn how Hospitable replaced four tools with Sentry for application-layer observability, using connected traces, metric
 - [How A New Release Monitoring Workflow Improved Instacart’s CI/CD Canary Analysis](https://sentry.io/customers/instacart/): Since integrating Sentry with their canarying workflow, Instacart’s infrastructure team has been able to proactively det
 - [How Intelligence Fusion made API response time 13x faster by finding performance bottlenecks with Sentry](https://sentry.io/customers/intelligence-fusion/): How Intelligence Fusion made API response time 13x faster by finding performance bottlenecks with Sentry
 - [How Kraken Technologies uses Sentry Error Monitoring for their Python Monolith](https://sentry.io/customers/kraken/): An advanced operating system for utilities, Kraken is an all-in-one, smart operating system that automates the energy su

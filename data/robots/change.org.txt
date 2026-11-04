@@ -106,6 +106,8 @@ Disallow: /p/*/promote/thank_you?*
 Disallow: /p/*/promote?*
 Disallow: /p/*/promoters$
 Disallow: /p/*/promoters?*
+Disallow: /p/*/psf/featured-petition$
+Disallow: /p/*/psf/featured-petition?*
 Disallow: /p/*/psf/membership$
 Disallow: /p/*/psf/membership-ask$
 Disallow: /p/*/psf/membership-ask?*
@@ -267,6 +269,8 @@ Disallow: /p/*/promote/thank_you?*
 Disallow: /p/*/promote?*
 Disallow: /p/*/promoters$
 Disallow: /p/*/promoters?*
+Disallow: /p/*/psf/featured-petition$
+Disallow: /p/*/psf/featured-petition?*
 Disallow: /p/*/psf/membership$
 Disallow: /p/*/psf/membership-ask$
 Disallow: /p/*/psf/membership-ask?*

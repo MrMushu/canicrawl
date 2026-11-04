@@ -64,8 +64,12 @@ Allow: /en_US/skymiles/medallion-program/reclaim-my-status.html
 Allow: /en_US/skymiles/medallion-program/reclaim-my-status/enrollment.html
 Disallow: /en_US/
 
+Allow: /flightstatus/search
+Disallow: /flightstatus/1*
+Disallow: /flightstatus/search/*
+Disallow: /flight-status*
+
 # Allow Individual Pages
-Allow: /egift/eGiftPurchase.action
 Allow: /etc/designs/global/clientlib-overview.css
 
 # Allow Individual .jsp Pages
@@ -103,7 +107,6 @@ Allow: /inside/
 Allow: /schedules/
 Allow: /travel-agency/
 Allow: /emailus/
-Allow: /dlsearch/
 Allow: /skyclub/*.action
 Allow: /merch/shop*.action
 Allow: /home/devicetype
@@ -113,7 +116,6 @@ Disallow: /*.jsp
 Disallow: /*.pdf
 
 # Disallow generated pages
-Disallow: *flight-status*
 Disallow: *cacheKey*
 Disallow: *?*paymentRef=
 Disallow: /site-search?searchTerm=*
@@ -130,14 +132,12 @@ Disallow: /custlogin/showResetPassword.action*
 Disallow: /flight-search-2/
 Disallow: /search*
 Disallow: /sitesearch*
-Disallow: /flightstatus/search/*
 Disallow: /refund-status/search
 Disallow: /air-shopping/searchflights.action
 Disallow: /merch/merch/searchCarAction.action
 Disallow: /my-trips/upcoming-trips
 Disallow: /mytrips/printItinerary
 Disallow: /mytrips/
-Disallow: /my-trips/search?*
 Disallow: /reshop/
 Disallow: /cartreshop/activity/reshopPurchase.action
 Disallow: /contactus/pages/business_programs_services/agency_irop/index.jsp
@@ -183,7 +183,6 @@ Disallow: /jcr:content/
 
 # Disallow Individual App Pages
 Disallow: /book/activity/confirmation.action
-Disallow: /mytrips/printItinerary.action
 Disallow: /mydelta/receiptDetailsPage
 Disallow: /mydelta/receiptDetailsPage.action
 Disallow: /mydelta/vacationReceiptDetailsPage

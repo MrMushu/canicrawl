@@ -87,7 +87,6 @@ Sitemap: https://www.digicert.com/nl/sitemap.xml
 Sitemap: https://www.digicert.com/tw/sitemap.xml
 Sitemap: https://www.digicert.com/pt/sitemap.xml
 Sitemap: https://www.digicert.com/faq/sitemap.xml
-Sitemap: https://www.digicert.com/news/sitemap.xml
 Sitemap: https://www.digicert.com/blog/sitemap.xml
 Sitemap: https://www.digicert.com/eds-sitemap.xml
 

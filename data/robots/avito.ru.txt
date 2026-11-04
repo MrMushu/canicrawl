@@ -82,6 +82,9 @@ Disallow: /au-imv-info/
 Disallow: /au-imv-info$
 Disallow: /search/filters/
 Disallow: /ads-team$
+Disallow: /ads
+Disallow: /ads/lk
+Disallow: /ads/registration
 Disallow: /recs/
 Disallow: /recs$
 Disallow: */interpretation/
@@ -193,6 +196,9 @@ Disallow: /au-imv-info/
 Disallow: /au-imv-info$
 Disallow: /search/filters/
 Disallow: /ads-team$
+Disallow: /ads
+Disallow: /ads/lk
+Disallow: /ads/registration
 Disallow: /recs/
 Disallow: /recs$
 Disallow: */interpretation/
@@ -333,6 +339,9 @@ Disallow: /au-imv-info/
 Disallow: /au-imv-info$
 Disallow: /search/filters/
 Disallow: /ads-team$
+Disallow: /ads
+Disallow: /ads/lk
+Disallow: /ads/registration
 Disallow: /recs/
 Disallow: /recs$
 Disallow: */interpretation/

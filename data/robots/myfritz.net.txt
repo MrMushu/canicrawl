@@ -1,6 +1,12 @@
 User-agent: Yandex 
 Disallow: /
 
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: meta-externalads
+Disallow: /
+
 User-agent: *
 Disallow: /
 Allow: /$

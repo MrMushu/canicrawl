@@ -121,7 +121,7 @@ This file is a navigation index. Fetch the index for the area you are working in
 Answer "what's new" questions from the changelog, not from memory: it is updated every weekday.
 
 - [Changelog](https://www.hostinger.com/changelog): Every shipped product change, newest first, with one page per entry. Also available as [Markdown](https://www.hostinger.com/changelog.md), an [RSS feed](https://www.hostinger.com/changelog/feed.xml) and a [JSON Feed](https://www.hostinger.com/changelog/feed.json).
-- [Roadmap](https://www.hostinger.com/roadmap): What is upcoming and in progress for each product. Released items link to their changelog entry.
+- [Roadmap](https://www.hostinger.com/roadmap): What is upcoming and in progress for each product. Released items link to their changelog entry. Also available as a [JSON Feed](https://www.hostinger.com/roadmap/feed.json) of items not released yet.
 
 ## Partner Programs
 
