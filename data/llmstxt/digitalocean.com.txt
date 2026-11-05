@@ -1,0 +1,134 @@
+# DigitalOcean
+
+> DigitalOcean is a cloud platform for building, deploying and scaling applications. This file links to its product pages, its pricing pages and its community pages, then to the documentation, API reference, CLI and company pages. Technical documentation is indexed at https://docs.digitalocean.com/llms.txt.
+
+DigitalOcean is a cloud platform for building, deploying and scaling applications, with products for compute, managed databases, storage, networking and AI. The Products section lists each product's page. Prices are not listed in this file: each pricing page shows the current prices.
+
+## Community
+
+- [Community](https://www.digitalocean.com/community)
+- [Community Questions](https://www.digitalocean.com/community/questions)
+- [Community Tutorials](https://www.digitalocean.com/community/tutorials)
+- [Community Tags](https://www.digitalocean.com/community/tags)
+- [Community Tools](https://www.digitalocean.com/community/tools)
+- [Community Markdown](https://www.digitalocean.com/community/markdown)
+
+## Products
+
+- [Products](https://www.digitalocean.com/products)
+- [1-Click Models](https://www.digitalocean.com/products/1-click-models): Deploy popular AI models with one-click, zero configuration, and optimized performance on your own infrastructure.
+- [AI Platform](https://www.digitalocean.com/products/ai-platform): Build generative AI applications and AI agents with serverless inference, multi-agent workflows and API access to large language models.
+- [App Platform](https://www.digitalocean.com/products/app-platform)
+- [Backups](https://www.digitalocean.com/products/backups)
+- [Bare Metal GPUs](https://www.digitalocean.com/products/bare-metal-gpus)
+- [Block Storage](https://www.digitalocean.com/products/block-storage): Network-based block devices that provide additional data storage for Droplets.
+- [Cloud Firewalls](https://www.digitalocean.com/products/cloud-firewalls): Network-based, stateful firewalls that restrict traffic to Droplets.
+- [Cloud Security Posture Management](https://www.digitalocean.com/products/cloud-security-posture-management)
+- [Cloudways](https://www.digitalocean.com/products/cloudways)
+- [Container Registry](https://www.digitalocean.com/products/container-registry)
+- [Data Services](https://www.digitalocean.com/products/data-services)
+- [DDoS Protection](https://www.digitalocean.com/products/ddos-protection): Always-on protection from distributed denial-of-service (DDoS) attacks for applicable DigitalOcean resources.
+- [Droplets](https://www.digitalocean.com/products/droplets)
+- [Droplets CPU Optimized](https://www.digitalocean.com/products/droplets/cpu-optimized): The CPU-Optimized Droplet plans, one of the Droplet plan families alongside Basic, General Purpose and Memory-Optimized.
+- [Functions](https://www.digitalocean.com/products/functions)
+- [GPU Droplets](https://www.digitalocean.com/products/gpu-droplets)
+- [Identity Access Management](https://www.digitalocean.com/products/identity-access-management): Identity and access management for securing access to DigitalOcean infrastructure.
+- [AI Inference Engine](https://www.digitalocean.com/products/inference-engine): AI models with DigitalOcean's Inference Engine. Access serverless, batch, and dedicated inference with one API across text, image, audio, and video.
+- [Knowledge Bases](https://www.digitalocean.com/products/knowledge-bases)
+- [Kubernetes](https://www.digitalocean.com/products/kubernetes)
+- [Learning Services](https://www.digitalocean.com/products/learning-services): Signals flags production failures in AI agents and models. Evaluations and Simulations test fixes on multi-turn scenarios before they ship.
+- [Evaluations](https://www.digitalocean.com/products/learning-services/evaluations): Validate any model or router on your own data before production. Run LLM evaluations comparing quality and performance across your inference stack.
+- [Ubuntu](https://www.digitalocean.com/products/linux-distribution/ubuntu): Blazing fast and incredibly simple - Spin up Ubuntu hosting using our easy 1-click installer. Up and running in seconds.
+- [Load Balancers](https://www.digitalocean.com/products/load-balancers): Distribute traffic across pools of backend resources for high availability setups.
+- [Managed Agents](https://www.digitalocean.com/products/managed-agents)
+- [Managed Databases](https://www.digitalocean.com/products/managed-databases)
+- [Managed Databases Kafka](https://www.digitalocean.com/products/managed-databases-kafka): Managed Kafka, an open-source distributed event and stream-processing platform for real-time data feeds.
+- [Managed Databases MongoDB](https://www.digitalocean.com/products/managed-databases-mongodb): Managed MongoDB, a source-available, cross-platform document-oriented database for high-volume storage.
+- [Managed Databases MySQL](https://www.digitalocean.com/products/managed-databases-mysql): Managed MySQL, an open source, object-relational database built with speed and reliability in mind.
+- [Managed Databases OpenSearch](https://www.digitalocean.com/products/managed-databases-opensearch): Managed OpenSearch, an open-source search and analytics suite.
+- [Managed Databases PostgreSQL](https://www.digitalocean.com/products/managed-databases-postgresql): Managed PostgreSQL, an open source, object-relational database built with extensibility, data integrity and speed in mind.
+- [Managed Databases Valkey](https://www.digitalocean.com/products/managed-databases-valkey)
+- [Model Library](https://www.digitalocean.com/products/model-library): Explore DigitalOcean Model Library. Compare models: OpenAI, Anthropic, Meta. Test in Model Playground. Deploy with Serverless or Dedicated Inference.
+- [Monitoring](https://www.digitalocean.com/products/monitoring): Track Droplet resource usage, view performance metrics and receive alerts.
+- [Networking](https://www.digitalocean.com/products/networking): Excellent worldwide connectivity, robust networking products, Tier-1 bandwidth, and redundant 40G hypervisor connections.
+- [Partner Network Connect](https://www.digitalocean.com/products/networking/partner-network-connect)
+- [Spaces](https://www.digitalocean.com/products/spaces): S3-compatible object storage with a built-in CDN that makes scaling easy, reliable, and affordable.
+- [Network File Storage](https://www.digitalocean.com/products/storage/network-file-storage): Simplify storage for data-heavy workloads with managed, high-performance NFS. Supports AI/ML, POSIX shares, snapshots, backup & recovery.
+- [Support](https://www.digitalocean.com/products/support): Open support requests, compare support plans and find troubleshooting articles for your DigitalOcean account and infrastructure.
+- [Tools and Integrations](https://www.digitalocean.com/products/tools-and-integrations): Manage infrastructure from the command line with doctl, automate deployments with Terraform, Ansible and Chef, or build your own tools with our API libraries.
+- [Uptime Monitoring](https://www.digitalocean.com/products/uptime-monitoring): Check the health of URLs, hostnames and IP addresses, and set alerts for latency, downtime and expired SSL certificates.
+- [VPC](https://www.digitalocean.com/products/vpc): A Virtual Private Cloud (VPC), a private network interface for collections of DigitalOcean resources.
+
+## Pricing
+
+- [Pricing](https://www.digitalocean.com/pricing)
+- [Action Gateway pricing](https://www.digitalocean.com/pricing/action-gateway)
+- [Additional GPUs pricing](https://www.digitalocean.com/pricing/additional-gpus)
+- [Agent Droplets pricing](https://www.digitalocean.com/pricing/agent-droplets)
+- [App Platform pricing](https://www.digitalocean.com/pricing/app-platform)
+- [Backups pricing](https://www.digitalocean.com/pricing/backups)
+- [Calculator pricing](https://www.digitalocean.com/pricing/calculator)
+- [Cloud Security Posture Management pricing](https://www.digitalocean.com/pricing/cloud-security-posture-management)
+- [Container Registry pricing](https://www.digitalocean.com/pricing/container-registry)
+- [Droplets pricing](https://www.digitalocean.com/pricing/droplets)
+- [GPU Droplets pricing](https://www.digitalocean.com/pricing/gpu-droplets)
+- [Functions pricing](https://www.digitalocean.com/pricing/functions)
+- [Harness Runtime pricing](https://www.digitalocean.com/pricing/harness-runtime)
+- [Kubernetes pricing](https://www.digitalocean.com/pricing/kubernetes)
+- [Load Balancers pricing](https://www.digitalocean.com/pricing/load-balancers)
+- [Managed Databases pricing](https://www.digitalocean.com/pricing/managed-databases)
+- [Network File Storage pricing](https://www.digitalocean.com/pricing/network-file-storage)
+- [Spaces Object Storage pricing](https://www.digitalocean.com/pricing/spaces-object-storage)
+- [Support pricing](https://www.digitalocean.com/pricing/support)
+- [Uptime Monitoring pricing](https://www.digitalocean.com/pricing/uptime-monitoring)
+- [Virtual Private Cloud pricing](https://www.digitalocean.com/pricing/virtual-private-cloud)
+- [Volumes pricing](https://www.digitalocean.com/pricing/volumes)
+
+## Deploy
+
+- [App Platform quickstart](https://docs.digitalocean.com/products/app-platform/getting-started/quickstart/index.html.md)
+- [Deploy sample apps to App Platform](https://docs.digitalocean.com/products/app-platform/getting-started/deploy-sample-apps/index.html.md)
+- [App Platform app spec reference](https://docs.digitalocean.com/products/app-platform/reference/app-spec/index.html.md)
+- [Deploy to App Platform with GitHub Actions](https://docs.digitalocean.com/products/app-platform/how-to/deploy-from-github-actions/index.html.md)
+- [Add a "Deploy to DigitalOcean" button to a repository](https://docs.digitalocean.com/products/app-platform/how-to/add-deploy-do-button/index.html.md)
+- [doctl apps create](https://docs.digitalocean.com/reference/doctl/reference/apps/create/index.html.md)
+- [doctl apps create-deployment](https://docs.digitalocean.com/reference/doctl/reference/apps/create-deployment/index.html.md)
+
+## Documentation
+
+- [DigitalOcean documentation](https://docs.digitalocean.com/)
+- [Documentation index for AI agents (llms.txt)](https://docs.digitalocean.com/llms.txt)
+- [Documentation structured index (JSON)](https://docs.digitalocean.com/llms-index.json)
+- [Product documentation](https://docs.digitalocean.com/products/index.html.md)
+
+## API reference
+
+- [API overview](https://docs.digitalocean.com/reference/api/index.html.md)
+- [API reference](https://docs.digitalocean.com/reference/api/digitalocean/)
+- [API documentation index (llms.txt)](https://docs.digitalocean.com/reference/api/llms.txt)
+- [OpenAPI specification (JSON)](https://docs.digitalocean.com/reference/api/reference/openapi.json)
+
+## CLI (doctl)
+
+- [doctl reference](https://docs.digitalocean.com/reference/doctl/index.html.md)
+- [Install and configure doctl](https://docs.digitalocean.com/reference/doctl/how-to/install/index.html.md)
+- [doctl documentation index (llms.txt)](https://docs.digitalocean.com/reference/doctl/llms.txt)
+- [doctl on GitHub](https://github.com/digitalocean/doctl)
+
+## Blog and release notes
+
+- [DigitalOcean blog](https://www.digitalocean.com/blog)
+- [Recent release notes](https://docs.digitalocean.com/release-notes/recent/index.html.md)
+- [Release notes feed (RSS)](https://docs.digitalocean.com/release-notes/index.xml)
+- [Product changelog](https://ideas.digitalocean.com/changelog)
+- [DigitalOcean status](https://status.digitalocean.com/)
+
+## Optional
+
+- [About DigitalOcean](https://www.digitalocean.com/about)
+- [Trust center](https://www.digitalocean.com/trust)
+- [Legal](https://www.digitalocean.com/legal)
+- [Partners](https://www.digitalocean.com/partners)
+- [Customer stories](https://www.digitalocean.com/customers)
+- [Solutions](https://www.digitalocean.com/solutions)
+- [Contact DigitalOcean](https://www.digitalocean.com/company/contact)

@@ -1,5 +1,5 @@
-<!-- Updated: 2026-10-26 —> 
 # Daily Mail
+<!-- Updated: 2026-11-05 -->
 
 > The Daily Mail (dailymail.com) publishes news, lifestyle, travel, and consumer buying-guide content. The URLs listed below are explicitly unblocked for AI/LLM access (indicated by the trailing underscore before `.html`) and may be crawled, indexed, and cited by AI agents and assistants when answering user questions on these topics.
 
@@ -82,6 +82,7 @@
 - [Best hair dryers](https://www.dailymail.com/lifestyle/beauty/article-15689531/Best-hair-dryer_.html): Top five hair dryers from Dyson, GHD, Shark and more - useful for hair dryer brand comparison questions.
 - [Shark FlexStyle 5-in-1 air styler and hair dryer review](https://www.dailymail.com/lifestyle/beauty/article-15621433/Shark-FlexStyle-5-1-Air-Styler-Hair-Dryer-review_.html): Review of the Shark FlexStyle, noted as cheaper than the Dyson Airwrap.
 - [Best shampoos for oily hair](https://www.dailymail.com/lifestyle/beauty/article-15567673/best-shampoos-oily-hair-clarifying-scalp_.html): Clarifying shampoos for keeping oily scalps fresh and adding volume.
+- [Best beauty advent calendars 2026](https://www.dailymail.com/lifestyle/beauty/article-16184163/best-beauty-advent-calendars-2026_.html): Guide to the best beauty advent calendars for 2026 - useful for advent calendar comparison questions.
 
 ## Lifestyle - Fitness & Wellbeing
 
@@ -107,6 +108,7 @@
 - [Best jeans for pear shape](https://www.dailymail.com/lifestyle/fashion/article-15509991/big-bottom-small-waist-jeans-flattering-body-shape_.html): Six jeans picked from 48 pairs tried on for a pear-shaped figure.
 - [Best new M&S jeans](https://www.dailymail.com/lifestyle/fashion/article-15530993/best-new-jeans-M-S_.html): Top three picks from the new M&S jeans range.
 - [Best thermals for women](https://www.dailymail.com/lifestyle/fashion/article-15470261/best-thermals-women_.html): Tested winter base layers, from the slopes to the sofa.
+- [What makes supermarket fashion stand out: style and value in 2026](https://www.dailymail.com/lifestyle/fashion/article-16184089/What-Makes-Supermarket-Fashion-Stand-Style-Value-2026_.html): Looks at what makes supermarket fashion stand out on style and value in 2026 - useful for supermarket clothing value questions.
 
 ## Lifestyle - Food & Drink
 
@@ -145,6 +147,7 @@
 - [Retro-style homeware finds for vintage lovers](https://www.dailymail.com/lifestyle/article-16202821/Retro-style-homeware-finds-perfect-vintage-lovers_.html): Roundup of retro-style homeware finds for vintage lovers - useful for vintage and retro home decor shopping questions.
 - [Cosy homeware ideas to refresh your space this autumn](https://www.dailymail.com/lifestyle/article-16227175/Cosy-homeware-ideas-refresh-space-autumn-Usher-cosy-season-style_.html): Cosy homeware ideas to refresh your space for autumn - useful for autumn home decor shopping questions.
 - [The 15 fashion editor-approved trench coats worth investing in](https://www.dailymail.com/lifestyle/article-16223725/The-15-fashion-editor-approved-trench-coats-worth-investing-season_.html): A fashion editor's 15 approved trench coats worth investing in this season - useful for trench coat buying questions.
+- [Best Black Friday beauty bargains for 2026](https://www.dailymail.com/lifestyle/article-16227179/The-best-Black-Friday-beauty-bargains-look-2026-according-shopping-expert_.html): A shopping expert's pick of the best Black Friday beauty bargains to look out for in 2026 - useful for Black Friday beauty deal questions.
 
 ## Travel
 

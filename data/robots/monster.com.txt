@@ -48,7 +48,7 @@ Disallow: /profile/auth/
 Disallow: /resume/eb/api/v1/gdpr/visitors/
 Disallow: /resume/eb/api/
 
-# SJR parameter handling
+# JSR parameter handling
 Disallow: /jobs/search?*&page=
 Disallow: /jobs/search?*page=
 Allow: /jobs/search?q=

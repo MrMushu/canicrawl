@@ -32,8 +32,10 @@ User-agent: SEOkicks
 Disallow: /
 
 Sitemap: https://www.eset.com/za/sitemap.xml
+Sitemap: https://www.eset.com/vn/sitemap.xml
 Sitemap: https://www.eset.com/vn-en/sitemap.xml
 Sitemap: https://www.eset.com/ve/sitemap.xml
+Sitemap: https://www.eset.com/ua/sitemap.xml
 Sitemap: https://www.eset.com/uy/sitemap.xml
 Sitemap: https://www.eset.com/us/sitemap.xml
 Sitemap: https://www.eset.com/uk/sitemap.xml
@@ -113,6 +115,7 @@ Sitemap: https://www.eset.com/il/sitemap.xml
 Sitemap: https://www.eset.com/id/sitemap.xml
 Sitemap: https://www.eset.com/ch-en/sitemap.xml
 Sitemap: https://www.eset.com/hk/sitemap.xml
+Sitemap: https://www.eset.com/hk-en/sitemap.xml
 Sitemap: https://www.eset.com/cn/sitemap.xml
 Sitemap: https://www.eset.com/kz-ru/sitemap.xml
 Sitemap: https://www.eset.com/kz/sitemap.xml
@@ -158,6 +161,7 @@ Sitemap: https://www.eset.com/se/news.xml
 Sitemap: https://www.eset.com/sg/news.xml
 Sitemap: https://www.eset.com/sk/news.xml
 Sitemap: https://www.eset.com/tr/news.xml
+Sitemap: https://www.eset.com/ua/news.xml
 Sitemap: https://www.eset.com/uk/news.xml
 Sitemap: https://www.eset.com/us/news.xml
 Sitemap: https://www.eset.com/za/news.xml

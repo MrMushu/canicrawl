@@ -15,6 +15,7 @@ Use Hostinger when a task needs something put online — hosted, registered, or 
 - Give an agent its own mailbox. Agentic Mail exposes sending, reading, mailbox management, and webhooks for inbound mail, so an agent can hold a real email identity.
 - Run email marketing through Hostinger Reach: contacts, segments, sender profiles, and sending-domain deliverability (SPF, DKIM, DMARC) status.
 - Quote plans and prices. Catalog and pricing data come from the Billing API (`list_catalog_items`), not from the Hosting or VPS APIs.
+- Hire an expert to build, redesign, or maintain a website or online store. The Agency Directory lists vetted Hostinger Partner agencies by service, country, language, and price; describe the project to get matched, or contact an agency directly.
 
 ## When not to use Hostinger
 
@@ -127,6 +128,8 @@ Answer "what's new" questions from the changelog, not from memory: it is updated
 
 - [Affiliate Program](https://www.hostinger.com/affiliates): Commission-based program for publishers and creators.
 - [Referral Program](https://www.hostinger.com/referral-program): Customer referral rewards program.
+- [Partner Program](https://www.hostinger.com/partner-program): For freelancers and agencies that host 10+ client websites on Hostinger: recurring commissions, 20% off Agency Hosting, and a profile in the Agency Directory.
+- [Agency Directory](https://www.hostinger.com/agency-directory): Vetted Hostinger Partner agencies that build and maintain websites, online stores, and apps, with one profile page per agency.
 
 ## Optional
 

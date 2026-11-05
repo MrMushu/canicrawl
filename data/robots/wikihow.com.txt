@@ -11,6 +11,9 @@
 # purposes without our explicit contractual permission is a violation of our
 # terms of service and intellectual property rights.
 
+User-agent: __usage_ai-training
+Disallow: /
+
 User-agent: Ai2Bot
 Disallow: /
 

@@ -24,6 +24,12 @@ Disallow: /zuora
 User-agent: AddSearchBot
 Disallow: /
 
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: AhrefsSiteAudit
+Disallow: /
+
 User-agent: AI2Bot
 Disallow: /
 
@@ -36,10 +42,13 @@ Disallow: /
 User-agent: AliyunSecBot
 Disallow: /
 
-User-agent: Andibot
+User-agent: Amazonbot
 Disallow: /
 
 User-agent: ArchiveBot
+Disallow: /
+
+User-agent: archive.org_bot
 Disallow: /
 
 User-agent: Arquivo-web-crawler
@@ -55,6 +64,12 @@ User-agent: AwarioRssBot
 Disallow: /
 
 User-agent: AwarioSmartBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Barkrowler
 Disallow: /
 
 User-agent: bedrockbot
@@ -79,12 +94,6 @@ User-agent: Bytespider
 Disallow: /
 
 User-agent: CCBot
-Disallow: /
-
-User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: Claude-User
 Disallow: /
 
 User-agent: ClaudeBot
@@ -117,13 +126,7 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
-User-agent: Discordbot
-Disallow: /
-
 User-agent: dotbot
-Disallow: /
-
-User-agent: DuckAssistBot
 Disallow: /
 
 User-agent: Echobot Bot
@@ -141,9 +144,6 @@ Disallow: /
 User-agent: Factset_spyderbot
 Disallow: /
 
-User-agent: Feedly
-Disallow: /
-
 User-agent: FirecrawlAgent
 Disallow: /
 
@@ -157,6 +157,9 @@ User-agent: GoogleAgent-Mariner
 Disallow: /
 
 User-agent: heritrix
+Disallow: /
+
+User-agent: ia_archiver
 Disallow: /
 
 User-agent: iaskspider/2.0
@@ -180,28 +183,10 @@ Disallow: /
 User-agent: LinkArchiver
 Disallow: /
 
-User-agent: LinerBot
-Disallow: /
-
 User-agent: magpie-crawler
 Disallow: /
 
-User-agent: meta-externalagent
-Disallow: /
-
 User-agent: Meta-ExternalAgent
-Disallow: /
-
-User-agent: meta-externalfetcher
-Disallow: /
-
-User-agent: Meta-ExternalFetcher
-Disallow: /
-
-User-agent: MistralAI-User
-Disallow: /
-
-User-agent: MistralAI-User/1.0
 Disallow: /
 
 User-agent: MJ12bot
@@ -214,9 +199,6 @@ User-agent: MyCentralAIScraperBot
 Disallow: /
 
 User-agent: netEstate Imprint Crawler
-Disallow: /
-
-User-agent: NewsNow
 Disallow: /
 
 User-agent: news-please
@@ -234,9 +216,6 @@ Disallow: /
 User-agent: omgilibot
 Disallow: /
 
-User-agent: Operator
-Disallow: /
-
 User-agent: PanguBot
 Disallow: /
 
@@ -252,9 +231,6 @@ Disallow: /
 User-agent: peer39_crawler/1.0
 Disallow: /
 
-User-agent: Perplexity-User
-Disallow: /
-
 User-agent: PhindBot
 Disallow: /
 
@@ -262,6 +238,9 @@ User-agent: Poseidon Research Crawler
 Disallow: /
 
 User-agent: proximic
+Disallow: /
+
+User-agent: rogerbot
 Disallow: /
 
 User-agent: QualifiedBot
@@ -285,7 +264,13 @@ Disallow: /
 User-agent: Screaming Frog SEO Spider
 Disallow: /
 
-User-agent: SeekrBot
+User-agent: SEOkicks
+Disallow: /
+
+User-agent: SERankingBacklinksBot
+Disallow: /
+
+User-agent: serpstatbot
 Disallow: /
 
 User-agent: Sidetrade indexer bot
@@ -295,9 +280,6 @@ User-agent: SiteimproveBot
 Disallow: /
 
 User-agent: TaraGroup Intelligent Bot
-Disallow: /
-
-User-agent: TelegramBot
 Disallow: /
 
 User-agent: Thinkbot
@@ -327,13 +309,13 @@ Disallow: /
 User-agent: wpbot
 Disallow: /
 
+User-agent: Yandex
+Disallow: /
+
 User-agent: YaK
 Disallow: /
 
 User-agent: YisouSpider
-Disallow: /
-
-User-agent: YouBot
 Disallow: /
 
 Sitemap: https://seekingalpha.com/sitemap_news.xml

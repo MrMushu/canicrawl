@@ -1,7 +1,7 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "filesScanned": 614,
- "distinctTokens": 2120,
+ "distinctTokens": 2135,
  "aiCandidates": [
   {
    "token": "img2dataset",
@@ -65,7 +65,7 @@
   },
   {
    "token": "xAI-Grok",
-   "sites": 18,
+   "sites": 20,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -114,22 +114,22 @@
    "aiHint": true
   },
   {
-   "token": "MistralAI-User/1.0",
-   "sites": 8,
-   "sample": [
-    "allrecipes.com",
-    "bild.de",
-    "investopedia.com"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "bigsur.ai",
    "sites": 8,
    "sample": [
     "cnet.com",
     "ign.com",
     "lemonde.fr"
+   ],
+   "aiHint": true
+  },
+  {
+   "token": "MistralAI-User/1.0",
+   "sites": 7,
+   "sample": [
+    "allrecipes.com",
+    "bild.de",
+    "investopedia.com"
    ],
    "aiHint": true
   },
@@ -214,6 +214,16 @@
    "aiHint": true
   },
   {
+   "token": "__usage_ai-training",
+   "sites": 4,
+   "sample": [
+    "imdb.com",
+    "twitter.com",
+    "wikihow.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "Perplexity‑User",
    "sites": 3,
    "sample": [
@@ -224,12 +234,42 @@
    "aiHint": true
   },
   {
+   "token": "BeansLLM-CorpusBot",
+   "sites": 3,
+   "sample": [
+    "cnet.com",
+    "ign.com",
+    "lemonde.fr"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "Claude-Code",
    "sites": 3,
    "sample": [
     "cnet.com",
     "corriere.it",
     "ign.com"
+   ],
+   "aiHint": true
+  },
+  {
+   "token": "grok-agent",
+   "sites": 3,
+   "sample": [
+    "cnet.com",
+    "ign.com",
+    "lemonde.fr"
+   ],
+   "aiHint": true
+  },
+  {
+   "token": "recraft-image-dataset",
+   "sites": 3,
+   "sample": [
+    "cnet.com",
+    "ign.com",
+    "lemonde.fr"
    ],
    "aiHint": true
   },
@@ -254,22 +294,22 @@
    "aiHint": true
   },
   {
-   "token": "__usage_ai-training",
-   "sites": 3,
-   "sample": [
-    "imdb.com",
-    "twitter.com",
-    "x.com"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "ChatGPT Agent",
    "sites": 3,
    "sample": [
     "lefigaro.fr",
     "linktr.ee",
     "usatoday.com"
+   ],
+   "aiHint": true
+  },
+  {
+   "token": "Cloudflare-AI-Search",
+   "sites": 3,
+   "sample": [
+    "lemonde.fr",
+    "pinimg.com",
+    "pinterest.com"
    ],
    "aiHint": true
   },
@@ -297,7 +337,7 @@
   },
   {
    "token": "Yandex",
-   "sites": 67,
+   "sites": 68,
    "sample": [
     "2gis.com",
     "academia.edu",
@@ -477,7 +517,7 @@
   },
   {
    "token": "Brightbot",
-   "sites": 34,
+   "sites": 35,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -596,6 +636,16 @@
    "aiHint": false
   },
   {
+   "token": "CloudflareBrowserRenderingCrawler",
+   "sites": 25,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
    "token": "Devin",
    "sites": 24,
    "sample": [
@@ -627,16 +677,6 @@
   },
   {
    "token": "atlassian-bot",
-   "sites": 24,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": false
-  },
-  {
-   "token": "CloudflareBrowserRenderingCrawler",
    "sites": 24,
    "sample": [
     "amazon.ca",

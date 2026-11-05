@@ -11,6 +11,7 @@ Disallow: /classified/latest/
 Disallow: /dc/accessibilite
 Disallow: /dc/decisions_de_justice
 Disallow: /empfehlungen?keywords=
+Disallow: /entdecke/
 Disallow: /m-abmelden.html
 Disallow: /m-anzeige-loeschen.html
 Disallow: /m-anzeige-loeschen-mail.html
@@ -35,6 +36,7 @@ Disallow: /m-verkaufsschild-erstellen.html
 Disallow: /m-meine-nutzer.html
 Disallow: /m-meine-suchen.html
 Disallow: /m-verifikation.html
+Disallow: /vergleich?
 Disallow: /checkout.html
 Disallow: /loesungscenter.html
 Disallow: /wallet.html

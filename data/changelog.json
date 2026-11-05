@@ -4706,6 +4706,93 @@
    "bot": "CCBot",
    "from": "blocked",
    "to": "restricted"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "apnews.com",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "digitalocean.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "Claude-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "MistralAI-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-05",
+   "domain": "lemonde.fr",
+   "kind": "bot-flip",
+   "bot": "GrokBot",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

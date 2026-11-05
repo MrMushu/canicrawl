@@ -1,4 +1,4 @@
-# Robots.txt for https://www.dailymail.com/ updated 29/10/2026
+# Robots.txt for https://www.dailymail.com/ updated 04/11/2026
 #
 #
 # Daily Mail content is made available for your personal and non-commercial
@@ -117,6 +117,7 @@ User-agent: DeepSeekBot
 User-agent: Diffbot
 User-agent: DuckAssistBot
 User-agent: EchoboxBot
+User-agent: ExaSearchBot
 User-agent: FacebookBot
 User-agent: FriendlyCrawler
 User-agent: Gemini-Deep-Research
@@ -134,6 +135,7 @@ User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
 User-agent: KunatoCrawler
+User-agent: KeenableBot
 User-agent: LinerBot
 User-agent: Meltwater
 User-agent: Meta-ExternalAgent

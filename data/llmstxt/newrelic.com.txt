@@ -165,6 +165,8 @@ New Relic provides comprehensive observability solutions for modern software tea
 
 ## Blog
 
+- [Log Management vs SIEM: Understanding the Key Differences and Use Cases](https://newrelic.com/blog/log/log-management-vs-siem): Discover the differences between log management vs SIEM and learn when each tool is right for your team to improve visibility and security.
+- [DevOps Log Management: A Comprehensive Evaluation Guide](https://newrelic.com/blog/log/devops-log-management): Discover how effective devops log management helps you quickly troubleshoot incidents, reduce noise, and improve operational visibility with the right data.
 - [Datadog Pricing Explained: What Drives the Bill and How to Avoid Surprises](https://newrelic.com/blog/observability/datadog-pricing): Datadog charges separately for hosts, logs, and custom metrics, and the bill can grow fast. See how the pricing model works and what to check before you sign.
 - [Datadog vs. New Relic Pricing: What Actually Drives Your Bill](https://newrelic.com/blog/observability/datadog-vs-new-relic-pricing): Compare how Datadog and New Relic actually price observability — data, hosts, and users — so you can size your real cost before you commit.
 - [The 2026 Observability Forecast: India Edition](https://newrelic.com/blog/observability/the-observability-forecast-2026-india): New Relic partnered with Enterprise Technology Research (ETR) to survey 2,575 IT and engineering leaders and practitioners worldwide. 500 of these are based in India, 20% of the global sample and the second largest single-country cut in the study.
@@ -183,8 +185,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Unified observability for Oracle Cloud Infrastructure (OCI) - GA](https://newrelic.com/blog/infrastructure-monitoring/unified-observability-for-oracle-cloud-infrastructure-oci-ga): Monitor 40+ Oracle Cloud Infrastructure services with automated ORM onboarding, out-of-the-box golden metric dashboards, and real-time anomaly detection.
 - [Unify agent management and telemetry pipelines with New Relic Control](https://newrelic.com/blog/infrastructure-monitoring/new-relic-control-ga): Unify agent lifecycle management and telemetry pipeline optimization at scale with New Relic Control. Automate deployments and reduce cloud spend.
 - [Introducing Claude Platform Tracing in New Relic AI Monitoring](https://newrelic.com/blog/news/anthropic-otel-ai-observability): Claude Platform exports OpenTelemetry (OTel) traces natively from Claude Managed Agents, the Messages API and the Claude SDKs, in public beta.
-- [Eliminate the Database War Room with New Relic Database 360](https://newrelic.com/blog/infrastructure-monitoring/new-relic-database-360-ga): Unify apps, databases, and infrastructure with New Relic Database 360. Pinpoint query bottlenecks faster and eliminate war rooms.
-- [Reduce MTTR: Accelerate Cloud Incident Triage with New Relic Infrastructure 360](https://newrelic.com/blog/infrastructure-monitoring/new-relic-infrastructure-360-pp): Discover how New Relic Infrastructure 360 unifies cloud resource discovery, app-infra topology, and config change differences to eliminate blind spots and reduce MTTR.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

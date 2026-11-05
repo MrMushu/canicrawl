@@ -1291,15 +1291,18 @@
 - [The surprising details behind your MFA enforcement status](https://www.okta.com/blog/identity-security/the-surprising-details-behind-your-mfa-enforcement-status)
 - [From outsider to insider: My nontraditional career journey](https://www.okta.com/blog/company-and-culture/from-outsider-to-insider--my-nontraditional-career-journey)
 - [How Our Core Values Shape Our Identity](https://www.okta.com/blog/company-and-culture/how-our-core-values-shape-our-identity)
+- [Before the AI kill switch: what OWASP, CSA, and NIST require first](https://www.okta.com/blog/ai/ai-agent-kill-switch-guide)
 - [Your security tools aren't talking. Attackers love that.](https://www.okta.com/blog/identity-security/identity-security-fabric-for-the-modern-threat-landscape)
 - [Key insights from Okta's CSO survey: Challenges and opportunities for Okta Ventures portfolio](https://www.okta.com/blog/industry-insights/key-insights-cso-identity-security-survey)
 - [Governing AI agents: Four questions every government agency needs to answer](https://www.okta.com/blog/industry-insights/securing-ai-agents-government)
 - [Okta and AWS: Bringing fine-grained entitlement management to cloud infrastructure](https://www.okta.com/blog/product-innovation/okta-aws-entitlement-management)
 - [How Okta is securing agent identity with Client ID Metadata Documents (CIMD)](https://www.okta.com/blog/product-innovation/okta-cimd-ai-agent-identity)
 - [The efficiency-throughput gap: rethinking engineering output in the age of AI](https://www.okta.com/blog/industry-insights/ai-engineering-productivity-okta-study)
+- [From goals to growth: Inside the new Okta Customer Success Hub](https://www.okta.com/blog/product-innovation/okta-customer-success-hub)
 - [When enrollment isn’t enough: How attackers trick users into MFA downgrades | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/when_enrollment_isnt_enough)
 - [Launch Week ‘25: New Year Edition](https://www.okta.com/blog/product-innovation/launch-week-25-new-year-edition)
 - [Modern identity at work: Productivity meets security](https://www.okta.com/blog/identity-security/modern-identity-at-work-productivity-meets-security)
+- [Credential stuffing attacks poised to accelerate with AI | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/credential_stuffing_attacks_poised_to_accelerate_with_ai)
 - [Okta for US Military: A New milestone in DoD IL4 Identity](https://www.okta.com/blog/customers-and-partners/okta-for-us-military-a-new-milestone-in-dod-il4-identity)
 - [Securing AI agents at runtime with Okta’s Agent Gateway](https://www.okta.com/blog/product-innovation/okta-agent-gateway-runtime-security)
 - [Diagnosing modern healthcare identity attacks](https://www.okta.com/blog/industry-insights/healthcare-identity-attacks-defense-guide)
@@ -1315,6 +1318,8 @@
 - [Build and deploy custom app integrations directly in your Okta org using the Okta Integration Wizard](https://www.okta.com/blog/product-innovation/okta-integration-wizard-custom-apps)
 - [Okta for AI Agents makes agent and MCP server registration easier across platforms](https://www.okta.com/blog/product-innovation/registering-ai-agents-mcp-servers)
 - [Multi-agent attack tools leave no stone unturned | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/multi_agent_attack_tools_leave_no_stone_unturned)
+- [The Okta Identity Maturity Model: An implementation roadmap across five industries](https://www.okta.com/blog/industry-insights/identity-maturity-model-by-industry)
+- [Three high-priority IAM actions you can automate with natural language using the Okta MCP Server](https://www.okta.com/blog/product-innovation/okta-mcp-server-use-cases)
 
 ## Newsroom
 
@@ -1559,6 +1564,8 @@
 - [How SEGA keeps players moving at Sonic speed with Auth0](https://www.okta.com/newsroom/articles/how-sega-keeps-players-moving-at-sonic-speed-with-auth0)
 - [Phishing is a trap. Passkeys aren’t.](https://www.okta.com/newsroom/articles/phishing-is-a-trap-passkeys-arent)
 - [Okta named a Leader in 2026 Gartner® Magic Quadrant™ for Customer Identity and Access Management](https://www.okta.com/newsroom/press-releases/okta-named-a-leader-in-2026-gartner-magic-quadrant)
+- [Securing agentic commerce with Brex CISO Mark Hillick](https://www.okta.com/newsroom/articles/securing-agentic-commerce-with-brex-ciso-mark-hillick)
+- [Closing the AI trust gap: Why 80% of agentic commerce projects are stalled (and how to fix it)](https://www.okta.com/newsroom/articles/customer-identity-trends-report-2026-agentic-ai-consumer-experience)
 - [Okta announces $1 billion share repurchase program](https://www.okta.com/newsroom/press-releases/okta-announces-1-billion-share-repurchase-program)
 - [Phishing resistance in the AI era with Okta Deputy CSO Charlotte Wylie](https://www.okta.com/newsroom/articles/phishing-resistance-in-the-ai-era-with-okta-deputy-cso-charlotte-wylie)
 
