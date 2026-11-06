@@ -4793,6 +4793,142 @@
    "bot": "GrokBot",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "PerplexityBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "anthropic-ai",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "cohere-ai",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "allowed",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-06",
+   "domain": "delta.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "allowed",
+   "to": "restricted"
   }
  ]
 }

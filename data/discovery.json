@@ -1,7 +1,7 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "filesScanned": 614,
- "distinctTokens": 2135,
+ "distinctTokens": 2134,
  "aiCandidates": [
   {
    "token": "img2dataset",
@@ -114,6 +114,16 @@
    "aiHint": true
   },
   {
+   "token": "__usage_ai-training",
+   "sites": 9,
+   "sample": [
+    "facebook.com",
+    "fb.com",
+    "imdb.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "bigsur.ai",
    "sites": 8,
    "sample": [
@@ -210,16 +220,6 @@
     "hostinger.com",
     "spiegel.de",
     "uol.com.br"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "__usage_ai-training",
-   "sites": 4,
-   "sample": [
-    "imdb.com",
-    "twitter.com",
-    "wikihow.com"
    ],
    "aiHint": true
   },
@@ -327,7 +327,7 @@
  "topUntrackedAny": [
   {
    "token": "FacebookBot",
-   "sites": 78,
+   "sites": 77,
    "sample": [
     "allrecipes.com",
     "aol.com",

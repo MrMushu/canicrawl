@@ -92,19 +92,14 @@ Disallow: /community/
 Disallow: /sonstiges/vorproduktion/
 Disallow: /test_stage/
 Disallow: /test/
-Disallow: /energieloesungen/*-form/
-Disallow: /energieloesungen/social/*-form/
-Disallow: /energieloesungen/vergleich/*-form/
-Disallow: /leben-im-alter/*-form/
 Disallow: /cmsid/
 Disallow: /dating/go/
 Disallow: /games/go/
 Disallow: /casinos/go/
 Disallow: /online-apotheke/go/
 Disallow: /energieloesungen/go/
-Disallow: /energieloesungen/social/go/
-Disallow: /energieloesungen/vergleich/go/
 Disallow: /leben-im-alter/go/
+Disallow: /esim/go/
 
 User-agent: *
 Disallow: /jobs/api/gmapi
@@ -112,10 +107,6 @@ Disallow: /community/
 Disallow: /sonstiges/vorproduktion/
 Disallow: /test_stage/
 Disallow: /test/
-Disallow: /energieloesungen/*-form/
-Disallow: /energieloesungen/social/*-form/
-Disallow: /energieloesungen/vergleich/*-form/
-Disallow: /leben-im-alter/*-form/
 Disallow: /cmsid/
 Disallow: /buehne/
 Disallow: /sonstiges/intern/
@@ -126,9 +117,8 @@ Disallow: /games/go/
 Disallow: /casinos/go/
 Disallow: /online-apotheke/go/
 Disallow: /energieloesungen/go/
-Disallow: /energieloesungen/social/go/
-Disallow: /energieloesungen/vergleich/go/
 Disallow: /leben-im-alter/go/
+Disallow: /esim/go/
 
 # Sitemaps
 Sitemap: https://www.bild.de/sitemap-news.xml

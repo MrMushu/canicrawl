@@ -64,3 +64,5 @@ Disallow: /jobs/*?recency=
 Disallow: /jobs/*&recency=
 Disallow: /jobs/*?rd=
 Disallow: /jobs/*&rd=
+Disallow: /jobs/*?et=
+Disallow: /jobs/*&et=

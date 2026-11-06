@@ -50,3 +50,4 @@ Disallow: /*bi_s=*
 Disallow: /logowanie*
 Disallow: /auth/
 Disallow: /uzytkownik/notfound*
+Disallow: /*.php*

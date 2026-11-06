@@ -13,6 +13,28 @@
 
 - [Plans](https://fontawesome.com/plans.md): Current plan tiers, features, and prices.
 
+## Icon packs
+
+Except for Brands, icon names are shared across packs. To switch packs, change the family and style classes and keep the icon name. Packs other than Classic, Duotone, Sharp, and Sharp Duotone cover a smaller set, so check that each icon exists first. If an icon is missing, use the Classic or Sharp style closest in shape and weight.
+
+- [Brands Icon Pack](https://fontawesome.com/icons/packs/brands.md): Free icon pack. Official logos and marks for companies, platforms, and products. Not stylized to match other packs. Good for social links, login buttons, integration lists, partner logos.
+- [Chisel Icon Pack](https://fontawesome.com/icons/packs/chisel.md): Pro+ icon pack. Solid icons built from strokes that swell and taper, with chiseled, angled ends, like letterforms cut with a broad nib. Expressive and uneven in weight. Good for hero sections, standout accents, expressive branding.
+- [Classic Icon Pack](https://fontawesome.com/icons/packs/classic.md): Free and Pro icon pack. The original Font Awesome style. Rounded corners and even strokes, in four weights: Solid (filled), Regular, Light, and Thin (hairline outline). Good for general UI, broad coverage, safe default.
+- [Duotone Icon Pack](https://fontawesome.com/icons/packs/duotone.md): Pro icon pack. Classic shapes split into two layers, a primary and a lighter secondary, so each icon can use two colors or two opacities. Four weights matching Classic. Good for navigation, feature grids, accents.
+- [Etch Icon Pack](https://fontawesome.com/icons/packs/etch.md): Pro+ icon pack. Each icon is a single connected solid shape with interior details cut out as negative space, like a part stamped from sheet metal. Good for hardware, tools, technical brands.
+- [Graphite Icon Pack](https://fontawesome.com/icons/packs/graphite.md): Pro+ icon pack. Thin, loose, slightly imperfect outlines that look drawn in pencil. Hand-drawn feel without heavy stylization. Good for education, journaling, drafts and notes.
+- [Jelly Icon Pack](https://fontawesome.com/icons/packs/jelly.md): Pro+ icon pack. Outlines built from superellipse (squircle) curves, giving shapes a soft, slightly inflated look. Comes as outline, Duo (two layers), and Fill (solid). Good for consumer apps, onboarding, wellness apps.
+- [Mosaic Icon Pack](https://fontawesome.com/icons/packs/mosaic.md): Pro+ icon pack. Solid icons assembled from separate pieces fitted together, with small decorative details and irregularities that make each one feel illustrated rather than systematic. Good for marketing pages, feature callouts, illustrations.
+- [Notdog Icon Pack](https://fontawesome.com/icons/packs/notdog.md): Pro+ icon pack. Heavily rounded, inflated solid shapes with exaggerated proportions. Comes in a single filled style plus Duo for a second color. Good for consumer apps, kids' products, casual brands.
+- [Pixel Icon Pack](https://fontawesome.com/icons/packs/pixel.md): Pro+ icon pack. Icons drawn on a coarse, low-resolution pixel grid with no curves or anti-aliasing, in the style of 8-bit and 16-bit games. Good for games, retro themes, developer tools.
+- [Sharp Icon Pack](https://fontawesome.com/icons/packs/sharp.md): Pro icon pack. Classic shapes with every corner squared off instead of rounded. Four weights matching Classic: Solid, Regular, Light, Thin. Good for enterprise software, fintech, grid-based layouts.
+- [Sharp Duotone Icon Pack](https://fontawesome.com/icons/packs/sharp-duotone.md): Pro icon pack. Sharp shapes split into a primary and a lighter secondary layer for two-color use. Four weights matching Sharp. Good for dashboards, product UI, bold accents.
+- [Slab Icon Pack](https://fontawesome.com/icons/packs/slab.md): Pro+ icon pack. Thick, raised shapes with a visible edge that reads as depth, like a physical button. A flat Press version removes the depth. Both come in Duo. Good for buttons, games, bold dashboards.
+- [Thumbprint Icon Pack](https://fontawesome.com/icons/packs/thumbprint.md): Pro+ icon pack. Light line drawings placed over soft, thumbprint-shaped blob backgrounds, so each icon has a built-in colored shape behind it. Good for kids' products, education, community spaces.
+- [Utility Icon Pack](https://fontawesome.com/icons/packs/utility.md): Pro+ icon pack. Semibold outlines with strict geometric construction and minimal detail, designed to read at small sizes in dense interfaces. Comes with Duo and Fill versions. Good for dashboards, admin tools, dense UI.
+- [Vellum Icon Pack](https://fontawesome.com/icons/packs/vellum.md): Pro+ icon pack. Filled shapes composed of two overlapping tones, with the overlap creating a third value, like layered translucent paper. Good for premium brands, editorial layouts, design tools.
+- [Whiteboard Icon Pack](https://fontawesome.com/icons/packs/whiteboard.md): Pro+ icon pack. Semibold strokes with a slight hand-drawn wobble, imitating a dry-erase marker. Loose but legible. Good for planning, brainstorming, collaboration tools.
+
 ## Documentation
 
 - [Changelog](https://fontawesome.com/changelog.md): What's new in Font Awesome — release notes for icon library and website updates.

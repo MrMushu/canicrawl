@@ -33,6 +33,7 @@ Disallow: /jobs-search
 
 
 User-agent: bingbot
+User-agent: msnbot
 Allow: /
 Disallow: /facebook/
 Disallow: /?search=
@@ -78,7 +79,6 @@ User-agent: LinkedInBot
 User-agent: Snapchat
 User-agent: facebookexternalhit/1.1
 User-agent: TelegramBot
-User-agent: msnbot
 User-agent: Slurp
 User-agent: WhatsApp
 User-agent: ChatGPT-User

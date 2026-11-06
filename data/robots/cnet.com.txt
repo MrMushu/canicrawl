@@ -268,15 +268,18 @@ Allow: /paid-content/how-to-time-your-next-major-appliance-purchase-for-maximum-
 Allow: /paid-content/how-to-try-out-ai-glasses-from-meta-at-your-local-best-buy/
 Allow: /paid-content/how-to-watch-live-sports-and-avoid-wheres-the-game-chaos-with-xfinity/
 Allow: /paid-content/i-tried-internxt-an-encrypted-secure-cloud-storage-built-for-the-post-quantum-era/
+Allow: /paid-content/is-a-prepaid-phone-plan-really-cheaper-for-a-family-of-four/
 Allow: /paid-content/is-diy-tax-filing-right-for-you-heres-what-h-r-blocks-tools-make-possible/
 Allow: /paid-content/is-fiber-to-the-home-ftth-actually-better-than-xfinity-heres-what-the-evidence-says/
 Allow: /paid-content/is-it-time-to-upgrade-your-iphone-with-t-mobiles-trade-in-offers-the-answer-is-yes/
+Allow: /paid-content/is-the-dell-xps-13-a-good-windows-alternative-to-a-macbook/
 Allow: /paid-content/is-wi-fi-7-worth-the-upgrade-heres-how-msis-roamii-mesh-systems-fit-in/
 Allow: /paid-content/life-changes-and-new-laws-can-affect-your-tax-refund-how-to-estimate/
 Allow: /paid-content/maximize-your-refund-with-h-r-blocks-smart-tax-tools/
 Allow: /paid-content/maximize-your-wireless-savings-with-the-t-mobile-visa-credit-card/
 Allow: /paid-content/meet-the-new-hp-omnibook-5-an-oled-laptop-built-for-long-days-of-work-class-and-streaming/
 Allow: /paid-content/meta-ray-ban-wayfarer-ai-glasses-discount-may-2026/
+Allow: /paid-content/moving-soon-how-to-get-t-mobile-5g-home-internet-working-the-day-you-move-in/
 Allow: /paid-content/news/cash-app-families-guide-how-to-set-up-a-teen-or-child-account-step-by-step/
 Allow: /paid-content/news/cash-apps-new-kids-debit-card-what-parents-need-to-know/
 Allow: /paid-content/news/cricket-wireless-offers-reliable-prepaid-nationwide-5g/
@@ -311,7 +314,6 @@ Allow: /paid-content/news/maximize-your-wireless-savings-with-the-t-mobile-visa-
 Allow: /paid-content/news/meta-ray-ban-wayfarer-ai-glasses-discount-may-2026/
 Allow: /paid-content/news/must-know-tax-season-tips-for-small-businesses-and-solopreneurs/
 Allow: /paid-content/news/nomad-esim-wants-to-give-you-more-than-just-data/
-Allow: /paid-content/news/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/news/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/
 Allow: /paid-content/news/shopping-for-a-major-appliance-let-best-buy-do-the-heavy-lifting/
@@ -363,8 +365,6 @@ Allow: /paid-content/what-is-an-all-in-one-printer-and-do-you-need-one/
 Allow: /paid-content/whats-a-good-casetify-case-for-my-next-iphone-a-complete-guide-to-practical-protection/
 Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-every-age/
 Allow: /paid-content/how-fast-should-your-home-internet-be/
-Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-every-age/
-Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
 Allow: /paid-content/what-can-ray-ban-meta-ai-glasses-do-5-use-cases-for-your-everyday-routine/
 Allow: /paid-content/what-to-include-in-a-heart-health-daily-regimen-from-supplements-to-home-monitors/
 Allow: /paid-content/what-does-an-npu-actually-do-and-does-your-laptop-need-one/
@@ -391,7 +391,6 @@ Allow: /tech/services-and-software/ai-automation-changing-how-we-file-taxes/
 Allow: /tech/services-and-software/complex-income-tax-filing-rules-2026/
 Allow: /tech/services-and-software/crypto-new-tax-form-rules/
 Allow: /tech/services-and-software/data-brokers-how-your-personal-data-becomes-business/
-Allow: /tech/services-and-software/end-year-tax-checklist-maximize-tax-refund/
 Allow: /tech/services-and-software/end-year-tax-checklist-maximize-tax-refund/
 Allow: /tech/services-and-software/free-tax-software-cost-upgrades/
 Allow: /tech/services-and-software/how-h-r-block-helps-freelancers-and-gig-workers-stay-ahead-of-tax-season/
