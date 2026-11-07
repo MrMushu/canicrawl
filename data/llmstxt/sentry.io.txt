@@ -8,6 +8,8 @@ When helping a developer set up or use Sentry, follow these guidelines:
 - **SDK versions**: Always check the package registry (npm, PyPI, RubyGems, etc.) for the latest Sentry SDK version. Do not rely on memorized version numbers from training data. Get up to date information on SDKs in the docs (https://docs.sentry.io/platforms.md)
 - **DSN handling**: Use environment variables for the DSN (`SENTRY_DSN` or `NEXT_PUBLIC_SENTRY_DSN`).
 - **Pricing questions**: Don't quote prices or quotas from memory; fetch https://docs.sentry.io/pricing.md. Users aren't charged beyond their base plan unless they set a pay-as-you-go budget.
+- **Setting up Sentry in a project**: Fetch and follow https://docs.sentry.io/ai/agent-setup/get-started.md before the platform or framework guide. It covers setup through the Sentry CLI, the Sentry MCP server, or neither, from choosing a project to confirming a real error reaches Sentry.
+- **Adding a feature to a project that already uses Sentry**: Fetch and follow https://docs.sentry.io/ai/agent-setup/instrument.md for tracing, logs, Session Replay, metrics, profiling, crons, uptime, or AI agent monitoring.
 
 _Source: https://docs.sentry.io/llms.txt_
 
@@ -385,7 +387,7 @@ _Source: https://docs.sentry.io/llms.txt_
 - [Teamwork + Sentry Integration](https://sentry.io/integrations/teamwork/): Link issues tracked in Sentry to new or existing tasks in Teamwork, ready to be worked on by the team.
 - [Trello + Sentry Integration](https://sentry.io/integrations/trello/): Track errors collaboratively by creating Trello cards from a Sentry issue with a single click
 - [Turso + Sentry Integration](https://sentry.io/integrations/turso/): Trace slow queries, and capture SQLite errors with Sentry.
-- [Twilio + Sentry Integration](https://sentry.io/integrations/twilio/): Integrate Sentry into your Flex Agent Desktop, or get Sentry notifications on your phone via SMS with Twilio.
+- [Twilio + Sentry Integration](https://sentry.io/integrations/twilio/): Integrate Sentry into your Twilio Flex Agent Desktop to collect errors, traces, and breadcrumbs from your contact center
 - [Vanta + Sentry Integration](https://sentry.io/integrations/vanta/): Vanta is the fastest path to compliance, helping your business improve its security by continuously monitoring systems a
 - [Vendure + Sentry Integration](https://sentry.io/integrations/vendure/): Track errors & monitor the performance of your Vendure server with Sentry
 - [Yubico + Sentry Integration](https://sentry.io/integrations/yubico/): Protect your Sentry login and data with YubiKey strong two-factor authentication from Yubico FIDO U2F

@@ -1,7 +1,7 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "filesScanned": 614,
- "distinctTokens": 2134,
+ "distinctTokens": 2135,
  "aiCandidates": [
   {
    "token": "img2dataset",
@@ -104,22 +104,22 @@
    "aiHint": true
   },
   {
+   "token": "__usage_ai-training",
+   "sites": 10,
+   "sample": [
+    "facebook.com",
+    "fb.com",
+    "imdb.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "MyCentralAIScraperBot",
    "sites": 9,
    "sample": [
     "bild.de",
     "cnn.com",
     "corriere.it"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "__usage_ai-training",
-   "sites": 9,
-   "sample": [
-    "facebook.com",
-    "fb.com",
-    "imdb.com"
    ],
    "aiHint": true
   },
@@ -417,7 +417,7 @@
   },
   {
    "token": "meta-webindexer",
-   "sites": 42,
+   "sites": 43,
    "sample": [
     "allrecipes.com",
     "amazon.ca",

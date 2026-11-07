@@ -4,7 +4,7 @@
 
 Markdown twin of any page: append `.md` to its path, or send `Accept: text/markdown`.
 
-Agents have asked for these paths and this site does not serve them: `/` (615 request(s)), `/es` (66 request(s)), `/:id` (50 request(s)), `/login-content/:id` (41 request(s)), `/pt` (31 request(s)), `/ru/glossary/cpa-fraud` (27 request(s)), `/ru` (21 request(s)), `/sign-up/fastmail.com.au` (21 request(s)), `/resources/reports/:id` (18 request(s)), `/start/segment` (17 request(s)).
+Agents have asked for these paths and this site does not serve them: `/` (1786 request(s)), `/login-content/:id` (267 request(s)), `/:id` (199 request(s)), `/es` (179 request(s)), `/resources/reports/:id` (106 request(s)), `/ru/glossary/cpa-fraud` (70 request(s)), `/start/segment` (65 request(s)), `/pt` (65 request(s)), `/ja` (63 request(s)), `/ru` (62 request(s)).
 
 ## Ask this website
 
@@ -22,47 +22,45 @@ Use appsflyer.com when you need to:
 
 ## Most requested by AI agents
 
-- [/](https://appsflyer.com/): Unify measurement, deep linking, data collaboration, and AI across mobile, web, CTV, console and beyond. Make smarter decisions, optimize every channel, and prove impact with the platform built for… (1,663 agent request(s))
-- [Deep Linking Software Solutions | AppsFlyer OneLink](https://appsflyer.com/products/deep-linking): Create deep links for web-to-app, QR codes, email, social, and more. Boost ROAS and LTV with seamless user journeys powered by AppsFlyer’s OneLink technology. (1,015 agent request(s))
-- [How Fetch drives QR code engagement](https://appsflyer.com/blog/mobile-marketing/fetch): Discover how Fetch’s Super Bowl ad leveraged a QR code to drive massive app installs and engagement in real-time. (431 agent request(s))
-- [/wp-json/acf/v3/options/options/mega_menus](https://appsflyer.com/wp-json/acf/v3/options/options/mega_menus): 367 agent request(s)
-- [Report Lobby](https://appsflyer.com/resources): 331 agent request(s)
-- [AppsFlyer MCP | Instant Data Insights via AI & LLMs](https://appsflyer.com/products/agentic-ai/mcp): Connect AppsFlyer's marketing data to Claude, ChatGPT & any LLM. Get instant ROAS, retention & campaign insights. No API setup needed. Join the beta today. (278 agent request(s))
-- [AppsFlyer pricing | A plan for every marketing budget](https://appsflyer.com/pricing): Whether your app has millions of users, or a few thousand, we have the right plan for you - start now or try for free, no credit card required. (277 agent request(s))
-- [Product News & Latest Features | AppsFlyer Product Updates](https://appsflyer.com/product-news): Stay ahead with AppsFlyer's latest product releases. Discover new AI automation, measurement innovations, and features that drive marketing performance. (226 agent request(s))
-- [AppsFlyer Services Privacy Policy](https://appsflyer.com/legal/services-privacy-policy): This Services Privacy Policy describes AppsFlyer privacy practices about collecting and receiving information when using our services. (196 agent request(s))
-- [The State of App Monetization - 2026 Edition](https://appsflyer.com/resources/reports/app-marketing-monetization-report): Unlock creative success with AppsFlyer's 2025 report. Get AI-driven insights, benchmarks, and expert tips to boost ad performance. (178 agent request(s))
-- [AppsFlyer Performance Index 2026: Media Rankings](https://appsflyer.com/resources/reports/performance-index): The 2026 AppsFlyer Performance Index ranks 57 media sources across 27.2B installs. Rankings cover iOS, Android, and remarketing by region and genre. (145 agent request(s))
-- [App marketing benchmarks for iOS & Android](https://appsflyer.com/benchmarks): Find out how your mobile app campaigns are performing compared to your competitors with the industry's most comprehensive benchmarking data. (132 agent request(s))
-- [AppsFlyer Blog: Mobile Attribution, Cross-Platform Measurement](https://appsflyer.com/blog): How top marketing teams measure mobile, web, and cross-platform performance — guides, data, and real-world examples from AppsFlyer. (130 agent request(s))
-- [/login-iframe-screen](https://appsflyer.com/login-iframe-screen): 128 agent request(s)
-- [AppsFlyer Privacy Policy](https://appsflyer.com/legal/privacy-policy): We respect your privacy rights; this policy explains how we collect, receive, use, store, share, transfer, and process your personal information. (119 agent request(s))
-- [SKAN 4 data learnings and key insights](https://appsflyer.com/blog/trends-insights/skan-data-learnings): Dive into five key data learnings from SKAN 4, including how many postbacks are needed to maximize data signals, what to measure and when. (110 agent request(s))
-- [Blog de AppsFlyer - donde los marketers de aplicaciones van a aprender](https://appsflyer.com/es/blog): ¡Nuestro blog ofrece una amplia gama de información única e insights sobre el mundo del marketing móvil para que te conviertas en un mejor marketer de aplicaciones! (93 agent request(s))
-- [AppsFlyerブログ - アプリマーケターのためのナレッジハブ](https://appsflyer.com/ja/blog): 本ブログでは、モバイルマーケティングに関する豊富かつ独自の知見をお届けし、より優れたモバイルマーケターへの成長を支援します。 (90 agent request(s))
-- [/sitemap_index.xml](https://appsflyer.com/sitemap_index.xml): 75 agent request(s)
-- [State of gaming marketing in 2026: Trends, AI & growth challenges](https://appsflyer.com/resources/reports/gaming-app-marketing): Discover how AI reshaped gaming marketing in 2025. Explore UA trends, monetization shifts, and creative strategy. (66 agent request(s))
-- [/pt/blog](https://appsflyer.com/pt/blog): 63 agent request(s)
-- [AI and Emotion Spark Creative Wins | AppsFlyer 2025](https://appsflyer.com/company/newsroom/pr/ai-emotion-creative-trends): Discover How AI and Emotion Drive Creative Success in AppsFlyer’s 2025 Creative Report (62 agent request(s))
-- [AI floods mobile gaming marketing, raising costs for marketers](https://appsflyer.com/company/newsroom/pr/gaming-marketing): AI is reshaping mobile gaming marketing with creative scale and higher UA costs. See key 2026 trends. (54 agent request(s))
-- [/ja](https://appsflyer.com/ja): モバイル、Web、CTV、コンソールなど、あらゆる環境にわたって、計測、ディープリンク、データコラボレーション、AIを一元化。次世代のマーケティングのために設計されたプラットフォームで、 より賢い意思決定を行い、すべてのチャネルを最適化し、成果を証明しましょう。 (54 agent request(s))
-- [Reporte Lobby](https://appsflyer.com/es/resources): 52 agent request(s)
-- [What is deep linking? | AppsFlyer mobile glossary](https://appsflyer.com/glossary/deep-linking): Learn all you need to know about deep linking - Why are mobile deep links important for app marketers & how do you set up deep links for your app. (51 agent request(s))
-- [/customers](https://appsflyer.com/customers): 50 agent request(s)
-- [Glossary lobby](https://appsflyer.com/glossary): 50 agent request(s)
-- [Get started free, no credit card required](https://appsflyer.com/sign-up): Interested in AppsFlyer? Get started free and find out how our platform gives you the tools you need to understand your data and make better choices. (49 agent request(s))
-- [Contact us](https://appsflyer.com/company/contact): We're here to help with anything you need - product support, media and blog inquiries, job inquiries, and more. (48 agent request(s))
-- [/es/customers](https://appsflyer.com/es/customers): 48 agent request(s)
-- [앱스플라이어 블로그 - 앱 마케팅](https://appsflyer.com/ko/blog): 앱스플라이어 블로그는 모바일 마케팅에 대한 새로운 정보와 인사이트를 제공합니다. (46 agent request(s))
-- [State of ad fraud 2026: marketer report insights](https://appsflyer.com/resources/reports/state-fraud-marketers): Explore 2026 ad fraud trends, gaps, and insights. Learn where installs go missing and how to protect growth. (44 agent request(s))
-- [AppsFlyer Attribution, Measurement, & Analytics Solutions](https://appsflyer.com/products/measurement): Transform fragmented marketing data into trusted, privacy-first insights. AppsFlyer’s Measurement Suite gives you a clear view of performance across every channel. (43 agent request(s))
-- [Новости продукта и новые функции | Обновления продукта AppsFlyer](https://appsflyer.com/ru/product-news): Будьте на шаг впереди благодаря последним релизам продуктов AppsFlyer. Откройте для себя новые возможности ИИ-автоматизации, инновации в измерении и функции, которые повышают эффективность маркетинга. (43 agent request(s))
-- [Marketing Analytics Platform](https://appsflyer.com/products/measurement/marketing-analytics): Build custom dashboards, unify campaign data, and get AI-powered insights. Make faster, confident decisions with AppsFlyer’s marketing analytics. (43 agent request(s))
-- [/pt](https://appsflyer.com/pt): Unifique mensuração, deep linking, colaboração de dados e IA em todos os seus canais: mobile, web, CTV, console e mais. Com a nossa plataforma moderna, você toma decisões mais inteligentes, otimiza… (43 agent request(s))
-- [This is AppsFlyer - Learn about our company](https://appsflyer.com/company/about): We help brands attribute, understand, and engage users through a unified marketing platform built on the industry’s most trusted attribution data. (42 agent request(s))
-- [PC & Console Attribution Platform](https://appsflyer.com/products/measurement/pc-console-attribution): Measure game installs and in-game events across PC, console, mobile, and web. Prove ROI for Steam, Epic, PlayStation, Xbox with unified attribution. (42 agent request(s))
-- [Современное маркетинговое облако](https://appsflyer.com/ru): Объединяйте измерения, диплинкинг, совместную работу с данными и ИИ на мобильных устройствах, в вебе, CTV, консолях и за их пределами. Принимайте более взвешенные решения, оптимизируйте каждый канал… (42 agent request(s))
-- [/es](https://appsflyer.com/es): Unifica la medición, deep linking, colaboración de datos e IA móvil, web, CTV, consolas y mucho más con la plataforma diseñada para el marketing moderno. (41 agent request(s))
+- [/](https://appsflyer.com/): Unify measurement, deep linking, data collaboration, and AI across mobile, web, CTV, console and beyond. Make smarter decisions, optimize every channel, and prove impact with the platform built for… (7,745 agent request(s))
+- [AppsFlyer Privacy Policy](https://appsflyer.com/legal/privacy-policy): We respect your privacy rights; this policy explains how we collect, receive, use, store, share, transfer, and process your personal information. (2,479 agent request(s))
+- [How Fetch drives QR code engagement](https://appsflyer.com/blog/mobile-marketing/fetch): Discover how Fetch’s Super Bowl ad leveraged a QR code to drive massive app installs and engagement in real-time. (2,271 agent request(s))
+- [Deep Linking Software Solutions | AppsFlyer OneLink](https://appsflyer.com/products/deep-linking): Create deep links for web-to-app, QR codes, email, social, and more. Boost ROAS and LTV with seamless user journeys powered by AppsFlyer’s OneLink technology. (1,677 agent request(s))
+- [AppsFlyer pricing | A plan for every marketing budget](https://appsflyer.com/pricing): Whether your app has millions of users, or a few thousand, we have the right plan for you - start now or try for free, no credit card required. (455 agent request(s))
+- [/wp-json/acf/v3/options/options/mega_menus](https://appsflyer.com/wp-json/acf/v3/options/options/mega_menus): 1,412 agent request(s)
+- [/resources](https://appsflyer.com/resources): 1,384 agent request(s)
+- [AppsFlyer Services Privacy Policy](https://appsflyer.com/legal/services-privacy-policy): This Services Privacy Policy describes AppsFlyer privacy practices about collecting and receiving information when using our services. (1,221 agent request(s))
+- [Product News & Latest Features | AppsFlyer Product Updates](https://appsflyer.com/product-news): Stay ahead with AppsFlyer's latest product releases. Discover new AI automation, measurement innovations, and features that drive marketing performance. (1,210 agent request(s))
+- [AppsFlyer MCP | Instant Data Insights via AI & LLMs](https://appsflyer.com/products/agentic-ai/mcp): Connect AppsFlyer's marketing data to Claude, ChatGPT & any LLM. Get instant ROAS, retention & campaign insights. No API setup needed. Join the beta today. (843 agent request(s))
+- [AppsFlyer Blog: Mobile Attribution, Cross-Platform Measurement](https://appsflyer.com/blog): How top marketing teams measure mobile, web, and cross-platform performance — guides, data, and real-world examples from AppsFlyer. (794 agent request(s))
+- [The State of App Monetization - 2026 Edition](https://appsflyer.com/resources/reports/app-marketing-monetization-report): Unlock creative success with AppsFlyer's 2025 report. Get AI-driven insights, benchmarks, and expert tips to boost ad performance. (724 agent request(s))
+- [AppsFlyer Performance Index 2026: Media Rankings](https://appsflyer.com/resources/reports/performance-index): The 2026 AppsFlyer Performance Index ranks 57 media sources across 27.2B installs. Rankings cover iOS, Android, and remarketing by region and genre. (630 agent request(s))
+- [SKAN 4 data learnings and key insights](https://appsflyer.com/blog/trends-insights/skan-data-learnings): Dive into five key data learnings from SKAN 4, including how many postbacks are needed to maximize data signals, what to measure and when. (516 agent request(s))
+- [AppsFlyerブログ - アプリマーケターのためのナレッジハブ](https://appsflyer.com/ja/blog): 本ブログでは、モバイルマーケティングに関する豊富かつ独自の知見をお届けし、より優れたモバイルマーケターへの成長を支援します。 (509 agent request(s))
+- [/login-iframe-screen](https://appsflyer.com/login-iframe-screen): 489 agent request(s)
+- [Blog de AppsFlyer - donde los marketers de aplicaciones van a aprender](https://appsflyer.com/es/blog): ¡Nuestro blog ofrece una amplia gama de información única e insights sobre el mundo del marketing móvil para que te conviertas en un mejor marketer de aplicaciones! (459 agent request(s))
+- [/sitemap_index.xml](https://appsflyer.com/sitemap_index.xml): 386 agent request(s)
+- [App marketing benchmarks for iOS & Android](https://appsflyer.com/benchmarks): Find out how your mobile app campaigns are performing compared to your competitors with the industry's most comprehensive benchmarking data. (360 agent request(s))
+- [Современное маркетинговое облако](https://appsflyer.com/ru): Объединяйте измерения, диплинкинг, совместную работу с данными и ИИ на мобильных устройствах, в вебе, CTV, консолях и за их пределами. Принимайте более взвешенные решения, оптимизируйте каждый канал… (356 agent request(s))
+- [/pt/blog](https://appsflyer.com/pt/blog): 350 agent request(s)
+- [/ja](https://appsflyer.com/ja): モバイル、Web、CTV、コンソールなど、あらゆる環境にわたって、計測、ディープリンク、データコラボレーション、AIを一元化。次世代のマーケティングのために設計されたプラットフォームで、 より賢い意思決定を行い、すべてのチャネルを最適化し、成果を証明しましょう。 (323 agent request(s))
+- [앱스플라이어 블로그 - 앱 마케팅](https://appsflyer.com/ko/blog): 앱스플라이어 블로그는 모바일 마케팅에 대한 새로운 정보와 인사이트를 제공합니다. (308 agent request(s))
+- [앱스플라이어 | 모던 마케팅 클라우드](https://appsflyer.com/ko): 모바일, 웹, CTV, 콘솔 등을 아우르는 측정,딥링킹, 데이터 협업, AI를 통합할 수 있습니다. 현대 마케팅을 위한 플랫폼 스마트한 결정을 내리고, 모든 채널 최적화하고 영향을 입증하세요. (307 agent request(s))
+- [Reporte Lobby](https://appsflyer.com/es/resources): 267 agent request(s)
+- [State of gaming marketing in 2026: Trends, AI & growth challenges](https://appsflyer.com/resources/reports/gaming-app-marketing): Discover how AI reshaped gaming marketing in 2025. Explore UA trends, monetization shifts, and creative strategy. (267 agent request(s))
+- [AI and Emotion Spark Creative Wins | AppsFlyer 2025](https://appsflyer.com/company/newsroom/pr/ai-emotion-creative-trends): Discover How AI and Emotion Drive Creative Success in AppsFlyer’s 2025 Creative Report (266 agent request(s))
+- [/resources/reports/app-retention-benchmarks](https://appsflyer.com/resources/reports/app-retention-benchmarks): 262 agent request(s)
+- [/es/customers](https://appsflyer.com/es/customers): 261 agent request(s)
+- [/customers](https://appsflyer.com/customers): 254 agent request(s)
+- [Newsroom 2026](https://appsflyer.com/company/newsroom): 250 agent request(s)
+- [AI floods mobile gaming marketing, raising costs for marketers](https://appsflyer.com/company/newsroom/pr/gaming-marketing): AI is reshaping mobile gaming marketing with creative scale and higher UA costs. See key 2026 trends. (243 agent request(s))
+- [CEO blog spot Archives](https://appsflyer.com/blog/ceo): Oren Kaniel, AppsFlyer Co-Founder & CEO offers his unique insights and opinions on AppsFlyer and the mobile ecosystem. Read up as he tackles everything from the future of measurement to the… (239 agent request(s))
+- [Measurement & analytics Archives](https://appsflyer.com/blog/measurement-analytics): Explore our collection of original content on measurement and analytics covering industry trends, expert insights, and practical tips (221 agent request(s))
+- [AppsFlyer Attribution, Measurement, & Analytics Solutions](https://appsflyer.com/products/measurement): Transform fragmented marketing data into trusted, privacy-first insights. AppsFlyer’s Measurement Suite gives you a clear view of performance across every channel. (217 agent request(s))
+- [This is AppsFlyer - Learn about our company](https://appsflyer.com/company/about): We help brands attribute, understand, and engage users through a unified marketing platform built on the industry’s most trusted attribution data. (214 agent request(s))
+- [Исследования и отчёты](https://appsflyer.com/ru/resources): 212 agent request(s)
+- [Glossary lobby](https://appsflyer.com/glossary): 205 agent request(s)
+- [Блог AppsFlyer – здесь учатся мобильные маркетологи](https://appsflyer.com/ru/blog): В нашем блоге вы найдёте большое количество уникальной информации о мире мобильного маркетинга и повысить свою квалификацию мобильного маркетолога! (204 agent request(s))
 
 ## Other pages
 
@@ -93,9 +91,9 @@ Use appsflyer.com when you need to:
 - [プライバシーを重視した計測の未来｜AppsFlyer](https://appsflyer.com/ja/blog/ceo/aggregated-advanced-privacy): プライバシーとセキュリティは、AppsFlyerの中核をなす柱の一つ。Aggregated Advanced Privacyのフレームワークは、これに追加されます。
 - [AppsFlyerのカルチャーに「All-In」がもたらすもの｜AppsFlyer](https://appsflyer.com/ja/blog/ceo/all-in-shaped-our-story): AppsFlyerにおけるAll-Inの意味と、それがどのように企業文化の中核となったかをご紹介します。
 - [モバイル詐欺の「囚人のジレンマ」を解決する方法](https://appsflyer.com/ja/blog/ceo/fighting-mobile-fraud): モバイル詐欺が蔓延し、その解決策が議論されているにもかかわらず、誰も反撃するインセンティブがない。この状況が変わろうとしています。
-- [中立性、独立性、そしてエコシステムの未来について](https://appsflyer.com/ja/blog/ceo/unbiased-independent-ecosystem-future): 非常に厳しい1年を経て、CEOのOren Kanielは、私たちのミッションを再確認し、コミットメントを再強化しています。
-- [アトリビューション計測会社の中立性と独立性](https://appsflyer.com/ja/blog/ceo/uncovering-unbiased-attribution): アトリビューションビジネスについて、公平で独立した存在であることの意味を理解するための5つのポイントがあります。
-- [プレディクティブ・マーケティングが重要な理由｜AppsFlyer](https://appsflyer.com/ja/blog/trends-insights/predictive-marketing-explained): UA担当者の多くは、予測分析のメリットを知りながら、実際にマーケティングの意思決定に活かせている人たちのはごく少数に限られている。
+- [/ja/blog/ceo/unbiased-independent-ecosystem-future](https://appsflyer.com/ja/blog/ceo/unbiased-independent-ecosystem-future)
+- [/ja/blog/ceo/uncovering-unbiased-attribution](https://appsflyer.com/ja/blog/ceo/uncovering-unbiased-attribution)
+- [/ja/blog/trends-insights/predictive-marketing-explained](https://appsflyer.com/ja/blog/trends-insights/predictive-marketing-explained)
 - [計測 & 分析 Archives](https://appsflyer.com/ja/blog/measurement-analytics/zeroed-idfa-ios-14): 業界動向、専門家のインサイト、実践的なヒントを網羅した、測定と分析に関するオリジナルコンテンツ集をご覧ください。
 - [スマートバナー：webとアプリをスマートにつなぐ｜AppsFlyer](https://appsflyer.com/ja/blog/mobile-marketing/smart-banners-customer-journey): スマートバナーとは何か。マーケターと消費者にどのようなメリットをもたらすのか。ここでは、そのすべてをご紹介します。
 - [ニューノーマルでのモバイルマーケティング](https://appsflyer.com/ja/blog/uncategorized/mobile-marketing-new-normal): 不安定な時期にこそ、矛盾のないメッセージングやユーザー体験を成功させるためにモバイルマーケターがべき5つのことを紹介します。
@@ -109,7 +107,6 @@ Use appsflyer.com when you need to:
 - [앱스플라이어 프라이버시 클라우드를 공개합니다](https://appsflyer.com/ko/blog/ceo/introducing-appsflyer-privacy-cloud): 더 나은, 더 안전한 디지털 생태계를 위한 앱스플라이어의 미래 비전, 앱스플라이어 프라이버시 클라우드에 대해 알아보세요.
 - [모바일 시대, 측정 기술 혁신](https://appsflyer.com/ko/blog/ceo/appsflyer-series-c-funding): 5천6백만 달러 규모 시리즈 C 펀딩, 여러분의 신뢰 덕분입니다. 앱스플라이어는 측정 기술을 더욱 발전시켜 가겠습니다.
 - [앱 사용자에게 어트리뷰션이란](https://appsflyer.com/ko/blog/ceo/attribution-app-consumers-ios-14): 소비자는 어트리뷰션으로부터 어떤 혜택을 받을까요? 어트리뷰션이 소비자에게 좋은 점을 크게 4가지로 나누어 살펴봅니다.
-- [Органический прирост в маркетинге: мифы и факты](https://appsflyer.com/ru/blog/measurement-analytics/organic-uplift-multiplier-app-marketing): Какое влияние оказывают кампании по привлечению пользователей на органические установки? Узнайте, что говорят об этом ведущие маркетологи приложений.
 
 ## Machine-readable resources
 

@@ -18,6 +18,7 @@
 - [Shopify AI Toolkit](https://shopify.dev/docs/apps/build/ai-toolkit.md): Shopify’s AI toolkit gives your AI coding assistant (like Claude Code, or Codex) the ability to create, customize, and manage Shopify stores and apps, working from our official docs, schemas, and tools.
 - [Build with AI tools](https://www.shopify.com/build-with-ai): Turn an idea into a store you can claim by having a conversation with ChatGPT, Claude, Lovable, Replit, Vercel (v0), Perplexity, Manus and more.
 - [Universal Commerce Protocol (UCP)](https://www.shopify.com/ucp): The open standard for connecting AI agents to commerce. Agents discover products, build carts, check out, and track orders across any UCP merchant, with Shop Pay built in.
+- [Shopify Catalog](https://www.shopify.com/catalog/agents.md): Search billions of products from millions of merchants in one API to power any shopping app or agent. The file gives coding agents the MCP endpoint, the search, product and lookup calls, and their Shop CLI commands.
 
 ## Sell Online
 

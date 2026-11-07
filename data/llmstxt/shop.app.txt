@@ -14,6 +14,7 @@
 Public pages follow these patterns:
 
 - `/products/{id}/{handle}` - a single product, with pricing, variants, and reviews. For example, https://shop.com/products/7934502174785/seiko-essentials-ssb429-chronograph-watch
+- `/categories/{id}/{handle}` - a Shop taxonomy category page
 - `/m/{store}` - a brand's storefront on Shop, with its own products and reviews
 - `/m/{store}/collections/{id}/{handle}` - a collection within a storefront
 
@@ -26,6 +27,7 @@ Use the sitemaps below to enumerate real values for `{id}`, `{handle}`, and `{st
 Sitemaps list public pages:
 
 - https://shop.com/sitemap.xml
+- https://shop.com/sitemap_categories.xml
 - https://shop.com/cdn/shopifycloud/shop-web/sitemaps/shop-com/products/sitemap_products.xml
 - https://shop.com/cdn/shopifycloud/shop-web/sitemaps/shop-com/collections/sitemap_collections.xml
 - https://shop.com/cdn/shopifycloud/shop-web/sitemaps/shop-com/storefronts/sitemap_storefronts.xml

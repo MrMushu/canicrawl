@@ -14,18 +14,6 @@ Disallow: /flight-status*
 # Allow Individual Pages
 Allow: /etc/designs/global/clientlib-overview.css
 
-# Allow Individual .jsp Pages
-Allow: /index.jsp
-Allow: /components/popups/skymark/terms.jsp
-Allow: /deltareservemqm/mbrLanding.action
-Allow: /app_links/join_skymiles/index.jsp
-Allow: /awards/skymark/landing/index.jsp
-Allow: /privacy_security/index.jsp
-Allow: /worldwide_sites/index.jsp
-Allow: /cns/travel/flight_notification/index.jsp
-Allow: /components/help/apps/booking/fare_class.jsp
-Allow: /mqm-calculator/help/class.jsp
-
 # Allow Subfolders with .jsp pages
 Allow: /about_delta/
 Allow: /business_programs_services/

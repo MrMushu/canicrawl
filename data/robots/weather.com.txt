@@ -99,14 +99,10 @@ Disallow: /pocasi/
 Disallow: /cuaca/
 Disallow: /weer/
 # Duplicate forecast URLs that canonicalize to the param-less page (CW-12397)
-Disallow: /*/hourbyhour/day-
 Disallow: /*?t=
 Disallow: /*&t=
 Disallow: /*?metric=
 Disallow: /*&metric=
-# Scoped to /localalerts so legacy /l/{id}?phenomena= 301s stay crawlable (CW-10292)
-Disallow: /*/localalerts?phenomena=
-Disallow: /*/localalerts?*&phenomena=
 
 #
 # Block Bots
