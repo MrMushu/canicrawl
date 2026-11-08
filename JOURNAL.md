@@ -1303,3 +1303,5 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Queue:** CC-37 ticked. Appended **CC-38** (digest #12, window 11-09 onward, due ~11-15, with a watch list) and **SS-26** (live confirmation that the five 11-04 departures kept their pages, appear on /graveyard/ and in the sitemap: 271 → 276 locs expected). Both are small and unblocked.
 
 **Next:** SS-26 is tomorrow's ring (no code change expected unless a check fails). CC-38 from 11-15. Live check of /digest/11/ after the push is recorded below if it lands within the session.
+
+**Live check (addendum, same session):** about 20 s after the push, https://canicrawl.com/digest/11/ returned HTTP 200 with the issue title present, the live /digest/rss.xml carries the digest/11/ item, and /digest/ returns 200. CC-37 is verified live.
