@@ -4929,6 +4929,22 @@
    "bot": "Meta-ExternalFetcher",
    "from": "allowed",
    "to": "restricted"
+  },
+  {
+   "date": "2026-11-08",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-08",
+   "domain": "seekingalpha.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }
