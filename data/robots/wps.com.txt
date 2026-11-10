@@ -19,7 +19,6 @@ Disallow: /*lang=
 Disallow: /usr/
 Disallow: /view/
 Disallow: /account/
-Disallow: /academy/tips/
 Disallow: /AMC/
 Disallow: /p/
 Disallow: /kpaycenter/

@@ -11,8 +11,7 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Cloud Cost Intelligence](https://newrelic.com/platform/cloud-cost-intelligence): Connect cloud and AI spend to service performance through real-time visibility, intelligent recommendations, and AI-powered actions. 
 - [Business observability that connects technology to outcomes](https://newrelic.com/platform/pathpoint): Connect technical performance to real business outcomes so teams can prioritize what matters most to customers, revenue, and growth.
 - [Value Calculator](https://newrelic.com/platform/value-calculator): Value Calculator
-- [Federated Logs](https://newrelic.com/platform/federated-logs): Process and Query logs at their source and get insights side-by-side with active telemetry, eliminating the struggle between compliance and visibility. 
-
+- [Federated Logs](https://newrelic.com/platform/federated-logs): Federated Logs for data residency: keep log data in your own cloud region and query it there, alongside APM and infrastructure telemetry. 
 - [New Relic Monitoring for SAP® Solutions](https://newrelic.com/solutions/sap): New Relic Monitoring for SAP Solutions gives you a centralized view of SAP and non-SAP systems for infrastructure, application and business processes.
 - [OpenTelemetry | Visualize and Analyze Data | New Relic](https://newrelic.com/solutions/opentelemetry): Visualize and analyze all your OpenTelemetry data with New Relic. We make it easy to ingest and explore all your telemetry data at pennies per gigabyte.
 - [New Relic Workflow Automation](https://newrelic.com/platform/workflow-automation): Automate incident response and operational tasks with New Relic Workflow Automation. Turn observability data into intelligent, automated actions.
@@ -23,7 +22,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [New Relic eBPF](https://newrelic.com/platform/ebpf): Deploy and monitor everything easily — applications, Kubernetes, infrastructure, and networks — using New Relic eBPF's no-code instrumentation.
 - [Browser Monitoring](https://newrelic.com/platform/browser-monitoring): Unlock a better user experience with browser monitoring from New Relic.  Part of our fully-integrated, AI-driven DEM solution
 - [Mobile Monitoring](https://newrelic.com/platform/mobile-monitoring): Fix crashes and optimize UX across iOS, Android, and React Native with New Relic real-time mobile monitoring. 
-- [Performance Risks and Errors Inbox](https://newrelic.com/platform/errors-inbox): Meet Performance Risks and Errors Inbox, now part of New Relic full-stack observability.
 - [Session Replay](https://newrelic.com/platform/session-replay): Optimize UX with New Relic Session Replay. Watch every tap synced with telemetry to resolve issues faster, boost engagement, and eliminate guesswork.
 - [Streaming Video Intelligence](https://newrelic.com/platform/streaming-video-intelligence): Monitor and optimize video and ad streaming performance with intelligent insights into quality of experience metrics.
 - [Synthetic Monitoring | Test and Improve Your Code](https://newrelic.com/platform/synthetics): Enhance user experience with synthetics. Simulate user journeys, troubleshoot faster, and collaborate with this powerful monitoring tool. Start for free!
@@ -165,6 +163,7 @@ New Relic provides comprehensive observability solutions for modern software tea
 
 ## Blog
 
+- [Scaling OpenTelemetry & Autonomous Kubernetes Ops at KubeCon NA 2026](https://newrelic.com/blog/observability/kubecon-na-2026-opentelemetry-autonomous-operations): Explore New Relic’s OpenTelemetry, autonomous operations, and Kubernetes observability at KubeCon NA 2026.
 - [Log Management vs SIEM: Understanding the Key Differences and Use Cases](https://newrelic.com/blog/log/log-management-vs-siem): Discover the differences between log management vs SIEM and learn when each tool is right for your team to improve visibility and security.
 - [DevOps Log Management: A Comprehensive Evaluation Guide](https://newrelic.com/blog/log/devops-log-management): Discover how effective devops log management helps you quickly troubleshoot incidents, reduce noise, and improve operational visibility with the right data.
 - [Monitor VMware vSphere Kubernetes Service (VKS) Clusters with New Relic](https://newrelic.com/blog/infrastructure-monitoring/vmware-vsphere-kubernetes-service-monitoring): New Relic is validated on VMware vSphere Kubernetes Service (VKS). See how platform teams on VCF monitor clusters, pods, and apps in one place.
@@ -184,7 +183,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Datadog vs. Grafana: Comparing Two Paths to Observability (2026)](https://newrelic.com/blog/observability/datadog-vs-grafana): Datadog vs. Grafana compared on cost predictability, operational overhead, and observability scope, and where a unified platform changes the calculus.
 - [Datadog vs. Splunk: Which Fits Your Observability Stack in 2026?](https://newrelic.com/blog/observability/datadog-vs-splunk): See how Datadog and Splunk compare on monitoring, log analytics, and cost — and why more teams are consolidating onto one platform instead of two.
 - [Unified observability for Oracle Cloud Infrastructure (OCI) - GA](https://newrelic.com/blog/infrastructure-monitoring/unified-observability-for-oracle-cloud-infrastructure-oci-ga): Monitor 40+ Oracle Cloud Infrastructure services with automated ORM onboarding, out-of-the-box golden metric dashboards, and real-time anomaly detection.
-- [Unify agent management and telemetry pipelines with New Relic Control](https://newrelic.com/blog/infrastructure-monitoring/new-relic-control-ga): Unify agent lifecycle management and telemetry pipeline optimization at scale with New Relic Control. Automate deployments and reduce cloud spend.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

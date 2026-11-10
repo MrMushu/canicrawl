@@ -82,6 +82,7 @@ Disallow: /watch/shik--/*
 Disallow: /watch/zolotoe-dno-2026/*
 Disallow: /watch/okolotochnyij-1/*
 Disallow: /watch/ogon-rannij-dostup/*
+Disallow: /watch/vsyo-v-tvoih-rukah-rannij-dostup/*
 
 
 Clean-param: sort
@@ -203,5 +204,6 @@ Disallow: /en/watch/okolotochnyij-1*
 Disallow: /kk/watch/okolotochnyij-1*
 Disallow: /uz/watch/okolotochnyij-1*
 Disallow: /watch/ogon-rannij-dostup/*
+Disallow: /watch/vsyo-v-tvoih-rukah-rannij-dostup/*
 User-agent: Twitterbot
 Disallow:

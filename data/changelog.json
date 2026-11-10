@@ -4945,6 +4945,38 @@
    "bot": "Applebot-Extended",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-11-10",
+   "domain": "lefigaro.fr",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-10",
+   "domain": "lefigaro.fr",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-10",
+   "domain": "lefigaro.fr",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-10",
+   "domain": "corriere.it",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "blocked",
+   "to": "allowed"
   }
  ]
 }

@@ -7,6 +7,9 @@ Disallow: /
 User-agent: meta-externalads
 Disallow: /
 
+User-agent: meta-webindexer
+Disallow: /
+
 User-agent: *
 Disallow: /
 Allow: /$

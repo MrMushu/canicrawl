@@ -122,6 +122,8 @@ Disallow: /*/l*r15
 Disallow: /*.json
 Disallow: /*@lt
 Disallow: /*simcid=*
+Disallow: /*?cid=*
+Disallow: /*&cid=*
 Disallow: /api
 Disallow: /belen-gateway/*
 Disallow: /*autos.anzahl_tueren_s*

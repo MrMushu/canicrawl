@@ -19,7 +19,7 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 User-agent: Amazonbot
-Disallow: /
+Allow: /
 User-agent: Amzn-SearchBot
 Allow: /
 User-agent: Meta-ExternalAgent
@@ -128,8 +128,6 @@ User-agent: yacy
 Disallow: /
 User-agent: yacybot
 Disallow: /
-User-agent: Amazon Kendra
-Disallow: /
 User-agent: NovaAct
 Disallow: /
 User-agent: Firecrawl
@@ -214,6 +212,8 @@ User-agent: xAI-Grok
 Disallow: /
 User-agent: GrokBot
 Disallow: /
+User-agent: amazon-kendra # Amazon Kendra Web Crawler
+Disallow: / # disallow access to any pages
 # Fine Bot Exclusion Protocol
 
 User-agent: *

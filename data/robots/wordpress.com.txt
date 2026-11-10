@@ -49,4 +49,4 @@ Disallow: /mshots/v1/
 Disallow: /next/
 Disallow: /public.api/
 
-# This file was generated on Sat, 07 Nov 2026 20:50:55 +0000
+# This file was generated on Tue, 10 Nov 2026 09:37:16 +0000

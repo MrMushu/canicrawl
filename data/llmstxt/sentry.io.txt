@@ -86,9 +86,8 @@ _Source: https://docs.sentry.io/llms.txt_
 - [Session Replay: See What Users See, Fix What Broke](https://sentry.io/product/session-replay/): Watch video-like replays of real user sessions tied to stack traces, errors, and network calls. Spot rage clicks, UI jan
 - [Continuous Profiling for Backend and Mobile Application Performance Issues](https://sentry.io/product/profiling/): See code-level insights from your backend & mobile app performance, including what's causing a slowdown with Profiling. 
 - [Application Metrics — Trace-Connected and High-Cardinality](https://sentry.io/product/metrics/): Sentry's application metrics are trace-connected and high-cardinality. Tag any measurement with customer_id, route, or r
-- [Seer: Debug faster at every stage of development](https://sentry.io/product/seer/): Seer is the AI debugger that uses Sentry context to flag breaking changes, automatically root cause issues in production
+- [Seer: Debug faster at every stage of development](https://sentry.io/product/seer/): Seer is the AI debugger that uses Sentry context to find root causes, investigate production issues, and generate fixes.
 - [Seer Agent](https://sentry.io/product/seer/agent/): No context-gathering, no copy-pasting stack traces. Just ask Seer Agent what's wrong and get an answer from your actual 
-- [AI Code Review Tool - Analyze PRs Before Shipping](https://sentry.io/product/seer/ai-code-review/): Ship code that breaks less with Sentry AI code review. It finds and fixes coding errors in your GitHub PRs, and generate
 - [Seer Autofix](https://sentry.io/product/seer/autofix/): Seer Autofix reads the stack trace, traces the root cause through your codebase, and drafts a fix — before you've finish
 - [Uptime monitoring for developers](https://sentry.io/product/uptime-monitoring/): Know when your site goes down before your users do. Sentry monitors your URLs every minute and links outages to traces s
 - [Cron Monitoring](https://sentry.io/product/cron-monitoring/): Know why your scheduled jobs fail & where to fix the problem in your code with Cron error monitoring. Get started here f

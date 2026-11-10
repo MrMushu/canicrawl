@@ -1,5 +1,5 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-10",
  "filesScanned": 614,
  "distinctTokens": 2135,
  "aiCandidates": [
@@ -294,16 +294,6 @@
    "aiHint": true
   },
   {
-   "token": "ChatGPT Agent",
-   "sites": 3,
-   "sample": [
-    "lefigaro.fr",
-    "linktr.ee",
-    "usatoday.com"
-   ],
-   "aiHint": true
-  },
-  {
    "token": "Cloudflare-AI-Search",
    "sites": 3,
    "sample": [
@@ -406,6 +396,16 @@
    "aiHint": false
   },
   {
+   "token": "meta-webindexer",
+   "sites": 45,
+   "sample": [
+    "allrecipes.com",
+    "amazon.ca",
+    "amazon.co.jp"
+   ],
+   "aiHint": false
+  },
+  {
    "token": "img2dataset",
    "sites": 44,
    "sample": [
@@ -414,16 +414,6 @@
     "amazon.co.uk"
    ],
    "aiHint": true
-  },
-  {
-   "token": "meta-webindexer",
-   "sites": 42,
-   "sample": [
-    "allrecipes.com",
-    "amazon.ca",
-    "amazon.co.jp"
-   ],
-   "aiHint": false
   },
   {
    "token": "Ai2Bot-Dolma",

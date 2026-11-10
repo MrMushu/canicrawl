@@ -1,0 +1,57 @@
+# Seeking Alpha
+
+> Seeking Alpha is an investment research platform with market news, analysis articles written by contributors and staff, earnings call transcripts, and stock, ETF and dividend data with Quant ratings. Many analysis articles, ratings and grades are available only to subscribers.
+
+Stock and ETF pages use the pattern https://seekingalpha.com/symbol/{TICKER}, for example https://seekingalpha.com/symbol/AAPL. Tabs under that URL include /analysis, /news, /earnings, /dividends/scorecard, /ratings/quant-ratings and /income-statement. Not every tab exists for every symbol: ETFs have no /income-statement, and /dividends/scorecard needs dividend data.
+
+Article pages use /article/{id}, news items /news/{id}, press releases /pr/{id} and SEC filings /filing/{id}.
+
+## News and analysis
+
+- [Market News](https://seekingalpha.com/market-news): Latest market news, filterable by topic
+- [Wall Street Breakfast](https://seekingalpha.com/market-news/wall-street-breakfast): Daily morning market briefing
+- [Latest Articles](https://seekingalpha.com/latest-articles): Newest analysis articles
+- [Stock Ideas](https://seekingalpha.com/stock-ideas): Analysis articles grouped by investing style
+- [Dividends](https://seekingalpha.com/dividends): Dividend analysis and news
+- [Market Outlook](https://seekingalpha.com/market-outlook): Macro and market outlook articles
+- [Investing Strategy](https://seekingalpha.com/investing-strategy): Portfolio strategy articles
+- [ETFs and Funds](https://seekingalpha.com/etfs-and-funds): ETF and fund analysis and performance tables
+- [Sectors](https://seekingalpha.com/sectors): Overview of the 11 GICS sectors
+
+## Earnings
+
+- [Earnings Calendar](https://seekingalpha.com/earnings/earnings-calendar): Upcoming and past earnings dates with EPS estimates
+- [Earnings Call Transcripts](https://seekingalpha.com/earnings/earnings-call-transcripts): Feed of earnings call transcripts
+- [Earnings News](https://seekingalpha.com/market-news/earnings): Earnings results news
+
+## Stock data
+
+- [Apple (AAPL) stock page](https://seekingalpha.com/symbol/AAPL): Example of a stock page
+- [SPDR S&P 500 ETF (SPY) page](https://seekingalpha.com/symbol/SPY): Example of an ETF page
+- [Stock Screeners](https://seekingalpha.com/screeners): Preset stock screens
+- [Quant Rating Performance](https://seekingalpha.com/performance/quant): Backtest of the Quant rating model
+
+## Subscriptions
+
+- [Subscriptions](https://seekingalpha.com/subscriptions): Overview of plans
+- [Premium](https://seekingalpha.com/subscriptions/premium): What the Premium plan includes
+- [Alpha Picks](https://seekingalpha.com/alpha-picks/about): Alpha Picks product and methodology
+- [Quant Growth & Income](https://seekingalpha.com/quant-growth-income/about): Quant Growth & Income product and methodology
+- [Investing Groups](https://seekingalpha.com/marketplace/directory): Directory of subscription investing groups
+
+## Help and policies
+
+- [Help Center](https://help.seekingalpha.com/): Answers about accounts, subscriptions and features
+- [Market Data Sources](https://help.seekingalpha.com/basic/where-do-you-source-your-market-data-from): Where Seeking Alpha market data comes from
+- [About Seeking Alpha](https://about.seekingalpha.com/): Company information
+- [Terms of Use](https://about.seekingalpha.com/terms)
+- [Privacy Policy](https://about.seekingalpha.com/privacy)
+- [Content Licensing](https://seekingalpha.com/partnership/form): Licensing and partnership enquiries
+
+## Optional
+
+- [Sitemap](https://seekingalpha.com/sitemap): Topic index of the site
+- [Education](https://seekingalpha.com/education): Investing explainers
+- [Videos](https://seekingalpha.com/videos): Video hub
+- [Free Newsletters](https://seekingalpha.com/free-investing-newsletters): Newsletter sign-up
+- [RSS Feeds](https://about.seekingalpha.com/feeds): RSS feed list

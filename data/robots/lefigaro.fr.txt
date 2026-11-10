@@ -52,18 +52,6 @@ Disallow: /vos-questions
 
 #LLM
 
-User-agent: ChatGPT-User
-Allow: /voyages
-Allow: /culture
-Allow: /style
-Allow: /beaute
-Allow: /joaillerie
-Allow: /mode-homme
-Allow: /horlogerie
-Allow: /bons-plans
-Allow: /elections/resultats
-Disallow: /
-
 User-agent: Claude-SearchBot
 Allow: /voyages
 Allow: /bons-plans
@@ -76,47 +64,29 @@ Allow: /bons-plans
 Allow: /elections/resultats
 Disallow: /
 
-User-agent: OAI-SearchBot
-Allow: /voyages
-Allow: /culture
-Allow: /style
-Allow: /beaute
-Allow: /joaillerie
-Allow: /mode-homme
-Allow: /horlogerie
-Allow: /bons-plans
-Allow: /elections/resultats
-Disallow: /
-
 User-agent: Claude-User
 Allow: /voyages
 Allow: /bons-plans
 Allow: /elections/resultats
-Disallow: / 
-
-User-agent: ChatGPT Agent
-Allow: /voyages
-Allow: /bons-plans
-Allow: /elections/resultats
-Disallow: / 
+Disallow: /
 
 User-agent: GoogleAgent-Mariner
 Allow: /voyages
 Allow: /bons-plans
 Allow: /elections/resultats
-Disallow: / 
+Disallow: /
 
 User-agent: Google-NotebookLM
 Allow: /voyages
 Allow: /bons-plans
 Allow: /elections/resultats
-Disallow: / 
+Disallow: /
 
 User-agent: Google-CloudVertexBot
 Allow: /voyages
 Allow: /bons-plans
 Allow: /elections/resultats
-Disallow: / 
+Disallow: /
 
 User-agent: MistralAI-User
 Allow: /voyages
@@ -146,9 +116,6 @@ User-agent: cohere-ai
 Disallow: /
 
 User-agent: CohereBot
-Disallow: /
-
-User-agent: GPTBot
 Disallow: /
 
 User-agent: Google-Extended

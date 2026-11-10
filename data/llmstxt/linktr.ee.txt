@@ -55,6 +55,7 @@ and are not listed here. They are discoverable via the sitemaps in `/robots.txt`
 - [Courses](https://linktr.ee/features/courses): Create and sell an online course from your Linktree.
 - [Sponsored links](https://linktr.ee/features/sponsored-links): Get paid when your audience redeems a brand offer, with deals browsable in the Earn tab.
 - [Bookings](https://linktr.ee/features/bookings): Offer free and paid bookings so people can book time with you directly.
+- [Bookings on Linktree: formatted for AI agents](https://linktr.ee/features/bookings.md): The /features/bookings page as markdown for AI agents.
 - [Contact forms](https://linktr.ee/features/contact-forms): Add a branded form to collect emails, enquiries and leads.
 - [Email integrations](https://linktr.ee/features/email-integrations): Sync subscribers automatically to Mailchimp, Klaviyo, Kit, Beehiiv or Google Sheets.
 - [Instagram auto-reply](https://linktr.ee/features/instagram-auto-reply): Set up automatic replies to Instagram comments and DMs.

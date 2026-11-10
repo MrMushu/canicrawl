@@ -244,6 +244,7 @@
 [ProArt](https://www.asus.com/motherboards-components/cooling/proart/)
 [Prime](https://www.asus.com/motherboards-components/cooling/prime/)
 [ASUS](https://www.asus.com/motherboards-components/cooling/asus/)
+[Workstation](https://www.asus.com/motherboards-components/cooling/workstation/)
 [Others](https://www.asus.com/motherboards-components/cooling/others/)
 
 #### [Power Supply Units](https://www.asus.com/motherboards-components/power-supply-units/all-series/)

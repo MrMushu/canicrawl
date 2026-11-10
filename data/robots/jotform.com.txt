@@ -97,6 +97,7 @@ Disallow: /8*?
 Disallow: /9*?
 Disallow: /form/*?
 Disallow: /form/*/event/
+Disallow: /workflow-form/
 Disallow: *?kuid=
 Disallow: *&kuid=
 Disallow: *?ref=isModalView
@@ -263,6 +264,7 @@ Disallow: /8*?
 Disallow: /9*?
 Disallow: /form/*?
 Disallow: /form/*/event/
+Disallow: /workflow-form/
 Disallow: *?kuid=
 Disallow: *&kuid=
 Disallow: *?ref=isModalView
@@ -424,6 +426,7 @@ Disallow: /8*?
 Disallow: /9*?
 Disallow: /form/*?
 Disallow: /form/*/event/
+Disallow: /workflow-form/
 Disallow: *?kuid=
 Disallow: *&kuid=
 Disallow: *?ref=isModalView
