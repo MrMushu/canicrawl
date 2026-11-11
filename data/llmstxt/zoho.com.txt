@@ -76,7 +76,7 @@ This distributed structure enables Zoho to serve businesses worldwide while main
 - [Environmental sustainability | Zoho Sustainability](https://www.zoho.com/esg.md): Zoho is leveraging technology to foster sustainable innovation and collaboratively achieve significant positive impact on environment sustainability and net-zero goals. Explore now!
 - [GDPR | Zoho](https://www.zoho.com/gdpr.md): GDPR - What Zoho is doing about it.
 - [HIPAA Compliance at Zoho](https://www.zoho.com/hipaa.md): HIPAA Compliance at Zoho
-- [Index](https://www.zoho.com/index.md)
+- [Index](https://www.zoho.com/index.md): A unique and powerful software suite to transform the way you work. Designed for businesses of all sizes, built by a company that values your privacy.
 - [In the News | Zoho](https://www.zoho.com/inthenews.md): Stay updated with our latest media coverage that includes news in the press—from our newest launches to celebrations worldwide.
 - [IPR Complaints | zoho](https://www.zoho.com/ipr-complaints.md): IPR Complaints | zoho
 - [Know Your Datacenter](https://www.zoho.com/know-your-datacenter.md): We host your data in best-in-class data centers across the globe
@@ -93,6 +93,8 @@ This distributed structure enables Zoho to serve businesses worldwide while main
 
 ## Products & Documentation
 
+- [AgentInbox](https://www.zoho.com/agentinbox/llms.txt): Zoho offers a suite of online productivity and collaboration applications.
+  - [AgentInbox — Help](https://www.zoho.com/agentinbox/help/llms.txt): Learn how to use the AgentInbox dashboard to monitor email activity, track API performance, manage webhook calls, and view subscription details.
 - [Analytics](https://www.zoho.com/analytics/llms.txt): Zoho Analytics is a self-service business intelligence and analytics platform by Zoho Corporation. It includes Agentic AI capabilities through Ask Zia, an AI assistant that can autonomously handle multi-step BI tasks including data pipeline setup, report and dashboard creation, and insight generation, all through natural language. The platform supports data preparation, blending, analysis, collaborative BI, and diagnostic insights across 500+ data sources. It also provides an MCP (Model Context Protocol) server, enabling external AI agents and LLM-based tools to interact directly with Zoho Analytics data and features.
 - [Apptics](https://www.zoho.com/apptics/llms.txt): Unified product analytics for app developers, marketers, support reps, product owners–everyone invloved in product lifeccyle to learn from the in-app data and optimize the apps.
   - [Apptics — Features](https://www.zoho.com/apptics/features/llms.txt): Zoho Apptics offers crash monitoring with rich diagnostics, AI summaries, and full session context to help developers debug issues faster across mobile, web, and desktop.
@@ -107,12 +109,19 @@ This distributed structure enables Zoho to serve businesses worldwide while main
   - [Calendar — Help](https://www.zoho.com/calendar/help/llms.txt): A centralized page to navigate through Zoho Calendar’s resources such as User Guide, customer self-service portal, FAQs, Blogs and the latest updates in Zoho Calendar.
 - [Classes](https://www.zoho.com/classes/llms.txt): Enhance teaching and learning with Zoho Classes, an AI-powered platform for student engagement. Manage assignments, announcements, exams, attendance, and more in one place.
 - [Cliq](https://www.zoho.com/cliq/llms.txt): Zoho Cliq, a team communication software, organizes conversations, workflows, and meetings in one place to boost productivity. Try it for free today!
-  - [Cliq — Help](https://www.zoho.com/cliq/help/llms.txt): Learn more about customizing your live chat software that empowers the efficiency and quality of your sales.
 - [Commerce](https://www.zoho.com/commerce/llms.txt): Build an online store for your ecommerce business and start receiving and managing online orders with Zoho Commerce. Explore all features with 14-day free trial.
   - [Commerce — Api](https://www.zoho.com/commerce/api/llms.txt): The API documentation for Zoho Commerce, for developers—Account Dashboard
   - [Commerce — Help](https://www.zoho.com/commerce/help/llms.txt): Zoho offers a suite of online productivity and collaboration applications.
 - [CommunitySpaces](https://www.zoho.com/communityspaces/llms.txt): Zoho CommunitySpaces | Build thriving online communities for your customers, associations, or partners through connection, engagement, and shared purpose.
 - [Connect](https://www.zoho.com/connect/llms.txt): From internal communications to surveys, knowledge and task management, and more, equip your company with a unified intranet to boost culture and work towards the common vision.
+- [Contracts](https://www.zoho.com/contracts/llms.txt): A comprehensive contract management software that improves efficiency across all aspects of contract management. Try our contract management system for free!
+  - [Contracts — Api](https://www.zoho.com/contracts/api/llms.txt): To submit a contract for approval.
+  - [Contracts — Case Studies](https://www.zoho.com/contracts/case-studies/llms.txt): Discover how Akshayam Corporate improved contract cycle times, plugged revenue leakage, and achieved better compliance with Zoho Contracts.
+  - [Contracts — Contract Templates](https://www.zoho.com/contracts/contract-templates/llms.txt): Use our free NDA template and automate your NDA flow to accelerate authoring, minimize errors, and improve contract turnaround times.
+  - [Contracts — Ebooks](https://www.zoho.com/contracts/ebooks/llms.txt): Download this buyer's guide to contract management software and discover the best practices for successful CLM implementation customized to your business needs.
+- [CPaaS](https://www.zoho.com/cpaas/llms.txt): Transactional email, SMS, WhatsApp, and automated voice calls from one CPaaS platform. Reliable APIs, global reach, and pay-as-you-go pricing. Start free today.
+  - [CPaaS — Glossary](https://www.zoho.com/cpaas/glossary/llms.txt): One stop shop to learn about terms relating to transactional emails and the email sending world.
+  - [CPaaS — Help](https://www.zoho.com/cpaas/help/llms.txt): An index page to help you explore the different resources available for Zoho CPaaS. This extensive help guide and other resources will enable you to navigate Zoho CPaaS without a hitch.
 - [Creator](https://www.zoho.com/creator/llms.txt): Turn your ideas into powerful mobile and web apps with AI-powered low-code. Automate processes, modernize legacy systems, and accelerate digital transformation.
   - [Creator — Application Development](https://www.zoho.com/creator/application-development/llms.txt): Explore Zoho Creator for easy application development. Build custom apps to automate business tasks and manage processes with minimal coding. Try for free!
   - [Creator — Apps](https://www.zoho.com/creator/apps/llms.txt): Zoho Creator offers 50+ ready-to-use business apps. Install and customize for the web, Android, iPhone, and iPad. Try for free!
@@ -127,9 +136,15 @@ This distributed structure enables Zoho to serve businesses worldwide while main
   - [Creator — Usecases](https://www.zoho.com/creator/usecases/llms.txt): Explore the ways in which your organization can benefit from using Zoho Creator's low-code application development software.
   - [Creator — Videos](https://www.zoho.com/creator/videos/llms.txt): Watch and learn to build a custom application on your own. Whether you're looking for a step-by-step tutorial or a quick how-to video, you're in the right place.
   - [Creator — Webinars](https://www.zoho.com/creator/webinars/llms.txt): Join our upcoming free live webinars and learn Zoho Creator basics, automation routines with custom workflows, and advanced features to power your apps.
+- [Creator Plus](https://www.zoho.com/creatorplus/llms.txt): Build apps and analyze data. Integrate and automate. Test and ship. All on one platform—Zoho Creator Plus.
+- [CRM](https://www.zoho.com/crm/llms.txt): Zoho offers a suite of online productivity and collaboration applications.
+  - [CRM — Customers](https://www.zoho.com/crm/customers/llms.txt): Businesses of all sizes and types use Zoho CRM to manage their everyday sales operations. Have a look at some of their success stories.
+  - [CRM — Developer](https://www.zoho.com/crm/developer/llms.txt): Build apps for Zoho CRM, create serverless Deluge functions, and customize your Zoho CRM experience using a collection of developer tools.
+  - [CRM — Resources](https://www.zoho.com/crm/resources/llms.txt): Learn and master Zoho CRM with various types of CRM resources like user guides, admin guide, ebooks, videos, tutorials and more.
 - [DataPrep](https://www.zoho.com/dataprep/llms.txt): AI-powered ETL and data management platform to build pipelines, automate data movement, and ensure high-quality, analytics-ready data.
   - [DataPrep — Import Sources](https://www.zoho.com/dataprep/import-sources/llms.txt): Leverage ChatGPT’s natural language search to find and pull the perfect datasets into Zoho DataPrep. Clean and prepare discovered data for analysis in just a few clicks.
 - [Deluge](https://www.zoho.com/deluge/llms.txt): Data Enriched Language for the Universal Grid Environment, or Deluge, is an online scripting language that links 50+ products in the Zoho suite. It's a one-stop solution for performing actions and integrations across the suite with low-code support.
+- [Desk](https://www.zoho.com/desk/llms.txt): Zoho Desk is an online customer service help desk software for happier customers, empowered agents, and healthier businesses. Get a 15-day free trial.
 - [Directory](https://www.zoho.com/directory/llms.txt): Cloud Identity & Access Management Platform
 - [Domains](https://www.zoho.com/domains/llms.txt): Search domain availability, buy domain names, and manage your website domain with secure domain registration and transparent pricing.
 - [eProtect](https://www.zoho.com/eprotect/llms.txt): Zoho eProtect protects your organization's mailboxes from spam, malware and other advanced email threats while securely archiving emails for retrieval using a powerful eDiscovery search.
@@ -205,6 +220,4 @@ This distributed structure enables Zoho to serve businesses worldwide while main
 - [WorkDrive](https://www.zoho.com/workdrive/llms.txt): Zoho WorkDrive is an online file storage and content collaboration solution for modern teams. It provides a centralized workspace where teams can store, share, co-author, manage files, and automate workflows at scale — with enterprise-grade security and granular access controls built in.
 - [Workerly](https://www.zoho.com/workerly/llms.txt): Zoho Workerly is a temporary staffing software for agencies to manage their client & temp database, schedule jobs, create timesheets, and generate invoices within a single interface. Try now!
 - [Workplace](https://www.zoho.com/workplace/llms.txt): Zoho Workplace is a productivity and collaboration suite trusted by millions. It brings mail, chat, files, office suite, meetings, and more into one place.
-- [ZeptoMail](https://www.zoho.com/zeptomail/llms.txt): Scale your transactional email delivery with Zoho ZeptoMail. Integrate our secure SMTP relay or developer-friendly email sending API for great deliverability and real-time tracking.
-  - [ZeptoMail — Help](https://www.zoho.com/zeptomail/help/llms.txt): An index page to help you explore the different resources available for ZeptoMail. This extensive help guide and other resources will enable you to navigate ZeptoMail without a hitch.
 

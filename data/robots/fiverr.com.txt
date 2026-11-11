@@ -71,3 +71,149 @@ User-agent: AdsBot-Google
 Disallow: /api/v1/activities
 Disallow: /recommendations/
 
+# ---------- START AI-CRAWLERS ----------
+# Purpose: name AI crawlers explicitly, so their access is a decision and not inherited from *.
+# A named group replaces the * group, so the full * rules are repeated below.
+# Group 1: AI search crawlers and control tokens.
+# Same access as *. /search/ stays blocked so result pages do not enter AI indexes.
+User-agent: Google-Extended
+User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: MistralAI-Index
+User-agent: Applebot-Extended
+User-agent: YouBot
+Allow: /
+Disallow: /orders/timeline/*
+Disallow: */pinned_flashes/*
+Disallow: /gigs/*/share/
+Disallow: /gigs/*/share?*
+Disallow: /specials/*
+Disallow: /packages/*
+Disallow: /categories/silly
+Disallow: /categories/fifa
+Disallow: /categories/Halloween
+Disallow: /categories/Postcards
+Disallow: /purchases
+Disallow: /user_sessions
+Disallow: /users/
+Disallow: /counter/*?
+Disallow: /collaborate/*
+Disallow: /search/
+Disallow: /search_results/gigs/*
+Disallow: /match/website/*
+Disallow: /pages/website-developer-match
+Disallow: /v4/*
+Disallow: /pro/*
+Disallow: /about-pro
+Disallow: /pro-resources
+Disallow: /pro-solutions
+Disallow: /gigs/search
+Disallow: /recommendations/
+Disallow: /contact_me/
+Disallow: /conversations/
+Disallow: /bookmarks/
+Disallow: /inbox/
+Disallow: /inbox$
+Disallow: /seller_onboarding/
+Disallow: /checkout/package/
+Disallow: /match/
+Disallow: /pages/website-developer-match
+Disallow: /cdn-proxy/px/*
+Disallow: /cdn-proxy/pim/*
+Disallow: /search_results/
+Disallow: /custom_orders/
+Disallow: /studios/
+Disallow: /v1/stats
+Disallow: /v1/browser-performance
+Disallow: /assets/shared/*
+Disallow: /content_reporting/
+Allow: /pro/about
+# Blocking Pagination
+Disallow: *page=
+Allow: *page=2$
+# Blocking Gig 2 Gig duplications
+Disallow: /*context_referrer=gig_page
+# Blocking Seller 2 Gig duplications
+Disallow: /*?*source=user_page*
+Disallow: /*context_referrer=user_page
+# Blocking activity api
+Disallow: /api/v1/activities
+Disallow: /logo-maker/brief/
+Disallow: /logo-maker/choose-variation/
+Disallow: /logo-maker/wordpress
+Disallow: /logo-maker/woo
+
+# Group 2: AI agents that act on a user's request.
+# Same as *, except /search/ is open so an agent can search the site for its user.
+User-agent: ChatGPT-User
+User-agent: Claude-User
+User-agent: Perplexity-User
+User-agent: MistralAI-User
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /orders/timeline/*
+Disallow: */pinned_flashes/*
+Disallow: /gigs/*/share/
+Disallow: /gigs/*/share?*
+Disallow: /specials/*
+Disallow: /packages/*
+Disallow: /categories/silly
+Disallow: /categories/fifa
+Disallow: /categories/Halloween
+Disallow: /categories/Postcards
+Disallow: /purchases
+Disallow: /user_sessions
+Disallow: /users/
+Disallow: /counter/*?
+Disallow: /collaborate/*
+Disallow: /search_results/gigs/*
+Disallow: /match/website/*
+Disallow: /pages/website-developer-match
+Disallow: /v4/*
+Disallow: /pro/*
+Disallow: /about-pro
+Disallow: /pro-resources
+Disallow: /pro-solutions
+Disallow: /gigs/search
+Disallow: /recommendations/
+Disallow: /contact_me/
+Disallow: /conversations/
+Disallow: /bookmarks/
+Disallow: /inbox/
+Disallow: /inbox$
+Disallow: /seller_onboarding/
+Disallow: /checkout/package/
+Disallow: /match/
+Disallow: /pages/website-developer-match
+Disallow: /cdn-proxy/px/*
+Disallow: /cdn-proxy/pim/*
+Disallow: /search_results/
+Disallow: /custom_orders/
+Disallow: /studios/
+Disallow: /v1/stats
+Disallow: /v1/browser-performance
+Disallow: /assets/shared/*
+Disallow: /content_reporting/
+Allow: /pro/about
+# Blocking Pagination
+Disallow: *page=
+Allow: *page=2$
+# Blocking Gig 2 Gig duplications
+Disallow: /*context_referrer=gig_page
+# Blocking Seller 2 Gig duplications
+Disallow: /*?*source=user_page*
+Disallow: /*context_referrer=user_page
+# Blocking activity api
+Disallow: /api/v1/activities
+Disallow: /logo-maker/brief/
+Disallow: /logo-maker/choose-variation/
+Disallow: /logo-maker/wordpress
+Disallow: /logo-maker/woo
+# ---------- END AI-CRAWLERS ----------
+
+# ---------- START LLMS-TXT ----------
+# Purpose: point AI systems to the site summary. Informational only, robots.txt has no directive for it.
+# https://www.fiverr.com/llms.txt
+# ---------- END LLMS-TXT ----------
+

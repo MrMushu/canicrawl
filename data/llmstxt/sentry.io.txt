@@ -90,7 +90,7 @@ _Source: https://docs.sentry.io/llms.txt_
 - [Seer Agent](https://sentry.io/product/seer/agent/): No context-gathering, no copy-pasting stack traces. Just ask Seer Agent what's wrong and get an answer from your actual 
 - [Seer Autofix](https://sentry.io/product/seer/autofix/): Seer Autofix reads the stack trace, traces the root cause through your codebase, and drafts a fix — before you've finish
 - [Uptime monitoring for developers](https://sentry.io/product/uptime-monitoring/): Know when your site goes down before your users do. Sentry monitors your URLs every minute and links outages to traces s
-- [Cron Monitoring](https://sentry.io/product/cron-monitoring/): Know why your scheduled jobs fail & where to fix the problem in your code with Cron error monitoring. Get started here f
+- [Cron Job Monitoring: Catch Silent Failures in Your Code | Sentry](https://sentry.io/product/cron-monitoring/): Monitor cron jobs and scheduled tasks. Get alerted when a job fails, runs late, or never starts, then jump straight to t
 - [Developer first Code Coverage platform](https://sentry.io/product/code-coverage/): Discover what untested code is causing errors & how to avoid similar errors in the future with Sentry's Codecov integrat
 - [Size Analysis](https://sentry.io/product/size-analysis/): Size Analysis helps you monitor and reduce your mobile app size. Get specific recommendations on how to make your mobile
 
@@ -396,9 +396,9 @@ _Source: https://docs.sentry.io/llms.txt_
 - [Build AI agent evals from production conversations](https://sentry.io/cookbook/agent-conversations-to-evals/): Export real AI agent conversations from Sentry with the Sentry CLI and turn them into eval datasets in Braintrust, Langf
 - [Automate AI agent error triage with Claude Routines](https://sentry.io/cookbook/automate-ai-agent-triage-claude-routines/): Set up a Claude Routine that uses Sentry Agent Tracing via MCP to automatically triage your AI agent's overnight errors,
 - [Connect Your Source Code with the Sentry GitLab Integration](https://sentry.io/cookbook/connect-sentry-to-gitlab/): Connect code stored in GitLab to Sentry. Create the OAuth app in GitLab, link groups, and add repositories to unlock cod
+- [Control Session Replay Sampling per Page with a React Hook](https://sentry.io/cookbook/control-session-replay-sampling-per-page/): Set Session Replay sampling per page in Next.js or React with a custom hook: record, buffer until an error, or skip each
 - [Create Sentry Dashboards with Your AI Coding Agent](https://sentry.io/cookbook/create-dashboards-with-ai-agent/): Use the Sentry CLI and your AI coding agent's repo context to automatically create meaningful dashboards (errors, perfor
 - [Build a dashboard and alert from Next.js custom metrics](https://sentry.io/cookbook/custom-metrics-dashboard-alerts-nextjs/): Emit a custom metric from your Next.js app, build a dashboard around it, and add a threshold or anomaly-detection alert 
-- [Customize Session Replay Sampling with a Custom React Hook](https://sentry.io/cookbook/customize-session-replay-sampling-hook/): Build a custom React hook to control Session Replay sampling rates by page, element, or action in your React or Next.js 
 - [Debug silent checkout failures in Next.js with Sentry](https://sentry.io/cookbook/debug-silent-checkout-failures-nextjs/): Find out why your Next.js checkout fails silently. Catch swallowed errors, trace failed payments, watch the session, and
 - [Debug 'Undefined Is Not an Object' in React Native](https://sentry.io/cookbook/debug-undefined-react-native/): Use Sentry Logs in React Native and your backend to debug undefined properties, pinpoint timing bugs vs data issues, and
 - [Debug and fix issues with Sentry MCP in Claude Code](https://sentry.io/cookbook/debug-with-sentry-mcp-claude-code/): Connect Sentry to Claude Code via MCP so your AI agent can pull issues, read traces and logs, run Seer analysis, and app

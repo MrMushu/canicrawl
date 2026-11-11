@@ -9,6 +9,11 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Pages
 
+- [Book a Demo](https://www.singular.net/demo/): Your call with Singular Experience a live walkthrough with customized views I know that Singular is the best-in-class MMP. We’re...
+- [Growth Masterminds Podcast](https://www.singular.net/podcast/): Growth Masterminds Podcast Growth experts sharing insights on strategy, tactics, and trends Product questions Check out our help center for...
+- [AI Marketing Platform](https://www.singular.net/ai-marketing-platform/): AI that thinks like a marketer built on Singular’s unified data foundation You define the rules. Singular AI does the...
+- [Success Stories](https://www.singular.net/case-studies/): Success stories Read about our customers’ next-gen attribution & analytics journeys with us
+- [Press](https://www.singular.net/press/): Singular Press Stay up to date with the latest from Singular Product questions Check out our help center for in-depth...
 - [Research and Reports](https://www.singular.net/report-and-guides/): Research & Reports Playbooks and insights for each growth stage
 - [Webinars and Workshops](https://www.singular.net/videos/): Webinars & Workshops Live and on-demand sessions with experts on app growth
 - [Singular Blog: Insights on Attribution, Growth, and Analytics](https://www.singular.net/blog/): The Singular blog Fresh insights, trends, and strategies for today’s growth marketers
@@ -50,7 +55,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [Marketing Analytics](https://www.singular.net/marketing-analytics/): Marketing Analytics Unify cost, performance, creative, and attribution data across every channel and device. See what’s actually driving growth and...
 - [Quarterly Report 2026 Q1 [SP LATAM]](https://www.singular.net/quarterly-report-2026-q1-es/): Introducción y TLDR El Q4 2025 fue el trimestre donde la presión alcanzó su punto máximo. A medida que el...
 - [Mobile app growth guide: the ultimate playbook](https://www.singular.net/mobile-app-growth-guide-the-ultimate-playbook/): Let’s start your engine Everyone’s got the memo: building a great app is no longer enough. Once, you could build...
-- [AI Marketing Platform](https://www.singular.net/ai-marketing-platform/): AI that thinks like a marketer built on Singular’sunified data foundation You define the rules. Singular AI does the rest....
+- [AI Marketing Platform](https://www.singular.net/pages/ai-marketing-platform/): AI that thinks like a marketer built on Singular’sunified data foundation You define the rules. Singular AI does the rest....
 - [Home Page](https://www.singular.net/home-page-2/): Smarter Insights Faster GrowthPowered by AI The end-to-end marketing platform to unify and move your data effortlessly, measure True ROI,...
 - [Quarterly Report 2025 Q4 KR](https://www.singular.net/quarterly-report-2025-q4-kr/): 사용 가능한 언어: 영어, 포르투갈어, 스페인어, 한국어, 중국어 소개 및 요약 (TLDR) 2025년 3분기는 온디맨드(On-demand)의 분기였습니다. 광고 지출이 다시 급증했고,...
 - [Quarterly Report 2025 Q4 PT](https://www.singular.net/quarterly-report-2025-q4-pt/): Disponível em: Inglês, Português, Espanhol, Coreano and Chinês Introdução e Resumo (TL;DR) O terceiro trimestre de 2025 foi o trimestre do...
@@ -64,11 +69,11 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [CTV Attribution](https://www.singular.net/pages/ctv/)
 - [Careers - Singular](https://www.singular.net/careers/): Join our talent-dense and compassionate team in a super well-funded, growing startup (everyone says it, but we really do have it!)
 - [Data Governance](https://www.singular.net/pages/data-governance/)
-- [Growth Masterminds Podcast](https://www.singular.net/growth-masterminds-podcast/): Growth experts sharing insights on strategy, tactics, and trends Subscribe on:
-- [Press](https://www.singular.net/press/): Catch up on our newsworthy stories, download our brand materials, or contact us
+- [Growth Masterminds Podcast](https://www.singular.net/pages/growth-masterminds-podcast/): Growth experts sharing insights on strategy, tactics, and trends Subscribe on:
+- [Press](https://www.singular.net/pages/press/): News & trends Who owns the truth? Why measurement must answer to the advertiser 5 mins read Partnerships Singular joins...
 - [PC and Console Attribution | Singular](https://www.singular.net/pages/pc-and-console/)
 - [Guides](https://www.singular.net/pages/report-and-guides/)
-- [Success Stories](https://www.singular.net/customers-love-singular/): Learn why top brands trust Singular for advanced attribution and analytics, seamless data integration, and actionable insights to fuel their growth
+- [Success Stories](https://www.singular.net/pages/customers-love-singular/)
 - [Mobile Attribution Reviews](https://www.singular.net/mobile-attribution-reviews/): Don’t take it from us... read what our customers have to say Singular reviews sourced by G2
 - [SKAN Adoption](https://www.singular.net/skadnetwork-adoption/): Live SKAdNetworkAdoption Dashboard Keep up with industry SKAN adoption in real-time to benchmark your adoption and improve your campaign planning. SKAdNetwork...
 - [Pipa Studios aumenta em 2x o número de usuários pagantes com melhor visibilidade e acesso aos dados](https://www.singular.net/case-study-pipa-portuguese/): Pipa Studios aumenta em 2x o número de usuários pagantes com melhor visibilidade e acesso aos dados
@@ -98,7 +103,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [Fraud Prevention](https://www.singular.net/pages/fraud-prevention-old/)
 - [ROI & performance analytics](https://www.singular.net/roi-performance-analytics/)
 - [Data Connectors](https://www.singular.net/marketing-data/data-integrations/): Connect disparate data sources to expose granular, timely, and accurate insights in order to maximize growth.
-- [Sign up for a free trial](https://www.singular.net/demo/): Try us out! Sign up to unify your siloed marketing data, apply attribution and gain insights needed for growth.
+- [Sign up for a free trial](https://www.singular.net/pages/demo/)
 - [About us](https://www.singular.net/about-us/): Learn about us, our team, our customers, and our mission to help businesses drive growth with unified marketing data.
 - [Partners](https://www.singular.net/partner-integrations/)
 - [Products](https://www.singular.net/marketing-analytics-platform/)
@@ -966,6 +971,13 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 
 ## Pages
+
+
+
+
+
+
+
 
 
 

@@ -212,8 +212,10 @@ User-agent: xAI-Grok
 Disallow: /
 User-agent: GrokBot
 Disallow: /
-User-agent: amazon-kendra # Amazon Kendra Web Crawler
-Disallow: / # disallow access to any pages
+User-agent: amazon-kendra
+Disallow: /
+User-Agent: __usage_ai-training
+Disallow: /
 # Fine Bot Exclusion Protocol
 
 User-agent: *

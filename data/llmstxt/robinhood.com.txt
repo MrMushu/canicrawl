@@ -21,8 +21,7 @@
 
 ## Investing — Stocks & ETFs
 - [Start Trading & Investing with Robinhood App (First Stock is on us)](https://robinhood.com/us/en/invest): Robinhood offers commission-free investing &  tools to help shape your financial future. Sign up today to start building your portfolio. Terms and fees apply.
-- [ IPO Access. Buy shares at the IPO price | Robinhood](https://robinhood.com/us/en/ipo-access): No commission fees. No account minimums. Other fees may apply.
-
+- [Robinhood IPO Access | Anthropic IPO](https://robinhood.com/us/en/ipo-access): Learn how Robinhood IPO Access can help eligible investors participate in the Anthropic IPO. Get details on the IPO process, eligibility, and how to request shares in the Robinhood app.
 - [Built For The Future of Trading | Robinhood](https://robinhood.com/us/en/about/trading): Robinhood’s intuitive design makes trading seamless. Spot opportunities and take control of your trades with tools like screeners, simulated returns, and strategy-builder. Sign up today. Terms and fees may apply.
 
 - [Robinhood Strategies | This Is More Than a "Robo Advisor"](https://robinhood.com/us/en/strategies): Define your financial goals and get a tailored, expert-managed portfolio. Follow current market trends, always know why your money moves, and invest with confidence.                                                                                                                           

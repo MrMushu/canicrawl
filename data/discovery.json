@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "filesScanned": 614,
  "distinctTokens": 2135,
  "aiCandidates": [
@@ -105,11 +105,11 @@
   },
   {
    "token": "__usage_ai-training",
-   "sites": 10,
+   "sites": 11,
    "sample": [
+    "corriere.it",
     "facebook.com",
-    "fb.com",
-    "imdb.com"
+    "fb.com"
    ],
    "aiHint": true
   },
@@ -134,21 +134,21 @@
    "aiHint": true
   },
   {
+   "token": "MistralAI-Index",
+   "sites": 7,
+   "sample": [
+    "allrecipes.com",
+    "fiverr.com",
+    "ign.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "MistralAI-User/1.0",
    "sites": 7,
    "sample": [
     "allrecipes.com",
     "bild.de",
-    "investopedia.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "MistralAI-Index",
-   "sites": 6,
-   "sample": [
-    "allrecipes.com",
-    "ign.com",
     "investopedia.com"
    ],
    "aiHint": true
