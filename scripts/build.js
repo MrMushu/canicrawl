@@ -243,12 +243,25 @@ const changelog = fs.existsSync(path.join(ROOT, "data/changelog.json"))
 // page printed "Tracking began <today's snapshot date>" on every site, every day.
 const firstSeen = {};
 const lastOk = {}; // latest snapshot date a domain's robots.txt read "ok" (CC-26)
+const snapDates = []; // every committed snapshot date, for gap disclosure (CC-39)
 for (const f of fs.readdirSync(path.join(ROOT, "data/snapshots")).filter((f) => /^\d{4}-\d\d-\d\d\.json$/.test(f)).sort()) {
   const s = JSON.parse(fs.readFileSync(path.join(ROOT, "data/snapshots", f), "utf8"));
+  snapDates.push(s.date);
   for (const [d, e] of Object.entries(s.domains)) {
     firstSeen[d] ??= s.date;
     if (e.fetch === "ok") lastOk[d] = s.date;
   }
+}
+// Days with no committed snapshot (a dropped or failed scheduled run). Changes
+// dated the day after a gap were detected against the last snapshot before it,
+// so they may have happened on any day in between — say so instead of implying
+// a daily resolution we don't have. Computed from data/snapshots, never typed.
+const missingDays = [];
+const afterGap = new Map(); // first snapshot date after a gap -> the missing days
+for (let i = 1; i < snapDates.length; i++) {
+  const gap = [];
+  for (let t = Date.parse(snapDates[i - 1]) + 864e5; t < Date.parse(snapDates[i]); t += 864e5) gap.push(new Date(t).toISOString().slice(0, 10));
+  if (gap.length) { missingDays.push(...gap); afterGap.set(snapDates[i], gap); }
 }
 const siteHistory = new Map();
 for (const e of [...changelog.entries].reverse()) {
@@ -693,7 +706,8 @@ for (const e of entriesDesc) {
   byDate.get(e.date).push(e);
 }
 const changelogHtml = [...byDate.entries()].map(([date, list]) => `
-<h2>${esc(date)}</h2>
+<h2>${esc(date)}</h2>${afterGap.has(date) ? `
+<p class="note">Covers ${afterGap.get(date).map(esc).join(", ")} too: no snapshot exists for ${afterGap.get(date).length > 1 ? "those days" : "that day"}, so these changes were detected against the last snapshot before it and may have happened on either day.</p>` : ""}
 <ul>${list.map((e) => `<li>${e.domain ? `<a href="../${entryLink(e)}">` : ""}${esc(entryText(e))}${e.domain ? "</a>" : ""}</li>`).join("\n")}</ul>`).join("\n");
 write("changelog/index.html", page({
   title: "Changelog — Canicrawl",
@@ -702,7 +716,8 @@ write("changelog/index.html", page({
   content: `
 <h1>Changelog</h1>
 <p class="sub">Every AI-policy flip we observe lands here, newest first — detected by comparing daily snapshots. Subscribe via <a href="rss.xml">RSS</a>.</p>
-${changelogHtml}`,
+${missingDays.length ? `<p class="note">Coverage: ${snapDates.length} daily snapshots from ${esc(snapDates[0])} to ${esc(snapDates.at(-1))}. Missing: ${missingDays.map(esc).join(", ")} — the scheduled crawl did not complete, and a missed day cannot be re-crawled after the fact.</p>
+` : ""}${changelogHtml}`,
 }));
 const rssItems = entriesDesc.slice(0, 50).map((e) => `<item>
 <title>${esc(entryText(e))}</title>
