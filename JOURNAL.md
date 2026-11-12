@@ -1354,3 +1354,5 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Ring executed: CC-40 (queue had no unblocked ring; added and done, investigate-only).** No code or data changed. Verified: dry run output above; the three snapshot records for paloaltonetworks.com 10-18/19/20; `git log` on data/llmstxt/paloaltonetworks.com.txt shows only a3e3544 (08-25); `node scripts/build.js` → 1,094 pages, snapshot 2026-11-12; dist/changelog/index.html and live /changelog/ each have 2 mentions; /site/paloaltonetworks.com/ HTTP 200; digests.json has the 1 citing passage.
 
 **Next:** CC-38 (digest #12, due ~11-15) — lefigaro lead, seekingalpha first readable llms.txt, 11-10 two-day caveat; glance at the pinterest/zoho rewrites.
+
+**Correction (same session):** the 11-12 snapshot commit is 47c7ad4, not d90a16c (that is 11-11's).
