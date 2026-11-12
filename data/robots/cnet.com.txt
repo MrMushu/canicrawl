@@ -263,6 +263,7 @@ Allow: /paid-content/how-to-choose-a-reliable-home-internet-provider-in-2026/
 Allow: /paid-content/how-to-choose-the-right-dell-ai-laptop-for-your-workflow/
 Allow: /paid-content/how-to-get-fast-reliable-fiber-internet-at-a-predictable-transparent-price/
 Allow: /paid-content/how-to-get-your-backyard-ready-for-summer-with-lights-and-sound/
+Allow: /paid-content/how-to-make-an-image-from-text-with-ai-in-2026-using-adobe-firefly/
 Allow: /paid-content/how-to-stream-pro-and-college-football-in-2026-with-directv-mysports-genre-pack/
 Allow: /paid-content/how-to-time-your-next-major-appliance-purchase-for-maximum-savings/
 Allow: /paid-content/how-to-try-out-ai-glasses-from-meta-at-your-local-best-buy/
@@ -274,6 +275,7 @@ Allow: /paid-content/is-fiber-to-the-home-ftth-actually-better-than-xfinity-here
 Allow: /paid-content/is-it-time-to-upgrade-your-iphone-with-t-mobiles-trade-in-offers-the-answer-is-yes/
 Allow: /paid-content/is-the-dell-xps-13-a-good-windows-alternative-to-a-macbook/
 Allow: /paid-content/is-wi-fi-7-worth-the-upgrade-heres-how-msis-roamii-mesh-systems-fit-in/
+Allow: /paid-content/is-your-browsers-built-in-password-manager-enough-roboform-gives-you-an-upgrade/
 Allow: /paid-content/life-changes-and-new-laws-can-affect-your-tax-refund-how-to-estimate/
 Allow: /paid-content/maximize-your-refund-with-h-r-blocks-smart-tax-tools/
 Allow: /paid-content/maximize-your-wireless-savings-with-the-t-mobile-visa-credit-card/

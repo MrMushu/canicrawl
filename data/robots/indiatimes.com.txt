@@ -4,13 +4,20 @@
 User-agent: AmazonAdBot
 Allow: /
 Allow: /*
-
+Allow: /trivia/
 
 User-agent: meta-externalagent
 Disallow: /
 
+User-agent: AdsBot-Google
+Allow: /trivia/
+
+User-agent: Mediapartners-Google
+Allow: /trivia/
+
 User-agent: *
 Allow: /
+Disallow: /trivia/
 Disallow: *.php*
 Disallow: */7176/*
 Disallow: */whatshot/*

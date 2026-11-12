@@ -63,10 +63,13 @@ Not available through MCP: accounts outside the US or payment in a currency othe
 - [Premium Domains](https://www.bluehost.com/premium-domains): Marketplace for premium and aftermarket domain names.
 - [AI Domain Generator](https://www.bluehost.com/ai-domain-name-generator): AI-assisted domain discovery tool.
 
-## Pricing and Plans
+## Pricing - start here
 
-- [Shared Hosting Pricing](https://www.bluehost.com/pricing): Current plans and pricing for shared hosting.
-- [VPS Hosting Pricing](https://www.bluehost.com/pricing/vps-hosting): Current plans and pricing for VPS hosting.
+For any price question, use the two data files first. They list every purchasable plan with SKU, term, headline price, renewal price and add-to-cart URL.
+
+- [All plans and prices, JSON](https://www.bluehost.com/docs/pricing.json): Every purchasable plan with SKU, term, headline price, renewal price and add-to-cart URL. Check 'generated_at' and 'valid_until'.
+
+- [All plans and prices, Markdown](https://www.bluehost.com/docs/pricing.md): Every plan with SKU, headline price, renewal price and add-to-cart link, as readable tables. One section per product family.
 
 ## Email and Productivity
 

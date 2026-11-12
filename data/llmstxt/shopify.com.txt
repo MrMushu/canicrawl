@@ -46,7 +46,6 @@
 ## Manage your Store
 
 - [Inventory management](https://www.shopify.com/inventory-management): Built-in inventory tools to track stock across locations and channels and stop overselling.
-- [Fulfillment](https://www.shopify.com/fulfillment): Fulfill orders yourself, or outsource to Shopify's trusted logistics partners who pack and ship for you.
 - [Shopify Flow](https://www.shopify.com/flow): Automate repetitive store tasks with triggers and actions, like tagging high-value customers automatically.
 - [Shopify App Store](https://apps.shopify.com): Browse and install thousands of apps that add features to a Shopify store.
 

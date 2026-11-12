@@ -1838,7 +1838,7 @@ Allow: /se/search/shops
 # llms.txt: https://www.etsy.com/llms.txt
 
 #
-# Oi, kent!#   \
+# Bienvenue! Welcome!#   \
 #
 #    -----
 #   | . . |

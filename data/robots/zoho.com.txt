@@ -4,14 +4,10 @@
 # Author: Zoho Creative
 # Last Updated: 02/11/2026
 # ------------------------------------------
-
 User-agent: *
 Allow: */crm/lp/
 Allow: /.well-known/
-
-
 # unwanted list taken from zoho search list
-
 Disallow: /unsubscribe-thankyou.html
 Disallow: */t/
 Disallow: */noindex/
@@ -28,9 +24,7 @@ Disallow: /fbl/logout.html
 Disallow: /connect/social-intranet.html
 Disallow: /showtime/.requestinvite.html.swp
 Disallow: /extensions/eventack.html
-
 # unwanted list taken from zoho search for zoho
-
 Disallow: /crm/Templates/
 Disallow: /rip/
 Disallow: */lp/
@@ -97,11 +91,6 @@ Disallow: /store/apex/help/
 Disallow: /store/marketing-agency/help/
 Disallow: /us/payroll/v1/help/
 Disallow: /sa/payroll/
-
-
-
-
-
 # PDF Files blocked from indexing
 Disallow: /sites/zweb/images/crm/sales-cadence.pdf
 Disallow: /sites/zweb/images/workplace/pdf/saas-affiliate-marketing.pdf
@@ -127,12 +116,6 @@ Disallow: /bh/payroll/
 Disallow: /kw/payroll/
 Disallow: /qw/payroll/
 Disallow: /payroll/api/v1/introduction/
-
-
-
-
-User-agent: Googlebot-Image
-
 Disallow: /branding/images/dont-04.png
 Disallow: /branding/images/dont-03.png
 Disallow: /branding/images/dont-02.png
@@ -141,10 +124,8 @@ Disallow: /sites/zweb/images/zoho_general_pages/branding/dont-1.png
 Disallow: /sites/zweb/images/zoho_general_pages/branding/dont-2.png
 Disallow: /sites/zweb/images/zoho_general_pages/branding/dont-3.png
 Disallow: /sites/zweb/images/zoho_general_pages/branding/dont-4.png
-
-
+User-agent: Googlebot-Image
 User-agent: zs-crawler
 User-agent: zoho-scrapy
 Allow: /
-
 Sitemap: https://www.zoho.com/sitemap-index.xml

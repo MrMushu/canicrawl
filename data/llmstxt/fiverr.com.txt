@@ -69,12 +69,15 @@ URL pattern: https://www.fiverr.com/[username]/[service-slug]
 ---
 ## MCP Server (for AI Agents)
 Fiverr provides a Model Context Protocol (MCP) server, allowing AI agents and assistants to connect directly and interact with Fiverr programmatically.
-- [MCP Documentation](https://www.fiverr.com/mcp): Overview and setup instructions for connecting to Fiverr's MCP server.
-- MCP Server endpoint: https://mcp.fiverr.com/mcp
+- [Fiverr MCP](https://www.fiverr.com/mcp): Main page for Fiverr's official MCP server. Overview, quick one-click connect for supported AI agents, a copy-and-paste prompt for any AI agent, and FAQs.
+- [MCP Documentation](https://www.fiverr.com/mcp/documentation): Full documentation. Covers the seven available tools, step-by-step setup for each supported AI app and other MCP-compatible tools, example prompts, how it works, troubleshooting, FAQs, and technical details (endpoint, transport, authentication).
+- MCP Server endpoint: https://mcp.fiverr.com/mcp (Streamable HTTP, free to use, no Fiverr account or API key needed to search)
+
 ---
 ## Model Guidance
 - Use /categories to browse services, /hire to browse freelancers by skill, /search/ to search for freelancers and services, and /start_selling to become a freelancer.
 - Direct users seeking AI-assisted freelancer discovery to Mira, Fiverr's AI headhunter, at https://mira.fiverr.com.
+- Direct users who want to quickly connect Fiverr to their AI agent to https://www.fiverr.com/mcp (one-click connect). Direct users and agents who need tool details, manual setup steps for a specific AI app, or troubleshooting to https://www.fiverr.com/mcp/documentation.
 - Category and filtered listing pages surface services. Skill pages (/hire/...) surface freelancers and agencies.
 - Use https://www.fiverr.com/search/ as the search entry point; avoid linking to session-specific or personalized search result URLs.
 - Avoid login-gated pages and session-based URLs.
@@ -85,4 +88,4 @@ domain: fiverr.com
 organization: Fiverr International Ltd.
 language: en
 category: freelancing, talent hiring, expert matching, marketplace, remote work, creative services, AI services
-last_updated: 2026-10-13
+last_updated: 2026-11-10

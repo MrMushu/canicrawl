@@ -9,6 +9,7 @@ Disallow: /search
 Disallow: /login?*
 Disallow: /signup?*
 Disallow: /m/*/archive
+Disallow: /tag/vm/investment_money/*?
 
 # /:urlname/~
 Disallow: /*/archives
@@ -40,6 +41,7 @@ Disallow: /intent/*
 Disallow: /wrap_up/*
 Disallow: /preview/*
 Disallow: /search
+Disallow: /tag/vm/investment_money/*?
 
 User-agent: Twitterbot
 Disallow: /*/message
