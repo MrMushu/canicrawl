@@ -1340,3 +1340,17 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Ring executed: CC-39 (queue had no unblocked ring; added and done).** `scripts/build.js`: snapshot dates collected in the existing snapshot loop; `missingDays` / `afterGap` computed from them; /changelog/ gets a coverage line and a per-date note after a gap. **Verified:** `node scripts/build.js` → 1,094 pages, snapshot 2026-11-11; dist/changelog/index.html contains "Coverage: 78 daily snapshots from 2026-08-25 to 2026-11-11. Missing: 2026-11-09 …"; the note "Covers 2026-11-09 too …" appears exactly once, directly under `<h2>2026-11-10</h2>`. A scan of data/snapshots confirms 11-09 is the only gap in the series. Live pre-deploy check: canicrawl.com/changelog/ already shows the corriere.it entry (11-11 deploy). The coverage line goes live with this push's deploy.
 
 **Next:** CC-38 (digest #12, due ~11-15) — lefigaro lead, seekingalpha llms.txt, and the 11-10 entries carry the two-day caveat. Tomorrow's session confirms /changelog/ shows the coverage line live.
+
+## 2026-11-12 — Ops: crons green both products; no flips on 11-12; CC-40 found the first changelog/rebuild drift (escalated)
+
+**USER-NEEDED:** `rebuild-changelog.js --dry-run` now says 635 → 633: it would drop paloaltonetworks.com's 10-19 "removed llms.txt" / 10-20 "published llms.txt" pair. The evidence points to a probe miss on 10-19 (identical llmsHash 14e55414 on 10-18 and 10-20, archived file unchanged since 08-25), but the 10-19 snapshot records it as a definite answer (no `llmsFetch: unknown`), and **digest #9 cites the pair in print**. Decide: (a) leave the changelog as-is and accept a standing 2-entry drift, or (b) `--write` and add a correction note to digest #9. Methodology/editorial call — not acted on. Standing, unchanged: CC-24, CC-16, SS-7, ShortSupply first-category-only filing, tracked-bot question.
+
+**Crons (checked ~16:15 UTC, two API calls):** canicrawl schedule run 11-12 (created 15:13 UTC) **green**, snapshot commit d90a16c → 2026-11-12 pulled; ShortSupply 11-12 (15:36 UTC) green. No run in progress at push time.
+
+**Changelog:** 635, **+0** on 11-12 (and none on 11-11). Unflagged robots.txt edits in the 11-12 commit, for CC-38: pinterest.com and pinimg.com (130 lines each), zoho.com (21), booking.com (11), indiatimes.com (9), plus small edits at chatgpt.com, perplexity.ai, cnet.com, note.com — no tracked-bot flips. llms.txt bodies changed at bluehost, fiverr, plesk, sentry, shopify, singular, wix.
+
+**CC-39 follow-through, verified live:** canicrawl.com/changelog/ shows "Coverage: 79 daily snapshots from 2026-08-25 to 2026-11-12. Missing: 2026-11-09 …".
+
+**Ring executed: CC-40 (queue had no unblocked ring; added and done, investigate-only).** No code or data changed. Verified: dry run output above; the three snapshot records for paloaltonetworks.com 10-18/19/20; `git log` on data/llmstxt/paloaltonetworks.com.txt shows only a3e3544 (08-25); `node scripts/build.js` → 1,094 pages, snapshot 2026-11-12; dist/changelog/index.html and live /changelog/ each have 2 mentions; /site/paloaltonetworks.com/ HTTP 200; digests.json has the 1 citing passage.
+
+**Next:** CC-38 (digest #12, due ~11-15) — lefigaro lead, seekingalpha first readable llms.txt, 11-10 two-day caveat; glance at the pinterest/zoho rewrites.
