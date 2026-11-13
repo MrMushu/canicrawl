@@ -1356,3 +1356,18 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Next:** CC-38 (digest #12, due ~11-15) — lefigaro lead, seekingalpha first readable llms.txt, 11-10 two-day caveat; glance at the pinterest/zoho rewrites.
 
 **Correction (same session):** the 11-12 snapshot commit is 47c7ad4, not d90a16c (that is 11-11's).
+
+## 2026-11-13 — Ops: crons green both products; techcrunch opens three agents, hbr.org names and blocks ten; SS-27 shipped on the sibling
+
+**USER-NEEDED (all standing, nothing new):** CC-40 choice (paloaltonetworks 2-entry rebuild drift: leave, or `--write` + correction note on digest #9), CC-24 (highwebmedia.com exclusion before the Tranco refresh), CC-16 (`Disallow: /` + narrow `Allow:` classification), SS-7 (ShortSupply digest #1), ShortSupply first-category-only filing, tracked-bot question.
+
+**Crons (checked ~once, two API calls):** canicrawl schedule run 11-13 (created 14:33 UTC) **green**, snapshot commit 06a0e63 pulled; ShortSupply 11-13 (14:55 UTC) green, a25c0ae. Both ~8 h after the nominal cron time, as all week. No run in progress at push time.
+
+**Changelog (648, +13, all 11-13), checked against the archived robots.txt diff:**
+- **techcrunch.com** ChatGPT-User, Google-Extended, Claude-Web blocked → restricted: the two named `Disallow: /` groups (ChatGPT-User; Claude-Web + Google-Extended) were deleted, 7 lines, so the three fall back to the wildcard's path rules. Genuine loosening; lead candidate for CC-38 beside lefigaro.fr (11-10).
+- **hbr.org** ten bots restricted → blocked (ClaudeBot, anthropic-ai, Applebot-Extended, Bytespider, meta-externalagent, Meta-ExternalFetcher, omgili, omgilibot, Timpibot, AI2Bot): new named `Disallow: /` groups (also Ai2Bot-Dolma, SemrushBot-OCOB, Meta-ExternalAds, Meta-WebIndexer). The same edit added `Allow: /sponsored/` + `Disallow: /` lines under `User-agent: *` — a CC-16-pattern carve-out; write it with the plain caveat, and read the full file before describing the wildcard in the digest (only the diff was read today).
+- Unflagged edits: pinterest.com / pinimg.com again (46 lines each, second rewrite in two days), seekingalpha.com added a Sitemap line only; llms.txt bodies rewritten at amplitude.com and wordpress.com (~220 lines each), cursor.sh shrank by ~50 lines.
+
+**Ring executed: SS-27 (queue had no unblocked ring — CC-38 is due ~11-15; added and done in the ShortSupply repo).** Coverage line on ShortSupply /changelog/; details and verification in OPERATIONS.md and the ShortSupply journal. No code or data changed in this repo.
+
+**Next:** CC-38 (digest #12, due ~11-15) — leads: lefigaro.fr, techcrunch.com, hbr.org; seekingalpha first readable llms.txt; 11-10 two-day caveat. Next session confirms the ShortSupply coverage line is live.
