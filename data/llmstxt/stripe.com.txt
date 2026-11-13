@@ -41,7 +41,6 @@
 ## Billing
 
 - [Stripe Billing](https://stripe.com/billing): Power your subscriptions with Stripe Billing. Set up recurring and usage-based pricing with APIs or within the Dashboard. Reduce churn with AI-powered tools.
-- [Stripe Billing features](https://stripe.com/billing/features): Learn more about Stripe Billing features.
 - [Usage-based billing](https://stripe.com/billing/usage-based-billing): Deploy usage-based and hybrid models faster. Support consumption billing, metered billing, token-based pricing, and other pricing models in one platform.
 - [Stripe Subscriptions](https://stripe.com/billing/subscriptions): Build and manage subscriptions at global scale. Launch pricing models in minutes, reduce churn automatically, and track performance metrics in one place.
 - [Stripe Billing pricing](https://stripe.com/billing/pricing): Get access to all Stripe Billing features with pricing that suits your business needs—pay as you go for more flexibility, or choose a subscription plan for more predictable monthly costs.

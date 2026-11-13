@@ -324,6 +324,7 @@ Disallow: /
 User-agent: YisouSpider
 Disallow: /
 
+Sitemap: https://seekingalpha.com/sitemap.xml
 Sitemap: https://seekingalpha.com/sitemap_news.xml
 Sitemap: https://seekingalpha.com/instablog/index.xml
 Sitemap: https://seekingalpha.com/news/index.xml

@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "filesScanned": 614,
  "distinctTokens": 2135,
  "aiCandidates": [
@@ -15,7 +15,7 @@
   },
   {
    "token": "Ai2Bot-Dolma",
-   "sites": 42,
+   "sites": 43,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",
@@ -84,22 +84,22 @@
    "aiHint": true
   },
   {
+   "token": "meta-externalads",
+   "sites": 13,
+   "sample": [
+    "capcut.com",
+    "disneyplus.com",
+    "hbr.org"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "Diffbot-User",
    "sites": 12,
    "sample": [
     "allrecipes.com",
     "bbc.co.uk",
     "bbc.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "meta-externalads",
-   "sites": 12,
-   "sample": [
-    "capcut.com",
-    "disneyplus.com",
-    "hulu.com"
    ],
    "aiHint": true
   },
@@ -397,7 +397,7 @@
   },
   {
    "token": "meta-webindexer",
-   "sites": 45,
+   "sites": 46,
    "sample": [
     "allrecipes.com",
     "amazon.ca",
@@ -417,7 +417,7 @@
   },
   {
    "token": "Ai2Bot-Dolma",
-   "sites": 42,
+   "sites": 43,
    "sample": [
     "amazon.ca",
     "amazon.co.jp",

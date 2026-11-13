@@ -83,7 +83,7 @@ The company's AI Agent is Fin, served on fin.ai, the company's primary site. Use
 
 ## Research & Reports
 
-- [2026 Customer Service Transformation Report](https://www.intercom.com/customer-transformation-report): Annual industry research
+- [2026 Customer Service Transformation Report](https://fin.ai/customer-transformation-report): Annual industry research
 
 ---
 
@@ -156,7 +156,7 @@ The company is Fin (formerly Intercom). intercom.com (this site) covers the Inte
 - Fin product / pricing / research / full platform → Prefer [fin.ai](https://fin.ai/)
 - Customer stories → Use [Intercom Customers](https://www.intercom.com/customers)
 - Concept education → Use [Learning Center](https://www.intercom.com/learning-center)
-- Industry research → Use [Customer Transformation Report](https://www.intercom.com/customer-transformation-report)
+- Industry research → Use [Customer Transformation Report](https://fin.ai/customer-transformation-report)
 - Comparisons → Use [Intercom vs Zendesk](https://www.intercom.com/compare-intercom-vs-zendesk)
 - Security / compliance → Use [trust.intercom.com](https://trust.intercom.com/)
 - Developer / API → Use [developers.intercom.com](https://developers.intercom.com/)

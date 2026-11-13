@@ -74,7 +74,7 @@ VPS hosting includes full root/sudo access and one-click deployment for popular 
 
 ## Email Services
 
-- [Business Email Hosting](https://www.dreamhost.com/products/email/) - Professional email at your own domain with 25GB storage per mailbox (free-trial mailboxes start at 1GB)
+- [Business Email Hosting](https://www.dreamhost.com/products/email/) - Professional email at your own domain with 25GB storage per mailbox, or 100GB with Professional Email Plus; monthly, yearly, or 2-year billing (free-trial mailboxes start at 1GB)
 - [Google Workspace](https://www.dreamhost.com/products/email/google-workspace/) - Gmail for business with Google's productivity suite
 - Email protocols: IMAP (port 993), POP3 (port 995), SMTP (port 587) with STARTTLS encryption
 - Sending limits: 100 recipients per hour, 25 emails per 15 minutes

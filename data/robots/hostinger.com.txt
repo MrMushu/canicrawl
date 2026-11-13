@@ -52,6 +52,7 @@ Disallow: */_nuxt/*
 Disallow: */tag/*
 Disallow: /cart-hosting/*
 Disallow: /api-proxy/
+Allow: /cdn-cgi/imagedelivery/
 Disallow: /cdn-cgi/
 Disallow: /cake/
 Disallow: /domain-name-results
@@ -433,6 +434,7 @@ Disallow: */_nuxt/*
 Disallow: */tag/*
 Disallow: /cart-hosting/*
 Disallow: /api-proxy/
+Allow: /cdn-cgi/imagedelivery/
 Disallow: /cdn-cgi/
 Disallow: /cake/
 Disallow: /domain-name-results

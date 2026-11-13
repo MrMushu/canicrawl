@@ -20,6 +20,7 @@ Disallow: /MbgRefund/
 Disallow: /mbgrefund/
 Disallow: /VehicleHistory/
 Disallow: /vehiclehistory/
+Disallow: /account/
 Disallow: /api/
 Disallow: /arsapi/
 Disallow: /auto-repair-shops/

@@ -618,6 +618,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Case Study
 
+- [Evolve brings two apps onto one attribution platform with Singular](https://www.singular.net/case-study/evolve-brings-two-apps-onto-one-attribution-platform-with-singular/)
 - [How Snowprint Studios gets more with Singular](https://www.singular.net/case-study/how-snowprint-studios-gets-more-with-singular/): We sat down with Arthur Chin, UA Lead at Snowprint Studios, to discuss how they get more out of their...
 - [How Ecosia put privacy first with Singular](https://www.singular.net/case-study/how-ecosia-put-privacy-first-with-singular/): We sat down with Maria Brigida Deleonardis, Paid Growth Lead at Ecosia, to discuss why they partnered with Singular to...
 - [How East Side Games streamlined UA‑creative collaboration with Creative IQ](https://www.singular.net/case-study/east-side-games-creative-iq/)
@@ -812,6 +813,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Glossary Terms
 
+- [Conversion value](https://www.singular.net/glossary/conversion-value/)
 - [Conversions API (CAPI)](https://www.singular.net/glossary/conversions-api/)
 - [Monthly active users (MAU)](https://www.singular.net/glossary/monthly-active-users-mau/)
 - [Deep linking](https://www.singular.net/glossary/deep-linking/)
@@ -1579,6 +1581,7 @@ You can't win in the hyper-competitive mobile market without good mobile app ret
 
 
 ## Case Study
+
 
 
 

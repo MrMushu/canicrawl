@@ -4977,6 +4977,110 @@
    "bot": "Amazonbot",
    "from": "blocked",
    "to": "allowed"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "techcrunch.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "techcrunch.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "techcrunch.com",
+   "kind": "bot-flip",
+   "bot": "Claude-Web",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "anthropic-ai",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "omgili",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "omgilibot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "Timpibot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-13",
+   "domain": "hbr.org",
+   "kind": "bot-flip",
+   "bot": "AI2Bot",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }

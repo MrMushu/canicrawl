@@ -240,6 +240,7 @@ Allow: /paid-content/dell-xps-14-battery-life-a-full-workday-unplugged/
 Allow: /paid-content/dji-builds-on-12-years-of-handheld-imaging-innovation-with-the-dji-osmo-360-ii/
 Allow: /paid-content/dji-osmo-pocket-4p-is-a-powerful-tool-for-independent-filmmakers/
 Allow: /paid-content/do-you-actually-need-a-separate-antivirus-vpn-and-scam-protection-mcafees-all-in-one-plans-have-you-covered/
+Allow: /paid-content/does-a-laptop-powered-by-snapdragon-really-last-all-week-what-to-expect-from-the-hp-omnibook-3/
 Allow: /paid-content/enjoy-unlimited-wi-fi-and-predictable-pricing-with-on-your-home-internet/
 Allow: /paid-content/from-tacos-to-tvs-doordash-delivers-your-game-day-essentials/
 Allow: /paid-content/galaxy-s26-camera-system-the-biggest-questions-answered-before-you-buy/
@@ -377,6 +378,7 @@ Allow: /paid-content/why-the-samsung-galaxy-s26-ultra-feels-like-the-first-phone
 Allow: /paid-content/how-to-check-if-t-mobile-fiber-is-available-at-your-address/
 Allow: /paid-content/why-you-need-a-cutting-edge-vpn-to-keep-you-safe-online/
 Allow: /paid-content/why-you-need-an-internet-provider-with-no-data-caps/
+Allow: /paid-content/will-my-apps-work-on-a-laptop-powered-by-snapdragon-a-plain-english-guide/
 Allow: /tech/mobile/apple-iphone-17-event-september-2025-what-to-expect/
 Allow: /tech/mobile/best-android-phone/
 Allow: /tech/mobile/best-cheap-phone/
