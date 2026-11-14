@@ -1371,3 +1371,18 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Ring executed: SS-27 (queue had no unblocked ring — CC-38 is due ~11-15; added and done in the ShortSupply repo).** Coverage line on ShortSupply /changelog/; details and verification in OPERATIONS.md and the ShortSupply journal. No code or data changed in this repo.
 
 **Next:** CC-38 (digest #12, due ~11-15) — leads: lefigaro.fr, techcrunch.com, hbr.org; seekingalpha first readable llms.txt; 11-10 two-day caveat. Next session confirms the ShortSupply coverage line is live.
+
+## 2026-11-14 — Ops: crons green both products; wiley.com blocks five user-triggered agents; SS-28 verified live on the sibling
+
+**USER-NEEDED (all standing, nothing new):** CC-40 choice (paloaltonetworks 2-entry rebuild drift: leave, or `--write` + correction note on digest #9), CC-24 (highwebmedia.com exclusion before the Tranco refresh), CC-16 (`Disallow: /` + narrow `Allow:` classification), SS-7 (ShortSupply digest #1), ShortSupply first-category-only filing, tracked-bot question.
+
+**Crons (one check, two API calls):** canicrawl schedule run 11-14 (created 13:29 UTC) **green**, snapshot commit b41b2d2 pulled; ShortSupply 11-14 (13:48 UTC) green. No run in progress at push time.
+
+**Changelog (653, +5, all 11-14):**
+- **wiley.com** ChatGPT-User, Claude-User, Perplexity-User, MistralAI-User, Meta-ExternalFetcher restricted → blocked. The archived robots.txt gained 174 lines: a `User-agent: *` group with `Content-Signal: search=yes,ai-train=no,use=reference`, a "# Training crawlers" section of named `Disallow: /` groups and an "# AI Agents" section. Only the five user-triggered agents moved; the training crawlers named there produced no flip, so they were blocked already. Only the first ~70 added lines were read today — read the whole file, and compare with wiley's 10-19..10-25 Cloudflare story in digest #9, before writing it up. Candidate for CC-38 beside lefigaro.fr (11-10), techcrunch.com and hbr.org (11-13).
+
+**Live follow-through:** canicrawl.com/changelog/ reads "Coverage: 81 daily snapshots from 2026-08-25 to 2026-11-14. Missing: 2026-11-09 …".
+
+**Ring executed: SS-28 (queue had no unblocked ring — CC-38 is due 11-15; added and done on the sibling, live verification, no code change).** Details in OPERATIONS.md and the ShortSupply journal. No code or data changed in this repo.
+
+**Next:** CC-38 (digest #12) is due tomorrow, 11-15 — leads: lefigaro.fr, techcrunch.com, hbr.org, wiley.com; seekingalpha first readable llms.txt; 11-10 two-day caveat.
