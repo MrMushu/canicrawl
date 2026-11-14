@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /*.md$
 Disallow: /content/dam/
 Disallow: /content/dam/pan/en_US/assets/pdf/legal/archive/
 Disallow: /content/pan/en_US/content/dam
@@ -103,7 +104,6 @@ Allow: /perspectives/wp-admin/admin-ajax.php
 Sitemap: https://www.paloaltonetworks.com/sitemap.xml
 Sitemap: https://www.paloaltonetworks.com/sitemap_home.xml
 Sitemap: https://www.paloaltonetworks.com/blog/sitemap_index.xml
-Sitemap: https://www.paloaltonetworks.com/devsectalks/sitemap_index.xml
 Sitemap: https://www.paloaltonetworks.com/perspectives/sitemap_index.xml
 
 User-agent: Twitterbot

@@ -322,7 +322,7 @@ _Source: https://docs.sentry.io/llms.txt_
 - [How monday.com Reduces Errors by 60% with Sentry](https://sentry.io/customers/monday-dot-com/): Reducing time to resolution to 10 minutes
 - [How Nextdoor finds the (right) people at the (right) time to fix the (right) issues](https://sentry.io/customers/nextdoor/): About Nextdoor Nextdoor is a trusted and essential community-building tool founded in 2008. With its platform, neighbors
 - [How Optimizely uses Sentry](https://sentry.io/customers/optimizely/): We spoke to Travis Beck, a software engineer at Optimizely. Optimizely enables businesses to deliver continuous experime
-- [How Orb Drives Billing Transparency with Sentry](https://sentry.io/customers/orb/): How Orb Drives Billing Transparency with Sentry
+- [Billing must be correct: How Orb uses Sentry to protect customer trust](https://sentry.io/customers/orb/): Billing must be correct: How Orb uses Sentry to protect customer trust
 - [How Out of Office builds personalized and seamless travel experiences with Sentry](https://sentry.io/customers/out-of-office/): How Out of Office builds personalized and seamless travel experiences with Sentry
 - [How Outfit7 uses Netlify and Sentry for Mobile App Development](https://sentry.io/customers/outfit7/): Hear from the team at gaming entertainment company Outfit7 about how they navigate the challenges of building mobile web
 - [How Panenco Improved API Performance and Reduced Response Time by up to 90%](https://sentry.io/customers/panenco/): Customer success is a critical function of our business' daily operations, and performance gives us a clear idea of how 

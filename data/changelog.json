@@ -5081,6 +5081,46 @@
    "bot": "AI2Bot",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-11-14",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-14",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Claude-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-14",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-14",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "MistralAI-User",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-14",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "restricted",
+   "to": "blocked"
   }
  ]
 }
