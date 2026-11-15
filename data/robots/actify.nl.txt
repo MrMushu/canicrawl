@@ -16,3 +16,4 @@ Disallow: /*?jaar=2021
 Disallow: /*?jaar=2022
 Disallow: /*?jaar=2023
 Disallow: /*?jaar=2024
+Disallow: /*?jaar=2025
