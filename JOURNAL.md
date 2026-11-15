@@ -1386,3 +1386,24 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Ring executed: SS-28 (queue had no unblocked ring — CC-38 is due 11-15; added and done on the sibling, live verification, no code change).** Details in OPERATIONS.md and the ShortSupply journal. No code or data changed in this repo.
 
 **Next:** CC-38 (digest #12) is due tomorrow, 11-15 — leads: lefigaro.fr, techcrunch.com, hbr.org, wiley.com; seekingalpha first readable llms.txt; 11-10 two-day caveat.
+
+## 2026-11-15 — Ops: crons green both products; no flips today; CC-38 shipped — digest #12 "Le Figaro takes OpenAI off its blocklist"
+
+**USER-NEEDED (all standing, nothing new):** CC-40 choice (paloaltonetworks 2-entry rebuild drift: leave, or `--write` + correction note on digest #9), CC-24 (highwebmedia.com exclusion before the Tranco refresh), CC-16 (`Disallow: /` + narrow `Allow:` classification), SS-7 (ShortSupply digest #1), ShortSupply first-category-only filing, tracked-bot question.
+
+**Crons (two checks, four API calls):** canicrawl schedule run 11-15 (created 13:55 UTC) **green**, snapshot commit 95b12f4 pulled; ShortSupply 11-15 (14:18 UTC) green, 717cb1c. No run in progress at push time.
+
+**Changelog:** 653, **+0** on 11-15.
+
+**Ring executed: CC-38 — digest #12**, window 11-09..11-15, appended to `data/digests.json` (data-only; no script changed). 22 entries, all flips, 15 tighter / 7 looser. Every story was read from the archived robots.txt diff at the day's snapshot commit:
+- **lefigaro.fr** (dated 11-10, diffed against 11-08 because 11-09 has no snapshot): 33 lines deleted, none added apart from four whitespace-only lines. Gone are the GPTBot, ChatGPT-User, OAI-SearchBot and ChatGPT Agent groups, i.e. every OpenAI name in the file. 18 → 15 tracked crawlers blocked.
+- **techcrunch.com** (11-13): 7 lines deleted; ChatGPT-User, Google-Extended, Claude-Web blocked → restricted; 12 → 9.
+- **hbr.org** (11-13): 14 new bare `Disallow: /` groups, ten tracked; 3 → 13.
+- **wiley.com** (11-14): +174 lines, −0. It is a **second copy** of the Cloudflare managed section placed above the first; the new copy has the same 32 names plus a 15-name "# AI Agents" part, which is where the five flips come from; 13 → 18. The other four cohort members' archived files have no "# AI Agents" part.
+- **corriere.it**: Amazonbot `Disallow: /` → `Allow: /` (11-10 entry); on 11-11 it added `__usage_ai-training`, the 11th file with that token.
+
+**Correction to the 11-13 entry:** hbr.org did not add "`Allow: /sponsored/` + `Disallow: /` lines under `User-agent: *`". Only `Allow: /sponsored/` was added to the wildcard group, which has no site-wide disallow, so it is not a CC-16-pattern carve-out. The digest says so.
+
+**Verified:** `node scripts/build.js` → 1,095 pages (was 1,094), snapshot 2026-11-15; dist/digest/12/index.html 15,421 bytes, 0 leaked `${`; 54/54 internal links resolve; seven load-bearing strings read back from the page; sitemap has digest/12/ once, /digest/ lists it, digest/rss.xml has 12 items; `git diff --numstat` on digests.json is 7 / 0 and issues #1–#11 are identical to HEAD. Numbers with build.js's definitions: 210 of 646 = 32.5% (homepage card reads the same); 211 → 210 is gosuslugi.ru going unreachable, no site in or out by edit; readable +miit.gov.cn, −gosuslugi.ru, −livejournal.com, −tplinkcloud.com. Cohorts by `git grep` at 0bf75df and 95b12f4: Cloudflare Managed 5 → 5, robotstxt.com/ai 2 → 2, Content Signals 27 → 28 (+surveymonkey.com, 11-11, `search=yes, ai-input=yes`). llms.txt 130 → 132: seekingalpha.com (first file read 11-10, last definite "no" 08-29) and time.com (answered today, its sixth answering day); neither has a changelog entry, by design. Per-bot counts reconciled site by site (GPTBot 144 → 142, ChatGPT-User 94 → 92, OAI-SearchBot 79 → 77, Meta-ExternalFetcher 97 → 98). `rebuild-changelog.js --dry-run`: 653 → 651, the same two paloaltonetworks.com entries as CC-40, gained 0. Not checked: the live page (deploy follows this push) and a real-browser render.
+
+**Next:** CC-41 (digest #13, due ~11-22). Next session confirms canicrawl.com/digest/12/ is live.
