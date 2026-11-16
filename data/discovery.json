@@ -1,7 +1,7 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "filesScanned": 614,
- "distinctTokens": 2138,
+ "distinctTokens": 2150,
  "aiCandidates": [
   {
    "token": "img2dataset",
@@ -84,22 +84,22 @@
    "aiHint": true
   },
   {
+   "token": "Diffbot-User",
+   "sites": 13,
+   "sample": [
+    "allrecipes.com",
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "meta-externalads",
    "sites": 13,
    "sample": [
     "capcut.com",
     "disneyplus.com",
     "hbr.org"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "Diffbot-User",
-   "sites": 12,
-   "sample": [
-    "allrecipes.com",
-    "bbc.co.uk",
-    "bbc.com"
    ],
    "aiHint": true
   },
@@ -164,22 +164,22 @@
    "aiHint": true
   },
   {
+   "token": "MistralAI-Training",
+   "sites": 5,
+   "sample": [
+    "airbnb.com",
+    "gamespot.com",
+    "kick.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "Perplexity-ai",
    "sites": 5,
    "sample": [
     "aol.com",
     "msn.com",
     "nikkei.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "MistralAI-Training",
-   "sites": 4,
-   "sample": [
-    "airbnb.com",
-    "gamespot.com",
-    "kick.com"
    ],
    "aiHint": true
   },
@@ -240,6 +240,16 @@
     "academia.edu",
     "chatgpt.com",
     "launchpad.net"
+   ],
+   "aiHint": true
+  },
+  {
+   "token": "Google-GeminiNotebook",
+   "sites": 3,
+   "sample": [
+    "capcut.com",
+    "lemonde.fr",
+    "wiley.com"
    ],
    "aiHint": true
   },

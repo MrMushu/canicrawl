@@ -762,6 +762,9 @@ Disallow: */widget/*
 Disallow: /map-regular.xml
 Disallow: /map-videofull.xml
 
+User-agent: Bytespider
+Disallow: /
+
 Sitemap: https://www.dailymotion.com/map-videos-latest.xml
 Sitemap: https://www.dailymotion.com/map-videos-default-strategic.xml
 Sitemap: https://www.dailymotion.com/map-videos-default-partner.xml
