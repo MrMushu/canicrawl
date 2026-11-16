@@ -1407,3 +1407,18 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Verified:** `node scripts/build.js` → 1,095 pages (was 1,094), snapshot 2026-11-15; dist/digest/12/index.html 15,421 bytes, 0 leaked `${`; 54/54 internal links resolve; seven load-bearing strings read back from the page; sitemap has digest/12/ once, /digest/ lists it, digest/rss.xml has 12 items; `git diff --numstat` on digests.json is 7 / 0 and issues #1–#11 are identical to HEAD. Numbers with build.js's definitions: 210 of 646 = 32.5% (homepage card reads the same); 211 → 210 is gosuslugi.ru going unreachable, no site in or out by edit; readable +miit.gov.cn, −gosuslugi.ru, −livejournal.com, −tplinkcloud.com. Cohorts by `git grep` at 0bf75df and 95b12f4: Cloudflare Managed 5 → 5, robotstxt.com/ai 2 → 2, Content Signals 27 → 28 (+surveymonkey.com, 11-11, `search=yes, ai-input=yes`). llms.txt 130 → 132: seekingalpha.com (first file read 11-10, last definite "no" 08-29) and time.com (answered today, its sixth answering day); neither has a changelog entry, by design. Per-bot counts reconciled site by site (GPTBot 144 → 142, ChatGPT-User 94 → 92, OAI-SearchBot 79 → 77, Meta-ExternalFetcher 97 → 98). `rebuild-changelog.js --dry-run`: 653 → 651, the same two paloaltonetworks.com entries as CC-40, gained 0. Not checked: the live page (deploy follows this push) and a real-browser render.
 
 **Next:** CC-41 (digest #13, due ~11-22). Next session confirms canicrawl.com/digest/12/ is live.
+
+## 2026-11-16 — Ops: crons green both products; dailymotion.com blocks Bytespider; CC-42 digest #12 confirmed live
+
+**USER-NEEDED (all standing, nothing new):** CC-40 choice (paloaltonetworks 2-entry rebuild drift: leave, or `--write` + correction note on digest #9), CC-24 (highwebmedia.com exclusion before the Tranco refresh — today is a Monday and the weekly refresh stays deferred behind it), CC-16 (`Disallow: /` + narrow `Allow:` classification), SS-7 (ShortSupply digest #1), ShortSupply first-category-only filing, tracked-bot question.
+
+**Crons (one check, two API calls):** canicrawl schedule run 11-16 (created 15:44 UTC) **green**, snapshot commit faa3773 pulled; ShortSupply 11-16 (16:26 UTC) green, 6b61aa4. Both completed before this session; no run in progress at push time.
+
+**Changelog (654, +1, 11-16):**
+- **dailymotion.com** Bytespider restricted → blocked. The archived robots.txt gained exactly three lines, a `User-agent: Bytespider` / `Disallow: /` group; nothing removed.
+- No flip, but banked for CC-41: **lemonde.fr** added 21 `Disallow: /` groups (+64 lines, −1), none for a bot we track (amazon-bedrock-knowledgebase, Google-GeminiNotebook, MistralAI-Training, MiniMaxAgent, HaikuBot, ProRataInc and others). Not yet compared with data/discovery.json.
+- etsy.com (+62 path rules for /join/email and forums_thread.php per locale), pinterest.com/pinimg.com and others changed without touching AI groups.
+
+**Ring executed: CC-42 — live confirmation of digest #12, no code change** (queue had no unblocked ring; CC-41 is due ~11-22; added and done). **Verified:** canicrawl.com/digest/12/ HTTP 200 and byte-identical (15,435 bytes) to a local `node scripts/build.js` (1,095 pages, snapshot 2026-11-16); /digest/ links it with its title; digest/rss.xml has 12 items; live sitemap.xml has 1,093 `<loc>`, the same set as the local build; /changelog/ shows the coverage line through 11-16 with 11-09 missing, and today's dailymotion entry. `git status` clean after the build apart from this entry and OPERATIONS.md. Not checked: a real-browser render.
+
+**Next:** CC-41 (digest #13, due ~11-22) — banked: dailymotion.com, lemonde.fr's 21 untracked names.
