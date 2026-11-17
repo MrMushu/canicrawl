@@ -140,6 +140,7 @@ Disallow: /maps/not-available.html
 Disallow: /privacy/policy/
 Disallow: /global-search/search*
 Disallow: /mktg/
+Disallow: /mktgtg1/
 
 Allow: /mktg/v1/_next/
 

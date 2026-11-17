@@ -1,7 +1,7 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "filesScanned": 614,
- "distinctTokens": 2150,
+ "distinctTokens": 2168,
  "aiCandidates": [
   {
    "token": "img2dataset",
@@ -487,7 +487,7 @@
   },
   {
    "token": "ShapBot",
-   "sites": 36,
+   "sites": 37,
    "sample": [
     "allrecipes.com",
     "amazon.ca",
@@ -596,6 +596,16 @@
    "aiHint": false
   },
   {
+   "token": "ChatGLM-Spider",
+   "sites": 27,
+   "sample": [
+    "amazon.ca",
+    "amazon.co.jp",
+    "amazon.co.uk"
+   ],
+   "aiHint": false
+  },
+  {
    "token": "YaK",
    "sites": 27,
    "sample": [
@@ -617,16 +627,6 @@
   },
   {
    "token": "SemrushBot-SWA",
-   "sites": 26,
-   "sample": [
-    "amazon.ca",
-    "amazon.co.jp",
-    "amazon.co.uk"
-   ],
-   "aiHint": false
-  },
-  {
-   "token": "ChatGLM-Spider",
    "sites": 26,
    "sample": [
     "amazon.ca",
@@ -716,12 +716,12 @@
    "aiHint": false
   },
   {
-   "token": "Yisouspider",
+   "token": "LinkUpBot",
    "sites": 23,
    "sample": [
     "allrecipes.com",
-    "baidu.com",
-    "bloomberg.com"
+    "amazon.ca",
+    "amazon.co.jp"
    ],
    "aiHint": false
   }

@@ -59,7 +59,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [New Relic for Nonprofits](https://newrelic.com/social-impact/signup): Get powerful tech without the high cost. New Relic for nonprofits provides free and discounted access to help mission-driven organizations optimize performance and maximize impact.
 - [Solutions - Public Sector IT](https://newrelic.com/solutions/industry/public-sector): New Relic delivers the deep visibility stakeholders need for insights into their most critical workloads, all backed by the highest security standards.
 - [Retail and e-commerce monitoring](https://newrelic.com/solutions/industry/retail-and-ecommerce-monitoring): Predict issues before they impact revenue. Monitor every touchpoint from mobile apps to checkout with AI-powered observability for retail.
-- [New Relic for Startups](https://newrelic.com/solutions/industry/startups): New Relic for Startups: free platform access, every AI feature, and the engineers who help you launch and scale. A partnership, not just credits.
 ## Enterprise
 
 - [Enterprise Observability](https://newrelic.com/solutions/enterprise-monitoring): AI-driven for speed and power, New Relic is how enterprises outsmart complexity to get more from their technology by taking enterprise monitoring to the next level.

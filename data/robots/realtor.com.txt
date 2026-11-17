@@ -7,6 +7,7 @@ Allow: /advice/*?cid=
 Allow: /guides/*?cid=
 Allow: /living/*?cid=
 Allow: /realestateandhomes-search/*/price-na-
+Disallow: /listing-showcase
 Disallow: /news/draft/
 Disallow: /advice/draft/
 Disallow: /guides/draft/
@@ -129,6 +130,7 @@ Disallow: /realestateandhomes-search/*/pg-*/show-recently-sold
 Disallow: /realestateandhomes-search/*/radius-
 Disallow: /realestateandhomes-search/undefined
 Disallow: /realestateteam/bright-birch-real-estate__mn_1639730
+Disallow: /rental-showcase
 Disallow: /rentals/*?view=map*
 Disallow: /rentals/api/optimizely.js
 Disallow: /restricted
@@ -379,6 +381,8 @@ Allow: /living/*?cid=
 Allow: /realestateagents/*?cid=
 Allow: /realestateteams/*?cid=
 Allow: /realestateagency/*?cid=
+Allow: /listing-showcase
+Allow: /rental-showcase
 
 User-agent: Twitterbot
 Allow: /realestateandhomes-detail/*?cid=
@@ -390,6 +394,8 @@ Allow: /living/*?cid=
 Allow: /realestateagents/*?cid=
 Allow: /realestateteams/*?cid=
 Allow: /realestateagency/*?cid=
+Allow: /listing-showcase
+Allow: /rental-showcase
 
 User-agent: Pinterestbot
 Allow: /realestateandhomes-detail/*?cid=
@@ -401,6 +407,16 @@ Allow: /living/*?cid=
 Allow: /realestateagents/*?cid=
 Allow: /realestateteams/*?cid=
 Allow: /realestateagency/*?cid=
+Allow: /listing-showcase
+Allow: /rental-showcase
+
+User-agent: Slackbot
+Allow: /listing-showcase
+Allow: /rental-showcase
+
+User-agent: LinkedInBot
+Allow: /listing-showcase
+Allow: /rental-showcase
 
 User-agent: OAI-AdsBot
 Disallow: /

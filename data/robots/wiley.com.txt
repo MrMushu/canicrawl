@@ -345,6 +345,8 @@ Disallow: /
 User-agent: Barkrowler
 Disallow: /
 
+User-agent: QualifiedBot
+Allow: /
 
 # Account Pages
 Disallow: /login

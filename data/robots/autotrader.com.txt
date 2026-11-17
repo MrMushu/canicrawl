@@ -290,10 +290,6 @@ Disallow: /wp-json/inventory/
 User-agent: OAI-SearchBot
 Disallow: /cars-for-sale/srp-dark/
 Disallow: /cars-for-sale/vehicle-dark/
-Disallow: /*.js
-Disallow: /*.css
-Disallow: /*.json
-Disallow: /api/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/

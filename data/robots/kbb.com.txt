@@ -131,10 +131,8 @@ Disallow: */pixall
 Disallow: /category/0/
 
 User-agent: OAI-SearchBot
-Disallow: /*.js
-Disallow: /*.css
-Disallow: /*.json
-Disallow: /api/
+Disallow: */srp-dark/
+Disallow: */vehicle-dark/
 Disallow: */pep
 Disallow: /pep
 Disallow: /kbbreport/

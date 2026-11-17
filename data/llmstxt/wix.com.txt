@@ -136,6 +136,8 @@ Wix combines a drag-and-drop visual editor, AI creation tools, and a full suite 
 ## Wixel — Creative Tools
 
 - [Wixel](https://www.wix.com/wixel): Wixel is an AI-powered design platform by Wix that turns ideas into images, videos, social posts, logos, documents, forms, resumes, and PDFs via a conversational AI agent.
+- [Wixel MCP](https://www.wix.com/wixel/explore/mcp): Wixel MCP is a connector that adds Wixel to AI assistants that support the Model Context Protocol, including Claude, ChatGPT, Cursor and Claude Code, so you can create images, videos, logos, social posts, slide decks and docs on brand from a chat. The server URL is https://mcp.wix.com/wixel.
+- [Wixel MCP setup for AI agents](https://www.wix.com/wixel/explore/llms.txt): Plain-text instructions for an AI agent to add the Wixel MCP: the server URL and name, how sign-in works, and the steps for Claude, ChatGPT, Claude Code, Cursor and other MCP clients, with the Claude Code command and the Cursor configuration ready to copy.
 - [Photo editor](https://www.wix.com/wixel/photo-editor): Wixel Photo Editor is a free online tool that crops, adjusts colors, applies filters, removes and swaps backgrounds, enhances photos with AI, and extends borders, with no watermarks.
 - [AI image generator](https://www.wix.com/wixel/ai-image-generator): Wixel AI Image Generator is a free text-to-image tool that turns prompts into high-quality images in selectable styles, offering four variations and export in WebP, PNG, or JPG.
 - [AI art generator](https://www.wix.com/wixel/ai-art-generator): Wixel AI Art Generator is a free tool creating original artwork from text prompts or reference images in artistic styles, generating multiple variations downloadable in PNG, JPG, or WebP.
