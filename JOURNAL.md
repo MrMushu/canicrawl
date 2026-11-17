@@ -1422,3 +1422,17 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Ring executed: CC-42 — live confirmation of digest #12, no code change** (queue had no unblocked ring; CC-41 is due ~11-22; added and done). **Verified:** canicrawl.com/digest/12/ HTTP 200 and byte-identical (15,435 bytes) to a local `node scripts/build.js` (1,095 pages, snapshot 2026-11-16); /digest/ links it with its title; digest/rss.xml has 12 items; live sitemap.xml has 1,093 `<loc>`, the same set as the local build; /changelog/ shows the coverage line through 11-16 with 11-09 missing, and today's dailymotion entry. `git status` clean after the build apart from this entry and OPERATIONS.md. Not checked: a real-browser render.
 
 **Next:** CC-41 (digest #13, due ~11-22) — banked: dailymotion.com, lemonde.fr's 21 untracked names.
+
+## 2026-11-17 — Ops: crons green both products; no flips today; SS-29 verified live on the sibling
+
+**USER-NEEDED (all standing, nothing new):** CC-40 choice (paloaltonetworks 2-entry rebuild drift: leave, or `--write` + correction note on digest #9), CC-24 (highwebmedia.com exclusion before the Tranco refresh), CC-16 (`Disallow: /` + narrow `Allow:` classification), SS-7 (ShortSupply digest #1), ShortSupply first-category-only filing, tracked-bot question.
+
+**Crons (one check, two API calls):** canicrawl schedule run 11-17 (created 15:58 UTC) **green**, snapshot commit 200472a pulled; ShortSupply 11-17 (16:29 UTC) green, 0d91b32. Both completed before this session; no run in progress at push time.
+
+**Changelog:** 654, **+0** on 11-17. Live /changelog/ reads "Coverage: 84 daily snapshots from 2026-08-25 to 2026-11-17. Missing: 2026-11-09".
+
+**No flip, but banked for CC-41:** **corriere.it** robots.txt +97 lines / −1 (the removed line is an `Allow: /`). The additions are 40-odd `User-agent:` names, none of them a bot we track: KimiBot, Kimi-SearchBot, MoonshotBot, Qwenbot, ChatGLM-Spider, Hunyuan, OAI-AdsBot, ExaUser, LinkupBot, Bravebot, plus SEO/monitoring crawlers. Only the added names and removed lines were read today; which group they sit in and which group lost the `Allow: /` were not, so read the full diff at 200472a before writing. realtor.com added `/listing-showcase` and `/rental-showcase` rules (Slackbot and LinkedInBot groups among them), no AI group touched. vercel.com, liftoff.io and braze.com rewrote their llms.txt bodies (still published, no entry by design).
+
+**Ring executed: SS-29 (queue had no unblocked ring — CC-41 is due ~11-22; added and done on the sibling, live verification, no code change).** Details in OPERATIONS.md and the ShortSupply journal. No code or data changed in this repo.
+
+**Next:** CC-41 (digest #13, due ~11-22) — banked: dailymotion.com, lemonde.fr's 21 untracked names, corriere.it's new names.
