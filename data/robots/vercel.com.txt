@@ -16,9 +16,9 @@ Disallow: /notifications
 Disallow: /old-browser.html
 Disallow: /preauthorize
 Disallow: /invites/
-# No-index author pages (direct URL only, also marked noindex/nofollow)
-Disallow: /blog/authors
-Disallow: /changelog/authors
+# Pages that should stay out of search (like /blog/authors and /changelog/authors)
+# use a noindex meta tag instead of a Disallow here. Crawlers have to fetch a
+# page to see its noindex, and a disallowed URL can still be indexed from links.
 
 
 

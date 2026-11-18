@@ -44,6 +44,8 @@ User-agent: opencode
 User-agent: TerraCotta
 User-agent: Trae
 Allow: /sponsored/
+Allow: /articles/experimenting-with-galaxy-ai-camera-features-like-night-mode-generative-edit-and-more
+Allow: /articles/how-ai-assisted-gaming-on-the-galaxy-s25-means-extended-play-time-and-optimized-performance
 Disallow: /
 
 #Block AI content scrapers

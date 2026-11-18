@@ -1,6 +1,6 @@
 # Vercel
 
-> Vercel is the agentic infrastructure company. Developers and agents use its cloud platform to build, ship, and run AI agents and applications. Vercel is the team behind Next.js and AI SDK.
+> Vercel is the agentic infrastructure company. As the team behind Next.js, AI SDK and eve, Vercel is the platform where humans and AI agents build, deploy and run software together. Vercel is trusted by Meta, OpenAI, Ramp, and millions of developers worldwide to ship what’s next.
 
 This file indexes vercel.com for AI agents. Most vercel.com pages are available as Markdown. Add `.md` to the URL (`https://vercel.com/pricing.md`), or request the usual URL with the HTTP header `Accept: text/markdown`.
 

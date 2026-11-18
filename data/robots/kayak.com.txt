@@ -1,5 +1,5 @@
-#Build version: R844a
-#Generated on: Tue Nov 17 01:00:00 EST 2026
+#Build version: R844b
+#Generated on: Wed Nov 18 01:00:00 EST 2026
 
 User-agent: *
 Allow: /api/search/V8/hotel/

@@ -5129,6 +5129,13 @@
    "bot": "Bytespider",
    "from": "restricted",
    "to": "blocked"
+  },
+  {
+   "date": "2026-11-18",
+   "domain": "tumblr.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

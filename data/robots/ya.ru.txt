@@ -644,7 +644,6 @@ Disallow: /nmaps/*?
 Disallow: /mapeditor/*?
 Disallow: /metro/*?from
 Disallow: /neuralsearch/api
-Disallow: /neurum
 Disallow: /n?
 Disallow: /n$
 Disallow: /n/
@@ -1100,10 +1099,7 @@ Disallow: /finance/
 
 Sitemap: https://ya.ru/medicine/sitemaps/sitemap.xml
 Sitemap: https://ya.ru/finance/sitemaps/sitemap.xml
-Sitemap: https://ya.ru/neurum/sitemaps/sitemap.xml.gz
 
-User-Agent: YandexAdditional
-Disallow: /neurum
 
 Clean-Param: ncrnd&redircnt&clid&_&win&redirect_ts /
 Clean-Param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&utm_nooverride&utm_expid&gclid&_openstat&yclid&gsaid&_gs_rmark&_gs_ref&_gs_cttl&iframe /health/

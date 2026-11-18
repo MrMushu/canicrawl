@@ -20,12 +20,12 @@ DigitalOcean is a cloud platform for building, deploying and scaling application
 - [AI Platform](https://www.digitalocean.com/products/ai-platform): Build generative AI applications and AI agents with serverless inference, multi-agent workflows and API access to large language models.
 - [App Platform](https://www.digitalocean.com/products/app-platform)
 - [Backups](https://www.digitalocean.com/products/backups)
-- [Bare Metal GPUs](https://www.digitalocean.com/products/bare-metal-gpus)
+- [Bare Metal GPUs](https://www.digitalocean.com/products/bare-metal-gpus): Unlock peak performance for AI and machine learning with Bare Metal GPUs. Run intensive workloads on dedicated, high-powered machines.
 - [Block Storage](https://www.digitalocean.com/products/block-storage): Network-based block devices that provide additional data storage for Droplets.
 - [Cloud Firewalls](https://www.digitalocean.com/products/cloud-firewalls): Network-based, stateful firewalls that restrict traffic to Droplets.
 - [Cloud Security Posture Management](https://www.digitalocean.com/products/cloud-security-posture-management)
 - [Cloudways](https://www.digitalocean.com/products/cloudways)
-- [Container Registry](https://www.digitalocean.com/products/container-registry)
+- [Container Registry](https://www.digitalocean.com/products/container-registry): Use DigitalOcean's container registry to store and manage private container images for rapid deployment to Kubernetes.
 - [Data Services](https://www.digitalocean.com/products/data-services)
 - [DDoS Protection](https://www.digitalocean.com/products/ddos-protection): Always-on protection from distributed denial-of-service (DDoS) attacks for applicable DigitalOcean resources.
 - [Droplets](https://www.digitalocean.com/products/droplets)
@@ -39,7 +39,7 @@ DigitalOcean is a cloud platform for building, deploying and scaling application
 - [Learning Services](https://www.digitalocean.com/products/learning-services): Signals flags production failures in AI agents and models. Evaluations and Simulations test fixes on multi-turn scenarios before they ship.
 - [Evaluations](https://www.digitalocean.com/products/learning-services/evaluations): Validate any model or router on your own data before production. Run LLM evaluations comparing quality and performance across your inference stack.
 - [Ubuntu](https://www.digitalocean.com/products/linux-distribution/ubuntu): Blazing fast and incredibly simple - Spin up Ubuntu hosting using our easy 1-click installer. Up and running in seconds.
-- [Load Balancers](https://www.digitalocean.com/products/load-balancers): Distribute traffic across pools of backend resources for high availability setups.
+- [Load Balancers](https://www.digitalocean.com/products/load-balancers): Load balancing, simplified. Scale your apps and improve availability, security and performance across your infrastructure.
 - [Managed Agents](https://www.digitalocean.com/products/managed-agents)
 - [Managed Databases](https://www.digitalocean.com/products/managed-databases)
 - [Managed Databases Kafka](https://www.digitalocean.com/products/managed-databases-kafka): Managed Kafka, an open-source distributed event and stream-processing platform for real-time data feeds.
@@ -48,6 +48,7 @@ DigitalOcean is a cloud platform for building, deploying and scaling application
 - [Managed Databases OpenSearch](https://www.digitalocean.com/products/managed-databases-opensearch): Managed OpenSearch, an open-source search and analytics suite.
 - [Managed Databases PostgreSQL](https://www.digitalocean.com/products/managed-databases-postgresql): Managed PostgreSQL, an open source, object-relational database built with extensibility, data integrity and speed in mind.
 - [Managed Databases Valkey](https://www.digitalocean.com/products/managed-databases-valkey)
+- [MicroVMs](https://www.digitalocean.com/products/microvms): Run your container image in its own hardware-isolated VM. MicroVMs typically start in under a second, pause when idle, and resume right where they left off.
 - [Model Library](https://www.digitalocean.com/products/model-library): Explore DigitalOcean Model Library. Compare models: OpenAI, Anthropic, Meta. Test in Model Playground. Deploy with Serverless or Dedicated Inference.
 - [Monitoring](https://www.digitalocean.com/products/monitoring): Track Droplet resource usage, view performance metrics and receive alerts.
 - [Networking](https://www.digitalocean.com/products/networking): Excellent worldwide connectivity, robust networking products, Tier-1 bandwidth, and redundant 40G hypervisor connections.
@@ -71,12 +72,13 @@ DigitalOcean is a cloud platform for building, deploying and scaling application
 - [Cloud Security Posture Management pricing](https://www.digitalocean.com/pricing/cloud-security-posture-management)
 - [Container Registry pricing](https://www.digitalocean.com/pricing/container-registry)
 - [Droplets pricing](https://www.digitalocean.com/pricing/droplets)
-- [GPU Droplets pricing](https://www.digitalocean.com/pricing/gpu-droplets)
 - [Functions pricing](https://www.digitalocean.com/pricing/functions)
+- [GPU Droplets pricing](https://www.digitalocean.com/pricing/gpu-droplets)
 - [Harness Runtime pricing](https://www.digitalocean.com/pricing/harness-runtime)
 - [Kubernetes pricing](https://www.digitalocean.com/pricing/kubernetes)
 - [Load Balancers pricing](https://www.digitalocean.com/pricing/load-balancers)
 - [Managed Databases pricing](https://www.digitalocean.com/pricing/managed-databases)
+- [Microvms pricing](https://www.digitalocean.com/pricing/microvms)
 - [Network File Storage pricing](https://www.digitalocean.com/pricing/network-file-storage)
 - [Spaces Object Storage pricing](https://www.digitalocean.com/pricing/spaces-object-storage)
 - [Support pricing](https://www.digitalocean.com/pricing/support)
