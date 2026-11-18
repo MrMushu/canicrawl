@@ -1436,3 +1436,17 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Ring executed: SS-29 (queue had no unblocked ring — CC-41 is due ~11-22; added and done on the sibling, live verification, no code change).** Details in OPERATIONS.md and the ShortSupply journal. No code or data changed in this repo.
 
 **Next:** CC-41 (digest #13, due ~11-22) — banked: dailymotion.com, lemonde.fr's 21 untracked names, corriere.it's new names.
+
+## 2026-11-18 — Ops: crons green both products; tumblr.com publishes llms.txt; theinformation.com readable for the first time; SS-30 verified live on the sibling
+
+**USER-NEEDED (all standing, nothing new):** CC-40 choice (paloaltonetworks 2-entry rebuild drift: leave, or `--write` + correction note on digest #9), CC-24 (highwebmedia.com exclusion before the Tranco refresh), CC-16 (`Disallow: /` + narrow `Allow:` classification), SS-7 (ShortSupply digest #1), ShortSupply first-category-only filing, tracked-bot question.
+
+**Crons (one check, two API calls):** canicrawl schedule run 11-18 (created 15:38 UTC) **green**, snapshot commit 27be367 pulled; ShortSupply 11-18 (15:58 UTC) green. Both completed before this session; no run in progress at push time.
+
+**Changelog:** 655, **+1** on 11-18 — **tumblr.com** now publishes llms.txt (false → true). Bot verdicts unchanged (ClaudeBot still named-blocked there).
+
+**Banked for CC-41 (no flip entries):** **theinformation.com** went fetch-blocked → ok, so its robots.txt is readable for the first time in our series (first raw copy in data/robots/ at 27be367). It names GPTBot and Google-Extended in one group with `Disallow: /` + `Allow: /$` (homepage only) — the CC-16 carve-out pattern, so GPTBot reads `blocked`; others fall to the wildcard (`restricted`). Unknown → known is not a flip by design, so no changelog entry; if written up, say "first readable" not "started blocking". **dailymail.co.uk/.com** added a group naming Apify, ApifyWebsiteContentCrawler, Bravebot, Newscatcher, NewscatcherBot, Reflectionbot (untracked; check data/discovery.json and read which directive the group carries before writing). usatoday.com added AhrefsSiteAudit with Crawl-delay; pinterest/pinimg rewrote ~127 lines with no `User-agent:` line changed. Only diff lines were read today.
+
+**Ring executed: SS-30 (queue had no unblocked ring — added and done on the sibling, live verification, no code change).** Details in OPERATIONS.md and the ShortSupply journal. No code or data changed in this repo.
+
+**Next:** CC-41 (digest #13, due ~11-22) — banked: dailymotion.com, lemonde.fr's 21 untracked names, corriere.it's new names, tumblr llms.txt, theinformation.com first read, dailymail's new group.
