@@ -28,7 +28,7 @@ DigitalOcean is a cloud platform for building, deploying and scaling application
 - [Container Registry](https://www.digitalocean.com/products/container-registry): Use DigitalOcean's container registry to store and manage private container images for rapid deployment to Kubernetes.
 - [Data Services](https://www.digitalocean.com/products/data-services)
 - [DDoS Protection](https://www.digitalocean.com/products/ddos-protection): Always-on protection from distributed denial-of-service (DDoS) attacks for applicable DigitalOcean resources.
-- [Droplets](https://www.digitalocean.com/products/droplets)
+- [Droplets](https://www.digitalocean.com/products/droplets): DigitalOcean Droplets are simple, scalable virtual machines. Spin up Basic, General Purpose, Memory-, or CPU-Optimized VMs in seconds.
 - [Droplets CPU Optimized](https://www.digitalocean.com/products/droplets/cpu-optimized): The CPU-Optimized Droplet plans, one of the Droplet plan families alongside Basic, General Purpose and Memory-Optimized.
 - [Functions](https://www.digitalocean.com/products/functions)
 - [GPU Droplets](https://www.digitalocean.com/products/gpu-droplets)

@@ -116,6 +116,8 @@ Disallow: /enter-password
 Disallow: /*/enter-password
 Disallow: /create-password
 Disallow: /*/create-password
+Disallow: /identity/login
+Disallow: /*/identity/login
 Disallow: /welcome/responder
 
 # Announce Sitemap

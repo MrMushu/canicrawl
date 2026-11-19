@@ -5136,6 +5136,93 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "DuckAssistBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "cohere-training-data-crawler",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "YouBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "AI2Bot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "DeepSeekBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "GrokBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "theatlantic.com",
+   "kind": "bot-flip",
+   "bot": "PanguBot",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-19",
+   "domain": "hilton.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

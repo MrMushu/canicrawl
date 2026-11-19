@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-
+Sitemap: https://www.cloudns.net/sitemap.xml
+Sitemap: https://www.cloudns.net/blog/sitemap_index.xml

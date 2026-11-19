@@ -247,6 +247,11 @@ Disallow: /booking/
 Disallow: /promotions/
 Disallow: /catalog/*/compare-equipment
 Sitemap: https://www.avito.ru/sitemap/index.xml
+Sitemap: https://www.avito.ru/sitemap/site/canonical_serp_detskaya_odezhda_i_obuv_29_8_0.xml.gz
+Sitemap: https://www.avito.ru/sitemap/site/canonical_serp_krasota_i_zdorove_88_2_0.xml.gz
+Sitemap: https://www.avito.ru/sitemap/site/item_bytovaya_tehnika_21_0.xml.gz
+Sitemap: https://www.avito.ru/sitemap/site/item_remont_i_stroitelstvo_19_76.xml.gz
+Sitemap: https://www.avito.ru/sitemap/site/item_vakansii_111_8.xml.gz
 
 User-agent: *
 Disallow: /*/postavshchiki/

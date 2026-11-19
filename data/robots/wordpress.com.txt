@@ -7,6 +7,7 @@ Sitemap: https://wordpress.com/news-sitemap.xml
 Sitemap: https://wordpress.com/go/sitemap.xml
 Sitemap: https://wordpress.com/blog/sitemap.xml
 Sitemap: https://wordpress.com/support/sitemap.xml
+Sitemap: https://wordpress.com/plugins_sitemap_index.xml
 
 User-agent: *
 Disallow: /wp-admin/
@@ -49,4 +50,4 @@ Disallow: /mshots/v1/
 Disallow: /next/
 Disallow: /public.api/
 
-# This file was generated on Wed, 18 Nov 2026 15:29:36 +0000
+# This file was generated on Thu, 19 Nov 2026 11:27:39 +0000

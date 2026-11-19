@@ -66,3 +66,12 @@ Disallow: /jobs/*?rd=
 Disallow: /jobs/*&rd=
 Disallow: /jobs/*?et=
 Disallow: /jobs/*&et=
+Disallow: /jobs/*?classic=
+Disallow: /jobs/*&classic=
+Disallow: /jobs/*?so=p.h.p
+Disallow: /jobs/*&so=p.h.p
+Disallow: /jobs/*?re=1002
+Disallow: /jobs/*&re=1002
+Disallow: /jobs/*?jobid=
+Disallow: /jobs/*&jobid=
+

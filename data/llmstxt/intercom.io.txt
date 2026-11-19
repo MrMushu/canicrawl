@@ -188,6 +188,9 @@ Translated versions of the pages below. Prefer the one matching the user's langu
 - https://www.intercom.com/fr-fr
 - https://www.intercom.com/fr-fr/contact-sales
 - https://www.intercom.com/fr-fr/helpdesk
+- https://www.intercom.com/fr-fr/helpdesk/help-center
+- https://www.intercom.com/fr-fr/helpdesk/outbound
+- https://www.intercom.com/fr-fr/helpdesk/tickets
 - https://www.intercom.com/fr-fr/pricing
 - https://www.intercom.com/fr-fr/view-demos
 
@@ -195,6 +198,9 @@ Translated versions of the pages below. Prefer the one matching the user's langu
 - https://www.intercom.com/es-la
 - https://www.intercom.com/es-la/contact-sales
 - https://www.intercom.com/es-la/helpdesk
+- https://www.intercom.com/es-la/helpdesk/help-center
+- https://www.intercom.com/es-la/helpdesk/outbound
+- https://www.intercom.com/es-la/helpdesk/tickets
 - https://www.intercom.com/es-la/pricing
 - https://www.intercom.com/es-la/view-demos
 
@@ -202,6 +208,9 @@ Translated versions of the pages below. Prefer the one matching the user's langu
 - https://www.intercom.com/de-de
 - https://www.intercom.com/de-de/contact-sales
 - https://www.intercom.com/de-de/helpdesk
+- https://www.intercom.com/de-de/helpdesk/help-center
+- https://www.intercom.com/de-de/helpdesk/outbound
+- https://www.intercom.com/de-de/helpdesk/tickets
 - https://www.intercom.com/de-de/pricing
 - https://www.intercom.com/de-de/view-demos
 
@@ -209,6 +218,9 @@ Translated versions of the pages below. Prefer the one matching the user's langu
 - https://www.intercom.com/pt-br
 - https://www.intercom.com/pt-br/contact-sales
 - https://www.intercom.com/pt-br/helpdesk
+- https://www.intercom.com/pt-br/helpdesk/help-center
+- https://www.intercom.com/pt-br/helpdesk/outbound
+- https://www.intercom.com/pt-br/helpdesk/tickets
 - https://www.intercom.com/pt-br/pricing
 - https://www.intercom.com/pt-br/view-demos
 

@@ -1,6 +1,9 @@
 # Hostinger
 
-> Hostinger is a global web hosting and website-building company that gives individuals, small businesses, and agencies everything needed to get online: shared, cloud, and VPS hosting, domain registration, business email, an AI website builder, and AI app-building tools. Founded in 2004 and headquartered in Vilnius, Lithuania, it serves more than 5 million customers in 150+ countries.
+> AI-first. Built for your ambition.
+> Hostinger is an agentic platform to build, run, and grow your business online, all in one place.
+
+Hostinger is built for business owners, solopreneurs, creators, freelancers, developers, and agencies who want to build, manage and grow their online presence without complex technical setup.
 
 ## When to use Hostinger
 

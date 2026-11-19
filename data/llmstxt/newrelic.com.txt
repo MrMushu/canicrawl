@@ -188,9 +188,8 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [New Relic Executive Connect at re:Invent](https://newrelic.com/events/2026-12-01/new-relic-exec-connect-reinvent): Join us for cocktails and an early dinner at New Relic Exec Connect at AWS re:Invent 6-8pm Monday, November 30
 - [New Relic x AWS Singapore Meet Up](https://newrelic.com/events/2026-12-17/new-relic-aws-singapore): Join us at the AWS offices on 17 Dec and you'll learn how to kickstart your superhuman era with our latest AWS innovations
 - [[On demand] New Relic for AI: Observability for AI, AI for Observability (EMEA)](https://newrelic.com/events/2026-11-04/new-relic-for-ai-emea-on-demand): Join us for an interactive, hands-on workshop focused on monitoring AI applications and leveraging AI features within New Relic.
-- [Fewer outages, lower cloud bills. Observability for the AI era.](https://newrelic.com/events/2026-11-25/emea-dubai-fewer-outages-lower-cloud-bills-observability-for-the-ai-era): Join New Relic for a two-hour event including live demo, networking opportunity and lunch at the AWS office in Dubai. 
-
 - [Sainsbury's x New Relic M.A.R.S. GameDay Challenge](https://newrelic.com/events/2026-11-10/sainsburys-mars-gameday): Sainsbury's, join New Relic on 10 November and discover how the New Relic Intelligent Observability platform opens up unexpected possibilities—and then get hands-on in a M.A.R.S. GameDay. 
+- [Using AI Effectively: Practical Skills for Everyday Use (EMEA)](https://newrelic.com/events/2026-10-28/using-ai-effectively-emea-on-demand): Watch on demand for a practical guide focused on building essential skills to integrate AI into daily workflows.
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.
