@@ -98,6 +98,11 @@ Disallow: /vejret/
 Disallow: /pocasi/
 Disallow: /cuaca/
 Disallow: /weer/
+# Duplicate forecast URLs that canonicalize to the param-less page (CW-12397)
+Disallow: /*?t=
+Disallow: /*&t=
+Disallow: /*?metric=
+Disallow: /*&metric=
 
 #
 # Block Bots

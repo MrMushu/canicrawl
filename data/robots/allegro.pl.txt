@@ -1,3 +1,6 @@
+# Sitemaps
+Sitemap: https://allegro.pl/sitemap-canary.xml
+
 user-agent: *
 disallow: /showcase.php/
 disallow: /SendMailToUser.php*

@@ -74,3 +74,7 @@ Disallow: /
 
 User-agent: Scrapy
 Disallow: /
+
+User-agent: ShapBot
+Crawl-delay: 5
+

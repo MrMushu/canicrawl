@@ -1,0 +1,511 @@
+# CA.gov
+
+> The official portal of the State of California, connecting people with state departments and government services.
+
+The links below provide Markdown versions of department and service pages.
+Each file links to its canonical HTML page and includes available contact information.
+Department files include service summaries and featured FAQs; service files include descriptions and FAQs.
+
+## Departments
+
+- [California Board of Accountancy (CBA)](https://www.ca.gov/departments/16/index.md)
+- [California Achieving a Better Life Experience (CalABLE)](https://www.ca.gov/departments/101/index.md)
+- [California Acupuncture Board (Board)](https://www.ca.gov/departments/17/index.md)
+- [Office of Administrative Hearings (OAH)](https://www.ca.gov/departments/57/index.md)
+- [Office of Administrative Law (OAL)](https://www.ca.gov/departments/250/index.md)
+- [California Commission on Aging (CCOA)](https://www.ca.gov/departments/169/index.md)
+- [Department of Aging (AGING)](https://www.ca.gov/departments/133/index.md)
+- [Agricultural Labor Relations Board (ALRB)](https://www.ca.gov/departments/134/index.md)
+- [Air Resources Board (CARB)](https://www.ca.gov/departments/135/index.md)
+- [Alcoholic Beverage Control Appeals Board (ABCAB)](https://www.ca.gov/departments/132/index.md)
+- [Department of Alcoholic Beverage Control (ABC)](https://www.ca.gov/departments/131/index.md)
+- [State Allocation Board (SAB)](https://www.ca.gov/departments/55/index.md)
+- [California Alternative Energy and Advanced Transportation Financing Authority (CAEATFA)](https://www.ca.gov/departments/74/index.md)
+- [California Apprenticeship Council (CAC)](https://www.ca.gov/departments/61/index.md)
+- [Arbitration Certification Program (ACP)](https://www.ca.gov/departments/298/index.md)
+- [California Architects Board (CAB)](https://www.ca.gov/departments/18/index.md)
+- [California Arts Council (CAC)](https://www.ca.gov/departments/144/index.md)
+- [California State Assembly (Assembly)](https://www.ca.gov/departments/136/index.md)
+- [California State Athletic Commission (CSAC)](https://www.ca.gov/departments/19/index.md)
+- [California State Auditor (BSA)](https://www.ca.gov/departments/143/index.md)
+- [Bureau of Automotive Repair (BAR)](https://www.ca.gov/departments/137/index.md)
+- [Baldwin Hills Conservancy (BHC)](https://www.ca.gov/departments/140/index.md)
+- [State Bar of California (CALBAR)](https://www.ca.gov/departments/149/index.md)
+- [Board of Barbering and Cosmetology (BBC)](https://www.ca.gov/departments/20/index.md)
+- [Board of Behavioral Sciences (BBS)](https://www.ca.gov/departments/21/index.md)
+- [California Biodiversity Council (CBC)](https://www.ca.gov/departments/165/index.md)
+- [California Boating and Waterways Commission (DBW-Com)](https://www.ca.gov/departments/67/index.md)
+- [California Building Standards Commission (CBSC)](https://www.ca.gov/departments/56/index.md)
+- [Bureau of Real Estate Appraisers (BREA)](https://www.ca.gov/departments/300/index.md)
+- [Governor's Office of Business and Economic Development (Go-Biz)](https://www.ca.gov/departments/237/index.md)
+- [California Business, Consumer Services, and Housing Agency (BCSH)](https://www.ca.gov/departments/139/index.md)
+- [California Correctional Training and Rehabilitation Authority (CALCTRA)](https://www.ca.gov/departments/157/index.md)
+- [California Privacy Protection Agency (CPPA)](https://www.ca.gov/departments/315/index.md)
+- [Office of the California Surgeon General (OGS)](https://www.ca.gov/departments/319/index.md)
+- [Cannabis Control Appeals Panel (CCAP)](https://www.ca.gov/departments/306/index.md)
+- [Department of Cannabis Control (DCC)](https://www.ca.gov/departments/100/index.md)
+- [Cemetery and Funeral Bureau (CFB)](https://www.ca.gov/departments/95/index.md)
+- [Center for Data Insights and Innovation (CDII)](https://www.ca.gov/departments/318/index.md)
+- [Central Valley Flood Protection Board (CVFPB)](https://www.ca.gov/departments/206/index.md)
+- [Department of Child Support Services (DCSS)](https://www.ca.gov/departments/211/index.md)
+- [Board of Chiropractic Examiners (BCE)](https://www.ca.gov/departments/22/index.md)
+- [California Citizens Compensation Commission (CCCC)](https://www.ca.gov/departments/60/index.md)
+- [Citizens Redistricting Commission (CRC)](https://www.ca.gov/departments/196/index.md)
+- [Civil Rights Department (CRD)](https://www.ca.gov/departments/215/index.md)
+- [Coachella Valley Mountains Conservancy (CVMC)](https://www.ca.gov/departments/207/index.md)
+- [California Coastal Commission (Coastal)](https://www.ca.gov/departments/189/index.md)
+- [State Coastal Conservancy (SCC)](https://www.ca.gov/departments/265/index.md)
+- [Colorado River Board of California (CRB)](https://www.ca.gov/departments/195/index.md)
+- [California Community Colleges (CCCCO)](https://www.ca.gov/departments/167/index.md)
+- [Department of Community Services and Development (CSD)](https://www.ca.gov/departments/199/index.md)
+- [State Compensation Insurance Fund (State Fund)](https://www.ca.gov/departments/267/index.md)
+- [California Conservation Corps (CCC)](https://www.ca.gov/departments/166/index.md)
+- [Department of Conservation (DOC)](https://www.ca.gov/departments/221/index.md)
+- [Department of Consumer Affairs (DCA)](https://www.ca.gov/departments/210/index.md)
+- [Contractors State License Board (CSLB)](https://www.ca.gov/departments/299/index.md)
+- [State Controller's Office (SCO)](https://www.ca.gov/departments/268/index.md)
+- [Cool California (CoolCal)](https://www.ca.gov/departments/192/index.md)
+- [California Department of Corrections and Rehabilitation (CDCR)](https://www.ca.gov/departments/171/index.md)
+- [Court Reporters Board of California (CRB)](https://www.ca.gov/departments/23/index.md)
+- [California Courts (Courts)](https://www.ca.gov/departments/193/index.md)
+- [Council on Criminal Justice and Behavioral Health (CCJBH)](https://www.ca.gov/departments/49/index.md)
+- [Office of Data and Innovation (ODI)](https://www.ca.gov/departments/308/index.md)
+- [California Debt and Investment Advisory Commission (CDIAC)](https://www.ca.gov/departments/75/index.md)
+- [California Debt Limit Allocation Committee (CDLAC)](https://www.ca.gov/departments/76/index.md)
+- [Delta Protection Commission (DPC)](https://www.ca.gov/departments/213/index.md)
+- [Delta Stewardship Council (Deltacounc)](https://www.ca.gov/departments/214/index.md)
+- [Dental Board of California (DBC)](https://www.ca.gov/departments/24/index.md)
+- [Dental Hygiene Board of California (DHBC)](https://www.ca.gov/departments/25/index.md)
+- [State Council on Developmental Disabilities (SCDD)](https://www.ca.gov/departments/266/index.md)
+- [Department of Developmental Services (DDS)](https://www.ca.gov/departments/212/index.md)
+- [California Commission on Disability Access (CCDA)](https://www.ca.gov/departments/168/index.md)
+- [Disabled Veterans Business Enterprise Advisory Council (DVBE)](https://www.ca.gov/departments/81/index.md)
+- [California Earthquake Authority (CEA)](https://www.ca.gov/departments/180/index.md)
+- [California Department of Education (CDE)](https://www.ca.gov/departments/172/index.md)
+- [California State Board of Education (SBE)](https://www.ca.gov/departments/52/index.md)
+- [California Educational Facilities Authority (CEFA)](https://www.ca.gov/departments/77/index.md)
+- [Emergency Medical Services Authority (EMSA)](https://www.ca.gov/departments/230/index.md)
+- [Governor's Office of Emergency Services (Cal OES)](https://www.ca.gov/departments/148/index.md)
+- [Employment Development Department (EDD)](https://www.ca.gov/departments/229/index.md)
+- [Employment Training Panel (ETP)](https://www.ca.gov/departments/232/index.md)
+- [California Energy Commission (CEC)](https://www.ca.gov/departments/231/index.md)
+- [Office of Energy Infrastructure Safety (OEIS)](https://www.ca.gov/departments/314/index.md)
+- [Board of Professional Engineers, Land Surveyors, and Geologists (BPELSG)](https://www.ca.gov/departments/38/index.md)
+- [Office of Environmental Health Hazard Assessment (OEHHA)](https://www.ca.gov/departments/251/index.md)
+- [Environmental Protection Agency (CALEPA)](https://www.ca.gov/departments/150/index.md)
+- [Board of Equalization (BOE)](https://www.ca.gov/departments/141/index.md)
+- [California Exposition and State Fair (CAL EXPO)](https://www.ca.gov/departments/146/index.md)
+- [Fair Political Practices Commission (FPPC)](https://www.ca.gov/departments/235/index.md)
+- [Department of FI$Cal (FI$Cal)](https://www.ca.gov/departments/305/index.md)
+- [California Film Commission (CFC)](https://www.ca.gov/departments/181/index.md)
+- [Department of Finance (DOF)](https://www.ca.gov/departments/222/index.md)
+- [Department of Financial Protection and Innovation (DFPI)](https://www.ca.gov/departments/209/index.md)
+- [California Financing Coordinating Committee (CFCC)](https://www.ca.gov/departments/182/index.md)
+- [First 5 California (First 5)](https://www.ca.gov/departments/234/index.md)
+- [Fish and Game Commission (FGC)](https://www.ca.gov/departments/233/index.md)
+- [Department of Fish and Wildlife (CDFW)](https://www.ca.gov/departments/174/index.md)
+- [Department of Food and Agriculture (CDFA)](https://www.ca.gov/departments/173/index.md)
+- [Board of Forestry and Fire Protection (BOF)](https://www.ca.gov/departments/53/index.md)
+- [California Department of Forestry and Fire Protection (CAL FIRE)](https://www.ca.gov/departments/147/index.md)
+- [Franchise Tax Board (FTB)](https://www.ca.gov/departments/236/index.md)
+- [California Gambling Control Commission (CGCC)](https://www.ca.gov/departments/54/index.md)
+- [Department of General Services (DGS)](https://www.ca.gov/departments/216/index.md)
+- [Government Operations Agency (GovOps)](https://www.ca.gov/departments/239/index.md)
+- [Office of the Governor (GOV)](https://www.ca.gov/departments/238/index.md)
+- [Governor's Office of the Tribal Advisor (TAO)](https://www.ca.gov/departments/281/index.md)
+- [Health and Human Services Agency (CalHHS)](https://www.ca.gov/departments/183/index.md)
+- [Commission on Health and Safety and Workers' Compensation (CHSWC)](https://www.ca.gov/departments/62/index.md)
+- [California Health Benefit Exchange (HBEX)](https://www.ca.gov/departments/240/index.md)
+- [Department of Health Care Access and Information (HCAI)](https://www.ca.gov/departments/256/index.md)
+- [Department of Health Care Services (DHCS)](https://www.ca.gov/departments/217/index.md)
+- [California Health Facilities Financing Authority (CHFFA)](https://www.ca.gov/departments/103/index.md)
+- [California Healthy Food Financing Initiative Council (CHFFIC)](https://www.ca.gov/departments/104/index.md)
+- [High-Speed Rail Authority (CAHSRA)](https://www.ca.gov/departments/145/index.md)
+- [California Highway Patrol (CHP)](https://www.ca.gov/departments/184/index.md)
+- [California Historical Records Advisory Board (CHRAB)](https://www.ca.gov/departments/73/index.md)
+- [State Historical Resources Commission (SHRC)](https://www.ca.gov/departments/68/index.md)
+- [California Horse Racing Board (CHRB)](https://www.ca.gov/departments/185/index.md)
+- [Bureau of Household Goods and Services (BHGS)](https://www.ca.gov/departments/26/index.md)
+- [Department of Housing and Community Development (HCD)](https://www.ca.gov/departments/241/index.md)
+- [Housing Finance Agency (CALHFA)](https://www.ca.gov/departments/152/index.md)
+- [Department of Human Resources (CalHR)](https://www.ca.gov/departments/89/index.md)
+- [California State Independent Living Council (CALSILC)](https://www.ca.gov/departments/159/index.md)
+- [California Industrial Development Financing Advisory Commission (CIDFAC)](https://www.ca.gov/departments/78/index.md)
+- [Department of Industrial Relations (DIR)](https://www.ca.gov/departments/91/index.md)
+- [Industrial Welfare Commission (IWC)](https://www.ca.gov/departments/63/index.md)
+- [Infrastructure and Economic Development Bank (I-Bank) (IBANK)](https://www.ca.gov/departments/242/index.md)
+- [Office of the Inspector General (OIG)](https://www.ca.gov/departments/252/index.md)
+- [Department of Insurance (CDI)](https://www.ca.gov/departments/175/index.md)
+- [Commission on Judicial Performance (CJP)](https://www.ca.gov/departments/187/index.md)
+- [Department of Justice (DOJ)](https://www.ca.gov/departments/223/index.md)
+- [Juvenile Parole Board (JPB)](https://www.ca.gov/departments/48/index.md)
+- [Labor and Workforce Development Agency (LWDA)](https://www.ca.gov/departments/247/index.md)
+- [Governor's Office of Land Use and Climate Innovation (LCI)](https://www.ca.gov/departments/255/index.md)
+- [California State Lands Commission (SLC)](https://www.ca.gov/departments/272/index.md)
+- [Landscape Architects Technical Committee (LATC)](https://www.ca.gov/departments/28/index.md)
+- [California Law Revision Commission (CLRC)](https://www.ca.gov/departments/188/index.md)
+- [Legislative Analyst's Office (LAO)](https://www.ca.gov/departments/243/index.md)
+- [California State Legislature (LEGISLATUR)](https://www.ca.gov/departments/244/index.md)
+- [California State Library (CSL)](https://www.ca.gov/departments/200/index.md)
+- [Office of Lieutenant Governor (LTG)](https://www.ca.gov/departments/246/index.md)
+- [Little Hoover Commission (LHC)](https://www.ca.gov/departments/245/index.md)
+- [California State Lottery (CA Lottery)](https://www.ca.gov/departments/155/index.md)
+- [Department of Managed Health Care (DMHC)](https://www.ca.gov/departments/219/index.md)
+- [Medical Board of California (MBC)](https://www.ca.gov/departments/29/index.md)
+- [Mental Health Services Oversight and Accountability Commission (MHSOAC)](https://www.ca.gov/departments/248/index.md)
+- [California Military Department (CalGuard)](https://www.ca.gov/departments/151/index.md)
+- [State Mining and Geology Board (SMGB)](https://www.ca.gov/departments/51/index.md)
+- [Department of Motor Vehicles (DMV)](https://www.ca.gov/departments/220/index.md)
+- [Native American Heritage Commission (NAHC)](https://www.ca.gov/departments/249/index.md)
+- [California Natural Resources Agency (Resources)](https://www.ca.gov/departments/263/index.md)
+- [Naturopathic Medicine Committee (NATROPATHC)](https://www.ca.gov/departments/30/index.md)
+- [New Motor Vehicle Board (NMVB)](https://www.ca.gov/departments/72/index.md)
+- [Occupational Safety and Health Appeals Board (OSHAB)](https://www.ca.gov/departments/64/index.md)
+- [California Board of Occupational Therapy (BOT)](https://www.ca.gov/departments/31/index.md)
+- [Ocean Protection Council (OPC)](https://www.ca.gov/departments/254/index.md)
+- [Office of Technology and Solutions Integration (OTSI)](https://www.ca.gov/departments/257/index.md)
+- [California State Board of Optometry (OPTOMETRY)](https://www.ca.gov/departments/32/index.md)
+- [Osteopathic Medical Board of California (OMBC)](https://www.ca.gov/departments/33/index.md)
+- [California State Parks and Recreation Commission (PRC)](https://www.ca.gov/departments/69/index.md)
+- [Department of Parks and Recreation (PARKS)](https://www.ca.gov/departments/259/index.md)
+- [Board of Parole Hearings (BPH)](https://www.ca.gov/departments/50/index.md)
+- [Office of the Patient Advocate (OPA)](https://www.ca.gov/departments/253/index.md)
+- [Commission on Peace Officer Standards and Training (POST)](https://www.ca.gov/departments/262/index.md)
+- [State Personnel Board (SPB)](https://www.ca.gov/departments/277/index.md)
+- [Department of Pesticide Regulation (CDPR)](https://www.ca.gov/departments/177/index.md)
+- [California State Board of Pharmacy (PHARMACY)](https://www.ca.gov/departments/34/index.md)
+- [Physical Therapy Board of California (PTBC)](https://www.ca.gov/departments/98/index.md)
+- [Physician Assistant Board (PAB)](https://www.ca.gov/departments/36/index.md)
+- [Board of Pilot Commissioners for the Bays of San Francisco, San Pablo, and Suisun (BOPC)](https://www.ca.gov/departments/142/index.md)
+- [Podiatric Medical Board of California (PMBC)](https://www.ca.gov/departments/37/index.md)
+- [California Pollution Control Financing Authority (CPCFA)](https://www.ca.gov/departments/105/index.md)
+- [Pooled Money Investment Board (PMIB)](https://www.ca.gov/departments/110/index.md)
+- [Bureau for Private and Postsecondary Education (BPPE)](https://www.ca.gov/departments/96/index.md)
+- [Professional Fiduciaries Bureau (PFB)](https://www.ca.gov/departments/99/index.md)
+- [Board of Psychology (PSYCHOLOGY)](https://www.ca.gov/departments/39/index.md)
+- [California Public Employees Retirement System (CALPERS)](https://www.ca.gov/departments/156/index.md)
+- [California Public Employment Relations Board (PERB)](https://www.ca.gov/departments/260/index.md)
+- [California Department of Public Health (CDPH)](https://www.ca.gov/departments/176/index.md)
+- [California Public Utilities Commission (CPUC)](https://www.ca.gov/departments/194/index.md)
+- [Department of Real Estate (DRE)](https://www.ca.gov/departments/40/index.md)
+- [California Institute for Regenerative Medicine (CIRM)](https://www.ca.gov/departments/186/index.md)
+- [California Board of Registered Nursing (BRN)](https://www.ca.gov/departments/41/index.md)
+- [Department of Rehabilitation (DOR)](https://www.ca.gov/departments/224/index.md)
+- [Department of Resources Recycling and Recovery (CalRecycle)](https://www.ca.gov/departments/158/index.md)
+- [Respiratory Care Board of California (RCB)](https://www.ca.gov/departments/42/index.md)
+- [Sacramento-San Joaquin Delta Conservancy (SSJDC)](https://www.ca.gov/departments/191/index.md)
+- [San Diego River Conservancy (SDRC)](https://www.ca.gov/departments/269/index.md)
+- [San Francisco Bay Conservation and Development Commission (BCDC)](https://www.ca.gov/departments/138/index.md)
+- [San Gabriel and Lower Los Angeles Rivers and Mountains Conservancy (RMC)](https://www.ca.gov/departments/264/index.md)
+- [San Joaquin River Conservancy (SJRC)](https://www.ca.gov/departments/271/index.md)
+- [Santa Monica Mountains Conservancy (SMMC)](https://www.ca.gov/departments/273/index.md)
+- [Scholarshare Investment Board (SIB)](https://www.ca.gov/departments/79/index.md)
+- [California School Finance Authority (CSFA)](https://www.ca.gov/departments/106/index.md)
+- [Secretary of State (SOS)](https://www.ca.gov/departments/275/index.md)
+- [Bureau of Security and Investigative Services (BSIS)](https://www.ca.gov/departments/94/index.md)
+- [Seismic Safety Commission (SSC)](https://www.ca.gov/departments/278/index.md)
+- [California State Senate (Senate)](https://www.ca.gov/departments/270/index.md)
+- [Sierra Nevada Conservancy (SNC)](https://www.ca.gov/departments/274/index.md)
+- [Department of Social Services (CDSS)](https://www.ca.gov/departments/178/index.md)
+- [Speech-Language Pathology and Audiology and Hearing Aid Dispensers Board (SLPAHADB)](https://www.ca.gov/departments/43/index.md)
+- [Office of the State Fire Marshal (OSFM)](https://www.ca.gov/departments/301/index.md)
+- [Department of State Hospitals (DSH)](https://www.ca.gov/departments/226/index.md)
+- [Commission on State Mandates (CSM)](https://www.ca.gov/departments/201/index.md)
+- [State of California (CAGOV)](https://www.ca.gov/departments/317/index.md)
+- [California State Teachers Retirement System (CalSTRS)](https://www.ca.gov/departments/161/index.md)
+- [State Water Resources Control Board (SWRCB)](https://www.ca.gov/departments/280/index.md)
+- [Commission on Status of Women and Girls (CCW)](https://www.ca.gov/departments/170/index.md)
+- [Structural Pest Control Board (SPCB)](https://www.ca.gov/departments/44/index.md)
+- [California Student Aid Commission (CSAC)](https://www.ca.gov/departments/198/index.md)
+- [California Tahoe Conservancy (Tahoe)](https://www.ca.gov/departments/190/index.md)
+- [California Department of Tax and Fee Administration (CDTFA)](https://www.ca.gov/departments/287/index.md)
+- [California Tax Credit Allocation Committee (CTCAC)](https://www.ca.gov/departments/107/index.md)
+- [Commission on Teacher Credentialing (CTC)](https://www.ca.gov/departments/203/index.md)
+- [California Department of Technology (CDT)](https://www.ca.gov/departments/179/index.md)
+- [Department of Toxic Substances Control (DTSC)](https://www.ca.gov/departments/227/index.md)
+- [Office of Traffic Safety (OTS)](https://www.ca.gov/departments/258/index.md)
+- [California State Transportation Agency (CalSTA)](https://www.ca.gov/departments/160/index.md)
+- [Transportation Commission (CTC)](https://www.ca.gov/departments/204/index.md)
+- [Department of Transportation (CALTRANS)](https://www.ca.gov/departments/225/index.md)
+- [State Treasurer's Office (STO)](https://www.ca.gov/departments/279/index.md)
+- [Unemployment Insurance Appeals Board (CUIAB)](https://www.ca.gov/departments/205/index.md)
+- [California Uniform Construction Cost Accounting Commission (CUCCAC)](https://www.ca.gov/departments/47/index.md)
+- [University of California (UC)](https://www.ca.gov/departments/282/index.md)
+- [California State University (CSU)](https://www.ca.gov/departments/202/index.md)
+- [Department of Veterans Affairs (CalVet)](https://www.ca.gov/departments/163/index.md)
+- [California Veterans Board (CVB)](https://www.ca.gov/departments/82/index.md)
+- [Veterinary Medical Board (VMB)](https://www.ca.gov/departments/45/index.md)
+- [California Victim Compensation Board (CalVCB)](https://www.ca.gov/departments/162/index.md)
+- [Board of Vocational Nursing and Psychiatric Technicians (BVNPT)](https://www.ca.gov/departments/46/index.md)
+- [California Volunteers (CalVols)](https://www.ca.gov/departments/164/index.md)
+- [California Water Commission (CWC)](https://www.ca.gov/departments/296/index.md)
+- [California Water Quality Monitoring Council (MOU)](https://www.ca.gov/departments/71/index.md)
+- [Department of Water Resources (DWR)](https://www.ca.gov/departments/228/index.md)
+- [Wildlife Conservation Board (WCB)](https://www.ca.gov/departments/284/index.md)
+- [Worker's Compensation Appeals Board (WCAB)](https://www.ca.gov/departments/65/index.md)
+- [California Workforce Development Board (CWDB)](https://www.ca.gov/departments/208/index.md)
+
+## Services
+
+- [CalABLE disability savings account](https://www.ca.gov/departments/101/services/1182/index.md): California Achieving a Better Life Experience
+- [Food and nutrition for older adults](https://www.ca.gov/departments/133/services/1254/index.md): Department of Aging
+- [Adult Day Health Services Centers](https://www.ca.gov/departments/133/services/1255/index.md): Department of Aging
+- [Home and Community Services for seniors](https://www.ca.gov/departments/133/services/1256/index.md): Department of Aging
+- [Family Caregiver Services](https://www.ca.gov/departments/133/services/1257/index.md): Department of Aging
+- [Medicare Counseling](https://www.ca.gov/departments/133/services/1258/index.md): Department of Aging
+- [Legal services for older adults](https://www.ca.gov/departments/133/services/1259/index.md): Department of Aging
+- [CA Clean Truck Check](https://www.ca.gov/departments/135/services/1199/index.md): Air Resources Board
+- [Look up an alcohol license](https://www.ca.gov/departments/131/services/1198/index.md): Department of Alcoholic Beverage Control
+- [Find an auto shop](https://www.ca.gov/departments/137/services/6/index.md): Bureau of Automotive Repair
+- [Check a license](https://www.ca.gov/departments/137/services/7/index.md): Bureau of Automotive Repair
+- [File an auto repair complaint](https://www.ca.gov/departments/137/services/1288/index.md): Bureau of Automotive Repair
+- [Repair or retire your vehicle](https://www.ca.gov/departments/137/services/1289/index.md): Bureau of Automotive Repair
+- [Request a collision repair inspection](https://www.ca.gov/departments/137/services/1290/index.md): Bureau of Automotive Repair
+- [Search for an Appraiser](https://www.ca.gov/departments/300/services/1124/index.md): Bureau of Real Estate Appraisers
+- [Renew appraiser license](https://www.ca.gov/departments/300/services/1125/index.md): Bureau of Real Estate Appraisers
+- [Find business resources](https://www.ca.gov/departments/237/services/77/index.md): Governor's Office of Business and Economic Development
+- [Business incentives](https://www.ca.gov/departments/237/services/1126/index.md): Governor's Office of Business and Economic Development
+- [Business permits and licensing help](https://www.ca.gov/departments/237/services/1127/index.md): Governor's Office of Business and Economic Development
+- [Community data and statistics](https://www.ca.gov/departments/237/services/1128/index.md): Governor's Office of Business and Economic Development
+- [Small Business Assistance Centers](https://www.ca.gov/departments/237/services/1184/index.md): Governor's Office of Business and Economic Development
+- [Submit a consumer privacy complaint](https://www.ca.gov/departments/315/services/1187/index.md): California Privacy Protection Agency
+- [Delete Request and Opt-out Platform (DROP)](https://www.ca.gov/departments/315/services/1306/index.md): California Privacy Protection Agency
+- [Maternal health resources](https://www.ca.gov/departments/319/services/1291/index.md): Office of the California Surgeon General
+- [Find information on reproductive health](https://www.ca.gov/departments/319/services/1303/index.md): Office of the California Surgeon General
+- [Get maternal health help](https://www.ca.gov/departments/319/services/1305/index.md): Office of the California Surgeon General
+- [Review of cannabis licensing decisions](https://www.ca.gov/departments/306/services/1145/index.md): Cannabis Control Appeals Panel
+- [Appeal a cannabis license decision](https://www.ca.gov/departments/306/services/1146/index.md): Cannabis Control Appeals Panel
+- [Apply for a cannabis license](https://www.ca.gov/departments/100/services/1281/index.md): Department of Cannabis Control
+- [Enroll in child support](https://www.ca.gov/departments/211/services/8/index.md): Department of Child Support Services
+- [Calculate child support](https://www.ca.gov/departments/211/services/9/index.md): Department of Child Support Services
+- [Child support self-service website](https://www.ca.gov/departments/211/services/1203/index.md): Department of Child Support Services
+- [Child support payments](https://www.ca.gov/departments/211/services/1214/index.md): Department of Child Support Services
+- [File a discrimination complaint](https://www.ca.gov/departments/215/services/27/index.md): Civil Rights Department
+- [Sexual Harassment Prevention Training](https://www.ca.gov/departments/215/services/1201/index.md): Civil Rights Department
+- [Pay data reporting](https://www.ca.gov/departments/215/services/1315/index.md): Civil Rights Department
+- [Community conflict mediation services](https://www.ca.gov/departments/215/services/1316/index.md): Civil Rights Department
+- [Coastal enhancement](https://www.ca.gov/departments/265/services/1234/index.md): State Coastal Conservancy
+- [Find CCC undocumented student resources](https://www.ca.gov/departments/167/services/1119/index.md): California Community Colleges
+- [Get home energy bill assistance](https://www.ca.gov/departments/199/services/1293/index.md): Department of Community Services and Development
+- [Energy system upgrades for your home](https://www.ca.gov/departments/199/services/1294/index.md): Department of Community Services and Development
+- [Find a consumer affairs license](https://www.ca.gov/departments/210/services/1133/index.md): Department of Consumer Affairs
+- [File complaint against a professional or business](https://www.ca.gov/departments/210/services/1134/index.md): Department of Consumer Affairs
+- [Renew your professional license](https://www.ca.gov/departments/210/services/1135/index.md): Department of Consumer Affairs
+- [Check contractor application](https://www.ca.gov/departments/299/services/10/index.md): Contractors State License Board
+- [File complaint against contractor](https://www.ca.gov/departments/299/services/11/index.md): Contractors State License Board
+- [Look up contractor license](https://www.ca.gov/departments/299/services/12/index.md): Contractors State License Board
+- [Search for unclaimed property](https://www.ca.gov/departments/268/services/13/index.md): State Controller's Office
+- [Report unclaimed property](https://www.ca.gov/departments/268/services/1147/index.md): State Controller's Office
+- [Locate a correctional facility](https://www.ca.gov/departments/171/services/71/index.md): California Department of Corrections and Rehabilitation
+- [Visit an inmate](https://www.ca.gov/departments/171/services/72/index.md): California Department of Corrections and Rehabilitation
+- [California Inmate Records and Information System](https://www.ca.gov/departments/171/services/1188/index.md): California Department of Corrections and Rehabilitation
+- [Traffic tickets](https://www.ca.gov/departments/193/services/15/index.md): California Courts
+- [Get a divorce](https://www.ca.gov/departments/193/services/16/index.md): California Courts
+- [Early Start for infants and toddlers](https://www.ca.gov/departments/212/services/1264/index.md): Department of Developmental Services
+- [Calculate your earthquake insurance premium](https://www.ca.gov/departments/180/services/1136/index.md): California Earthquake Authority
+- [Earthquake insurance discounts](https://www.ca.gov/departments/180/services/1141/index.md): California Earthquake Authority
+- [Prepare your home for a disaster](https://www.ca.gov/departments/180/services/1143/index.md): California Earthquake Authority
+- [Earthquake warning in California](https://www.ca.gov/departments/180/services/1223/index.md): California Earthquake Authority
+- [Find your local school](https://www.ca.gov/departments/172/services/17/index.md): California Department of Education
+- [Find nearby adult education programs](https://www.ca.gov/departments/172/services/82/index.md): California Department of Education
+- [Find an ESL/English Class](https://www.ca.gov/departments/172/services/83/index.md): California Department of Education
+- [Get a high school diploma](https://www.ca.gov/departments/172/services/84/index.md): California Department of Education
+- [Family reading and writing programs](https://www.ca.gov/departments/172/services/85/index.md): California Department of Education
+- [Find a citizenship class](https://www.ca.gov/departments/172/services/86/index.md): California Department of Education
+- [CA Meals For Kids App (Android)](https://www.ca.gov/departments/172/services/1178/index.md): California Department of Education
+- [CA Meals For Kids App (IOS)](https://www.ca.gov/departments/172/services/1179/index.md): California Department of Education
+- [File for Disability](https://www.ca.gov/departments/229/services/18/index.md): Employment Development Department
+- [File for Paid Family Leave](https://www.ca.gov/departments/229/services/19/index.md): Employment Development Department
+- [File for Unemployment](https://www.ca.gov/departments/229/services/20/index.md): Employment Development Department
+- [Manage your Unemployment Insurance claim](https://www.ca.gov/departments/229/services/21/index.md): Employment Development Department
+- [Find a job](https://www.ca.gov/departments/229/services/22/index.md): Employment Development Department
+- [Jobs for veterans](https://www.ca.gov/departments/229/services/23/index.md): Employment Development Department
+- [EDD payroll taxes](https://www.ca.gov/departments/229/services/1186/index.md): Employment Development Department
+- [Enroll in EDD employer services](https://www.ca.gov/departments/229/services/1193/index.md): Employment Development Department
+- [Get your UI claim status](https://www.ca.gov/departments/229/services/1196/index.md): Employment Development Department
+- [Find an EDD field office](https://www.ca.gov/departments/229/services/1216/index.md): Employment Development Department
+- [Calculate your unemployment insurance](https://www.ca.gov/departments/229/services/1226/index.md): Employment Development Department
+- [Certify for unemployment](https://www.ca.gov/departments/229/services/1228/index.md): Employment Development Department
+- [Understand harmful chemical warnings](https://www.ca.gov/departments/251/services/1142/index.md): Office of Environmental Health Hazard Assessment
+- [Health effects of pesticides](https://www.ca.gov/departments/251/services/1266/index.md): Office of Environmental Health Hazard Assessment
+- [Safe drinking water public health goals](https://www.ca.gov/departments/251/services/1267/index.md): Office of Environmental Health Hazard Assessment
+- [Indicators of climate change in California](https://www.ca.gov/departments/251/services/1268/index.md): Office of Environmental Health Hazard Assessment
+- [Children's Environmental Health Guidance](https://www.ca.gov/departments/251/services/1270/index.md): Office of Environmental Health Hazard Assessment
+- [Check heat conditions](https://www.ca.gov/departments/251/services/1287/index.md): Office of Environmental Health Hazard Assessment
+- [Find a hunter education course](https://www.ca.gov/departments/174/services/28/index.md): Department of Fish and Wildlife
+- [Get a fishing or hunting license](https://www.ca.gov/departments/174/services/29/index.md): Department of Fish and Wildlife
+- [Find a fair](https://www.ca.gov/departments/173/services/73/index.md): Department of Food and Agriculture
+- [Certificate of Veterinary Inspection for dogs](https://www.ca.gov/departments/173/services/1304/index.md): Department of Food and Agriculture
+- [Professional Foresters Registration Exam](https://www.ca.gov/departments/53/services/1242/index.md): Board of Forestry and Fire Protection
+- [California wildfire information](https://www.ca.gov/departments/147/services/31/index.md): California Department of Forestry and Fire Protection
+- [Campfire permits](https://www.ca.gov/departments/147/services/1239/index.md): California Department of Forestry and Fire Protection
+- [Burn permits](https://www.ca.gov/departments/147/services/1240/index.md): California Department of Forestry and Fire Protection
+- [Reforestation Services Program](https://www.ca.gov/departments/147/services/1241/index.md): California Department of Forestry and Fire Protection
+- [Join CAL FIRE](https://www.ca.gov/departments/147/services/1283/index.md): California Department of Forestry and Fire Protection
+- [CAL FIRE Grants](https://www.ca.gov/departments/147/services/1284/index.md): California Department of Forestry and Fire Protection
+- [Check your tax refund status](https://www.ca.gov/departments/236/services/33/index.md): Franchise Tax Board
+- [Pay your state taxes](https://www.ca.gov/departments/236/services/1166/index.md): Franchise Tax Board
+- [California Earned Income Tax Credit](https://www.ca.gov/departments/236/services/1167/index.md): Franchise Tax Board
+- [CalFile - File return for free](https://www.ca.gov/departments/236/services/1168/index.md): Franchise Tax Board
+- [Volunteer Income Tax Assistance (VITA)](https://www.ca.gov/departments/236/services/1181/index.md): Franchise Tax Board
+- [Create a MyFTB account](https://www.ca.gov/departments/236/services/1204/index.md): Franchise Tax Board
+- [Tax forms and publications](https://www.ca.gov/departments/236/services/1212/index.md): Franchise Tax Board
+- [File state taxes](https://www.ca.gov/departments/236/services/1227/index.md): Franchise Tax Board
+- [Doing business with California state](https://www.ca.gov/departments/216/services/1149/index.md): Department of General Services
+- [Request an administrative hearing](https://www.ca.gov/departments/216/services/1152/index.md): Department of General Services
+- [School design and construction oversight](https://www.ca.gov/departments/216/services/1155/index.md): Department of General Services
+- [Apply for school construction funding](https://www.ca.gov/departments/216/services/1156/index.md): Department of General Services
+- [Fleet and Asset Management](https://www.ca.gov/departments/216/services/1157/index.md): Department of General Services
+- [Risk and insurance management](https://www.ca.gov/departments/216/services/1158/index.md): Department of General Services
+- [Disability access](https://www.ca.gov/departments/216/services/1159/index.md): Department of General Services
+- [Find procurement and acquisition services](https://www.ca.gov/departments/216/services/1162/index.md): Department of General Services
+- [Human Resources](https://www.ca.gov/departments/216/services/1164/index.md): Department of General Services
+- [California Census 2020](https://www.ca.gov/departments/239/services/1148/index.md): Government Operations Agency
+- [Get COVID-19 information and help](https://www.ca.gov/departments/239/services/1173/index.md): Government Operations Agency
+- [Get updates on DACA](https://www.ca.gov/departments/238/services/1115/index.md): Office of the Governor
+- [Disaster relief assistance](https://www.ca.gov/departments/238/services/1122/index.md): Office of the Governor
+- [Apply for medical insurance](https://www.ca.gov/departments/240/services/74/index.md): California Health Benefit Exchange
+- [Resources to build safe healthcare facilities](https://www.ca.gov/departments/256/services/1137/index.md): Department of Health Care Access and Information
+- [Health care education financial aid](https://www.ca.gov/departments/256/services/1138/index.md): Department of Health Care Access and Information
+- [Get Workforce Capacity Education and Training](https://www.ca.gov/departments/256/services/1139/index.md): Department of Health Care Access and Information
+- [Find healthcare data and reports](https://www.ca.gov/departments/256/services/1140/index.md): Department of Health Care Access and Information
+- [File a hospital bill complaint](https://www.ca.gov/departments/256/services/1260/index.md): Department of Health Care Access and Information
+- [Apply for a Seismic Safety Grant](https://www.ca.gov/departments/256/services/1261/index.md): Department of Health Care Access and Information
+- [Find behavioral health resources](https://www.ca.gov/departments/217/services/36/index.md): Department of Health Care Services
+- [Apply for Medi-Cal](https://www.ca.gov/departments/217/services/37/index.md): Department of Health Care Services
+- [Find substance use disorder services](https://www.ca.gov/departments/217/services/1120/index.md): Department of Health Care Services
+- [Find a dentist](https://www.ca.gov/departments/217/services/1209/index.md): Department of Health Care Services
+- [Youth Behavioral Health](https://www.ca.gov/departments/217/services/1235/index.md): Department of Health Care Services
+- [Choose Medi-Cal health plans and providers](https://www.ca.gov/departments/217/services/1236/index.md): Department of Health Care Services
+- [Medi-Cal benefits](https://www.ca.gov/departments/217/services/1237/index.md): Department of Health Care Services
+- [Medi-Cal services for moms and babies](https://www.ca.gov/departments/217/services/1300/index.md): Department of Health Care Services
+- [Medi-Cal doula program](https://www.ca.gov/departments/217/services/1301/index.md): Department of Health Care Services
+- [The Newborn Gateway](https://www.ca.gov/departments/217/services/1302/index.md): Department of Health Care Services
+- [Locate current road conditions](https://www.ca.gov/departments/184/services/38/index.md): California Highway Patrol
+- [Apply for a horse racing license](https://www.ca.gov/departments/185/services/1144/index.md): California Horse Racing Board
+- [First-Time Homebuyer programs](https://www.ca.gov/departments/152/services/1233/index.md): Housing Finance Agency
+- [Housing Counseling Program](https://www.ca.gov/departments/152/services/1262/index.md): Housing Finance Agency
+- [Find a CA state job](https://www.ca.gov/departments/89/services/39/index.md): Department of Human Resources
+- [CA state recruitment events and resources](https://www.ca.gov/departments/89/services/1189/index.md): Department of Human Resources
+- [Learn about your state employee benefits](https://www.ca.gov/departments/89/services/1190/index.md): Department of Human Resources
+- [Start Saving for Retirement Today](https://www.ca.gov/departments/89/services/1191/index.md): Department of Human Resources
+- [Create a CalCareer account](https://www.ca.gov/departments/89/services/1195/index.md): Department of Human Resources
+- [Search for a CalCareers exam](https://www.ca.gov/departments/89/services/1213/index.md): Department of Human Resources
+- [Find an apprenticeship](https://www.ca.gov/departments/91/services/1206/index.md): Department of Industrial Relations
+- [Certified Payroll Reporting](https://www.ca.gov/departments/91/services/1208/index.md): Department of Industrial Relations
+- [California Paid Sick Leave (PSL)](https://www.ca.gov/departments/91/services/1224/index.md): Department of Industrial Relations
+- [Worker safety, wildfire cleanup, and rebuilding](https://www.ca.gov/departments/91/services/1279/index.md): Department of Industrial Relations
+- [Worker rights and employer responsibilities](https://www.ca.gov/departments/91/services/1280/index.md): Department of Industrial Relations
+- [File an insurance complaint](https://www.ca.gov/departments/175/services/1170/index.md): Department of Insurance
+- [California Low Cost Auto](https://www.ca.gov/departments/175/services/1171/index.md): Department of Insurance
+- [Resources for seniors](https://www.ca.gov/departments/175/services/1172/index.md): Department of Insurance
+- [Look up crime statistics](https://www.ca.gov/departments/223/services/40/index.md): Department of Justice
+- [Search for registered sex offenders](https://www.ca.gov/departments/223/services/1132/index.md): Department of Justice
+- [Get DACA info about worker's rights](https://www.ca.gov/departments/247/services/1117/index.md): Labor and Workforce Development Agency
+- [Look Up a Bill or Law](https://www.ca.gov/departments/244/services/41/index.md): California State Legislature
+- [Braille and Talking Book Library (BTBL)](https://www.ca.gov/departments/200/services/1327/index.md): California State Library
+- [California History Room](https://www.ca.gov/departments/200/services/1328/index.md): California State Library
+- [California Research Bureau](https://www.ca.gov/departments/200/services/1329/index.md): California State Library
+- [Government Publications Section](https://www.ca.gov/departments/200/services/1330/index.md): California State Library
+- [General Collection](https://www.ca.gov/departments/200/services/1331/index.md): California State Library
+- [Witkin State Law Library](https://www.ca.gov/departments/200/services/1332/index.md): California State Library
+- [Sutro Library](https://www.ca.gov/departments/200/services/1333/index.md): California State Library
+- [California Grants Portal](https://www.ca.gov/departments/200/services/1334/index.md): California State Library
+- [View lottery results](https://www.ca.gov/departments/155/services/42/index.md): California State Lottery
+- [Claim a lottery prize](https://www.ca.gov/departments/155/services/1269/index.md): California State Lottery
+- [Who benefits from the CA Lottery](https://www.ca.gov/departments/155/services/1271/index.md): California State Lottery
+- [CA Lottery Mobile App](https://www.ca.gov/departments/155/services/1272/index.md): California State Lottery
+- [2nd Chance to win CA lottery](https://www.ca.gov/departments/155/services/1274/index.md): California State Lottery
+- [Where to play CA Lottery](https://www.ca.gov/departments/155/services/1275/index.md): California State Lottery
+- [CA Lottery District Offices](https://www.ca.gov/departments/155/services/1276/index.md): California State Lottery
+- [Become a CA Lottery retailer](https://www.ca.gov/departments/155/services/1277/index.md): California State Lottery
+- [Health insurance complaints and medical review request](https://www.ca.gov/departments/219/services/1129/index.md): Department of Managed Health Care
+- [Apply for a DL, ID or REAL ID](https://www.ca.gov/departments/220/services/1194/index.md): Department of Motor Vehicles
+- [Renew vehicle registration](https://www.ca.gov/departments/220/services/45/index.md): Department of Motor Vehicles
+- [DACA and AB60 Driver's License](https://www.ca.gov/departments/220/services/1121/index.md): Department of Motor Vehicles
+- [Create a MyDMV Account](https://www.ca.gov/departments/220/services/1325/index.md): Department of Motor Vehicles
+- [Get your mDL](https://www.ca.gov/departments/220/services/1219/index.md): Department of Motor Vehicles
+- [Renew driver’s license or ID card](https://www.ca.gov/departments/220/services/44/index.md): Department of Motor Vehicles
+- [Update information (address, name, gender)](https://www.ca.gov/departments/220/services/48/index.md): Department of Motor Vehicles
+- [Transfer vehicle title](https://www.ca.gov/departments/220/services/1217/index.md): Department of Motor Vehicles
+- [Register a vehicle](https://www.ca.gov/departments/220/services/1222/index.md): Department of Motor Vehicles
+- [Report auto fraud](https://www.ca.gov/departments/220/services/1211/index.md): Department of Motor Vehicles
+- [Find a state park](https://www.ca.gov/departments/259/services/49/index.md): Department of Parks and Recreation
+- [Make a camping reservation](https://www.ca.gov/departments/259/services/50/index.md): Department of Parks and Recreation
+- [Apply for marriage certificate](https://www.ca.gov/departments/176/services/51/index.md): California Department of Public Health
+- [Apply for birth certificate](https://www.ca.gov/departments/176/services/52/index.md): California Department of Public Health
+- [Apply for death certificate](https://www.ca.gov/departments/176/services/53/index.md): California Department of Public Health
+- [Women, Infants and Children (WIC)](https://www.ca.gov/departments/176/services/1174/index.md): California Department of Public Health
+- [Get Digital Vaccine Record](https://www.ca.gov/departments/176/services/1177/index.md): California Department of Public Health
+- [Look up licenses for clinical laboratory personnel](https://www.ca.gov/departments/176/services/1210/index.md): California Department of Public Health
+- [Find information on abortion access](https://www.ca.gov/departments/176/services/1292/index.md): California Department of Public Health
+- [Comprehensive Perinatal Services Program (CPSP)](https://www.ca.gov/departments/176/services/1295/index.md): California Department of Public Health
+- [Get maternal mental health help](https://www.ca.gov/departments/176/services/1296/index.md): California Department of Public Health
+- [Black Infant Health Program (BIH)](https://www.ca.gov/departments/176/services/1297/index.md): California Department of Public Health
+- [California Home Visiting Program (CHVP)](https://www.ca.gov/departments/176/services/1298/index.md): California Department of Public Health
+- [Genetic Disease Screening Program (GDSP)](https://www.ca.gov/departments/176/services/1299/index.md): California Department of Public Health
+- [Manage your California real estate license](https://www.ca.gov/departments/40/services/1130/index.md): Department of Real Estate
+- [Verify real estate licenses](https://www.ca.gov/departments/40/services/1131/index.md): Department of Real Estate
+- [Help for job seekers with disabilities](https://www.ca.gov/departments/224/services/1238/index.md): Department of Rehabilitation
+- [Student education, employment, and training services](https://www.ca.gov/departments/224/services/1243/index.md): Department of Rehabilitation
+- [Accessible community living services](https://www.ca.gov/departments/224/services/1244/index.md): Department of Rehabilitation
+- [Blind Field Services](https://www.ca.gov/departments/224/services/1245/index.md): Department of Rehabilitation
+- [Find a recycling location](https://www.ca.gov/departments/158/services/54/index.md): Department of Resources Recycling and Recovery
+- [Apply to the Directed Grant Program](https://www.ca.gov/departments/269/services/1230/index.md): San Diego River Conservancy
+- [San Francisco Bay conservation and development permits](https://www.ca.gov/departments/138/services/1229/index.md): San Francisco Bay Conservation and Development Commission
+- [Form a business](https://www.ca.gov/departments/275/services/55/index.md): Secretary of State
+- [Get copies of business entity documents](https://www.ca.gov/departments/275/services/56/index.md): Secretary of State
+- [Register to vote](https://www.ca.gov/departments/275/services/57/index.md): Secretary of State
+- [Look up my representatives](https://www.ca.gov/departments/275/services/58/index.md): Secretary of State
+- [Foster care](https://www.ca.gov/departments/178/services/59/index.md): Department of Social Services
+- [Food stamps](https://www.ca.gov/departments/178/services/60/index.md): Department of Social Services
+- [Find Assisted Living](https://www.ca.gov/departments/178/services/61/index.md): Department of Social Services
+- [Find child care](https://www.ca.gov/departments/178/services/62/index.md): Department of Social Services
+- [Get immigration legal help](https://www.ca.gov/departments/178/services/79/index.md): Department of Social Services
+- [Get Citizenship Services](https://www.ca.gov/departments/178/services/80/index.md): Department of Social Services
+- [Find refugee services](https://www.ca.gov/departments/178/services/81/index.md): Department of Social Services
+- [Get DACA legal help](https://www.ca.gov/departments/178/services/1116/index.md): Department of Social Services
+- [Find benefits online](https://www.ca.gov/departments/178/services/1180/index.md): Department of Social Services
+- [Earned Income Tax Credit (EITC)](https://www.ca.gov/departments/178/services/1183/index.md): Department of Social Services
+- [Housing and Disability Advocacy Program](https://www.ca.gov/departments/178/services/1309/index.md): Department of Social Services
+- [Bringing Families Home Program](https://www.ca.gov/departments/178/services/1310/index.md): Department of Social Services
+- [Home Safe Program](https://www.ca.gov/departments/178/services/1311/index.md): Department of Social Services
+- [CalWORKs Housing Support Program](https://www.ca.gov/departments/178/services/1312/index.md): Department of Social Services
+- [CalWORKs Homeless Assistance Program](https://www.ca.gov/departments/178/services/1313/index.md): Department of Social Services
+- [Community Care Expansion](https://www.ca.gov/departments/178/services/1314/index.md): Department of Social Services
+- [Fire safety and regulation information bulletins](https://www.ca.gov/departments/301/services/1246/index.md): Office of the State Fire Marshal
+- [California State Fire Training](https://www.ca.gov/departments/301/services/1247/index.md): Office of the State Fire Marshal
+- [Fire safety licenses and permits](https://www.ca.gov/departments/301/services/1248/index.md): Office of the State Fire Marshal
+- [Smoke alarm and fire extinguisher recalls](https://www.ca.gov/departments/301/services/1249/index.md): Office of the State Fire Marshal
+- [Firewise USA®](https://www.ca.gov/departments/301/services/1252/index.md): Office of the State Fire Marshal
+- [Request a free California visitor's guide](https://www.ca.gov/departments/317/services/1285/index.md): State of California
+- [Recovery services finder](https://www.ca.gov/departments/317/services/1286/index.md): State of California
+- [Cal Grant financial aid for college](https://www.ca.gov/departments/198/services/63/index.md): California Student Aid Commission
+- [Apply for the California Dream Act](https://www.ca.gov/departments/198/services/1095/index.md): California Student Aid Commission
+- [Learn about applying for college](https://www.ca.gov/departments/198/services/1106/index.md): California Student Aid Commission
+- [Get student financial aid information](https://www.ca.gov/departments/198/services/1107/index.md): California Student Aid Commission
+- [Attend a student financial aid workshop](https://www.ca.gov/departments/198/services/1108/index.md): California Student Aid Commission
+- [Look up sales tax rates](https://www.ca.gov/departments/287/services/24/index.md): California Department of Tax and Fee Administration
+- [Sales and use tax permits, licenses, or accounts](https://www.ca.gov/departments/287/services/25/index.md): California Department of Tax and Fee Administration
+- [Apply for a seller’s permit](https://www.ca.gov/departments/287/services/26/index.md): California Department of Tax and Fee Administration
+- [How to Become a Teacher in California](https://www.ca.gov/departments/203/services/1318/index.md): Commission on Teacher Credentialing
+- [Check teacher credential and other applications status](https://www.ca.gov/departments/203/services/1319/index.md): Commission on Teacher Credentialing
+- [Teacher credential and other applications currently being processed](https://www.ca.gov/departments/203/services/1321/index.md): Commission on Teacher Credentialing
+- [Fingerprint Clearance Status](https://www.ca.gov/departments/203/services/1322/index.md): Commission on Teacher Credentialing
+- [Hazardous Waste Tracking System](https://www.ca.gov/departments/227/services/1205/index.md): Department of Toxic Substances Control
+- [Annual hazardous waste verification (eVQ)](https://www.ca.gov/departments/227/services/1250/index.md): Department of Toxic Substances Control
+- [Hazardous waste Regulatory Assistance Office](https://www.ca.gov/departments/227/services/1251/index.md): Department of Toxic Substances Control
+- [CalSAFER](https://www.ca.gov/departments/227/services/1326/index.md): Department of Toxic Substances Control
+- [Find UC undocumented student resources](https://www.ca.gov/departments/282/services/1118/index.md): University of California
+- [CalVet home loans for veterans](https://www.ca.gov/departments/163/services/64/index.md): Department of Veterans Affairs
+- [Apply to a Veterans Home](https://www.ca.gov/departments/163/services/1273/index.md): Department of Veterans Affairs
+- [Apply for compensation for crime-related expenses](https://www.ca.gov/departments/162/services/1169/index.md): California Victim Compensation Board
+- [California Water Watch](https://www.ca.gov/departments/228/services/1253/index.md): Department of Water Resources
+- [Save Our Water](https://www.ca.gov/departments/228/services/1263/index.md): Department of Water Resources
+- [Enroll your kids in technology programs](https://www.ca.gov/departments/208/services/1098/index.md): California Workforce Development Board
+- [Learn about jobs for foreign-born professionals](https://www.ca.gov/departments/208/services/1099/index.md): California Workforce Development Board
+- [Get Job Training in San Diego](https://www.ca.gov/departments/208/services/1110/index.md): California Workforce Development Board
+- [Get Job Training in Orange County](https://www.ca.gov/departments/208/services/1111/index.md): California Workforce Development Board
+- [Get Job Training in Long Beach](https://www.ca.gov/departments/208/services/1112/index.md): California Workforce Development Board
+- [Get Job Training in Madera/Fresno](https://www.ca.gov/departments/208/services/1113/index.md): California Workforce Development Board
+- [Get Job Training in Sacramento](https://www.ca.gov/departments/208/services/1114/index.md): California Workforce Development Board

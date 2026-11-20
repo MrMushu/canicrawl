@@ -34,6 +34,7 @@ Disallow: /images/
 Allow: /landing/cd-rates-d/
 Allow: /landing/cd-rates-f/
 Allow: /landing/cd-rates-g/
+Allow: /landing/cnbc/
 Disallow: /landing/
 Disallow: /search/
 Disallow: /credit-card-offers/transfer-page/

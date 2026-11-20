@@ -264,6 +264,7 @@ Allow: /paid-content/how-to-choose-a-reliable-home-internet-provider-in-2026/
 Allow: /paid-content/how-to-choose-the-right-dell-ai-laptop-for-your-workflow/
 Allow: /paid-content/how-to-get-fast-reliable-fiber-internet-at-a-predictable-transparent-price/
 Allow: /paid-content/how-to-get-your-backyard-ready-for-summer-with-lights-and-sound/
+Allow: /paid-content/how-to-make-a-resume-in-2026-using-adobe-acrobat/
 Allow: /paid-content/how-to-make-an-image-from-text-with-ai-in-2026-using-adobe-firefly/
 Allow: /paid-content/how-to-stream-pro-and-college-football-in-2026-with-directv-mysports-genre-pack/
 Allow: /paid-content/how-to-time-your-next-major-appliance-purchase-for-maximum-savings/
@@ -351,6 +352,7 @@ Allow: /paid-content/studio-pilates-vs-a-home-reformer-the-math-on-how-much-youd
 Allow: /paid-content/what-can-a-roborock-robot-vacuum-and-mop-do-5-common-scenarios-plus-models-to-shop/
 Allow: /paid-content/roboform-for-everyday-use-ease-of-use-cost-and-getting-set-up/
 Allow: /paid-content/switch-to-t-mobile-in-15-minutes-and-get-up-to-800-dollars/
+Allow: /paid-content/t-mobile-5g-home-internet-for-renters-how-to-get-online-without-drilling-or-waiting-on-your-building/
 Allow: /paid-content/t-mobile-5g-home-internet-gets-you-online-fast-with-no-technicians-or-contracts/
 Allow: /paid-content/t-mobile-5g-home-internet-offers-a-solution-to-contracts-cords-and-hidden-fees/
 Allow: /paid-content/t-mobile-fiber-vs-cable-internet-why-ultra-fast-internet-is-worth-the-upgrade/

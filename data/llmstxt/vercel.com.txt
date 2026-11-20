@@ -52,7 +52,7 @@ This file indexes vercel.com for AI agents. Most vercel.com pages are available 
 - [Workflows](https://vercel.com/docs/workflows.md): Run multi-step code that retries failed steps, waits for external events, and resumes after crashes and deployments.
 - [Connect](https://vercel.com/docs/connect.md): Give agents short-lived tokens for Slack, GitHub, Snowflake, or any OAuth or API-key service, without storing provider secrets.
 - [Passport](https://vercel.com/docs/passport.md) (Enterprise): Put your company's identity provider in front of every agent, app, and deployment you ship.
-- [Drives](https://vercel.com/docs/sandbox/concepts/drives.md): Storage you mount into a Sandbox, so an agent keeps its files between runs.
+- [Drives](https://vercel.com/docs/drives.md): Storage you mount into a Sandbox, so an agent keeps its files between runs.
 - [Agent harnesses](https://vercel.com/docs/agent-harnesses.md): Run Claude Code, Codex, OpenCode, eve, and other harnesses on Vercel, so an agent picks up where it stopped after a crash, timeout, or redeploy.
 - [MCP server hosting](https://vercel.com/docs/mcp.md): Deploy your own MCP servers so agents can call your APIs as tools.
 - [Container Registry](https://vercel.com/docs/container-registry.md): Store container images and run them on Functions or Sandbox.

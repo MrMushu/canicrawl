@@ -5223,6 +5223,197 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "businessinsider.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "businessinsider.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "restricted",
+   "to": "blocked"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "apple.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "apple.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "apple.com",
+   "kind": "bot-flip",
+   "bot": "OAI-SearchBot",
+   "from": "restricted",
+   "to": "allowed"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "GPTBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "ChatGPT-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "ClaudeBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Claude-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Google-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Perplexity-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "CCBot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Bytespider",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "meta-externalagent",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Amazonbot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "MistralAI-User",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "anthropic-ai",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Claude-Web",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "cohere-ai",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Diffbot",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "omgili",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "wiley.com",
+   "kind": "bot-flip",
+   "bot": "Meta-ExternalFetcher",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-20",
+   "domain": "ca.gov",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

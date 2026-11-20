@@ -3,6 +3,8 @@ Sitemap: https://bleacherreport.com/sitemaps/categories/scores
 Sitemap: https://bleacherreport.com/sitemaps/google-news
 Sitemap: https://bleacherreport.com/sitemaps/writers
 Sitemap: https://bleacherreport.com/sitemaps/creators
+Sitemap: https://bleacherreport.com/sitemaps/articles
+Sitemap: https://bleacherreport.com/sitemaps/gamecasts
 User-Agent: *
 Disallow: /AAMSZ=160x600
 Disallow: /AAMSZ=300x250

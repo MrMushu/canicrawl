@@ -226,7 +226,7 @@
 - [Emotet Malware: Definition, Damage, Defense & Prevention](https://www.okta.com/identity-101/emotet)
 - [Evil Twin Attack: Fake WiFi Access Point Vulnerabilities](https://www.okta.com/identity-101/evil-twin-attack)
 - [What is cached data? Why & how should you clear it?](https://www.okta.com/identity-101/cached-data)
-- [Understanding Lifecycle Management and Regulatory Compliance](https://www.okta.com/identity-101/lifecycle-management-and-regulatory-compliance)
+- [Understanding lifecycle management and regulatory compliance](https://www.okta.com/identity-101/lifecycle-management-and-regulatory-compliance)
 - [Black-Box Testing: Definition, Types & Techniques](https://www.okta.com/identity-101/black-box-testing)
 - [Slowloris DDoS Attack: Definition, Damage & Defense](https://www.okta.com/identity-101/slowloris)
 - [How to Start Investing in Identity and Access Management](https://www.okta.com/identity-101/invest-in-identity-and-access-management)
@@ -1306,6 +1306,7 @@
 - [Forrester TEI: What a 216% ROI on identity security means for healthcare](https://www.okta.com/blog/industry-insights/identity-security-roi-healthcare-forrester-tei)
 - [Bringing identity controls to customer-facing AI agents](https://www.okta.com/blog/product-innovation/ai-agent-identity-controls-customer-identity)
 - [NIST's 10 agent identity tenets: A checklist for security teams](https://www.okta.com/blog/ai/nist-agent-identity-tenets-security-checklist)
+- [How to secure every hop in an AI agent’s MCP workflow](https://www.okta.com/blog/product-innovation/secure-ai-agents-mcp-workflow)
 - [When enrollment isn’t enough: How attackers trick users into MFA downgrades | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/when_enrollment_isnt_enough)
 - [Launch Week ‘25: New Year Edition](https://www.okta.com/blog/product-innovation/launch-week-25-new-year-edition)
 - [Modern identity at work: Productivity meets security](https://www.okta.com/blog/identity-security/modern-identity-at-work-productivity-meets-security)
@@ -1333,6 +1334,7 @@
 - [Multi-agent attack tools leave no stone unturned | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/multi_agent_attack_tools_leave_no_stone_unturned)
 - [The Okta Identity Maturity Model: An implementation roadmap across five industries](https://www.okta.com/blog/industry-insights/identity-maturity-model-by-industry)
 - [Three high-priority IAM actions you can automate with natural language using the Okta MCP Server](https://www.okta.com/blog/product-innovation/okta-mcp-server-use-cases)
+- [Securing autonomous enterprise AI agents in retail](https://www.okta.com/blog/industry-insights/ai-agent-security-retail-identity-governance-rules)
 
 ## Newsroom
 
@@ -1581,6 +1583,7 @@
 - [Securing agentic commerce with Brex CISO Mark Hillick](https://www.okta.com/newsroom/articles/securing-agentic-commerce-with-brex-ciso-mark-hillick)
 - [How to secure AI agents in a shifting regulatory landscape](https://www.okta.com/newsroom/articles/how-to-secure-ai-agents-in-a-shifting-regulatory-landscape)
 - [How a leading fintech platform secured its AI wave before it even began](https://www.okta.com/newsroom/articles/how-a-leading-fintech-platform-secured-its-ai-wave-before-it-even-began)
+- [5 predictions that will define security in 2027](https://www.okta.com/newsroom/articles/5-predictions-that-will-define-security-in-2027)
 - [Closing the AI trust gap: Why 80% of agentic commerce projects are stalled (and how to fix it)](https://www.okta.com/newsroom/articles/customer-identity-trends-report-2026-agentic-ai-consumer-experience)
 - [How Filevine built a ‘load-bearing’ permissions index for AI](https://www.okta.com/newsroom/articles/how-filevine-built-a-load-bearing-permissions-index-for-ai)
 - [The 1-in-40 risk hiding in your AI agents](https://www.okta.com/newsroom/articles/the-1-in-40-risk-hiding-in-your-ai-agents)
