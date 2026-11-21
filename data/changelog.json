@@ -5414,6 +5414,29 @@
    "kind": "llmstxt",
    "from": false,
    "to": true
+  },
+  {
+   "date": "2026-11-21",
+   "domain": "x.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-21",
+   "domain": "twitter.com",
+   "kind": "bot-flip",
+   "bot": "Applebot-Extended",
+   "from": "blocked",
+   "to": "restricted"
+  },
+  {
+   "date": "2026-11-21",
+   "domain": "mediafire.com",
+   "kind": "llmstxt",
+   "from": false,
+   "to": true
   }
  ]
 }

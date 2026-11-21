@@ -98,4 +98,4 @@ Disallow: /
 User-agent: NeevaAI
 Disallow: /
 
-Sitemap: https://sharethrough.com/sitemap.xml
+Sitemap: https://www.sharethrough.com/sitemap.xml

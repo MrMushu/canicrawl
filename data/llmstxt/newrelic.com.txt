@@ -162,6 +162,8 @@ New Relic provides comprehensive observability solutions for modern software tea
 
 ## Blog
 
+- [8 Best SNMP Monitoring Tools for IT and DevOps Teams in 2026](https://newrelic.com/blog/observability/snmp-monitoring-tools): Compare the best SNMP monitoring tools in 2026, from PRTG and Zabbix to New Relic, plus how to choose for SNMPv3, traps, and app correlation.
+- [7 Best SaaS Monitoring Tools for Engineering Teams in 2026](https://newrelic.com/blog/observability/saas-monitoring-tools): Compare the best SaaS monitoring tools for teams running their own product, from New Relic to Datadog and Dynatrace, and what to look for as you scale.
 - [Datadog LLM Observability: Features, Pricing, and Alternatives](https://newrelic.com/blog/ai/datadog-llm-observability): An objective look at Datadog LLM Observability: tracing, evaluations, how pricing works, and how alternatives like New Relic AI Monitoring compare.
 - [8 Best Error Tracking Tools for Developers in 2026](https://newrelic.com/blog/observability/error-tracking-tools): Compare the best error tracking tools for developers in 2026, from Sentry and Rollbar to New Relic, plus what to look for in grouping, context, and pricing.
 - [New Relic Observability for Microsoft Foundry](https://newrelic.com/blog/ai/new-relic-observability-for-microsoft-foundry): Bring traces, metrics, and logs from Microsoft Foundry AI agents and models into New Relic using OpenTelemetry, Azure Monitor, and APM agents.
@@ -180,16 +182,14 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Meeting the Moment: Growing Our Sales Team in the Silicon South](https://newrelic.com/blog/news/meeting-the-moment-growing-our-sales-team-in-the-silicon-south): Build your tech sales career at New Relic Atlanta with hands-on AI tools, a collaborative culture, and real opportunities to grow.
 - [Platform Engineering Tools: A Buyer's Guide to the Internal Developer Platform Stack](https://newrelic.com/blog/observability/platform-engineering-tools): A category-by-category guide to platform engineering tools — developer portals, orchestration, IaC, CI/CD, and observability — for teams building an IDP.
 - [The Best Network Performance Monitoring Tools for 2026](https://newrelic.com/blog/observability/network-performance-monitoring-tools): Compare the top network performance monitoring tools on telemetry breadth, AI-assisted investigation, and total cost of ownership — including where New Relic fits.
-- [Datadog vs. Dynatrace: An Honest Comparison for Cloud-Native Teams (2026)](https://newrelic.com/blog/observability/datadog-vs-dynatrace): Comparing Datadog and Dynatrace on architecture, deployment, AI-driven root cause analysis, and pricing — plus where a unified alternative fits in.
-- [LaunchDarkly + New Relic: Accelerating safe releases with Intelligent Observability](https://newrelic.com/blog/news/launchdarkly-new-relic-fireside-recap): Learn how LaunchDarkly and New Relic combine feature toggles and real-time observability to decouple deployment, reduce risk, and accelerate delivery.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [re:Invent in 40: The AWS & New Relic Wrap-Up + SAP Innovations](https://newrelic.com/events/2026-12-09/new-relic-aws-reinvent-sap-emea): Join AWS and New Relic on 9 December as they break down the biggest announcements from Las Vegas and deep-dive into the next frontier of New Relic + AWS SAP innovations.
 - [re:Invent in 30: The AWS & New Relic Wrap-Up](https://newrelic.com/events/2026-12-10/new-relic-aws-reinvent-fireside-chat): Join us on 10 December as our AWS and New Relic specialists break down the biggest announcements from AWS re:Invent
 - [New Relic Executive Connect at re:Invent](https://newrelic.com/events/2026-12-01/new-relic-exec-connect-reinvent): Join us for cocktails and an early dinner at New Relic Exec Connect at AWS re:Invent 6-8pm Monday, November 30
 - [New Relic x AWS Singapore Meet Up](https://newrelic.com/events/2026-12-17/new-relic-aws-singapore): Join us at the AWS offices on 17 Dec and you'll learn how to kickstart your superhuman era with our latest AWS innovations
 - [[On demand] New Relic for AI: Observability for AI, AI for Observability (EMEA)](https://newrelic.com/events/2026-11-04/new-relic-for-ai-emea-on-demand): Join us for an interactive, hands-on workshop focused on monitoring AI applications and leveraging AI features within New Relic.
-- [Sainsbury's x New Relic M.A.R.S. GameDay Challenge](https://newrelic.com/events/2026-11-10/sainsburys-mars-gameday): Sainsbury's, join New Relic on 10 November and discover how the New Relic Intelligent Observability platform opens up unexpected possibilities—and then get hands-on in a M.A.R.S. GameDay. 
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.

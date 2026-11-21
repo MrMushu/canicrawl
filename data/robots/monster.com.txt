@@ -75,3 +75,19 @@ Disallow: /jobs/*&re=1002
 Disallow: /jobs/*?jobid=
 Disallow: /jobs/*&jobid=
 
+# PSP pagination test 11/20
+Disallow: /jobs/*page=11
+Disallow: /jobs/*page=12
+Disallow: /jobs/*page=13
+Disallow: /jobs/*page=14
+Disallow: /jobs/*page=15
+Disallow: /jobs/*page=16
+Disallow: /jobs/*page=17
+Disallow: /jobs/*page=18
+Disallow: /jobs/*page=19
+Disallow: /jobs/*page=20
+Disallow: /jobs/*page=21
+Disallow: /jobs/*page=22
+Disallow: /jobs/*page=23
+Disallow: /jobs/*page=24
+Disallow: /jobs/*page=25

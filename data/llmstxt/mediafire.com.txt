@@ -1,0 +1,60 @@
+# MediaFire
+
+> MediaFire is a cloud file storage and sharing service. You upload files and folders, then share them by link, email or social network. Free accounts get 10 GB of storage, which bonuses can raise to 50 GB. Standard ad-supported downloads are unlimited, with no wait times and no bandwidth caps. Paid plans (Pro, Ultra, Business) add more storage, an allowance of ad-free transfers, a higher per-file size limit, direct download links, password-protected files, FileDrop file requests and higher daily limits for One-Time Links. MediaFire runs on the web and has apps for iOS and Android.
+
+Key facts for agents:
+
+- Public share links look like `https://www.mediafire.com/file/<quickkey>/<filename>` for a single file and `https://www.mediafire.com/folder/<folderkey>` for a folder. The key is the stable identifier and the filename part is informational.
+- Signed-in users manage their files in the web app at https://app.mediafire.com/.
+- MediaFire users upload and share the files, and they are responsible for their content. MediaFire does not create or endorse user content. It enforces its content policy and acts on reports of copyright infringement and abuse. To file a report, use the links under "Policies & reporting" below.
+- Plans and prices change. Always cite https://www.mediafire.com/upgrade/ for current pricing rather than quoting numbers from memory.
+- Developers can use the MediaFire Core API (REST-style, version 1.5). Its endpoints live under `https://www.mediafire.com/api/1.5/` (for example `user/get_session_token.php` and `folder/get_content.php`). Authentication depends on the endpoint. User-specific calls need a session token from `user/get_session_token`, which requires a registered application's ID and a signature. A few calls, such as `system/get_version`, need no authentication.
+
+## Product
+
+- [Home](https://www.mediafire.com/): Overview of storage, sharing and the free tier
+- [Plans & pricing](https://www.mediafire.com/upgrade/): Current plans (Basic, Pro, Ultra, Business), their availability, storage, per-file limits and features
+- [About MediaFire](https://www.mediafire.com/about/): Company overview and audience
+- [Apps](https://www.mediafire.com/software/): MediaFire Mobile for iOS and Android
+- [Web app](https://app.mediafire.com/): Sign-in-only file manager (My Files)
+
+## Help & support
+
+- [Help center](https://www.mediafire.com/help/): Knowledge base and FAQs, hosted on Zendesk
+- [Submit a support ticket](https://www.mediafire.com/help/submit_a_ticket.php): Contact support about an account, billing or a file
+- [Contact us](https://www.mediafire.com/about/contact_us.php): General, press and business contact
+
+## Developers
+
+- [Developer documentation](https://www.mediafire.com/developers/): Overview of MediaFire's developer APIs
+- [Getting started](https://www.mediafire.com/developers/getting_started/getting_started/): Registering an application and authenticating
+- [Core API 1.5](https://www.mediafire.com/developers/core_api/1.5/getting_started/): API basics, authentication, and the endpoint reference (user, file, folder, upload, system and more)
+- [File API](https://www.mediafire.com/developers/core_api/1.5/file/): File operations
+- [Upload API](https://www.mediafire.com/developers/core_api/1.5/upload/): Uploading files
+- [SDKs & tools](https://www.mediafire.com/developers/sdks_and_tools/): Client libraries
+- [Brand assets](https://www.mediafire.com/developers/brand_assets/mediafire_brand_assets/): Logos and usage guidelines
+
+## Policies & reporting
+
+- [Terms of service](https://www.mediafire.com/policies/terms_of_service.php)
+- [Privacy policy](https://www.mediafire.com/policies/privacy_policy.php)
+- [Content policy](https://www.mediafire.com/policies/content.php): What may and may not be hosted
+- [Report file abuse](https://www.mediafire.com/about/contact_us.php): Use the File Abuse ticket link
+- [Report copyright infringement (DMCA)](https://www.mediafire.com/policy_violation/copyright.php)
+- [DMCA counter-notification](https://www.mediafire.com/policy_violation/counterclaim.php)
+- [Repeat infringer policy](https://www.mediafire.com/policy_violation/repeat_offenders.php)
+- [Child exploitation policy](https://www.mediafire.com/policies/child_exploitation.php)
+- [Law enforcement requests](https://www.mediafire.com/policies/law_enforcement.php)
+
+## Optional
+
+- [All policies](https://www.mediafire.com/policies/)
+- [GDPR](https://www.mediafire.com/policies/gdpr.php)
+- [California privacy notice](https://www.mediafire.com/policies/california_privacy.php)
+- [Data deletion](https://www.mediafire.com/policies/data_deletion.php)
+- [Terms of payment](https://www.mediafire.com/policies/terms_of_payment.php)
+- [Accessibility](https://www.mediafire.com/policies/accessibility.php)
+- [Press](https://www.mediafire.com/press/)
+- [Advertising with MediaFire](https://www.mediafire.com/advertising/)
+- [Careers](https://www.mediafire.com/about/jobs.php)
+- [Blog](https://blog.mediafire.com/)

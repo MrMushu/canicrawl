@@ -237,3 +237,4 @@ Sitemap: https://www.snapchat.com/sitemaps/top_spotlights/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/local_city_leaf/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/local_nbhd_leaf/sitemap-index.xml
 Sitemap: https://www.snapchat.com/sitemaps/local_city_hub/sitemap-index.xml
+Sitemap: https://www.snapchat.com/sitemaps/chat/sitemap-index.xml

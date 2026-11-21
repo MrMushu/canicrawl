@@ -1,31 +1,31 @@
-User-agent: *
+User-Agent: *
 Allow: /
 
-User-agent: GPTBot
+User-Agent: GPTBot
 Allow: /
 
-User-agent: OAI-SearchBot
+User-Agent: OAI-SearchBot
 Allow: /
 
-User-agent: ChatGPT-User
+User-Agent: ChatGPT-User
 Allow: /
 
-User-agent: ClaudeBot
+User-Agent: ClaudeBot
 Allow: /
 
-User-agent: Claude-Web
+User-Agent: Claude-Web
 Allow: /
 
-User-agent: Google-Extended
+User-Agent: Google-Extended
 Allow: /
 
-User-agent: PerplexityBot
+User-Agent: PerplexityBot
 Allow: /
 
-User-agent: CCBot
+User-Agent: CCBot
 Allow: /
 
-User-agent: Applebot-Extended
+User-Agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://ui.com/sitemap.xml
