@@ -1489,3 +1489,5 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Ring: SS-32 (ShortSupply redeploy confirmation): attempted, NOT verified, left unticked.** Before: the live 11-21 arrival page `/drug/oseltamivir-phosphate-powder-for-suspension/` returned HTTP 404, while the local `node scripts/build.js` in shortsupply built it (283 pages, snapshot 2026-11-21). I polled the live page about 10 minutes after each retrigger and both times it was still 404. Each run failed; I checked each result once via the API. Two-strike rule applied: no further fixes. I also added CC-44 (escalation only). Canicrawl local `node scripts/build.js`: 1,095 pages, snapshot 2026-11-21.
 
 **Next:** start with the ShortSupply live page. If 11-22's schedule run deployed, tick SS-32. Then CC-41 (digest #13, due 11-22). Include the x.com/twitter caveat and leave out mediafire's "flip".
+
+**Correction (same session):** the "Next" line above should not say to leave out mediafire.com. Its llms.txt is a genuine new receipt (60 lines) and belongs in digest #13. Only the x.com/twitter Applebot-Extended "loosening" needs the caveat.
