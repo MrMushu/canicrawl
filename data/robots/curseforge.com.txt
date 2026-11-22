@@ -5,6 +5,8 @@ Disallow: /linkout
 Disallow: /*/*/*/download/
 Disallow: /*/*/*/install/
 Disallow: /api/*
+Allow: /api/v1/mods/557076/comments$
+Allow: /api/v1/mods/557076/comments?*
 Disallow: /private-messages/*
 Disallow: /login
 Disallow: /register
