@@ -1491,3 +1491,16 @@ ShortSupply's changelog went from 184 to **226**. On 10-21 there was an availabi
 **Next:** start with the ShortSupply live page. If 11-22's schedule run deployed, tick SS-32. Then CC-41 (digest #13, due 11-22). Include the x.com/twitter caveat and leave out mediafire's "flip".
 
 **Correction (same session):** the "Next" line above should not say to leave out mediafire.com. Its llms.txt is a genuine new receipt (60 lines) and belongs in digest #13. Only the x.com/twitter Applebot-Extended "loosening" needs the caveat.
+
+## 2026-11-22 — Ops: crons green both products; ShortSupply deploy recovered (SS-32 ticked); digest #13 "Wiley takes Cloudflare's block back out" (CC-41)
+
+**USER-NEEDED (standing, nothing new):** CC-44 + CC-16 (verdict for `Disallow: *` and `Disallow: /` + `Allow:` carve-outs), CC-40, CC-24, SS-7, ShortSupply first-category-only filing, tracked-bot question. The 11-21 ShortSupply deploy item is resolved (see below), so nothing needs doing there.
+
+**Crons:** canicrawl 11-22 schedule run (14:33 UTC) green, snapshot f29eb26 pulled. ShortSupply 11-22 schedule run (14:54 UTC) green. Its 11-21 16:35 UTC push run (b17cdee, the journal addendum) was already green, so the Pages artifact fault cleared without a workflow edit. One stray: canicrawl's 11-21 16:35 push run for eadc2e2 failed, but today's schedule run on the same head deployed fine. No scheduled run was in progress at push time.
+
+**Changelog:** canicrawl has no 11-22 entries (still 693). The 11-22 diffs had nothing AI-relevant: curseforge comment `Allow:`s, pinterest/pinimg reshuffle, a snapchat sitemap line, a wordpress timestamp, and a mistral.ai llms.txt rewrite. ShortSupply also has no 11-22 entries (332).
+
+**Ring: CC-41, digest #13, done and verified.** Window 11-16..11-22: 40 entries (36 flips, 10 tighter / 26 looser; 4 llms.txt). Lead is wiley.com deleting both Cloudflare managed copies on 11-20 (−304/+0 lines, 18 flips, now blocks no tracked crawler). Also covered: theatlantic.com's Known Agents block (about 1,200 names, 7 tighter / 3 looser). I confirmed that the 3 looser bots and GPTBot are absent from the new file, and that theatlantic already carried Content-signal lines, so it is not a new cohort member. Apple's OpenAI group carries only two `Allow:` lines, which gives 3 allowed flips. Business Insider added Meta groups and dailymotion blocked Bytespider. x.com/twitter are written as no loosening, with the CC-44 caveat. The four llms.txt files are tumblr, hilton, ca.gov and mediafire. Google's five `__usage_ai-training` groups are 41 names with path rules only, so no verdict changed.
+Verified: build 1,096 pages; dist/digest/13/ in the sitemap and on /digest/; rss 13 items; 76/76 internal links resolve; 0 `${`; digests.json +7/−0. Blockers went from 210/646 to 209/645 (by edit: +dailymotion, −wiley; the rest is reachability). Cohorts were checked name by name: Cloudflare 5→4, Content Signals 28→27, robotstxt 2→2. Other counts: llms.txt 132→135, `__usage_ai-training` 11→16, token radar 2,138→2,851 distinct tokens. The live page was not checked visually, because starting the preview server was declined in this unattended run. Added CC-45 (digest #14, due ~11-29).
+
+**Next:** CC-45 is banked from 11-23. Next session: confirm digest #13 is live at canicrawl.com/digest/13/ (HTTP 200).
