@@ -113,3 +113,17 @@ Key things to know when reasoning about hCaptcha:
 - [Log In](https://dashboard.hcaptcha.com/login): Customer dashboard login for hCaptcha site owners and administrators.
 
 *Last updated: 2026-10-08*
+
+## Industries
+
+- [Industry solutions](https://www.hcaptcha.com/industries/): Explore protection by industry and workflow.
+- [Retail & E-commerce](https://www.hcaptcha.com/industries/retail-ecommerce/): Protect retail accounts, product releases, and checkout from bots and fraud. Explore privacy-preserving e-commerce protection with hCaptcha Enterprise.
+- [Technology & SaaS](https://www.hcaptcha.com/industries/technology-saas/): Prevent free trial abuse, fake signups, and API misuse with hCaptcha Enterprise. Protect SaaS accounts and assess risk across signup and usage.
+- [Banking & Financial Services](https://www.hcaptcha.com/industries/banking-financial-services/): Detect banking fraud, account takeover, and automated abuse with hCaptcha Enterprise. Protect logins, account changes, and payment workflows.
+- [Ticketing & Live Events](https://www.hcaptcha.com/industries/ticketing-live-events/): Protect ticket registration, reservations, and checkout from scalping bots and fraud. Evaluate hCaptcha Enterprise for high-demand event sales.
+- [Travel & Hospitality](https://www.hcaptcha.com/industries/travel-hospitality/): Protect airlines, hotels, and travel platforms from bots and fraud. Secure loyalty accounts, bookings, and payments with hCaptcha Enterprise.
+- [Marketplaces & Classifieds](https://www.hcaptcha.com/industries/marketplaces-classifieds/): Detect marketplace fraud, fake accounts, and coordinated abuse with hCaptcha Enterprise. Protect seller signup, listings, messaging, and purchases.
+- [Media & Entertainment](https://www.hcaptcha.com/industries/media-entertainment/): Protect publishing and streaming platforms from content scraping, account abuse, and fake engagement with hCaptcha Enterprise.
+- [Healthcare](https://www.hcaptcha.com/industries/healthcare/): Protect patient portals and healthcare APIs from bots, account takeover, and abusive automation with privacy-preserving hCaptcha Enterprise.
+- [Telecom](https://www.hcaptcha.com/industries/telecom/): Prevent telecom fraud from SMS pumping, subscriber account takeover, and activation abuse. Protect OTP and account workflows with hCaptcha Enterprise.
+- [Government & Public Sector](https://www.hcaptcha.com/industries/government-public-sector/): Protect government websites and portals from automated registrations, credential stuffing, and form abuse with privacy-preserving hCaptcha Enterprise.

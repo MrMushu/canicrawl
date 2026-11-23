@@ -1,9 +1,12 @@
 User-agent: *
-Disallow: /*?token*
+User-agent: Applebot
+User-agent: Googlebot
+Disallow: /*token=
 Disallow: /*?callback*
 Disallow: /*?hash*
 Disallow: /*:*
 
+Disallow: /json
 Disallow: /*/json$
 Disallow: /*/ip$
 Disallow: /*/hostname$
@@ -19,6 +22,11 @@ Disallow: /signup?to=/*
 Disallow: /*?__hstc=*
 Disallow: /case-studies/
 Disallow: /probenet/live/
+
+# Google merges this into the group above: Googlebot alone reaches token URLs
+# and gets their 410.
+User-agent: Googlebot
+Allow: /*token=
 
 Sitemap: https://ipinfo.io/sitemap.xml
 Sitemap: https://ipinfo.io/learn/sitemap.xml

@@ -11,6 +11,8 @@ User-agent: *
 Disallow: /*/hotel/all/
 Disallow: /account/
 Disallow: /*/account/
+Disallow: /ul/
+Disallow: /*/ul/
 Disallow: /*/book/
 Disallow: /*/thankyou/
 Disallow: /book/
@@ -62,6 +64,8 @@ Allow: /activities/detail/*/*/*
 Allow: /*/activities/detail/*/*/*
 Disallow: /account/
 Disallow: /*/account/
+Disallow: /ul/
+Disallow: /*/ul/
 Disallow: /*/book/
 Disallow: /*/thankyou/
 Disallow: /book/

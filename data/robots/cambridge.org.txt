@@ -106,7 +106,9 @@ Disallow: /*style_builder.*
 Disallow: /checkout/
 Disallow: /signin
 Disallow: /register
-
+Disallow: */universitypress/search
+Disallow: */education/search
+Disallow: */cambridgeenglish/search
 
 
 User-agent: Twitterbot

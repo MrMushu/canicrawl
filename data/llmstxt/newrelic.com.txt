@@ -162,6 +162,7 @@ New Relic provides comprehensive observability solutions for modern software tea
 
 ## Blog
 
+- [Govern Your Observability Spend So Your Teams Can Keep Building](https://newrelic.com/blog/observability/govern-observability-spend): Spend is rising and that’s fine if you can see it coming. Learn the four stages of governing New Relic usage: Set Up, Control, Track, and Optimize.
 - [8 Best SNMP Monitoring Tools for IT and DevOps Teams in 2026](https://newrelic.com/blog/observability/snmp-monitoring-tools): Compare the best SNMP monitoring tools in 2026, from PRTG and Zabbix to New Relic, plus how to choose for SNMPv3, traps, and app correlation.
 - [7 Best SaaS Monitoring Tools for Engineering Teams in 2026](https://newrelic.com/blog/observability/saas-monitoring-tools): Compare the best SaaS monitoring tools for teams running their own product, from New Relic to Datadog and Dynatrace, and what to look for as you scale.
 - [Datadog LLM Observability: Features, Pricing, and Alternatives](https://newrelic.com/blog/ai/datadog-llm-observability): An objective look at Datadog LLM Observability: tracing, evaluations, how pricing works, and how alternatives like New Relic AI Monitoring compare.
@@ -181,7 +182,6 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Do You Need Forward Deployed Engineers? 5 Signals from New Relic Now](https://newrelic.com/blog/ai/do-you-need-forward-deployed-engineers): Discover 5 key signals on forward deployed engineers, AI agents in production, and observability insights from New Relic Now and Anthropic.
 - [Meeting the Moment: Growing Our Sales Team in the Silicon South](https://newrelic.com/blog/news/meeting-the-moment-growing-our-sales-team-in-the-silicon-south): Build your tech sales career at New Relic Atlanta with hands-on AI tools, a collaborative culture, and real opportunities to grow.
 - [Platform Engineering Tools: A Buyer's Guide to the Internal Developer Platform Stack](https://newrelic.com/blog/observability/platform-engineering-tools): A category-by-category guide to platform engineering tools — developer portals, orchestration, IaC, CI/CD, and observability — for teams building an IDP.
-- [The Best Network Performance Monitoring Tools for 2026](https://newrelic.com/blog/observability/network-performance-monitoring-tools): Compare the top network performance monitoring tools on telemetry breadth, AI-assisted investigation, and total cost of ownership — including where New Relic fits.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.

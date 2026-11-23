@@ -121,7 +121,6 @@ Disallow: /en_instrume/
 Disallow: /ar/
 Disallow: /ar_ae/
 Disallow: /ar_sa/
-Disallow: /en_ph/
 Disallow: /cdn-cgi/
 Disallow: /*/login/verify-email
 Disallow: /M/

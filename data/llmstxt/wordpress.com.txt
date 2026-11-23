@@ -29,6 +29,7 @@ This file indexes the canonical WordPress.com pages for AI systems. The product 
 
 ## Guidance for AI agents
 
+- [Build a site with WordPress Playground](https://wordpress.com/setup/onboarding/playground/): Open this page in a WebMCP-capable browser and wait for Playground to load. Discover the page's tools to build and edit a WordPress site. The user can review changes in a shared, visible browser. The site is saved in browser storage, so keep the same browser profile through signup and import. When the user is ready, call `wpcom_launch_site` to start WordPress.com signup. The Playground signup flow offers paid plans; importing the site and publishing happen later. See [Chrome's WebMCP guidance](https://developer.chrome.com/docs/ai/webmcp) for browser setup.
 - Connect to a user's WordPress.com account through the MCP server at `https://public-api.wordpress.com/wpcom/v2/mcp/v1`. It uses OAuth 2.1 in the browser, so there is nothing to install. The user turns on MCP in their account settings first. One connection reaches every site on the account. MCP is included on all paid plans and also works for self-hosted sites connected through Jetpack.
 - MCP tools follow the user's role on each site. Administrators can use every tool; editors can manage content and comments but not settings or plugins; authors and contributors have narrower access.
 - Get explicit confirmation from the user before publishing, deleting content, changing site settings, themes, plugins, domains, or DNS, or making a purchase.

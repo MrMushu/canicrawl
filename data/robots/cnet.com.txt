@@ -234,6 +234,7 @@ Allow: /paid-content/air-fry-without-the-countertop-clutter-how-mideas-new-appli
 Allow: /paid-content/cash-app-families-guide-how-to-set-up-a-teen-or-child-account-step-by-step/
 Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
 Allow: /paid-content/cash-apps-new-kids-debit-card-what-parents-need-to-know/
+Allow: /paid-content/can-you-really-get-a-free-phone-when-you-switch-to-a-prepaid-carrier-how-metros-samsung-galaxy-a37-offer-works/
 Allow: /paid-content/can-you-use-an-alienware-laptop-for-both-gaming-and-professional-work/
 Allow: /paid-content/cricket-wireless-offers-reliable-prepaid-nationwide-5g/
 Allow: /paid-content/dell-xps-14-battery-life-a-full-workday-unplugged/
@@ -242,6 +243,7 @@ Allow: /paid-content/dji-osmo-pocket-4p-is-a-powerful-tool-for-independent-filmm
 Allow: /paid-content/do-you-actually-need-a-separate-antivirus-vpn-and-scam-protection-mcafees-all-in-one-plans-have-you-covered/
 Allow: /paid-content/does-a-laptop-powered-by-snapdragon-really-last-all-week-what-to-expect-from-the-hp-omnibook-3/
 Allow: /paid-content/enjoy-unlimited-wi-fi-and-predictable-pricing-with-on-your-home-internet/
+Allow: /paid-content/filing-taxes-for-the-first-time-how-credit-karma-tax-walks-you-through-federal-and-state-returns/
 Allow: /paid-content/from-tacos-to-tvs-doordash-delivers-your-game-day-essentials/
 Allow: /paid-content/galaxy-s26-camera-system-the-biggest-questions-answered-before-you-buy/
 Allow: /paid-content/get-an-unlimited-5g-phone-plan-for-25-per-month-with-metro-by-t-mobile/
@@ -275,6 +277,7 @@ Allow: /paid-content/i-tried-internxt-an-encrypted-secure-cloud-storage-built-fo
 Allow: /paid-content/is-a-laptop-powered-by-snapdragon-good-what-each-snapdragon-chip-means-for-your-day/
 Allow: /paid-content/is-a-prepaid-phone-plan-really-cheaper-for-a-family-of-four/
 Allow: /paid-content/is-an-ai-laptop-worth-the-upgrade-how-to-use-the-ai-features-on-a-laptop-powered-by-snapdragon/
+Allow: /paid-content/is-credit-karma-tax-back-for-the-2027-filing-season/
 Allow: /paid-content/is-diy-tax-filing-right-for-you-heres-what-h-r-blocks-tools-make-possible/
 Allow: /paid-content/is-fiber-to-the-home-ftth-actually-better-than-xfinity-heres-what-the-evidence-says/
 Allow: /paid-content/is-it-time-to-upgrade-your-iphone-with-t-mobiles-trade-in-offers-the-answer-is-yes/

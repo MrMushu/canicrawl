@@ -1,11 +1,3 @@
-
-User-agent: *
-Disallow: /admin/
-Disallow: /api/
-Disallow: /em/
-Disallow: /login/
-Disallow: /temp/
-
 User-agent: *
 Allow: /
 
