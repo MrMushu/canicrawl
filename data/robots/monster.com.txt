@@ -74,6 +74,22 @@ Disallow: /jobs/*?re=1002
 Disallow: /jobs/*&re=1002
 Disallow: /jobs/*?jobid=
 Disallow: /jobs/*&jobid=
+Disallow: /jobs/*?autofillOnly=
+Disallow: /jobs/*&autofillOnly=
+Disallow: /jobs/*?oneClickApply=
+Disallow: /jobs/*&oneClickApply=
+Disallow: /jobs/*?sch=
+Disallow: /jobs/*&sch=
+Disallow: /jobs/*?rwl=
+Disallow: /jobs/*&rwl=
+Disallow: /jobs/*?ben=
+Disallow: /jobs/*&ben=
+Disallow: /jobs/*?jt=
+Disallow: /jobs/*&jt=
+Disallow: /jobs/*?cl=
+Disallow: /jobs/*&cl=
+Disallow: /jobs/*?edu=
+Disallow: /jobs/*&edu=
 
 # PSP pagination test 11/20
 Disallow: /jobs/*page=11

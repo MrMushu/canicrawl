@@ -1,80 +1,196 @@
-# Agentic Infrastructure
+---
+title: Vercel
+description: Vercel is the agentic infrastructure company. It is a cloud platform where developers and agents build, ship, and run AI agents and applications. Vercel is the team behind Next.js and AI SDK.
+url: https://vercel.com
+last_updated: 2026-11-20
+---
 
-For coding agents to ship apps and agents automated by agents.
+# Vercel
 
-- For coding agents to deploy in their native language, with Vercel's API, CLI, MCP, and Skills.
+> Vercel is the agentic infrastructure company. It is a cloud platform where developers and agents build, ship, and run AI agents and applications. Vercel is the team behind Next.js and AI SDK.
 
-- To ship apps and agents in Sandboxed VMs, with durable backends, powered by 400+ models.
+## Start here
 
-- Automated by agents who autonomously investigate errors, plan fixes, and open PRs.
+- [Set up Vercel in a coding agent](https://vercel.com/get-started.md): The agent setup playbook for the CLI, plugin, skills, and MCP.
+- [llms.txt](https://vercel.com/llms.txt): The full index of vercel.com for agents.
+- [Documentation](https://vercel.com/docs.md): Guides and reference for every Vercel product.
+- [Pricing](https://vercel.com/pricing.md): Plans and usage pricing.
+- [Enterprise](https://vercel.com/enterprise.md): The Enterprise plan, with SSO, audit logs, private networking, and 24/7 support. [Contact sales](https://vercel.com/contact/sales).
 
-[Deploy now](/new)
+## How agentic infrastructure works
 
-[Talk to sales](/contact/sales)
+Deploy it, run it, and let agents keep improving it.
 
-## Build agents on infrastructure that thinks like them
+### 1. Deploy
 
-Notion powers millions of agent conversations daily on Vercel.
+Push your website, agent, backend, or container to git, or tell Claude Code, Codex, Cursor, or OpenCode to ship it. Every part of Vercel works the same for you and your agents. Ship from the CLI, the dashboard, or any coding agent, and never think about the infrastructure underneath.
 
-Features
+### 2. Run it, and pay only for what it uses
 
-- Durable Orchestration
-- Sandboxed Environments
-- AI Model Gateway
-- Fluid Compute
+Fluid compute runs your app and agents, and Sandbox runs the code they generate. Both pause Active CPU charges while code waits on model responses. AI Gateway routes model calls at provider token prices with no markup. Hobby plans include free monthly allowances, and Pro plans bill additional usage on demand.
 
-## Ship apps that scale from zero to millions instantly
+### 3. Let agents keep improving it
 
-Zapier serves over 100 million monthly website visits on Vercel.
+Vercel Agent can review and create pull requests when you ask it to, investigate production issues, and test generated code in sandboxes. It is read-only by default. Before it changes your deployments or settings, it presents a scoped plan and waits for your approval. Build your own agents with eve for everything else.
 
-Features
+## For coding agents and AI tools
 
-- Global Delivery
-- Deployment Environments
-- Serverless Functions
-- Web Application Firewall
+Set up from a terminal:
 
-## Host platforms that serve every customer
+```bash
+# Deploy the current directory
+npm i -g vercel
+vercel login
+vercel
 
-Mintlify powers documentation for over 20,000 companies on Vercel.
+# Plugin for Claude Code, Codex, Grok Build, Cursor, Copilot, Kimi Code
+npx plugins add vercel/vercel-plugin
 
-Features
+# Plugin for OpenCode
+opencode plugin add github:vercel/vercel-plugin
 
-- Tenant Isolation
-- Domain Management
-- Custom SSL Certificates
-- Preview URLs
+# Skills for any other agent
+npx skills add vercel-labs/agent-skills
 
-## Recently shipped
+# Let your agent manage projects, deployments, and logs
+npx -y add-mcp https://mcp.vercel.com -g
 
-### Backends
+# Route your agent's model calls through AI Gateway
+npx vercel ai-gateway setup
+```
 
-Run Python backends, queues, and daemons on Vercel, alongside your frontend.
+- [Vercel MCP server](https://vercel.com/docs/agent-resources/vercel-mcp.md): OAuth-authenticated tools for docs, projects, deployments, and logs, at `https://mcp.vercel.com`.
+- [REST API](https://vercel.com/docs/rest-api.md) and its [OpenAPI description](https://vercel.com/openapi.json): Endpoints for projects, deployments, domains, and other account resources.
+- [Vercel CLI](https://vercel.com/docs/cli.md): Deploy, inspect, and manage projects from a terminal.
+- [Vercel Plugin](https://vercel.com/docs/agent-resources/vercel-plugin.md): Skills, commands, and specialist agents for the coding agents above.
+- [Vercel Skills](https://vercel.com/docs/agent-resources/skills.md): Vercel-published skills for React and Next.js, AI SDK, deployment, and more, each with its install command. Machine-readable index: [agent-skills index](https://vercel.com/.well-known/agent-skills/index.json).
+- [Claim deployments](https://vercel.com/docs/deployments/claim-deployments.md): An agent deploys an app for a user, then transfers it to the user's own Vercel account.
+- [AI Gateway model list](https://ai-gateway.vercel.sh/v1/models): Live JSON list of every model, with pricing. No API key needed.
+- [Markdown access](https://vercel.com/docs/agent-resources/markdown-access.md): Add `.md` to a vercel.com URL, or request the usual URL with the HTTP header `Accept: text/markdown`.
 
-[Learn more](/backends)
+## Products
 
-### Agents
+### Build with AI
 
-Build agents and run them on Vercel's agent stack.
+- [AI Gateway](https://vercel.com/docs/ai-gateway.md): Call 400+ models through one endpoint, with budgets, fallbacks, and no markup on token prices.
+- [AI SDK](https://vercel.com/docs/ai-sdk.md): A TypeScript library for building AI agents and apps, with one API for models, tools, structured output, and streaming.
+- [eve](https://vercel.com/docs/eve.md): Build durable backend agents with an open-source, filesystem-first framework.
+- [Sandbox](https://vercel.com/docs/sandbox.md): Isolated microVMs for agent code, commands, and evals.
+- [Workflows](https://vercel.com/docs/workflows.md): Run multi-step code that retries, waits for events, and resumes after crashes and deploys.
+- [Connect](https://vercel.com/docs/connect.md): Give agents short-lived tokens for Slack, GitHub, and other services, without storing provider secrets.
+- [Passport](https://vercel.com/docs/passport.md) (Enterprise): Put your company's identity provider in front of every agent, app, and deployment you ship.
+- [Drives](https://vercel.com/docs/sandbox/concepts/drives.md): Storage you mount into a Sandbox, so an agent keeps its files between runs.
+- [Agent harnesses](https://vercel.com/docs/agent-harnesses.md) (beta): Run Claude Code, Codex, OpenCode, and other harnesses on Vercel, and resume after a crash or redeploy.
+- [MCP server hosting](https://vercel.com/docs/mcp.md): Deploy your own MCP servers so agents can call your APIs as tools.
+- [Container Registry](https://vercel.com/docs/container-registry.md): Store container images and run them on Functions or Sandbox.
+- [v0](https://v0.app/docs.md): Build web apps and agents from natural language.
 
-[Learn more](/agents)
+### Build your app
 
-### Sandbox
+- [Frameworks](https://vercel.com/docs/frameworks.md): Deploy Next.js, Nuxt, SvelteKit, Astro, TanStack Start, and 40+ other frameworks, often with no configuration.
+- [Functions](https://vercel.com/docs/functions.md): Run APIs, webhooks, and agent turns without managing servers, on [Fluid compute](https://vercel.com/docs/fluid-compute.md).
+- [Services](https://vercel.com/docs/services.md) (beta) and [Daemons](https://vercel.com/docs/daemons.md) (beta): Deploy APIs and always-on background workers in Node.js, Python, or Go with the frontend.
+- [WebSockets](https://vercel.com/docs/functions/websockets.md): Keep a two-way connection open for realtime features such as chat and collaboration.
+- [Queues](https://vercel.com/docs/queues.md) (beta): Process agent events and background work reliably.
+- [Cron Jobs](https://vercel.com/docs/cron-jobs.md): Run scheduled jobs to automate recurring tasks.
+- [Storage](https://vercel.com/docs/storage.md): Store files in Vercel Blob, runtime configuration in Global Config, and third-party databases from the Vercel Marketplace.
+- [Integrations](https://vercel.com/docs/integrations.md): Connect databases, AI providers, CMSs, and logging tools from the Vercel Marketplace.
+- [Routing Middleware](https://vercel.com/docs/routing-middleware.md): Run code before a request reaches your app, for example to check a session or assign an A/B test.
+- [Incremental Static Regeneration](https://vercel.com/docs/incremental-static-regeneration.md): Regenerate pages on a schedule or on demand without a full rebuild.
+- [Image Optimization](https://vercel.com/docs/image-optimization.md): Resize and convert images on demand and serve them from the CDN.
+- [Microfrontends](https://vercel.com/docs/microfrontends.md): Serve several apps under one domain.
 
-The safest way to run code you didn't write.
+### Deploy and operate
 
-[Learn more](/sandbox)
+- [Deployments](https://vercel.com/docs/deployments.md): Deploy on every Git push. Each deployment gets a unique URL.
+- [Environments](https://vercel.com/docs/deployments/environments.md): Manage local, preview, and production environments and their variables.
+- [Rolling Releases](https://vercel.com/docs/rolling-releases.md) (Pro and Enterprise): Release a new deployment to some users before everyone.
+- [Instant Rollback](https://vercel.com/docs/instant-rollback.md): Revert production to a previous deployment after a bad release.
+- [CDN](https://vercel.com/docs/cdn.md): Caches content near visitors and routes requests for every deployment.
+- [Domains](https://vercel.com/docs/domains.md): Buy and manage domains, with DNS and SSL certificates handled.
+- [Observability](https://vercel.com/docs/observability.md): Monitor traffic, performance, and errors, with [tracing](https://vercel.com/docs/tracing.md), [alerts](https://vercel.com/docs/alerts.md), and [drains](https://vercel.com/docs/drains.md).
+- [Web Analytics](https://vercel.com/docs/analytics.md) and [Speed Insights](https://vercel.com/docs/speed-insights.md): Measure visitors, page traffic, and production performance.
+- [Vercel Agent](https://vercel.com/docs/agent.md) (beta, Pro and Enterprise): Investigates production issues, reviews code, and suggests fixes, with human approval.
+- [Feature Flags](https://vercel.com/docs/flags.md): Roll out changes safely with flags defined in code.
+- [Toolbar](https://vercel.com/docs/vercel-toolbar.md): Comment, set feature flags, and check accessibility on preview deployments.
+- [Drop](https://vercel.com/drop.md): Deploy a file, folder, or zip from the browser.
 
-## Built by you, or your agents
+### Secure your app
 
-[Deploy now](/new)
+- [Web Application Firewall](https://vercel.com/docs/vercel-firewall/vercel-waf.md): Block attacks and unwanted traffic with custom rules, [rate limiting](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting.md), and managed rulesets. [DDoS mitigation](https://vercel.com/docs/vercel-firewall/ddos-mitigation.md) is always on, on every plan.
+- [Bot Management](https://vercel.com/docs/bot-management.md): Decide which bots can reach your app.
+- [BotID](https://vercel.com/docs/botid.md): Protect sensitive routes from sophisticated bots without a CAPTCHA.
+- [Deployment Protection](https://vercel.com/docs/deployment-protection.md): Control who can access preview and production URLs.
+- [Access control](https://vercel.com/docs/rbac.md) (Pro and Enterprise): Assign roles to team members, plus [SAML SSO](https://vercel.com/docs/saml.md) and [Directory Sync](https://vercel.com/docs/directory-sync.md) on Enterprise.
+- [Secure Compute](https://vercel.com/docs/networking/secure-compute.md) (Enterprise add-on): Private network connections between your deployments and your databases or backends.
+- [Organizations](https://vercel.com/docs/organizations.md) (private beta, Enterprise): Group multiple Vercel teams under one bill and central management.
+- [Audit Logs](https://vercel.com/docs/audit-log.md) (Enterprise): Track what team members do on Vercel and stream the log to your security tools.
+- [Compliance](https://vercel.com/docs/security/compliance.md): SOC 2, ISO, HIPAA, and the other standards Vercel complies with.
+- [Bring Your Own Cloud](https://vercel.com/docs/networking/bring-your-own-cloud.md) (Enterprise): Run your project's Vercel Functions in your own AWS account.
 
-Onboard your agent by asking it to fetch and follow [the Vercel setup guide](/get-started.md).
+### Open source
 
-No account? `vercel deploy --temporary` deploys any project without sign-up and returns a production URL in one command. To deploy from the browser instead, drag a static site folder onto [Vercel Drop](/drop). Claim the project to keep it. See [Deploy without logging in](/docs/deployments/deploy-without-logging-in).
+- [Next.js](https://nextjs.org/docs.md): The React framework for the web.
+- [Workflow SDK](https://workflow-sdk.dev/docs/getting-started.md): Durable functions in TypeScript and Python.
+- [Chat SDK](https://chat-sdk.dev/docs.md): One SDK for bots on Slack, Discord, and other chat platforms.
+- [Turborepo](https://turborepo.dev/docs.md): A build system for JavaScript and TypeScript monorepos.
+- [All open source projects](https://vercel.com/oss.md)
 
-## Brand assets
+## Vercel use cases
 
-Official Vercel and product logos are available in the [brand asset catalog](https://vercel.com/geist/brands.md), with direct SVG and PNG downloads and usage guidelines.
+- [Agents](https://vercel.com/agents.md): Production agents, from model calls and tools to sandboxes and durable runs.
+- [AI apps](https://vercel.com/ai.md): Chat, generation, and other AI features in web apps.
+- [Web apps](https://vercel.com/for/web-apps.md): Dynamic web applications with global delivery and built-in security.
+- [Backends](https://vercel.com/backends.md): APIs, services, workers, and queues deployed with the frontend.
+- [Platforms](https://vercel.com/for/platforms.md): Multi-tenant products where each customer gets their own custom domain.
+- [Marketing sites](https://vercel.com/for/marketing-sites.md): Fast, personalized sites connected to a CMS.
+- [Commerce](https://vercel.com/for/retail.md): Storefronts that stay fast through peak traffic.
+
+## Customers
+
+- Notion powers millions of agent conversations daily on Vercel.
+- OpenEvidence cut serverless spend 90% with Fluid compute while serving 650,000 doctors.
+- Klaviyo: 512 employees shipped 356 apps on Vercel in two weeks.
+
+More stories: [Customers](https://vercel.com/customers.md).
+
+## Plans
+
+- Hobby: Free, for personal projects.
+- Pro: A $20 monthly platform fee that includes one deploying seat and $20 of usage credit. Extra seats are $20 each per month, and usage beyond the credit is billed on demand.
+- Enterprise: Custom pricing.
+
+What each plan includes: [Plans](https://vercel.com/docs/plans.md). Limits for each plan: [Limits](https://vercel.com/docs/limits.md).
+
+## Explore vercel.com
+
+- [Knowledge Base](https://vercel.com/kb.md): Technical guides on agents, backends, security, and migrations.
+- [Templates](https://vercel.com/templates.md): Starter projects with one-click deploy links.
+- [Changelog](https://vercel.com/changelog.md): The latest Vercel product releases, newest first.
+- [Blog](https://vercel.com/blog.md): Engineering posts, product news, and customer stories.
+- [Academy](https://vercel.com/academy/llms.txt): Courses on Vercel, Next.js, AI SDK, and more.
+- [Brand assets](https://vercel.com/geist/brands.md): Official Vercel and product logos, with usage guidelines.
+
+## Questions teams ask before they start
+
+### Can a coding agent sign up and deploy to Vercel?
+
+Yes. Point Claude Code, Codex, Cursor, or another agent at vercel.com/get-started.md. It installs the Vercel CLI, creates an account with vercel signup if needed, connects Vercel MCP, and deploys, pausing only for steps that need your approval.
+
+### Does Vercel run Python, containers, and backends?
+
+Yes. Python is generally available for FastAPI, Flask, and Django. Node.js, Go, and Bun run natively, the Container Runtime (beta) runs any Dockerfile, and Services deploys frontend and backend together with private networking.
+
+### How does Vercel price compute for AI workloads?
+
+Fluid compute bills active CPU, provisioned memory, and invocations, not wall-clock time. An agent that waits 30 seconds on a model but uses 300 ms of CPU pays for 300 ms of CPU. AI Gateway charges provider token prices with no markup.
+
+### How does Vercel keep agent-generated code safe?
+
+Vercel Sandbox runs untrusted code in an ephemeral Firecracker microVM with its own kernel, filesystem, and network. Secrets can be injected through a proxy, so code can use credentials without reading them.
+
+### Will my code be locked in to Vercel?
+
+No. Vercel maintains open-source frameworks including Next.js (90M+ weekly npm downloads, November 2026), the AI SDK (45M+), and eve (1M+). Your code stays standard TypeScript, Python, Go, or a container you can run anywhere.
 
 If you encounter incorrect information, can’t find what you need, need a capability Vercel doesn’t currently offer, or have any other feedback to report, please do it by following the instructions at https://vercel.com/feedback.md.

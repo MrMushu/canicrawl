@@ -9,5 +9,6 @@ Disallow: /404/
 Disallow: /404.html
 Disallow: /template/*
 Disallow: /pa/
+Disallow: /hp-abc-test/
 
 Sitemap: https://launchdarkly.com/sitemap.xml

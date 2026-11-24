@@ -84,6 +84,7 @@ Disallow: /watch/okolotochnyij-1/*
 Disallow: /watch/ogon-rannij-dostup/*
 Disallow: /watch/vsyo-v-tvoih-rukah-rannij-dostup/*
 Disallow: /watch/skoraya-pomosch-2018-rannij-dostup/*
+Disallow: /watch/zheltuga-2026/*
 
 
 Clean-param: sort
@@ -207,5 +208,7 @@ Disallow: /uz/watch/okolotochnyij-1*
 Disallow: /watch/ogon-rannij-dostup/*
 Disallow: /watch/vsyo-v-tvoih-rukah-rannij-dostup/*
 Disallow: /watch/skoraya-pomosch-2018-rannij-dostup/*
+Disallow: /watch/zheltuga-2026/*
+
 User-agent: Twitterbot
 Disallow:

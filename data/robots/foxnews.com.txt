@@ -7,6 +7,38 @@ Disallow: /printer_friendly_wires/
 Disallow: /wires/
 Disallow: /xid
 
+# AI crawlers and AI-training opt-out tokens
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+User-agent: Google-CloudVertexBot
+User-agent: Bytespider
+User-agent: TikTokSpider
+User-agent: CCBot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: Diffbot
+User-agent: Omgilibot
+User-agent: omgili
+User-agent: Webzio-Extended
+User-agent: AI2Bot
+User-agent: ImagesiftBot
+User-agent: Timpibot
+User-agent: PanguBot
+User-agent: Meta-ExternalAgent
+User-agent: FacebookBot
+User-agent: Meta-ExternalFetcher
+User-agent: GrokBot
+User-agent: xAI-SearchBot
+User-agent: Amazonbot
+Disallow: /
+
 
 Sitemap: https://www.foxnews.com/sitemap.xml
 Sitemap: https://www.foxnews.com/sitemap.xml?type=news

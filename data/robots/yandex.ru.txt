@@ -91,7 +91,9 @@ Disallow: /nmaps/*?
 Disallow: /mapeditor/*?
 Disallow: /metro/*?from
 Disallow: /masters
-Disallow: /services/executor/
+Disallow: /services$
+Disallow: /services?
+Disallow: /services/
 Disallow: /n?
 Disallow: /n$
 Disallow: /n/
@@ -1347,6 +1349,9 @@ Allow: /medicine
 Disallow: /medicine/search
 Disallow: /medicine?text=
 Disallow: /finance
+Disallow: /services$
+Disallow: /services?
+Disallow: /services/
 Allow: /finance/reviews
 Allow: /finance/banks/*/reviews
 Disallow: /finance/reviews*?*

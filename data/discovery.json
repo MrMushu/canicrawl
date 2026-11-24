@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23",
- "filesScanned": 616,
- "distinctTokens": 2851,
+ "date": "2026-11-24",
+ "filesScanned": 617,
+ "distinctTokens": 2854,
  "aiCandidates": [
   {
    "token": "Ai2Bot-Dolma",
@@ -124,22 +124,22 @@
    "aiHint": true
   },
   {
+   "token": "MistralAI-Training",
+   "sites": 10,
+   "sample": [
+    "airbnb.com",
+    "gamespot.com",
+    "google.co.uk"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "MistralBot",
    "sites": 10,
    "sample": [
     "corriere.it",
     "google.co.uk",
     "google.com.br"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "MistralAI-Training",
-   "sites": 9,
-   "sample": [
-    "airbnb.com",
-    "gamespot.com",
-    "google.co.uk"
    ],
    "aiHint": true
   },
@@ -194,22 +194,22 @@
    "aiHint": true
   },
   {
+   "token": "xAI-SearchBot",
+   "sites": 6,
+   "sample": [
+    "dailymail.co.uk",
+    "dailymail.com",
+    "foxnews.com"
+   ],
+   "aiHint": true
+  },
+  {
    "token": "Perplexity-ai",
    "sites": 5,
    "sample": [
     "aol.com",
     "msn.com",
     "nikkei.com"
-   ],
-   "aiHint": true
-  },
-  {
-   "token": "xAI-SearchBot",
-   "sites": 5,
-   "sample": [
-    "dailymail.co.uk",
-    "dailymail.com",
-    "ign.com"
    ],
    "aiHint": true
   },
@@ -317,7 +317,7 @@
  "topUntrackedAny": [
   {
    "token": "FacebookBot",
-   "sites": 83,
+   "sites": 84,
    "sample": [
     "allrecipes.com",
     "aol.com",
@@ -347,7 +347,7 @@
   },
   {
    "token": "Webzio-Extended",
-   "sites": 63,
+   "sites": 64,
    "sample": [
     "airbnb.com",
     "allrecipes.com",
@@ -357,7 +357,7 @@
   },
   {
    "token": "Google-CloudVertexBot",
-   "sites": 60,
+   "sites": 61,
    "sample": [
     "allrecipes.com",
     "amazon.ca",
@@ -377,7 +377,7 @@
   },
   {
    "token": "GoogleOther",
-   "sites": 50,
+   "sites": 51,
    "sample": [
     "2gis.com",
     "adform.net",

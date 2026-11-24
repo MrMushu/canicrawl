@@ -34,6 +34,7 @@ DigitalOcean is a cloud platform for building, deploying and scaling application
 - [GPU Droplets](https://www.digitalocean.com/products/gpu-droplets)
 - [Identity Access Management](https://www.digitalocean.com/products/identity-access-management): Identity and access management for securing access to DigitalOcean infrastructure.
 - [AI Inference Engine](https://www.digitalocean.com/products/inference-engine): AI models with DigitalOcean's Inference Engine. Access serverless, batch, and dedicated inference with one API across text, image, audio, and video.
+- [Insights](https://www.digitalocean.com/products/insights): Detect, investigate, and monitor your agents, applications, and infrastructure in one place, with built-in telemetry from supported DigitalOcean products.
 - [Knowledge Bases](https://www.digitalocean.com/products/knowledge-bases)
 - [Kubernetes](https://www.digitalocean.com/products/kubernetes)
 - [Learning Services](https://www.digitalocean.com/products/learning-services): Signals flags production failures in AI agents and models. Evaluations and Simulations test fixes on multi-turn scenarios before they ship.
@@ -50,7 +51,6 @@ DigitalOcean is a cloud platform for building, deploying and scaling application
 - [Managed Databases Valkey](https://www.digitalocean.com/products/managed-databases-valkey)
 - [MicroVMs](https://www.digitalocean.com/products/microvms): Run your container image in its own hardware-isolated VM. MicroVMs typically start in under a second, pause when idle, and resume right where they left off.
 - [Model Library](https://www.digitalocean.com/products/model-library): Explore DigitalOcean Model Library. Compare models: OpenAI, Anthropic, Meta. Test in Model Playground. Deploy with Serverless or Dedicated Inference.
-- [Monitoring](https://www.digitalocean.com/products/monitoring): Track Droplet resource usage, view performance metrics and receive alerts.
 - [Networking](https://www.digitalocean.com/products/networking): Excellent worldwide connectivity, robust networking products, Tier-1 bandwidth, and redundant 40G hypervisor connections.
 - [Partner Network Connect](https://www.digitalocean.com/products/networking/partner-network-connect)
 - [Spaces](https://www.digitalocean.com/products/spaces): S3-compatible object storage with a built-in CDN that makes scaling easy, reliable, and affordable.
@@ -75,6 +75,7 @@ DigitalOcean is a cloud platform for building, deploying and scaling application
 - [Functions pricing](https://www.digitalocean.com/pricing/functions)
 - [GPU Droplets pricing](https://www.digitalocean.com/pricing/gpu-droplets)
 - [Harness Runtime pricing](https://www.digitalocean.com/pricing/harness-runtime)
+- [Insights pricing](https://www.digitalocean.com/pricing/insights)
 - [Kubernetes pricing](https://www.digitalocean.com/pricing/kubernetes)
 - [Load Balancers pricing](https://www.digitalocean.com/pricing/load-balancers)
 - [Managed Databases pricing](https://www.digitalocean.com/pricing/managed-databases)
