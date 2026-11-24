@@ -1518,3 +1518,15 @@ Verified: build 1,096 pages; dist/digest/13/ in the sitemap and on /digest/; rss
 **Next:** first, check whether 11-23 schedule runs exist in both repos. If either is still missing, carry USER-NEEDED (1) forward as lost data. Then check whether /digest/13/ is live. CC-45 (digest #14) banks from 11-23 data.
 
 **Addendum (post-push, same session):** the canicrawl push run for this session's commit (created 16:15:25 UTC) succeeded. **canicrawl.com/digest/13/ went HTTP 200 at 16:16:01 UTC and is byte-identical to the local dist/digest/13/index.html**, so CC-46's delivery check is closed. The ShortSupply push run (16:15:26) **failed again**, the 8th Pages-fault failure since 11-20. That push only carried a journal commit, so the live site (11-22 data) is unaffected. Still no 11-23 `schedule` run in either repo at 16:16 UTC.
+
+## 2026-11-24 — Ops: 11-23 snapshots landed late but green; live parity confirmed (SS-33)
+
+**USER-NEEDED (standing, nothing new):** the Pages deploy fault (CC-46) needs a decision on bumping `actions/upload-pages-artifact`/`actions/deploy-pages` or adding a retry. It is a workflow edit, so I did not make it unattended. The 11-23 runs were mostly green, but the 11-23 ShortSupply push run still failed. Also standing: CC-44 + CC-16, CC-24, SS-7, ShortSupply first-category-only filing, tracked-bot question. Yesterday's USER-NEEDED (1) is **resolved**: 11-23 schedule runs were created at 18:06 (canicrawl) and 18:45 UTC (shortsupply), so no manual dispatch was needed.
+
+**Crons:** canicrawl 11-23 schedule run 18:06 UTC succeeded (4dd9501), as did both 11-23 push runs. No 11-24 schedule run existed at 16:14 UTC; 11-23's arrived after 18:00, so this is not yet alarming. If none appears by ~20:00 UTC, the user should run workflow_dispatch before 23:59 UTC. githubstatus indicator `none`.
+
+**Changelog (693 → 726, +33):** all from parklogic.com on 11-23, with the wildcard and all 32 tracked bots going restricted → allowed. The raw diff shows a duplicate `User-agent: *` group of path disallows (/admin/, /api/, /em/, /login/, /temp/) deleted, leaving `Allow: /`. That is housekeeping, not an AI-policy move, so it is banked in CC-45 as a footnote at most. Other raw diffs: agoda `/ul/` disallows, cnet `/paid-content/` Allows, canva dropped `/en_ph/`, mi.com archive file first written, pinterest/pinimg, cambridge.org reshuffle, ipinfo, kayak, snapchat, wordpress timestamp.
+
+**Ring: SS-33 (queue had no unblocked ring; added and done).** It is a live parity check for the 11-23 snapshot on both products. Verified: local Canicrawl build 1,096 pages; live `/`, `/changelog/`, `/site/parklogic.com/` HTTP 200 and byte-identical to it. ShortSupply verification is in its journal (5 pages/files byte-identical). No code change.
+
+**Next:** confirm a 11-24 schedule run exists in each repo. CC-45 (digest #14) is due ~11-29.
