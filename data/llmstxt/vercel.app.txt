@@ -156,7 +156,7 @@ More stories: [Customers](https://vercel.com/customers.md).
 
 ## Plans
 
-- Hobby: Free, for personal projects.
+- Hobby: Free plan to deploy and host projects.
 - Pro: A $20 monthly platform fee that includes one deploying seat and $20 of usage credit. Extra seats are $20 each per month, and usage beyond the credit is billed on demand.
 - Enterprise: Custom pricing.
 

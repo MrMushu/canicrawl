@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "filesScanned": 617,
  "distinctTokens": 2854,
  "aiCandidates": [
@@ -75,11 +75,11 @@
   },
   {
    "token": "__usage_ai-training",
-   "sites": 16,
+   "sites": 17,
    "sample": [
+    "atlassian.net",
     "corriere.it",
-    "facebook.com",
-    "fb.com"
+    "facebook.com"
    ],
    "aiHint": true
   },

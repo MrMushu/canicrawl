@@ -23,6 +23,7 @@ Disallow: /test/
 Disallow: /upload/
 Disallow: *utm_
 Disallow: /profile
+Disallow: /registration
 Disallow: /subscription?is_app=true&currentStatus=pending
 Disallow: *FASET_
 Disallow: *?SECTION
@@ -89,6 +90,4 @@ Disallow: *SEARCH=
 Disallow: *C404D9AC-
 Disallow: *customer_id=
 Disallow: *source=
-Disallow: /*?page=1$
-Disallow: /*&page=1$
 Sitemap: https://magnit.ru/sitemap_index.xml

@@ -262,9 +262,7 @@ Disallow: /activity/
 Disallow: /sport
 Disallow: /support2/sport
 
-Allow: /medicine
-Disallow: /medicine/search
-Disallow: /medicine?text=
+Disallow: /medicine
 Disallow: /finance
 Allow: /finance/reviews
 Allow: /finance/banks/*/reviews
@@ -1345,9 +1343,7 @@ Disallow: /activity/
 Disallow: /sport
 Disallow: /support2/sport
 
-Allow: /medicine
-Disallow: /medicine/search
-Disallow: /medicine?text=
+Disallow: /medicine
 Disallow: /finance
 Disallow: /services$
 Disallow: /services?

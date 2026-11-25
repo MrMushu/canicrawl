@@ -187,41 +187,61 @@ Translated versions of the pages below. Prefer the one matching the user's langu
 ### Français (fr) — /fr-fr/
 - https://www.intercom.com/fr-fr
 - https://www.intercom.com/fr-fr/contact-sales
+- https://www.intercom.com/fr-fr/early-stage
 - https://www.intercom.com/fr-fr/helpdesk
 - https://www.intercom.com/fr-fr/helpdesk/help-center
+- https://www.intercom.com/fr-fr/helpdesk/inbox
+- https://www.intercom.com/fr-fr/helpdesk/omnichannel
 - https://www.intercom.com/fr-fr/helpdesk/outbound
 - https://www.intercom.com/fr-fr/helpdesk/tickets
+- https://www.intercom.com/fr-fr/intercom-link
 - https://www.intercom.com/fr-fr/pricing
+- https://www.intercom.com/fr-fr/pricing/calculator
 - https://www.intercom.com/fr-fr/view-demos
 
 ### Español (Latinoamérica) (es) — /es-la/
 - https://www.intercom.com/es-la
 - https://www.intercom.com/es-la/contact-sales
+- https://www.intercom.com/es-la/early-stage
 - https://www.intercom.com/es-la/helpdesk
 - https://www.intercom.com/es-la/helpdesk/help-center
+- https://www.intercom.com/es-la/helpdesk/inbox
+- https://www.intercom.com/es-la/helpdesk/omnichannel
 - https://www.intercom.com/es-la/helpdesk/outbound
 - https://www.intercom.com/es-la/helpdesk/tickets
+- https://www.intercom.com/es-la/intercom-link
 - https://www.intercom.com/es-la/pricing
+- https://www.intercom.com/es-la/pricing/calculator
 - https://www.intercom.com/es-la/view-demos
 
 ### Deutsch (de) — /de-de/
 - https://www.intercom.com/de-de
 - https://www.intercom.com/de-de/contact-sales
+- https://www.intercom.com/de-de/early-stage
 - https://www.intercom.com/de-de/helpdesk
 - https://www.intercom.com/de-de/helpdesk/help-center
+- https://www.intercom.com/de-de/helpdesk/inbox
+- https://www.intercom.com/de-de/helpdesk/omnichannel
 - https://www.intercom.com/de-de/helpdesk/outbound
 - https://www.intercom.com/de-de/helpdesk/tickets
+- https://www.intercom.com/de-de/intercom-link
 - https://www.intercom.com/de-de/pricing
+- https://www.intercom.com/de-de/pricing/calculator
 - https://www.intercom.com/de-de/view-demos
 
 ### Português (Brasil) (pt-BR) — /pt-br/
 - https://www.intercom.com/pt-br
 - https://www.intercom.com/pt-br/contact-sales
+- https://www.intercom.com/pt-br/early-stage
 - https://www.intercom.com/pt-br/helpdesk
 - https://www.intercom.com/pt-br/helpdesk/help-center
+- https://www.intercom.com/pt-br/helpdesk/inbox
+- https://www.intercom.com/pt-br/helpdesk/omnichannel
 - https://www.intercom.com/pt-br/helpdesk/outbound
 - https://www.intercom.com/pt-br/helpdesk/tickets
+- https://www.intercom.com/pt-br/intercom-link
 - https://www.intercom.com/pt-br/pricing
+- https://www.intercom.com/pt-br/pricing/calculator
 - https://www.intercom.com/pt-br/view-demos
 
 ---

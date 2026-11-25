@@ -23,8 +23,8 @@ This file indexes vercel.com for AI agents. Most vercel.com pages are available 
 - [Vercel overview](https://vercel.com/home.md): The homepage as Markdown.
 - [Set up Vercel in a coding agent](https://vercel.com/get-started.md): The agent setup playbook for the CLI, plugin, skills, and MCP.
 - [Documentation](https://vercel.com/docs.md): Product guides and reference.
-- [Pricing](https://vercel.com/pricing.md): Hobby is free for personal, non-commercial projects. Pro is a $20 monthly platform fee with one deploying seat and $20 of usage credit, plus charges for extra seats and usage. Enterprise pricing is custom.
-- [Hobby plan](https://vercel.com/docs/plans/hobby.md): Free plan for personal, non-commercial projects.
+- [Pricing](https://vercel.com/pricing.md): Hobby: Free plan to deploy and host projects. Pro: A $20 monthly platform fee with one deploying seat and $20 of usage credit, plus charges for extra seats and usage. Enterprise: Custom pricing.
+- [Hobby plan](https://vercel.com/docs/plans/hobby.md): Free plan to deploy and host projects.
 - [Enterprise](https://vercel.com/enterprise.md): The Enterprise plan, with SSO, audit logs, private networking, and 24/7 support.
 
 ## Agent resources

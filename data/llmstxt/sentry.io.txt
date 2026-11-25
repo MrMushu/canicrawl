@@ -288,6 +288,7 @@ _Source: https://docs.sentry.io/llms.txt_
 - [How Cloudflare uses Sentry](https://sentry.io/customers/cloudflare/): For the eighth edition of Customer Stories, we spoke to Sachin Fernandes, Systems Engineer for Cloudflare. Cloudflare’s 
 - [How Coveo cut debugging time by 50% across 1,200+ monthly releases](https://sentry.io/customers/coveo/): Coveo helps businesses use AI and GenAI to deliver search, recommendations and generative experiences across workplace, 
 - [How Cursor uses Sentry to tackle its biggest bugs](https://sentry.io/customers/cursor/): Learn how Cursor uses Sentry's Error Monitoring, Tracing, Session Replay, and Electron integration to find and fix bugs 
+- [How DANA improves mobile performance and bug fixes with Sentry](https://sentry.io/customers/dana/): Learn how DANA uses Sentry to automate crash triage, improve crash-free users by 8%, and cut Android launch time by 40%.
 - [Why Delivery Hero uses Sentry to monitor critical experiences for millions of users](https://sentry.io/customers/delivery-hero/): See how Delivery Hero uses Sentry to monitor mobile performance at scale, cut MTTD from days to hours, and keep 99.95% c
 - [Error Logging and Tooling for Disney+](https://sentry.io/customers/disney-plus/): A brief story about how centralized error logging benefits the quality of Disney+ apps.
 - [How Disqus Uses Sentry](https://sentry.io/customers/disqus/): The entire Disqus engineering team (16 people and counting) use Sentry in one way or another, deploying 20 Sentry instan

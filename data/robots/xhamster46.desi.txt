@@ -6,7 +6,9 @@ allow: /users/
 disallow: /users/*/friends
 disallow: /users/*/favorites
 disallow: /users/profiles/
-disallow: /playlists/
+disallow: /playlists
+disallow: /gay/playlists
+disallow: /shemale/playlists
 disallow: /posts/
 disallow: /embed/
 allow: /users/creators
