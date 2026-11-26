@@ -96,6 +96,7 @@ VPS hosting includes full root/sudo access and one-click deployment for popular 
 - [Content Builder](https://www.dreamhost.com/features/content-builder/) - Visual content creation
 - [Liftoff AI Website Builder](https://www.dreamhost.com/features/wordpress-install-assistant/) - Builds a WordPress site from a few answers; included with WordPress Hosting and DreamPress, added from the WordPress Install Assistant
 - [Traffic Dashboard](https://www.dreamhost.com/features/traffic-dashboard/) - Analytics and insights
+- [DreamHost API](https://www.dreamhost.com/features/api/) - Manage DNS and servers and read your websites and logs from your own code or AI tools; each key gets Full Access, Read-Only, or No Access per area; included with every plan
 
 ## Professional Services
 
@@ -203,6 +204,7 @@ VPS hosting includes full root/sudo access and one-click deployment for popular 
 
 ## Developer Resources
 
+- [DreamHost API Docs](https://developers.dreamhost.com/) - REST API with an OpenAPI spec for websites, DNS, logs, traffic, performance scans, and servers
 - [API Documentation](https://help.dreamhost.com/hc/en-us/sections/203903178-API) - RESTful API for automation
 - [SSH Access Guide](https://help.dreamhost.com/hc/en-us/articles/216041267-SSH-overview) - Full shell access on all plans
 - [Git Integration](https://help.dreamhost.com/hc/en-us/articles/115000732471-Git-overview) - Deploy from GitHub, GitLab, Bitbucket

@@ -239,6 +239,7 @@ Allow: /paid-content/can-you-use-an-alienware-laptop-for-both-gaming-and-profess
 Allow: /paid-content/cricket-wireless-offers-reliable-prepaid-nationwide-5g/
 Allow: /paid-content/dell-xps-14-battery-life-a-full-workday-unplugged/
 Allow: /paid-content/dji-builds-on-12-years-of-handheld-imaging-innovation-with-the-dji-osmo-360-ii/
+Allow: /paid-content/dji-osmo-pocket-3-osmo-pocket-4-and-osmo-pocket-4p-how-to-choose-the-right-model-for-what-you-film/
 Allow: /paid-content/dji-osmo-pocket-4p-is-a-powerful-tool-for-independent-filmmakers/
 Allow: /paid-content/do-you-actually-need-a-separate-antivirus-vpn-and-scam-protection-mcafees-all-in-one-plans-have-you-covered/
 Allow: /paid-content/does-a-laptop-powered-by-snapdragon-really-last-all-week-what-to-expect-from-the-hp-omnibook-3/
@@ -273,6 +274,7 @@ Allow: /paid-content/how-to-time-your-next-major-appliance-purchase-for-maximum-
 Allow: /paid-content/how-to-try-out-ai-glasses-from-meta-at-your-local-best-buy/
 Allow: /paid-content/how-to-use-ai-to-manage-contracts-from-creation-to-renewal-with-docusign/
 Allow: /paid-content/how-to-watch-live-sports-and-avoid-wheres-the-game-chaos-with-xfinity/
+Allow: /paid-content/how-verizons-iphone-18-pro-holiday-offer-works-including-apple-watch-series-12-and-ipad-a16/
 Allow: /paid-content/i-tried-internxt-an-encrypted-secure-cloud-storage-built-for-the-post-quantum-era/
 Allow: /paid-content/is-a-laptop-powered-by-snapdragon-good-what-each-snapdragon-chip-means-for-your-day/
 Allow: /paid-content/is-a-prepaid-phone-plan-really-cheaper-for-a-family-of-four/
@@ -281,9 +283,11 @@ Allow: /paid-content/is-credit-karma-tax-back-for-the-2027-filing-season/
 Allow: /paid-content/is-diy-tax-filing-right-for-you-heres-what-h-r-blocks-tools-make-possible/
 Allow: /paid-content/is-fiber-to-the-home-ftth-actually-better-than-xfinity-heres-what-the-evidence-says/
 Allow: /paid-content/is-it-time-to-upgrade-your-iphone-with-t-mobiles-trade-in-offers-the-answer-is-yes/
+Allow: /paid-content/is-surfshark-safe-what-a-vpn-no-logs-policy-means-and-why-it-matters/
 Allow: /paid-content/is-the-dell-xps-13-a-good-windows-alternative-to-a-macbook/
 Allow: /paid-content/is-wi-fi-7-worth-the-upgrade-heres-how-msis-roamii-mesh-systems-fit-in/
 Allow: /paid-content/is-your-browsers-built-in-password-manager-enough-roboform-gives-you-an-upgrade/
+Allow: /paid-content/last-minute-holiday-gifts-at-cvs-easy-picks-for-everyone-you-forgot/
 Allow: /paid-content/life-changes-and-new-laws-can-affect-your-tax-refund-how-to-estimate/
 Allow: /paid-content/maximize-your-refund-with-h-r-blocks-smart-tax-tools/
 Allow: /paid-content/maximize-your-wireless-savings-with-the-t-mobile-visa-credit-card/
@@ -358,6 +362,7 @@ Allow: /paid-content/streamline-your-weeknight-cooking-routine-with-a-multi-spee
 Allow: /paid-content/studio-pilates-vs-a-home-reformer-the-math-on-how-much-youd-actually-save/
 Allow: /paid-content/what-can-a-roborock-robot-vacuum-and-mop-do-5-common-scenarios-plus-models-to-shop/
 Allow: /paid-content/roboform-for-everyday-use-ease-of-use-cost-and-getting-set-up/
+Allow: /paid-content/surfshark-on-public-wi-fi-what-it-does-and-doesnt-protect-at-cafes-airports-and-hotels/
 Allow: /paid-content/surfshark-running-slow-heres-why-it-happens-and-how-to-fix-it-without-turning-protection-off/
 Allow: /paid-content/switch-to-t-mobile-in-15-minutes-and-get-up-to-800-dollars/
 Allow: /paid-content/t-mobile-5g-home-internet-for-renters-how-to-get-online-without-drilling-or-waiting-on-your-building/
@@ -377,6 +382,7 @@ Allow: /paid-content/what-is-a-wearable-exoskeleton-and-who-actually-needs-one/
 Allow: /paid-content/what-is-an-all-in-one-printer-and-do-you-need-one/
 Allow: /paid-content/whats-a-good-casetify-case-for-my-next-iphone-a-complete-guide-to-practical-protection/
 Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-every-age/
+Allow: /paid-content/where-should-you-print-holiday-cards-this-year-what-to-know-about-timing-paper-and-pickup/
 Allow: /paid-content/how-fast-should-your-home-internet-be/
 Allow: /paid-content/what-can-ray-ban-meta-ai-glasses-do-5-use-cases-for-your-everyday-routine/
 Allow: /paid-content/what-to-include-in-a-heart-health-daily-regimen-from-supplements-to-home-monitors/

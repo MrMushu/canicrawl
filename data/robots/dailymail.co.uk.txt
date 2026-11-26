@@ -1,4 +1,4 @@
-# Robots.txt for https://www.dailymail.com/ updated 18/11/2026
+# Robots.txt for https://www.dailymail.com/ updated 26/11/2026
 #
 #
 # Daily Mail content is made available for your personal and non-commercial
@@ -38,7 +38,6 @@ Disallow: /weather.html?latitude=*
 Disallow: /weather.html?old=*
 Disallow: /home/search.html*
 Disallow: /best-buys/mercury/out*
-Disallow: /api/infinite-list.html
 Disallow: /api/infinite-list.html
 Disallow: /mobileapps/*
 
@@ -177,6 +176,7 @@ Disallow: /
 #Allow Google sandbox privacy testing
 User-agent: GoogleOther
 Allow: /.well-known/privacy-sandbox-attestations.json
+Disallow: /
 #
 # Sitemap Files
 Sitemap: https://www.dailymail.com/google-news-sitemap.xml

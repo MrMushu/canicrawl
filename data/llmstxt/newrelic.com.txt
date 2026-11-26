@@ -162,6 +162,7 @@ New Relic provides comprehensive observability solutions for modern software tea
 
 ## Blog
 
+- [Automating the 2am triage: How Domino’s upleveled its AI for incident response](https://newrelic.com/blog/observability/dominos-ai-incident-response): By combining granular monitoring with strictly guardrailed AI runbooks, the 2am triage at Domino's has become automated and the execution, proactive.
 - [Govern Your Observability Spend So Your Teams Can Keep Building](https://newrelic.com/blog/observability/govern-observability-spend): Spend is rising and that’s fine if you can see it coming. Learn the four stages of governing New Relic usage: Set Up, Control, Track, and Optimize.
 - [Generative AI Monitoring: What to Track Once LLMs Are in Production](https://newrelic.com/blog/observability/generative-ai-monitoring): Learn what generative AI monitoring covers — hallucination detection, token cost, latency, and model comparison — and how to add it to your existing APM.
 - [Alert Fatigue: Why It Happens and How AIOps Fixes It](https://newrelic.com/blog/observability/alert-fatigue): Alert fatigue quietly erodes on-call trust and MTTR. See what causes it and how AI-powered, intelligent alerting cuts noise without hiding real incidents.
@@ -181,15 +182,14 @@ New Relic provides comprehensive observability solutions for modern software tea
 - [Track your Black October vulnerabilities from visibility to validated patch](https://newrelic.com/blog/security/black-october-cves-new-relic): PHP2Shell and Node2Shell hit the runtimes under your apps. Here's how New Relic users can find exposed services and confirm the fix is running everywhere.
 - [Turo + New Relic: Turn AI code volume into production reliability](https://newrelic.com/blog/ai/turo-new-relic-turn-ai-code-volume-into-production-reliability): See how Turo uses the New Relic MCP server to give AI agents live production context, slash incident triage to 60 seconds, and scale releases safely.
 - [New Relic at GitHub Universe 2026: Bringing real-time observability to AI code velocity](https://newrelic.com/blog/news/github-universe-2026): Discover New Relic's new GitHub Copilot and MCP integrations for real-time AI code observability, change tracking, and production reliability.
-- [Do You Need Forward Deployed Engineers? 5 Signals from New Relic Now](https://newrelic.com/blog/ai/do-you-need-forward-deployed-engineers): Discover 5 key signals on forward deployed engineers, AI agents in production, and observability insights from New Relic Now and Anthropic.
 ## Events
 
 - [Events](https://newrelic.com/events): The global virtual event for engineers making the next generation of modern software. Master Observability & level up your game.
+- [Using OpenTelemetry with New Relic (EMEA)](https://newrelic.com/events/2027-01-28/using-opentelemetry-with-new-relic-emea): This 90-minute hands-on workshop explores how to integrate the open-source OpenTelemetry framework with the New Relic observability platform. Learn how to instrument services, configure data collectors, and interpret OTel data in your own new Relic account.
 - [[Webinar] Modern Threat Mitigation with New Relic Security RX (On Demand)](https://newrelic.com/events/2026-11-23/security-rx-webinar-apac-on-demand): Discover how New Relic Security Rx transforms vulnerability management using live production telemetry.
 - [re:Invent Unpacked: The AWS & New Relic Wrap-Up + SAP Innovations](https://newrelic.com/events/2026-12-09/new-relic-aws-reinvent-sap-emea): Join AWS and New Relic on 9 December as they break down the biggest announcements from Las Vegas and deep-dive into the next frontier of New Relic + AWS SAP innovations.
 - [re:Invent in 30: The AWS & New Relic Wrap-Up](https://newrelic.com/events/2026-12-10/new-relic-aws-reinvent-fireside-chat): Join us on 10 December as our AWS and New Relic specialists break down the biggest announcements from AWS re:Invent
 - [New Relic Executive Connect at re:Invent](https://newrelic.com/events/2026-12-01/new-relic-exec-connect-reinvent): Join us for cocktails and an early dinner at New Relic Exec Connect at AWS re:Invent 6-8pm Monday, November 30
-- [New Relic x AWS Singapore Meet Up](https://newrelic.com/events/2026-12-17/new-relic-aws-singapore): Join us at the AWS offices on 17 Dec and you'll learn how to kickstart your superhuman era with our latest AWS innovations
 ## New Relic University
 
 - [New Relic University](https://learn.newrelic.com): Free training courses, certifications, and hands-on labs to master observability with New Relic.

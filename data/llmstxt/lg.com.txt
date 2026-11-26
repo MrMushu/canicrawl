@@ -8,6 +8,7 @@
 ## Country & Language Guides (Machine-Readable Index)
 - [India (en-IN)](https://www.lg.com/in/llms.txt): Local guide for India market.
 - [Poland (pl-PL)](https://www.lg.com/pl/llms.txt): Local guide for Poland market.  
+- [Canada (en-CA)](https://www.lg.com/ca_en/llms.txt): Local guide for Canada (English) market.
 - [United States (en-US)](https://www.lg.com/us/llms.txt): Local guide for USA market.
 
 ---

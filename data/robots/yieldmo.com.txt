@@ -2,7 +2,65 @@
 # ---------------------------
 User-agent: *
 Disallow:
+Crawl-delay: 10
 
 Sitemap: https://yieldmo.com/sitemap_index.xml
 # ---------------------------
 # END YOAST BLOCK
+
+# ---------------------------------------------------------------
+# AI assistants and answer engines.
+# Access below is intentional, not incidental: Yieldmo content may
+# be crawled, indexed and cited by these agents.
+# Reviewed 24 Nov 2026 by Yellow Lion.
+#
+# NOTE: a named group overrides "User-agent: *" for that agent.
+# Any future Disallow added above must be repeated here to apply.
+# ---------------------------------------------------------------
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl (corpus used by many model builders)
+User-agent: CCBot
+Allow: /

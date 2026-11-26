@@ -1288,9 +1288,9 @@
 - [Securing human and agentic identity: Enterprise frameworks for 2027 and beyond](https://www.okta.com/blog/customers-and-partners/securing-human-agentic-identity-oktane-2026)
 - [How Okta Identity Governance helps you see, define, and control your entitlements](https://www.okta.com/blog/product-innovation/okta-identity-governance-entitlement-management)
 - [The anatomy of the modern identity attack in retail](https://www.okta.com/blog/industry-insights/modern-identity-attacks-retail)
-- [Multi-agent attack tools leave no stone unturned | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/multi-agent-attack-tools-leave-no-stone-unturned)
 - [Former ShinyHunters-affiliated cluster O-UNC-053 moves to new INCEPTION leak site | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/former_shinyhunters_cluster_moves_to_new_inception_site)
 - [Tycoon 2FA phishing actors disperse, branch into new attacks | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter)
+- [Multi-agent attack tools leave no stone unturned | Threat Intelligence](https://www.okta.com/blog/threat-intelligence/multi_agent_attack_tools_leave_no_stone_unturned)
 - [Founders in Focus: Joel Bauman of Synqly](https://www.okta.com/blog/company-and-culture/founders-in-focus-joel-bauman-of-synqly)
 - [What it takes to own AI agent identity as agents spread](https://www.okta.com/blog/ai/ai-agent-identity-build-vs-buy)
 - [The anatomy of modern identity attacks: Defending public sector missions in an AI-driven threat landscape](https://www.okta.com/blog/industry-insights/defending-public-sector-identity-attacks)
@@ -1343,6 +1343,7 @@
 - [The Okta Identity Maturity Model: An implementation roadmap across five industries](https://www.okta.com/blog/industry-insights/identity-maturity-model-by-industry)
 - [Three high-priority IAM actions you can automate with natural language using the Okta MCP Server](https://www.okta.com/blog/product-innovation/okta-mcp-server-use-cases)
 - [AI agents prefer specific disposable email services during identity attacks](https://www.okta.com/blog/threat-intelligence/ai-agents-prefer-specific-disposable-email-services-during-ident)
+- [Founders in focus: Amjad Masad of Replit](https://www.okta.com/blog/company-and-culture/founders-in-focus-amjad-masad-of-replit)
 
 ## Newsroom
 

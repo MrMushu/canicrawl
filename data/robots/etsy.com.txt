@@ -1898,7 +1898,7 @@ Allow: /se/search/shops
 # llms.txt: https://www.etsy.com/llms.txt
 
 #
-# Per dindirindina!#   \
+# Hoi!#   \
 #
 #    -----
 #   | . . |
