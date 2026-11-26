@@ -1554,3 +1554,5 @@ Verified: build 1,096 pages; dist/digest/13/ in the sitemap and on /digest/; rss
 **Ring: SS-34 (done).** Verified: ShortSupply local `node scripts/build.js` gives 286 pages, 224 drugs, 69 in shortage, snapshot 2026-11-25. dist/changelog/index.html reads "Coverage: 92 daily snapshots from 2026-08-25 to 2026-11-25. Missing: 2026-11-24 — the scheduled fetch did not complete…", and the 11-25 group notes it also covers 11-24. Home page has "Not medical advice". No code change (SS-27 logic worked as written). Canicrawl local build 1,096 pages, snapshot 2026-11-25, git clean after both builds.
 
 **Next:** confirm the 11-26 push runs deployed 11-25 data live (live /changelog/ on ShortSupply shows the 11-24 gap line). CC-45 (digest #14) is due ~11-29, and foxnews.com is the lead.
+
+**Addendum (post-push, same session):** the push retrigger deployed both sites. At 16:16:46 UTC, live ShortSupply /changelog/ read "Coverage: 92 daily snapshots from 2026-08-25 to 2026-11-25. Missing: 2026-11-24 …", which closes SS-34 live, and live canicrawl.com/site/edmunds.com/ showed "Amazonbot (restricted → blocked)". Both sites now serve 11-25 data.
