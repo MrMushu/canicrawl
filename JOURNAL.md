@@ -1542,3 +1542,15 @@ Verified: build 1,096 pages; dist/digest/13/ in the sitemap and on /digest/; rss
 **Ring: CC-47 (queue had no unblocked ring; added and done).** It is the 11-24 live parity and foxnews receipt check. Verified: local build 1,096 pages (snapshot 2026-11-24), git clean afterwards. Live `/`, `/changelog/`, `/site/foxnews.com/`, `/site/usatoday.com/` are HTTP 200 and byte-identical to the local build. The foxnews page reads "GPTBot · OpenAI training · blocked · named explicitly". SS-34 was added (open) for the ShortSupply gap follow-through.
 
 **Next:** confirm 11-25 schedule runs exist and are green in both repos, then do SS-34. CC-45 (digest #14) is due ~11-29, and foxnews.com is the lead candidate.
+
+## 2026-11-26 — Ops: 11-25 crawls green in both repos, both deploys failed (Pages fault); SS-34 done
+
+**USER-NEEDED (standing, now more urgent):** the Pages deploy fault (CC-46) has now failed **both 11-25 scheduled deploys** after successful crawls and commits, so neither live site picked up 11-25 data from the cron. The data is safe in git; this session's push is the retrigger. A decision on bumping `actions/upload-pages-artifact`/`actions/deploy-pages` or adding a deploy retry is still needed. It is a workflow edit, so I did not make it unattended. Also standing: CC-44 + CC-16, CC-24, SS-7, ShortSupply first-category-only filing, tracked-bot question.
+
+**Crons:** canicrawl 11-25 schedule run (17:11 UTC): Crawl, bot-discovery and Commit succeeded, and snapshot 8986ce5 was pulled. Deploy to GitHub Pages failed. ShortSupply 11-25 schedule run (17:38 UTC): Crawl and Commit succeeded (a2ae04a), and Deploy failed. That means ShortSupply's crawl recovered after the 11-24 failure, so it was not two in a row. Both 11-25 16:16 push runs also failed (Pages fault). githubstatus `none` at 16:15 UTC. No run was in progress at push time.
+
+**Changelog (748 → 749, +1):** edmunds.com Amazonbot restricted → blocked on 11-25 (page confirms "Amazonbot (restricted → blocked)"). Minor, banked for CC-45. ShortSupply +7 on 11-25: 3 new "discontinuing" (abacavir oral solution, lamivudine oral solution, mycophenolate mofetil injectable) and 4 removed (potassium chloride ER tablet, lamivudine injection, verapamil injection, abacavir injection). The abacavir/lamivudine pairs look like a presentation re-filing rather than a real resolution. Worth a look before anyone cites it.
+
+**Ring: SS-34 (done).** Verified: ShortSupply local `node scripts/build.js` gives 286 pages, 224 drugs, 69 in shortage, snapshot 2026-11-25. dist/changelog/index.html reads "Coverage: 92 daily snapshots from 2026-08-25 to 2026-11-25. Missing: 2026-11-24 — the scheduled fetch did not complete…", and the 11-25 group notes it also covers 11-24. Home page has "Not medical advice". No code change (SS-27 logic worked as written). Canicrawl local build 1,096 pages, snapshot 2026-11-25, git clean after both builds.
+
+**Next:** confirm the 11-26 push runs deployed 11-25 data live (live /changelog/ on ShortSupply shows the 11-24 gap line). CC-45 (digest #14) is due ~11-29, and foxnews.com is the lead.
