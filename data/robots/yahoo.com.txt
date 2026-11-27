@@ -69,3 +69,8 @@ Disallow: /
 User-agent: Claude-SearchBot
 User-agent: OAI-SearchBot
 Disallow: */articles/
+
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
+Disallow: /*?fr=
+Disallow: /*&fr=

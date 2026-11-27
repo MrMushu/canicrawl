@@ -1,0 +1,86 @@
+# Sephora
+
+> Sephora is a beauty retailer selling makeup, skincare, hair care, fragrance, bath and body products from a wide range of brands, including Sephora Collection and brands sold exclusively at Sephora. Products are available online and in stores across the United States and Canada, as well as at Sephora at Kohl's locations.
+
+Notes for LLMs:
+- This file indexes the US site. Canadian equivalents are served under '/ca/en/' and '/ca/fr/' and are not listed here.
+- Product detail pages are excluded.
+- Policies, pricing, promotions, and program terms are US-specific and subject to change. Verify against the live page before relying on any term.
+- Pages under '## Sales & Offers' are seasonal or promotional and have a short shelf life.
+
+## Core Shopping Categories
+
+- [Makeup](https://www.sephora.com/shop/makeup-cosmetics): All makeup categories, covering face, eye, lip, and cheek products across a wide range of brands.
+- [Skincare](https://www.sephora.com/shop/skincare): Skincare from leading brands targeting specific skin concerns across the full routine.
+- [Fragrance](https://www.sephora.com/shop/fragrance): Fragrances for women and men across perfume, cologne, and scent families.
+- [Hair](https://www.sephora.com/shop/hair-products): Shampoos, conditioners, styling products, hair color, and treatments from top brands.
+- [Bath & Body](https://www.sephora.com/shop/bath-body): Moisturizers, cleansers, lotions, exfoliants, and scrubs from top bath and body brands.
+- [New Beauty Products](https://www.sephora.com/beauty/new-beauty-products): The latest beauty products, including new makeup, skincare, fragrance, bath and body, and hair.
+
+## Featured Brands
+
+Selected exclusive and notable brands. See 'All Brands' for the complete directory.
+
+- [All Brands](https://www.sephora.com/brands-list): Complete A-Z directory of brands carried at Sephora across makeup, skincare, hair, and fragrance.
+- [AORA Makeup](https://www.sephora.com/brand/aora-makeup-mexico): Mexico City-born makeup brand with plastic-free packaging, clean formulas, and high-pigment color.
+- [Dieux](https://www.sephora.com/brand/dieux): Vegan skincare focused on simplified routines and formula transparency.
+- [EADEM](https://www.sephora.com/brand/eadem): Clinically tested skincare addressing hyperpigmentation and texture across all skin tones.
+- [FROMLABS](https://www.sephora.com/brand/fromlabs): Korean hair care using Protein Capsule Technology in sulfate-free formulas for damaged hair.
+- [INFLUXIOUS](https://www.sephora.com/brand/influxious): Fine fragrance and scented adornments from Funmi Monet, built around scent as self-expression.
+- [Jung Saem Mool](https://www.sephora.com/brand/jung-saem-mool): Korean makeup from artist Jung Saem Mool, following the KEY7 principle for natural, skin-forward results.
+- [K18 Biomimetic Hairscience](https://www.sephora.com/brand/k18-hair): At-home leave-in treatment using the patented K18Peptide to restore hair's core structure.
+- [Medik8](https://www.sephora.com/brand/medik8): UK-formulated clinical skincare targeting age-related concerns, with a focus on efficacy and safety.
+- [NIOD](https://www.sephora.com/brand/niod): High-tech skincare targeting dryness, uneven tone, and visible signs of aging.
+- [ONE/SIZE by Patrick Starrr](https://www.sephora.com/brand/one-size-by-patrick-starrr): Inclusive makeup brand available exclusively at Sephora.
+- [Ruhveda](https://www.sephora.com/brand/ruhveda): Luxury perfume blending traditional Indian perfumery with modern fragrance design.
+- [Sephora Collection](https://www.sephora.com/brand/sephora-collection): Sephora's own-label makeup, skincare, tools, and brushes.
+- [The 7 Virtues](https://www.sephora.com/brand/7-virtues): Fragrance made with natural, organic, and fair-trade essential oils sourced from nations rebuilding after conflict.
+- [Westman Atelier](https://www.sephora.com/brand/westman-atelier): Luxury clean makeup from artist Gucci Westman.
+- [Yepoda](https://www.sephora.com/brand/yepoda): Korean skincare made with sustainable practices and a focused core range.
+
+## Gifts & Value Sets
+
+- [All Gifts](https://www.sephora.com/shop/gifts): Beauty gifts and gift sets across all categories.
+- [Gift Ideas](https://www.sephora.com/beauty/gift-ideas-for-beauty-lovers): Beauty gifts for birthdays, anniversaries, and any special occasion.
+- [Gift Cards](https://www.sephora.com/beauty/giftcards): Buy gift cards and eGift cards, and check balances.
+- [Value & Gift Sets](https://www.sephora.com/shop/value-sets): Gift sets, makeup kits, and perfume and cologne samplers from top brands.
+- [Travel Size Toiletries](https://www.sephora.com/shop/travel-size-toiletries): Travel-size makeup, skincare, bath products, and more.
+
+## Sales & Offers
+
+Seasonal and promotional campaign pages. Time-sensitive and frequently rotated - verify before citing.
+
+- [All Sale](https://www.sephora.com/sale): Discounted makeup, skincare, fragrance, hair care, and bath and body products.
+- [Beauty Offers](https://www.sephora.com/beauty/beauty-offers): Current promo codes, coupons, and limited-time offers.
+
+## Buying Guides & Resources
+
+- [Buying Guides](https://www.sephora.com/beauty/best-beauty-products): Main hub for curated buying guides.
+- [Makeup Guides](https://www.sephora.com/beauty/makeup-guides): Hub for all makeup buying and how-to guides.
+- [Skincare Guides](https://www.sephora.com/beauty/skincare-guides): Hub for all skincare routines, ingredients, and concern guides.
+- [Hair Care Guides](https://www.sephora.com/beauty/hair-care-guides): Hub for hair type, concern, and styling guides.
+- [Fragrance Guides](https://www.sephora.com/beauty/fragrance-guides): Hub for perfume and cologne guides.
+- [Diversity, Equity & Inclusion Guides](https://www.sephora.com/beauty/diversity-inclusion-guides): Sephora's DEI initiatives and related content.
+- [Other Guides](https://www.sephora.com/beauty/misc-guides): Additional shopping guides not covered elsewhere.
+
+## Customer Service
+
+- [Customer Service](https://www.sephora.com/beauty/customer-service): Main help hub covering returns, shipping, Beauty Insider, and account questions.
+- [Shopping Made Easy](https://www.sephora.com/beauty/shopping-made-easy): Hub for flexible payments, delivery options, gift cards, savings, and app features.
+- [Returns & Exchanges](https://www.sephora.com/beauty/returns-exchanges): Return and exchange policy for Sephora.com orders.
+- [Delivery & Pickup Options](https://www.sephora.com/beauty/pick-up-delivery-options): Overview of all pickup and delivery methods.
+- [Shipping Information (US)](https://www.sephora.com/beauty/shipping-information): US shipping rates, methods, and delivery timeframes.
+- [Billing, Canceling & Modifying Orders](https://www.sephora.com/beauty/billing): Billing details and instructions for changing or canceling an order.
+- [Store Locations](https://www.sephora.com/happening/storelist): Full list of Sephora store locations in the United States and Canada, as well as Sephora at Kohl's locations.
+
+## Services, Loyalty & Rewards
+
+- [Beauty Insider Rewards](https://www.sephora.com/BeautyInsider): Beauty Insider loyalty program hub covering membership tiers, benefits, points earning, and reward redemption through the Rewards Bazaar.
+- [Beauty Insider Program Details](https://www.sephora.com/beauty/beauty-insider): Program information hub covering FAQs, account management, and terms and conditions.
+- [Sephora Credit Card](https://www.sephora.com/creditcard): Sephora Credit Card overview, including benefits, rewards, application, and account management. US only.
+- [Beauty Services & Appointments](https://www.sephora.com/happening/services): In-store makeup, skincare, and waxing services, with appointment booking at your local store.
+
+## Policies
+
+- [Terms of Use](https://www.sephora.com/beauty/terms-of-use): Site terms, copyrights, and trademarks.
+- [Privacy Policy](https://www.sephora.com/beauty/privacy-policy): Data collected and how customer information is protected.

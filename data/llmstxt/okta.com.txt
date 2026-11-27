@@ -1337,13 +1337,13 @@
 - [How Okta can help meet CMMC 2.0 Access Control requirements](https://www.okta.com/blog/industry-insights/okta-cmmc-2-0-access-control)
 - [Putting the Blueprint Alliance into practice: Why securing AI starts with identity and requires a connected stack](https://www.okta.com/blog/customers-and-partners/securing-ai-blueprint-alliance-framework)
 - [Founders in Focus: Hagai Shapira of Daylight](https://www.okta.com/blog/company-and-culture/founders-in-focus-hagai-shapira-of-daylight)
+- [Founders in focus: Amjad Masad of Replit](https://www.okta.com/blog/company-and-culture/founders-in-focus-amjad-masad-of-replit)
 - [Beyond Workflows connectors: Integration Builder expands what you can automate with Okta](https://www.okta.com/blog/product-innovation/okta-integration-builder-ga)
 - [Build and deploy custom app integrations directly in your Okta org using the Okta Integration Wizard](https://www.okta.com/blog/product-innovation/okta-integration-wizard-custom-apps)
 - [Okta for AI Agents makes agent and MCP server registration easier across platforms](https://www.okta.com/blog/product-innovation/registering-ai-agents-mcp-servers)
 - [The Okta Identity Maturity Model: An implementation roadmap across five industries](https://www.okta.com/blog/industry-insights/identity-maturity-model-by-industry)
 - [Three high-priority IAM actions you can automate with natural language using the Okta MCP Server](https://www.okta.com/blog/product-innovation/okta-mcp-server-use-cases)
 - [AI agents prefer specific disposable email services during identity attacks](https://www.okta.com/blog/threat-intelligence/ai-agents-prefer-specific-disposable-email-services-during-ident)
-- [Founders in focus: Amjad Masad of Replit](https://www.okta.com/blog/company-and-culture/founders-in-focus-amjad-masad-of-replit)
 
 ## Newsroom
 

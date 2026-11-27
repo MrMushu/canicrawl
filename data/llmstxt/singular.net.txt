@@ -113,6 +113,7 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Posts
 
+- [Festive season app benchmarks 2026: 7 myths about where app spend goes](https://www.singular.net/blog/festive-season-app-benchmarks-2026/): See when app ad spend peaks, installs get cheaper, and new creative lands, from Diwali to Christmas, plus the KPIs...
 - [How to measure the users AI sends to your app: ChatGPT Ads and AI answers](https://www.singular.net/blog/ai-driven-attribution-chatgpt-ads/): Learn how to measure users from ChatGPT Ads and AI answers, including those who never click, and compare AI-driven traffic...
 - [Singular supports TikTok Attribution Source Optimization](https://www.singular.net/blog/tiktok-attribution-source-optimization/): Singular is one of the first MMPs to support TikTok Attribution Source Optimization, so TikTok can optimize bids on the...
 - [The creative volume myth: why more creatives aren’t the only KPI that moves your performance, and what to track instead](https://www.singular.net/blog/creative-volume-myth/): More creatives isn't the whole story. Data across six ad networks shows what moves performance: creatives per dollar and how...
@@ -613,7 +614,6 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 - [Top Takeaways From Singular’s ‘Spot the Fraud’ Event](https://www.singular.net/blog/takeaways-singulars-spot-ad-fraud-event/): At Singular's “Spot the Fraud” event marketing leaders from Airbnb, Instacart, Postmates & N3TWORK discussed the future of mobile ad fraud prevention.
 - [How Singular Delivers Blazingly Fast App ROI Analytics](https://www.singular.net/blog/singular-app-roi-analytics/): Publisher ROI allows marketers to expose a breakdown of an ad network’s inventory by publisher to determine the sites and apps driving top performance.
 - [LoseIt Taps Singular’s Unified Product To Expose A Complete View of Users - From Acquisition Through Engagement](https://www.singular.net/blog/loseit-taps-singulars-unified-product-expose-complete-view-users-acquisition-engagement/): LoseIt!, one of the world’s most popular health and wellness apps, has partnered with Singular to strengthen its marketing attribution and analytics.
-- [It’s Official — Apsalar Joins Singular!](https://www.singular.net/blog/official%e2%80%8a-%e2%80%8aapsalar-joins-singular/): When we started Singular three years ago, it seemed obvious to us that the fragmented world of digital marketing needed...
 
 
 ## Case Study
@@ -1060,6 +1060,9 @@ Used by leading mobile-first and enterprise brands, Singular provides actionable
 
 ## Posts
 
+See when app ad spend peaks, installs get cheaper, and new creative lands, from Diwali to Christmas, plus the KPIs to track. Based on 4.6B installs.
+
+
 Learn how to measure users from ChatGPT Ads and AI answers, including those who never click, and compare AI-driven traffic with your other channels.
 
 
@@ -1153,7 +1156,6 @@ Meet Singular AI, the next generation of AI marketing intelligence. Turn your da
 
 
 You can't win in the hyper-competitive mobile market without good mobile app retargeting. Get this guide now to up your game ...
-
 
 
 

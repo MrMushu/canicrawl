@@ -6,6 +6,7 @@ Disallow: /blogtest
 Disallow: /beta/*
 Disallow: /roi/*
 Disallow: /6sense-personalisation
+Disallow: /legal/publisher-qa
 Disallow: /p13n-copies/*
 Content-Signal: ai-train=yes, ai-input=yes, search=yes
 

@@ -50,7 +50,6 @@ disallow: /Search-Results
 disallow: /user/createaccount
 disallow: /signup?*
 disallow: /login?*
-#test-seo
 disallow: /api/uisprime/track
 disallow: /trvl-px/
 disallow: /egcs/v2/collect
@@ -61,7 +60,6 @@ disallow: /*/p/home
 disallow: /auth/
 disallow: /*/auth/
 disallow: /*/sso/
-# /cl/* endpoints removal test
 disallow: /cl/*
 
 #
@@ -72,14 +70,13 @@ user-agent: Mediapartners-Google
 user-agent: AdsBot-Google-Mobile
 user-agent: AdsBot-Google
 user-agent: AdIdxBot
+user-agent: OAI-AdsBot
 allow: /
-#test-seo
 disallow: /api/uisprime/track
 disallow: /trvl-px/
 disallow: /egcs/v2/collect
 disallow: /api/ucs/shortlist/
 disallow: /api/v4/typeahead/
-# /cl/* endpoints removal test
 disallow: /cl/*
 
 #
@@ -105,5 +102,4 @@ disallow: /*/p/home
 disallow: /auth/
 disallow: /*/auth/
 disallow: /*/sso/
-# /cl/* endpoints removal test
 disallow: /cl/*

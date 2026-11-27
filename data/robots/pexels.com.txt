@@ -131,6 +131,7 @@
   Sitemap: https://www.pexels.com/sitemaps/users/user-sitemap.xml.gz
   Sitemap: https://www.pexels.com/sitemaps/blog-posts/blog-post-sitemap.xml.gz
   Sitemap: https://www.pexels.com/sitemaps/challenges/challenge-sitemap.xml.gz
+  Sitemap: https://www.pexels.com/sitemaps/landing-pages/landing-page-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/en-US/photo-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/en-US/video-sitemap.xml.gz
     Sitemap: https://www.pexels.com/sitemaps/en-US/photo-search-queries-sitemap.xml.gz

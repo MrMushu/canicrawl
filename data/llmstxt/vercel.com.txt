@@ -17,6 +17,7 @@ This file indexes vercel.com for AI agents. Most vercel.com pages are available 
 
 - For REST API calls, read the OpenAPI description and authentication guide first. Ask for approval before changing account resources.
 - For Vercel MCP, use an OAuth-capable MCP client and let the user authorize access to their Vercel account.
+- To search from a terminal without logging in, run `npx vercel@latest docs search "<query>"` for the docs and `npx vercel@latest kb search "<query>"` for Knowledge Base guides.
 
 ## Start here
 

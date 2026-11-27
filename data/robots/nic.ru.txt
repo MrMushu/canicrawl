@@ -68,6 +68,7 @@ Disallow: /help/afile/
 Disallow: /help/login/
 Disallow: /help/*panel6
 Disallow: /app/
+Allow: /app/v1/get/domain-shop/lot/list
 Disallow: *?dt=
 Disallow: *.pdf
 Allow: *.css
@@ -225,6 +226,7 @@ Disallow: /help/afile/
 Disallow: /help/login/
 Disallow: /help/*panel6
 Disallow: /app/
+Allow: /app/v1/get/domain-shop/lot/list
 Disallow: *?dt=
 Disallow: *.pdf
 Allow: *.css
